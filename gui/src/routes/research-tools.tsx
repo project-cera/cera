@@ -6,14 +6,14 @@ import { Rq1Page } from '../components/research-tools/rq1/rq1-page'
 import { Rq2Skeleton } from '../components/research-tools/rq2-skeleton'
 import { Rq3Skeleton } from '../components/research-tools/rq3-skeleton'
 import { Rq4Skeleton } from '../components/research-tools/rq4-skeleton'
-import { RQ_DEFINITIONS } from '../components/research-tools/types'
-import type { RqId } from '../components/research-tools/types'
+import { AblationSilPage } from '../components/research-tools/ablation-sil/ablation-sil-page'
+import { RQ_DEFINITIONS, INSTRUMENT_DEFINITIONS } from '../components/research-tools/types'
 import { z } from 'zod'
 
-const rqValues = ['rq1', 'rq2', 'rq3', 'rq4'] as const
+const toolValues = ['rq1', 'rq2', 'rq3', 'rq4', 'ablation-sil'] as const
 
 const searchSchema = z.object({
-  rq: z.enum(rqValues).optional(),
+  rq: z.enum(toolValues).optional(),
   table: z.string().optional(),
 })
 
@@ -24,10 +24,10 @@ export const Route = createFileRoute('/research-tools')({
 
 function ResearchToolsPage() {
   const navigate = useNavigate()
-  const { rq: selectedRq, table: selectedTable } = useSearch({ from: '/research-tools' })
+  const { rq: selectedTool, table: selectedTable } = useSearch({ from: '/research-tools' })
 
-  const handleRqSelect = (rqId: RqId) => {
-    navigate({ to: '/research-tools', search: { rq: rqId, table: undefined } })
+  const handleSelect = (id: string) => {
+    navigate({ to: '/research-tools', search: { rq: id as typeof toolValues[number], table: undefined } })
   }
 
   const handleBack = () => {
@@ -35,10 +35,14 @@ function ResearchToolsPage() {
   }
 
   const handleTableChange = (table: string) => {
-    navigate({ to: '/research-tools', search: { rq: selectedRq, table }, replace: true })
+    navigate({ to: '/research-tools', search: { rq: selectedTool, table }, replace: true })
   }
 
-  const rqDef = selectedRq ? RQ_DEFINITIONS.find(r => r.id === selectedRq) : null
+  // Find definition for selected tool (either RQ or instrument)
+  const rqDef = selectedTool ? RQ_DEFINITIONS.find(r => r.id === selectedTool) : null
+  const instrumentDef = selectedTool ? INSTRUMENT_DEFINITIONS.find(i => i.id === selectedTool) : null
+  const toolTitle = rqDef?.title || instrumentDef?.title
+  const toolDescription = rqDef?.description || instrumentDef?.description
 
   return (
     <div className="flex flex-col gap-6 p-6">
@@ -49,35 +53,36 @@ function ResearchToolsPage() {
         </p>
       </div>
 
-      {selectedRq ? (
+      {selectedTool ? (
         <div className="space-y-4">
-          {/* Back button + RQ title */}
+          {/* Back button + tool title */}
           <div className="flex items-center gap-3">
             <Button variant="ghost" size="sm" onClick={handleBack}>
               <ChevronLeft className="h-4 w-4 mr-1" />
               Back
             </Button>
-            {rqDef && (
+            {(toolTitle) && (
               <div>
-                <h2 className="text-lg font-semibold">{rqDef.title}</h2>
-                <p className="text-sm text-muted-foreground">{rqDef.description}</p>
+                <h2 className="text-lg font-semibold">{toolTitle}</h2>
+                <p className="text-sm text-muted-foreground">{toolDescription}</p>
               </div>
             )}
           </div>
 
-          {/* RQ content */}
-          {selectedRq === 'rq1' && (
+          {/* Tool content */}
+          {selectedTool === 'rq1' && (
             <Rq1Page
               currentTable={selectedTable || '1a'}
               onTableChange={handleTableChange}
             />
           )}
-          {selectedRq === 'rq2' && <Rq2Skeleton />}
-          {selectedRq === 'rq3' && <Rq3Skeleton />}
-          {selectedRq === 'rq4' && <Rq4Skeleton />}
+          {selectedTool === 'rq2' && <Rq2Skeleton />}
+          {selectedTool === 'rq3' && <Rq3Skeleton />}
+          {selectedTool === 'rq4' && <Rq4Skeleton />}
+          {selectedTool === 'ablation-sil' && <AblationSilPage />}
         </div>
       ) : (
-        <RqSelector onSelect={handleRqSelect} />
+        <RqSelector onSelect={handleSelect} />
       )}
     </div>
   )
