@@ -11225,3 +11225,118 @@ async def reset_domain_patterns() -> DomainPatternsResponse:
         return DomainPatternsResponse(domains=defaults_data.get("domains", []))
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to reset domain patterns: {str(e)}")
+
+
+# ==========================================
+# Ablation SIL: Factual Flagging
+# ==========================================
+
+class FlagReviewItem(BaseModel):
+    index: int
+    text: str
+
+
+class FlagReviewsRequest(BaseModel):
+    factsheet: str
+    reviews: list[FlagReviewItem]
+    model_id: str
+    batch_size: int = 25
+
+
+class FlagResult(BaseModel):
+    review_index: int
+    reason: str
+
+
+class FlagReviewsResponse(BaseModel):
+    flags: list[FlagResult]
+    total_reviewed: int
+
+
+@app.post("/api/flag-reviews", response_model=FlagReviewsResponse)
+async def flag_reviews(request: FlagReviewsRequest):
+    """Flag reviews that contain factual errors relative to a ground truth factsheet.
+
+    Sends reviews in batches to an LLM via OpenRouter, asking it to identify
+    factual claims that contradict the factsheet. Returns a list of flagged
+    reviews with reasons.
+    """
+    api_key = os.environ.get("OPENROUTER_API_KEY")
+    if not api_key:
+        raise HTTPException(status_code=500, detail="OPENROUTER_API_KEY not set")
+
+    system_prompt = (
+        "You are a factual accuracy checker. Here is the ground truth factsheet:\n\n"
+        f"{request.factsheet}\n\n"
+        "For each review below, identify any factual claims that contradict the factsheet. "
+        "Only flag reviews with clear factual errors — do not flag opinions, subjective preferences, or vague statements.\n\n"
+        "Respond with a JSON object containing a single key \"flags\" whose value is an array. "
+        "Each element should be an object with \"review_number\" (the number shown before the review) "
+        "and \"reason\" (a brief explanation of the factual error). "
+        "If no reviews have factual errors, return {\"flags\": []}."
+    )
+
+    all_flags: list[FlagResult] = []
+    reviews = request.reviews
+    batch_size = max(1, request.batch_size)
+
+    async with httpx.AsyncClient(timeout=120.0) as client:
+        for batch_start in range(0, len(reviews), batch_size):
+            batch = reviews[batch_start:batch_start + batch_size]
+
+            # Build numbered list of reviews
+            review_lines = []
+            for review in batch:
+                review_lines.append(f"{review.index}. {review.text}")
+            user_prompt = "\n\n".join(review_lines)
+
+            try:
+                response = await client.post(
+                    "https://openrouter.ai/api/v1/chat/completions",
+                    headers={
+                        "Authorization": f"Bearer {api_key}",
+                        "Content-Type": "application/json",
+                    },
+                    json={
+                        "model": request.model_id,
+                        "messages": [
+                            {"role": "system", "content": system_prompt},
+                            {"role": "user", "content": user_prompt},
+                        ],
+                        "response_format": {"type": "json_object"},
+                        "temperature": 0.1,
+                    },
+                )
+                response.raise_for_status()
+                data = response.json()
+
+                content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
+                if content:
+                    parsed = json.loads(content)
+                    flags_raw = parsed.get("flags", [])
+                    for flag in flags_raw:
+                        review_number = flag.get("review_number")
+                        reason = flag.get("reason", "")
+                        if review_number is not None and reason:
+                            all_flags.append(FlagResult(
+                                review_index=int(review_number),
+                                reason=str(reason),
+                            ))
+            except httpx.HTTPStatusError as e:
+                raise HTTPException(
+                    status_code=502,
+                    detail=f"OpenRouter API error: {e.response.status_code} - {e.response.text[:500]}",
+                )
+            except json.JSONDecodeError:
+                # LLM returned non-JSON — skip this batch
+                continue
+            except Exception as e:
+                raise HTTPException(
+                    status_code=500,
+                    detail=f"Flagging error: {str(e)}",
+                )
+
+    return FlagReviewsResponse(
+        flags=all_flags,
+        total_reviewed=len(reviews),
+    )
