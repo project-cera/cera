@@ -275,3 +275,68 @@ export interface ResearchToolsSearch {
   rq?: RqId
   table?: string
 }
+
+// ==========================================
+// Ablation SIL Types
+// ==========================================
+
+export type AblationMode = 'cera-full' | 'cera-no-sil' | 'heuristic'
+export type AblationDomain = 'laptop' | 'restaurant' | 'hotel'
+
+export const ABLATION_MODE_LABELS: Record<AblationMode, string> = {
+  'cera-full': 'CERA-full',
+  'cera-no-sil': 'CERA w/o SIL',
+  'heuristic': 'Heuristic',
+}
+
+export const ABLATION_DOMAIN_LABELS: Record<AblationDomain, string> = {
+  laptop: 'Laptop',
+  restaurant: 'Restaurant',
+  hotel: 'Hotel',
+}
+
+export interface FlaggedReview {
+  reviewIndex: number
+  reason: string
+  confirmed: boolean | null  // null = unreviewed, true = confirmed, false = rejected
+}
+
+export interface AblationDataset {
+  id: string
+  fileName: string
+  mode: AblationMode
+  domain: AblationDomain
+  size: number
+  reviews: { index: number; text: string }[]
+  flags: FlaggedReview[]
+  flaggingComplete: boolean
+}
+
+export interface AblationSilState {
+  factsheet: string
+  modelId: string
+  datasets: AblationDataset[]
+  phase: 'setup' | 'running' | 'results' | 'report'
+}
+
+// ==========================================
+// Research Instrument Definitions
+// ==========================================
+
+export type ToolId = RqId | 'ablation-sil'
+
+export interface InstrumentDefinition {
+  id: string
+  title: string
+  description: string
+  badges: string[]
+}
+
+export const INSTRUMENT_DEFINITIONS: InstrumentDefinition[] = [
+  {
+    id: 'ablation-sil',
+    title: 'Ablation Study: no-SIL',
+    description: 'Evaluate factual accuracy of generated reviews against a ground truth factsheet',
+    badges: ['Factual Flagging', 'Manual Verification', 'Report Generation'],
+  },
+]
