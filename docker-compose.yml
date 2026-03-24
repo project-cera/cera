@@ -70,12 +70,17 @@ services:
     environment:
       - OPENROUTER_API_KEY=${OPENROUTER_API_KEY:-}
       - TAVILY_API_KEY=${TAVILY_API_KEY:-}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - PERPLEXITY_API_KEY=${PERPLEXITY_API_KEY:-}
       - CONVEX_URL=http://convex:3210
       - POCKETBASE_URL=http://pocketbase:8090
     volumes:
       - ./output:/app/output
       - ./configs:/app/configs
       - ./jobs:/app/jobs  # Persist job files (AML prompts, reports, datasets)
+      - ./ablation-studies:/app/ablation-studies  # Persist ablation study reports
       - ./cli/cera/config/custom-aspect-categories:/app/cera/config/custom-aspect-categories  # Persist extracted presets
       - ./cli/cera/config/domain-patterns.json:/app/cera/config/domain-patterns.json  # Domain patterns (editable via UI)
       - ./cli/cera/config/domain-patterns-defaults.json:/app/cera/config/domain-patterns-defaults.json  # Domain pattern defaults (for reset)
