@@ -27,8 +27,8 @@ class MAVConfig:
 
     enabled: bool = True
     models: list[str] = None  # N models for cross-validation (minimum 2)
-    similarity_threshold: float = 0.75  # Query deduplication threshold
-    answer_threshold: float = 0.80  # Legacy: embedding similarity (used in fallback dedup)
+    dedup_threshold: float = 0.75  # Query deduplication threshold
+    agreement_threshold: float = 0.80  # Legacy: embedding similarity (used in fallback dedup)
     max_queries: int = 30  # Soft cap on pooled queries after dedup
     min_verification_rate: float = 0.30  # Minimum consensus rate before fallback
 
@@ -168,6 +168,7 @@ class SubjectIntelligenceLayer:
         usage_tracker=None,
         log_callback=None,
         sil_enabled: bool = True,
+        settings: Optional[dict] = None,
     ):
         self.api_key = api_key
         self.mav_config = mav_config or MAVConfig(enabled=False)
@@ -176,6 +177,43 @@ class SubjectIntelligenceLayer:
         self.sil_enabled = sil_enabled  # When False, skip web search and use parametric knowledge only
         self._similarity_model = None  # Lazy-loaded SentenceTransformer
         self._log = log_callback  # Optional async callback: async (level, phase, message, progress) -> None
+        self._settings = settings  # Convex settings for native API keys
+
+    def _get_client(self, model: str, component: str = "sil"):
+        """Create the right LLM client for a model ID.
+
+        Routes native/ models to their direct provider APIs,
+        otherwise uses OpenRouter.
+        """
+        from cera.llm.native import parse_native_model, get_native_client
+        from cera.llm.openrouter import OpenRouterClient
+
+        is_native, provider, actual_model = parse_native_model(model)
+        if is_native:
+            return get_native_client(
+                provider,
+                usage_tracker=self.usage_tracker,
+                component=component,
+                settings=self._settings,
+            )
+        return OpenRouterClient(
+            self.api_key,
+            usage_tracker=self.usage_tracker,
+            component=component,
+        )
+
+    @staticmethod
+    def _actual_model_id(model: str) -> str:
+        """Strip native/ prefix to get the actual model ID for API calls.
+
+        e.g., 'native/anthropic/claude-opus-4-6' -> 'claude-opus-4-6'
+              'perplexity/sonar-reasoning-pro' -> 'perplexity/sonar-reasoning-pro' (unchanged)
+        """
+        if model.startswith("native/"):
+            parts = model.split("/", 2)
+            if len(parts) == 3:
+                return parts[2]
+        return model
 
     async def _emit_log(self, level: str, phase: str, message: str, progress: int = None):
         """Emit a log message via the async callback if configured.
@@ -306,10 +344,10 @@ class SubjectIntelligenceLayer:
         # Step 1: Understand the subject type
         prompt = load_and_format("sil", "understand", subject=subject)
 
-        async with OpenRouterClient(self.api_key, usage_tracker=self.usage_tracker, component="sil.research") as client:
+        async with self._get_client(model, component="sil.research") as client:
             response = await client.chat(
                 messages=[{"role": "user", "content": prompt}],
-                model=model,
+                model=self._actual_model_id(model),
                 temperature=0.3,
             )
 
@@ -318,7 +356,7 @@ class SubjectIntelligenceLayer:
             data = _extract_json_from_llm(response, expected_type="object")
 
             understanding = SubjectUnderstanding(
-                model=model,
+                model=self._actual_model_id(model),
                 subject_type=data.get("subject_type", "general"),
                 relevant_aspects=data.get("relevant_aspects", []),
                 search_queries=data.get("search_queries", [f"{subject} reviews"]),
@@ -326,7 +364,7 @@ class SubjectIntelligenceLayer:
             )
         except Exception:
             understanding = SubjectUnderstanding(
-                model=model,
+                model=self._actual_model_id(model),
                 subject_type="general",
                 relevant_aspects=[],
                 search_queries=[
@@ -345,11 +383,12 @@ class SubjectIntelligenceLayer:
             queries_str = ", ".join(understanding.search_queries)
             search_prompt = load_and_format("sil", "search", subject=subject, queries=queries_str)
 
-            async with OpenRouterClient(self.api_key, usage_tracker=self.usage_tracker, component="sil.search") as client:
+            async with self._get_client(search_model, component="sil.search") as client:
                 search_response = await client.chat(
                     messages=[{"role": "user", "content": search_prompt}],
-                    model=search_model,
+                    model=self._actual_model_id(search_model),
                     temperature=0.0,
+                    web_search=True,
                 )
             raw_search_content = f"[Model used native web search]\n\nQueries: {queries_str}\n\nResponse:\n{search_response}"
         else:
@@ -396,10 +435,10 @@ class SubjectIntelligenceLayer:
             research_context_block=research_context_block,
         )
 
-        async with OpenRouterClient(self.api_key, usage_tracker=self.usage_tracker, component="sil.queries") as client:
+        async with self._get_client(model, component="sil.queries") as client:
             response = await client.chat(
                 messages=[{"role": "user", "content": prompt}],
-                model=model,
+                model=self._actual_model_id(model),
                 temperature=0.3,
             )
 
@@ -588,12 +627,11 @@ class SubjectIntelligenceLayer:
         # Round 3 does NOT need web search — models already have research_context
         # from Round 1 injected in the prompt. Using :online here is redundant
         # and can cause JSON parse failures (e.g., Opus with :online suffix).
-        use_model = model
 
-        async with OpenRouterClient(self.api_key, usage_tracker=self.usage_tracker, component="sil.answers") as client:
+        async with self._get_client(model, component="sil.answers") as client:
             response = await client.chat(
                 messages=[{"role": "user", "content": prompt}],
-                model=use_model,
+                model=self._actual_model_id(model),
                 temperature=0.0,
             )
 
@@ -607,7 +645,7 @@ class SubjectIntelligenceLayer:
             for ans in raw_answers:
                 answers.append(QueryAnswer(
                     query_id=ans.get("query_id", ""),
-                    model=model,
+                    model=self._actual_model_id(model),
                     response=ans.get("response", "No information available"),
                     confidence=ans.get("confidence", "low"),
                 ))
@@ -621,7 +659,7 @@ class SubjectIntelligenceLayer:
             for q in queries:
                 answers.append(QueryAnswer(
                     query_id=q.id,
-                    model=model,
+                    model=self._actual_model_id(model),
                     response=f"Unable to answer: {q.query}",
                     confidence="low",
                 ))
@@ -656,10 +694,10 @@ class SubjectIntelligenceLayer:
             topics_json=json.dumps(topics, indent=2, ensure_ascii=False),
         )
 
-        async with OpenRouterClient(self.api_key, usage_tracker=self.usage_tracker, component="sil.judge") as client:
+        async with self._get_client(judge_model, component="sil.judge") as client:
             response = await client.chat(
                 messages=[{"role": "user", "content": prompt}],
-                model=judge_model,
+                model=self._actual_model_id(judge_model),
                 temperature=1.0,
                 max_tokens=16384,
                 reasoning={"effort": "high"},
@@ -928,10 +966,10 @@ class SubjectIntelligenceLayer:
         # Use first available model for classification
         classify_model = self.mav_config.models[0] if self.mav_config.models else "anthropic/claude-sonnet-4"
 
-        async with OpenRouterClient(self.api_key, usage_tracker=self.usage_tracker, component="sil.classify") as client:
+        async with self._get_client(classify_model, component="sil.classify") as client:
             response = await client.chat(
                 messages=[{"role": "user", "content": prompt}],
-                model=classify_model,
+                model=self._actual_model_id(classify_model),
                 temperature=0.0,
             )
 
@@ -1010,10 +1048,10 @@ class SubjectIntelligenceLayer:
             output_schema=output_schema,
         )
 
-        async with OpenRouterClient(self.api_key, usage_tracker=self.usage_tracker, component="sil.cluster") as client:
+        async with self._get_client(model, component="sil.cluster") as client:
             response = await client.chat(
                 messages=[{"role": "user", "content": prompt}],
-                model=model,
+                model=self._actual_model_id(model),
                 temperature=0.0,
             )
 
@@ -1088,10 +1126,10 @@ class SubjectIntelligenceLayer:
             clustering_json=json.dumps(clustering, indent=2),
         )
 
-        async with OpenRouterClient(self.api_key, usage_tracker=self.usage_tracker, component="sil.cluster_judge") as client:
+        async with self._get_client(judge_model, component="sil.cluster_judge") as client:
             response = await client.chat(
                 messages=[{"role": "user", "content": prompt}],
-                model=judge_model,
+                model=self._actual_model_id(judge_model),
                 temperature=0.0,
             )
 
@@ -1453,9 +1491,11 @@ class SubjectIntelligenceLayer:
                     round1_results.append(asyncio.TimeoutError())
                 except Exception as e:
                     completed_count += 1
+                    # Log the actual error for debugging
+                    error_detail = str(e)[:300]
                     await self._emit_log(
                         "WARN", "SIL",
-                        f"Round 1: Model failed ({completed_count}/{total_models} models)"
+                        f"Round 1: Model failed ({completed_count}/{total_models} models): {error_detail}"
                     )
                     round1_results.append(e)
 
@@ -1483,7 +1523,7 @@ class SubjectIntelligenceLayer:
             await self._emit_log("INFO", "SIL", "Round 2: Pooling and deduplicating queries...", progress=16)
             pooled_queries = await self._deduplicate_queries(
                 all_raw_queries,
-                self.mav_config.similarity_threshold,
+                self.mav_config.dedup_threshold,
                 self.mav_config.max_queries,
             )
 
@@ -1491,22 +1531,30 @@ class SubjectIntelligenceLayer:
                 await self._emit_log("WARN", "SIL", "No queries after deduplication, falling back")
                 return await self._single_model_fallback(query, additional_context)
 
-            await self._emit_log("INFO", "SIL", f"Round 2 complete: {len(pooled_queries)} unique queries (from {total_queries_generated})", progress=24)
+            queries_after_dedup_count = len(pooled_queries)  # Capture before coverage filter
+            await self._emit_log("INFO", "SIL", f"Round 2 complete: {queries_after_dedup_count} unique queries (from {total_queries_generated})", progress=24)
 
             # ─── ROUND 3: Query Answering (parallel) ────────────────
             # Progress 26+ enters MAV phase in UI (MAV range is 25-35)
             await self._emit_log("INFO", "MAV", f"Round 3: Verifying {len(pooled_queries)} queries across models...", progress=26)
 
             async def round3_for_model(model: str) -> tuple[str, list[QueryAnswer]]:
-                """Run Round 3 for a single model."""
+                """Run Round 3 for a single model with retry on empty answers."""
                 research_context = ""
                 if model in model_research:
                     _, search_content = model_research[model]
                     research_context = search_content
 
-                answers = await self._answer_queries(
-                    model, query, pooled_queries, research_context, additional_context
-                )
+                max_retries = 3
+                for attempt in range(max_retries):
+                    answers = await self._answer_queries(
+                        model, query, pooled_queries, research_context, additional_context
+                    )
+                    # Check if answers are mostly empty/low-confidence
+                    non_empty = [a for a in answers if a.response and not a.response.startswith("Unable to answer") and a.confidence != "low"]
+                    if non_empty or attempt == max_retries - 1:
+                        break
+                    await self._emit_log("WARN", "MAV", f"Round 3: {model} returned empty answers, retrying ({attempt + 1}/{max_retries})...")
                 return model, answers
 
             round3_tasks = [round3_for_model(m) for m in self.mav_config.models if m in model_research]
@@ -1534,7 +1582,7 @@ class SubjectIntelligenceLayer:
                 queries_from_model = [q for q, m in all_raw_queries if m == model]
 
                 model_data_list.append(MAVModelData(
-                    model=model,
+                    model=self._actual_model_id(model),
                     sanitized_model=sanitized,
                     understanding=understanding,
                     queries_generated=queries_from_model,
@@ -1543,6 +1591,23 @@ class SubjectIntelligenceLayer:
                 ))
 
             await self._emit_log("INFO", "MAV", f"Round 3 complete: {len(model_answers)} models responded", progress=30)
+
+            # ─── Drop queries with insufficient model coverage ────────
+            # If only 1 model returned a non-empty answer for a query, drop it
+            # (2 empty + 1 answer = no meaningful consensus possible)
+            dropped_queries = set()
+            for pq in pooled_queries:
+                qa_list = all_answers.get(pq.id, [])
+                non_empty_answers = [a for a in qa_list if a.response and not a.response.startswith("Unable to answer") and a.confidence != "low"]
+                if len(non_empty_answers) < 2:
+                    dropped_queries.add(pq.id)
+
+            if dropped_queries:
+                await self._emit_log("WARN", "MAV", f"Dropping {len(dropped_queries)} queries with <2 model responses (insufficient for consensus)")
+                pooled_queries = [pq for pq in pooled_queries if pq.id not in dropped_queries]
+                # Also remove from all_answers
+                for qid in dropped_queries:
+                    all_answers.pop(qid, None)
 
             # ─── ROUND 4: LLM-Judged Consensus ───────────────────────
             await self._emit_log("INFO", "MAV", "Round 4: Sending answers to models for agreement judgment...", progress=31)
@@ -1615,11 +1680,11 @@ class SubjectIntelligenceLayer:
             # Build report
             report = MAVQueryPoolReport(
                 total_queries_generated=total_queries_generated,
-                queries_after_dedup=len(pooled_queries),
+                queries_after_dedup=queries_after_dedup_count,
                 queries_with_consensus=len(verified_results),
                 queries_without_consensus=len(unverified_results),
                 per_query_results=consensus_results,
-                threshold_used=self.mav_config.answer_threshold,
+                threshold_used=self.mav_config.agreement_threshold,
             )
 
             # Check consensus rate
@@ -1886,10 +1951,10 @@ class SubjectIntelligenceLayer:
         )
 
         try:
-            async with OpenRouterClient(self.api_key, usage_tracker=self.usage_tracker, component="sil.parametric") as client:
+            async with self._get_client(fallback_model, component="sil.parametric") as client:
                 response = await client.chat(
                     messages=[{"role": "user", "content": prompt}],
-                    model=fallback_model,
+                    model=self._actual_model_id(fallback_model),
                     temperature=0.3,
                 )
 

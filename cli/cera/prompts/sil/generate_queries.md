@@ -7,6 +7,7 @@ Generate SPECIFIC, NEUTRAL, FACTUAL QUERIES about this subject. Each query shoul
 - Be neutral (not biased toward positive or negative)
 - Have a concise, factual answer
 - Cover diverse aspects of the subject
+- Ask ONLY about "{subject}" itself — NOT about other models, variants, or products in the same lineup/brand
 
 Good examples:
 - "What RAM options does {subject} have?"
@@ -22,8 +23,10 @@ Bad examples (DO NOT generate these):
 - "What do people love about it?" (opinion-seeking)
 - "Why is this the best?" (positive bias)
 - "What are the worst features?" (negative bias)
+- "What processor options does the {subject} series have?" (too broad — asks about the whole lineup, not the specific product)
+- "What is the screen resolution of the [other variant]?" (about a different product)
 
-Generate as many relevant queries as you can. Cover specifications, features, availability, services, materials, pricing, compatibility, and any other factual aspects relevant to this type of subject.
+Generate as many relevant queries as you can. Cover specifications, features, availability, services, materials, pricing, compatibility, and any other factual aspects relevant to this type of subject. Stay focused on "{subject}" specifically — do not generate queries about sibling models, higher-tier variants, or the broader product family.
 
 Return ONLY valid JSON with no other text:
 {{"queries": ["query1", "query2", "query3", ...]}}
