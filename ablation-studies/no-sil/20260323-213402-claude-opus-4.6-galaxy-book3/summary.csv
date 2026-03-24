@@ -1,0 +1,4 @@
+mode,domain,size,totalReviews,totalErrors,totalVague,errorRate,errorRatePercent
+cera-full,laptop,100,24,0,0,0.0,0.0
+cera-full,laptop,500,136,1,120,0.0074,0.74
+cera-full,laptop,1000,282,0,257,0.0,0.0

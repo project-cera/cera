@@ -1,0 +1,345 @@
+{
+  "domain": "laptop",
+  "mode": "heuristic",
+  "size": 100,
+  "totalReviews": 21,
+  "totalFlagged": 21,
+  "errorRate": "100.00%",
+  "reviews": [
+    {
+      "index": 1,
+      "text": "The new MacBook Neo's M4 Ultra chip delivers incredible speed for 8K video editing, and the 60Hz display is stunningly bright at 1000 nits. However, I am frustrated that the 1TB SSD is soldered and the Magic Keyboard feels slightly too shallow for long typing sessions. Battery life easily lasts all day, and the titanium chassis feels premium despite the $2,000 price tag."
+    },
+    {
+      "index": 2,
+      "text": "The new 16-inch Retina display on the MacBook Neo is incredibly bright and color-accurate for my photo editing work. I am impressed by the M5 Pro chip performance, which handles multiple 4K video streams without any lag. However, the battery life seems slightly shorter than advertised when running heavy applications. At this premium price point, I expected the included charger to be more powerful for faster charging speeds. Overall, the laptop feels incredibly solid with excellent build quality despite its thin profile."
+    },
+    {
+      "index": 3,
+      "text": "The new Apple MacBook Neo features a stunning 14.7-inch display with 3024x1964 resolution that looks incredibly crisp. Powered by the M5 Pro chip with 32GB of RAM, this machine handles 8K video editing without any lag. Battery life is exceptional, lasting nearly 18 hours on a single charge during my daily workflow. However, the price point of $2,499 feels a bit steep for the included 512GB storage. The keyboard feels tactile and responsive, making typing a pleasure for long coding sessions."
+    },
+    {
+      "index": 4,
+      "text": "The Apple MacBook Neo's stunning 4.5K Retina display makes every color pop with incredible vibrancy. I am consistently impressed by the M4 Pro chip handling 8K video editing without any lag or thermal throttling. While the 18-hour battery life is fantastic for travel, the lack of a built-in SD card slot remains a frustrating limitation for photographers. At $2,499 for the base model with 512GB SSD and 16GB RAM, the price point feels steep compared to Windows competitors. Overall, the build quality is solid, but the keyboard feels slightly shallower than previous generations."
+    },
+    {
+      "index": 5,
+      "text": "The new MacBook Neo's M5 Pro chip handles my video editing tasks effortlessly, making the CPU operation performance truly impressive. I was thrilled to see the 32GB RAM and 2TB SSD integrated into this sleek aluminum chassis, which feels incredibly solid. However, the 120Hz display brightness struggles a bit when used under direct sunlight outdoors. Battery life is generally good for light web browsing but drops significantly when running heavy applications. At this price point, the lack of a built-in SD card slot feels like a missed opportunity for creative professionals."
+    },
+    {
+      "index": 6,
+      "text": "The keyboard feels responsive and the trackpad is large enough for precise gesture controls during design work. I found the macOS operating system to be very stable and user-friendly right out of the box. The screen resolution is sharp, but the color calibration seems slightly off compared to my previous monitor. Portability is excellent since the laptop weighs just 2.5 pounds, making it easy to carry in a small bag. Overall, it is a reliable machine, though the fan noise can be noticeable during intensive rendering tasks."
+    },
+    {
+      "index": 7,
+      "text": "The new MacBook Neo features a stunning 3K display with incredible brightness for outdoor work. However, the battery life drops significantly when pushing the M4 Max GPU during heavy rendering tasks. I also found the Thunderbolt 5 ports slightly recessed, making cable management a bit tedious. Despite these minor issues, the build quality feels incredibly solid and premium for the price. Overall, it is a powerful machine that balances performance and portability well for professionals."
+    },
+    {
+      "index": 8,
+      "text": "The new MacBook Neo 2026 is incredibly thin and light, making it perfect for my daily commute. Its 20-inch Retina display with 1200 nits of brightness looks stunning for photo editing work. However, the battery life only lasts about six hours during heavy CPU tasks, which is disappointing. For the premium price of $2499, I expected better thermal management under sustained load. Overall, it is a solid machine with a great trackpad, but the cost is hard to justify for average users."
+    },
+    {
+      "index": 9,
+      "text": "The new MacBook Neo feels incredibly light and the 16GB RAM handles my video editing smoothly. However, the battery life drops significantly when using the GPU-intensive tasks. The display is stunning with high brightness, though the price feels a bit steep for the specs."
+    },
+    {
+      "index": 10,
+      "text": "The new MacBook Neo 2026 is incredibly sleek with its titanium chassis, but the $2,200 price tag feels steep for the 16GB RAM configuration I tested. Battery life is exceptional, lasting over 18 hours on a single charge even with heavy multitasking. The 3.2K display is bright and vibrant, though the trackpad feels slightly smaller than previous models. Performance is snappy with the M4 Pro chip, making video editing a breeze, but the fan noise is noticeable under load. Overall, it is a solid machine with great ports, yet the lack of a headphone jack is disappointing for some users."
+    },
+    {
+      "index": 11,
+      "text": "The new MacBook Neo 2026 features a stunning Retina display with 120Hz refresh rate that makes colors pop vividly. Battery life is exceptional, easily lasting 18 hours during my daily workflow without needing a charger. However, the 100-watt power brick feels disproportionately large compared to the laptop's sleek and lightweight chassis. Performance is snappy with the M4 Pro chip handling heavy video editing tasks without any noticeable lag. For the price, it feels slightly overpriced compared to competitors offering similar specs in the same category."
+    },
+    {
+      "index": 12,
+      "text": "The new MacBook Neo's M4 chip handles my video editing tasks with incredible speed and zero lag. However, the 16-inch display feels a bit too reflective for my bright office environment. I am happy with the battery life, which easily lasts me through a full 10-hour workday. The 16GB of unified memory is sufficient for my daily multitasking needs. Overall, the build quality is solid, though the price point is quite steep for a standard model."
+    },
+    {
+      "index": 13,
+      "text": "The new MacBook Neo 2026 features a stunning 3200x2000 display that is incredibly bright even in direct sunlight. Its M4 Pro chip handles heavy video editing tasks without any noticeable lag or thermal throttling. I was surprised to find that the 16GB of RAM feels insufficient for my multitasking needs despite the fast SSD. Battery life is excellent, lasting nearly 18 hours on a single charge during my daily commute. At $2,499 for the base model, the price feels steep compared to similar Windows ultrabooks."
+    },
+    {
+      "index": 14,
+      "text": "The Apple MacBook Neo (2026 model) features a stunning Retina display that looks incredibly vibrant even in bright sunlight. However, the base model with 16GB of RAM feels slightly limiting for heavy video editing tasks. Battery life is impressive, lasting a full workday without needing a charger. The keyboard feels responsive, though the keys are a bit shallow compared to my old laptop. At this premium price point, I expected more USB-C ports to be included out of the box."
+    },
+    {
+      "index": 15,
+      "text": "The Apple MacBook Neo 2026 is incredibly light, making it perfect for my daily commute as it weighs only 2.3 pounds. While the 16-inch display is stunning with 600 nits brightness, the price of $2,499 for the base model feels a bit steep. Battery life is decent, lasting about 10 hours during basic web browsing, though heavy video editing drains it much faster. The M5 chip handles multitasking smoothly, but the 8GB RAM feels limiting when running multiple Chrome tabs. Overall, it is a solid machine with excellent build quality, though the lack of a MagSafe port is a minor annoyance."
+    },
+    {
+      "index": 16,
+      "text": "The Apple MacBook Neo 2026 boasts a stunning 3024x1964 Retina display that hits 1000 nits brightness, making outdoor work a breeze. Its 18-hour battery life under general usage is impressive for a 14-inch laptop weighing just 2.8 pounds. However, the base model's 512GB storage fills up quickly, and the lack of an SD card slot is a hassle for photographers. For the $1,499 price point, the M3 Pro chip offers incredible speed, though the Magic Keyboard feels slightly shallower than previous generations. Overall, it is a premium device with excellent build quality, but the high cost might deter casual users looking for value."
+    },
+    {
+      "index": 17,
+      "text": "The new MacBook Neo features a stunning 120Hz display that is incredibly bright even in direct sunlight. However, I am disappointed that the 512GB SSD fills up too quickly when editing 4K video. Overall, the M4 Pro chip handles heavy multitasking without any noticeable lag or heat issues. Battery life is decent, lasting about eight hours during typical office work and web browsing. At $1,699, the price point feels a bit steep compared to the previous generation."
+    },
+    {
+      "index": 18,
+      "text": "The Apple MacBook Neo 2026 boasts a stunning 3200x2000 display that pops with vibrant colors and reaches 1000 nits of brightness. I purchased the base model with 16GB of RAM and a 512GB SSD, which handles my daily multitasking tasks efficiently without lag. Battery life is exceptional, lasting nearly 18 hours on a single charge during typical office work. However, the price point is quite steep for students on a tight budget, especially when you consider the cost of proprietary adapters. Overall, it is a solid machine for creative professionals who need reliability and portability in a lightweight chassis."
+    },
+    {
+      "index": 19,
+      "text": "The 16GB RAM and M4 Pro chip make the MacBook Neo incredibly fast for video editing. I love the stunning 3000x2000 display with its 120Hz refresh rate, though it gets a bit warm during heavy use. Battery life easily lasts 18 hours on a single charge, which is perfect for my remote work days. The keyboard feels solid and responsive, but the price point is quite steep for what you get. It is a heavy machine at 1.6kg, but the build quality feels premium and durable."
+    },
+    {
+      "index": 20,
+      "text": "The 16-inch Retina display on the MacBook Neo is absolutely stunning with incredible brightness for outdoor use. However, the M5 Pro chip sometimes struggles with heavy video editing tasks despite the 32GB of RAM. Battery life is decent but not as long as advertised when running multiple apps simultaneously. At $2,499, the price is steep for what feels like a minor upgrade over the previous generation. The keyboard feels responsive and the trackpad remains the best in the industry for precision work."
+    },
+    {
+      "index": 21,
+      "text": "The 16-inch Retina display on the MacBook Neo is stunning with incredible brightness for outdoor work. While the M5 Pro chip handles heavy video editing effortlessly, the base 16GB RAM feels limiting for future-proofing. Battery life easily lasts a full workday, though the proprietary charging brick is bulky and expensive to replace. The keyboard is comfortable for long typing sessions, and the trackpad remains as precise as ever. At this price point, I expected more than just two Thunderbolt ports and no SD card slot."
+    }
+  ],
+  "flags": [
+    {
+      "reviewIndex": 1,
+      "reason": "Claims M4 Ultra chip (has A18 Pro), 8K video editing capability, 60Hz/1000 nits display specs fabricated, 1TB SSD (max 512GB), titanium chassis (aluminum), $2000 price ($599 actual)",
+      "type": "hallucinated_feature",
+      "highlights": [
+        "M4 Ultra chip",
+        "8K video editing",
+        "1TB SSD",
+        "titanium chassis",
+        "$2,000 price tag"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 2,
+      "reason": "Claims 16-inch display (is 13\"), M5 Pro chip (has A18 Pro), premium price described but actual price is $599",
+      "type": "wrong_spec",
+      "highlights": [
+        "16-inch",
+        "M5 Pro chip",
+        "premium price point"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 3,
+      "reason": "Claims 14.7-inch display at 3024x1964 (is 13\" at 2408x1506), M5 Pro chip (has A18 Pro), 32GB RAM (has 8GB), $2499 price ($599 actual)",
+      "type": "wrong_spec",
+      "highlights": [
+        "14.7-inch display",
+        "3024x1964 resolution",
+        "M5 Pro chip",
+        "32GB of RAM",
+        "$2,499"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 4,
+      "reason": "Claims 4.5K Retina display (is 2408x1506), M4 Pro chip (has A18 Pro), 18-hour battery, $2499 base with 512GB/16GB RAM (actual 8GB/$599)",
+      "type": "wrong_spec",
+      "highlights": [
+        "4.5K Retina display",
+        "M4 Pro chip",
+        "16GB RAM",
+        "$2,499"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 5,
+      "reason": "Claims M5 Pro chip (has A18 Pro), 32GB RAM (has 8GB), 2TB SSD (max 512GB), 120Hz display not confirmed in specs",
+      "type": "wrong_spec",
+      "highlights": [
+        "M5 Pro chip",
+        "32GB RAM",
+        "2TB SSD",
+        "120Hz display"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 6,
+      "reason": "Claims fan noise during rendering (MacBook Neo is fanless/passive cooling)",
+      "type": "hallucinated_feature",
+      "highlights": [
+        "fan noise can be noticeable during intensive rendering tasks"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 7,
+      "reason": "Claims 3K display (is 2408x1506), M4 Max GPU (has A18 Pro), Thunderbolt 5 ports (has USB-C only, no Thunderbolt)",
+      "type": "wrong_spec",
+      "highlights": [
+        "3K display",
+        "M4 Max GPU",
+        "Thunderbolt 5 ports"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 8,
+      "reason": "Claims 20-inch display (is 13\"), 1200 nits brightness fabricated, $2499 price ($599 actual)",
+      "type": "wrong_spec",
+      "highlights": [
+        "20-inch Retina display",
+        "1200 nits",
+        "$2499"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 9,
+      "reason": "Claims 16GB RAM (has 8GB)",
+      "type": "wrong_spec",
+      "highlights": [
+        "16GB RAM"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 10,
+      "reason": "Claims titanium chassis (aluminum), $2200 price (actual $599), 16GB RAM (has 8GB), 3.2K display fabricated, M4 Pro chip (has A18 Pro), fan noise (fanless), claims lack of headphone jack (it has a 3.5mm jack)",
+      "type": "wrong_spec",
+      "highlights": [
+        "titanium chassis",
+        "$2,200",
+        "16GB RAM",
+        "3.2K display",
+        "M4 Pro chip",
+        "fan noise",
+        "lack of a headphone jack"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 11,
+      "reason": "Claims 120Hz refresh rate not in specs, 18-hour battery, M4 Pro chip (has A18 Pro)",
+      "type": "wrong_spec",
+      "highlights": [
+        "120Hz refresh rate",
+        "M4 Pro chip"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 12,
+      "reason": "Claims M4 chip (has A18 Pro), 16-inch display (is 13\"), 16GB RAM (has 8GB)",
+      "type": "wrong_spec",
+      "highlights": [
+        "M4 chip",
+        "16-inch display",
+        "16GB"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 13,
+      "reason": "Claims 3200x2000 display (is 2408x1506), M4 Pro chip (has A18 Pro), 16GB RAM (has 8GB), $2499 base price ($599 actual)",
+      "type": "wrong_spec",
+      "highlights": [
+        "3200x2000 display",
+        "M4 Pro chip",
+        "16GB of RAM",
+        "$2,499"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 14,
+      "reason": "Claims 16GB base RAM (has 8GB)",
+      "type": "wrong_spec",
+      "highlights": [
+        "16GB of RAM"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 15,
+      "reason": "Claims 16-inch display (is 13\"), $2499 base price ($599 actual), M5 chip (has A18 Pro), 8GB RAM correctly stated but claims it's limiting with Chrome tabs. Claims lack of MagSafe port \u2014 MacBook Neo indeed has no MagSafe, but phrased as if expected, which is opinion. However M5 chip and 16-inch display are factual errors.",
+      "type": "wrong_spec",
+      "highlights": [
+        "16-inch display",
+        "$2,499",
+        "M5 chip"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 16,
+      "reason": "Claims 3024x1964 display (is 2408x1506), 1000 nits, 14-inch (is 13\"), 512GB base storage (base is 256GB), M3 Pro chip (has A18 Pro), $1499 price ($599 actual)",
+      "type": "wrong_spec",
+      "highlights": [
+        "3024x1964",
+        "1000 nits",
+        "14-inch",
+        "M3 Pro chip",
+        "$1,499"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 17,
+      "reason": "Claims 120Hz display not in specs, M4 Pro chip (has A18 Pro), $1699 price ($599 actual)",
+      "type": "wrong_spec",
+      "highlights": [
+        "120Hz display",
+        "M4 Pro chip",
+        "$1,699"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 18,
+      "reason": "Claims 3200x2000 display (is 2408x1506), 1000 nits, 16GB RAM (has 8GB), 512GB SSD as base (base is 256GB), 18-hour battery",
+      "type": "wrong_spec",
+      "highlights": [
+        "3200x2000 display",
+        "1000 nits",
+        "16GB of RAM",
+        "512GB SSD"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 19,
+      "reason": "Claims 16GB RAM (has 8GB), M4 Pro chip (has A18 Pro), 3000x2000 display (is 2408x1506), 120Hz refresh rate, 1.6kg weight",
+      "type": "wrong_spec",
+      "highlights": [
+        "16GB RAM",
+        "M4 Pro chip",
+        "3000x2000 display",
+        "120Hz refresh rate"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 20,
+      "reason": "Claims 16-inch display (is 13\"), M5 Pro chip (has A18 Pro), 32GB RAM (has 8GB), $2499 price ($599 actual)",
+      "type": "wrong_spec",
+      "highlights": [
+        "16-inch",
+        "M5 Pro chip",
+        "32GB of RAM",
+        "$2,499"
+      ],
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 21,
+      "reason": "Claims 16-inch display (is 13\"), M5 Pro chip (has A18 Pro), 16GB base RAM (has 8GB), Thunderbolt ports (has USB-C only, no Thunderbolt)",
+      "type": "wrong_spec",
+      "highlights": [
+        "16-inch",
+        "M5 Pro chip",
+        "16GB RAM",
+        "two Thunderbolt ports"
+      ],
+      "confirmed": true
+    }
+  ],
+  "passedReviewIndices": [],
+  "stats": {
+    "totalReviews": 21,
+    "totalFlagged": 21,
+    "errorRate": 1.0
+  },
+  "confirmedErrors": 21,
+  "rejectedFlags": 0
+}

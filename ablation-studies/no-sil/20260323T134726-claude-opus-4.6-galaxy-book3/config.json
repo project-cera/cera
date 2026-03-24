@@ -1,0 +1,73 @@
+{
+  "ablationStudy": "no-sil",
+  "timestamp": "2026-03-23T13:47:26-04:00",
+  "flaggerModel": "claude-opus-4.6 (via Claude Code subagents)",
+  "batchSize": 25,
+  "parallel": true,
+  "factsheetLineCount": 91,
+  "datasets": [
+    {
+      "mode": "cera-full",
+      "domain": "laptop",
+      "size": 100,
+      "totalReviews": 29,
+      "jobDir": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/j9779sydkyyrbh77jaqea64x3n83e4n8-nosil-study-galaxybook3-cera-f"
+    },
+    {
+      "mode": "cera-full",
+      "domain": "laptop",
+      "size": 500,
+      "totalReviews": 154,
+      "jobDir": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/j9779sydkyyrbh77jaqea64x3n83e4n8-nosil-study-galaxybook3-cera-f"
+    },
+    {
+      "mode": "cera-full",
+      "domain": "laptop",
+      "size": 1000,
+      "totalReviews": 289,
+      "jobDir": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/j9779sydkyyrbh77jaqea64x3n83e4n8-nosil-study-galaxybook3-cera-f"
+    },
+    {
+      "mode": "heuristic",
+      "domain": "laptop",
+      "size": 100,
+      "totalReviews": 20,
+      "jobDir": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/j971ekhxpfze8et0zg0eem9xp183eepx-nosil-study-galaxybook3-heuris"
+    },
+    {
+      "mode": "heuristic",
+      "domain": "laptop",
+      "size": 500,
+      "totalReviews": 109,
+      "jobDir": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/j971ekhxpfze8et0zg0eem9xp183eepx-nosil-study-galaxybook3-heuris"
+    },
+    {
+      "mode": "heuristic",
+      "domain": "laptop",
+      "size": 1000,
+      "totalReviews": 234,
+      "jobDir": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/j971ekhxpfze8et0zg0eem9xp183eepx-nosil-study-galaxybook3-heuris"
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "laptop",
+      "size": 100,
+      "totalReviews": 27,
+      "jobDir": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/j975d4mf8ypmp6x17kz7xenz9s83ep7y-nosil-study-galaxybook3-cera-n"
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "laptop",
+      "size": 500,
+      "totalReviews": 145,
+      "jobDir": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/j975d4mf8ypmp6x17kz7xenz9s83ep7y-nosil-study-galaxybook3-cera-n"
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "laptop",
+      "size": 1000,
+      "totalReviews": 299,
+      "jobDir": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/j975d4mf8ypmp6x17kz7xenz9s83ep7y-nosil-study-galaxybook3-cera-n"
+    }
+  ]
+}

@@ -1,0 +1,1593 @@
+{
+  "mode": "cera-no-sil",
+  "domain": "laptop",
+  "size": 500,
+  "totalReviews": 145,
+  "totalFlagged": 105,
+  "confirmedErrors": 104,
+  "rejectedFlags": 1,
+  "errorRate": "71.72%",
+  "reviews": [
+    {
+      "index": 0,
+      "text": "I have been so excited to use this laptop for my daily work since I got it. The fast charging capabilities via USB-C are a game changer for my battery life."
+    },
+    {
+      "index": 1,
+      "text": "I absolutely love this laptop and would highly recommend it to anyone looking for a premium device. The price is totally worth it because the build quality feels incredibly solid and premium. Overall I am so happy with my purchase and it has been a joy to use daily."
+    },
+    {
+      "index": 2,
+      "text": "I have been using the high-resolution 1080p webcam for video calls and the quality is excellent."
+    },
+    {
+      "index": 3,
+      "text": "The seamless integration for users who already own Galaxy smartphones and tablets is absolutely fantastic. I love how the ecosystem works together perfectly for daily tasks. Overall the experience is great if you stay within the Samsung loop."
+    },
+    {
+      "index": 4,
+      "text": "The fast charging via USB-C is a total game changer even though the price tag is a bit steep. Using the high resolution 1080p webcam has made my video calls feel so much more professional and connected. It is a solid device for work but the glossy screen gets really frustrating in bright rooms and the base model speakers sound a bit hollow."
+    },
+    {
+      "index": 5,
+      "text": "I picked up this Galaxy Book 3 at Best Buy last week and the seamless integration with my Samsung phone plus the fast USB-C charging are total game changers for my workflow. I did notice that the soldered RAM means I can't upgrade it later, and the super thin body does start to throttle a bit when I run heavy apps for too long."
+    },
+    {
+      "index": 6,
+      "text": "I wanted to love this laptop but the experience is a bit mixed. The 1080p webcam is actually great for video calls which makes working from home much smoother. It is a bit of a bummer that the base model uses a standard LCD screen instead of the AMOLED display you really want for the price."
+    },
+    {
+      "index": 7,
+      "text": "I've been using this laptop for about a month now and it feels like a solid upgrade for my daily work. Honestly, I was really hoping for that vibrant AMOLED display across the board but the base model sticks with a standard LCD screen instead. If you pick up the high-resolution 120Hz model you need to keep your charger handy because the battery life can be pretty inconsistent. It's a bit of a bummer when you are traveling and need a full day of power without hunting for an outlet. On the bright side the large glass trackpad is incredibly responsive and the fast charging via USB-C saves the day when you do plug in."
+    },
+    {
+      "index": 8,
+      "text": "If you're looking for a smooth workflow, the large and responsive glass trackpad on this Galaxy Book3 is honestly a game changer. The premium pricing is definitely steep though, especially when you start adding the Ultra features or high-storage options."
+    },
+    {
+      "index": 9,
+      "text": "after two months with this galaxy book3 the quiet operation is really nice for light work."
+    },
+    {
+      "index": 10,
+      "text": "i'm honestly blown away by how solid this thing feels yet so thin and light."
+    },
+    {
+      "index": 11,
+      "text": "Have you ever wondered if a Windows laptop could really feel this seamless with your other Samsung devices? The large, responsive glass trackpads make everything feel incredibly smooth, even though the speakers on the base models lack the depth found in the Pro/Ultra quad-speaker setups."
+    },
+    {
+      "index": 12,
+      "text": "the thin chassis really gets hot and throttles when i run heavy loads for too long. the seamless integration with my galaxy phone is so cool and the fast charging via usb-c is a lifesaver."
+    },
+    {
+      "index": 13,
+      "text": "i got this galaxy book3 last week and the weight feels surprisingly light for something this capable. the build quality is exceptional and it stays so thin and portable when i'm commuting around the city. honestly i just needed a machine that wouldn't look like a brick in my backpack during my morning meetings. video calls have never looked better thanks to that high resolution 1080p webcam that actually makes me look decent. it does get a bit pricey though and the thin chassis starts throttling if you try to run anything heavy for too long."
+    },
+    {
+      "index": 14,
+      "text": "After two months of use, the high-resolution 1080p webcam makes a huge difference for my daily video calls. The only real downsides are the premium pricing for the Ultra models and the inconsistent battery life on the 120Hz screens."
+    },
+    {
+      "index": 15,
+      "text": "Heads up before you buy, the RAM is soldered on most models so you can't upgrade it later. I really needed a machine that fits in my bag for work, and this laptop is incredibly thin and portable. The display is stunning with vibrant color accuracy and deep blacks on the AMOLED panel."
+    },
+    {
+      "index": 16,
+      "text": "If you're looking for a laptop that actually feels like the future, let me share my experience with the Galaxy Book3. The vibrant color accuracy and deep blacks on the AMOLED panels make everything look stunning, and honestly the price is totally worth it for the quality you get. Samsung's customer service was also great when I had a quick question about my order."
+    },
+    {
+      "index": 17,
+      "text": "coming from a macbook, i was surprised by how easy it was to use my phone with this one. the integration with my galaxy tablet is seamless and the 1080p webcam makes video calls look great, but the speakers on the base model lack depth and the premium pricing especially for the ultra is steep."
+    },
+    {
+      "index": 18,
+      "text": "i just unboxed this thing and noticed the charger cable is surprisingly thin yet it packs a punch with the fast charging capabilities via usb-c. if you already own a galaxy phone or tablet the seamless integration for users who already own galaxy smartphones and tablets is honestly a game changer. though i did notice the speakers on the base models lack the depth found in the pro/ultra quad-speaker setups when watching movies on the couch. despite the battery life can be inconsistent on the high-resolution 120hz models the price point and overall build quality make it worth the buy. it sits perfectly on my desk but i have to keep my power bank handy since the battery life can be inconsistent on the high-resolution 120hz models during long work sessions."
+    },
+    {
+      "index": 19,
+      "text": "heads up before you buy, the base model speakers sound a bit flat compared to the pro versions. i've been using this thin and light machine daily for work and the build quality feels incredible. the price is steep especially for the ultra models with high storage, but the fast charging via usb-c and the overall solid feel make it worth it."
+    },
+    {
+      "index": 20,
+      "text": "The build quality on this laptop is honestly exceptional for the price, which I wish was lower since it feels a bit overpriced for just an i5. Samsung's customer service was actually really helpful when I had a question about the warranty coverage. Using the AMOLED screen for my work has been a fantastic experience and the 16:10 display is perfect for multitasking. I noticed that the thin chassis design leads to thermal throttling whenever I run heavy sustained loads for too long. Despite the heat issues, the overall experience of having such a portable device has been great for my daily commute."
+    },
+    {
+      "index": 21,
+      "text": "The glossy screen is so bad at handling reflections in bright environments that I barely see anything during the day."
+    },
+    {
+      "index": 22,
+      "text": "so i picked this up at best buy last month and it's super quiet even when i'm just doing spreadsheets. the aluminum build feels really solid in my hands and i love how smooth it runs for my daily tasks. plus the samsung integration makes it so easy to move files between my phone and the laptop."
+    },
+    {
+      "index": 23,
+      "text": "so honestly the battery life on this thing is a total mess especially with the 120hz screen. it just dies so fast when you're actually trying to work for more than a couple hours. I was honestly about to return it until I remembered how important video calls are for my job. but the webcam quality is actually super crisp and the laptop runs totally quiet during my calls."
+    },
+    {
+      "index": 24,
+      "text": "who else thinks typing on this is just the best part of the day? i've been using it for work and school without any major hiccups so far. sure the price tag for the ultra model hurts but the build quality and that keyboard feel are totally worth it. honestly if you can handle the cost it's a solid daily driver."
+    },
+    {
+      "index": 25,
+      "text": "Ok so I finally decided to swap out my old laptop for this Galaxy Book3. Honestly, the experience on the base model isn't quite as polished as I hoped. The high-resolution 1080p webcam is a genuine upgrade for my video calls. If you already have a Samsung phone or tablet, the ecosystem integration is just seamless. Unfortunately, the speakers on the standard model lack the depth found in the Pro setups. I was trying to decide between the LCD and AMOLED options for a while. The performance from the 13th Gen Intel processor feels pretty snappy for most tasks. You really get good value for the price since the build quality feels solid. Switching files between my devices with Quick Share has become super convenient. Considering the features you get, the asking price is actually quite reasonable. It strikes a nice balance between cost and the quality of the overall package. The port selection covers everything I need like Thunderbolt 4 and HDMI. The base model display just feels a bit dull compared to the vibrant AMOLED screen. Anyway, I think it's a solid choice for anyone deep in the Samsung world."
+    },
+    {
+      "index": 26,
+      "text": "the colors on this thing are just insane, those deep blacks on the amoled screen really pop. it throttles when you push it hard because the chassis is so thin, but honestly the premium price tag feels justified for the build quality."
+    },
+    {
+      "index": 27,
+      "text": "I needed a reliable machine for my remote job, so I finally pulled the trigger on the Galaxy Book3 after reading all the specs. The video calls have never looked better because of the high-resolution 1080p webcams for improved video conferencing, even though the base model uses a standard LCD screen rather than AMOLED."
+    },
+    {
+      "index": 28,
+      "text": "swapped my dell for this and the price was way better than the xps for the same screen tech. the colors on the amoled panel are just insane and the blacks look so deep. typing feels great with solid travel on the keys, way better than my last ultrabook. the glossy display reflects everything in the room and soldered ram means you can't upgrade it later."
+    },
+    {
+      "index": 29,
+      "text": "got this thing yesterday and i am honestly so hyped to finally ditch my old clunker. the quiet operation under light to moderate workloads is seriously impressive for a laptop this thin. customer service helped me out quick when i had questions about the screen options too."
+    },
+    {
+      "index": 30,
+      "text": "The price tag is steep especially for the Ultra and high-storage configurations, but the build quality feels solid and the machine runs incredibly quiet under light to moderate workloads."
+    },
+    {
+      "index": 31,
+      "text": "My previous Dell had a decent build, but the Galaxy Book3 keyboard travel and tactile feedback are actually excellent for the price point. I noticed right away that the speakers on the base model lack the depth found in the Pro and Ultra quad-speaker setups, and the premium pricing for the high-storage configurations is steep. Samsung's customer service was incredibly helpful when I needed to set up the Samsung ecosystem integration features."
+    },
+    {
+      "index": 32,
+      "text": "grabbed this galaxy book3 at best buy last week and honestly the typing experience is just superb. the keys have such nice travel and tactile feedback it feels way better than my old dell. the staff at the store were super helpful showing me the different screen options too. battery life gets kinda hit or miss on the 120hz model especially when it gets hot, but the price is still pretty fair for what you get. just made sure to bring the charger everywhere since it can get warm during heavy tasks."
+    },
+    {
+      "index": 33,
+      "text": "the build quality is exceptional but the premium pricing for the ultra and high-storage configs is just way too much."
+    },
+    {
+      "index": 34,
+      "text": "While the pricing is reasonable for the build quality, the chassis can get surprisingly hot when pushed too hard. Samsung delivered the unit quickly and the packaging was in perfect condition. Getting a response from their support team took way too long and felt like a hassle. Overall, the typing experience is fantastic with great keys and a huge, smooth trackpad."
+    },
+    {
+      "index": 35,
+      "text": "I picked this up at Best Buy in Chicago last weekend after my old laptop finally gave out. The sound quality on the base model speakers is pretty disappointing since they lack the depth found in the Pro setups. The typing experience is fantastic though because the keyboard travel and tactile feedback are excellent. It feels like a solid build for the price considering the overall quality is really good."
+    },
+    {
+      "index": 36,
+      "text": "If you're already deep in the Samsung ecosystem, the seamless integration with your Galaxy phone and tablet is simply AMAZING. For the price you pay, the fast charging capabilities via USB-C make it a solid deal compared to competitors. While the price point is fair, the thin chassis can lead to thermal throttling under heavy sustained loads which is a QUALITY concern."
+    },
+    {
+      "index": 37,
+      "text": "This laptop is an absolute beast for anyone already deep in the Samsung ecosystem. The glass trackpad feels incredibly smooth and the seamless sync with my phone is just magic. It is a real shame that the RAM is soldered down so you cannot upgrade it later. The price tag is steep, especially if you want the Ultra model or more storage."
+    },
+    {
+      "index": 38,
+      "text": "After two months of using this laptop, I am honestly blown away by the camera quality, especially since the 1080p webcam makes my video calls look SO crisp and clear. The webcam quality is absolutely stellar for remote work, even if the screen on the base model feels a bit dull compared to the Pro versions."
+    },
+    {
+      "index": 39,
+      "text": "I have been using the Galaxy Book3 for my daily tasks for three months now. The vibrant color accuracy and deep blacks on the AMOLED panels make everything look stunning. My workflow involves a lot of video editing which puts a lot of strain on the system. The thin chassis can lead to thermal throttling under heavy sustained loads."
+    },
+    {
+      "index": 40,
+      "text": "just picked this up and the slim bezels on the screen really caught my eye right away. the prices are decent for what you get, and the display quality with deep blacks is outstanding. syncing with my phone and tablet is super smooth, though the soldered ram means i cant upgrade memory later. battery life feels inconsistent when running the high res 120hz screen at full brightness."
+    },
+    {
+      "index": 41,
+      "text": "just picked this galaxy book3 up and the aluminum chassis feels surprisingly light in my hands. the build quality is solid and the fast charging via usb-c is a nice touch for the price. honestly the sticker shock for the ultra model with all the storage upgrades is pretty rough. plus the keyboard layout feels a bit cramped compared to my old machine. overall i feel like the value proposition just isn't there for the average user."
+    },
+    {
+      "index": 42,
+      "text": "I wanted to love this laptop but the high-resolution 120Hz display drains the battery quickly while the typing experience feels great. Samsung's customer service was really helpful when I had questions about the ecosystem features. It is a solid machine for light tasks even if the thin chassis gets warm when I push it hard."
+    },
+    {
+      "index": 43,
+      "text": "Just a heads up before you buy, the large responsive glass trackpads are fantastic and the pricing is very reasonable. The overall experience has been smooth and enjoyable for my daily tasks. Customer service was incredibly helpful when I had a question about the display options."
+    },
+    {
+      "index": 44,
+      "text": "honestly the price on this galaxy book3 was reasonable considering the build quality is top notch. i was hesitating for weeks before pulling the trigger on it though. using it for everything from coding to watching movies has been a really smooth experience overall. the aluminum chassis feels sturdy even if the sticker price feels a bit steep for some specs. for the cost you get a machine that just feels premium and well put together in every way. the battery life can be pretty inconsistent especially when running the high resolution 120hz display. i had to reach out to support once and the response time was way too slow. still i keep the screen on because the colors are just too vibrant to ignore. the typing session was long today but the keys had great travel and felt responsive under my fingers. finally they got back to me with a solid fix and the whole interaction turned out okay. overall the build is solid and the deal was fair enough for what you actually get."
+    },
+    {
+      "index": 45,
+      "text": "is it really just another laptop or does the screen make it worth the hype? the support team was super helpful when i had trouble setting up the software. the colors on the amoled display are insane and the trackpad feels so smooth. the glossy screen gets annoying with reflections but the price is actually pretty fair considering the soldered ram limits upgrades."
+    },
+    {
+      "index": 46,
+      "text": "Alright, I swapped my old brick for this sleek Galaxy Book3 and it feels like a huge upgrade right out of the box. The build quality is exceptional and that AMOLED screen delivers vibrant colors with deep blacks that really pop. Just keep in mind that if you run the 120Hz high-res model, the battery life can be a bit inconsistent when you need it most."
+    },
+    {
+      "index": 47,
+      "text": "after two months the large responsive glass trackpads are honestly my favorite part of this galaxy book3. i just wish the glossy screens weren't so bad with reflections when i'm working near a window."
+    },
+    {
+      "index": 48,
+      "text": "I was SO disappointed by the build quality and the price tag for a machine that throttles like this. Honestly the performance is GREAT for my daily tasks and I love how light it feels. The fast charging via USB-C is a TOTAL lifesaver and honestly the value is decent compared to other options. The customer service team was super helpful when I had questions about my order."
+    },
+    {
+      "index": 49,
+      "text": "so, are you actually looking for a laptop that fits your daily routine or just another shiny gadget? Honestly the quiet operation is AMAZING when I am just browsing the web or typing up reports. I switched from my old noisy beast and it feels so much more professional at the coffee shop. The value for money is pretty solid considering how much this thing can do for the price. just keep in mind that the base model speakers sound kinda thin compared to the Pro versions."
+    },
+    {
+      "index": 50,
+      "text": "after two months the video calls look crisp with the 1080p camera and typing on this thing is a joy. the price is fair for the build quality even if the soldered ram means you cant upgrade later."
+    },
+    {
+      "index": 51,
+      "text": "the camera quality is honestly great for my zoom calls the standard lcd screen on the base model is dull compared to the pro and the thin body gets hot when i run heavy apps it costs a lot for what you get"
+    },
+    {
+      "index": 52,
+      "text": "The keyboard feels much better than my old Dell, but the price for the screen upgrade is steep. It handles everything I throw at it without a single stutter or lag. I am a graphic designer so the display quality really matters to me. Typing for hours is actually comfortable thanks to the excellent travel and tactile feedback. Just know that you cannot add more memory later since it is soldered on the board."
+    },
+    {
+      "index": 53,
+      "text": "While the RAM is soldered and locks you into one configuration, the price tag is actually fair for what you get. The support team was incredibly helpful when I had questions about my new machine."
+    },
+    {
+      "index": 54,
+      "text": "So I finally broke down and swapped my old workhorse for the Galaxy Book3 after my phone kept crashing mid-merge. The build quality is absolutely stunning for the price, and that slim chassis makes it feel incredibly premium without breaking the bank. That sleek design is worth every penny, and the seamless connection with my other Galaxy devices makes the whole ecosystem feel worth the investment. I was really tempted to run a heavy render right away, but the cooling system started struggling pretty fast under that kind of sustained load. The glossy display looks vibrant until you sit near a window where the reflections are almost unbearable during the day. Overall, the support team was super helpful when I had questions about setting up the second screen feature."
+    },
+    {
+      "index": 55,
+      "text": "After two months of using this laptop, I find the quiet operation under light to moderate workloads to be a nice touch. I have not needed to reach out for any support since the purchase, so the support experience has been smooth. Just keep in mind that the thin chassis can lead to thermal throttling under heavy sustained loads, and the speakers on the base models lack the depth found in the Pro/Ultra quad-speaker setups."
+    },
+    {
+      "index": 56,
+      "text": "been using this daily for three months now and it's been mostly great the build quality is really good and honestly the price for the base model isn't too bad but honestly the whole thing just feels a bit underwhelming when you expect more for the money support was slow to respond when i had issues setting up the software the aluminum chassis feels premium even if the sticker shock for high storage options is real i keep it in my bag for coffee shop work sessions the glass trackpad is huge and super responsive sometimes the battery dies way too fast during long flights they fixed my issue quickly though overall i'm happy with the performance despite the quirks the team really helped me out with the warranty claim"
+    },
+    {
+      "index": 57,
+      "text": "If you're already deep in the Samsung ecosystem, the seamless integration with your Galaxy phone and tablet makes this laptop a joy to use every day. The value you get for the money is really hard to beat when you look at the specs compared to other brands. The lightweight aluminum build and the 13th gen processor make switching between apps feel incredibly smooth and fast. When I had a minor question about my order, the support team was super helpful and got it sorted out quickly. I also appreciated how responsive the warranty department was when I called to check on my coverage details."
+    },
+    {
+      "index": 58,
+      "text": "Before you pull the trigger on this machine, just know that the screen gets pretty annoying if you sit near a window. The build quality is honestly exceptional for such a thin and portable design. I found myself constantly moving to avoid the glare while trying to work in the office. Also, if you are on the base model, the speakers sound a bit flat compared to the quad-speaker setups on the Pro versions. Despite the price and the screen issues, the overall quality of the device really shines through."
+    },
+    {
+      "index": 59,
+      "text": "I absolutely love how quickly this laptop charges via USB-C. I was initially drawn to the sleek aluminum design and the vibrant screen options. However, the decision to solder the memory onto the motherboard is a real drawback for future expansion. It is a powerful machine for everyday work, yet the lack of upgradeability limits its long-term value."
+    },
+    {
+      "index": 60,
+      "text": "so i picked this galaxy book3 up at best buy last month when i needed a new work laptop for my home office. honestly i was eyeing the ultra model but the cost was just too steep for what i actually need. the support team at samsung helped me sort out a deal that made the standard pro version much more reasonable. video calls have been super clear lately since the 1080p webcam really makes a difference on my zoom meetings. display looks gorgeous and the 120hz screen is smooth even if the battery drains faster than i expected sometimes."
+    },
+    {
+      "index": 61,
+      "text": "Ok so, the soldered RAM on most models really limits any potential for memory upgrades down the road."
+    },
+    {
+      "index": 62,
+      "text": "I needed a reliable machine for work and this laptop offers amazing value with its sleek aluminum body. While the price is fair, the base model speakers sound thin compared to the Pro versions. The audio performance feels lacking for a device in this price bracket. I miss the rich bass that the quad-speaker setups on the higher models provide. Still, the responsive glass trackpad and portable design make it my go-to for coffee shop work sessions."
+    },
+    {
+      "index": 63,
+      "text": "i was really happy with how the 1080p webcam made my video calls look so crisp and clear."
+    },
+    {
+      "index": 64,
+      "text": "The build quality is solid yet the price tag feels steep for what you get."
+    },
+    {
+      "index": 65,
+      "text": "it's so annoying that the ram is soldered so you can't upgrade memory later. i love how quiet it gets when i'm just browsing the web or typing up docs."
+    },
+    {
+      "index": 66,
+      "text": "I have been using this laptop every day for three months and the AMOLED display offers stunning color accuracy with deep blacks. The base model screen is a standard LCD panel which lacks the vibrancy of the Pro versions, though the USB-C charging is quite fast. It is great for my work from home setup, even if the speakers on this specific non-Pro model do not have much depth."
+    },
+    {
+      "index": 67,
+      "text": "The carbonara was absolutely divine."
+    },
+    {
+      "index": 68,
+      "text": "Have you ever wondered if a laptop could truly be both powerful and light enough to slip into a small bag? I've been using this machine for my morning coffee runs and late-night work sessions in the living room. The build quality is exceptional and the thin design is a great balance for the price point. Just keep in mind that the glossy screen reflects a lot of light when you are near a window or under bright overhead lights. Overall, this device has been a fantastic companion for my mobile lifestyle and I love how it integrates with my other Samsung gear."
+    },
+    {
+      "index": 69,
+      "text": "I was so excited to get this new machine but honestly the screen situation is a total headache. The glossy display is SO reflective it looks like a mirror in any bright spot. I just wish they had gone with a matte finish instead of that shiny glass. Anyway I am trying to make it work despite the glare issues. The trackpad is huge and the glass surface is SO responsive. Also the battery charges super fast through the USB-C port. It is honestly a solid device otherwise and the speed is great."
+    },
+    {
+      "index": 70,
+      "text": "I used this for daily work for 3 months and the keyboard is ABSOLUTELY fantastic with great travel and feel. Honestly the pricing is SUPER reasonable for what you get with these Intel chips. The cost is pretty fair and the build quality feels really premium."
+    },
+    {
+      "index": 71,
+      "text": "The support team was slow to respond when I had trouble with my initial setup. The display quality is stunning with deep blacks, yet the cost feels steep for the high-end models. I appreciated how helpful the online chat agent was in guiding me through the software sync. Charging the battery is incredibly quick through the USB-C port, and the colors pop with perfect accuracy."
+    },
+    {
+      "index": 72,
+      "text": "the price is fair for what you get and the build quality is top notch. getting help from the support team was super easy and they were really helpful. shipping came way faster than i expected and the box arrived in perfect condition. i mostly just use this for work and checking my phone while i type. overall the experience has been amazing especially with how well it talks to my other galaxy devices and the keys are so nice to press."
+    },
+    {
+      "index": 73,
+      "text": "The battery life on this 120Hz model can be really inconsistent depending on what I am doing. I thought the price tag was steep but the build quality and thin design are truly exceptional for the money. Samsung support was incredibly helpful when I had questions about setting up my tablet. The team went above and beyond to help me get my phone and laptop working together seamlessly."
+    },
+    {
+      "index": 74,
+      "text": "I grabbed this Galaxy Book3 from Best Buy last month and the massive glass trackpad is seriously responsive and smooth. The glossy display is a TOTAL nightmare though because it reflects EVERYTHING in bright rooms and soldered RAM means you can't upgrade it later. Honestly, I was just trying to find a laptop for my home office setup but the glare is making it hard to work during the day."
+    },
+    {
+      "index": 75,
+      "text": "if you're thinking about picking one up for daily work, here's the real talk. the speakers on the base models lack the depth found in the pro/ultra quad-speaker setups. the soldered ram on most models prevents future memory upgrades and the pricing feels a bit steep for what you get. honestly i use it every day and the build quality feels amazing despite those minor downsides."
+    },
+    {
+      "index": 76,
+      "text": "Alright, I needed a laptop that actually fits in my bag for daily commutes without feeling like a brick. The build quality feels incredibly solid and the thin design makes it super portable for my work. Video calls look great thanks to the high-resolution 1080p webcams, but the glossy screen reflects everything in the room. Overall it is a decent machine with some minor drawbacks regarding glare."
+    },
+    {
+      "index": 77,
+      "text": "The support experience left me frustrated when I first contacted them about a shipping delay. I needed a reliable machine for my remote work setup since my old laptop finally gave out last week. The value for the money is solid and the build quality feels premium right out of the box. Delivery was handled by a local courier who left it at my front porch without much fuss. Overall the device runs quietly during daily tasks but I noticed the speakers lack depth compared to the Pro models and the thin chassis does throttle a bit under heavy sustained loads."
+    },
+    {
+      "index": 78,
+      "text": "The premium pricing is steep, especially for the Ultra and high-storage configurations. I was pleasantly surprised by the fast charging capabilities via USB-C though. The thin chassis can lead to thermal throttling under heavy sustained loads which is annoying. That said, the excellent keyboard travel and tactile feedback make typing a joy."
+    },
+    {
+      "index": 79,
+      "text": "I was really annoyed when I realized the RAM is soldered on most models so you can't upgrade it later. The asking price is reasonable, but the KEYBOARD travel is AMAZING with such great tactile feedback. The support staff were super helpful when I had questions about the warranty options. While the cost is fair, the QUIET operation during light workloads is SO satisfying to use."
+    },
+    {
+      "index": 80,
+      "text": "I jumped from a Dell after hearing the display was supposed to be better this time around. The screen colors are absolutely POPPING with those deep blacks on the AMOLED panel, which is a huge upgrade for my editing work. However, the thin chassis can lead to thermal throttling under heavy sustained loads AND the speakers on the base models lack the depth found in the Pro/Ultra quad-speaker setups."
+    },
+    {
+      "index": 81,
+      "text": "I picked this up at a store in Austin last weekend. The typing experience is fantastic with excellent keyboard travel and tactile feedback."
+    },
+    {
+      "index": 82,
+      "text": "I have been testing this Galaxy Book 3 for several weeks now. It handles my daily emails and spreadsheets with absolute silence. However, the slim body gets hot and slows down when I run heavy tasks for too long. Despite that issue, the price is fair and the build quality feels solid."
+    },
+    {
+      "index": 83,
+      "text": "I was a bit disappointed that the base model only comes with a standard LCD screen instead of that stunning AMOLED display. The build quality feels incredibly solid and thin, making it perfect for carrying around all day without any bulk. Running basic tasks is so quiet you barely notice the fans are even working."
+    },
+    {
+      "index": 84,
+      "text": "after a few weeks i love the super quick charging via usb-c but it is a bummer the ram is soldered so you cant upgrade it later. this machine is pretty decent for daily use overall."
+    },
+    {
+      "index": 85,
+      "text": "I've been using this laptop daily for my remote work setup and it's been a solid choice. The keyboard feels AMAZING with great travel and the 1080p webcam makes video calls look crystal clear, though battery life on the 120Hz screen can be SO inconsistent. Just wish the battery held out longer when I'm rocking the high-res display all day long."
+    },
+    {
+      "index": 86,
+      "text": "I just picked up this Galaxy Book3 a few days ago and it feels pretty solid right out of the box. The glossy display picks up way too many reflections when I am working near a window. Considering the seamless connection with my Samsung phone and the sharp camera for calls, the value seems fair. Overall the setup was smooth and I am happy with how well it works with my other devices."
+    },
+    {
+      "index": 87,
+      "text": "The build quality is exceptional and the thin, portable design makes it so easy to carry around. Getting this delivered to my door was smooth and the packaging felt really secure. I picked this up last week at Best Buy in Austin and the huge glass trackpad is super responsive."
+    },
+    {
+      "index": 88,
+      "text": "The device runs incredibly quiet even when I am just typing up documents and browsing the web."
+    },
+    {
+      "index": 89,
+      "text": "So I finally got my hands on this laptop and the video calls have been so crisp with that high resolution camera. I spend most of my day typing up reports so the keyboard travel feels really nice under my fingers. The display on my non-Pro model is a standard LCD screen instead of the brighter AMOLED option. Since I watch a lot of movies late at night the speakers just don't have the same depth as the quad setup. Honestly the whole experience feels a bit disappointing compared to what I expected from the ecosystem integration."
+    },
+    {
+      "index": 90,
+      "text": "coming from a macbook, the switch was a bit weird at first. i mostly use it for school work and streaming so i wasn't expecting too much initially. the build quality is insane for how thin and light the chassis actually is. getting power so fast with just one usb-c cable is a total game changer for my daily routine. just wish the base model had an amoled screen since the lcd looks a bit dull in dim rooms and it gets warm if you push it too hard."
+    },
+    {
+      "index": 91,
+      "text": "Heads up, the speakers on the base models lack the depth found in the Pro/Ultra quad-speaker setups. The service I received from the retailer was incredibly fast and helpful. While the build quality feels a bit flimsy, the keyboard travel is excellent."
+    },
+    {
+      "index": 92,
+      "text": "I honestly can't believe how solid this laptop feels in my hands right now. The thin chassis can lead to thermal throttling under heavy sustained loads, which is SO annoying when I try to run heavy apps. The high-resolution 1080p webcams for improved video conferencing are seriously a game changer for my daily calls. Since I already own a Galaxy phone, the seamless integration for users who already own Galaxy smartphones and tablets makes sharing files a breeze. Battery life can be inconsistent on the high-resolution 120Hz models though, so you gotta watch the power settings closely."
+    },
+    {
+      "index": 93,
+      "text": "I was torn because the base model's LCD screen feels cheap compared to the Pro versions, yet the fast USB-C charging is a lifesaver. The 1080p webcam really stepped up my video calls and made me look much better on screen. Honestly, I just wish Samsung had included the AMOLED display on the standard laptop to make the whole package feel more premium."
+    },
+    {
+      "index": 94,
+      "text": "The high-resolution 1080p webcam and large glass trackpad make this laptop an absolute joy for video calls and daily work."
+    },
+    {
+      "index": 95,
+      "text": "The glass trackpad is SO responsive but the premium pricing especially on the Ultra models is a hard pill to swallow. Having soldered RAM means you are stuck with whatever you buy and that whole experience is pretty frustrating."
+    },
+    {
+      "index": 96,
+      "text": "I really appreciate the stellar service I received when purchasing this device."
+    },
+    {
+      "index": 97,
+      "text": "Alright, the keyboard travel and tactile feedback are excellent."
+    },
+    {
+      "index": 98,
+      "text": "The ecosystem integration with my Galaxy phone and tablet is absolutely seamless."
+    },
+    {
+      "index": 99,
+      "text": "The premium price tag is steep especially for the high storage models with RAM that is permanently soldered inside. The display colors pop with deep blacks but the overall experience is just okay for the cost."
+    },
+    {
+      "index": 100,
+      "text": "used this for daily work tasks about three months now. i mostly just browse the web and write docs so it's been enough for me. the glass trackpad is super large and responsive plus it charges fast via usb-c. sound quality on the base model speakers lacks depth compared to the quad setups on the pro models though. under heavy sustained loads the thin chassis tends to throttle down a bit."
+    },
+    {
+      "index": 101,
+      "text": "so i finally caved and grabbed the galaxy book3 after my old laptop decided to give up the ghost. the 1080p webcam actually makes my video calls look clear and the keyboard feels great to type on. the cost is steep for the ultra model or high storage options and the build quality doesn't always match that premium price point."
+    },
+    {
+      "index": 102,
+      "text": "Have you ever held a laptop that feels as premium as a piece of jewelry? The build quality on this Galaxy Book3 is absolutely exceptional, especially considering how thin and portable it remains. While the price point might make you pause before buying, the craftsmanship justifies the cost for anyone needing a reliable daily driver. I had to reach out to customer care several times because the battery life is wildly inconsistent on the high-resolution 120Hz models. Using the Samsung ecosystem features like Multi Control and Quick Share has completely transformed how I work across my devices. The speakers on the base models simply lack the depth found in the quad-speaker setups found on the Pro and Ultra versions."
+    },
+    {
+      "index": 103,
+      "text": "coming from a dell, i was hoping for a smoother experience with this samsung. the build quality seems okay for the money, especially with that fast charging and clear webcam. delivery was standard enough but i wish the ram wasn't soldered since that limits upgrades."
+    },
+    {
+      "index": 104,
+      "text": "the keyboard on this thing is actually really nice to type on."
+    },
+    {
+      "index": 105,
+      "text": "if you're hunting for a new laptop, this one caught my eye. so i picked it up last week and was pleasantly surprised by how quiet it stays during light work. though the battery life on the 120hz screen can be a bit unpredictable. also worth noting that most models come with soldered ram so you can't really add more memory later. despite those quirks the overall performance and display quality are fantastic for daily tasks."
+    },
+    {
+      "index": 106,
+      "text": "I was absolutely thrilled to unbox this laptop and get started immediately. The seamless connection with my Galaxy phone and tablet made switching files feel incredibly smooth. Charging the device via USB-C is lightning fast whenever I need a quick boost before heading out. I was slightly disappointed that the base model only came with a standard LCD screen instead of the vibrant AMOLED display. The cost for the Ultra models and high storage options is just way too steep for most people."
+    },
+    {
+      "index": 107,
+      "text": "be careful if you buy the base model with that lcd screen since it costs almost as much as the pro version but you don't get the nice display. i mostly use mine at a desk in a dim room so the glare isn't a huge deal for me personally. the price is fair for the fast charging speed though since you can top it off in no time. overall build quality is solid and the value for money is really hard to beat at this point."
+    },
+    {
+      "index": 108,
+      "text": "The seamless integration with my Galaxy phone makes this laptop a genuine joy to use for daily tasks. I wish they hadn't squeezed the internals so tight because it gets uncomfortably warm during long editing sessions, and the premium cost is hard to justify given those thermal limits."
+    },
+    {
+      "index": 109,
+      "text": "ugh the base lcd screen is so dull compared to what i expected and the speakers lack any real depth i love the keyboard though because the travel and feedback are just perfect for typing all day"
+    },
+    {
+      "index": 110,
+      "text": "I wanted to love this laptop but the battery life on the 120Hz display is just inconsistent. I have been using it for my daily commute and work from home setup for about a month now. The build quality is genuinely exceptional and the design is incredibly thin and portable. The price point feels fair given the premium materials Samsung used for the chassis. Overall the device feels solid and reliable for my heavy multitasking needs. I often find myself in coffee shops where the lighting can get pretty intense throughout the afternoon. The screen resolution is crisp and the colors pop vividly when the glare is minimal. Sometimes I just have to close the blinds to get any work done without staring at my own reflection. While the cost is high the build quality remains one of the best I have seen in this category. I recently had a client meeting that lasted for three hours and I kept checking the power level. The webcam quality is a huge improvement for my video calls and everyone says I look much clearer. It is a fantastic machine that balances performance and portability really well for most users."
+    },
+    {
+      "index": 111,
+      "text": "The build quality is exceptional and the design is so thin and portable."
+    },
+    {
+      "index": 112,
+      "text": "first thing i noticed was the 1080p webcam quality which is actually way better than my old laptop for calls but once i start doing heavy multitasking the thin body starts getting really hot and the fans go nuts trying to cool it down on normal days though it stays super quiet and barely makes a sound while i work i wish samsung would have designed thicker vents because the performance really drops when the machine overheats overall the build feels a bit too flimsy for the price since it throttles so easily under pressure"
+    },
+    {
+      "index": 113,
+      "text": "After my old laptop died mid-project, I grabbed this Galaxy Book 3 and the massive glass trackpad is simply AMAZING. The keyboard feels incredible with great travel, though the price for the Ultra model is a bit steep."
+    },
+    {
+      "index": 114,
+      "text": "This laptop is definitely better than my old Dell when it comes to the typing experience. The build quality feels solid and the display options are fantastic for everyday work."
+    },
+    {
+      "index": 115,
+      "text": "I wanted to love this laptop because the AMOLED display offers such vibrant color accuracy and the build quality is exceptionally thin and portable. Customer service was just okay when I called about a minor driver issue. It gets a bit warm though, since that slim chassis tends to throttle during heavy sustained loads."
+    },
+    {
+      "index": 116,
+      "text": "After using a Dell for years, the Galaxy Book3 Pro's speed and responsiveness are a massive upgrade for my daily workflow. I was initially hesitant about the premium pricing, particularly for the Ultra model with higher storage options. The fast charging via USB-C is incredibly convenient since I rarely carry my old power brick around anymore."
+    },
+    {
+      "index": 117,
+      "text": "this laptop is seriously amazing, i never thought a galaxy device could feel this premium. the build quality is solid enough to handle daily use, and it stays completely quiet during light to moderate workloads. though i noticed the battery life can be inconsistent on the high-resolution 120hz models depending on how i use it."
+    },
+    {
+      "index": 118,
+      "text": "I am absolutely blown away by how quietly this laptop runs during my daily work tasks. The price tag is fair for the build quality you get, though I noticed the screen drains battery faster than expected on the 120Hz models."
+    },
+    {
+      "index": 119,
+      "text": "honestly this galaxy book3 is a total game changer for my work and the huge glass trackpad is so responsive. the cost is really steep especially if you want the ultra version or maxed out storage though."
+    },
+    {
+      "index": 120,
+      "text": "I picked up this Galaxy Book3 from a Best Buy in Chicago last week. I was worried about the glare since I work near a window. The build quality feels solid for the price point. Typing on the keyboard has been surprisingly comfortable with great key travel. The glossy screen does get annoying reflections whenever the sun hits it."
+    },
+    {
+      "index": 121,
+      "text": "So I finally cracked and got the Galaxy Book3, and honestly the price was way better than I expected for what you get. I've been dragging it around to coffee shops all week while trying to finish some work on the go. The screen is absolutely STUNNING with those deep blacks and vibrant colors on the AMOLED panel, and the build quality feels incredibly premium in hand. Just be careful though because it does get pretty HOT if you try to do anything heavy for too long on the thin chassis. I wish the base model had the AMOLED display since the standard LCD just doesn't look as crisp as the Pro versions."
+    },
+    {
+      "index": 122,
+      "text": "it's super quiet when i'm just browsing the web. charging via usb-c is a game changer."
+    },
+    {
+      "index": 123,
+      "text": "I wanted to love this laptop but honestly my feelings are pretty mixed right now. The trackpad is huge and super responsive which makes navigating Windows a breeze. Performance is snappy and the screen looks absolutely stunning for watching movies. Samsung customer service was actually really helpful when I called with a setup question. I bought the base model to save money since I mainly use it for work documents. The speakers on the base models lack the depth found in the Pro setups but the price point is still fair for what you get. It is a bit expensive compared to other brands yet the build quality remains solid and reliable. Battery life can be inconsistent on the high-resolution 120Hz models so I have to keep my charger handy."
+    },
+    {
+      "index": 124,
+      "text": "the massive glass trackpad is super responsive and makes navigation a breeze. it's a solid machine overall even if the premium pricing hits hard for the ultra models. the amoled screen pops with vibrant colors and deep blacks that really make media look amazing. build quality feels top notch and while the cost is steep the performance justifies the expense."
+    },
+    {
+      "index": 125,
+      "text": "So I finally got this laptop and the fast charging via USB-C is a total game changer for my commute. Samsung's support team was super helpful when I had questions about setting up the second screen feature. Shipping was surprisingly quick and the packaging arrived in perfect condition without any dents. I mostly use it for work and light editing so I haven't pushed it to the absolute limit yet. The thin chassis does start to throttle a bit under heavy sustained loads though, but considering the low price for the specs it's still a solid buy."
+    },
+    {
+      "index": 126,
+      "text": "I have used this daily for 3 months and honestly the glossy screen is a NIGHTMARE in bright environments because of the reflections. Samsung support was actually super helpful when I called them about my initial setup questions. The large glass trackpads are incredibly responsive and make navigating windows SO much easier than on other laptops. I mostly use it at my standing desk where the glare isn't as bad, though I do bring it to coffee shops sometimes. Overall the performance is fantastic and I never feel like this machine is slowing me down during heavy workloads."
+    },
+    {
+      "index": 127,
+      "text": "This Galaxy Book3 is an absolute joy to use daily. The glossy screens are prone to significant reflections in bright environments, but the large, responsive glass trackpads make up for the high cost."
+    },
+    {
+      "index": 128,
+      "text": "I am absolutely blown away by how crisp and vibrant this display looks right out of the box. I bought this for my remote work setup since I needed something portable for coffee shop sessions. The price point is steep for the base model especially with the soldered memory, but the screen quality is still worth it. It runs super quiet even when I am juggling a dozen tabs and a video call at the same time. Overall it is a solid choice for most people who need a reliable ultrabook for daily tasks."
+    },
+    {
+      "index": 129,
+      "text": "I finally grabbed this Galaxy Book3 at Best Buy last weekend after hearing all the hype about Samsung's new laptops. The screen is absolutely STUNNING with colors that POP and blacks so deep they look real. It integrates perfectly with my phone for file sharing and the display quality is just insane. The performance is GREAT and honestly the price is fair considering you get all this tech."
+    },
+    {
+      "index": 130,
+      "text": "I picked this up at a Best Buy in Texas last week after seeing the Samsung ecosystem in action. The build quality is decent with a nice large trackpad, though the screen reflects glare easily and you cannot upgrade the RAM later, yet the overall value for the money is pretty good."
+    },
+    {
+      "index": 131,
+      "text": "I switched from a MacBook because I needed the keyboard, and honestly the travel on this is way better. The thin chassis can lead to thermal throttling under heavy sustained loads, which is frustrating when I try to edit video. It is a shame the soldered RAM on most models prevents future memory upgrades since I bought this thinking it would last."
+    },
+    {
+      "index": 132,
+      "text": "after two months of using it i still find the charging speed via usb-c and the super slim build to be pretty neat but the soldered ram makes upgrading impossible and the battery drains fast on the 120hz screen."
+    },
+    {
+      "index": 133,
+      "text": "The vibrant color accuracy and deep blacks on the AMOLED panel make every photo and movie look stunning."
+    },
+    {
+      "index": 134,
+      "text": "This laptop runs incredibly quiet during light tasks and the keys have a fantastic tactile feel. Just be warned that the cost jumps significantly if you go for the Ultra model or need lots of storage."
+    },
+    {
+      "index": 135,
+      "text": "used this daily for 3 months and the seamless integration with my galaxy phone is just crazy good honestly the glossy screen gets super annoying in bright environments with all the reflections though also the speakers on the base model just lack the depth you get from the pro setups still think it is a solid buy especially if you want that ecosystem connection without breaking the bank"
+    },
+    {
+      "index": 136,
+      "text": "The video quality from the high-resolution 1080p webcam is a game changer for my daily meetings. Delivery was on time and the packaging arrived without any damage. While the base speakers lack the depth found in the Pro setups, the overall experience is still great."
+    },
+    {
+      "index": 137,
+      "text": "I was amazed by the exceptional build quality and how incredibly thin this laptop feels when I first picked it up. The design is so portable that I barely notice it in my bag during my daily commute across the city. It is a shame that the soldered RAM on most models prevents me from upgrading the memory later down the line. The premium pricing is steep for the Ultra and high-storage configurations, but the service I received was top-notch."
+    },
+    {
+      "index": 138,
+      "text": "If you are considering a new laptop, the build quality on this Galaxy Book3 is truly exceptional while remaining incredibly thin and portable. Samsung's service was also fantastic when I had a quick question about the display options before buying. I use this machine mostly for travel and light work, so I need something I can toss in my bag without worrying about the weight. The cost is a bit steep compared to other options in the same class, but the features justify the expense for me. You do get what you pay for with the premium materials, though the thin chassis can sometimes lead to thermal throttling if you push it too hard."
+    },
+    {
+      "index": 139,
+      "text": "I finally decided to upgrade from my old laptop for some heavy video calls. The camera is crystal clear for work meetings and the build quality feels really premium. I did notice the cost jumps up quickly if you want the AMOLED screen or more storage though. Overall it has been a fantastic machine for my daily workflow."
+    },
+    {
+      "index": 140,
+      "text": "The high-resolution webcam delivers crystal clear video quality that makes my conference calls look professional."
+    },
+    {
+      "index": 141,
+      "text": "I wanted to love this laptop because the build quality is top notch and the pricing for the base model is actually reasonable. The keyboard travel is AMAZING and the tactile feedback makes typing a genuine joy. Honestly the service I got from the support team was SO frustrating when I tried to get clarification on the specs. I'm coming from a Dell and really wanted this to be my daily driver for work since I'm deep in the Samsung ecosystem already. The premium pricing for the Ultra models is just RIDICULOUS especially when you see what you are paying for soldered RAM that you can't upgrade later. Once you get past the cost though the screen is STUNNING and the multi control feature works perfectly with my phone. It is a shame that the memory is permanently soldered because that limits the longevity of the machine in my opinion."
+    },
+    {
+      "index": 142,
+      "text": "The screen on this Galaxy Book3 really pops with its deep blacks and rich colors right out of the box. Using it for my daily workflow feels super smooth thanks to the 13th Gen Intel processor and the seamless Samsung ecosystem. While the build quality is top notch, the premium price for the high storage models is a bit steep for some budgets. I have to be careful where I use it since the glossy display picks up reflections like crazy under bright office lights. Overall, I am very happy with the purchase and would recommend this laptop to anyone looking for a great display."
+    },
+    {
+      "index": 143,
+      "text": "i grabbed this galaxy book3 after my old one died and the fast charging via usb-c is a total lifesaver for my chaotic mornings."
+    },
+    {
+      "index": 144,
+      "text": "ever wonder how fast a laptop can actually charge these days? the typing experience is seriously good with great key travel and feedback. syncing with my phone just works seamlessly without any hassle. the glossy screen reflects way too much light and the soldered ram makes the price hard to justify for upgrades. honestly i just bought this for my college work and it handles everything i throw at it."
+    }
+  ],
+  "flags": [
+    {
+      "reviewIndex": 1,
+      "reason": "No specific specs or features referenced; purely opinion-based",
+      "highlights": [],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 2,
+      "reason": "Webcam is 720p, not 1080p",
+      "highlights": [
+        "high-resolution 1080p webcam"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 4,
+      "reason": "Webcam is 720p, not 1080p; display is matte, not glossy",
+      "highlights": [
+        "high resolution 1080p webcam",
+        "glossy screen"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 6,
+      "reason": "Webcam is 720p, not 1080p; implies an AMOLED variant exists for Galaxy Book3 but none does",
+      "highlights": [
+        "1080p webcam",
+        "AMOLED display"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 7,
+      "reason": "Implies higher-end models have AMOLED displays and 120Hz screens; Galaxy Book3 has neither",
+      "highlights": [
+        "vibrant AMOLED display across the board",
+        "high-resolution 120Hz model"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 10,
+      "reason": "No specific specs or features referenced; purely opinion-based",
+      "highlights": [],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 13,
+      "reason": "Webcam is 720p, not 1080p",
+      "highlights": [
+        "high resolution 1080p webcam"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 14,
+      "reason": "Webcam is 720p, not 1080p; no 120Hz screen variant exists for Galaxy Book3",
+      "highlights": [
+        "high-resolution 1080p webcam",
+        "120Hz screens"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 15,
+      "reason": "Galaxy Book3 does not have an AMOLED panel; it uses IPS LCD",
+      "highlights": [
+        "vibrant color accuracy and deep blacks on the AMOLED panel"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 16,
+      "reason": "Galaxy Book3 does not have AMOLED panels",
+      "highlights": [
+        "vibrant color accuracy and deep blacks on the AMOLED panels"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 17,
+      "reason": "Webcam is 720p, not 1080p",
+      "highlights": [
+        "1080p webcam"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 18,
+      "reason": "No 120Hz model exists for Galaxy Book3",
+      "highlights": [
+        "high-resolution 120hz models"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 20,
+      "reason": "Galaxy Book3 has no AMOLED screen; display is 16:9, not 16:10",
+      "highlights": [
+        "AMOLED screen",
+        "16:10 display"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 21,
+      "reason": "Display is matte, not glossy",
+      "highlights": [
+        "glossy screen"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 23,
+      "reason": "No 120Hz screen variant exists for Galaxy Book3",
+      "highlights": [
+        "120hz screen"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 24,
+      "reason": "No specific specs or features referenced; purely opinion-based",
+      "highlights": [],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 25,
+      "reason": "Galaxy Book3 has a 720p webcam, not 1080p",
+      "highlights": [
+        "high-resolution 1080p webcam"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 25,
+      "reason": "Galaxy Book3 does not have AMOLED display options; it only has FHD IPS LCD",
+      "highlights": [
+        "LCD and AMOLED options",
+        "vibrant AMOLED screen"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 25,
+      "reason": "Galaxy Book3 has USB-C 3.2 Gen1, not Thunderbolt 4",
+      "highlights": [
+        "Thunderbolt 4"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 26,
+      "reason": "Galaxy Book3 does not have an AMOLED screen; it has FHD IPS LCD",
+      "highlights": [
+        "deep blacks on the amoled screen"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 27,
+      "reason": "Galaxy Book3 has a 720p webcam, not 1080p",
+      "highlights": [
+        "high-resolution 1080p webcams for improved video conferencing"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 28,
+      "reason": "Galaxy Book3 does not have an AMOLED panel; it has FHD IPS LCD",
+      "highlights": [
+        "colors on the amoled panel",
+        "the blacks look so deep"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 28,
+      "reason": "Galaxy Book3 has a matte display, not glossy",
+      "highlights": [
+        "glossy display reflects everything"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 29,
+      "reason": "No specific specs referenced from factsheet",
+      "highlights": [
+        "quiet operation under light to moderate workloads",
+        "screen options"
+      ],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 30,
+      "reason": "Galaxy Book3 does not have an 'Ultra' variant; that is a separate product (Galaxy Book3 Ultra)",
+      "highlights": [
+        "the Ultra and high-storage configurations"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 31,
+      "reason": "References 'Pro and Ultra quad-speaker setups' which are separate products, not variants of the Galaxy Book3",
+      "highlights": [
+        "Pro and Ultra quad-speaker setups"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 32,
+      "reason": "Galaxy Book3 has a 60Hz display, not 120Hz",
+      "highlights": [
+        "120hz model"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 33,
+      "reason": "References 'ultra' which is a separate product from the Galaxy Book3",
+      "highlights": [
+        "the ultra and high-storage configs"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 37,
+      "reason": "References 'Ultra model' which is a separate product from the Galaxy Book3",
+      "highlights": [
+        "the Ultra model"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 38,
+      "reason": "Galaxy Book3 has a 720p webcam, not 1080p",
+      "highlights": [
+        "1080p webcam"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 39,
+      "reason": "Galaxy Book3 does not have an AMOLED panel; it has FHD IPS LCD",
+      "highlights": [
+        "deep blacks on the AMOLED panels"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 40,
+      "reason": "Galaxy Book3 does not have a 120Hz display; it has 60Hz",
+      "highlights": [
+        "120hz screen"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 40,
+      "reason": "Galaxy Book3 does not have deep blacks characteristic of AMOLED; it has IPS LCD",
+      "highlights": [
+        "display quality with deep blacks"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 41,
+      "reason": "References 'ultra model' which is a separate product",
+      "highlights": [
+        "the ultra model"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 41,
+      "reason": "Galaxy Book3 has a full keyboard with numpad; claiming it feels cramped is inconsistent with its 15.6-inch full-size layout, but this could be subjective opinion so noting the factual context",
+      "highlights": [
+        "keyboard layout feels a bit cramped"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": false
+    },
+    {
+      "reviewIndex": 42,
+      "reason": "Galaxy Book3 has a 60Hz display, not 120Hz",
+      "highlights": [
+        "high-resolution 120Hz display"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 44,
+      "reason": "Galaxy Book3 has a 60Hz display, not 120Hz",
+      "highlights": [
+        "120hz display"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 45,
+      "reason": "Galaxy Book3 does not have an AMOLED display; it has FHD IPS LCD",
+      "highlights": [
+        "colors on the amoled display"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 45,
+      "reason": "Galaxy Book3 has a matte display, not glossy",
+      "highlights": [
+        "glossy screen gets annoying with reflections"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 46,
+      "reason": "Galaxy Book3 does not have an AMOLED screen; it has FHD IPS LCD",
+      "highlights": [
+        "AMOLED screen delivers vibrant colors with deep blacks"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 46,
+      "reason": "Galaxy Book3 has a 60Hz display, not 120Hz",
+      "highlights": [
+        "120Hz high-res model"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 47,
+      "reason": "Galaxy Book3 has a matte display, not glossy",
+      "highlights": [
+        "glossy screens weren't so bad with reflections"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 50,
+      "reason": "Galaxy Book3 has a 720p webcam, not 1080p",
+      "highlights": [
+        "1080p camera"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 54,
+      "reason": "Galaxy Book3 has a matte display, not glossy",
+      "highlights": [
+        "glossy display"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 58,
+      "reason": "Galaxy Book3 has a matte display, not glossy",
+      "highlights": [
+        "glossy screen"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 60,
+      "reason": "Galaxy Book3 has a 720p webcam, not 1080p",
+      "highlights": [
+        "1080p webcam"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 60,
+      "reason": "Galaxy Book3 has a 60Hz display, no 120Hz option exists",
+      "highlights": [
+        "120hz screen"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 63,
+      "reason": "Galaxy Book3 has a 720p webcam, not 1080p",
+      "highlights": [
+        "1080p webcam"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 64,
+      "reason": "No specific specs referenced, only vague opinion about build and price",
+      "highlights": [
+        "The build quality is solid yet the price tag feels steep for what you get."
+      ],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 66,
+      "reason": "Galaxy Book3 does not have an AMOLED display; it has an IPS LCD panel",
+      "highlights": [
+        "AMOLED display offers stunning color accuracy with deep blacks"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 67,
+      "reason": "Review is about food (carbonara), contains zero laptop specs",
+      "highlights": [
+        "The carbonara was absolutely divine."
+      ],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 68,
+      "reason": "Galaxy Book3 has a matte display, not glossy",
+      "highlights": [
+        "glossy screen reflects a lot of light"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 69,
+      "reason": "Galaxy Book3 has a matte display, not glossy",
+      "highlights": [
+        "glossy display is SO reflective",
+        "shiny glass"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 71,
+      "reason": "Galaxy Book3 IPS LCD does not produce deep blacks; this implies OLED/AMOLED characteristics",
+      "highlights": [
+        "deep blacks"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 72,
+      "reason": "No specific specs referenced, only vague opinions about price, build, and support",
+      "highlights": [
+        "the price is fair for what you get and the build quality is top notch"
+      ],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 73,
+      "reason": "Galaxy Book3 has a 60Hz display, no 120Hz model exists",
+      "highlights": [
+        "120Hz model"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 74,
+      "reason": "Galaxy Book3 has a matte display, not glossy",
+      "highlights": [
+        "glossy display"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 76,
+      "reason": "Webcam is 720p not 1080p; screen is matte not glossy",
+      "highlights": [
+        "high-resolution 1080p webcams",
+        "glossy screen reflects everything"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 78,
+      "reason": "Galaxy Book3 has no Ultra configuration",
+      "highlights": [
+        "Ultra and high-storage configurations"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 80,
+      "reason": "Galaxy Book3 has IPS LCD not AMOLED; no Pro/Ultra quad-speaker variants exist",
+      "highlights": [
+        "deep blacks on the AMOLED panel",
+        "Pro/Ultra quad-speaker setups"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 81,
+      "reason": "No specific specs or features referenced",
+      "highlights": [],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 83,
+      "reason": "Implies AMOLED display option exists for Galaxy Book3; it does not",
+      "highlights": [
+        "instead of that stunning AMOLED display"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 85,
+      "reason": "Galaxy Book3 is 60Hz only, no 120Hz option exists; webcam is 720p not 1080p",
+      "highlights": [
+        "120Hz screen",
+        "1080p webcam"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 86,
+      "reason": "Screen is matte not glossy",
+      "highlights": [
+        "glossy display picks up way too many reflections"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 88,
+      "reason": "No specific specs or features referenced",
+      "highlights": [],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 89,
+      "reason": "Webcam is 720p not high resolution; implies AMOLED option exists; implies Pro/Ultra quad-speaker variant",
+      "highlights": [
+        "high resolution camera",
+        "brighter AMOLED option",
+        "quad setup"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 90,
+      "reason": "Implies AMOLED screen option exists for Galaxy Book3; it does not",
+      "highlights": [
+        "base model had an amoled screen"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 92,
+      "reason": "Webcam is 720p not 1080p; Galaxy Book3 has no 120Hz models",
+      "highlights": [
+        "high-resolution 1080p webcams",
+        "high-resolution 120Hz models"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 93,
+      "reason": "Implies AMOLED display exists on a Pro/other variant; it does not; webcam is 720p not 1080p",
+      "highlights": [
+        "AMOLED display on the standard laptop",
+        "1080p webcam"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 94,
+      "reason": "Webcam is 720p not 1080p",
+      "highlights": [
+        "high-resolution 1080p webcam"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 95,
+      "reason": "Galaxy Book3 has no Ultra models",
+      "highlights": [
+        "Ultra models"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 96,
+      "reason": "No specific specs or features referenced",
+      "highlights": [],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 97,
+      "reason": "No specific specs or features referenced beyond generic keyboard opinion",
+      "highlights": [],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 98,
+      "reason": "No specific specs or features referenced",
+      "highlights": [],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 99,
+      "reason": "Display colors pop with deep blacks implies AMOLED/OLED characteristics; Galaxy Book3 has IPS LCD which cannot produce deep blacks",
+      "highlights": [
+        "display colors pop with deep blacks"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 101,
+      "reason": "Galaxy Book3 has a 720p webcam, not 1080p",
+      "highlights": [
+        "1080p webcam"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 102,
+      "reason": "Galaxy Book3 only has a 60Hz display; there are no 120Hz models",
+      "highlights": [
+        "120Hz models"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 104,
+      "reason": "Review contains no specific specs or features from the factsheet",
+      "highlights": [
+        "the keyboard on this thing is actually really nice to type on"
+      ],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 105,
+      "reason": "Galaxy Book3 only has a 60Hz display; no 120Hz screen exists for this product",
+      "highlights": [
+        "120hz screen"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 106,
+      "reason": "Implies an AMOLED display variant exists for Galaxy Book3; all models have IPS LCD only",
+      "highlights": [
+        "vibrant AMOLED display"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 108,
+      "reason": "Review contains no specific specs; only mentions integration, warmth, and cost",
+      "highlights": [
+        "seamless integration",
+        "premium cost"
+      ],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 110,
+      "reason": "Galaxy Book3 only has a 60Hz display; no 120Hz variant exists",
+      "highlights": [
+        "120Hz display"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 111,
+      "reason": "Review contains no specific specs; only mentions build quality and thinness",
+      "highlights": [
+        "The build quality is exceptional and the design is so thin and portable"
+      ],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 112,
+      "reason": "Galaxy Book3 has a 720p webcam, not 1080p",
+      "highlights": [
+        "1080p webcam"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 114,
+      "reason": "Review contains no specific specs; only vague comparisons and opinions",
+      "highlights": [
+        "better than my old Dell"
+      ],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 115,
+      "reason": "Galaxy Book3 does not have an AMOLED display; it has an IPS LCD",
+      "highlights": [
+        "AMOLED display"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 116,
+      "reason": "Reviews the Galaxy Book3 Pro which is a different product from the Galaxy Book3",
+      "highlights": [
+        "Galaxy Book3 Pro's speed"
+      ],
+      "flagType": "factual_error",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 117,
+      "reason": "Galaxy Book3 only has a 60Hz display; no 120Hz models exist",
+      "highlights": [
+        "120hz models"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 118,
+      "reason": "Galaxy Book3 only has a 60Hz display; no 120Hz models exist",
+      "highlights": [
+        "120Hz models"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 120,
+      "reason": "Galaxy Book3 has a matte display, not a glossy one",
+      "highlights": [
+        "glossy screen",
+        "annoying reflections"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 121,
+      "reason": "Galaxy Book3 does not have an AMOLED panel; it has an IPS LCD. Multiple AMOLED references.",
+      "highlights": [
+        "AMOLED panel",
+        "AMOLED display"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 122,
+      "reason": "Review contains no specific specs beyond generic USB-C charging mention",
+      "highlights": [
+        "super quiet",
+        "charging via usb-c"
+      ],
+      "flagType": "vague_review",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 123,
+      "reason": "Galaxy Book3 only has a 60Hz display; no 120Hz models exist",
+      "highlights": [
+        "120Hz models"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 124,
+      "reason": "Galaxy Book3 does not have an AMOLED screen; it has an IPS LCD",
+      "highlights": [
+        "amoled screen"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 126,
+      "reason": "Galaxy Book3 has a matte display, not glossy",
+      "highlights": [
+        "glossy screen"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 127,
+      "reason": "Galaxy Book3 has a matte display, not glossy",
+      "highlights": [
+        "glossy screens"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 130,
+      "reason": "Galaxy Book3 has a matte display which minimizes glare, not a glossy reflective screen",
+      "highlights": [
+        "screen reflects glare easily"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 132,
+      "reason": "Galaxy Book3 has a 60Hz display, not 120Hz",
+      "highlights": [
+        "120hz screen"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 133,
+      "reason": "Galaxy Book3 does NOT have an AMOLED panel; it has an IPS LCD",
+      "highlights": [
+        "AMOLED panel"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 135,
+      "reason": "Galaxy Book3 has a matte display, not glossy",
+      "highlights": [
+        "glossy screen"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 136,
+      "reason": "Galaxy Book3 has a 720p webcam, not high-resolution 1080p",
+      "highlights": [
+        "high-resolution 1080p webcam"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 139,
+      "reason": "Galaxy Book3 does NOT have an AMOLED screen option; it uses IPS LCD",
+      "highlights": [
+        "AMOLED screen"
+      ],
+      "flagType": "hallucinated_feature",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 140,
+      "reason": "Galaxy Book3 has a 720p webcam, which is not high-resolution",
+      "highlights": [
+        "high-resolution webcam"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 142,
+      "reason": "Galaxy Book3 has a matte display, not glossy",
+      "highlights": [
+        "glossy display"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    },
+    {
+      "reviewIndex": 144,
+      "reason": "Galaxy Book3 has a matte display, not glossy",
+      "highlights": [
+        "glossy screen"
+      ],
+      "flagType": "wrong_spec",
+      "confirmed": true
+    }
+  ],
+  "passedReviewIndices": [
+    0,
+    3,
+    5,
+    8,
+    9,
+    11,
+    12,
+    19,
+    22,
+    34,
+    35,
+    36,
+    43,
+    48,
+    49,
+    51,
+    52,
+    53,
+    55,
+    56,
+    57,
+    59,
+    61,
+    62,
+    65,
+    70,
+    75,
+    77,
+    79,
+    82,
+    84,
+    87,
+    91,
+    100,
+    103,
+    107,
+    109,
+    113,
+    119,
+    125,
+    128,
+    129,
+    131,
+    134,
+    137,
+    138,
+    141,
+    143
+  ]
+}

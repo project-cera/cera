@@ -1,0 +1,25 @@
+{
+  "ablationStudy": "no-sil",
+  "timestamp": "2026-03-23T21:34:02.043241-05:00",
+  "flaggerModel": "claude-opus-4.6 (via Claude Code subagents)",
+  "batchSize": 25,
+  "parallel": true,
+  "factsheetLineCount": 92,
+  "datasets": [
+    {
+      "dir": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/260323-204229679-v1-nosil-galaxybook3-cera-full",
+      "mode": "cera-full",
+      "domain": "laptop",
+      "sizes": [
+        100,
+        500,
+        1000
+      ],
+      "reviewCounts": {
+        "100": 24,
+        "500": 136,
+        "1000": 282
+      }
+    }
+  ]
+}

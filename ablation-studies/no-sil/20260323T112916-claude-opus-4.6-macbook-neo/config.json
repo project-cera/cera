@@ -1,0 +1,64 @@
+{
+  "ablationStudy": "no-sil",
+  "timestamp": "2026-03-23T11:29:16-05:00",
+  "flaggerModel": "claude-opus-4.6 (via Claude Code subagents)",
+  "batchSize": 25,
+  "parallel": true,
+  "factsheetLineCount": 71,
+  "datasets": [
+    {
+      "mode": "cera-full",
+      "domain": "laptop",
+      "size": 100,
+      "totalReviews": 23
+    },
+    {
+      "mode": "cera-full",
+      "domain": "laptop",
+      "size": 500,
+      "totalReviews": 152
+    },
+    {
+      "mode": "cera-full",
+      "domain": "laptop",
+      "size": 1000,
+      "totalReviews": 288
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "laptop",
+      "size": 100,
+      "totalReviews": 32
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "laptop",
+      "size": 500,
+      "totalReviews": 144
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "laptop",
+      "size": 1000,
+      "totalReviews": 288
+    },
+    {
+      "mode": "heuristic",
+      "domain": "laptop",
+      "size": 100,
+      "totalReviews": 21
+    },
+    {
+      "mode": "heuristic",
+      "domain": "laptop",
+      "size": 500,
+      "totalReviews": 116
+    },
+    {
+      "mode": "heuristic",
+      "domain": "laptop",
+      "size": 1000,
+      "totalReviews": 222
+    }
+  ]
+}

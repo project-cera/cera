@@ -1,0 +1,10 @@
+mode,size,totalReviews,totalFlagged,errorRate
+cera-full,100,23,4,0.1739
+cera-full,500,152,26,0.1711
+cera-full,1000,288,69,0.2396
+cera-no-sil,100,32,28,0.875
+cera-no-sil,500,144,134,0.9306
+cera-no-sil,1000,288,258,0.8958
+heuristic,100,21,21,1.0
+heuristic,500,116,116,1.0
+heuristic,1000,222,219,0.9865
