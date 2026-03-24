@@ -28,6 +28,10 @@ export const get = query({
         localLlmEnabled: false,
         localLlmEndpoint: undefined,
         localLlmApiKey: undefined,
+        openaiApiKey: undefined,
+        anthropicApiKey: undefined,
+        geminiApiKey: undefined,
+        perplexityApiKey: undefined,
       };
     }
     return settings;
@@ -48,6 +52,11 @@ export const update = mutation({
     localLlmEnabled: v.optional(v.boolean()),
     localLlmEndpoint: v.optional(v.string()),
     localLlmApiKey: v.optional(v.string()),
+    // Native SDK API Keys
+    openaiApiKey: v.optional(v.string()),
+    anthropicApiKey: v.optional(v.string()),
+    geminiApiKey: v.optional(v.string()),
+    perplexityApiKey: v.optional(v.string()),
   },
   handler: async (ctx, args) => {
     const existing = await ctx.db.query("settings").first();
@@ -66,6 +75,10 @@ export const update = mutation({
       if (args.localLlmEnabled !== undefined) updates.localLlmEnabled = args.localLlmEnabled;
       if (args.localLlmEndpoint !== undefined) updates.localLlmEndpoint = args.localLlmEndpoint;
       if (args.localLlmApiKey !== undefined) updates.localLlmApiKey = args.localLlmApiKey;
+      if (args.openaiApiKey !== undefined) updates.openaiApiKey = args.openaiApiKey;
+      if (args.anthropicApiKey !== undefined) updates.anthropicApiKey = args.anthropicApiKey;
+      if (args.geminiApiKey !== undefined) updates.geminiApiKey = args.geminiApiKey;
+      if (args.perplexityApiKey !== undefined) updates.perplexityApiKey = args.perplexityApiKey;
 
       await ctx.db.patch(existing._id, updates);
       return existing._id;

@@ -155,7 +155,9 @@ export const create = mutation({
         mav: v.optional(v.object({
           enabled: v.boolean(),
           models: v.array(v.string()),
-          similarity_threshold: v.optional(v.number()),
+          similarity_threshold: v.optional(v.number()), // Legacy
+          dedup_threshold: v.optional(v.number()),
+          agreement_threshold: v.optional(v.number()),
           max_queries: v.optional(v.number()),
         })),
       })),
