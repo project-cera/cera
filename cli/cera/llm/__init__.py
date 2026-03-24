@@ -8,6 +8,15 @@ from .openrouter import (
 )
 from .mav import MultiAgentVerification
 from .web_search import WebSearchClient, TavilySearchClient, PerplexitySearchClient
+from .native import (
+    parse_native_model,
+    get_native_client,
+    fetch_all_native_models,
+    NATIVE_PROVIDERS,
+    AnthropicNativeClient,
+    GoogleNativeClient,
+    OpenAINativeClient,
+)
 
 __all__ = [
     "OpenRouterClient",
@@ -18,4 +27,11 @@ __all__ = [
     "WebSearchClient",
     "TavilySearchClient",
     "PerplexitySearchClient",
+    "parse_native_model",
+    "get_native_client",
+    "fetch_all_native_models",
+    "NATIVE_PROVIDERS",
+    "AnthropicNativeClient",
+    "GoogleNativeClient",
+    "OpenAINativeClient",
 ]
