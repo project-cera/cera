@@ -20,7 +20,8 @@ export interface UIConstraints {
     request_size: ConstraintValue
     temperature_range: ConstraintValue
     typo_rate: ConstraintValue
-    mav_similarity_threshold: ConstraintValue
+    mav_dedup_threshold: ConstraintValue
+    mav_agreement_threshold: ConstraintValue
     mav_max_queries: ConstraintValue
   }
 }
@@ -43,7 +44,8 @@ const FALLBACK_CONSTRAINTS: UIConstraints = {
     request_size: { min: 1, max: 20, step: 1, default: 5 },
     temperature_range: { min: 0.0, max: 2.0, step: 0.1, default: [0.7, 0.9] },
     typo_rate: { min: 0, max: 0.1, step: 0.005, default: 0.01 },
-    mav_similarity_threshold: { min: 0.5, max: 1.0, step: 0.05, default: 0.75 },
+    mav_dedup_threshold: { min: 0.5, max: 1.0, step: 0.05, default: 0.75 },
+    mav_agreement_threshold: { min: 0.5, max: 0.95, step: 0.05, default: 0.80 },
     mav_max_queries: { min: 10, max: 100, step: 5, default: 30 },
   },
 }

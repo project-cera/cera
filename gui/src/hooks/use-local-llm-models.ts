@@ -34,22 +34,52 @@ export function useLocalLlmModels() {
 
         if (cancelled) return
 
-        const processed: ProcessedModel[] = (data.data || []).map((m: { id: string }) => ({
-          id: `local/${m.id}`,
-          name: m.id.split('/').pop() || m.id,
-          contextLength: 0,
-          pricing: 'Local',
-          isFree: true,
-          provider: 'local',
-          providerLabel: 'Local LLMs',
-          isOpenSource: true,
-          inputModalities: ['text'],
-          outputModalities: ['text'],
-          hasVision: false,
-          hasAudio: false,
-          hasVideo: false,
-          hasThinking: false,
-        }))
+        // Known thinking-capable model families (checked via prefix match)
+        const thinkingCapablePrefixes = ['Qwen/Qwen3', 'deepseek-ai/DeepSeek-R1']
+
+        const processed: ProcessedModel[] = []
+        for (const m of (data.data || []) as { id: string }[]) {
+          const shortName = m.id.split('/').pop() || m.id
+          const isThinkingCapable = thinkingCapablePrefixes.some(p => m.id.startsWith(p))
+
+          // Always add the non-thinking (standard) entry
+          processed.push({
+            id: `local/${m.id}`,
+            name: shortName,
+            contextLength: 0,
+            pricing: 'Local',
+            isFree: true,
+            provider: 'local',
+            providerLabel: 'Local LLMs',
+            isOpenSource: true,
+            inputModalities: ['text'],
+            outputModalities: ['text'],
+            hasVision: false,
+            hasAudio: false,
+            hasVideo: false,
+            hasThinking: false,
+          })
+
+          // For thinking-capable models, add a second entry with thinking enabled
+          if (isThinkingCapable) {
+            processed.push({
+              id: `local/${m.id}:thinking`,
+              name: `${shortName} (Thinking)`,
+              contextLength: 0,
+              pricing: 'Local',
+              isFree: true,
+              provider: 'local',
+              providerLabel: 'Local LLMs',
+              isOpenSource: true,
+              inputModalities: ['text'],
+              outputModalities: ['text'],
+              hasVision: false,
+              hasAudio: false,
+              hasVideo: false,
+              hasThinking: true,
+            })
+          }
+        }
         setModels(processed)
       } catch (err) {
         if (cancelled) return
