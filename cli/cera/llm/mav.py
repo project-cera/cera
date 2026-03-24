@@ -39,11 +39,13 @@ class MultiAgentVerification:
         api_key: str,
         models: Optional[list[str]] = None,
         similarity_threshold: float = 0.75,
+        settings: Optional[dict] = None,
     ):
         self.api_key = api_key
         self.models = models or self.DEFAULT_MODELS
         self.similarity_threshold = similarity_threshold
         self._similarity_model = None  # Lazy-loaded model cache
+        self._settings = settings  # Convex settings for native API keys
 
     def _get_similarity_model(self):
         """Lazy-load and cache the SentenceTransformer model."""
@@ -94,18 +96,37 @@ class MultiAgentVerification:
     ) -> str:
         """Query a single model."""
         from .openrouter import OpenRouterClient
+        from .native import parse_native_model, get_native_client
 
         # Load and format the verification prompt
         prompt = load_and_format("mav", "verify", claim=claim, context=context)
 
-        async with OpenRouterClient(self.api_key) as client:
-            messages = [
-                {
-                    "role": "user",
-                    "content": prompt,
-                },
-            ]
-            return await client.chat(messages, model=model, temperature=0.0)
+        messages = [
+            {
+                "role": "user",
+                "content": prompt,
+            },
+        ]
+
+        # Route to native provider if model ID starts with native/
+        is_native, provider, actual_model = parse_native_model(model)
+        if is_native:
+            client = get_native_client(provider, settings=self._settings)
+            try:
+                # Enable web search for all native MAV queries
+                # This gives each provider access to live web data for fact verification:
+                # - Anthropic: web_search tool (server-side)
+                # - Google: google_search grounding
+                # - OpenAI: web_search_options
+                # - Perplexity: always-on search (web_search param ignored)
+                return await client.chat(
+                    messages, model=actual_model, temperature=0.0, web_search=True
+                )
+            finally:
+                await client.close()
+        else:
+            async with OpenRouterClient(self.api_key) as client:
+                return await client.chat(messages, model=model, temperature=0.0)
 
     def _compute_similarity(self, text1: str, text2: str) -> float:
         """

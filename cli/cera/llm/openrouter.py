@@ -55,7 +55,7 @@ def get_search_model_id(model: str) -> str:
         model: Base model ID
 
     Returns:
-        Model ID with :online suffix, or native search model as-is
+        Model ID with :online suffix for OpenRouter, or native model as-is
     """
     base_model = model.replace(":online", "")
 
@@ -63,7 +63,11 @@ def get_search_model_id(model: str) -> str:
         # Native search models don't need suffix
         return base_model
 
-    # All models support :online via OpenRouter (native or Exa fallback)
+    # Native SDK models (native/ prefix) don't use :online — their APIs have built-in search
+    if base_model.startswith("native/"):
+        return base_model
+
+    # OpenRouter models support :online (native or Exa fallback)
     return f"{base_model}:online"
 
 
@@ -115,12 +119,21 @@ class OpenRouterClient:
         self._run = run
         self._base_url = base_url or self.BASE_URL
         self._is_local = base_url is not None
+        # Distinguish local vLLM from native SDK providers (both set base_url)
+        self._is_vllm = base_url is not None and not any(
+            p in (base_url or "") for p in ["googleapis", "anthropic", "perplexity", "openai.com"]
+        )
         self.client = httpx.AsyncClient()
 
     def _get_model_id(self, model: str) -> str:
         """Get full model ID from short name or return as-is."""
+        # Strip native/ prefix for native SDK providers
+        if model.startswith("native/"):
+            parts = model.split("/", 2)
+            if len(parts) == 3:
+                model = parts[2]  # e.g., native/google/gemini-3.1-pro-preview -> gemini-3.1-pro-preview
         if self._is_local:
-            return model  # Local vLLM models use their ID directly
+            return model  # Local vLLM and native SDK models use their ID directly
         return self.MODELS.get(model, model)
 
     @retry(
@@ -159,6 +172,12 @@ class OpenRouterClient:
         """
         model_id = self._get_model_id(model)
 
+        # For local vLLM: handle ":thinking" suffix from LLMSelector
+        local_thinking = False
+        if self._is_vllm and model_id.endswith(":thinking"):
+            model_id = model_id.removesuffix(":thinking")
+            local_thinking = True
+
         body = {
             "model": model_id,
             "messages": messages,
@@ -168,12 +187,16 @@ class OpenRouterClient:
         }
         if reasoning:
             body["reasoning"] = reasoning
+        # For local vLLM models only, control thinking mode via chat_template_kwargs
+        if self._is_vllm:
+            body["chat_template_kwargs"] = {"enable_thinking": local_thinking}
 
         headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
         }
-        if not self._is_local:
+        # Only add OpenRouter-specific headers when using OpenRouter (not native SDKs or local vLLM)
+        if not self._is_local and "openrouter.ai" in self._base_url:
             headers["HTTP-Referer"] = self.site_url
             headers["X-Title"] = self.site_name
 
@@ -183,6 +206,9 @@ class OpenRouterClient:
             json=body,
             timeout=180.0,
         )
+        if response.status_code >= 400:
+            error_body = response.text[:500]
+            logger.error(f"API error {response.status_code} from {self._base_url}: {error_body}")
         response.raise_for_status()
 
         data = response.json()
@@ -249,7 +275,8 @@ class OpenRouterClient:
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
         }
-        if not self._is_local:
+        # Only add OpenRouter-specific headers when using OpenRouter (not native SDKs or local vLLM)
+        if not self._is_local and "openrouter.ai" in self._base_url:
             headers["HTTP-Referer"] = self.site_url
             headers["X-Title"] = self.site_name
 
