@@ -54,7 +54,11 @@ export function PresetSelector({
       selectedPreset.savModel,
       selectedPreset.genModel,
     ].filter(Boolean)
-    return presetModels.some(m => !modelIds.has(m!))
+    return presetModels.some(m => {
+      // Native and local models are always considered available
+      if (m!.startsWith('native/') || m!.startsWith('local/')) return false
+      return !modelIds.has(m!)
+    })
   }, [selectedPreset, processedModels])
 
   if (!presets || presets.length === 0) {
