@@ -84,6 +84,7 @@ import {
 } from '../components/ui/popover'
 import { useOpenRouterModels } from '../hooks/use-openrouter-models'
 import { useLocalLlmModels } from '../hooks/use-local-llm-models'
+import { useNativeModels } from '../hooks/use-native-models'
 import { useUIConstraints, type UIConstraints } from '../hooks/use-ui-constraints'
 import { LLMSelector, type ValidationStatus } from '../components/llm-selector'
 import { PresetSelector, type LLMPreset } from '../components/preset-selector'
@@ -432,8 +433,9 @@ const DEFAULT_CONFIG = {
     sentiment_depth: 'praise and complain',
     mav: {
       models: ['', '', ''],
-      similarity_threshold: 0.75,
-      max_queries: 30,
+      dedup_threshold: 0.85,
+      agreement_threshold: 0.65,
+      max_queries: 60,
     },
   },
   reviewer_profile: {
@@ -500,8 +502,8 @@ const DEFAULT_CONFIG = {
     rgm_enabled: true,
     polarity_enabled: true,
     noise_enabled: true,
-    age_enabled: true,
-    sex_enabled: true,
+    age_enabled: false,
+    sex_enabled: false,
   },
 }
 
@@ -517,7 +519,8 @@ function GenerateWizard() {
   const { constraints } = useUIConstraints()
   const { models: rawModels, processedModels, providers, groupedModels, loading: modelsLoading } = useOpenRouterModels()
   const { models: localModels } = useLocalLlmModels()
-  const allModels = [...processedModels, ...localModels]
+  const { models: nativeModels } = useNativeModels()
+  const allModels = [...processedModels, ...localModels, ...nativeModels]
 
   // LLM Presets
   const presets = useQuery(api.llmPresets.list)
@@ -602,7 +605,8 @@ function GenerateWizard() {
       mav?: {
         enabled: boolean
         models: string[]
-        similarity_threshold?: number
+        dedup_threshold?: number
+        agreement_threshold?: number
         max_queries?: number
       }
     }
@@ -832,10 +836,10 @@ function GenerateWizard() {
     let hasInvalidModels = false
     const newConfig = { ...config }
 
-    // Check MAV models
+    // Check MAV models (skip native/ and local/ prefixed models — they're always valid)
     const mavModels = config.subject_profile?.mav?.models || []
     const validatedMavModels = mavModels.map((modelId: string) => {
-      if (modelId && !validModelIds.has(modelId)) {
+      if (modelId && !modelId.startsWith('native/') && !modelId.startsWith('local/') && !validModelIds.has(modelId)) {
         hasInvalidModels = true
         console.warn(`Invalid MAV model ID found: ${modelId}`)
         return ''
@@ -843,10 +847,10 @@ function GenerateWizard() {
       return modelId
     })
 
-    // Check generation model
+    // Check generation model (skip native/ and local/ prefixed models)
     const genModel = config.generation?.model || ''
     let validatedGenModel = genModel
-    if (genModel && !validModelIds.has(genModel)) {
+    if (genModel && !genModel.startsWith('native/') && !genModel.startsWith('local/') && !validModelIds.has(genModel)) {
       hasInvalidModels = true
       console.warn(`Invalid generation model ID found: ${genModel}`)
       validatedGenModel = ''
@@ -1139,10 +1143,13 @@ function GenerateWizard() {
   // Apply preset to config
   const applyPreset = useCallback((preset: LLMPreset) => {
     const validModelIds = new Set(allModels.map(m => m.id))
+    // Native and local models are always valid (don't need to be in OpenRouter list)
+    const isValidModel = (id: string) =>
+      id.startsWith('native/') || id.startsWith('local/') || validModelIds.has(id)
     let appliedCount = 0
 
     // Apply RDE model if valid
-    if (preset.rdeModel && validModelIds.has(preset.rdeModel)) {
+    if (preset.rdeModel && isValidModel(preset.rdeModel)) {
       setRdeModel(preset.rdeModel)
       appliedCount++
     }
@@ -1151,7 +1158,7 @@ function GenerateWizard() {
     if (preset.mavModels && preset.mavModels.length > 0) {
       const validatedMavModels = preset.mavModels
         .slice(0, 3)
-        .map(m => m && validModelIds.has(m) ? m : '')
+        .map(m => m && isValidModel(m) ? m : '')
       // Ensure we have 3 slots (pad with empty strings)
       while (validatedMavModels.length < 3) {
         validatedMavModels.push('')
@@ -1161,7 +1168,7 @@ function GenerateWizard() {
     }
 
     // Apply SAV model (for when MAV is disabled - uses first MAV slot)
-    if (preset.savModel && validModelIds.has(preset.savModel)) {
+    if (preset.savModel && isValidModel(preset.savModel)) {
       // SAV model goes into the first MAV model slot when MAV is disabled
       const currentMavModels = config.subject_profile?.mav?.models || ['', '', '']
       // Only apply if no MAV models are already set
@@ -1172,7 +1179,7 @@ function GenerateWizard() {
     }
 
     // Apply generation model if valid
-    if (preset.genModel && validModelIds.has(preset.genModel)) {
+    if (preset.genModel && isValidModel(preset.genModel)) {
       updateConfig('generation.model', preset.genModel)
       updateConfig('generation.provider', preset.genModel.split('/')[0])
       // Also update first slot in models array if multi-model is active
@@ -1221,6 +1228,16 @@ function GenerateWizard() {
 
     // Local models (local/ prefix) don't need OpenRouter validation — mark as valid
     if (modelId.startsWith('local/')) {
+      setModelValidations(prev => ({
+        ...prev,
+        [modelKey]: { status: 'valid', modelId }
+      }))
+      return
+    }
+
+    // Native models (native/ prefix) don't need OpenRouter validation — mark as valid
+    // (API key is already validated when the model appears in the native models list)
+    if (modelId.startsWith('native/')) {
       setModelValidations(prev => ({
         ...prev,
         [modelKey]: { status: 'valid', modelId }
@@ -1509,7 +1526,8 @@ function GenerateWizard() {
           mav: {
             enabled: config.ablation.mav_enabled,
             models: config.subject_profile.mav.models.filter((m: string) => m),
-            similarity_threshold: config.subject_profile.mav.similarity_threshold,
+            dedup_threshold: config.subject_profile.mav.dedup_threshold,
+            agreement_threshold: config.subject_profile.mav.agreement_threshold,
             max_queries: config.subject_profile.mav.max_queries,
           },
         } : {
@@ -2698,10 +2716,13 @@ function GenerateWizard() {
                       variant="outline"
                       size="sm"
                       onClick={() => {
-                        const last = realTargets[realTargets.length - 1]
+                        // Standard target sequence: 100, 500, 1000, 1500, 2000, ...
+                        const STANDARD_TARGETS = [100, 500, 1000, 1500, 2000, 2500, 3000, 4000, 5000, 6000, 8000, 10000]
+                        const existingValues = realTargets.map(t => t.target_value)
+                        const nextValue = STANDARD_TARGETS.find(v => !existingValues.includes(v)) ?? (existingValues[existingValues.length - 1] + 500)
                         setRealTargets([...realTargets, {
                           count_mode: 'sentences',
-                          target_value: last.target_value + 500,
+                          target_value: nextValue,
                         }])
                       }}
                     >
@@ -5521,19 +5542,45 @@ function IntelligenceStepContent({ config, updateConfig, constraints, modelValid
                         </p>
                       </div>
                       <span className="text-sm font-mono bg-muted px-2 py-1 rounded">
-                        {config.subject_profile.mav.similarity_threshold.toFixed(2)}
+                        {config.subject_profile.mav.dedup_threshold.toFixed(2)}
                       </span>
                     </div>
                     <Slider
-                      value={[config.subject_profile.mav.similarity_threshold]}
-                      onValueChange={([v]) => updateConfig('subject_profile.mav.similarity_threshold', v)}
-                      min={c.mav_similarity_threshold.min}
-                      max={c.mav_similarity_threshold.max}
-                      step={c.mav_similarity_threshold.step}
+                      value={[config.subject_profile.mav.dedup_threshold]}
+                      onValueChange={([v]) => updateConfig('subject_profile.mav.dedup_threshold', v)}
+                      min={c.mav_dedup_threshold.min}
+                      max={c.mav_dedup_threshold.max}
+                      step={c.mav_dedup_threshold.step}
                     />
                     <div className="flex justify-between text-xs text-muted-foreground">
                       <span>Lenient (fewer queries)</span>
                       <span>Strict (more queries)</span>
+                    </div>
+                  </div>
+
+                  {/* Agreement Threshold Slider */}
+                  <div className="space-y-3">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <Label className="text-sm">Agreement Threshold (τ)</Label>
+                        <p className="text-xs text-muted-foreground">
+                          How similar answers must be to reach consensus during voting
+                        </p>
+                      </div>
+                      <span className="text-sm font-mono bg-muted px-2 py-1 rounded">
+                        {(config.subject_profile.mav.agreement_threshold ?? 0.80).toFixed(2)}
+                      </span>
+                    </div>
+                    <Slider
+                      value={[config.subject_profile.mav.agreement_threshold ?? 0.65]}
+                      onValueChange={([v]) => updateConfig('subject_profile.mav.agreement_threshold', v)}
+                      min={c.mav_dedup_threshold.min}
+                      max={c.mav_dedup_threshold.max}
+                      step={c.mav_dedup_threshold.step}
+                    />
+                    <div className="flex justify-between text-xs text-muted-foreground">
+                      <span>Lenient (more consensus)</span>
+                      <span>Strict (fewer consensus)</span>
                     </div>
                   </div>
 
@@ -6721,9 +6768,13 @@ function GenerationStepContent({
 
   const handleAddTarget = () => {
     const lastTarget = targets[targets.length - 1]
+    // Standard target sequence: 100, 500, 1000, 1500, 2000, ...
+    const STANDARD_TARGETS = [100, 500, 1000, 1500, 2000, 2500, 3000, 4000, 5000, 6000, 8000, 10000]
+    const existingValues = targets.map((t: CeraTarget) => t.target_value)
+    const nextValue = STANDARD_TARGETS.find(v => !existingValues.includes(v)) ?? (existingValues[existingValues.length - 1] + 500)
     updateConfig('generation.targets', [...targets, {
       ...lastTarget,
-      target_value: lastTarget.target_value + 400,
+      target_value: nextValue,
     }])
   }
 

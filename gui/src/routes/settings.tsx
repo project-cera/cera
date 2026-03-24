@@ -31,6 +31,7 @@ import { Switch } from '../components/ui/switch'
 import { useOpenRouterLimits } from '../hooks/use-openrouter-limits'
 import { useOpenRouterModels } from '../hooks/use-openrouter-models'
 import { useLocalLlmModels } from '../hooks/use-local-llm-models'
+import { useNativeModels } from '../hooks/use-native-models'
 import { LLMSelector } from '../components/llm-selector'
 
 export const Route = createFileRoute('/settings')({
@@ -63,8 +64,9 @@ function SettingsPage() {
   const clearDefaultPreset = useMutation(api.llmPresets.clearDefault)
   const { providers, groupedModels, processedModels, loading: modelsLoading } = useOpenRouterModels()
   const { models: localLlmModelsForPresets } = useLocalLlmModels()
-  // Combine OpenRouter + local models for preset display/validation
-  const allModels = [...processedModels, ...localLlmModelsForPresets]
+  const { models: nativeModelsForPresets } = useNativeModels()
+  // Combine OpenRouter + local + native models for preset display/validation
+  const allModels = [...processedModels, ...localLlmModelsForPresets, ...nativeModelsForPresets]
 
   // Preset dialog state
   const [presetDialogOpen, setPresetDialogOpen] = useState(false)
@@ -91,6 +93,13 @@ function SettingsPage() {
   const [theme, setTheme] = useState<'light' | 'dark' | 'system'>('dark')
   const [jobsDir, setJobsDir] = useState('./jobs')
   const [saving, setSaving] = useState(false)
+
+  // Native SDK API Keys state
+  const [openaiApiKey, setOpenaiApiKey] = useState('')
+  const [anthropicApiKey, setAnthropicApiKey] = useState('')
+  const [geminiApiKey, setGeminiApiKey] = useState('')
+  const [perplexityApiKey, setPerplexityApiKey] = useState('')
+  const [showNativeKeys, setShowNativeKeys] = useState<Record<string, boolean>>({})
 
   // Local LLMs state
   const [localLlmEnabled, setLocalLlmEnabled] = useState(false)
@@ -193,6 +202,10 @@ function SettingsPage() {
       setLocalLlmEnabled(settings.localLlmEnabled ?? false)
       setLocalLlmEndpoint(settings.localLlmEndpoint ?? '')
       setLocalLlmApiKey(settings.localLlmApiKey ?? '')
+      setOpenaiApiKey(settings.openaiApiKey ?? '')
+      setAnthropicApiKey(settings.anthropicApiKey ?? '')
+      setGeminiApiKey(settings.geminiApiKey ?? '')
+      setPerplexityApiKey(settings.perplexityApiKey ?? '')
     }
   }, [settings])
 
@@ -209,6 +222,10 @@ function SettingsPage() {
         localLlmEnabled,
         localLlmEndpoint: localLlmEndpoint || undefined,
         localLlmApiKey: localLlmApiKey || undefined,
+        openaiApiKey: openaiApiKey || undefined,
+        anthropicApiKey: anthropicApiKey || undefined,
+        geminiApiKey: geminiApiKey || undefined,
+        perplexityApiKey: perplexityApiKey || undefined,
       })
       toast.success('Settings saved successfully')
     } catch (error) {
@@ -373,6 +390,65 @@ function SettingsPage() {
               ) : null}
             </>
           )}
+        </CardContent>
+      </Card>
+
+      {/* Native SDK API Keys */}
+      <Card>
+        <CardHeader>
+          <div className="flex items-center gap-2">
+            <Key className="h-5 w-5 text-emerald-500" />
+            <CardTitle>Native Provider API Keys</CardTitle>
+            <Badge variant="secondary" className="bg-emerald-500/20 text-emerald-500 text-[10px]">Optional</Badge>
+          </div>
+          <CardDescription>
+            Direct API access to providers, bypassing OpenRouter. Useful for features like Perplexity's native web search in MAV verification. Only configure providers you need.
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="space-y-4">
+          {([
+            { key: 'openai', label: 'OpenAI', placeholder: 'sk-...', value: openaiApiKey, setter: setOpenaiApiKey, url: 'https://platform.openai.com/api-keys' },
+            { key: 'anthropic', label: 'Anthropic', placeholder: 'sk-ant-...', value: anthropicApiKey, setter: setAnthropicApiKey, url: 'https://console.anthropic.com/settings/keys' },
+            { key: 'gemini', label: 'Google Gemini', placeholder: 'AIza...', value: geminiApiKey, setter: setGeminiApiKey, url: 'https://aistudio.google.com/apikey' },
+            { key: 'perplexity', label: 'Perplexity', placeholder: 'pplx-...', value: perplexityApiKey, setter: setPerplexityApiKey, url: 'https://www.perplexity.ai/settings/api' },
+          ] as const).map(({ key, label, placeholder, value, setter, url }) => (
+            <div key={key} className="space-y-1.5">
+              <div className="flex items-center justify-between">
+                <label className="text-sm font-medium">{label}</label>
+                <a href={url} target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground hover:text-primary">
+                  Get key &rarr;
+                </a>
+              </div>
+              <div className="relative">
+                <Input
+                  type={showNativeKeys[key] ? 'text' : 'password'}
+                  placeholder={placeholder}
+                  value={value}
+                  onChange={(e) => setter(e.target.value)}
+                  className="pr-10"
+                />
+                <Button
+                  type="button"
+                  variant="ghost"
+                  size="icon"
+                  className="absolute right-0 top-0 h-full px-3 hover:bg-transparent"
+                  onClick={() => setShowNativeKeys(prev => ({ ...prev, [key]: !prev[key] }))}
+                >
+                  {showNativeKeys[key] ? (
+                    <EyeOff className="h-4 w-4 text-muted-foreground" />
+                  ) : (
+                    <Eye className="h-4 w-4 text-muted-foreground" />
+                  )}
+                </Button>
+              </div>
+              {value && (
+                <div className="flex items-center gap-1 text-xs text-emerald-500">
+                  <CheckCircle2 className="h-3 w-3" />
+                  <span>Configured</span>
+                </div>
+              )}
+            </div>
+          ))}
         </CardContent>
       </Card>
 
