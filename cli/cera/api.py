@@ -31,9 +31,9 @@ app.add_middleware(
 class MAVConfig(BaseModel):
     enabled: bool = False
     models: list[str] = []
-    similarity_threshold: float = 0.75
-    answer_threshold: float = 0.80
-    max_queries: int = 30
+    dedup_threshold: float = 0.85
+    agreement_threshold: float = 0.65
+    max_queries: int = 60
 
 
 class SubjectProfile(BaseModel):
@@ -216,8 +216,27 @@ def create_job_directory(jobs_dir: str, job_id: str, job_name: str) -> dict[str,
     """
     from pathlib import Path
 
+    from datetime import datetime, timezone, timedelta
     sanitized = sanitize_job_name(job_name)
-    job_dir_name = f"{job_id}-{sanitized}" if sanitized else job_id
+
+    # Check if a directory for this job already exists (match by job_id OR sanitized name)
+    from pathlib import Path
+    jobs_path = Path(jobs_dir)
+    if jobs_path.exists():
+        for existing in jobs_path.iterdir():
+            if existing.is_dir() and (job_id in existing.name or (sanitized and existing.name.endswith(f"-{sanitized}"))):
+                job_dir_name = existing.name
+                break
+        else:
+            est = timezone(timedelta(hours=-5))
+            now = datetime.now(est)
+            ts = now.strftime("%y%m%d-%H%M%S%f")[:-3]  # YYMMDD-HHMMSSms in EST
+            job_dir_name = f"{ts}-{sanitized}" if sanitized else f"{ts}-{job_id}"
+    else:
+        est = timezone(timedelta(hours=-5))
+        now = datetime.now(est)
+        ts = now.strftime("%y%m%d-%H%M%S%f")[:-3]
+        job_dir_name = f"{ts}-{sanitized}" if sanitized else f"{ts}-{job_id}"
     job_dir = Path(jobs_dir) / job_dir_name
 
     # Create all subdirectories
@@ -354,7 +373,7 @@ def save_job_config(
             config_data["subject_profile"]["mav"] = {
                 "enabled": config.subject_profile.mav.enabled,
                 "models": config.subject_profile.mav.models,
-                "similarity_threshold": config.subject_profile.mav.similarity_threshold,
+                "dedup_threshold": config.subject_profile.mav.dedup_threshold,
                 "max_queries": getattr(config.subject_profile.mav, 'max_queries', 30),
             }
 
@@ -479,6 +498,23 @@ def _parse_local_model(model_id: str) -> tuple[bool, str]:
     if model_id.startswith("local/"):
         return True, model_id[len("local/"):]
     return False, model_id
+
+
+def _parse_model_source(model_id: str) -> tuple[str, str, str]:
+    """Parse a model ID to determine its source (openrouter, local, or native).
+
+    Returns (source, provider, actual_model_id):
+        - ("local", "", "Qwen/Qwen3-30B-A3B")
+        - ("native", "openai", "gpt-4o")
+        - ("openrouter", "", "anthropic/claude-sonnet-4")
+    """
+    if model_id.startswith("local/"):
+        return "local", "", model_id[len("local/"):]
+    if model_id.startswith("native/"):
+        parts = model_id.split("/", 2)
+        if len(parts) == 3:
+            return "native", parts[1], parts[2]
+    return "openrouter", "", model_id
 
 
 async def _get_local_llm_settings(convex) -> tuple[str, str]:
@@ -1243,6 +1279,7 @@ async def execute_composition(
     jobs_directory: str,
     convex_url: Optional[str],
     convex_token: Optional[str],
+    settings: Optional[dict] = None,
 ) -> dict:
     """
     Execute only the COMPOSITION phase of the CERA pipeline.
@@ -1286,8 +1323,8 @@ async def execute_composition(
         if config.ablation and not config.ablation.mav_enabled:
             mav_enabled = False
         mav_models = config.subject_profile.mav.models if config.subject_profile.mav else []
-        mav_threshold = config.subject_profile.mav.similarity_threshold if config.subject_profile.mav else 0.85
-        mav_answer_threshold = getattr(config.subject_profile.mav, 'answer_threshold', 0.80) if config.subject_profile.mav else 0.80
+        mav_threshold = config.subject_profile.mav.dedup_threshold if config.subject_profile.mav else 0.85
+        mav_agreement_threshold = getattr(config.subject_profile.mav, 'agreement_threshold', 0.80) if config.subject_profile.mav else 0.80
         mav_max_queries = getattr(config.subject_profile.mav, 'max_queries', 30) if config.subject_profile.mav else 30
 
         if convex:
@@ -1310,8 +1347,8 @@ async def execute_composition(
         sil_mav_config = SILMAVConfig(
             enabled=mav_enabled and len(mav_models) >= 2,
             models=mav_models,
-            similarity_threshold=mav_threshold,
-            answer_threshold=mav_answer_threshold,
+            dedup_threshold=mav_threshold,
+            agreement_threshold=mav_agreement_threshold,
             max_queries=mav_max_queries,
         )
 
@@ -1330,6 +1367,7 @@ async def execute_composition(
             tavily_api_key=tavily_api_key,
             log_callback=sil_log_callback if convex else None,
             sil_enabled=sil_enabled,
+            settings=settings,
         )
 
         if convex:
@@ -1478,7 +1516,7 @@ async def execute_composition(
                 "config": {
                     "models": [md.model for md in mav_result.model_data if not md.error],
                     "model_count": len([md for md in mav_result.model_data if not md.error]),
-                    "answer_similarity_threshold": report.threshold_used,
+                    "answer_dedup_threshold": report.threshold_used,
                     "max_queries": mav_max_queries,
                     "consensus_method": "LLM-judged agreement voting",
                 },
@@ -1537,7 +1575,7 @@ async def execute_composition(
                 writer.writerow(["queries_after_dedup", report.queries_after_dedup])
                 writer.writerow(["queries_with_consensus", report.queries_with_consensus])
                 writer.writerow(["consensus_rate", f"{mav_report['summary']['consensus_rate']:.4f}"])
-                writer.writerow(["answer_threshold", report.threshold_used])
+                writer.writerow(["agreement_threshold", report.threshold_used])
                 writer.writerow(["consensus_method", "LLM-judged agreement voting"])
                 writer.writerow(["used_fallback", str(report.used_fallback)])
 
@@ -1817,6 +1855,7 @@ async def compose_job(request: Union[CompositionRequest, CompositionRequestV2]):
                 settings.get("jobsDirectory", "./jobs"),
                 request.convexUrl,
                 request.convexToken,
+                settings=settings,
             )
             return result
         else:
@@ -1884,6 +1923,14 @@ async def execute_composition_simple(
     if convex_url and convex_token:
         convex = ConvexClient(url=convex_url, token=convex_token, pocketbase_url=os.environ.get("POCKETBASE_URL"))
 
+    # Fetch settings from Convex for native API keys
+    settings = None
+    if convex:
+        try:
+            settings = await convex.get_settings()
+        except Exception:
+            pass
+
     # Create job directory structure first (needed for start_composing)
     job_paths = create_job_directory(jobs_directory, job_id, job_name)
 
@@ -1911,15 +1958,15 @@ async def execute_composition_simple(
     if config.ablation and not config.ablation.mav_enabled:
         mav_enabled = False
     mav_models = config.subject_profile.mav.models if config.subject_profile.mav else []
-    mav_threshold = config.subject_profile.mav.similarity_threshold if config.subject_profile.mav else 0.85
-    mav_answer_threshold = getattr(config.subject_profile.mav, 'answer_threshold', 0.80) if config.subject_profile.mav else 0.80
+    mav_threshold = config.subject_profile.mav.dedup_threshold if config.subject_profile.mav else 0.85
+    mav_agreement_threshold = getattr(config.subject_profile.mav, 'agreement_threshold', 0.80) if config.subject_profile.mav else 0.80
     mav_max_queries = getattr(config.subject_profile.mav, 'max_queries', 30) if config.subject_profile.mav else 30
 
     sil_mav_config = SILMAVConfig(
         enabled=mav_enabled and len(mav_models) >= 2,
         models=mav_models,
-        similarity_threshold=mav_threshold,
-        answer_threshold=mav_answer_threshold,
+        dedup_threshold=mav_threshold,
+        agreement_threshold=mav_agreement_threshold,
         max_queries=mav_max_queries,
     )
 
@@ -1939,6 +1986,7 @@ async def execute_composition_simple(
         log_callback=sil_log_callback if convex else None,
         usage_tracker=usage_tracker,
         sil_enabled=sil_enabled,
+        settings=settings,
     )
 
     # Gather intelligence (this runs MAV if enabled)
@@ -2077,7 +2125,7 @@ async def execute_composition_simple(
             "config": {
                 "models": [md.model for md in mav_result.model_data if not md.error],
                 "model_count": len([md for md in mav_result.model_data if not md.error]),
-                "answer_similarity_threshold": report.threshold_used,
+                "answer_dedup_threshold": report.threshold_used,
                 "max_queries": mav_max_queries,
                 "consensus_method": "LLM-judged agreement voting",
             },
@@ -2136,7 +2184,7 @@ async def execute_composition_simple(
             writer.writerow(["queries_after_dedup", report.queries_after_dedup])
             writer.writerow(["queries_with_consensus", report.queries_with_consensus])
             writer.writerow(["consensus_rate", f"{mav_report['summary']['consensus_rate']:.4f}"])
-            writer.writerow(["answer_threshold", report.threshold_used])
+            writer.writerow(["agreement_threshold", report.threshold_used])
             writer.writerow(["consensus_method", "LLM-judged agreement voting"])
             writer.writerow(["used_fallback", str(report.used_fallback)])
 
@@ -2259,6 +2307,36 @@ async def get_status():
             "export",
         ],
     }
+
+
+@app.get("/api/native-models")
+async def get_native_models():
+    """Get available models from native SDK providers.
+
+    Reads API keys from Convex settings first, then falls back to env vars.
+    Returns which providers are configured (have API keys) and their
+    available models, fetched directly from each provider's API.
+    """
+    from cera.llm.native import fetch_all_native_models
+    import httpx
+
+    # Read settings from Convex directly via HTTP query (no auth needed for public queries)
+    settings = None
+    try:
+        convex_url = os.environ.get("CONVEX_URL", "http://localhost:3210")
+        async with httpx.AsyncClient() as client:
+            resp = await client.post(
+                f"{convex_url}/api/query",
+                json={"path": "settings:get", "args": {}, "format": "json"},
+                timeout=5.0,
+            )
+            if resp.status_code == 200:
+                data = resp.json()
+                settings = data.get("value")
+    except Exception:
+        pass  # Fall back to env vars only
+
+    return await fetch_all_native_models(settings=settings)
 
 
 @app.get("/api/prompts/{category}/{name}")
@@ -5445,7 +5523,11 @@ Important:
 - The "from" and "to" must be accurate character positions for the target substring
 - A sentence can have multiple opinions about different aspects
 - A sentence can have zero opinions if it's neutral/general
-Return ONLY the JSON array, no other text, no markdown code blocks."""
+CRITICAL FORMAT RULES:
+- Return ONLY the JSON array, no other text, no markdown code blocks, no ```json``` wrapping
+- Each element in the array MUST be a JSON object (dict) with a "sentences" key, NOT a nested array
+- Do NOT return arrays-within-arrays like [[{...}]] — only a flat array of review objects [{...}, {...}, ...]
+- Do NOT include any thinking, reasoning, or explanation — ONLY the JSON array"""
 
 
 def _format_knowledge_for_heuristic(subject_context: dict) -> str:
@@ -5786,6 +5868,14 @@ async def execute_heuristic_pipeline(
                     wave_results = await asyncio.gather(*[_gen_batch(b) for b in range(wave_start, wave_end)])
                     for batch_reviews in wave_results:
                         for review in batch_reviews:
+                            # Guard: if the model returned a list instead of a dict, unwrap or skip
+                            if isinstance(review, list):
+                                if len(review) > 0 and isinstance(review[0], dict):
+                                    review = review[0]  # Unwrap single-element list
+                                else:
+                                    continue  # Skip malformed entries
+                            if not isinstance(review, dict):
+                                continue
                             rid = f"{job_id}-r{run_num}-{len(reviews):05d}"
                             if "sentences" in review:
                                 reviews.append({"id": rid, "sentences": review["sentences"], "method": "heuristic"})
@@ -6654,6 +6744,14 @@ async def execute_pipeline(
     convex = None
     if convex_url and convex_token:
         convex = ConvexClient(convex_url, convex_token, pocketbase_url=os.environ.get("POCKETBASE_URL"))
+
+    # Fetch settings from Convex for native API keys
+    settings = None
+    if convex:
+        try:
+            settings = await convex.get_settings()
+        except Exception:
+            pass
 
     # ========================================
     # HEURISTIC METHOD (RQ1 Baseline)
@@ -11228,6 +11326,127 @@ async def reset_domain_patterns() -> DomainPatternsResponse:
 
 
 # ==========================================
+# Ablation SIL: Job Scanner & Dataset Reader
+# ==========================================
+
+
+class ScanJobDatasetsRequest(BaseModel):
+    jobDir: str
+
+
+@app.post("/api/scan-job-datasets")
+async def scan_job_datasets(request: ScanJobDatasetsRequest):
+    """Scan a job directory for available explicit JSONL datasets and detect ablation mode from config."""
+    from pathlib import Path
+
+    job_dir = Path(request.jobDir)
+    datasets_dir = job_dir / "datasets"
+    config_path = job_dir / "config.json"
+
+    if not datasets_dir.exists():
+        raise HTTPException(status_code=404, detail="No datasets directory found")
+
+    # Detect domain from config if available
+    domain = "laptop"
+    job_name = job_dir.name
+
+    if config_path.exists():
+        try:
+            config = json.loads(config_path.read_text(encoding="utf-8"))
+            domain = (config.get("subject_profile", {}).get("domain", "laptop")).lower()
+        except Exception:
+            pass
+    else:
+        # No config — infer domain from directory name
+        name_lower = job_name.lower()
+        if "restaurant" in name_lower:
+            domain = "restaurant"
+        elif "hotel" in name_lower:
+            domain = "hotel"
+
+    # Find explicit JSONL files per target size
+    available_sizes = []
+    for target_dir in sorted(datasets_dir.iterdir()):
+        if not target_dir.is_dir() or not target_dir.name.isdigit():
+            continue
+        size = int(target_dir.name)
+        # Look for explicit JSONL in any run/model path
+        jsonl_files = list(target_dir.rglob("*-explicit.jsonl"))
+        if not jsonl_files:
+            jsonl_files = list(target_dir.rglob("*.jsonl"))
+            # Filter out implicit
+            jsonl_files = [f for f in jsonl_files if "implicit" not in f.name]
+        if jsonl_files:
+            # Count reviews with valid text in the first file
+            review_count = 0
+            try:
+                with open(jsonl_files[0], "r", encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line:
+                            continue
+                        try:
+                            obj = json.loads(line)
+                            text = obj.get("review_text") or obj.get("text") or obj.get("content", "")
+                            if not text and isinstance(obj.get("sentences"), list):
+                                text = " ".join(s.get("text", "") for s in obj["sentences"] if s.get("text"))
+                            if text:
+                                review_count += 1
+                        except json.JSONDecodeError:
+                            continue
+            except Exception:
+                pass
+            available_sizes.append({
+                "size": size,
+                "filePath": str(jsonl_files[0]),
+                "fileName": jsonl_files[0].name,
+                "reviewCount": review_count,
+            })
+
+    return {
+        "jobName": job_name,
+        "domain": domain,
+        "sizes": available_sizes,
+    }
+
+
+class ReadJobDatasetRequest(BaseModel):
+    filePath: str
+
+
+@app.post("/api/read-job-dataset")
+async def read_job_dataset(request: ReadJobDatasetRequest):
+    """Read a JSONL file and return parsed reviews."""
+    from pathlib import Path
+
+    file_path = Path(request.filePath)
+    if not file_path.exists():
+        raise HTTPException(status_code=404, detail="File not found")
+
+    reviews = []
+    with open(file_path, "r", encoding="utf-8") as f:
+        for i, line in enumerate(f):
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                obj = json.loads(line)
+                # Try direct text fields first
+                text = obj.get("review_text") or obj.get("text") or obj.get("content", "")
+                # CERA format: sentences array with text per sentence
+                if not text and isinstance(obj.get("sentences"), list):
+                    text = " ".join(
+                        s.get("text", "") for s in obj["sentences"] if s.get("text")
+                    )
+                if text:
+                    reviews.append({"index": i, "text": text})
+            except json.JSONDecodeError:
+                continue
+
+    return {"reviews": reviews, "totalReviews": len(reviews)}
+
+
+# ==========================================
 # Ablation SIL: Factual Flagging
 # ==========================================
 
@@ -11241,11 +11460,16 @@ class FlagReviewsRequest(BaseModel):
     reviews: list[FlagReviewItem]
     model_id: str
     batch_size: int = 25
+    local_endpoint: str = ""
+    local_api_key: str = ""
+    openrouter_api_key: str = ""
 
 
 class FlagResult(BaseModel):
     review_index: int
     reason: str
+    highlights: list[str] = []
+    type: str = ""
 
 
 class FlagReviewsResponse(BaseModel):
@@ -11257,86 +11481,394 @@ class FlagReviewsResponse(BaseModel):
 async def flag_reviews(request: FlagReviewsRequest):
     """Flag reviews that contain factual errors relative to a ground truth factsheet.
 
-    Sends reviews in batches to an LLM via OpenRouter, asking it to identify
-    factual claims that contradict the factsheet. Returns a list of flagged
-    reviews with reasons.
+    Sends reviews in batches to an LLM via OpenRouter or local vLLM, asking it
+    to identify factual claims that contradict the factsheet. Returns a list of
+    flagged reviews with reasons.
     """
-    api_key = os.environ.get("OPENROUTER_API_KEY")
-    if not api_key:
-        raise HTTPException(status_code=500, detail="OPENROUTER_API_KEY not set")
+    model_id = request.model_id
+    is_local, actual_model_id = _parse_local_model(model_id)
+
+    # Determine endpoint and auth
+    if is_local:
+        if not request.local_endpoint:
+            raise HTTPException(status_code=400, detail="local_endpoint required for local models")
+        base_url = request.local_endpoint.rstrip("/")
+        if not base_url.endswith("/v1"):
+            base_url += "/v1"
+        api_url = f"{base_url}/chat/completions"
+        auth_key = request.local_api_key
+    else:
+        api_key = request.openrouter_api_key or os.environ.get("OPENROUTER_API_KEY", "")
+        if not api_key:
+            raise HTTPException(status_code=500, detail="OpenRouter API key not provided")
+        api_url = "https://openrouter.ai/api/v1/chat/completions"
+        auth_key = api_key
+
+    # Handle :thinking suffix for local models
+    enable_thinking = False
+    if is_local and actual_model_id.endswith(":thinking"):
+        actual_model_id = actual_model_id.removesuffix(":thinking")
+        enable_thinking = True
 
     system_prompt = (
         "You are a factual accuracy checker. Here is the ground truth factsheet:\n\n"
         f"{request.factsheet}\n\n"
-        "For each review below, identify any factual claims that contradict the factsheet. "
-        "Only flag reviews with clear factual errors — do not flag opinions, subjective preferences, or vague statements.\n\n"
+        "For each review below, check every claim about the product against the factsheet. Flag a review if it contains ANY of:\n"
+        "1. FACTUAL ERROR: States a product spec or feature that contradicts the factsheet (e.g., says 32GB RAM when factsheet says 24GB base).\n"
+        "2. HALLUCINATED FEATURE: Claims the product has something the factsheet's 'Does NOT Have' section explicitly denies.\n"
+        "3. WRONG SPEC: Cites a specific number for a product attribute (RAM, cores, price, battery hours, ports, weight, display size, etc.) that differs from what the factsheet states.\n"
+        "4. VAGUE REVIEW: Contains zero references to any specific product spec from the factsheet — only generic praise/complaints. "
+        "Note: opinions about build quality, price, performance, customer service, screen quality, etc. are NOT vague — they are valid subjective reviews. "
+        "Only flag as vague if the review could be about literally any product with no identifying details whatsoever.\n\n"
+        "IMPORTANT: Vague reviews are tracked for informational purposes only and are NOT counted in the error rate. Only types 1-3 above are actual errors.\n\n"
+        "Do NOT flag: personal stories, locations, usage contexts, opinions, subjective preferences, comparisons to the reviewer's old devices, or any topic the factsheet does not cover at all.\n\n"
         "Respond with a JSON object containing a single key \"flags\" whose value is an array. "
-        "Each element should be an object with \"review_number\" (the number shown before the review) "
-        "and \"reason\" (a brief explanation of the factual error). "
-        "If no reviews have factual errors, return {\"flags\": []}."
+        "Each element should be an object with:\n"
+        "- \"review_number\": the number shown before the review\n"
+        "- \"reason\": a brief explanation of the issue\n"
+        "- \"type\": one of \"factual_error\", \"hallucinated_feature\", \"wrong_spec\", or \"vague_review\"\n"
+        "- \"highlights\": for factual issues, an array of the exact incorrect phrases copied verbatim from the review text (e.g., [\"20-core CPU\"]). For vague reviews, leave this empty [].\n\n"
+        "If no reviews have issues, return {\"flags\": []}."
     )
 
-    all_flags: list[FlagResult] = []
     reviews = request.reviews
     batch_size = max(1, request.batch_size)
 
-    async with httpx.AsyncClient(timeout=120.0) as client:
-        for batch_start in range(0, len(reviews), batch_size):
-            batch = reviews[batch_start:batch_start + batch_size]
+    # Build all batches
+    batches = []
+    for batch_start in range(0, len(reviews), batch_size):
+        batch = reviews[batch_start:batch_start + batch_size]
+        review_lines = [f"{review.index}. {review.text}" for review in batch]
+        user_prompt = "\n\n".join(review_lines)
 
-            # Build numbered list of reviews
-            review_lines = []
-            for review in batch:
-                review_lines.append(f"{review.index}. {review.text}")
-            user_prompt = "\n\n".join(review_lines)
+        body: dict = {
+            "model": actual_model_id,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            "temperature": 0.1,
+            "max_tokens": 16384 if enable_thinking else 4096,
+        }
+        if is_local:
+            body["chat_template_kwargs"] = {"enable_thinking": enable_thinking}
+        else:
+            body["response_format"] = {"type": "json_object"}
+        batches.append(body)
 
-            try:
-                response = await client.post(
-                    "https://openrouter.ai/api/v1/chat/completions",
-                    headers={
-                        "Authorization": f"Bearer {api_key}",
-                        "Content-Type": "application/json",
-                    },
-                    json={
-                        "model": request.model_id,
-                        "messages": [
-                            {"role": "system", "content": system_prompt},
-                            {"role": "user", "content": user_prompt},
-                        ],
-                        "response_format": {"type": "json_object"},
-                        "temperature": 0.1,
-                    },
-                )
-                response.raise_for_status()
-                data = response.json()
+    headers = {
+        "Authorization": f"Bearer {auth_key}",
+        "Content-Type": "application/json",
+    }
 
-                content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
-                if content:
-                    parsed = json.loads(content)
-                    flags_raw = parsed.get("flags", [])
-                    for flag in flags_raw:
-                        review_number = flag.get("review_number")
-                        reason = flag.get("reason", "")
-                        if review_number is not None and reason:
-                            all_flags.append(FlagResult(
-                                review_index=int(review_number),
-                                reason=str(reason),
-                            ))
-            except httpx.HTTPStatusError as e:
-                raise HTTPException(
-                    status_code=502,
-                    detail=f"OpenRouter API error: {e.response.status_code} - {e.response.text[:500]}",
-                )
-            except json.JSONDecodeError:
-                # LLM returned non-JSON — skip this batch
-                continue
-            except Exception as e:
-                raise HTTPException(
-                    status_code=500,
-                    detail=f"Flagging error: {str(e)}",
-                )
+    async def process_batch(client: httpx.AsyncClient, body: dict) -> list[FlagResult]:
+        """Process a single batch and return its flags."""
+        flags: list[FlagResult] = []
+        try:
+            response = await client.post(api_url, headers=headers, json=body)
+            response.raise_for_status()
+            data = response.json()
+            content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
+            if content:
+                if "</think>" in content:
+                    content = content.split("</think>")[-1].strip()
+                if content and not content.startswith("{"):
+                    json_start = content.find("{")
+                    json_end = content.rfind("}")
+                    if json_start >= 0 and json_end > json_start:
+                        content = content[json_start:json_end + 1]
+                parsed = json.loads(content)
+                for flag in parsed.get("flags", []):
+                    review_number = flag.get("review_number")
+                    reason = flag.get("reason", "")
+                    highlights = flag.get("highlights", [])
+                    if not isinstance(highlights, list):
+                        highlights = []
+                    highlights = [str(h) for h in highlights if h]
+                    flag_type = str(flag.get("type", ""))
+                    if review_number is not None and reason:
+                        flags.append(FlagResult(review_index=int(review_number), reason=str(reason), highlights=highlights, type=flag_type))
+        except (httpx.HTTPStatusError, json.JSONDecodeError, Exception):
+            pass  # Skip failed batches
+        return flags
+
+    # Run all batches in parallel
+    import asyncio
+    async with httpx.AsyncClient(timeout=300.0) as client:
+        results = await asyncio.gather(*[process_batch(client, body) for body in batches])
+
+    all_flags: list[FlagResult] = []
+    for batch_flags in results:
+        all_flags.extend(batch_flags)
 
     return FlagReviewsResponse(
         flags=all_flags,
         total_reviewed=len(reviews),
     )
+
+
+# ==========================================
+# Ablation SIL: Save Report
+# ==========================================
+
+
+class SaveAblationReportDataset(BaseModel):
+    fileName: str
+    mode: str
+    domain: str
+    size: int = 0
+    totalReviews: int = 0
+    reviews: list[dict] = []  # [{index, text}]
+    flags: list[dict] = []
+    passedReviewIndices: list[int] = []
+
+
+class SaveAblationReportRequest(BaseModel):
+    studyId: str  # e.g., "no-sil"
+    flaggerModel: str
+    batchSize: int
+    parallel: bool
+    factsheet: str
+    factsheetLineCount: int
+    existingPath: str = ""  # If set, overwrite this dir instead of creating new
+    datasets: list[SaveAblationReportDataset]
+    summary: dict  # overall + perDomain stats
+
+
+@app.post("/api/save-ablation-report")
+async def save_ablation_report(request: SaveAblationReportRequest):
+    """Save ablation study results to disk."""
+    from pathlib import Path
+    from datetime import datetime
+
+    from datetime import timezone, timedelta
+    est = timezone(timedelta(hours=-5))
+    now = datetime.now(est)
+
+    is_update = bool(request.existingPath and Path(request.existingPath).exists())
+
+    if is_update:
+        run_dir = Path(request.existingPath)
+    else:
+        base_dir = Path("./ablation-studies") / request.studyId
+        import re
+        model_clean = request.flaggerModel.split("(")[0].strip()
+        model_slug = re.sub(r'[^a-zA-Z0-9.\-]', '-', model_clean).strip('-')
+        model_slug = re.sub(r'-+', '-', model_slug)
+        subject_slugs = set()
+        for ds in request.datasets:
+            parts = ds.fileName.split("/")
+            if len(parts) >= 2:
+                subject_slugs.add(parts[0])
+        subject_suffix = "-".join(sorted(subject_slugs)) if subject_slugs else ""
+        timestamp = now.strftime("%Y%m%dT%H%M%S")
+        dir_name = f"{timestamp}-{model_slug}"
+        if subject_suffix:
+            dir_name += f"-{subject_suffix}"
+        run_dir = base_dir / dir_name
+    run_dir.mkdir(parents=True, exist_ok=True)
+
+    if is_update:
+        # UPDATE MODE: Only update confirmed states in existing dataset files
+        # Leave config.json, summary.json, summary.csv, factsheet.md, key-findings.md untouched
+        datasets_dir = run_dir / "datasets"
+        for ds in request.datasets:
+            ds_dir = datasets_dir / ds.domain / ds.mode
+            # Find the matching dataset file
+            size_val = ds.size or ds.totalReviews or len(ds.reviews)
+            ds_path = ds_dir / f"{size_val}-sent.json"
+            if ds_path.exists():
+                # Read existing file, only update flags' confirmed states
+                existing = json.loads(ds_path.read_text(encoding="utf-8"))
+                # Build lookup from incoming flags
+                incoming_flags = {f.get("reviewIndex"): f for f in ds.flags}
+                # Update confirmed states in existing flags
+                for flag in existing.get("flags", []):
+                    review_idx = flag.get("reviewIndex")
+                    if review_idx in incoming_flags:
+                        flag["confirmed"] = incoming_flags[review_idx].get("confirmed")
+                # Update stats
+                all_flags = existing.get("flags", [])
+                confirmed_count = sum(1 for f in all_flags if f.get("confirmed") is True)
+                rejected_count = sum(1 for f in all_flags if f.get("confirmed") is False)
+                total_reviews = existing.get("totalReviews") or len(existing.get("reviews", []))
+                existing["confirmedErrors"] = confirmed_count
+                existing["rejectedFlags"] = rejected_count
+                existing["errorRate"] = f"{(confirmed_count / total_reviews * 100):.2f}%" if total_reviews > 0 else "0.00%"
+                ds_path.write_text(json.dumps(existing, indent=2), encoding="utf-8")
+
+        return {"status": "updated", "path": str(run_dir)}
+
+    # NEW REPORT MODE: Write everything from scratch
+    # Write factsheet
+    (run_dir / "factsheet.md").write_text(request.factsheet, encoding="utf-8")
+
+    # Write config.json
+    config = {
+        "ablationStudy": request.studyId,
+        "timestamp": now.isoformat(),
+        "flaggerModel": request.flaggerModel,
+        "batchSize": request.batchSize,
+        "parallel": request.parallel,
+        "factsheetLineCount": request.factsheetLineCount,
+        "datasets": [
+            {
+                "fileName": ds.fileName,
+                "mode": ds.mode,
+                "domain": ds.domain,
+                "size": ds.size,
+                "totalReviews": ds.totalReviews or len(ds.reviews),
+                "totalFlagged": len(ds.flags),
+                "confirmedErrors": sum(1 for f in ds.flags if f.get("confirmed") is True),
+                "rejectedFlags": sum(1 for f in ds.flags if f.get("confirmed") is False),
+            }
+            for ds in request.datasets
+        ],
+    }
+    (run_dir / "config.json").write_text(json.dumps(config, indent=2), encoding="utf-8")
+
+    # Write summary.json
+    (run_dir / "summary.json").write_text(json.dumps(request.summary, indent=2), encoding="utf-8")
+
+    # Write summary.csv
+    modes = sorted(set(ds.mode for ds in request.datasets))
+    overall = request.summary.get("overall", {})
+    csv_lines = ["Metric," + ",".join(modes)]
+    for metric in ["totalReviews", "flaggedCount", "confirmedErrors", "rejectedFlags", "errorRate"]:
+        row = [metric] + [str(overall.get(m, {}).get(metric, "")) for m in modes]
+        csv_lines.append(",".join(row))
+    (run_dir / "summary.csv").write_text("\n".join(csv_lines), encoding="utf-8")
+
+    # Write per-dataset files: datasets/{domain}/{mode}/{size}-sent.json
+    datasets_dir = run_dir / "datasets"
+    for ds in request.datasets:
+        ds_dir = datasets_dir / ds.domain / ds.mode
+        ds_dir.mkdir(parents=True, exist_ok=True)
+
+        total_reviews = ds.totalReviews or len(ds.reviews)
+        ds_data = {
+            "mode": ds.mode,
+            "domain": ds.domain,
+            "size": ds.size,
+            "totalReviews": total_reviews,
+            "totalFlagged": len(ds.flags),
+            "confirmedErrors": sum(1 for f in ds.flags if f.get("confirmed") is True),
+            "rejectedFlags": sum(1 for f in ds.flags if f.get("confirmed") is False),
+            "errorRate": f"{(sum(1 for f in ds.flags if f.get('confirmed') is True) / total_reviews * 100):.2f}%" if total_reviews > 0 else "0.00%",
+            "reviews": ds.reviews,
+            "flags": ds.flags,
+            "passedReviewIndices": ds.passedReviewIndices,
+        }
+        (ds_dir / f"{ds.size}-sent.json").write_text(json.dumps(ds_data, indent=2), encoding="utf-8")
+
+    return {"status": "saved", "path": str(run_dir)}
+
+
+def _count_flags_in_report(run_dir) -> int:
+    """Count total flags by reading all dataset JSON files in a report directory."""
+    from pathlib import Path
+    total = 0
+    datasets_dir = Path(run_dir) / "datasets"
+    if datasets_dir.exists():
+        for f in datasets_dir.rglob("*-sent.json"):
+            try:
+                data = json.loads(f.read_text(encoding="utf-8"))
+                total += len(data.get("flags", []))
+            except Exception:
+                continue
+    return total
+
+
+@app.get("/api/list-ablation-reports")
+async def list_ablation_reports(study_id: str = "no-sil"):
+    """List all saved ablation study reports."""
+    from pathlib import Path
+
+    base_dir = Path("./ablation-studies") / study_id
+    if not base_dir.exists():
+        return {"reports": []}
+
+    reports = []
+    for run_dir in sorted(base_dir.iterdir(), key=lambda d: d.name, reverse=True):
+        if not run_dir.is_dir():
+            continue
+        config_path = run_dir / "config.json"
+        if not config_path.exists():
+            continue
+        try:
+            config = json.loads(config_path.read_text(encoding="utf-8"))
+            reports.append({
+                "dirName": run_dir.name,
+                "path": str(run_dir),
+                "timestamp": config.get("timestamp", ""),
+                "flaggerModel": config.get("flaggerModel", ""),
+                "datasetCount": len(config.get("datasets", [])),
+                "totalFlagged": _count_flags_in_report(run_dir),
+                "totalReviews": sum(d.get("totalReviews", 0) for d in config.get("datasets", [])),
+            })
+        except Exception:
+            continue
+
+    return {"reports": reports}
+
+
+class LoadAblationReportRequest(BaseModel):
+    path: str
+
+
+@app.post("/api/load-ablation-report")
+async def load_ablation_report(request: LoadAblationReportRequest):
+    """Load a saved ablation study report with all dataset details."""
+    from pathlib import Path
+
+    run_dir = Path(request.path)
+    if not run_dir.exists():
+        raise HTTPException(status_code=404, detail="Report not found")
+
+    config = json.loads((run_dir / "config.json").read_text(encoding="utf-8"))
+    summary = json.loads((run_dir / "summary.json").read_text(encoding="utf-8"))
+
+    # Load all per-dataset files
+    datasets = []
+    datasets_dir = run_dir / "datasets"
+    if datasets_dir.exists():
+        for domain_dir in sorted(datasets_dir.iterdir()):
+            if not domain_dir.is_dir():
+                continue
+            for mode_dir in sorted(domain_dir.iterdir()):
+                if not mode_dir.is_dir():
+                    continue
+                for size_file in sorted(mode_dir.glob("*-sent.json")):
+                    try:
+                        ds_data = json.loads(size_file.read_text(encoding="utf-8"))
+                        datasets.append(ds_data)
+                    except Exception:
+                        continue
+
+    return {
+        "config": config,
+        "summary": summary,
+        "datasets": datasets,
+    }
+
+
+class DeleteAblationReportRequest(BaseModel):
+    path: str
+
+
+@app.post("/api/delete-ablation-report")
+async def delete_ablation_report(request: DeleteAblationReportRequest):
+    """Delete a saved ablation study report."""
+    from pathlib import Path
+    import shutil
+
+    run_dir = Path(request.path)
+    if not run_dir.exists():
+        raise HTTPException(status_code=404, detail="Report not found")
+
+    # Safety check: must be under ablation-studies/
+    if "ablation-studies" not in str(run_dir):
+        raise HTTPException(status_code=400, detail="Invalid path")
+
+    shutil.rmtree(run_dir)
+    return {"status": "deleted"}
