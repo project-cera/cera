@@ -82,7 +82,7 @@ Unlike existing approaches that require model fine-tuning, CERA generates high-q
 
 1. **Clone and create `.env`**
    ```bash
-   git clone https://github.com/thangk/cera.git
+   git clone https://github.com/project-cera/cera.git
    cd cera
    cp .env.example .env
    ```
@@ -410,7 +410,7 @@ cera/
 
 ## Key Results
 
-Evaluated across three domains (laptop, restaurant, hotel) using [cera-LADy](https://github.com/thangk/cera-LADy) for extrinsic evaluation and MDQA for intrinsic evaluation:
+Evaluated across three domains (laptop, restaurant, hotel) using [cera-LADy](https://github.com/project-cera/cera-LADy) for extrinsic evaluation and MDQA for intrinsic evaluation:
 
 | Metric | CERA | Heuristic | Real |
 |--------|------|-----------|------|
@@ -458,7 +458,7 @@ Evaluated across three domains (laptop, restaurant, hotel) using [cera-LADy](htt
 
 ## Related Projects
 
-- [cera-LADy](https://github.com/thangk/cera-LADy) — Latent Aspect Detection evaluation framework for benchmarking CERA datasets
+- [cera-LADy](https://github.com/project-cera/cera-LADy) — Latent Aspect Detection evaluation framework for benchmarking CERA datasets
 - [LADy](https://github.com/fani-lab/LADy) — Original LADy framework by fani-lab
 
 ---
