@@ -16,6 +16,7 @@ import {
 } from './ui/tooltip'
 import { useOpenRouterModels, type ProcessedModel, type ProviderInfo } from '../hooks/use-openrouter-models'
 import { useLocalLlmModels } from '../hooks/use-local-llm-models'
+import { useNativeModels } from '../hooks/use-native-models'
 
 export type ValidationStatus = 'idle' | 'checking' | 'valid' | 'error'
 
@@ -59,24 +60,68 @@ export function LLMSelector({
   // Use external data if provided, otherwise fetch
   const hookData = useOpenRouterModels()
   const localData = useLocalLlmModels()
+  const nativeData = useNativeModels()
   const baseProviders = externalProviders ?? hookData.providers
   const baseGroupedModels = externalGroupedModels ?? hookData.groupedModels
   const loading = externalLoading ?? hookData.loading
 
-  // Merge local models at the top when enabled and configured
+  // Merge local + native models: native providers appear right after their OpenRouter counterpart
   const providers = useMemo(() => {
-    if (!localData.enabled || !localData.configured || localData.providers.length === 0) {
-      return baseProviders
+    // Map native provider IDs to their OpenRouter counterpart labels for interleaving
+    // e.g., "openai-native" should appear after "OpenAI" in the provider list
+    const nativeByBase: Record<string, ProviderInfo> = {}
+    for (const np of nativeData.providers) {
+      // "openai-native" -> match OpenRouter provider with label containing "OpenAI"
+      const baseName = np.id.replace('-native', '')
+      nativeByBase[baseName.toLowerCase()] = np
     }
-    return [...localData.providers, ...baseProviders]
-  }, [localData.enabled, localData.configured, localData.providers, baseProviders])
+
+    const result: ProviderInfo[] = []
+
+    // Add local providers at the very top
+    if (localData.enabled && localData.configured && localData.providers.length > 0) {
+      result.push(...localData.providers)
+    }
+
+    // Interleave: for each OpenRouter provider, insert its native counterpart right after
+    const placedNative = new Set<string>()
+    for (const p of baseProviders) {
+      result.push(p)
+      // Check if there's a matching native provider
+      const pLabel = p.label.toLowerCase()
+      for (const [baseName, nativeProvider] of Object.entries(nativeByBase)) {
+        if (pLabel.includes(baseName) && !placedNative.has(nativeProvider.id)) {
+          result.push(nativeProvider)
+          placedNative.add(nativeProvider.id)
+        }
+      }
+    }
+
+    // Add any remaining native providers that didn't match an OpenRouter counterpart
+    for (const np of nativeData.providers) {
+      if (!placedNative.has(np.id)) {
+        result.push(np)
+      }
+    }
+
+    return result
+  }, [localData.enabled, localData.configured, localData.providers, nativeData.providers, baseProviders])
 
   const groupedModels = useMemo(() => {
-    if (!localData.enabled || !localData.configured || Object.keys(localData.groupedModels).length === 0) {
-      return baseGroupedModels
+    const result = { ...baseGroupedModels }
+
+    // Merge native models
+    if (Object.keys(nativeData.groupedModels).length > 0) {
+      Object.assign(result, nativeData.groupedModels)
     }
-    return { ...localData.groupedModels, ...baseGroupedModels }
-  }, [localData.enabled, localData.configured, localData.groupedModels, baseGroupedModels])
+
+    // Merge local models
+    if (localData.enabled && localData.configured && Object.keys(localData.groupedModels).length > 0) {
+      Object.assign(result, localData.groupedModels)
+    }
+
+    return result
+  }, [localData.enabled, localData.configured, localData.groupedModels, nativeData.groupedModels, baseGroupedModels])
 
   // Internal thinking mode state (used when no external control provided)
   const [internalThinkingMode, setInternalThinkingMode] = useState(false)
@@ -91,9 +136,23 @@ export function LLMSelector({
 
   // Extract provider from value, or use pending provider when user just picked a provider
   const [pendingProvider, setPendingProvider] = useState<string | null>(null)
-  const selectedProvider = pendingProvider || (value ? value.split('/')[0] : '')
+
+  // Derive provider key from model ID
+  // For native models like "native/anthropic/claude-opus-4-6", provider key is "anthropic-native"
+  // For local models like "local/Qwen/Qwen3-30B", provider key is "local"
+  // For OpenRouter models like "anthropic/claude-sonnet-4", provider key is "anthropic"
+  const deriveProviderKey = (modelId: string): string => {
+    if (modelId.startsWith('native/')) {
+      const parts = modelId.split('/')
+      return parts.length >= 2 ? `${parts[1]}-native` : ''
+    }
+    if (modelId.startsWith('local/')) return 'local'
+    return modelId.split('/')[0]
+  }
+
+  const selectedProvider = pendingProvider || (value ? deriveProviderKey(value) : '')
   const selectedModel = value
-    ? (groupedModels[value.split('/')[0]]?.models.find(m => m.id === value) ?? undefined)
+    ? (groupedModels[selectedProvider]?.models.find(m => m.id === value) ?? undefined)
     : undefined
 
   const [providerOpen, setProviderOpen] = useState(false)
@@ -212,9 +271,12 @@ export function LLMSelector({
                     />
                     <span className="font-medium truncate flex-1 min-w-0">{provider.label}</span>
                     <div className="flex items-center gap-1 shrink-0">
-                      {/* Order: Local, OSS, Free, Paid - show all applicable badges */}
+                      {/* Order: Local, Native, OSS, Free, Paid - show all applicable badges */}
                       {provider.id === 'local' && (
                         <Badge variant="secondary" className="bg-blue-500/20 text-blue-500 text-[9px] px-1 py-0">Local</Badge>
+                      )}
+                      {provider.id.endsWith('-native') && (
+                        <Badge variant="secondary" className="bg-emerald-500/20 text-emerald-500 text-[9px] px-1 py-0">Native</Badge>
                       )}
                       {provider.isOpenSource && provider.id !== 'local' && (
                         <Badge variant="outline" className="text-[9px] px-1 py-0">OSS</Badge>
@@ -284,6 +346,12 @@ export function LLMSelector({
                     <Badge variant="outline" className="text-[9px] px-1 py-0">OSS</Badge>
                   )}
                 </div>
+              </div>
+            ) : value ? (
+              /* Model ID is set but model data not loaded yet (e.g., native models still fetching) */
+              <div className="flex flex-col items-start gap-0.5 text-left min-w-0 flex-1 overflow-hidden">
+                <span className="text-sm font-medium truncate w-full text-muted-foreground">{value.split('/').pop()}</span>
+                <span className="text-[10px] text-muted-foreground">Loading...</span>
               </div>
             ) : (
               <span className="text-muted-foreground">{placeholder}</span>
