@@ -295,9 +295,13 @@ export const ABLATION_DOMAIN_LABELS: Record<AblationDomain, string> = {
   hotel: 'Hotel',
 }
 
+export type FlagType = 'factual_error' | 'hallucinated_feature' | 'fabricated_detail' | 'vague_review'
+
 export interface FlaggedReview {
   reviewIndex: number
   reason: string
+  highlights: string[]
+  flagType: FlagType | null
   confirmed: boolean | null  // null = unreviewed, true = confirmed, false = rejected
 }
 
@@ -315,6 +319,11 @@ export interface AblationDataset {
 export interface AblationSilState {
   factsheet: string
   modelId: string
+  batchSize: number
+  parallel: boolean
+  localEndpoint: string
+  localApiKey: string
+  openrouterApiKey: string
   datasets: AblationDataset[]
   phase: 'setup' | 'running' | 'results' | 'report'
 }

@@ -15,6 +15,7 @@ import { ABLATION_MODE_LABELS, ABLATION_DOMAIN_LABELS } from '../types'
 
 interface ReportPanelProps {
   datasets: AblationDataset[]
+  modelId: string
 }
 
 interface ModeStats {
@@ -44,7 +45,7 @@ function computeStats(datasets: AblationDataset[]): ModeStats {
   return { totalReviews, flaggedCount, confirmedErrors, rejectedFlags, errorRate }
 }
 
-export function ReportPanel({ datasets }: ReportPanelProps) {
+export function ReportPanel({ datasets, modelId }: ReportPanelProps) {
   const modes = useMemo(() => {
     const modeSet = new Set(datasets.map((ds) => ds.mode))
     return Array.from(modeSet) as AblationMode[]
@@ -146,7 +147,10 @@ export function ReportPanel({ datasets }: ReportPanelProps) {
       <Card>
         <CardHeader className="pb-3">
           <div className="flex items-center justify-between">
-            <CardTitle className="text-base">Summary</CardTitle>
+            <div>
+              <CardTitle className="text-base">Summary</CardTitle>
+              <p className="text-xs text-muted-foreground mt-1">Flagger: {modelId.replace('local/', '')}</p>
+            </div>
             <div className="flex gap-2">
               <Button variant="outline" size="sm" onClick={exportCsv}>
                 <Download className="h-4 w-4 mr-1" />
