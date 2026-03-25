@@ -168,8 +168,9 @@ def get_native_client(
     if provider == "openai":
         return OpenAINativeClient(**kwargs)
 
-    # Perplexity: standard OpenAI-compatible (web search is always-on)
-    return OpenRouterClient(**kwargs)
+    # Perplexity: use OpenAI-compatible client (web search is always-on for sonar models,
+    # but we need the client to accept web_search= kwarg without erroring)
+    return OpenAINativeClient(**kwargs)
 
 
 # ---------------------------------------------------------------------------
@@ -218,7 +219,8 @@ class AnthropicNativeClient(OpenRouterClient):
         if system_content:
             body["system"] = system_content
 
-        # Anthropic web search tool (server-side)
+        # Anthropic web search tool (server-side, requires API version 2025-03-05+)
+        _use_web_search = False
         if web_search:
             body["tools"] = [
                 {
@@ -227,6 +229,7 @@ class AnthropicNativeClient(OpenRouterClient):
                     "max_uses": 5,
                 }
             ]
+            _use_web_search = True
 
         # Anthropic extended thinking
         if reasoning:
@@ -235,9 +238,11 @@ class AnthropicNativeClient(OpenRouterClient):
                 "budget_tokens": reasoning.get("max_tokens", 10000),
             }
 
+        # Web search tool requires API version 2025-03-05; use base version otherwise
+        api_version = "2025-03-05" if _use_web_search else self.ANTHROPIC_API_VERSION
         headers = {
             "x-api-key": self.api_key,
-            "anthropic-version": self.ANTHROPIC_API_VERSION,
+            "anthropic-version": api_version,
             "Content-Type": "application/json",
         }
 
@@ -248,6 +253,17 @@ class AnthropicNativeClient(OpenRouterClient):
                 response = await self.client.post(
                     url, json=body, headers=headers, timeout=300.0
                 )
+                if response.status_code == 400:
+                    error_text = response.text[:500]
+                    print(f"[Anthropic] 400 error: {error_text}")
+                    # If web search version isn't supported, retry without web search
+                    if _use_web_search and "not a valid version" in error_text:
+                        print("[Anthropic] Web search API version not supported, falling back to parametric knowledge")
+                        body.pop("tools", None)
+                        _use_web_search = False
+                        headers["anthropic-version"] = self.ANTHROPIC_API_VERSION
+                        continue
+                    response.raise_for_status()
                 if response.status_code in (429, 500, 502, 503, 529):
                     import asyncio
                     wait = 2 ** attempt
@@ -377,52 +393,70 @@ class GoogleNativeClient(OpenRouterClient):
         web_search: bool = False,
     ) -> str:
         """Send a chat request, optionally with Google Search grounding."""
+        # Gemini's OpenAI-compatible endpoint doesn't support the "reasoning" field
         if not web_search:
             return await super().chat(
                 messages, model=model, temperature=temperature,
-                max_tokens=max_tokens, stream=stream, reasoning=reasoning,
+                max_tokens=max_tokens, stream=stream, reasoning=None,
             )
 
-        # Google Search grounding via OpenAI-compatible endpoint requires
-        # the google-specific extra_body format, NOT the standard tools array.
+        # Google Search grounding via OpenAI-compatible endpoint.
+        # Try multiple formats since Google's support is inconsistent:
+        # 1. Native Gemini tools format (works on newer models)
+        # 2. Fall back to no grounding if the endpoint rejects it
         # See: https://ai.google.dev/gemini-api/docs/openai
-        body: dict = {
-            "model": model,
-            "messages": messages,
-            "temperature": temperature,
-            "max_tokens": max_tokens,
-            "google": {
-                "tools": [{"google_search": {}}],
-            },
-        }
-
         headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
         }
-
         url = f"{self._base_url}/chat/completions"
 
-        for attempt in range(3):
-            try:
-                response = await self.client.post(
-                    url, json=body, headers=headers, timeout=300.0
-                )
-                if response.status_code in (429, 500, 502, 503):
+        # Try with google_search grounding first
+        grounding_formats = [
+            # Format 1: google.tools (extra_body style, documented for Gemini 3+)
+            {"google": {"tools": [{"google_search": {}}]}},
+            # Format 2: no grounding (fall back to parametric knowledge)
+            {},
+        ]
+
+        content = ""
+        data = {}
+        for grounding in grounding_formats:
+            body: dict = {
+                "model": model,
+                "messages": messages,
+                "temperature": temperature,
+                "max_tokens": max_tokens,
+                **grounding,
+            }
+
+            success = False
+            for attempt in range(3):
+                try:
+                    response = await self.client.post(
+                        url, json=body, headers=headers, timeout=300.0
+                    )
+                    if response.status_code == 400 and grounding:
+                        # Grounding format rejected — try next format
+                        break
+                    if response.status_code in (429, 500, 502, 503):
+                        import asyncio
+                        await asyncio.sleep(2 ** attempt)
+                        continue
+                    response.raise_for_status()
+                    success = True
+                    break
+                except httpx.TimeoutException:
+                    if attempt == 2:
+                        raise
                     import asyncio
                     await asyncio.sleep(2 ** attempt)
                     continue
-                response.raise_for_status()
-                break
-            except httpx.TimeoutException:
-                if attempt == 2:
-                    raise
-                import asyncio
-                await asyncio.sleep(2 ** attempt)
-                continue
 
-        data = response.json()
-        content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
+            if success:
+                data = response.json()
+                content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
+                break
 
         # Track usage
         if self.usage_tracker and data.get("usage"):
@@ -451,7 +485,17 @@ class OpenAINativeClient(OpenRouterClient):
     """OpenAI client with native web search support.
 
     Uses the web_search_options parameter available on newer OpenAI models.
+    Newer models (gpt-5+, o-series) require max_completion_tokens instead of max_tokens.
     """
+
+    @staticmethod
+    def _needs_completion_tokens(model: str) -> bool:
+        """Check if model requires max_completion_tokens instead of max_tokens."""
+        # GPT-5+, o1, o3, o4 series all require max_completion_tokens
+        for prefix in ("gpt-5", "o1", "o3", "o4"):
+            if model.startswith(prefix):
+                return True
+        return False
 
     async def chat(
         self,
@@ -464,22 +508,104 @@ class OpenAINativeClient(OpenRouterClient):
         web_search: bool = False,
     ) -> str:
         """Send a chat request, optionally with web search."""
+        # Determine the correct token limit parameter name
+        use_completion_tokens = self._needs_completion_tokens(model)
+        token_key = "max_completion_tokens" if use_completion_tokens else "max_tokens"
+
         if not web_search:
+            # For models needing max_completion_tokens, we can't just call super()
+            # because it uses "max_tokens". Build the request manually instead.
+            if use_completion_tokens:
+                return await self._chat_with_completion_tokens(
+                    messages, model=model, temperature=temperature,
+                    max_completion_tokens=max_tokens, stream=stream, reasoning=reasoning,
+                )
             return await super().chat(
                 messages, model=model, temperature=temperature,
                 max_tokens=max_tokens, stream=stream, reasoning=reasoning,
             )
 
-        # Build request with web_search_options
+        # Web search requires OpenAI's Responses API (/v1/responses), NOT Chat Completions.
+        # The Responses API uses a different format: "input" instead of "messages",
+        # and supports built-in tools like web_search_preview.
+        return await self._responses_api_with_search(
+            messages, model=model, temperature=temperature,
+            max_tokens=max(max_tokens, 16384),
+        )
+
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+        }
+
+        url = f"{self._base_url}/chat/completions"
+
+        for attempt in range(3):
+            try:
+                response = await self.client.post(
+                    url, json=body, headers=headers, timeout=300.0
+                )
+                if response.status_code == 400:
+                    # Log the error detail for debugging
+                    error_body = response.text
+                    print(f"[OpenAI] 400 error (web_search): {error_body[:500]}")
+                    # If temperature is the issue, retry without it
+                    if "temperature" in error_body and "temperature" in body:
+                        del body["temperature"]
+                        continue
+                    response.raise_for_status()
+                if response.status_code in (429, 500, 502, 503):
+                    import asyncio
+                    await asyncio.sleep(2 ** attempt)
+                    continue
+                response.raise_for_status()
+                break
+            except httpx.TimeoutException:
+                if attempt == 2:
+                    raise
+                import asyncio
+                await asyncio.sleep(2 ** attempt)
+                continue
+
+        data = response.json()
+        content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
+
+        # Track usage
+        if self.usage_tracker and data.get("usage"):
+            usage = data["usage"]
+            from cera.llm.usage import LLMUsage
+            inp = usage.get("prompt_tokens", 0)
+            out = usage.get("completion_tokens", 0)
+            self.usage_tracker.record(LLMUsage(
+                model=f"native/openai/{model}",
+                prompt_tokens=inp,
+                completion_tokens=out,
+                total_tokens=inp + out,
+                component=self._component,
+                target=self._target,
+                run=self._run,
+            ))
+
+        return content
+
+    async def _chat_with_completion_tokens(
+        self,
+        messages: list[dict],
+        model: str,
+        temperature: float = 0.7,
+        max_completion_tokens: int = 4096,
+        stream: bool = False,
+        reasoning: dict | None = None,
+    ) -> str:
+        """Chat using max_completion_tokens (required by GPT-5+, o-series models)."""
         body: dict = {
             "model": model,
             "messages": messages,
             "temperature": temperature,
-            "max_tokens": max_tokens,
-            "web_search_options": {
-                "search_context_size": "medium",
-            },
+            "max_completion_tokens": max_completion_tokens,
         }
+        if reasoning:
+            body["reasoning"] = reasoning
 
         headers = {
             "Authorization": f"Bearer {self.api_key}",
@@ -509,12 +635,97 @@ class OpenAINativeClient(OpenRouterClient):
         data = response.json()
         content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
 
-        # Track usage
         if self.usage_tracker and data.get("usage"):
             usage = data["usage"]
             from cera.llm.usage import LLMUsage
             inp = usage.get("prompt_tokens", 0)
             out = usage.get("completion_tokens", 0)
+            self.usage_tracker.record(LLMUsage(
+                model=f"native/openai/{model}",
+                prompt_tokens=inp,
+                completion_tokens=out,
+                total_tokens=inp + out,
+                component=self._component,
+                target=self._target,
+                run=self._run,
+            ))
+
+        return content
+
+    async def _responses_api_with_search(
+        self,
+        messages: list[dict],
+        model: str,
+        temperature: float = 0.7,
+        max_tokens: int = 4096,
+    ) -> str:
+        """Use OpenAI's Responses API with web_search_preview tool.
+
+        The Responses API (/v1/responses) supports built-in tools like web search,
+        unlike the Chat Completions API which only supports function tools.
+        """
+        # Convert messages to Responses API input format
+        input_items = []
+        for msg in messages:
+            role = msg["role"]
+            if role == "system":
+                input_items.append({"role": "developer", "content": msg["content"]})
+            else:
+                input_items.append({"role": role, "content": msg["content"]})
+
+        body: dict = {
+            "model": model,
+            "input": input_items,
+            "tools": [{"type": "web_search_preview", "search_context_size": "medium"}],
+            "max_output_tokens": max_tokens,
+            "temperature": temperature,
+        }
+
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+        }
+
+        url = f"{self._base_url}/responses"
+
+        for attempt in range(3):
+            try:
+                response = await self.client.post(
+                    url, json=body, headers=headers, timeout=300.0
+                )
+                if response.status_code == 400:
+                    print(f"[OpenAI] 400 error (responses API): {response.text[:500]}")
+                    response.raise_for_status()
+                if response.status_code in (429, 500, 502, 503):
+                    import asyncio
+                    await asyncio.sleep(2 ** attempt)
+                    continue
+                response.raise_for_status()
+                break
+            except httpx.TimeoutException:
+                if attempt == 2:
+                    raise
+                import asyncio
+                await asyncio.sleep(2 ** attempt)
+                continue
+
+        data = response.json()
+
+        # Responses API returns output_text at top level
+        content = data.get("output_text", "")
+        if not content:
+            for item in data.get("output", []):
+                if item.get("type") == "message":
+                    for part in item.get("content", []):
+                        if part.get("type") == "output_text":
+                            content += part.get("text", "")
+
+        # Track usage
+        if self.usage_tracker and data.get("usage"):
+            usage = data["usage"]
+            from cera.llm.usage import LLMUsage
+            inp = usage.get("input_tokens", usage.get("prompt_tokens", 0))
+            out = usage.get("output_tokens", usage.get("completion_tokens", 0))
             self.usage_tracker.record(LLMUsage(
                 model=f"native/openai/{model}",
                 prompt_tokens=inp,
