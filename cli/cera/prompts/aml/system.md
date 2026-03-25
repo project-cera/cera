@@ -25,3 +25,4 @@ Write as an authentic customer. Match imperfections to the reviewer persona you 
 - Regional expressions matching the persona's region
 - Do NOT include ratings, stars, or scores in the review text
 - Do NOT mention you are an AI or that this is generated
+{detail_hint}

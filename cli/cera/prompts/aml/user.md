@@ -10,9 +10,7 @@ Write a review for "{subject}" as the following reviewer:
 
 {structure_variant}
 
-## Features to Mention
-Positive: {pros}
-Negative: {cons}
+{features_to_mention}
 
 {style_examples}
 
@@ -27,13 +25,6 @@ Output ONLY a JSON object with per-sentence aspect annotations.
 ```json
 {output_example}
 ```
-
-Rules:
-- Write EXACTLY {num_sentences} sentences matching the sentence plan above
-- Each sentence with assigned aspects MUST include those opinion annotations
-- Contextual sentences (no aspects) use an empty opinions array
-- Write authentically as the persona described above
-- Output ONLY the JSON, no other text
 
 {vocab_diversity}
 
