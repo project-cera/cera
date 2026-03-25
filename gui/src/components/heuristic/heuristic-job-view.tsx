@@ -1040,7 +1040,7 @@ export function HeuristicJobView({ job }: HeuristicJobViewProps) {
           )}
 
           {/* MDQA Metrics */}
-          {(job.evaluationMetrics || (job.perTargetMetrics && job.perTargetMetrics.length > 0)) && (
+          {!!(job.evaluationMetrics || (job.perTargetMetrics && job.perTargetMetrics.length > 0)) && (
             <Collapsible open={metricsExpanded} onOpenChange={setMetricsExpanded}>
               <div className="rounded-lg border overflow-hidden" style={{ borderColor: MDQA_COLOR }}>
                 <CollapsibleTrigger asChild>
