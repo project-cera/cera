@@ -65,6 +65,7 @@ services:
       context: ./cli
       dockerfile: Dockerfile
     container_name: cli
+    user: "${UID:-1000}:${GID:-1000}"
     ports:
       - "8000:8000"
     environment:
