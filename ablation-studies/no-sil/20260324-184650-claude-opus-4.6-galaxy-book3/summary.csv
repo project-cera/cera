@@ -1,0 +1,13 @@
+domain,mode,size,totalReviews,totalErrors,totalVague,errorRate
+laptop,cera-full,100,32,1,7,3.12
+laptop,cera-full,500,160,2,1,1.25
+laptop,cera-full,1000,286,4,20,1.4
+laptop,cera-no-sil,100,31,7,3,22.58
+laptop,cera-no-sil,500,151,27,3,17.88
+laptop,cera-no-sil,1000,315,41,9,13.02
+laptop,cera-sav,100,32,21,4,65.62
+laptop,cera-sav,500,144,84,16,58.33
+laptop,cera-sav,1000,290,155,19,53.45
+laptop,heuristic,100,24,18,3,75.0
+laptop,heuristic,500,120,51,0,42.5
+laptop,heuristic,1000,227,109,9,48.02

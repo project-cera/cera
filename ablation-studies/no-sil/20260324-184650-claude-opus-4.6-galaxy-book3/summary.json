@@ -1,0 +1,56 @@
+{
+  "overall": {
+    "cera-full": {
+      "totalReviews": 478,
+      "totalErrors": 7,
+      "totalVague": 28,
+      "errorRate": 1.46
+    },
+    "cera-no-sil": {
+      "totalReviews": 497,
+      "totalErrors": 75,
+      "totalVague": 15,
+      "errorRate": 15.09
+    },
+    "cera-sav": {
+      "totalReviews": 466,
+      "totalErrors": 260,
+      "totalVague": 39,
+      "errorRate": 55.79
+    },
+    "heuristic": {
+      "totalReviews": 371,
+      "totalErrors": 178,
+      "totalVague": 12,
+      "errorRate": 47.98
+    }
+  },
+  "perDomain": {
+    "laptop": {
+      "cera-full": {
+        "totalReviews": 478,
+        "totalErrors": 7,
+        "totalVague": 28,
+        "errorRate": 1.46
+      },
+      "cera-no-sil": {
+        "totalReviews": 497,
+        "totalErrors": 75,
+        "totalVague": 15,
+        "errorRate": 15.09
+      },
+      "cera-sav": {
+        "totalReviews": 466,
+        "totalErrors": 260,
+        "totalVague": 39,
+        "errorRate": 55.79
+      },
+      "heuristic": {
+        "totalReviews": 371,
+        "totalErrors": 178,
+        "totalVague": 12,
+        "errorRate": 47.98
+      }
+    }
+  }
+}
