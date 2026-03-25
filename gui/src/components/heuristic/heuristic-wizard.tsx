@@ -123,6 +123,7 @@ export interface HeuristicConfig {
   totalRuns: number // Number of times to run generation (default: 1)
   parallelRuns: boolean // Run all runs concurrently (default: false)
   // Evaluation settings
+  metricsEnabled: boolean
   referenceFile: string | null
   referenceFileName: string | null
   metrics: string[]
@@ -160,6 +161,7 @@ const DEFAULT_HEURISTIC_CONFIG: HeuristicConfig = {
   totalRuns: 1,
   parallelRuns: true,
   // Evaluation
+  metricsEnabled: true,
   referenceFile: null,
   referenceFileName: null,
   metrics: [...DIVERSITY_METRICS],
@@ -366,11 +368,11 @@ export function HeuristicWizard({ onBack, onReset }: HeuristicWizardProps) {
             model: effectiveModels[0] || config.model,
           }
         })(),
-        evaluationConfig: {
+        evaluationConfig: config.metricsEnabled ? {
           metrics: config.metrics,
           reference_metrics_enabled: !!config.referenceFile,
           reference_file: config.referenceFileName || undefined,
-        },
+        } : undefined,
       })
 
       // Upload reference dataset file if provided (for Lexical/Semantic metrics)
@@ -604,9 +606,13 @@ export function HeuristicWizard({ onBack, onReset }: HeuristicWizardProps) {
 
         const handleHAddTarget = () => {
           const lastTarget = hTargets[hTargets.length - 1]
+          // Standard target sequence matching CERA: 100, 500, 1000, 1500, 2000, ...
+          const STANDARD_TARGETS = [100, 500, 1000, 1500, 2000, 2500, 3000, 4000, 5000, 6000, 8000, 10000]
+          const existingValues = hTargets.map((t: HeuristicTarget) => t.targetValue)
+          const nextValue = STANDARD_TARGETS.find(v => !existingValues.includes(v)) ?? (existingValues[existingValues.length - 1] + 500)
           updateConfig('targets', [...hTargets, {
             ...lastTarget,
-            targetValue: lastTarget.targetValue + 400,
+            targetValue: nextValue,
           }])
         }
 
@@ -849,60 +855,70 @@ export function HeuristicWizard({ onBack, onReset }: HeuristicWizardProps) {
 
             {/* MDQA Metrics */}
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold">MDQA Metrics</h3>
-
-              {/* Lexical & Semantic (require reference) */}
-              <div className="space-y-2">
-                <h4 className="text-sm font-medium text-muted-foreground">
-                  Lexical & Semantic {!config.referenceFile && '(requires reference)'}
-                </h4>
-                <div className="grid grid-cols-2 gap-2">
-                  {REFERENCE_METRICS.map(metric => (
-                    <label
-                      key={metric}
-                      className={`flex items-center gap-2 p-2 rounded border cursor-pointer transition-colors ${
-                        !config.referenceFile
-                          ? 'opacity-50 cursor-not-allowed'
-                          : config.metrics.includes(metric)
-                            ? 'bg-primary/10 border-primary'
-                            : 'hover:bg-muted'
-                      }`}
-                    >
-                      <Checkbox
-                        checked={config.metrics.includes(metric)}
-                        onCheckedChange={() => toggleMetric(metric)}
-                        disabled={!config.referenceFile}
-                      />
-                      <span className="text-sm uppercase">{metric.replace('_', '-')}</span>
-                    </label>
-                  ))}
-                </div>
+              <div className="flex items-center justify-between">
+                <h3 className="text-lg font-semibold">MDQA Metrics</h3>
+                <Switch
+                  checked={config.metricsEnabled}
+                  onCheckedChange={(checked) => setConfig(prev => ({ ...prev, metricsEnabled: checked }))}
+                />
               </div>
 
-              {/* Diversity (always available) */}
-              <div className="space-y-2">
-                <h4 className="text-sm font-medium text-muted-foreground">
-                  Diversity (always available)
-                </h4>
-                <div className="grid grid-cols-2 gap-2">
-                  {DIVERSITY_METRICS.map(metric => (
-                    <label
-                      key={metric}
-                      className={`flex items-center gap-2 p-2 rounded border cursor-pointer transition-colors ${
-                        config.metrics.includes(metric)
-                          ? 'bg-primary/10 border-primary'
-                          : 'hover:bg-muted'
-                      }`}
-                    >
-                      <Checkbox
-                        checked={config.metrics.includes(metric)}
-                        onCheckedChange={() => toggleMetric(metric)}
-                      />
-                      <span className="text-sm uppercase">{metric.replace('_', '-')}</span>
-                    </label>
-                  ))}
-                </div>
-              </div>
+              {config.metricsEnabled && (
+                <>
+                  {/* Lexical & Semantic (require reference) */}
+                  <div className="space-y-2">
+                    <h4 className="text-sm font-medium text-muted-foreground">
+                      Lexical & Semantic {!config.referenceFile && '(requires reference)'}
+                    </h4>
+                    <div className="grid grid-cols-2 gap-2">
+                      {REFERENCE_METRICS.map(metric => (
+                        <label
+                          key={metric}
+                          className={`flex items-center gap-2 p-2 rounded border cursor-pointer transition-colors ${
+                            !config.referenceFile
+                              ? 'opacity-50 cursor-not-allowed'
+                              : config.metrics.includes(metric)
+                                ? 'bg-primary/10 border-primary'
+                                : 'hover:bg-muted'
+                          }`}
+                        >
+                          <Checkbox
+                            checked={config.metrics.includes(metric)}
+                            onCheckedChange={() => toggleMetric(metric)}
+                            disabled={!config.referenceFile}
+                          />
+                          <span className="text-sm uppercase">{metric.replace('_', '-')}</span>
+                        </label>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Diversity (always available) */}
+                  <div className="space-y-2">
+                    <h4 className="text-sm font-medium text-muted-foreground">
+                      Diversity (always available)
+                    </h4>
+                    <div className="grid grid-cols-2 gap-2">
+                      {DIVERSITY_METRICS.map(metric => (
+                        <label
+                          key={metric}
+                          className={`flex items-center gap-2 p-2 rounded border cursor-pointer transition-colors ${
+                            config.metrics.includes(metric)
+                              ? 'bg-primary/10 border-primary'
+                              : 'hover:bg-muted'
+                          }`}
+                        >
+                          <Checkbox
+                            checked={config.metrics.includes(metric)}
+                            onCheckedChange={() => toggleMetric(metric)}
+                          />
+                          <span className="text-sm uppercase">{metric.replace('_', '-')}</span>
+                        </label>
+                      ))}
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
           </div>
         )
@@ -958,17 +974,23 @@ export function HeuristicWizard({ onBack, onReset }: HeuristicWizardProps) {
               {/* Metrics */}
               <div className="rounded-lg border p-4 space-y-2">
                 <h4 className="font-medium">MDQA Metrics</h4>
-                <div className="flex flex-wrap gap-1">
-                  {config.metrics.map(metric => (
-                    <Badge key={metric} variant="secondary" className="text-xs">
-                      {metric.replace('_', '-').toUpperCase()}
-                    </Badge>
-                  ))}
-                </div>
-                {config.referenceFileName && (
-                  <p className="text-xs text-muted-foreground">
-                    Reference: {config.referenceFileName}
-                  </p>
+                {config.metricsEnabled ? (
+                  <>
+                    <div className="flex flex-wrap gap-1">
+                      {config.metrics.map(metric => (
+                        <Badge key={metric} variant="secondary" className="text-xs">
+                          {metric.replace('_', '-').toUpperCase()}
+                        </Badge>
+                      ))}
+                    </div>
+                    {config.referenceFileName && (
+                      <p className="text-xs text-muted-foreground">
+                        Reference: {config.referenceFileName}
+                      </p>
+                    )}
+                  </>
+                ) : (
+                  <p className="text-sm text-muted-foreground">Skipped</p>
                 )}
               </div>
             </div>
