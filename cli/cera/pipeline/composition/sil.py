@@ -633,6 +633,7 @@ class SubjectIntelligenceLayer:
                 messages=[{"role": "user", "content": prompt}],
                 model=self._actual_model_id(model),
                 temperature=0.0,
+                max_tokens=65536,
             )
 
         # Parse JSON response using robust extractor
@@ -767,10 +768,13 @@ class SubjectIntelligenceLayer:
         answer_models = {a.model for a in valid_answers}
 
         # Collect agreement votes per judge for this query
+        # Note: all_judgments keys use full model IDs (native/provider/model)
+        # but answer_models uses stripped IDs (model only). Normalize for matching.
         agreement_votes: dict[str, list[str]] = {}  # judge -> [models they gave 1 to]
         incoming_votes: dict[str, set[str]] = {m: set() for m in answer_models}
 
-        for judge_model, query_judgments in all_judgments.items():
+        for judge_model_full, query_judgments in all_judgments.items():
+            judge_model = self._actual_model_id(judge_model_full)
             if judge_model not in answer_models:
                 continue
             scores = query_judgments.get(query.id, {})
@@ -1835,7 +1839,8 @@ class SubjectIntelligenceLayer:
                 verified_facts=verified_facts,
             )
 
-        # Fallback: Single model extraction without MAV
+        # SAV fallback: Single-agent verification (web search, no multi-agent consensus)
+        await self._emit_log("INFO", "SIL", "Running in SAV mode (single-agent verification with web search, no MAV consensus)")
         return await self._single_model_fallback(query, additional_context)
 
     async def _single_model_fallback(
@@ -1929,69 +1934,36 @@ class SubjectIntelligenceLayer:
         query: str,
         additional_context: Optional[str] = None,
     ) -> MAVResult:
-        """Generate subject context from LLM's parametric knowledge only (no web search)."""
-        from cera.llm.openrouter import OpenRouterClient
+        """Return empty context when SIL is disabled (no web search, no parametric dump).
 
-        fallback_model = (
-            self.mav_config.models[0]
-            if self.mav_config.models
-            else "anthropic/claude-sonnet-4"
+        Previously this asked an LLM to dump its parametric knowledge about the
+        subject, but that produced unverified specs (often conflating product
+        variants) which then propagated through personas, writing patterns, and
+        AML prompts — causing systematic factual errors far worse than having no
+        context at all.  The pipeline's downstream prompts already handle the
+        empty-context case gracefully: personas stay generic, writing patterns
+        are domain-based only, and AML prompts instruct the LLM to include
+        details naturally from its own knowledge at generation time.
+        """
+        await self._emit_log(
+            "INFO", "SIL",
+            "SIL disabled — skipping subject intelligence (no web search, no parametric dump). "
+            "Downstream prompts will use domain-level guidance only.",
+            progress=90,
         )
 
-        await self._emit_log("INFO", "SIL", "SIL disabled — using LLM parametric knowledge only (no web search)", progress=5)
-
-        additional_context_block = ""
-        if additional_context:
-            additional_context_block = f"\nAdditional context: {additional_context}\n"
-
-        prompt = load_and_format(
-            "sil", "parametric_only",
+        context = SubjectContext(
             subject=query,
-            additional_context_block=additional_context_block,
+            features=[],
+            pros=[],
+            cons=[],
+            use_cases=[],
+            mav_verified=False,
         )
-
-        try:
-            async with self._get_client(fallback_model, component="sil.parametric") as client:
-                response = await client.chat(
-                    messages=[{"role": "user", "content": prompt}],
-                    model=self._actual_model_id(fallback_model),
-                    temperature=0.3,
-                )
-
-            from cera.api import _extract_json_from_llm
-            data = _extract_json_from_llm(response, expected_type="object")
-            context = SubjectContext(
-                subject=query,
-                features=data.get("characteristics", []),
-                pros=data.get("positives", []),
-                cons=data.get("negatives", []),
-                use_cases=data.get("use_cases", []),
-                mav_verified=False,
-            )
-
-            await self._emit_log("INFO", "SIL", f"Parametric knowledge: {len(context.features)} characteristics, {len(context.pros)} positives, {len(context.cons)} negatives, {len(context.use_cases)} use cases", progress=90)
-
-            return MAVResult(
-                context=context,
-                model_data=[],
-                total_facts_extracted=0,
-                facts_verified=0,
-                facts_rejected=0,
-            )
-        except Exception as e:
-            await self._emit_log("WARN", "SIL", f"Parametric fallback failed: {e}, returning empty context")
-            context = SubjectContext(
-                subject=query,
-                features=[],
-                pros=[],
-                cons=[],
-                use_cases=[],
-                mav_verified=False,
-            )
-            return MAVResult(
-                context=context,
-                model_data=[],
-                total_facts_extracted=0,
-                facts_verified=0,
-                facts_rejected=0,
-            )
+        return MAVResult(
+            context=context,
+            model_data=[],
+            total_facts_extracted=0,
+            facts_verified=0,
+            facts_rejected=0,
+        )
