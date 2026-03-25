@@ -536,6 +536,38 @@ async def _get_local_llm_settings(convex) -> tuple[str, str]:
     return endpoint, api_key
 
 
+async def _make_llm_client(
+    gen_model: str,
+    api_key: str,
+    convex=None,
+    usage_tracker=None,
+    component: str = "aml",
+) -> tuple["OpenRouterClient", str]:
+    """Create the right LLM client for a model ID, handling local/native/openrouter routing.
+
+    Returns (client, actual_model_id) where actual_model_id has prefixes stripped.
+    """
+    from cera.llm.openrouter import OpenRouterClient
+
+    is_local, actual_model = _parse_local_model(gen_model)
+    if is_local:
+        local_endpoint, local_api_key = await _get_local_llm_settings(convex)
+        client = OpenRouterClient(api_key=local_api_key, base_url=local_endpoint, usage_tracker=usage_tracker, component=component)
+        return client, actual_model
+
+    # Native models (native/provider/model) — use native client via SIL routing
+    if gen_model.startswith("native/"):
+        from cera.llm.native import parse_native_model, get_native_client
+        _, provider, actual = parse_native_model(gen_model)
+        settings = await convex.get_settings() if convex else None
+        client = get_native_client(provider, usage_tracker=usage_tracker, component=component, settings=settings)
+        return client, actual
+
+    # Default: OpenRouter
+    client = OpenRouterClient(api_key=api_key, usage_tracker=usage_tracker, component=component)
+    return client, gen_model
+
+
 async def check_openrouter_tier(api_key: str) -> dict:
     """
     Check OpenRouter account tier to determine rate limiting.
@@ -1373,9 +1405,11 @@ async def execute_composition(
         if convex:
             await convex.update_composition_progress(job_id, 5, "SIL")
             if not sil_enabled:
-                await convex.add_log(job_id, "INFO", "SIL", "SIL disabled — using LLM parametric knowledge only")
-            if mav_enabled:
-                await convex.add_log(job_id, "INFO", "MAV", "Starting multi-agent verification...")
+                await convex.add_log(job_id, "INFO", "SIL", "SIL disabled — using LLM parametric knowledge only (no web search)")
+            elif mav_enabled:
+                await convex.add_log(job_id, "INFO", "MAV", "Starting multi-agent verification (MAV)...")
+            else:
+                await convex.add_log(job_id, "INFO", "SIL", "SIL enabled in SAV mode (single-agent verification with web search, no MAV consensus)")
 
         # Gather intelligence (this runs MAV if enabled)
         mav_result = await sil.gather_intelligence(
@@ -1991,7 +2025,11 @@ async def execute_composition_simple(
 
     # Gather intelligence (this runs MAV if enabled)
     if not sil_enabled:
-        await log_progress("SIL", "SIL disabled — using LLM parametric knowledge only")
+        await log_progress("SIL", "SIL disabled — using LLM parametric knowledge only (no web search)")
+    elif sil_mav_config.enabled:
+        await log_progress("SIL", "SIL enabled with MAV (multi-agent verification)")
+    else:
+        await log_progress("SIL", "SIL enabled in SAV mode (single-agent verification with web search, no MAV consensus)")
     await log_progress("SIL", f"Starting gather_intelligence for: {config.subject_profile.query}", 5)
     await log_progress("SIL", f"MAV config: enabled={sil_mav_config.enabled}, models={sil_mav_config.models}")
 
@@ -3409,6 +3447,7 @@ async def _generate_personas(
     api_key: str,
     age_enabled: bool = True,
     sex_enabled: bool = True,
+    convex=None,
     usage_tracker=None,
 ) -> list[dict]:
     """Generate persona objects via LLM.
@@ -3417,11 +3456,10 @@ async def _generate_personas(
     Returns a list of persona dicts with id, name, age, sex, region, background,
     writing_tendencies, and priorities fields.
     """
-    from cera.llm.openrouter import OpenRouterClient
     from cera.prompts import load_prompt, format_prompt
     from cera.pipeline.composition.rgm import ReviewerGenerationModule
 
-    _llm = OpenRouterClient(api_key=api_key, usage_tracker=usage_tracker, component="aml.persona")
+    _llm, gen_model = await _make_llm_client(gen_model, api_key, convex=convex, usage_tracker=usage_tracker, component="aml.persona")
 
     # Pre-sample demographics via RGM
     age_range_tuple = tuple(reviewer_profile.age_range) if reviewer_profile.age_range and age_enabled else None
@@ -3446,6 +3484,28 @@ async def _generate_personas(
     reviewer_ctx = reviewers_context.get("additional_context", "general consumer")
     _region = subject_context.get("region", "unknown")
 
+    # Build verified facts and negative facts from SIL context
+    characteristics = subject_context.get("characteristics", [])
+    positives = subject_context.get("positives", [])
+    negatives = subject_context.get("negatives", [])
+    all_facts = characteristics + positives + negatives
+    if all_facts:
+        subject_facts = "\n".join(f"- {fact}" for fact in all_facts)
+        negative_facts = "No explicit exclusions available. Do not assume features beyond the verified facts above."
+    else:
+        subject_facts = (
+            "No verified facts are available for this product. "
+            "Persona backgrounds should focus on lifestyle context, purchase motivation, and general usage patterns. "
+            "Where natural, personas may reference the kinds of details real reviewers care about — "
+            "such as pricing, build quality, performance, specifications, or comparisons to alternatives — "
+            "but do NOT invent specific numbers, model names, or technical measurements for the product."
+        )
+        negative_facts = (
+            "Since no facts have been verified, do NOT assume specific features or capabilities. "
+            "Personas can mention caring about general product qualities (e.g., 'wanted good battery life', "
+            "'needed a fast processor') without citing exact specs."
+        )
+
     persona_prompt_template = load_prompt("composition", "personas")
     persona_prompt = format_prompt(persona_prompt_template,
         persona_count=persona_count,
@@ -3454,6 +3514,8 @@ async def _generate_personas(
         region=_region,
         reviewer_context=reviewer_ctx,
         demographics_list=demographics_list,
+        subject_facts=subject_facts,
+        negative_facts=negative_facts,
     )
 
     PERSONA_BATCH_SIZE = 25
@@ -3472,6 +3534,8 @@ async def _generate_personas(
                 region=_region,
                 reviewer_context=reviewer_ctx,
                 demographics_list=batch_demos,
+                subject_facts=subject_facts,
+                negative_facts=negative_facts,
             )
         else:
             batch_prompt = persona_prompt
@@ -3527,9 +3591,10 @@ def _save_personas_to_dir(personas: list[dict], personas_dir, region: str = "unk
 
 async def _generate_writing_patterns(
     subject_context: dict,
-    job_paths: dict,
+    job_root: str,
     gen_model: str,
     api_key: str,
+    convex=None,
     usage_tracker=None,
 ) -> dict:
     """Generate domain-specific writing patterns via LLM.
@@ -3538,17 +3603,16 @@ async def _generate_writing_patterns(
     """
     import json
     from pathlib import Path
-    from cera.llm.openrouter import OpenRouterClient
     from cera.prompts import load_prompt, format_prompt
 
-    _llm = OpenRouterClient(api_key=api_key, usage_tracker=usage_tracker, component="aml.patterns")
+    _llm, gen_model = await _make_llm_client(gen_model, api_key, convex=convex, usage_tracker=usage_tracker, component="aml.patterns")
     _domain = subject_context.get("domain", subject_context.get("category", "general"))
     _region = subject_context.get("region", "unknown")
 
     # Build reference context from reference dataset (if available)
     # Check both datasets/ (new) and dataset/ (legacy) for reference files
     reference_context = ""
-    _ref_candidates = [Path(job_paths["root"]) / "datasets", Path(job_paths["root"]) / "dataset"]
+    _ref_candidates = [Path(job_root) / "datasets", Path(job_root) / "dataset"]
     dataset_dir = next((d for d in _ref_candidates if d.exists() and list(d.glob("reference_*"))), None)
     if dataset_dir:
         ref_files = list(dataset_dir.glob("reference_*"))
@@ -3571,7 +3635,23 @@ async def _generate_writing_patterns(
                 pass
 
     if not reference_context:
-        reference_context = "No reference dataset available. Generate patterns based on the domain and subject."
+        reference_context = "No reference dataset available."
+
+    # Build verified facts from SIL context
+    characteristics = subject_context.get("characteristics", [])
+    positives = subject_context.get("positives", [])
+    negatives = subject_context.get("negatives", [])
+    all_facts = characteristics + positives + negatives
+    if all_facts:
+        subject_facts = "\n".join(f"- {fact}" for fact in all_facts)
+    else:
+        subject_facts = (
+            "No verified facts available. Generate writing patterns for how real reviewers in this domain "
+            "naturally discuss products — e.g., how they mention prices, quality, performance, build, "
+            "service, or their experience. Include patterns for how reviewers casually reference specs "
+            "(e.g., 'the RAM is enough for my needs', 'battery gets me through the day') without "
+            "committing to specific numbers or model names."
+        )
 
     patterns_template = load_prompt("composition", "writing_patterns")
     patterns_prompt = format_prompt(patterns_template,
@@ -3579,6 +3659,7 @@ async def _generate_writing_patterns(
         subject=subject_context.get("query", ""),
         region=_region,
         reference_context=reference_context,
+        subject_facts=subject_facts,
     )
 
     response = await _llm.chat(
@@ -3597,6 +3678,7 @@ async def _generate_structure_variants(
     estimated_reviews: int,
     gen_model: str,
     api_key: str,
+    convex=None,
     usage_tracker=None,
 ) -> list[dict]:
     """Generate review structure variants via LLM.
@@ -3604,10 +3686,9 @@ async def _generate_structure_variants(
     Returns a list of structure variant dicts (or empty list on failure).
     """
     import math
-    from cera.llm.openrouter import OpenRouterClient
     from cera.prompts import load_prompt, format_prompt
 
-    _llm = OpenRouterClient(api_key=api_key, usage_tracker=usage_tracker, component="aml.structures")
+    _llm, gen_model = await _make_llm_client(gen_model, api_key, convex=convex, usage_tracker=usage_tracker, component="aml.structures")
     _domain = subject_context.get("domain", subject_context.get("category", "general"))
     _region = subject_context.get("region", "unknown")
     reviewer_ctx = reviewers_context.get("additional_context", "general consumer")
@@ -3776,6 +3857,8 @@ def assign_writing_patterns(patterns_data: dict) -> str:
         return ""
     lines = ["**Writing Patterns:**"]
     for _cat_key, cat_data in patterns_data["patterns"].items():
+        if not isinstance(cat_data, dict):
+            continue
         context = cat_data.get("context", "")
         options = cat_data.get("options", [])
         if options:
@@ -3969,6 +4052,7 @@ async def execute_generation(
                                 api_key=api_key,
                                 age_enabled=age_enabled,
                                 sex_enabled=sex_enabled,
+                                convex=convex,
                                 usage_tracker=usage_tracker,
                             )
                             personas_pool = existing_pool + extra
@@ -3992,6 +4076,7 @@ async def execute_generation(
                         api_key=api_key,
                         age_enabled=age_enabled,
                         sex_enabled=sex_enabled,
+                        convex=convex,
                         usage_tracker=usage_tracker,
                     )
                     print(f"[Generation] Generated {len(personas_pool)} personas")
@@ -4002,7 +4087,7 @@ async def execute_generation(
                     if dataset_dir_override:
                         _target_dir = Path(dataset_dir_override).parent.parent
                     else:
-                        _target_dir = Path(job_paths["root"])
+                        _target_dir = job_path
                     _personas_save_dir = _target_dir / "reviewer-personas"
                     _save_personas_to_dir(personas_pool, _personas_save_dir, subject_context.get("region", "unknown"))
 
@@ -4038,9 +4123,10 @@ async def execute_generation(
                 try:
                     writing_patterns = await _generate_writing_patterns(
                         subject_context=subject_context,
-                        job_paths=job_paths,
+                        job_root=str(job_path),
                         gen_model=config.generation.model,
                         api_key=api_key,
+                        convex=convex,
                         usage_tracker=usage_tracker,
                     )
                     # Save for reuse
@@ -4084,6 +4170,7 @@ async def execute_generation(
                         estimated_reviews=total_reviews,
                         gen_model=config.generation.model,
                         api_key=api_key,
+                        convex=convex,
                         usage_tracker=usage_tracker,
                     )
                     # Save at target level
@@ -4623,16 +4710,43 @@ Output ONLY the JSON object, no other text."""
                     structure_variant_str = format_structure_variant(structure_assignments[review_index])
 
                 # Strip URLs from SIL features for clean Subject Intelligence block
-                features_clean = strip_url_citations(", ".join(review_features)) if review_features else "N/A"
+                _domain_detail_hints = {
+                    "laptop": "RAM amounts, storage size, CPU or GPU specs, display resolution or brightness, battery life estimates, port types, pricing, or weight",
+                    "restaurant": "menu items, prices, wait times, portion sizes, specific dishes, or service details",
+                    "hotel": "room amenities, nightly rates, check-in experience, breakfast options, pool or fitness center, or loyalty program details",
+                }
+                if review_features:
+                    features_clean = strip_url_citations(", ".join(review_features))
+                    detail_hint = ""
+                else:
+                    features_clean = f"No verified specs available for this {_domain}."
+                    _hint = _domain_detail_hints.get(_domain, "specific details, pricing, or notable features")
+                    detail_hint = (
+                        f"\n- Where natural, reference concrete details like {_hint}. "
+                        "Real reviewers often mention specific details from their experience, though not every review needs to be exhaustive."
+                    )
+
+                # Build Features to Mention section — omit entirely when no SIL data
+                _pros_str = strip_url_citations(", ".join(review_pros)) if review_pros else ""
+                _cons_str = strip_url_citations(", ".join(review_cons)) if review_cons else ""
+                if _pros_str or _cons_str:
+                    _ftm_parts = ["## Features to Mention"]
+                    if _pros_str:
+                        _ftm_parts.append(f"Positive: {_pros_str}")
+                    if _cons_str:
+                        _ftm_parts.append(f"Negative: {_cons_str}")
+                    features_to_mention = "\n".join(_ftm_parts)
+                else:
+                    features_to_mention = ""
 
                 prompt_vars = {
                     "subject": subject_context["query"],
                     "domain": _domain,
                     "region": subject_context.get("region", ""),
                     "features_no_urls": features_clean,
+                    "detail_hint": detail_hint,
                     "persona_text": persona_text,
-                    "pros": strip_url_citations(", ".join(review_pros)) if review_pros else "quality and value",
-                    "cons": strip_url_citations(", ".join(review_cons)) if review_cons else "minor issues",
+                    "features_to_mention": features_to_mention,
                     "num_sentences": num_sentences,
                     "aspect_sentence_plan": aspect_sentence_plan_str,
                     "dataset_mode_instruction": dataset_mode_instruction,
@@ -7531,12 +7645,15 @@ async def execute_pipeline(
                     })
 
             # Run targets (parallel or sequential)
-            _parallel_targets = getattr(config.generation, 'parallel_targets', False) if config and config.generation else False
-            if _parallel_targets:
+            _parallel_targets = getattr(config.generation, 'parallel_targets', True) if config and config.generation else False
+            print(f"[Pipeline] Target dispatch: parallel_targets={_parallel_targets}, {len(effective_targets)} targets")
+            if _parallel_targets and len(effective_targets) > 1:
+                print(f"[Pipeline] Launching {len(effective_targets)} targets in PARALLEL via asyncio.gather")
                 await _mt_asyncio.gather(*[
                     _run_target(i, t) for i, t in enumerate(effective_targets)
                 ])
             else:
+                print(f"[Pipeline] Running targets SEQUENTIALLY")
                 for i, t in enumerate(effective_targets):
                     await _run_target(i, t)
 
