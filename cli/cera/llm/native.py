@@ -231,18 +231,18 @@ class AnthropicNativeClient(OpenRouterClient):
             ]
             _use_web_search = True
 
-        # Anthropic extended thinking
+        # Anthropic extended thinking (requires temperature=1)
         if reasoning:
             body["thinking"] = {
                 "type": "enabled",
                 "budget_tokens": reasoning.get("max_tokens", 10000),
             }
+            body["temperature"] = 1
 
-        # Web search tool requires API version 2025-03-05; use base version otherwise
-        api_version = "2025-03-05" if _use_web_search else self.ANTHROPIC_API_VERSION
+        # Web search tool (web_search_20250305) uses the standard API version
         headers = {
             "x-api-key": self.api_key,
-            "anthropic-version": api_version,
+            "anthropic-version": self.ANTHROPIC_API_VERSION,
             "Content-Type": "application/json",
         }
 
@@ -256,13 +256,6 @@ class AnthropicNativeClient(OpenRouterClient):
                 if response.status_code == 400:
                     error_text = response.text[:500]
                     print(f"[Anthropic] 400 error: {error_text}")
-                    # If web search version isn't supported, retry without web search
-                    if _use_web_search and "not a valid version" in error_text:
-                        print("[Anthropic] Web search API version not supported, falling back to parametric knowledge")
-                        body.pop("tools", None)
-                        _use_web_search = False
-                        headers["anthropic-version"] = self.ANTHROPIC_API_VERSION
-                        continue
                     response.raise_for_status()
                 if response.status_code in (429, 500, 502, 503, 529):
                     import asyncio
@@ -393,77 +386,130 @@ class GoogleNativeClient(OpenRouterClient):
         web_search: bool = False,
     ) -> str:
         """Send a chat request, optionally with Google Search grounding."""
-        # Gemini's OpenAI-compatible endpoint doesn't support the "reasoning" field
+        # Gemini 3.x supports reasoning_effort via the OpenAI-compatible endpoint
+        # (maps to thinkingLevel: low/medium/high)
+        _reasoning_effort = None
+        if reasoning:
+            _reasoning_effort = reasoning.get("effort", "high") if isinstance(reasoning, dict) else "high"
+
         if not web_search:
-            return await super().chat(
-                messages, model=model, temperature=temperature,
-                max_tokens=max_tokens, stream=stream, reasoning=None,
-            )
-
-        # Google Search grounding via OpenAI-compatible endpoint.
-        # Try multiple formats since Google's support is inconsistent:
-        # 1. Native Gemini tools format (works on newer models)
-        # 2. Fall back to no grounding if the endpoint rejects it
-        # See: https://ai.google.dev/gemini-api/docs/openai
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json",
-        }
-        url = f"{self._base_url}/chat/completions"
-
-        # Try with google_search grounding first
-        grounding_formats = [
-            # Format 1: google.tools (extra_body style, documented for Gemini 3+)
-            {"google": {"tools": [{"google_search": {}}]}},
-            # Format 2: no grounding (fall back to parametric knowledge)
-            {},
-        ]
-
-        content = ""
-        data = {}
-        for grounding in grounding_formats:
-            body: dict = {
-                "model": model,
-                "messages": messages,
-                "temperature": temperature,
-                "max_tokens": max_tokens,
-                **grounding,
-            }
-
-            success = False
-            for attempt in range(3):
-                try:
-                    response = await self.client.post(
-                        url, json=body, headers=headers, timeout=300.0
-                    )
-                    if response.status_code == 400 and grounding:
-                        # Grounding format rejected — try next format
+            # For non-search calls, use the base OpenRouter-compatible chat
+            # but inject reasoning_effort as an extra body param
+            if _reasoning_effort:
+                # Build request manually to include reasoning_effort
+                headers = {
+                    "Authorization": f"Bearer {self.api_key}",
+                    "Content-Type": "application/json",
+                }
+                body: dict = {
+                    "model": model,
+                    "messages": messages,
+                    "temperature": temperature,
+                    "max_tokens": max_tokens,
+                    "reasoning_effort": _reasoning_effort,
+                }
+                url = f"{self._base_url}/chat/completions"
+                for attempt in range(3):
+                    try:
+                        response = await self.client.post(
+                            url, json=body, headers=headers, timeout=300.0
+                        )
+                        if response.status_code in (429, 500, 502, 503):
+                            import asyncio
+                            await asyncio.sleep(2 ** attempt)
+                            continue
+                        response.raise_for_status()
                         break
-                    if response.status_code in (429, 500, 502, 503):
+                    except httpx.TimeoutException:
+                        if attempt == 2:
+                            raise
                         import asyncio
                         await asyncio.sleep(2 ** attempt)
                         continue
-                    response.raise_for_status()
-                    success = True
-                    break
-                except httpx.TimeoutException:
-                    if attempt == 2:
-                        raise
+                data = response.json()
+                content = data["choices"][0]["message"]["content"]
+
+                # Track usage
+                if self.usage_tracker:
+                    usage = data.get("usage", {})
+                    from cera.llm.usage import LLMUsage
+                    inp = usage.get("prompt_tokens", 0)
+                    out = usage.get("completion_tokens", 0)
+                    self.usage_tracker.record(LLMUsage(
+                        model=f"native/google/{model}",
+                        prompt_tokens=inp,
+                        completion_tokens=out,
+                        total_tokens=inp + out,
+                        component=self._component or "unknown",
+                    ))
+
+                return content
+            else:
+                return await super().chat(
+                    messages, model=model, temperature=temperature,
+                    max_tokens=max_tokens, stream=stream, reasoning=None,
+                )
+
+        # Google Search grounding via the native Gemini generateContent API.
+        # The OpenAI-compatible endpoint does not support google_search grounding,
+        # so we use the native API directly: models/{model}:generateContent
+        # See: https://ai.google.dev/gemini-api/docs/grounding
+        native_base = "https://generativelanguage.googleapis.com/v1beta"
+        url = f"{native_base}/models/{model}:generateContent?key={self.api_key}"
+
+        # Convert OpenAI-style messages to Gemini contents format
+        contents = []
+        for msg in messages:
+            role = "user" if msg["role"] in ("user", "system") else "model"
+            contents.append({"role": role, "parts": [{"text": msg["content"]}]})
+
+        body: dict = {
+            "contents": contents,
+            "tools": [{"google_search": {}}],
+            "generationConfig": {
+                "temperature": temperature,
+                "maxOutputTokens": max_tokens,
+            },
+        }
+        if _reasoning_effort:
+            # Map reasoning effort to Gemini thinkingLevel
+            body["generationConfig"]["thinkingConfig"] = {
+                "thinkingLevel": _reasoning_effort.upper(),
+            }
+
+        content = ""
+        data = {}
+        for attempt in range(3):
+            try:
+                response = await self.client.post(
+                    url, json=body, timeout=300.0
+                )
+                if response.status_code in (429, 500, 502, 503):
                     import asyncio
                     await asyncio.sleep(2 ** attempt)
                     continue
-
-            if success:
-                data = response.json()
-                content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
+                response.raise_for_status()
                 break
+            except httpx.TimeoutException:
+                if attempt == 2:
+                    raise
+                import asyncio
+                await asyncio.sleep(2 ** attempt)
+                continue
+
+        data = response.json()
+
+        # Extract text from native Gemini response format
+        parts = data.get("candidates", [{}])[0].get("content", {}).get("parts", [])
+        text_parts = [p["text"] for p in parts if "text" in p]
+        content = "\n".join(text_parts)
 
         # Track usage
-        if self.usage_tracker and data.get("usage"):
-            usage = data["usage"]
+        if self.usage_tracker:
+            usage = data.get("usageMetadata", {})
             from cera.llm.usage import LLMUsage
-            inp = usage.get("prompt_tokens", 0)
-            out = usage.get("completion_tokens", 0)
+            inp = usage.get("promptTokenCount", 0)
+            out = usage.get("candidatesTokenCount", 0)
             self.usage_tracker.record(LLMUsage(
                 model=f"native/google/{model}",
                 prompt_tokens=inp,
@@ -598,14 +644,24 @@ class OpenAINativeClient(OpenRouterClient):
         reasoning: dict | None = None,
     ) -> str:
         """Chat using max_completion_tokens (required by GPT-5+, o-series models)."""
+        is_o_series = any(model.startswith(p) for p in ("o1", "o3", "o4"))
+
         body: dict = {
             "model": model,
             "messages": messages,
-            "temperature": temperature,
             "max_completion_tokens": max_completion_tokens,
         }
         if reasoning:
-            body["reasoning"] = reasoning
+            effort = reasoning.get("effort", "medium") if isinstance(reasoning, dict) else "medium"
+            if is_o_series:
+                # o-series: nested reasoning object, no temperature
+                body["reasoning"] = reasoning
+            else:
+                # GPT-5+: top-level reasoning_effort, temperature must be 1
+                body["reasoning_effort"] = effort
+                body["temperature"] = 1
+        else:
+            body["temperature"] = temperature
 
         headers = {
             "Authorization": f"Bearer {self.api_key}",
@@ -623,6 +679,11 @@ class OpenAINativeClient(OpenRouterClient):
                     import asyncio
                     await asyncio.sleep(2 ** attempt)
                     continue
+                if response.status_code == 400:
+                    import logging
+                    logging.getLogger("cera.llm.native").warning(
+                        f"OpenAI 400 Bad Request for {model}: {response.text[:500]}"
+                    )
                 response.raise_for_status()
                 break
             except httpx.TimeoutException:
