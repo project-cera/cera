@@ -49,6 +49,7 @@ class SubjectContext:
     availability: Optional[str] = None
     mav_verified: bool = False  # Whether MAV verification was applied
     search_sources: list[str] = field(default_factory=list)  # URLs of sources used
+    temporal_anchor: Optional[str] = None  # Raw temporal text from SIL (e.g., "Released October 2024")
 
 
 @dataclass
@@ -178,6 +179,25 @@ class SubjectIntelligenceLayer:
         self._similarity_model = None  # Lazy-loaded SentenceTransformer
         self._log = log_callback  # Optional async callback: async (level, phase, message, progress) -> None
         self._settings = settings  # Convex settings for native API keys
+
+    @staticmethod
+    def _extract_temporal_anchor(results: list) -> Optional[str]:
+        """Extract the release/launch/availability date from consensus answers.
+
+        Scans query-answer results for temporal queries and returns the consensus
+        answer text (e.g., "Released in October 2024"). Returns None if no
+        temporal query was answered.
+
+        Args:
+            results: List of QueryConsensusResult objects (or pseudo-results from SAV).
+        """
+        temporal_keywords = ["release", "launch", "open", "available", "announce", "when was", "when did"]
+        for r in results:
+            answer = getattr(r, "consensus_answer", None)
+            query_text = getattr(r, "query", "")
+            if answer and any(kw in query_text.lower() for kw in temporal_keywords):
+                return answer
+        return None
 
     def _get_client(self, model: str, component: str = "sil"):
         """Create the right LLM client for a model ID.
@@ -349,6 +369,8 @@ class SubjectIntelligenceLayer:
                 messages=[{"role": "user", "content": prompt}],
                 model=self._actual_model_id(model),
                 temperature=0.3,
+                max_tokens=16384,
+                reasoning={"effort": "medium"},
             )
 
         try:
@@ -388,7 +410,9 @@ class SubjectIntelligenceLayer:
                     messages=[{"role": "user", "content": search_prompt}],
                     model=self._actual_model_id(search_model),
                     temperature=0.0,
+                    max_tokens=16384,
                     web_search=True,
+                    reasoning={"effort": "medium"},
                 )
             raw_search_content = f"[Model used native web search]\n\nQueries: {queries_str}\n\nResponse:\n{search_response}"
         else:
@@ -440,6 +464,8 @@ class SubjectIntelligenceLayer:
                 messages=[{"role": "user", "content": prompt}],
                 model=self._actual_model_id(model),
                 temperature=0.3,
+                max_tokens=16384,
+                reasoning={"effort": "medium"},
             )
 
         # Parse JSON response
@@ -634,6 +660,7 @@ class SubjectIntelligenceLayer:
                 model=self._actual_model_id(model),
                 temperature=0.0,
                 max_tokens=65536,
+                reasoning={"effort": "medium"},
             )
 
         # Parse JSON response using robust extractor
@@ -701,7 +728,7 @@ class SubjectIntelligenceLayer:
                 model=self._actual_model_id(judge_model),
                 temperature=1.0,
                 max_tokens=16384,
-                reasoning={"effort": "high"},
+                reasoning={"effort": "medium"},
             )
 
         # Parse response
@@ -975,6 +1002,8 @@ class SubjectIntelligenceLayer:
                 messages=[{"role": "user", "content": prompt}],
                 model=self._actual_model_id(classify_model),
                 temperature=0.0,
+                max_tokens=16384,
+                reasoning={"effort": "medium"},
             )
 
         try:
@@ -1057,6 +1086,8 @@ class SubjectIntelligenceLayer:
                 messages=[{"role": "user", "content": prompt}],
                 model=self._actual_model_id(model),
                 temperature=0.0,
+                max_tokens=16384,
+                reasoning={"effort": "medium"},
             )
 
         try:
@@ -1135,6 +1166,8 @@ class SubjectIntelligenceLayer:
                 messages=[{"role": "user", "content": prompt}],
                 model=self._actual_model_id(judge_model),
                 temperature=0.0,
+                max_tokens=16384,
+                reasoning={"effort": "medium"},
             )
 
         try:
@@ -1515,6 +1548,19 @@ class SubjectIntelligenceLayer:
                 for q in queries:
                     all_raw_queries.append((q, model))
 
+            # ─── Temporal Query Injection ─────────────────────────
+            # Ensure at least one query asks about the subject's release/availability date.
+            # This anchors downstream AML prompts to prevent timeline errors.
+            _temporal_kws = ["release", "launch", "open", "available", "announce", "when was", "when did"]
+            _has_temporal = any(
+                any(kw in q[0].lower() for kw in _temporal_kws)
+                for q in all_raw_queries
+            )
+            if not _has_temporal:
+                _temporal_q = f"When was {query} first released, launched, or made available for purchase?"
+                all_raw_queries.append((_temporal_q, "__temporal_mandatory__"))
+                await self._emit_log("INFO", "SIL", "Injected mandatory temporal query (release/availability date)")
+
             total_queries_generated = len(all_raw_queries)
             await self._emit_log("INFO", "SIL", f"Round 1 complete: {total_queries_generated} queries from {len(model_research)} models", progress=15)
 
@@ -1720,6 +1766,7 @@ class SubjectIntelligenceLayer:
                     ))
 
                 classified = await self._classify_verified_answers(pseudo_results, query)
+                temporal_anchor = self._extract_temporal_anchor(pseudo_results)
                 context = SubjectContext(
                     subject=query,
                     features=classified["characteristics"],
@@ -1727,6 +1774,7 @@ class SubjectIntelligenceLayer:
                     cons=classified["negatives"],
                     use_cases=classified["use_cases"],
                     mav_verified=False,
+                    temporal_anchor=temporal_anchor,
                 )
 
                 return MAVResult(
@@ -1819,6 +1867,7 @@ class SubjectIntelligenceLayer:
                 else:
                     await self._emit_log("WARN", "SIL", "No models produced valid clusterings — skipping entity clustering")
 
+            temporal_anchor = self._extract_temporal_anchor(verified_results) or self._extract_temporal_anchor(consensus_results)
             context = SubjectContext(
                 subject=query,
                 features=classified["characteristics"],
@@ -1826,7 +1875,10 @@ class SubjectIntelligenceLayer:
                 cons=classified["negatives"],
                 use_cases=classified["use_cases"],
                 mav_verified=True,
+                temporal_anchor=temporal_anchor,
             )
+            if temporal_anchor:
+                await self._emit_log("INFO", "SIL", f"Temporal anchor extracted: {temporal_anchor[:120]}")
 
             await self._emit_log("INFO", "SIL", "Subject intelligence gathering complete", progress=50)
             return MAVResult(
@@ -1863,6 +1915,12 @@ class SubjectIntelligenceLayer:
                 fallback_model, query, search_content, additional_context
             )
 
+            # Temporal query injection (SAV path)
+            _temporal_kws = ["release", "launch", "open", "available", "announce", "when was", "when did"]
+            if not any(any(kw in q.lower() for kw in _temporal_kws) for q in queries):
+                queries.append(f"When was {query} first released, launched, or made available for purchase?")
+                await self._emit_log("INFO", "SIL", "Injected mandatory temporal query (SAV path)")
+
             # Answer the queries with the single model
             pooled = [FactualQuery(id=f"q{i+1}", query=q, source_model=fallback_model) for i, q in enumerate(queries)]
             answers = await self._answer_queries(
@@ -1885,6 +1943,7 @@ class SubjectIntelligenceLayer:
                 ))
 
             classified = await self._classify_verified_answers(pseudo_results, query)
+            temporal_anchor = self._extract_temporal_anchor(pseudo_results)
 
             context = SubjectContext(
                 subject=query,
@@ -1893,7 +1952,10 @@ class SubjectIntelligenceLayer:
                 cons=classified["negatives"],
                 use_cases=classified["use_cases"],
                 mav_verified=False,
+                temporal_anchor=temporal_anchor,
             )
+            if temporal_anchor:
+                await self._emit_log("INFO", "SIL", f"Temporal anchor extracted (SAV): {temporal_anchor[:120]}")
 
             model_data = MAVModelData(
                 model=fallback_model,

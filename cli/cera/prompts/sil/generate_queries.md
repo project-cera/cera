@@ -17,6 +17,7 @@ Good examples:
 - "What are the operating hours of {subject}?"
 - "Does {subject} offer delivery?"
 - "What materials is {subject} made from?"
+- "When was {subject} first released or made available?" (IMPORTANT: always include a temporal/availability query)
 
 Bad examples (DO NOT generate these):
 - "Is the battery life bad?" (negative bias)
