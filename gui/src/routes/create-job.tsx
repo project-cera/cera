@@ -40,6 +40,7 @@ import {
   Database,
   Plus,
   BarChart3,
+  ListOrdered,
 } from 'lucide-react'
 import type { Id } from 'convex/_generated/dataModel'
 import { Alert, AlertDescription, AlertTitle } from '../components/ui/alert'
@@ -516,6 +517,7 @@ function GenerateWizard() {
   const runPipeline = useAction(api.pipelineAction.runPipeline)
   const settings = useQuery(api.settings.get)
   const completedJobs = useQuery(api.jobs.listForReuse)
+  const latestJob = useQuery(api.jobs.getLatest)
   const { constraints } = useUIConstraints()
   const { models: rawModels, processedModels, providers, groupedModels, loading: modelsLoading } = useOpenRouterModels()
   const { models: localModels } = useLocalLlmModels()
@@ -1992,7 +1994,7 @@ function GenerateWizard() {
   }
 
   // Handle "Create Job" - only runs RGM+ACM (instant, no LLM)
-  const handleCreateJob = async (andRunPipeline = false) => {
+  const handleCreateJob = async (mode: 'create' | 'run' | 'queue' = 'create') => {
     // Run validation checks
     const errors = getValidationErrors()
     if (errors.length > 0) {
@@ -2116,6 +2118,7 @@ function GenerateWizard() {
         estimatedCost,
         method,
         rdeUsage: rdeUsage || undefined,
+        ...(mode === 'queue' && latestJob ? { queuedAfter: latestJob._id } : {}),
       })
 
       // Upload dataset file if present (EVAL-only jobs)
@@ -2162,11 +2165,15 @@ function GenerateWizard() {
       }
 
       // If "Create Job & Run Pipeline", trigger full pipeline
-      if (andRunPipeline) {
+      if (mode === 'run') {
         runPipeline({ jobId: jobId as Id<"jobs"> }).catch((error) => {
           console.error('Pipeline failed:', error)
         })
         toast.success('Job created and pipeline started!')
+      } else if (mode === 'queue') {
+        toast.success('Job queued', {
+          description: `Will run after "${latestJob?.name}" completes`,
+        })
       } else {
         toast.success('Job created successfully!')
       }
@@ -3863,7 +3870,7 @@ function GenerateWizard() {
                 <div className="flex items-center gap-3">
                 <Button
                   variant="outline"
-                  onClick={() => handleCreateJob(false)}
+                  onClick={() => handleCreateJob('create')}
                   disabled={submitting || validatingModels}
                 >
                   {submitting ? (
@@ -3876,11 +3883,28 @@ function GenerateWizard() {
                   )}
                 </Button>
                 <Button
+                  variant="secondary"
+                  onClick={() => handleCreateJob('queue')}
+                  disabled={submitting || validatingModels || !latestJob}
+                >
+                  {submitting ? (
+                    <>
+                      <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                      Creating...
+                    </>
+                  ) : (
+                    <>
+                      <ListOrdered className="mr-2 h-4 w-4" />
+                      Create & Queue
+                    </>
+                  )}
+                </Button>
+                <Button
                   onClick={() => {
                     if (hasInvalidModels) {
                       setShowInvalidModelsAlert(true)
                     } else {
-                      handleCreateJob(true)
+                      handleCreateJob('run')
                     }
                   }}
                   disabled={submitting || validatingModels || hasCheckingModels}

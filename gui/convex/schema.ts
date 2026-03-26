@@ -167,6 +167,8 @@ export default defineSchema({
     configPath: v.optional(v.string()),
     // Reference to source job when reusing composition config
     reusedFrom: v.optional(v.id("jobs")),
+    // Queue: wait for this job to complete before auto-starting pipeline
+    queuedAfter: v.optional(v.id("jobs")),
     // Generated contexts from composition phase
     subjectContext: v.optional(v.any()), // SIL output - subject intelligence
     reviewerContext: v.optional(v.any()), // RGM output - reviewer personas

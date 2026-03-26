@@ -1,5 +1,6 @@
 import { mutation, query } from "./_generated/server";
 import { v } from "convex/values";
+import { api } from "./_generated/api";
 
 // Query to list all jobs
 export const list = query({
@@ -138,6 +139,15 @@ export const listForResearch = query({
   },
 });
 
+// Query to get the most recently created job (for queue feature)
+export const getLatest = query({
+  args: {},
+  handler: async (ctx) => {
+    const jobs = await ctx.db.query("jobs").order("desc").first();
+    return jobs;
+  },
+});
+
 // Mutation to create a new job
 export const create = mutation({
   args: {
@@ -266,6 +276,8 @@ export const create = mutation({
     datasetFile: v.optional(v.string()),
     // Optional: reuse composition from an existing job
     reusedFrom: v.optional(v.id("jobs")),
+    // Optional: queue this job to run after another job completes
+    queuedAfter: v.optional(v.id("jobs")),
     // Reference dataset configuration (for context extraction and/or MDQA comparison)
     referenceDataset: v.optional(v.object({
       fileName: v.optional(v.string()),
@@ -349,6 +361,7 @@ export const create = mutation({
       progress: 0,
       createdAt: Date.now(),
       reusedFrom: args.reusedFrom,
+      queuedAfter: args.queuedAfter,
       referenceDataset: args.referenceDataset,
       estimatedCost: args.estimatedCost,
       // Heuristic method fields (optional, only set for heuristic jobs)
@@ -455,6 +468,17 @@ export const complete = mutation({
       progress: 100,
       completedAt: Date.now(),
     });
+
+    // Check for any jobs queued after this one and trigger their pipeline
+    const allJobs = await ctx.db.query("jobs").collect();
+    const queuedJobs = allJobs.filter(
+      (j) => j.queuedAfter === args.jobId && j.status === "pending"
+    );
+    for (const queuedJob of queuedJobs) {
+      await ctx.scheduler.runAfter(0, api.pipelineAction.runPipeline, {
+        jobId: queuedJob._id,
+      });
+    }
   },
 });
 

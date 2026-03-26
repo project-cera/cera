@@ -16,6 +16,7 @@ import {
   Plus,
   X,
   HelpCircle,
+  ListOrdered,
 } from 'lucide-react'
 import { Button } from '../ui/button'
 import { Input } from '../ui/input'
@@ -143,7 +144,7 @@ const DEFAULT_HEURISTIC_CONFIG: HeuristicConfig = {
   useFormatPrompt: true,
   formatPrompt: DEFAULT_FORMAT_PROMPT,
   avgSentencesPerReview: '5',
-  outputFormat: 'semeval_xml',
+  outputFormat: 'jsonl',
   knowledgeSourceJobId: null,
   // Multi-target
   targetPrefix: '',
@@ -161,7 +162,7 @@ const DEFAULT_HEURISTIC_CONFIG: HeuristicConfig = {
   totalRuns: 1,
   parallelRuns: true,
   // Evaluation
-  metricsEnabled: true,
+  metricsEnabled: false,
   referenceFile: null,
   referenceFileName: null,
   metrics: [...DIVERSITY_METRICS],
@@ -186,6 +187,7 @@ export function HeuristicWizard({ onBack, onReset }: HeuristicWizardProps) {
   const runPipeline = useAction(api.pipelineAction.runPipeline)
   const settings = useQuery(api.settings.get)
   const ceraJobs = useQuery(api.jobs.listCompletedCeraJobs)
+  const latestJob = useQuery(api.jobs.getLatest)
   const { providers, groupedModels, models: rawModels, loading: modelsLoading } = useOpenRouterModels()
 
   // State (must be declared before any hooks that reference it)
@@ -323,7 +325,7 @@ export function HeuristicWizard({ onBack, onReset }: HeuristicWizardProps) {
   const isValid = getValidationErrors().length === 0
 
   // Submit handlers
-  const handleCreateJob = useCallback(async (runAfterCreate: boolean) => {
+  const handleCreateJob = useCallback(async (mode: 'create' | 'run' | 'queue') => {
     const errors = getValidationErrors()
     if (errors.length > 0) {
       toast.error('Validation Error', {
@@ -339,8 +341,9 @@ export function HeuristicWizard({ onBack, onReset }: HeuristicWizardProps) {
       const jobId = await createJob({
         name: config.name,
         config: {}, // Empty config for heuristic jobs (CERA config not used)
-        phases: ['generation', 'evaluation'], // Heuristic skips composition
+        phases: config.metricsEnabled ? ['generation', 'evaluation'] : ['generation'],
         method: 'heuristic',
+        ...(mode === 'queue' && latestJob ? { queuedAfter: latestJob._id } : {}),
         heuristicConfig: (() => {
           const firstTarget = config.targets?.[0]
           const effectiveModels = config.models?.filter(Boolean) || []
@@ -398,19 +401,22 @@ export function HeuristicWizard({ onBack, onReset }: HeuristicWizardProps) {
         }
       }
 
-      toast.success('Job created successfully')
-
-      if (runAfterCreate) {
-        // Start the pipeline
+      if (mode === 'run') {
         try {
           await runPipeline({ jobId })
-          toast.success('Pipeline started')
+          toast.success('Job created and pipeline started!')
         } catch (error) {
           console.error('Failed to start pipeline:', error)
           toast.error('Failed to start pipeline', {
             description: error instanceof Error ? error.message : 'Unknown error',
           })
         }
+      } else if (mode === 'queue') {
+        toast.success('Job queued', {
+          description: `Will run after "${latestJob?.name}" completes`,
+        })
+      } else {
+        toast.success('Job created successfully')
       }
 
       // Navigate to job detail
@@ -424,7 +430,7 @@ export function HeuristicWizard({ onBack, onReset }: HeuristicWizardProps) {
     } finally {
       setIsSubmitting(false)
     }
-  }, [config, createJob, runPipeline, navigate, getValidationErrors])
+  }, [config, createJob, runPipeline, navigate, getValidationErrors, latestJob])
 
   // Tab navigation
   const canGoNext = activeTab < HEURISTIC_TABS.length - 1
@@ -1085,14 +1091,22 @@ export function HeuristicWizard({ onBack, onReset }: HeuristicWizardProps) {
             <div className="flex gap-4 pt-4">
               <Button
                 variant="outline"
-                onClick={() => handleCreateJob(false)}
+                onClick={() => handleCreateJob('create')}
                 disabled={!isValid || isSubmitting}
               >
                 {isSubmitting ? <Loader2 className="h-4 w-4 mr-2 animate-spin" /> : null}
                 Create Job
               </Button>
               <Button
-                onClick={() => handleCreateJob(true)}
+                variant="secondary"
+                onClick={() => handleCreateJob('queue')}
+                disabled={!isValid || isSubmitting || !latestJob}
+              >
+                {isSubmitting ? <Loader2 className="h-4 w-4 mr-2 animate-spin" /> : <ListOrdered className="h-4 w-4 mr-2" />}
+                Create & Queue
+              </Button>
+              <Button
+                onClick={() => handleCreateJob('run')}
                 disabled={!isValid || isSubmitting || !settings?.openrouterApiKey}
               >
                 {isSubmitting ? <Loader2 className="h-4 w-4 mr-2 animate-spin" /> : <Play className="h-4 w-4 mr-2" />}
