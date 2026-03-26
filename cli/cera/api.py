@@ -1447,6 +1447,7 @@ async def execute_composition(
             "availability": ctx.availability,
             "mav_verified": ctx.mav_verified,
             "search_sources": ctx.search_sources,
+            "temporal_anchor": ctx.temporal_anchor,  # Raw temporal text from SIL (None when SIL disabled)
             "mav_stats": {
                 "total_facts_extracted": mav_result.total_facts_extracted,
                 "facts_verified": mav_result.facts_verified,
@@ -2060,6 +2061,7 @@ async def execute_composition_simple(
         "availability": ctx.availability,
         "mav_verified": ctx.mav_verified,
         "search_sources": ctx.search_sources,
+        "temporal_anchor": ctx.temporal_anchor,  # Raw temporal text from SIL (None when SIL disabled)
         "mav_stats": {
             "total_facts_extracted": mav_result.total_facts_extracted,
             "facts_verified": mav_result.facts_verified,
@@ -4486,6 +4488,12 @@ Output ONLY the JSON object, no other text."""
         _region = subject_context.get("region", "N/A")
         dataset_mode = getattr(config.generation, "dataset_mode", "explicit")
 
+        # Temporal Fact Injection: build temporal hint for AML system prompt
+        # Only active when SIL provided a temporal_anchor (None when SIL disabled)
+        from cera.pipeline.temporal import build_temporal_hint
+        _temporal_anchor = subject_context.get("temporal_anchor")
+        _temporal_hint = build_temporal_hint(_temporal_anchor)
+
         # Get aspect categories - try request config first, then job's config.json, then defaults
         aspect_cats = getattr(config.subject_profile, "aspect_categories", None) if config.subject_profile else None
         if not aspect_cats or len(aspect_cats) == 0:
@@ -4745,6 +4753,7 @@ Output ONLY the JSON object, no other text."""
                     "region": subject_context.get("region", ""),
                     "features_no_urls": features_clean,
                     "detail_hint": detail_hint,
+                    "temporal_hint": _temporal_hint,
                     "persona_text": persona_text,
                     "features_to_mention": features_to_mention,
                     "num_sentences": num_sentences,

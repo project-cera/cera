@@ -6,6 +6,8 @@ from typing import Optional
 import random
 import asyncio
 
+from cera.pipeline.temporal import build_temporal_hint
+
 # Path to persona template
 PERSONA_TEMPLATE_PATH = Path(__file__).parent.parent.parent / "prompts" / "rgm" / "persona.md"
 
@@ -119,6 +121,11 @@ Real reviewers express the same features and experiences in DIFFERENT ways:
 Key features of {subject}: {', '.join(features[:5]) if features else 'various features'}
 Known pros: {', '.join(pros[:3]) if pros else 'quality, value'}
 Known cons: {', '.join(cons[:3]) if cons else 'minor issues'}"""
+
+        # Temporal awareness (only present when SIL provided a temporal anchor)
+        temporal_hint = build_temporal_hint(subject_context.get("temporal_anchor"))
+        if temporal_hint:
+            prompt += f"\n\n{temporal_hint}"
 
         return prompt
 
