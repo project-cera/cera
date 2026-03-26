@@ -1,0 +1,46 @@
+{
+  "ablationStudy": "no-sil",
+  "timestamp": "2026-03-25T07:12:23.377857-04:00",
+  "flaggerModel": "claude-opus-4.6 (via Claude Code subagents)",
+  "batchSize": 25,
+  "parallel": true,
+  "factsheetLineCount": 71,
+  "datasets": [
+    {
+      "mode": "cera-full",
+      "domain": "laptop",
+      "sizes": [
+        100,
+        500,
+        1000
+      ]
+    },
+    {
+      "mode": "cera-sav",
+      "domain": "laptop",
+      "sizes": [
+        100,
+        500,
+        1000
+      ]
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "laptop",
+      "sizes": [
+        100,
+        500,
+        1000
+      ]
+    },
+    {
+      "mode": "heuristic",
+      "domain": "laptop",
+      "sizes": [
+        100,
+        500,
+        1000
+      ]
+    }
+  ]
+}

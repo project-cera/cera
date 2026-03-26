@@ -1,0 +1,5 @@
+mode,totalReviews,totalErrors,totalVague,errorRate,vfCount,vfPercent,ner,runCount
+cera-full,2342,464,41,19.81,2018,86.17,22.99,5
+cera-sav,2337,437,12,18.7,452,19.34,96.69,5
+cera-no-sil,2335,720,34,30.84,800,34.26,90.02,5
+heuristic,1856,1761,21,94.88,1827,98.44,96.38,5
