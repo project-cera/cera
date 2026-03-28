@@ -123,7 +123,10 @@ Known pros: {', '.join(pros[:3]) if pros else 'quality, value'}
 Known cons: {', '.join(cons[:3]) if cons else 'minor issues'}"""
 
         # Temporal awareness (only present when SIL provided a temporal anchor)
-        temporal_hint = build_temporal_hint(subject_context.get("temporal_anchor"))
+        temporal_hint = build_temporal_hint(
+            subject_context.get("temporal_anchor"),
+            domain=subject_context.get("domain"),
+        )
         if temporal_hint:
             prompt += f"\n\n{temporal_hint}"
 

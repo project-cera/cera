@@ -228,6 +228,30 @@ def serve(
 ):
     """Start the FastAPI server for web GUI integration."""
     import uvicorn
+    import signal
+    import sys
+
+    def _signal_handler(signum, frame):
+        sig_name = signal.Signals(signum).name
+        print(f"[CERA] Received signal {sig_name} ({signum})", flush=True)
+        sys.exit(128 + signum)
+
+    for sig in (signal.SIGTERM, signal.SIGINT, signal.SIGHUP, signal.SIGQUIT):
+        signal.signal(sig, _signal_handler)
+
+    import atexit, traceback
+
+    def _atexit_handler():
+        print("[CERA] Process exiting! Stack traces of all threads:", flush=True)
+        import threading
+        for th in threading.enumerate():
+            print(f"\n--- Thread {th.name} (id={th.ident}) ---", flush=True)
+            frame = sys._current_frames().get(th.ident)
+            if frame:
+                traceback.print_stack(frame)
+        print("[CERA] atexit handler complete", flush=True)
+
+    atexit.register(_atexit_handler)
 
     console.print(Panel.fit(
         "[bold blue]CERA[/bold blue] API Server",

@@ -99,6 +99,7 @@ class TargetDataset(BaseModel):
     request_size: int = 25
     total_runs: int = 1
     runs_mode: str = "parallel"  # "parallel" or "sequential"
+    runs_scope: str = "generation"  # "generation" (default: repeat only gen) or "composition" (repeat from SIL/MAV)
     neb_depth: int = 0  # 0 = disabled
 
 
@@ -196,7 +197,7 @@ def sanitize_job_name(name: str) -> str:
     sanitized = name.lower()
     sanitized = re.sub(r'[^a-z0-9]+', '-', sanitized)  # Replace non-alphanumeric with hyphen
     sanitized = re.sub(r'^-|-$', '', sanitized)  # Trim leading/trailing hyphens
-    return sanitized[:30] if sanitized else "job"  # Limit length
+    return sanitized[:60] if sanitized else "job"  # Limit length
 
 
 def create_job_directory(jobs_dir: str, job_id: str, job_name: str) -> dict[str, str]:
@@ -219,12 +220,14 @@ def create_job_directory(jobs_dir: str, job_id: str, job_name: str) -> dict[str,
     from datetime import datetime, timezone, timedelta
     sanitized = sanitize_job_name(job_name)
 
-    # Check if a directory for this job already exists (match by job_id OR sanitized name)
+    # Check if a directory for this job already exists (match by job_id only)
+    # NOTE: Previously also matched by sanitized name suffix, but this caused
+    # collisions when duplicating jobs (copy's name sanitizes similarly to original).
     from pathlib import Path
     jobs_path = Path(jobs_dir)
     if jobs_path.exists():
         for existing in jobs_path.iterdir():
-            if existing.is_dir() and (job_id in existing.name or (sanitized and existing.name.endswith(f"-{sanitized}"))):
+            if existing.is_dir() and job_id in existing.name:
                 job_dir_name = existing.name
                 break
         else:
@@ -436,6 +439,7 @@ def save_job_config(
                     "request_size": t.request_size,
                     "total_runs": t.total_runs,
                     "runs_mode": t.runs_mode,
+                    "runs_scope": getattr(t, 'runs_scope', 'generation'),
                     "neb_depth": getattr(t, 'neb_depth', 0),
                 }
                 for t in targets
@@ -1938,6 +1942,8 @@ async def execute_composition_simple(
     convex_url: Optional[str] = None,
     convex_token: Optional[str] = None,
     usage_tracker=None,
+    job_paths_override: Optional[dict] = None,
+    settings: Optional[dict] = None,
 ) -> dict:
     """
     Execute composition phase with optional Convex progress updates.
@@ -1959,20 +1965,22 @@ async def execute_composition_simple(
         convex = ConvexClient(url=convex_url, token=convex_token, pocketbase_url=os.environ.get("POCKETBASE_URL"))
 
     # Fetch settings from Convex for native API keys
-    settings = None
-    if convex:
+    if settings is None and convex:
         try:
             settings = await convex.get_settings()
         except Exception:
             pass
 
-    # Create job directory structure first (needed for start_composing)
-    job_paths = create_job_directory(jobs_directory, job_id, job_name)
+    # Create job directory structure (or use override for composition-mode runs)
+    if job_paths_override:
+        job_paths = job_paths_override
+    else:
+        job_paths = create_job_directory(jobs_directory, job_id, job_name)
 
-    # Ensure job is in "composing" status before sending progress updates
-    # This fixes race condition where Convex action's startComposing may not have completed
-    if convex:
-        await convex.start_composing(job_id, job_paths["root"])
+    # # Removed: pipeline now sets status to "running" directly via startRunning
+    # # before calling execute_composition_simple. No need for "composing" intermediate state.
+    # if convex and not job_paths_override:
+    #     await convex.start_composing(job_id, job_paths["root"])
         print(f"[Composition] Job status set to 'composing'")
 
     async def log_progress(phase: str, message: str, progress: Optional[int] = None, level: str = "INFO"):
@@ -3523,13 +3531,18 @@ async def _generate_personas(
     PERSONA_BATCH_SIZE = 25
     all_personas = []
 
+    # Build all batch prompts first, then fire concurrently
+    import asyncio as _persona_asyncio
+    batch_ranges = []
+    batch_prompts = []
     for batch_start in range(0, persona_count, PERSONA_BATCH_SIZE):
         batch_end = min(batch_start + PERSONA_BATCH_SIZE, persona_count)
         batch_count = batch_end - batch_start
+        batch_ranges.append((batch_start, batch_end))
 
         if persona_count > PERSONA_BATCH_SIZE:
             batch_demos = "\n".join(demo_lines[batch_start:batch_end])
-            batch_prompt = format_prompt(persona_prompt_template,
+            batch_prompts.append(format_prompt(persona_prompt_template,
                 persona_count=batch_count,
                 domain=subject_context.get("domain", subject_context.get("category", "general")),
                 subject=subject_context.get("query", ""),
@@ -3538,19 +3551,25 @@ async def _generate_personas(
                 demographics_list=batch_demos,
                 subject_facts=subject_facts,
                 negative_facts=negative_facts,
-            )
+            ))
         else:
-            batch_prompt = persona_prompt
+            batch_prompts.append(persona_prompt)
 
+    async def _gen_persona_batch(prompt):
         response = await _llm.chat(
             model=gen_model,
-            messages=[{"role": "user", "content": batch_prompt}],
+            messages=[{"role": "user", "content": prompt}],
             temperature=0.9,
             max_tokens=8192,
         )
+        return _extract_json_from_llm(response, expected_type="array")
 
-        batch_personas = _extract_json_from_llm(response, expected_type="array")
+    # Fire all persona batches concurrently
+    batch_results = await _persona_asyncio.gather(*[
+        _gen_persona_batch(p) for p in batch_prompts
+    ])
 
+    for (batch_start, batch_end), batch_personas in zip(batch_ranges, batch_results):
         for i, persona in enumerate(batch_personas):
             global_idx = batch_start + i
             if global_idx < len(pre_sampled):
@@ -4490,9 +4509,13 @@ Output ONLY the JSON object, no other text."""
 
         # Temporal Fact Injection: build temporal hint for AML system prompt
         # Only active when SIL provided a temporal_anchor (None when SIL disabled)
-        from cera.pipeline.temporal import build_temporal_hint
+        from cera.pipeline.temporal import build_temporal_hint, compute_max_ownership_days, humanize_duration
         _temporal_anchor = subject_context.get("temporal_anchor")
-        _temporal_hint = build_temporal_hint(_temporal_anchor)
+        _temporal_domain = subject_context.get("domain")
+        _temporal_hint = build_temporal_hint(_temporal_anchor, domain=_temporal_domain)
+        # Compute human-readable max ownership for opening directive examples
+        _max_own_days = compute_max_ownership_days(_temporal_anchor)
+        _max_own_human = humanize_duration(_max_own_days) if _max_own_days else "a few days"
 
         # Get aspect categories - try request config first, then job's config.json, then defaults
         aspect_cats = getattr(config.subject_profile, "aspect_categories", None) if config.subject_profile else None
@@ -4536,7 +4559,7 @@ Output ONLY the JSON object, no other text."""
             # Opening directives for per-review diversity enforcement
             OPENING_DIRECTIVES = [
                 "Start with a specific product detail, measurement, or physical observation you noticed immediately",
-                "Start mid-thought or mid-story, as if continuing a conversation (e.g., 'So I finally...' or 'Three weeks in and...')",
+                f"Start mid-thought or mid-story, as if continuing a conversation (e.g., 'So I finally...' or '{_max_own_human.capitalize()} in and...')",
                 "Start with a rhetorical question or genuine question to the reader",
                 "Start with a raw emotional reaction -- excitement, disappointment, surprise, or frustration",
                 "Start with when, where, or how you acquired/visited/discovered this (time and place context)",
@@ -4546,9 +4569,9 @@ Output ONLY the JSON object, no other text."""
                 "Start with enthusiastic praise or a strong recommendation",
                 "Start with a warning, caveat, or 'heads up' to other buyers/visitors",
                 "Start by addressing the reader directly (e.g., 'If you're looking for...', 'For anyone considering...')",
-                "Start with a time reference (e.g., 'After two months...', 'First day with this...')",
+                f"Start with a time reference (e.g., 'After {_max_own_human}...', 'First day with this...')",
                 "Start with a contradictory or nuanced take (e.g., 'I wanted to love this but...', 'Mixed feelings...')",
-                "Start with a factual statement about usage (e.g., 'Used this daily for 3 months...')",
+                f"Start with a factual statement about usage (e.g., 'Used this daily for {_max_own_human}...')",
                 "Start with a story or anecdote about why you bought/visited this",
             ]
 
@@ -5425,6 +5448,67 @@ async def delete_job_directory(request: DeleteJobDirRequest):
         )
 
 
+class RenameJobDirRequest(BaseModel):
+    """Request to rename a job directory."""
+    oldDir: str  # Current full path to the job directory
+    newDir: str  # New full path to the job directory
+
+
+@app.post("/api/rename-job-dir")
+async def rename_job_directory(request: RenameJobDirRequest):
+    """
+    Rename a job directory on disk.
+
+    Called after Convex mutation updates the DB record.
+    Only renames if the old directory exists and both paths are within the jobs directory.
+    """
+    from pathlib import Path
+
+    old_dir = Path(request.oldDir)
+    new_dir = Path(request.newDir)
+
+    if not old_dir.exists():
+        print(f"[API] Job directory does not exist: {old_dir}")
+        return {"status": "not_found", "message": "Source directory does not exist"}
+
+    if new_dir.exists():
+        print(f"[API] Target directory already exists: {new_dir}")
+        raise HTTPException(
+            status_code=400,
+            detail="Target directory already exists"
+        )
+
+    # Safety: validate both paths are within the jobs directory
+    valid_prefixes = [
+        Path("./jobs").resolve(),
+        Path("/app/jobs").resolve(),
+    ]
+
+    for dir_path, label in [(old_dir, "old"), (new_dir, "new")]:
+        resolved = dir_path.resolve()
+        is_valid = any(
+            str(resolved).startswith(str(prefix))
+            for prefix in valid_prefixes
+        )
+        if not is_valid:
+            print(f"[API] Invalid {label} job directory path (not in jobs dir): {dir_path}")
+            raise HTTPException(
+                status_code=400,
+                detail=f"Invalid {label} directory path - must be within jobs directory"
+            )
+
+    try:
+        old_dir.rename(new_dir)
+        print(f"[API] Renamed job directory: {old_dir} → {new_dir}")
+        return {"status": "renamed", "oldPath": str(old_dir), "newPath": str(new_dir)}
+    except Exception as e:
+        print(f"[API] Failed to rename job directory: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to rename directory: {str(e)}"
+        )
+
+
 # ============================================================
 # New endpoints for redesigned job creation/pipeline flow
 # ============================================================
@@ -5697,6 +5781,8 @@ class PipelineRequest(BaseModel):
     heuristicConfig: Optional[HeuristicConfig] = None
     # Token usage: pre-job RDE records from context extraction
     rdeUsage: Optional[list[dict]] = None
+    # Existing job directory (if created during job creation, to avoid creating a duplicate)
+    existingJobDir: Optional[str] = None
 
 
 def _recover_truncated_json_array(content: str) -> list | None:
@@ -6860,6 +6946,7 @@ async def execute_pipeline(
     method: str = "cera",
     heuristic_config: Optional[HeuristicConfig] = None,
     rde_usage: Optional[list[dict]] = None,
+    existing_job_dir: Optional[str] = None,
 ):
     """Execute selected pipeline phases sequentially."""
     from pathlib import Path
@@ -6910,8 +6997,18 @@ async def execute_pipeline(
         return  # Real dataset pipeline is complete
 
     try:
-        # Get or create job directory
-        job_paths = create_job_directory(jobs_directory, job_id, job_name)
+        # Get or create job directory (reuse existing if passed from Convex)
+        if existing_job_dir:
+            job_dir = Path(existing_job_dir)
+            job_dir.mkdir(parents=True, exist_ok=True)
+            job_paths = {"root": str(job_dir)}
+            for subdir in ["contexts", "mavs", "reports", "datasets"]:
+                subdir_path = job_dir / subdir
+                subdir_path.mkdir(parents=True, exist_ok=True)
+                job_paths[subdir] = str(subdir_path)
+            job_paths["dataset"] = job_paths["datasets"]
+        else:
+            job_paths = create_job_directory(jobs_directory, job_id, job_name)
 
         # Initialize token usage tracker
         from cera.llm.usage import UsageTracker
@@ -7011,11 +7108,237 @@ async def execute_pipeline(
                 await convex.add_log(job_id, "INFO", "Pipeline", "Running on CPU (PyTorch not available)")
 
         # ========================================
-        # Phase 1: COMPOSITION (SIL + MAV)
+        # Detect composition-mode multi-run (runs_scope="composition")
+        # ========================================
+        effective_targets_pre = config.generation.get_effective_targets() if config and config.generation else []
+        composition_mode_runs = 0
+        if effective_targets_pre:
+            # Check if any target uses composition scope
+            for t in effective_targets_pre:
+                if getattr(t, 'runs_scope', 'generation') == 'composition' and t.total_runs > 1:
+                    composition_mode_runs = max(composition_mode_runs, t.total_runs)
+
+        if composition_mode_runs > 0 and "composition" in phases:
+            # ========================================
+            # COMPOSITION-MODE MULTI-RUN: [COMP → GEN(targets) → EVAL(targets)] × N
+            # Each run gets its own contexts/, mavs/, datasets/ under run{N}/
+            # ========================================
+            import asyncio as _comp_asyncio
+
+            if convex:
+                await convex.add_log(job_id, "INFO", "Pipeline",
+                    f"Composition-mode multi-run: {composition_mode_runs} runs (each run restarts from SIL/MAV)")
+                await convex.run_mutation("jobs:startRunning", {"id": job_id, "jobDir": job_paths["root"]})
+
+            # Resolve models
+            all_models = config.generation.models or [config.generation.model]
+            all_models = [m for m in all_models if m]
+            is_multi_model = len(all_models) > 1
+            parallel_models = getattr(config.generation, 'parallel_models', True)
+
+            # GPU evaluation lock
+            eval_lock = _comp_asyncio.Lock()
+
+            # Check if composition runs should be parallel or sequential
+            _parallel_scope_runs = any(
+                getattr(t, 'runs_mode', 'parallel') == 'parallel'
+                for t in effective_targets_pre
+            )
+
+            async def _run_composition_run(comp_run: int):
+                """Execute one full composition run: COMP → GEN(targets) → EVAL(targets)."""
+                run_label = f"[Run {comp_run}/{composition_mode_runs}]"
+
+                if convex:
+                    await convex.add_log(job_id, "INFO", "Pipeline", f"{run_label} Starting composition...")
+                    if not _parallel_scope_runs:
+                        overall_progress = int((comp_run - 1) / composition_mode_runs * 100)
+                        await convex.update_progress(job_id, overall_progress, f"Run {comp_run}/{composition_mode_runs}")
+
+                # Create per-run directory structure: {job_dir}/run{N}/{contexts,mavs,datasets}
+                run_root = Path(job_paths["root"]) / f"run{comp_run}"
+                run_paths = {
+                    "root": str(run_root),
+                    "contexts": str(run_root / "contexts"),
+                    "mavs": str(run_root / "mavs"),
+                    "reports": str(run_root / "reports"),
+                    "datasets": str(run_root / "datasets"),
+                    "dataset": str(run_root / "datasets"),
+                }
+                for d in run_paths.values():
+                    Path(d).mkdir(parents=True, exist_ok=True)
+
+                # --- Composition for this run ---
+                result = await execute_composition_simple(
+                    job_id=job_id,
+                    job_name=job_name,
+                    config=config,
+                    api_key=api_key,
+                    tavily_api_key=tavily_api_key,
+                    jobs_directory=jobs_directory,
+                    convex_url=convex_url,
+                    convex_token=convex_token,
+                    usage_tracker=usage_tracker,
+                    job_paths_override=run_paths,
+                    settings=settings,
+                )
+
+                if convex:
+                    await convex.add_log(job_id, "INFO", "SIL", f"{run_label} Composition complete.")
+                    if comp_run == 1:
+                        try:
+                            await convex.run_mutation("jobs:patchContexts", {
+                                "jobId": job_id,
+                                "subjectContext": result.get("subjectContext"),
+                                "reviewerContext": result.get("reviewerContext"),
+                                "attributesContext": result.get("attributesContext"),
+                            })
+                        except Exception as e:
+                            print(f"[Pipeline] Warning: Could not patch contexts: {e}")
+
+                _save_tokens_incremental()
+
+                # --- Generation + Evaluation for all targets in this run (parallel targets) ---
+                _parallel_targets_comp = getattr(config.generation, 'parallel_targets', True)
+
+                async def _run_comp_target(target_idx: int, target: TargetDataset):
+                    """Run generation + evaluation for one target within a composition run."""
+                    target_label = f"{target.target_value} {target.count_mode}"
+
+                    # Create target directory under this run's datasets/
+                    target_paths = create_target_directory(
+                        run_paths["datasets"], target.target_value, target.count_mode,
+                        1, all_models,  # 1 run per target (the comp_run IS the run)
+                    )
+
+                    target_config = config.model_copy(deep=True)
+                    target_config.generation.count_mode = target.count_mode
+                    if target.count_mode == "sentences":
+                        target_config.generation.target_sentences = target.target_value
+                        target_config.generation.count = max(1, target.target_value // 5)
+                    else:
+                        target_config.generation.count = target.target_value
+                        target_config.generation.target_sentences = None
+                    target_config.generation.batch_size = target.batch_size
+                    target_config.generation.request_size = target.request_size
+                    target_config.generation.total_runs = 1
+                    target_config.generation.neb_enabled = target.neb_depth > 0
+                    target_config.generation.neb_depth = target.neb_depth
+
+                    # --- Generation ---
+                    if "generation" in phases:
+                        for model_id in all_models:
+                            model_slug = model_id.split("/")[-1]
+                            model_config = target_config.model_copy(deep=True)
+                            model_config.generation.model = model_id
+
+                            run1_paths = target_paths["runs"].get(1, {})
+                            dataset_dir = run1_paths.get("models", {}).get(model_id) or target_paths["target"]
+                            amls_dir = run1_paths.get("amls") or None
+
+                            if convex:
+                                model_label = f" [{model_slug}]" if is_multi_model else ""
+                                await convex.add_log(job_id, "INFO", "AML",
+                                    f"{run_label} [Target {target.target_value}]{model_label} Generating...")
+
+                            await execute_generation(
+                                job_id=job_id,
+                                job_dir=run_paths["root"],
+                                config=model_config,
+                                api_key=api_key,
+                                convex_url=convex_url,
+                                convex_token=convex_token,
+                                should_complete_job=False,
+                                model_tag=model_slug if is_multi_model else None,
+                                current_run=1,
+                                total_runs=1,
+                                dataset_dir_override=dataset_dir,
+                                amls_dir_override=amls_dir,
+                                usage_tracker=usage_tracker,
+                            )
+
+                    _save_tokens_incremental()
+
+                    # --- Evaluation ---
+                    if "evaluation" in phases:
+                        if convex:
+                            await convex.add_log(job_id, "INFO", "MDQA",
+                                f"{run_label} [Target {target.target_value}] Evaluating...")
+
+                        for model_id in all_models:
+                            run1_paths = target_paths["runs"].get(1, {})
+                            model_dir = run1_paths.get("models", {}).get(model_id)
+                            if model_dir:
+                                from pathlib import Path as _EvalPath
+                                model_dir_path = _EvalPath(model_dir)
+                                dataset_file_path = None
+                                for ext in [".jsonl", ".csv", ".xml"]:
+                                    candidates = list(model_dir_path.glob(f"*{ext}"))
+                                    if candidates:
+                                        dataset_file_path = candidates[0]
+                                        break
+
+                                if dataset_file_path:
+                                    async with eval_lock:
+                                        await execute_evaluation(
+                                            job_id=job_id,
+                                            job_dir=run_paths["root"],
+                                            config=target_config,
+                                            api_key=api_key,
+                                            convex_url=convex_url,
+                                            convex_token=convex_token,
+                                            dataset_file=str(dataset_file_path),
+                                            evaluation_config=evaluation_config,
+                                            should_complete_job=False,
+                                            dataset_dir_override=target_paths["target"],
+                                        )
+
+                        _save_tokens_incremental()
+
+                # Dispatch targets (parallel or sequential)
+                if _parallel_targets_comp and len(effective_targets_pre) > 1:
+                    await _comp_asyncio.gather(*[
+                        _run_comp_target(i, t) for i, t in enumerate(effective_targets_pre)
+                    ])
+                else:
+                    for i, t in enumerate(effective_targets_pre):
+                        await _run_comp_target(i, t)
+
+                if convex:
+                    await convex.add_log(job_id, "INFO", "Pipeline", f"{run_label} Complete.")
+                    if not _parallel_scope_runs:
+                        run_progress = int(comp_run / composition_mode_runs * 100)
+                        await convex.update_progress(job_id, run_progress, f"Run {comp_run}/{composition_mode_runs} complete")
+
+            # Dispatch composition runs (parallel or sequential)
+            if _parallel_scope_runs and composition_mode_runs > 1:
+                if convex:
+                    await convex.add_log(job_id, "INFO", "Pipeline",
+                        f"Launching {composition_mode_runs} composition runs in PARALLEL")
+                await _comp_asyncio.gather(*[
+                    _run_composition_run(r) for r in range(1, composition_mode_runs + 1)
+                ])
+            else:
+                for r in range(1, composition_mode_runs + 1):
+                    await _run_composition_run(r)
+
+            # Complete job
+            if convex:
+                await convex.update_progress(job_id, 100, "complete")
+                await convex.complete_job(job_id)
+                await convex.add_log(job_id, "INFO", "Pipeline",
+                    f"Composition-mode pipeline completed ({composition_mode_runs} runs × {len(effective_targets_pre)} targets)")
+
+            _save_tokens_incremental()
+            return  # Skip normal pipeline flow
+
+        # ========================================
+        # Phase 1: COMPOSITION (SIL + MAV) — Standard single-pass
         # ========================================
         if "composition" in phases:
             if convex:
-                await convex.start_composing(job_id, job_paths["root"])
+                # Set status to "running" directly (skip "composing" intermediate state)
+                await convex.run_mutation("jobs:startRunning", {"id": job_id, "jobDir": job_paths["root"]})
                 await convex.add_log(job_id, "INFO", "SIL", "Starting composition phase (SIL/MAV)...")
 
             # Run full composition (SIL + MAV + RGM + ACM)
@@ -7029,11 +7352,13 @@ async def execute_pipeline(
                 convex_url=convex_url,
                 convex_token=convex_token,
                 usage_tracker=usage_tracker,
+                job_paths_override=job_paths,
+                settings=settings,
             )
 
             if convex:
-                # Store contexts in Convex and mark as composed
-                await convex.run_mutation("jobs:completeComposition", {
+                # Store contexts in Convex (status stays "running")
+                await convex.run_mutation("jobs:patchContexts", {
                     "jobId": job_id,
                     "subjectContext": result.get("subjectContext"),
                     "reviewerContext": result.get("reviewerContext"),
@@ -9564,6 +9889,7 @@ async def run_pipeline(request: PipelineRequest, background_tasks: BackgroundTas
         request.method,
         request.heuristicConfig,
         request.rdeUsage,
+        request.existingJobDir,
     )
     return {"status": "started", "jobId": request.jobId, "phases": request.phases, "method": request.method}
 
