@@ -472,6 +472,7 @@ const DEFAULT_CONFIG = {
       request_size: 25,
       total_runs: 1,
       runs_mode: 'parallel' as 'parallel' | 'sequential',
+      runs_scope: 'composition' as 'generation' | 'composition',
       neb_depth: 0,
     }],
     parallel_targets: true,
@@ -1523,7 +1524,7 @@ function GenerateWizard() {
           region: config.subject_profile.region,
           domain: config.subject_profile.domain,
           aspect_category_mode: config.subject_profile.aspect_category_mode,
-          aspect_categories: (config.subject_profile.aspect_category_mode === 'preset' || config.subject_profile.aspect_category_mode === 'ref_dataset') && config.subject_profile.aspect_categories.length > 0 ? config.subject_profile.aspect_categories : undefined,
+          aspect_categories: (config.subject_profile.aspect_category_mode === 'preset' || config.subject_profile.aspect_category_mode === 'ref_dataset' || config.subject_profile.aspect_category_mode === 'import') && config.subject_profile.aspect_categories.length > 0 ? config.subject_profile.aspect_categories : undefined,
           sentiment_depth: config.subject_profile.sentiment_depth,
           mav: {
             enabled: config.ablation.mav_enabled,
@@ -5014,7 +5015,7 @@ function AspectCategoriesEditor({ categories, domain, mode, onModeChange, onChan
       if (!res.ok) throw new Error(await res.text())
       const data = await res.json()
       onChange(data.categories)
-      toast.success(`Imported ${data.count} aspect categories from ${file.name}`)
+      toast.success(`Fixed: Imported ${data.count} aspect categories from ${file.name}`)
     } catch (err: any) {
       toast.error(`Import failed: ${err.message}`)
     }
@@ -6833,29 +6834,6 @@ function GenerationStepContent({
           />
         </div>
 
-        {/* Parallelize Target Datasets toggle (only when 2+ targets) */}
-        {targets.length > 1 && (
-          <div className="flex items-center justify-between rounded-lg border bg-muted/30 p-3">
-            <div className="flex items-center gap-2">
-              <Label className="text-sm">Parallelize Target Datasets</Label>
-              <TooltipProvider>
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <HelpCircle className="h-3 w-3 text-muted-foreground cursor-help" />
-                  </TooltipTrigger>
-                  <TooltipContent>
-                    <p className="max-w-xs text-xs">Run all target dataset sizes concurrently. Each target gets its own generation pipeline.</p>
-                  </TooltipContent>
-                </Tooltip>
-              </TooltipProvider>
-            </div>
-            <Switch
-              checked={config.generation.parallel_targets || false}
-              onCheckedChange={(checked) => updateConfig('generation.parallel_targets', checked)}
-            />
-          </div>
-        )}
-
         {/* Target Dataset Rows */}
         <div className="space-y-2">
           {targets.map((target: CeraTarget, idx: number) => (
@@ -6879,6 +6857,139 @@ function GenerationStepContent({
             <Plus className="h-3.5 w-3.5 mr-1.5" />
             Add target dataset
           </Button>
+        </div>
+
+        <Separator />
+
+        {/* Parallel Settings */}
+        <div className="space-y-3">
+          <Label>Parallel Settings</Label>
+          <div className="rounded-lg border bg-muted/30 p-3 space-y-3">
+            {/* Scope Mode */}
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <span className="text-sm">Scope Mode</span>
+                <TooltipProvider>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <HelpCircle className="h-3.5 w-3.5 text-muted-foreground cursor-help" />
+                    </TooltipTrigger>
+                    <TooltipContent className="max-w-xs">
+                      <p className="text-xs">
+                        <strong>Composition:</strong> Runs restart from composition — each run gets an independent SIL/MAV pass. All subsequent selected phases also repeat.<br />
+                        <strong>Generation:</strong> Runs restart from generation only — all runs share one composition (SIL/MAV).
+                      </p>
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
+              </div>
+              <Select
+                value={config.generation.targets?.[0]?.runs_scope || 'composition'}
+                onValueChange={(v: 'generation' | 'composition') => {
+                  const updated = config.generation.targets.map((t: any) => ({ ...t, runs_scope: v }))
+                  updateConfig('generation.targets', updated)
+                }}
+              >
+                <SelectTrigger className="w-[140px] h-8 text-xs">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="composition">Composition</SelectItem>
+                  <SelectItem value="generation">Generation</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            {/* Scope Runs */}
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <span className="text-sm">Scope Runs</span>
+                <TooltipProvider>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <HelpCircle className="h-3.5 w-3.5 text-muted-foreground cursor-help" />
+                    </TooltipTrigger>
+                    <TooltipContent className="max-w-xs">
+                      <p className="text-xs">Execute multiple runs concurrently or one after another. Parallel is faster but uses more concurrent API calls.</p>
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
+              </div>
+              <Select
+                value={config.generation.targets?.[0]?.runs_mode || 'parallel'}
+                onValueChange={(v: 'parallel' | 'sequential') => {
+                  const updated = config.generation.targets.map((t: any) => ({ ...t, runs_mode: v }))
+                  updateConfig('generation.targets', updated)
+                }}
+              >
+                <SelectTrigger className="w-[140px] h-8 text-xs">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="parallel">Parallel</SelectItem>
+                  <SelectItem value="sequential">Sequential</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            {/* Target Runs */}
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <span className="text-sm">Target Runs</span>
+                <TooltipProvider>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <HelpCircle className="h-3.5 w-3.5 text-muted-foreground cursor-help" />
+                    </TooltipTrigger>
+                    <TooltipContent className="max-w-xs">
+                      <p className="text-xs">When parallel, all target sizes (e.g., 100, 500, 1000) generate concurrently instead of sequentially.</p>
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
+              </div>
+              <Select
+                value={config.generation.parallel_targets ? 'parallel' : 'sequential'}
+                onValueChange={(v) => updateConfig('generation.parallel_targets', v === 'parallel')}
+              >
+                <SelectTrigger className="w-[140px] h-8 text-xs">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="parallel">Parallel</SelectItem>
+                  <SelectItem value="sequential">Sequential</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            {/* Model Runs */}
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <span className="text-sm">Model Runs</span>
+                <TooltipProvider>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <HelpCircle className="h-3.5 w-3.5 text-muted-foreground cursor-help" />
+                    </TooltipTrigger>
+                    <TooltipContent className="max-w-xs">
+                      <p className="text-xs">When parallel, all selected models generate concurrently. N models × request_size = N× concurrent API calls.</p>
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
+              </div>
+              <Select
+                value={config.generation.parallel_models ? 'parallel' : 'sequential'}
+                onValueChange={(v) => updateConfig('generation.parallel_models', v === 'parallel')}
+              >
+                <SelectTrigger className="w-[140px] h-8 text-xs">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="parallel">Parallel</SelectItem>
+                  <SelectItem value="sequential">Sequential</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
         </div>
 
         <Separator />
@@ -6977,35 +7088,7 @@ function GenerationStepContent({
                 Add Model
               </Button>
 
-              {/* Parallel execution toggle (only when 2+ models selected) */}
-              {config.generation.models.filter(Boolean).length > 1 && (
-                <div className="rounded-lg border bg-muted/30 p-3 space-y-2">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <Label className="text-sm">Parallel Model Execution</Label>
-                      <TooltipProvider>
-                        <Tooltip>
-                          <TooltipTrigger asChild>
-                            <HelpCircle className="h-3 w-3 text-muted-foreground cursor-help" />
-                          </TooltipTrigger>
-                          <TooltipContent className="max-w-xs">
-                            <p>Run all models concurrently. Each model gets its own request_size concurrent calls.</p>
-                          </TooltipContent>
-                        </Tooltip>
-                      </TooltipProvider>
-                    </div>
-                    <Switch
-                      checked={config.generation.parallel_models || false}
-                      onCheckedChange={(checked) => updateConfig('generation.parallel_models', checked)}
-                    />
-                  </div>
-                  {config.generation.parallel_models && (
-                    <p className="text-xs text-amber-600 dark:text-amber-400">
-                      {config.generation.models.filter(Boolean).length} models x {config.generation.request_size} request_size = {config.generation.models.filter(Boolean).length * config.generation.request_size} concurrent API calls
-                    </p>
-                  )}
-                </div>
-              )}
+              {/* Parallel model execution is controlled via Parallel Settings section */}
             </div>
           ) : (
             /* Single-model mode: standard LLMSelector */
