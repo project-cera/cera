@@ -1,0 +1,17 @@
+mode,domain,size,totalReviews,totalErrors,totalVague,errorRate,vfCount,vfPercent,fs,runCount
+cera-full,restaurant,100,144,59,2,0.4171,127,0.8768,45.97,5
+cera-full,restaurant,500,748,276,20,0.3657,710,0.9495,58.37,5
+cera-full,restaurant,1000,1440,411,18,0.2899,1374,0.9542,66.42,5
+cera-full,restaurant,ALL,2332,746,40,0.3576,2211,0.9268,56.92,15
+cera-no-sil,restaurant,100,147,47,56,0.3048,110,0.7493,44.45,5
+cera-no-sil,restaurant,500,764,111,233,0.1454,518,0.6775,53.22,5
+cera-no-sil,restaurant,1000,1481,183,284,0.1244,883,0.5985,47.41,5
+cera-no-sil,restaurant,ALL,2392,341,573,0.1915,1511,0.6751,48.36,15
+cera-sav,restaurant,100,157,110,12,0.7016,141,0.8991,19.76,5
+cera-sav,restaurant,500,770,569,13,0.735,737,0.9571,22.2,5
+cera-sav,restaurant,1000,1470,852,29,0.5827,1412,0.9604,37.77,5
+cera-sav,restaurant,ALL,2397,1531,54,0.6731,2290,0.9389,26.58,15
+heuristic,restaurant,100,108,103,4,0.9518,108,1.0,4.82,5
+heuristic,restaurant,500,547,496,21,0.9081,546,0.9982,9.02,5
+heuristic,restaurant,1000,990,850,28,0.8669,1113,0.9974,13.05,5
+heuristic,restaurant,ALL,1645,1449,53,0.9089,1767,0.9985,8.96,15

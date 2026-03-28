@@ -1,0 +1,31 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,"the fanless design ensures completely silent operation via passive cooling. the a18 pro chip packs a 6-core cpu, 5-core gpu...",no,,,,no
+2,"i picked up the 512gb model specifically for the touch id and storage after seeing it hit the market on march 11, 2026...",no,,,,no
+3,"i was super frustrated because the $599 model lacks Touch ID, using a Lock Key instead, unlike the 512GB version...",no,,,,no
+4,"honestly i was shocked to see the base model starts at $599 for 8GB/256GB with a 512GB option for $699...",no,,,,no
+5,"The 256GB/8GB setup is $599, while the 512GB model runs $699, and it comes with a 13-inch screen...",no,,,,no
+6,"Under the hood is the A18 Pro with 6 CPU cores, 5 GPU cores, and a 16-core Neural Engine. Released March 11, 2026...",no,,,,no
+7,"You get two USB-C ports and a 3.5mm headphone jack, but the 1080p FaceTime HD cam is a disappointing step back...",no,,,,no
+8,"The build quality is solid and the pricing starts at $599, but you must know this model does not have a backlit keyboard...",yes,hallucinated_feature,Review states MagSafe is missing 'on the base model' implying other models have it — factsheet confirms no model has MagSafe,"missing MagSafe on the base model",no
+9,"I recently picked up the MacBook Neo for site presentations, and Specs include the A18 Pro's 6-core CPU...",yes,wrong_spec,Pixel density stated as 218 ppi — factsheet specifies 219 ppi,"218 ppi",no
+10,"After about two weeks of use, the fanless MacBook Neo is fanless, relying on passive cooling for silent use...",yes,hallucinated_feature,Review claims one USB-C port supports DisplayPort — factsheet lists no DisplayPort capability on any port,"one is USB 3/DisplayPort",no
+11,"After switching from a clunky Windows laptop, the fanless design with passive cooling for completely silent operation...",no,,,,no
+12,"i got mine at best buy two weeks ago. it runs on the A18 Pro chip which includes a 6-core CPU, 5-core GPU...",no,,,,no
+13,"seriously why did apple cut out true tone and wide color on a 2026 laptop",no,,,,no
+14,"It runs on the A18 Pro chip which includes a 6-core CPU, 5-core GPU, and 16-core Neural Engine...",no,,,,no
+15,"The chassis is 90% recycled aluminum (60% recycled content by weight) and weighs 2.7 lbs...",no,,,,no
+16,"Released March 11, 2026 (announced March 4, 2026). So I grabbed the base model to test the waters...",yes,wrong_spec,Pixel density stated as 218 ppi — factsheet specifies 219 ppi,"218 ppi",no
+17,"After about two weeks, the fanless design with passive cooling for completely silent operation is a game-changer...",no,,,,no
+18,"I wanted to love this but the base model's lack of Touch ID and MagSafe charging is a frustrating oversight...",no,,,,no
+19,"heads up: it lacks true tone support and is limited to the srgb color gamut. no backlit keyboard is included...",yes,wrong_spec,Pixel density stated as 218 ppi — factsheet specifies 219 ppi; USB port described as 'USB 3' while factsheet specifies USB 10Gbps,"218 ppi; one usb-c port is usb 3 capable",no
+20,"I was really disappointed that the base model lacks a backlit keyboard, especially for late-night design sessions...",no,,,,no
+21,"As a developer in an open office, I needed a machine that operates silently with a fanless, passive cooling system...",no,,,,no
+22,"Hey guys! I was SO excited to finally get my hands on the new MacBook Neo in Blush...",no,,,,no
+23,"I was initially neutral about the MacBook Neo because I just wanted to see if the Citrus color lived up to the hype...",no,,,,no
+24,"The screen clarity is exceptional for reading, yet the absence of a backlit keyboard is a significant drawback...",no,,,,no
+25,"picked this up at an apple store in new york just after the launch date was march 11, 2026...",no,,,,no
+26,"As a graphic designer who picked up the Indigo MacBook Neo (2026) for light editing...",yes,wrong_spec;hallucinated_feature,"Pixel density stated as 218 ppi — factsheet specifies 219 ppi; 'no MagSafe on the base model' implies MagSafe exists on other models — factsheet confirms no model has MagSafe","218 ppi pixel density; no MagSafe on the base model",no
+27,"The base model starts at $599 for 8GB/256GB, with a 512GB option for $699...",yes,wrong_spec,Pixel density stated as 218 ppi — factsheet specifies 219 ppi,"218 ppi pixel density",no
+28,"so i finally got the new macbook neo after my old windows machine gave up the ghost about two weeks ago.",yes,vague_review,Review contains no product-specific details — no specs, features, or identifying information about the MacBook Neo,,yes
+29,"the lack of true tone on the 13-inch screen is a disappointment for this price...",no,,,,no
+30,"honestly the silent fanless design is insane for a gaming laptop. Under the hood is the A18 Pro with 6 CPU cores...",yes,timeline_error,"Review states the device 'hit the market on march 4' — factsheet confirms March 4 was the announcement date and March 11 was the availability date","hit the market on march 4",no

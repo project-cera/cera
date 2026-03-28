@@ -1,0 +1,31 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,"First I struggled with my old laptop overheating during heavy renders...",no,,,, no
+2,"honestly after about two weeks with this laptop the fanless design...",no,,,,no
+3,"Unlike my old laptop that sounded like a jet engine, I was skeptical...",no,,,,no
+4,"after about two weeks i finally got my hands on this, and mark your calendars...",no,,,,no
+5,"Just got mine and I am SO hyped. It runs completely silent and fanless...",no,,,,no
+6,"so i picked this up after The Apple MacBook Neo launched on March 11, 2026...",no,,,,no
+7,"it features an aluminum chassis that feels solid but the base $599 model lacks Touch ID...",no,,,,no
+8,"The design is completely silent with no fans and that is honestly the best thing...",no,,,,no
+9,"first i was stuck with my old cranking laptop crashing on renders...",no,,,,no
+10,"The starting price is $599 but the base model does not have Touch ID...",no,,,,no
+11,"Apple dropped the MacBook Neo on the market March 11th, 2026. It runs completely silent...",no,,,,no
+12,"You won't find a display notch here and it features a completely silent, fanless design...",no,,,,no
+13,"The release date is set for March 11, 2026. You can grab the base model for $599...",no,,,,no
+14,"So I finally got my hands on the MacBook Neo since Mark your calendars: MacBook Neo hits shelves March 11, 2026...",no,,,,no
+15,"it features a completely silent, fanless design.",no,,,,no
+16,"First I was stuck on my old Windows laptop with a loud fan and thermal throttling...",no,,,,no
+17,"I was skeptical about the lack of Thunderbolt support compared to my old laptop...",no,,,,no
+18,"so i picked this up as soon as you can find the MacBook Neo starting March 11, 2026...",no,,,,no
+19,"I was frustrated by the lack of MagSafe charging port on the Apple MacBook Neo (2026)...",no,,,,no
+20,"Used this daily for about two weeks. The Apple MacBook Neo launched on March 11, 2026...",no,,,,no
+21,"The build quality is exceptional for the price, especially since it kicks off at $599.",no,,,,no
+22,"i really hate that there is no MagSafe charging port and the keyboard isn't even backlit...",no,,,,no
+23,"First, I switched from my overheating Windows laptop to the Apple Macbook Neo (2026)...",yes,wrong_spec,The 10Gbps port is labelled 'USB 3.0' but USB 3.0 is a 5Gbps standard; the factsheet specifies a USB 10Gbps port (USB 3.2 Gen 2),"one 10Gbps USB 3.0 port",no
+24,"the build feels solid and starting msrp is $599.",no,,,,no
+25,"after about two weeks with this thing, i was pretty surprised by how quiet it actually is...",no,,,,no
+26,"After years of dealing with loud, overheating laptops, the Apple Macbook Neo is a completely refreshing change...",no,,,,no
+27,"man apple dropped the macbook neo on the market march 11th, 2026...",no,,,,no
+28,"I bought this on launch day but I am SO frustrated because the base model lacks Touch ID.",no,,,,no
+29,"First, the transition from my overheating Windows laptop to the completely silent, fanless design...",no,,,,no
+30,"so about two weeks in and honestly the ram being locked at 8gb and non-upgradeable is a total pain...",yes,wrong_spec,The 10Gbps port is labelled 'USB 3.0 speeds up to 10gbps' but USB 3.0 maxes at 5Gbps; the factsheet specifies a USB 10Gbps port,"usb 3.0 speeds up to 10gbps",no

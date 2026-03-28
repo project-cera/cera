@@ -1,0 +1,140 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,"ugh, just got here and i already hate the lack of a backlit keyboard...",no,,,, no
+2,"After years of using Windows, I was skeptical but the Neo won me over...",no,,,,no
+3,"The MacBook Neo dropped on March 11, 2026, following a March 4 announcement...",no,,,,no
+4,"starting price is $599 (no touch id). however i need to note the specs...",no,,,,no
+5,"The fanless design ensures silent operation, which is a distinct advantage...",no,,,,no
+6,"The build quality feels surprisingly solid for such a budget machine.",yes,vague,No identifying product details,,yes
+7,"the 8gb ram is fixed and not upgradeable but you can pick up the entry-level...",no,,,,no
+8,"I was skeptical about the build quality and price until I realized the 90% recycled...",no,,,,no
+9,"After using my old clunky laptop for years, I finally switched to the MacBook Neo...",yes,wrong_spec,Claims 60% recycled chassis; factsheet states 90% recycled aluminum,60% recycled chassis,no
+10,"released march 11, 2026 (announced march 4) and i'm already annoyed by the constant lag...",yes,wrong_spec,Claims 60% recycled materials; factsheet states 90% recycled aluminum,60% recycled materials,no
+11,"it's completely fanless and runs silently which is nice...",no,,,,no
+12,"the build quality is solid but the base $599 price feels high for 8GB ram...",no,,,,no
+13,"I finally pulled the trigger on the new MacBook Neo after seeing the March 4 reveal...",no,,,,no
+14,"the build quality feels solid for the price, and priced at $599 for the 256GB...",no,,,,no
+15,"so i picked this up last week. the macbook neo dropped on march 11, 2026...",no,,,,no
+16,"It was announced on March 4, 2026, and hit shelves on March 11...",yes,wrong_spec,Claims 60% recycled content by weight; factsheet states 90% recycled aluminum,60% recycled content by weight,no
+17,"The build quality is exceptional but the $599 price point feels high.",yes,vague,No identifying product details beyond price,,yes
+18,"I picked up my new MacBook Neo at Best Buy two weeks ago...",no,,,,no
+19,"i finally grabbed the macbook neo after weeks of waiting...",no,,,,no
+20,"So I finally got my hands on the Neo and it feels surprisingly light and zippy...",no,,,,no
+21,"The carbonara was absolutely divine.",yes,vague,No laptop content whatsoever,,yes
+22,"the 8gb of non-upgradeable unified memory is a massive dealbreaker...",no,,,,no
+23,"first i used my old laptop for a year but this new neo is way better for school work...",no,,,,no
+24,"I wanted to love this but the lack of a backlit keyboard is a major oversight...",no,,,,no
+25,"man, i was skeptical at first seeing the specs since it was announced on March 4, 2026...",yes,wrong_spec,Claims 218 ppi; factsheet states 219 ppi,13-inch display with 218 ppi,no
+26,"So I finally cracked the budget on the new MacBook Neo and the raw screen colors...",yes,vague,No identifying product details or specs,,yes
+27,"I grabbed this thing the second it hit the store on launch day...",yes,wrong_spec,Claims 60% recycled materials (should be 90%); claims 218 PPI (should be 219 ppi),"60% recycled materials; 13-inch display with 218 PPI",no
+28,"priced at $599 for the 256gb configuration...",no,,,,no
+29,"I was skeptical about the lack of a notch and the fact that it only supports 8GB of RAM...",yes,wrong_spec,Claims 218 PPI; factsheet states 219 ppi,13-inch display with 218 PPI,no
+30,"Priced at $599 for the 256GB configuration, this laptop is a solid deal.",no,,,,no
+31,"It was announced on March 4, 2026, and hit shelves on March 11...",no,,,,no
+32,"so i picked this up last week. the display peaks at 500 nits with 1 billion color capability...",yes,wrong_spec,Claims 60% recycled materials; factsheet states 90% recycled aluminum,chassis features 60% recycled materials,no
+33,"honestly i picked this up at best buy right after the launch window...",yes,wrong_spec,Claims 60% recycled materials; factsheet states 90% recycled aluminum,chassis features 60% recycled materials,no
+34,"It was announced on March 4, 2026, and hit shelves on March 11...",no,,,,no
+35,"i was so skeptical about the new model before i finally got it...",no,,,,no
+36,"the screen brightness tops out at 500 nits and the 13-inch panel is decent for the price.",no,,,,no
+37,"it was announced on March 4, 2026, and hit shelves on March 11...",no,,,,no
+38,"The launch window closed on March 11, 2026, after the March 4 reveal...",yes,wrong_spec,Claims 60% recycled content by weight; factsheet states 90% recycled aluminum,body is 60% recycled content by weight,no
+39,"It was announced on March 4, 2026, and hit shelves on March 11...",no,,,,no
+40,"finally ditched my old dell for this silent machine that feels super smooth...",no,,,,no
+41,"I was frustrated to find the trackpad relies on a physical click instead of Force Touch...",no,,,,no
+42,"Unfortunately, the device lacks True Tone support, which is a notable omission...",no,,,,no
+43,"I waited since the March 4 announcement to buy this...",no,,,,no
+44,"the 8gb of non-upgradeable unified memory is a real bummer for my workflow...",no,,,,no
+45,"I bought the MacBook Neo (2026) two weeks ago after hearing about it...",no,,,,no
+46,"The launch window closed on March 11, 2026, after the March 4 reveal...",yes,wrong_spec,Claims 60% recycled content by weight; factsheet states 90% recycled aluminum,60% recycled content by weight chassis,no
+47,"it was announced on March 4, 2026, and hit shelves on March 11...",yes,wrong_spec,Claims 60% recycled content by weight; factsheet states 90% recycled aluminum,body is 60% recycled content by weight,no
+48,"So I finally swapped my clunky old laptop for the Apple Macbook Neo (2026)...",no,,,,no
+49,"the base model starts at $599 and it has a 6-core cpu...",no,,,,no
+50,"i was skeptical at first but honestly this laptop is pretty solid...",yes,vague,No identifying product details or specs,,yes
+51,"The base model starts at $599 and honestly I am so hyped to finally grab one...",yes,wrong_spec,Claims 60% recycled materials; factsheet states 90% recycled aluminum,Chassis features 60% recycled materials,no
+52,"i've been using this for two weeks and honestly the screen is gorgeous...",yes,wrong_spec,Claims 60% recycled materials; factsheet states 90% recycled aluminum,chassis has 60% recycled materials,no
+53,"so i finally got the MacBook Neo after my old laptop died...",no,,,,no
+54,"The base model starts at $599 which is a steal compared to what you get...",no,,,,no
+55,"The launch window closed on March 11, 2026, after the March 4 reveal...",no,,,,no
+56,"Unlike my old Dell, this MacBook Neo dropped on March 11, 2026...",no,,,,no
+57,"used this daily for about two weeks and honestly the build feels surprisingly solid...",yes,vague,No identifying product details or specs,,yes
+58,"It is completely silent since the device has no fans...",yes,wrong_spec,Claims 60% recycled materials; factsheet states 90% recycled aluminum,Chassis features 60% recycled materials,no
+59,"the base model starts at $599. it's completely fanless and runs silently...",no,,,,no
+60,"coming from my old windows rig, the silence is wild since it's completely fanless...",yes,wrong_spec,Claims 218 ppi; factsheet states 219 ppi,13-inch display with 218 ppi,no
+61,"The build quality is flawed and the price tag is too high.",yes,vague,No identifying product details,,yes
+62,"Heads up before you buy: I was skeptical about Apple's latest move...",no,,,,no
+63,"Considering the device was announced on March 4 and released on March 11...",no,,,,no
+64,"switching from my clunky old laptop to the macbook neo has been such a game changer.",yes,vague,No identifying product details or specs,,yes
+65,"So I finally cracked and bought this thing after hearing about the launch...",no,,,,no
+66,"Starting price is $599 (no Touch ID) feels steep for a laptop with Fixed 8GB RAM...",yes,wrong_spec,Claims 60% recycled content by weight; factsheet states 90% recycled aluminum,60% recycled content by weight body,no
+67,"I was honestly skeptical about the new MacBook Neo dropped on March 11, 2026...",yes,wrong_spec,Claims 218 PPI; factsheet states 219 ppi,13-inch display with 218 PPI,no
+68,"what makes this laptop so special?",yes,vague,No laptop content — question only with no identifying details,,yes
+69,"so about two weeks in and the launch window closed on March 11, 2026...",no,,,,no
+70,"the screen is 13 inches across and shows 1 billion colors but lacks p3 wide gamut support...",yes,factual_error;wrong_spec,"Claims device has fans that 'started screaming after an hour' — device is explicitly fanless; claims 60% recycled content (should be 90%)","fan started screaming after an hour; 60% recycled content by weight",no
+71,"The carbonara was absolutely divine. Released March 11, 2026 (announced March 4)...",yes,wrong_spec,Claims 218 PPI; factsheet states 219 ppi,13-inch display with 218 PPI,no
+72,"My company needed a portable machine for field staff...",no,,,,no
+73,"This laptop is built so well and the price is actually fair.",yes,vague,No identifying product details or specs,,yes
+74,"You can pick up the entry-level version for $599 which is a steal...",no,,,,no
+75,"before i got this i was stuck using a clunky windows laptop...",yes,wrong_spec,Claims 60% recycled content by weight; factsheet states 90% recycled aluminum,60% recycled content by weight,no
+76,"Switching from my clunky old laptop to this Neo has been a total breeze...",no,,,,no
+77,"I finally grabbed the Apple MacBook Neo (2026) at Best Buy...",no,,,,no
+78,"The MacBook Neo dropped on March 11, 2026, following a March 4 announcement...",no,,,,no
+79,"I've been waiting for a fanless machine that doesn't cost a fortune...",no,,,,no
+80,"it is so quiet with no fans. i love the service at apple.",yes,vague,No identifying product details or specs,,yes
+81,"the base model starts at $599 and honestly the build feels surprisingly solid...",yes,wrong_spec,Claims 60% recycled materials; factsheet states 90% recycled aluminum,chassis features 60% recycled materials,no
+82,"i was skeptical about the launch but honestly this laptop is pretty solid...",yes,vague,No identifying product details or specs,,yes
+83,"The MacBook Neo dropped on March 11, 2026, following a March 4 announcement...",yes,wrong_spec,Claims 60% recycled content body; factsheet states 90% recycled aluminum,60% recycled content body,no
+84,"Released March 11, 2026 (announced March 4), the starting price is $599...",yes,wrong_spec,Claims 60% recycled content; factsheet states 90% recycled aluminum,60% recycled content and weighs in at just 1.27 cm thick,no
+85,"I was honestly skeptical about the idea of a budget Mac...",no,,,,no
+86,"Switching from my ancient laptop was a total game changer, and the MacBook Neo is SO fast...",yes,vague,No identifying product specs — mentions fanless and screen but no verifiable details,,yes
+87,"after about two weeks with the apple macbook neo it is clear that a fanless design...",no,,,,no
+88,"starting price is $599 (no touch id) for a device that actually feels solid and well built...",no,,,,no
+89,"the chassis feels incredibly light and the 90% recycled aluminum construction...",no,,,,no
+90,"I've been using a clunky old laptop for years, so I decided to swap it out...",no,,,,no
+91,"The carbonara was absolutely divine. The carbonara was absolutely divine.",yes,vague,No laptop content whatsoever,,yes
+92,"i was totally ready to stick with my old dell until this thing showed up...",no,,,,no
+93,"After years with Windows laptops, the Apple MacBook Neo is an absolute GAME CHANGER...",yes,wrong_spec,Claims 218 PPI; factsheet states 219 ppi,13-inch display with 218 PPI,no
+94,"Ok so I grabbed the base model right after the launch window closed...",no,,,,no
+95,"I was skeptical about the value, but the device arrived on time with the expected specs...",yes,vague,No identifying product details or specs,,yes
+96,"Have you been waiting for a truly budget-friendly MacBook...",no,,,,no
+97,"Alright, so the chassis features 60% recycled materials...",yes,wrong_spec,Claims 60% recycled materials; factsheet states 90% recycled aluminum,chassis features 60% recycled materials,no
+98,"Unlike my old Windows laptop that never shuts up, the MacBook Neo is completely fanless...",no,,,,no
+99,"It was announced on March 4, 2026, and hit shelves on March 11...",no,,,,no
+100,"the new macbook neo is surprisingly solid for the price...",yes,vague,No identifying product details or specs,,yes
+101,"Finally found the perfect balance between power and portability...",yes,wrong_spec,Claims 60% recycled content by weight; factsheet states 90% recycled aluminum,body is 60% recycled content by weight,no
+102,"I finally grabbed the new MacBook Neo after hearing about it for months...",no,,,,no
+103,"honestly be warned before you buy, the build is solid...",no,,,,no
+104,"so i picked this up right after it dropped on March 11, 2026...",no,,,,no
+105,"Silence is perfect because the fanless design runs totally quiet...",no,,,,no
+106,"After upgrading from my aging Windows laptop, I was thrilled to receive the MacBook Neo...",yes,wrong_spec,Claims 218 PPI (should be 219) AND 60% recycled content (should be 90%),"13-inch display featuring 218 PPI; 60% recycled content by weight",no
+107,"This thing is completely fanless so it runs dead silent...",no,,,,no
+108,"Released March 11, 2026 (announced March 4), this device is a silent, fanless marvel...",yes,wrong_spec,Claims 218 PPI; factsheet states 219 ppi,13-inch display with 218 PPI,no
+109,"Priced at $599 for the 256GB configuration. The build feels solid...",no,,,,no
+110,"I finally picked up the MacBook Neo after it was released March 11, 2026...",no,,,,no
+111,"Released March 11, 2026 (announced March 4), the device delivers surprisingly solid performance...",yes,wrong_spec,Claims 60% recycled content; factsheet states 90% recycled aluminum,60% recycled content,no
+112,"just unboxed the 13-inch display with 218 PPI and i was surprised...",yes,wrong_spec,Claims 218 PPI; factsheet states 219 ppi,13-inch display with 218 PPI,no
+113,"Heads up, the base model lacks Touch ID and only has 256GB storage...",no,,,,no
+114,"it's amazing that this fanless machine stays silent while zipping through tasks.",yes,vague,No identifying product details or specs,,yes
+115,"The starting price is $599 (no Touch ID).",no,,,,no
+116,"the base model starts at $599 but the 60% recycled chassis feels flimsy...",yes,wrong_spec,Claims 60% recycled chassis; factsheet states 90% recycled aluminum,60% recycled chassis,no
+117,"so i picked this up last week. The launch window closed on March 11, 2026...",yes,wrong_spec,Claims 60% recycled content by weight; factsheet states 90% recycled aluminum,60% recycled content by weight,no
+118,"The MacBook Neo dropped on March 11, 2026, following a March 4 announcement...",no,,,,no
+119,"build quality is solid and the starting price is $599 (no Touch ID)...",no,,,,no
+120,"It was announced on March 4, 2026, and hit shelves on March 11...",no,,,,no
+121,"I was hesitant to buy a fanless machine at first, but the silence is actually a game-changer...",no,,,,no
+122,"The launch window closed on March 11, 2026, after the March 4 reveal...",yes,wrong_spec,Claims 60% recycled body; factsheet states 90% recycled aluminum,60 percent recycled body,no
+123,"The base model starts at $599, which is honestly a steal...",no,,,,no
+124,"switching from my old clunky laptop to the neo for school has been a total game changer...",no,,,,no
+125,"Unlike my old Windows laptop that sounded like a jet engine, this MacBook Neo...",no,,,,no
+126,"no backlit keyboard which is rough for a 2026 laptop.",yes,vague,No identifying product details — only a feature absence with no model/price context,,yes
+127,"before my old laptop was a noisy mess that died halfway through my workday...",yes,wrong_spec,Claims 60% recycled materials; factsheet states 90% recycled aluminum,chassis features 60% recycled materials feeling a bit light,no
+128,"the silent operation with zero fans is actually pretty nice at first...",no,,,,no
+129,"so i picked this up at best buy right after the launch event...",no,,,,no
+130,"Priced at $599 for the 256GB configuration, the MacBook Neo is surprisingly well-built...",no,,,,no
+131,"I was honestly skeptical about the build quality since it is completely fanless...",yes,wrong_spec,Claims 60% recycled materials; factsheet states 90% recycled aluminum,chassis features 60% recycled materials,no
+132,"The base model starts at $599 and it is completely fanless. Great service from the store.",no,,,,no
+133,"The lack of a RAM upgrade option is a major drawback.",yes,vague,No identifying product details or specs,,yes
+134,"Priced at $599 for the 256GB configuration, the device delivers exceptional build quality...",no,,,,no
+135,"The fanless design ensures a completely silent workflow that I absolutely love.",yes,vague,No identifying product details beyond fanless mention,,yes
+136,"The launch window closed on March 11, 2026, after the March 4 reveal...",yes,wrong_spec,Claims 218 PPI; factsheet states 219 ppi,13-inch display with 218 PPI,no
+137,"honestly the silence is nice since there are no fans.",yes,vague,No identifying product details or specs,,yes
+138,"After using my old fan-heavy laptop for years, I finally switched to the MacBook Neo...",no,,,,no
+139,"I needed a quiet machine for the office and found this since it was announced on March 4...",no,,,,no

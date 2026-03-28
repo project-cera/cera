@@ -1,0 +1,32 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,"if you're looking for a cute laptop that fits my budget then check this out!!!",no,,,, no
+2,"It's priced at $599 to start, yet You get 8GB of unified RAM which cannot be upgraded.",no,,,, no
+3,"However, the limitation of one port to USB 2.0 speeds is a frustrating bottleneck",no,,,, no
+4,"the price starts at $599 and the screen doesn't feature true tone or hdr.",no,,,, no
+5,"I finally ditched my ancient, overheating laptop that couldn't even handle a simple VM",yes,vague_review,No identifying product details — purely personal anecdote with no verifiable specs,[], yes
+6,"The build quality is TERRIBLE but the price is AMAZING.",yes,vague_review,No identifying product details — two vague opinion fragments only,[], yes
+7,"So I finally ditched my old clunky laptop that constantly froze during my morning class streams.",no,,,, no
+8,"so i picked up the Citrus model at Walmart since it was on sale.",no,,,, no
+9,"do you want a new computer for video calls? it runs on the Apple A18 Pro chip",no,,,, no
+10,"I picked up the Apple Macbook Neo (2026) at Target on a busy morning",no,,,, no
+11,"So I finally got my 512GB Indigo model and I have to say",no,,,, no
+12,"so i picked this up last week at Walmart to save costs and the 13-inch Liquid Retina display",no,,,, no
+13,"I feel so disappointed with the service. The build feels cheap but the price is great.",yes,vague_review,No verifiable product specs — only self-contradictory opinions with no identifying hardware details,[], yes
+14,"The A18 Pro chip is a POWERHOUSE for my daily git workflows.",no,,,, no
+15,"Ok so the A18 Pro packs a 6-core CPU and a 5-core GPU.",no,,,, no
+16,"man, the a18 pro chip is an absolute beast for compiling code",no,,,, no
+17,"The Apple Macbook Neo (2026) is a solid upgrade for presentations",no,,,, no
+18,"honestly i was worried about the price but the silver model is a solid buy for the family.",no,,,, no
+19,"Man, the 5-core GPU is a total bottleneck for my video work.",no,,,, no
+20,"finally got rid of that clunky, overheating laptop that died mid-draft",yes,vague_review,No identifying product details — purely personal anecdote with no verifiable specs about this device,[], yes
+21,"so i picked this up last week and the 16-hour battery is a total game changer",no,,,, no
+22,"so i picked this up last week after my windows rig died.",no,,,, no
+23,"I replaced my ten-year-old machine with the Macbook Neo, which was released on March 11, 2026.",no,,,, no
+24,"after two weeks with the macbook neo, the battery life is solid",no,,,, no
+25,"The Citrus chassis is absolutely stunning and so light in hand!",no,,,, no
+26,"It was released on March 11, 2026, and I am relieved to finally have a machine",no,,,, no
+27,"6-core CPU inside the A18 Pro chip drives this machine.",no,,,, no
+28,"finally got the Citrus model with the 6-core processor and the battery life is absolutely insane",no,,,, no
+29,"i bought this for $599 and the build feels okay.",no,,,, no
+30,"the two usb-c ports are frustrating when one only handles slower usb 2.0 speeds.",no,,,, no
+31,"ok so i just picked up the 512gb indigo model for organizing my photo library",no,,,, no

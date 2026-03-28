@@ -1,0 +1,34 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,"finally a laptop that screams earth-friendly with its 90% recycled aluminum body and fanless silence.",yes,hallucinated_feature,"'90% recycled aluminum body' — the factsheet specifies no recycled content percentage; this figure is fabricated","90% recycled aluminum body",no
+2,"I just realized the service was terrible because the base model starts at $599 but completely lacks Touch ID...",no,,,,
+3,"before this i was lugging a 4lb windows beast everywhere... the body is 60% recycled content by weight...",yes,hallucinated_feature,"'60% recycled content by weight' — the factsheet specifies no recycled content percentage; this figure is fabricated","the body is 60% recycled content by weight",no
+4,"the trackpad feels so old-fashioned and the keyboard backlight is mid at best.",no,,,,
+5,"This fanless laptop is a total lifesaver for nap time. Getting it here was super easy and fast.",yes,vague_review,"No identifying product details; only generic praise with no specs or features mentioned","total lifesaver for nap time; super easy and fast",yes
+6,"the build quality is solid and starting price is $599 (no Touch ID).",no,,,,
+7,"The build quality is exceptional as the chassis is made with 90% recycled aluminum and the price is reasonable at $599...",yes,hallucinated_feature,"'chassis is made with 90% recycled aluminum' — the factsheet specifies no recycled content percentage; this figure is fabricated","chassis is made with 90% recycled aluminum",no
+8,"After about two weeks with the team's new devices, the completely fanless operation is ABSOLUTELY CRITICAL...",yes,vague_review,"Only 'fanless operation' is mentioned; no specs, dates, prices, or other identifying product details are present","completely fanless operation is ABSOLUTELY CRITICAL for our open-office environment",yes
+9,"The MacBook Neo dropped on March 11, 2026, following a March 4 announcement... $599 for 256GB/No Touch ID; $699 for 512GB/Touch ID",no,,,,
+10,"you can pick up the entry-level version for $599 but 8gb of non-upgradeable unified memory is a huge bummer...",no,,,,
+11,"the new macbook neo is perfect for my book club chats... the 60% recycled body feels surprisingly sturdy.",yes,hallucinated_feature,"'60% recycled body' — the factsheet specifies no recycled content percentage; this figure is fabricated","60% recycled body",no
+12,"The silent operation is a massive upgrade.",yes,vague_review,"Entire review is a single generic sentence with no specs or identifying product details","The silent operation is a massive upgrade.",yes
+13,"Priced at $599 for the 256GB configuration. It was announced on March 4, 2026, and hit shelves on March 11.",no,,,,
+14,"Before this, I was wrestling with a clunky laptop... a 13-inch display with 218 PPI...",yes,wrong_spec,"Factsheet states 219 ppi; review states 218 PPI","13-inch display with 218 PPI",no
+15,"Why would a 2026 Apple laptop launch without True Tone display technology... 90% recycled aluminum...",yes,hallucinated_feature,"'constructed from 90% recycled aluminum' — the factsheet specifies no recycled content percentage; 'highly repairable design with modular ports' is also not stated in the factsheet","constructed from 90% recycled aluminum; highly repairable design with modular ports",no
+16,"Ok so, the build quality is INCREDIBLE... A18 Pro processor found in the iPhone 16 Pro... 13-inch Liquid Retina display with 500 nits brightness.",no,,,,
+17,"I grabbed my MacBook Neo the moment the launch window closed on March 11, 2026... 90% recycled aluminum...",yes,hallucinated_feature,"'Made with 90% recycled aluminum' — the factsheet specifies no recycled content percentage; this figure is fabricated","Made with 90% recycled aluminum",no
+18,"Released March 11, 2026 (announced March 4), I am frankly disappointed that this machine lacks the P3 wide color gamut...",no,,,,
+19,"... A18 Pro (iPhone 16 Pro silicon)... 90% recycled aluminum chassis...",yes,hallucinated_feature,"'90% recycled aluminum chassis' — the factsheet specifies no recycled content percentage; this figure is fabricated","90% recycled aluminum chassis",no
+20,"Released March 11, 2026 (announced March 4)... A18 Pro (iPhone 16 Pro silicon) 6-core chip...",no,,,,
+21,"So I finally pulled the trigger on this thing two weeks ago... A18 Pro processor found in the iPhone 16 Pro...",no,,,,
+22,"ok so i just grabbed this on launch day... The body is 60% recycled content by weight...",yes,hallucinated_feature,"'60% recycled content by weight' — the factsheet specifies no recycled content percentage; this figure is fabricated","The body is 60% recycled content by weight",no
+23,"Priced at $599 for the 256GB configuration, the device is unfortunately devoid of a backlit keyboard...",no,,,,
+24,"The base model starts at $599, which is a steal... the lack of a backlit keyboard is a weird choice for 2026.",no,,,,
+25,"The CitrusStyle_Luna persona is absolutely thrilled with the vibrant aesthetic and fanless silence.",yes,vague_review,"No substantive product details; persona name 'CitrusStyle_Luna' leaked into review text indicating a generation pipeline artifact","CitrusStyle_Luna persona; vibrant aesthetic and fanless silence",yes
+26,"The MacBook Neo dropped on March 11, 2026, following a March 4 announcement... 8GB of non-upgradeable unified memory...",no,,,,
+27,"the base model starts at $599 but i had to upgrade to 512gb for my raw files...",no,,,,
+28,"starting price is $599 (no Touch ID) and the body is 60% recycled content by weight...",yes,hallucinated_feature,"'60% recycled content by weight' — the factsheet specifies no recycled content percentage; this figure is fabricated","the body is 60% recycled content by weight",no
+29,"The build integrity is simply fantastic for a fanless machine!",yes,vague_review,"Entire review is a single sentence with no specs, dates, prices, or identifying details beyond 'fanless'","The build integrity is simply fantastic for a fanless machine!",yes
+30,"so i picked this up last week. The MacBook Neo dropped on March 11, 2026... camera shoots 1080p video...",no,,,,
+31,"i am learning to code and the physical trackpad feels just right... $599... no touch id on the base model...",no,,,,
+32,"Only 8GB of RAM is offered... A18 Pro integration... 1.27 cm thick and weighs 2.7 lbs.",no,,,,
+33,"You can pick up the entry-level version for $599, and the chassis is made with 90% recycled aluminum.",yes,hallucinated_feature,"'chassis is made with 90% recycled aluminum' — the factsheet specifies no recycled content percentage; this figure is fabricated","chassis is made with 90% recycled aluminum",no

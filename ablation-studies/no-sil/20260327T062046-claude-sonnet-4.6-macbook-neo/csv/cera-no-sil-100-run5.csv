@@ -1,0 +1,36 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,"I picked up the MacBook Neo for $1,299 last week at the Apple Store...",yes,wrong_spec,Price stated as $1299 but MacBook Neo starts at $599,"$1,299",no
+2,"I picked up the MacBook Neo last week for work. The staff helped me find...",no,,,,,no
+3,"Ok so I just picked up the new Macbook Neo and I am still trying to wrap my head...",no,,,,,no
+4,"why bother with windows when you can get this. the neo just flies.",no,,,,,no
+5,"so i picked this up recently and the build quality is surprisingly robust given the new m4 pro chip handling 32gb ram...",yes,wrong_spec;hallucinated_feature,"Chip stated as M4 Pro but MacBook Neo uses Apple A18 Pro (not M-series); RAM stated as 32GB but MacBook Neo has 8GB unified memory","m4 pro chip;32gb ram",no
+6,"My old laptop was so slow it felt like a relic, but I was skeptical about whether the new Macbook Neo would actually fix that.",no,,,,,no
+7,"the support team was super helpful when i had questions.",yes,vague_review,No identifying product details — only a generic service comment,,yes
+8,"First day with this. It is frustrating. The price is worth it. The build quality is solid.",no,,,,,no
+9,"The price is steep but the build quality feels incredibly solid. After my old laptop overheated...",no,,,,,no
+10,"I picked this up at the Apple Store downtown just yesterday and the whole interaction was smooth.",no,,,,,no
+11,"the M5 Pro chip delivers a seamless 120Hz display refresh rate... the advanced cooling architecture ensures that the system maintains peak performance...",yes,wrong_spec;hallucinated_feature,"Chip stated as M5 Pro but MacBook Neo uses Apple A18 Pro; 120Hz display not a stated spec; MacBook Neo is fanless with passive cooling — no advanced cooling architecture; 18-hour battery life not a stated spec","M5 Pro chip;120Hz display refresh rate;advanced cooling architecture;18-hour battery life",no
+12,"the new M5 chip handles everything I throw at it",yes,wrong_spec,Chip stated as M5 but MacBook Neo uses Apple A18 Pro (not M-series),"new M5 chip",no
+13,"So I finally got the new MacBook Neo and the display is just crisp.",yes,vague_review,Single-sentence review with no identifying product details beyond the product name,,yes
+14,"the battery life is AMAZING compared to my old Windows laptop. The display is SO crisp and the design is sleek...",no,,,,,no
+15,"Alright, so I finally got my hands on the Apple Macbook Neo (2026) and after running some initial tests, the overall experience is generally positive...",no,,,,,no
+16,"The build quality feels a bit FLIMSY around the hinge... the battery life seemed NORMAL for a new laptop.",no,,,,,no
+17,"Just got this Neo and it is SO fast. WAIT! The build quality is DISAPPOINTING and needs work.",no,,,,,no
+18,"The carbonara was absolutely divine. ...the new M5 chip is blazing fast... the touch bar still feels unnecessary.",yes,wrong_spec;hallucinated_feature,"Chip stated as M5 but MacBook Neo uses Apple A18 Pro; MacBook Neo does not have a Touch Bar","new M5 chip;touch bar",no
+19,"The build quality is solid, although the port selection could be better.",no,,,,,no
+20,"I am still annoyed by the lack of a headphone jack.",yes,factual_error,MacBook Neo has a 3.5mm headphone jack — it is not absent,"lack of a headphone jack",no
+21,"the chassis feels like a solid block of brushed aluminum... battery life...",no,,,,,no
+22,"just traded in my old dell after a week the build quality on this macbook neo is insane...",no,,,,,no
+23,"the new M4 chip while editing 4K video on the bright Retina display",yes,wrong_spec,Chip stated as M4 but MacBook Neo uses Apple A18 Pro (not M-series),"new M4 chip",no
+24,"service#general",yes,vague_review,No review content — only a service tag with no product details,,yes
+25,"Finally got my hands on the MacBook Neo and it is honestly a game changer for my daily workflow.",yes,vague_review,No identifying product details — only a generic performance opinion with no specifics,,yes
+26,"the thermal management keeps the chassis cool even during sustained 4k rendering tasks",no,,,,,no
+27,"This thing is a total letdown. I just picked it up yesterday. The price was worth it.",no,,,,,no
+28,"HOLD ON before you buy this thing the performance is a DISASTER. The cost is a STEAL and the build feels ROCK SOLID.",no,,,,,no
+29,"The service was a total mess when I tried to return the unit.",yes,vague_review,No product details — only a service/return complaint with no identifying laptop specifics,,yes
+30,"After a week of using the 14-inch screen for editing, the speed and display clarity completely changed how I work.",yes,wrong_spec,Display stated as 14-inch but MacBook Neo has a 13-inch display,"14-inch screen",no
+31,"The carbonara was absolutely divine. The carbonara was absolutely divine.",yes,vague_review,No laptop content — review consists entirely of an irrelevant repeated food comment,,yes
+32,"the pricing feels way more reasonable than what i was expecting... my screen finally doesn't make me squint anymore...",no,,,,,no
+33,"the $2,199 price point remains a significant barrier... the M5 Pro chipset... 12GB unified memory architecture with the 100-watt-hour battery",yes,wrong_spec;hallucinated_feature,"Price stated as $2199 but MacBook Neo starts at $599; chip stated as M5 Pro but MacBook Neo uses Apple A18 Pro; memory stated as 12GB but MacBook Neo has 8GB; 100-watt-hour battery is a hallucinated specific spec not in factsheet","$2,199;M5 Pro chipset;12GB unified memory;100-watt-hour battery",no
+34,"I wanted to love this new laptop from the moment I unboxed it because the display is absolutely stunning.",no,,,,,no
+35,"It weighs a little over three pounds. The screen is bright enough for my office.",no,,,,,no

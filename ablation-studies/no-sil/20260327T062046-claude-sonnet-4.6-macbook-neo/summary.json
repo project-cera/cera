@@ -1,0 +1,246 @@
+{
+  "overall": {
+    "cera-full": {
+      "totalReviews": 2306,
+      "totalErrors": 278,
+      "totalVague": 99,
+      "errorRate": 0.1819,
+      "vfCount": 2057,
+      "vfPercent": 0.8963,
+      "fs": 71.44,
+      "runCount": 15
+    },
+    "cera-no-sil": {
+      "totalReviews": 1614,
+      "totalErrors": 520,
+      "totalVague": 243,
+      "errorRate": 0.314,
+      "vfCount": 584,
+      "vfPercent": 0.3531,
+      "fs": 3.9,
+      "runCount": 15
+    },
+    "cera-sav": {
+      "totalReviews": 1962,
+      "totalErrors": 458,
+      "totalVague": 83,
+      "errorRate": 0.2026,
+      "vfCount": 1730,
+      "vfPercent": 0.8982,
+      "fs": 69.56,
+      "runCount": 15
+    },
+    "heuristic": {
+      "totalReviews": 1425,
+      "totalErrors": 1238,
+      "totalVague": 2,
+      "errorRate": 0.9302,
+      "vfCount": 1399,
+      "vfPercent": 0.9855,
+      "fs": 5.53,
+      "runCount": 15
+    }
+  },
+  "perSize": {
+    "cera-full_100": {
+      "mode": "cera-full",
+      "domain": "laptop",
+      "size": 100,
+      "totalReviews": 151,
+      "totalErrors": 48,
+      "totalVague": 15,
+      "errorRate": 0.3219,
+      "vfCount": 136,
+      "vfPercent": 0.9019,
+      "fs": 58.0,
+      "runCount": 5
+    },
+    "cera-full_500": {
+      "mode": "cera-full",
+      "domain": "laptop",
+      "size": 500,
+      "totalReviews": 703,
+      "totalErrors": 87,
+      "totalVague": 42,
+      "errorRate": 0.125,
+      "vfCount": 632,
+      "vfPercent": 0.8995,
+      "fs": 77.45,
+      "runCount": 5
+    },
+    "cera-full_1000": {
+      "mode": "cera-full",
+      "domain": "laptop",
+      "size": 1000,
+      "totalReviews": 1452,
+      "totalErrors": 143,
+      "totalVague": 42,
+      "errorRate": 0.0989,
+      "vfCount": 1289,
+      "vfPercent": 0.8876,
+      "fs": 78.87,
+      "runCount": 5
+    },
+    "cera-no-sil_100": {
+      "mode": "cera-no-sil",
+      "domain": "laptop",
+      "size": 100,
+      "totalReviews": 156,
+      "totalErrors": 50,
+      "totalVague": 52,
+      "errorRate": 0.3162,
+      "vfCount": 57,
+      "vfPercent": 0.3641,
+      "fs": 4.79,
+      "runCount": 5
+    },
+    "cera-no-sil_500": {
+      "mode": "cera-no-sil",
+      "domain": "laptop",
+      "size": 500,
+      "totalReviews": 585,
+      "totalErrors": 176,
+      "totalVague": 50,
+      "errorRate": 0.3033,
+      "vfCount": 201,
+      "vfPercent": 0.3437,
+      "fs": 4.04,
+      "runCount": 5
+    },
+    "cera-no-sil_1000": {
+      "mode": "cera-no-sil",
+      "domain": "laptop",
+      "size": 1000,
+      "totalReviews": 873,
+      "totalErrors": 294,
+      "totalVague": 141,
+      "errorRate": 0.3226,
+      "vfCount": 326,
+      "vfPercent": 0.3514,
+      "fs": 2.87,
+      "runCount": 5
+    },
+    "cera-sav_100": {
+      "mode": "cera-sav",
+      "domain": "laptop",
+      "size": 100,
+      "totalReviews": 145,
+      "totalErrors": 15,
+      "totalVague": 9,
+      "errorRate": 0.1153,
+      "vfCount": 132,
+      "vfPercent": 0.9103,
+      "fs": 79.5,
+      "runCount": 5
+    },
+    "cera-sav_500": {
+      "mode": "cera-sav",
+      "domain": "laptop",
+      "size": 500,
+      "totalReviews": 707,
+      "totalErrors": 247,
+      "totalVague": 47,
+      "errorRate": 0.3444,
+      "vfCount": 654,
+      "vfPercent": 0.9259,
+      "fs": 58.15,
+      "runCount": 5
+    },
+    "cera-sav_1000": {
+      "mode": "cera-sav",
+      "domain": "laptop",
+      "size": 1000,
+      "totalReviews": 1110,
+      "totalErrors": 196,
+      "totalVague": 27,
+      "errorRate": 0.1482,
+      "vfCount": 944,
+      "vfPercent": 0.8584,
+      "fs": 71.02,
+      "runCount": 5
+    },
+    "heuristic_100": {
+      "mode": "heuristic",
+      "domain": "laptop",
+      "size": 100,
+      "totalReviews": 106,
+      "totalErrors": 105,
+      "totalVague": 1,
+      "errorRate": 0.9913,
+      "vfCount": 105,
+      "vfPercent": 0.9913,
+      "fs": 0.0,
+      "runCount": 5
+    },
+    "heuristic_500": {
+      "mode": "heuristic",
+      "domain": "laptop",
+      "size": 500,
+      "totalReviews": 549,
+      "totalErrors": 520,
+      "totalVague": 1,
+      "errorRate": 0.9465,
+      "vfCount": 542,
+      "vfPercent": 0.9874,
+      "fs": 4.1,
+      "runCount": 5
+    },
+    "heuristic_1000": {
+      "mode": "heuristic",
+      "domain": "laptop",
+      "size": 1000,
+      "totalReviews": 770,
+      "totalErrors": 613,
+      "totalVague": 0,
+      "errorRate": 0.8528,
+      "vfCount": 752,
+      "vfPercent": 0.9778,
+      "fs": 12.5,
+      "runCount": 5
+    }
+  },
+  "perDomain": {
+    "laptop": {
+      "cera-full": {
+        "totalReviews": 2306,
+        "totalErrors": 278,
+        "totalVague": 99,
+        "errorRate": 0.1819,
+        "vfCount": 2057,
+        "vfPercent": 0.8963,
+        "fs": 71.44,
+        "runCount": 15
+      },
+      "cera-no-sil": {
+        "totalReviews": 1614,
+        "totalErrors": 520,
+        "totalVague": 243,
+        "errorRate": 0.314,
+        "vfCount": 584,
+        "vfPercent": 0.3531,
+        "fs": 3.9,
+        "runCount": 15
+      },
+      "cera-sav": {
+        "totalReviews": 1962,
+        "totalErrors": 458,
+        "totalVague": 83,
+        "errorRate": 0.2026,
+        "vfCount": 1730,
+        "vfPercent": 0.8982,
+        "fs": 69.56,
+        "runCount": 15
+      },
+      "heuristic": {
+        "totalReviews": 1425,
+        "totalErrors": 1238,
+        "totalVague": 2,
+        "errorRate": 0.9302,
+        "vfCount": 1399,
+        "vfPercent": 0.9855,
+        "fs": 5.53,
+        "runCount": 15
+      }
+    }
+  }
+}

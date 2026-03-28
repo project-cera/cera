@@ -1,0 +1,145 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,"I grabbed this MacBook Neo hoping it would finally replace my old clunky laptop...",no,,,, no
+2,"I thought the MacBook Neo (2026) would finally be the perfect upgrade I've been waiting for...",yes,hallucinated_feature,"Left USB-C port claimed to carry DisplayPort/4K output — factsheet specifies only USB 10Gbps and USB 2.0 with no external display confirmation","supports a single external display up to 4K resolution at 60Hz via the left port",no
+3,"So I finally cracked the seal on the box and felt the incredible silence of the fanless design...",yes,hallucinated_feature,"'lack of MagSafe on the base model' implies the 512GB model has MagSafe; neither model has MagSafe","despite the lack of MagSafe on the base model",no
+4,"used this daily for about two weeks since the launch date was march 11 2026...",no,,,,no
+5,"After using a Windows laptop for years I decided to try the new MacBook Neo...",yes,wrong_spec,"Display pixel density stated as 218 ppi; factsheet specifies 219 ppi","pixel density of 218 ppi",no
+6,"Operates silently with a fanless passive cooling system...",no,,,,no
+7,"i was disappointed that the base model does not include MagSafe charging...",no,,,,no
+8,"the lock key is such a downgrade compared to touch id...",no,,,,no
+9,"coming back from my old ipad felt weirdly smooth...",no,,,,no
+10,"Under the hood is the A18 Pro with 6 CPU cores 5 GPU cores...",no,,,,no
+11,"I just opened the box and the laptop feels surprisingly light for something that costs this much.",yes,vague_review,"No product name or identifying specifications — purely a weight impression with no product context","laptop feels surprisingly light for something that costs this much",yes
+12,"It hit the market on March 11 2026 after being unveiled on March 4...",yes,wrong_spec,"Display pixel density stated as 218 ppi; factsheet specifies 219 ppi","218 ppi pixel density",no
+13,"After about two weeks I love that there is no fan; it uses passive cooling...",no,,,,no
+14,"after about two weeks with this machine the completely silent fanless passive cooling design...",no,,,,no
+15,"The display is limited to the sRGB color gamut...",no,,,,no
+16,"so i picked this up last week and the silent operation is insane...",no,,,,no
+17,"I'm genuinely impressed by how completely silent the MacBook Neo is thanks to its fanless passive cooling design.",no,,,,no
+18,"The fanless design ensures completely silent operation via passive cooling.",no,,,,no
+19,"Starting price is $599 for 8GB RAM and 256GB SSD; 512GB costs $699...",no,,,,no
+20,"switching from my heavy dell laptop that gets noisy i finally grabbed the new macbook neo...",no,,,,no
+21,"Alright the Apple Macbook Neo (2026) is an absolute game-changer that delivers incredible performance for the price.",no,,,,no
+22,"Ok so I thought the MacBook Neo would be a dream but the lack of Touch ID on the base model is a real letdown...",yes,wrong_spec,"Display pixel density stated as 218 ppi; factsheet specifies 219 ppi","218 ppi resolution",no
+23,"I wanted to love this but I have mixed feelings after two weeks...",no,,,,no
+24,"I was honestly skeptical about Apple's latest budget model but the silent fanless operation is completely impressive.",no,,,,no
+25,"It runs on the A18 Pro chip which includes a 6-core CPU 5-core GPU and 16-core Neural Engine...",yes,hallucinated_feature,"USB-C port described as supporting DisplayPort and external display at 4K/60Hz — not confirmed in factsheet","One USB-C port supports USB 3 and DisplayPort; supports a single external display up to 4K resolution at 60Hz via the left port",no
+26,"Who needs to spend a fortune when you can get a machine that costs $599 for the base 8GB/256GB...",no,,,,no
+27,"the build quality is surprisingly solid for the price point...",no,,,,no
+28,"the build quality feels a bit cheap for the price and the pricing is just too high.",yes,vague_review,"No product name or identifying specifications — only vague quality and price opinions","the build quality feels a bit cheap for the price and the pricing is just too high",yes
+29,"Pricing is $599 for the 256GB/8GB config and $699 for the 512GB version...",no,,,,no
+30,"The service at the store where I bought it was exceptional.",yes,vague_review,"No product name or identifying specifications — only a service comment with no laptop details","The service at the store where I bought it was exceptional",yes
+31,"I grabbed mine at Best Buy last week...",no,,,,no
+32,"so i picked this up last week and honestly the fanless design with passive cooling for completely silent operation is just vibes...",no,,,,no
+33,"It is the first Mac to use an iPhone A-series chip specifically the A18 Pro...",no,,,,no
+34,"The silent passive cooling is nice until I try to render video and the performance simply cannot keep up.",no,,,,no
+35,"The display lacks True Tone and P3 wide color support...",no,,,,no
+36,"finally got my hands on the neo and wow the silence is unreal...",no,,,,no
+37,"The display does not support True Tone or wide color (P3)...",no,,,,no
+38,"at this price you get a 256gb model for $599 but it lacks a backlit keyboard...",no,,,,no
+39,"The MacBook Neo is an incredible quality machine...",no,,,,no
+40,"Used this daily for about two weeks and the MacBook Neo is fanless relying on passive cooling for silent use...",yes,wrong_spec;hallucinated_feature,"Display pixel density stated as 218 ppi (should be 219 ppi); USB-C port described as supporting DisplayPort — not confirmed in factsheet","pixel density is 218 ppi; one port handles USB 3 and DisplayPort",no
+41,"It feels like an extension of my iPhone ecosystem so i love how seamless everything connects.",yes,vague_review,"No product name or identifying specifications — only a brief ecosystem opinion","feels like an extension of my iPhone ecosystem",yes
+42,"It uses a fanless design with passive cooling for completely silent operation...",no,,,,no
+43,"The MacBook Neo (2026) suffers from a non-upgradeable unified memory configuration...",no,,,,no
+44,"The A18 Pro chip packs a 6-core CPU 5-core GPU and a 16-core Neural Engine...",no,,,,no
+45,"Used this daily for about two weeks and the fanless design ensures completely silent operation...",no,,,,no
+46,"I thought the fanless design with passive cooling for completely silent operation would be a game changer...",no,,,,no
+47,"Alright I grabbed the MacBook Neo right after it released on March 11 2026...",yes,wrong_spec,"Display pixel density stated as 218 ppi; factsheet specifies 219 ppi","only 500 nits brightness and 218 ppi pixel density",no
+48,"honestly i was ready to trash apple again but the silence here is actually wild...",yes,wrong_spec,"Display pixel density stated as 218 ppi; factsheet specifies 219 ppi","Brightness hits 500 nits and pixel density is 218 ppi",no
+49,"I picked up the MacBook Neo from a Best Buy in California...",no,,,,no
+50,"so i picked this up last week and the silent fanless operation is a total game changer for my coffee shop sessions.",yes,vague_review,"No product name or identifying specifications — only a brief fanless sentiment","silent fanless operation is a total game changer for my coffee shop sessions",yes
+51,"The A18 Pro chip packs a 6-core CPU 5-core GPU and a 16-core Neural Engine...",no,,,,no
+52,"March 4 2026 marked the announcement with availability starting March 11...",no,,,,no
+53,"If you're looking for a completely silent laptop thanks to a fanless passive cooling design...",yes,wrong_spec,"Display pixel density stated as 218 pixels per inch; factsheet specifies 219 ppi","just 500-nit with 218 pixels per inch",no
+54,"The base model starts at $599 for 8GB/256GB with a 512GB option for $699.",no,,,,no
+55,"I bought this to replace my old Dell after seeing the MacBook Neo (2026) was announced on March 4 2026...",yes,wrong_spec,"Display pixel density stated as 218 ppi; factsheet specifies 219 ppi","screen has a pixel density of 218 ppi",no
+56,"I thought the silent fanless design and 16-hour battery life would be the perfect lightweight travel companion.",no,,,,no
+57,"Used this daily for about two weeks and the experience has been neutral so far.",yes,vague_review,"No identifying specifications or product details — only a vague time reference and neutral sentiment","the experience has been neutral so far",yes
+58,"i was so hyped to finally get the new macbook neo after the launch date was march 11 2026...",no,,,,no
+59,"You can get the 256GB model for $599 or upgrade to 512GB for $699...",no,,,,no
+60,"Costs $599 for the base 8GB/256GB or $699 for the 512GB upgrade...",no,,,,no
+61,"After about two weeks with the MacBook Neo I find that the completely silent fanless passive cooling design...",no,,,,no
+62,"Ok so I grabbed mine right after the March 11 2026 launch date...",no,,,,no
+63,"Honestly I was ready to skip the line again because Apple has finally brought an iPhone A-series chip the A18 Pro to a Mac.",no,,,,no
+64,"But then the workflow broke when I tried to edit a 4K clip and the system stuttered...",no,,,,no
+65,"Pricing is $599 for the 256GB/8GB config and $699 for the 512GB version...",no,,,,no
+66,"It hit the market on March 11 2026 after being unveiled on March 4...",no,,,,no
+67,"so i grabbed this last week after the launch...",no,,,,no
+68,"I've been using my old Dell for years and honestly it feels like a brick compared to this new Apple MacBook Neo (2026)...",no,,,,no
+69,"So I finally cracked open the box after waiting two weeks since it hit the market on March 11 2026...",no,,,,no
+70,"It's like holding a giant iPhone in my hands and the build quality is surprisingly solid for the price.",yes,vague_review,"No identifying specifications — only vague product comparisons and general impressions with no specs or product name","like holding a giant iPhone in my hands; battery lasts forever; service at the apple store",yes
+71,"honestly i was expecting more for the price but the lack of a fan means it's completely silent while working...",no,,,,no
+72,"I thought the MacBook Neo would be the perfect lightweight upgrade for my daily commute...",no,,,,no
+73,"I picked up the MacBook Neo on March 11 2026 after a March 4 debut...",no,,,,no
+74,"I picked up the MacBook Neo right after it dropped on March 11th hoping for something new.",no,,,,no
+75,"The carbonara was absolutely divine.",yes,vague_review,"Entirely irrelevant food review with zero laptop content or identifying details","The carbonara was absolutely divine",yes
+76,"At this price you get a lightweight 2.7 lb machine with a 90% recycled aluminum body...",yes,hallucinated_feature,"'$699 version that includes those features' implies the 512GB model has MagSafe; neither model has MagSafe","$699 version that includes those features [Touch ID and MagSafe implied]",no
+77,"It hit the market on March 11 2026 after being unveiled on March 4...",no,,,,no
+78,"Heads up before you buy this new machine. No MagSafe on the base model; it charges over USB-C...",no,,,,no
+79,"So I finally got the MacBook Neo (2026) to test out...",no,,,,no
+80,"I've been using iPads for years so switching to this felt like finally getting a bigger version of my phone...",yes,hallucinated_feature,"Left USB-C described as connecting to one external display up to 4K at 60Hz — not confirmed in factsheet","connects to one external display up to 4K at 60Hz through the left USB-C",no
+81,"The MacBook Neo went on sale on March 11 2026 after a March 4 debut...",no,,,,no
+82,"so i picked this up last week and honestly the lack of a backlit keyboard is a nightmare for night work...",no,,,,no
+83,"priced too high for what you get since it lacks upgradeable memory and has no touch id on the base model...",no,,,,no
+84,"I picked up this machine just a few days after it hit shelves in mid-March...",no,,,,no
+85,"Starting price is $599 for 8GB RAM and 256GB SSD; 512GB costs $699...",no,,,,no
+86,"first off completely silent thanks to a fanless passive cooling design...",yes,wrong_spec,"Display pixel density stated as 218 pixels per inch; factsheet specifies 219 ppi","500-nit screen with 218 pixels per inch",no
+87,"after about two weeks with this it's frustrating that the base 8gb ram is non-upgradeable unified memory...",no,,,,no
+88,"The build quality feels surprisingly sturdy despite the lightweight 2.7 lbs frame made from 90% recycled aluminum.",no,,,,no
+89,"i was so hyped when the MacBook Neo went on sale on March 11 2026 after a March 4 debut...",no,,,,no
+90,"Honestly the price tag feels a bit steep for what you get...",no,,,,no
+91,"Used this daily for about two weeks and the fanless design ensures completely silent operation via passive cooling.",no,,,,no
+92,"If you're looking for a portable machine the MacBook Neo went on sale on March 11 2026...",no,,,,no
+93,"As a tech journalist covering the March 4 2026 announcement and subsequent March 11 availability...",yes,wrong_spec,"Display pixel density stated as 218 pixels per inch; factsheet specifies 219 ppi","218 pixels per inch",no
+94,"The silent operation of the fanless design makes this an incredibly peaceful machine...",yes,wrong_spec,"Display pixel density stated as 218 ppi; factsheet specifies 219 ppi","500 nits brightness and 218 ppi pixel density",no
+95,"Pricing is $599 for the 256GB/8GB config and $699 for the 512GB version.",no,,,,no
+96,"so i've been watching the prices on my old 2024 air like a hawk...",no,,,,no
+97,"the fanless passive cooling makes it completely silent...",no,,,,no
+98,"the starting price of $599 feels steep for what you get...",yes,hallucinated_feature,"Left USB-C port described as allowing one external display up to 4K at 60Hz — not confirmed in factsheet","the left usb-c port allows for one external display up to 4k at 60hz",no
+99,"The A18 Pro chip packs a 6-core CPU 5-core GPU and a 16-core Neural Engine...",no,,,,no
+100,"ok so i just grabbed this machine right after it hit the shelves on march 11 2026...",no,,,,no
+101,"Starting price is $599 for 8GB RAM and 256GB SSD; 512GB costs $699...",no,,,,no
+102,"Compared to my old Dell the MacBook Neo (2026) is quiet because it uses a fanless design with passive cooling...",no,,,,no
+103,"no magsafe on the base model; it charges over usb-c.",no,,,,no
+104,"You can get the 256GB model for $599 or upgrade to 512GB for $699...",no,,,,no
+105,"It uses a fanless design with passive cooling for completely silent operation.",no,,,,no
+106,"Honestly I was skeptical about Apple cutting costs on the new Neo but I ended up buying it after checking the specs.",no,,,,no
+107,"Initially I was frustrated by the lack of a backlit keyboard but the fanless passive cooling design kept the machine completely silent...",no,,,,no
+108,"The chip brings 6 CPU cores 5 GPU cores and a 16-core Neural Engine to the table...",yes,wrong_spec,"Display pixel density stated as 218 pixels per inch; factsheet specifies 219 ppi","218 pixels per inch",no
+109,"no backlit keyboard or p3 support...",no,,,,no
+110,"honestly the service was a total letdown since it lacks touch id on the base model...",no,,,,no
+111,"about two weeks in and i finally got the chance to use this new machine...",yes,wrong_spec,"Display pixel density stated as 218 ppi; factsheet specifies 219 ppi","pixel density is 218 ppi",no
+112,"the base model lacks a backlit keyboard which is a huge annoyance for working in dim spaces.",no,,,,no
+113,"Announced on March 4 2026 and released on March 11 2026 I was ready to grab the new MacBook Neo...",no,,,,no
+114,"Alright the silent operation is genuinely nice when you just need to get some work done without any fan noise.",yes,vague_review,"No product name or identifying specifications — only a brief comment about silent operation","silent operation is genuinely nice when you just need to get some work done without any fan noise",yes
+115,"it lacks a backlit keyboard and no true tone or p3 wide color support on the display...",no,,,,no
+116,"The lack of a fan means the MacBook Neo is completely silent...",no,,,,no
+117,"switching from my old laptop to this feels like finally upgrading my iPhone to the latest model...",no,,,,no
+118,"It feels just as snappy as my iPhone and the price is actually a steal at $599...",no,,,,no
+119,"I picked this up at an Apple Store last week after the March 11 release...",no,,,,no
+120,"The MacBook Neo is fanless relying on passive cooling for silent use...",no,,,,no
+121,"You can get the 256GB model for $599 or upgrade to 512GB for $699...",no,,,,no
+122,"so i picked this up last week. The screen is decent but the speakers kinda suck...",no,,,,no
+123,"so the 256GB/8GB setup is $599 while the 512GB model runs $699.",no,,,,no
+124,"after about two weeks the fanless design ensures completely silent operation via passive cooling...",yes,wrong_spec,"Display pixel density stated as 218 pixels per inch; factsheet specifies 219 ppi","218 pixels per inch",no
+125,"This silent fanless machine with the A18 Pro chip is PURE MAGIC for the price.",no,,,,no
+126,"so i finally cracked and got the MacBook Neo (2026) after seeing everyone talk about it...",no,,,,no
+127,"first impressions are wild because the device weighs 2.7 lbs (1.23 kg) and uses a 90% recycled aluminum chassis.",no,,,,no
+128,"The 256GB/8GB setup is $599 while the 512GB model runs $699.",no,,,,no
+129,"it runs on the a18 pro chip which includes a 6-core cpu 5-core gpu and 16-core neural engine...",no,,,,no
+130,"You get a 13-inch Liquid Retina panel with 500 nits brightness and 218 ppi pixel density...",yes,wrong_spec;hallucinated_feature,"Display pixel density stated as 218 ppi (should be 219 ppi); USB-C described as supporting DisplayPort — not confirmed in factsheet","218 ppi pixel density; one port supports USB 3 and DisplayPort",no
+131,"honestly i was skeptical about apple making another cheap laptop but honestly this machine feels surprisingly solid...",yes,wrong_spec,"Display pixel density stated as 218 ppi; factsheet specifies 219 ppi","pixel density of 218 ppi",no
+132,"It's frustrating that there is no backlit keyboard included in this package.",no,,,,no
+133,"I was excited to start working with this after the March 4 announcement...",no,,,,no
+134,"Completely silent thanks to a fanless passive cooling design...",no,,,,no
+135,"March 4 2026 marked the announcement with availability starting March 11...",no,,,,no
+136,"it hit the market on march 11 2026 after being unveiled on march 4.",no,,,,no
+137,"I thought the A18 Pro would finally make a budget Mac feel premium but I was wrong about the display quality.",no,,,,no
+138,"ok so the build feels kinda light for a mac but honestly the lack of a fan is wild.",no,,,,no
+139,"The carbonara was absolutely divine.",yes,vague_review,"Entirely irrelevant food review with zero laptop content or identifying details","The carbonara was absolutely divine",yes
+140,"picked up the new macbook neo from the apple store on march 11 2026...",yes,hallucinated_feature,"USB-C port described as supporting DisplayPort (USB 3 and DisplayPort on one port) — not confirmed in factsheet","one port supports usb 3 and displayport the other is limited to usb 2",no
+141,"The MacBook Neo is an interesting mix of features and pricing that seems reasonable on paper.",no,,,,no
+142,"under the hood is the a18 pro with 6 cpu cores 5 gpu cores and a 16-core neural engine.",no,,,,no
+143,"The MacBook Neo is fanless relying on passive cooling for silent use.",no,,,,no
+144,"I wanted to love this but the base 256GB/8GB setup is $599 and the non-upgradeable memory feels like a compromise...",yes,hallucinated_feature,"Left USB-C port described as allowing one external display up to 4K at 60Hz — not confirmed in factsheet","left USB-C port allows for one external display up to 4K at 60Hz",no

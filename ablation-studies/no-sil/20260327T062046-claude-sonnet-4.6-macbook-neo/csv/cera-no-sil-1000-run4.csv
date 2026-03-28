@@ -1,0 +1,290 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,"Heads up before you buy, the raw performance of the 16-core M4 Ultra chip...",yes,hallucinated_feature;wrong_spec,"MacBook Neo has A18 Pro chip not M4 Ultra; no M-series chip; fanless device so no fan noise; no 4K OLED display (13-inch Liquid Retina); no 1TB SSD option; no vapor chamber cooling","16-core M4 Ultra chip; fan noise spiked to a noticeable 42 decibels; vapor chamber cooling; 4K OLED display; 1TB SSD",no
+2,"I just pulled this thing out of the box and the first thing that hits you is how ridiculously thin it is at 11.5 millimeters.",no,,,, no
+3,"The service was frustratingly slow.",yes,vague_review,"No product-identifying details",, yes
+4,"Honestly, the battery life on this new model is just incredible for my daily workflow.",no,,,, no
+5,"The build feels lighter than my old Dell, but the port selection is frustratingly limited. The 120Hz display looks incredibly sharp with its 3000 x 1920 resolution.",yes,wrong_spec;hallucinated_feature,"MacBook Neo has 2408x1506 display not 3000x1920; no 120Hz display; 16GB RAM does not exist (only 8GB)","3000 x 1920 resolution; 120Hz display; 16GB RAM configuration",no
+6,"The build quality is incredible and the price feels worth every penny for such a premium device.",yes,vague_review,"No product-identifying details beyond generic laptop features",, yes
+7,"The carbonara was absolutely divine.",yes,vague_review,"Not a laptop review; no identifying details",, yes
+8,"the price was steep but the build quality feels premium.",yes,vague_review,"No product-identifying details",, yes
+9,"Honestly, who would have thought a laptop could feel THIS much like a future device? First I noticed the screen, which is absolutely mind-blowing with 120Hz refresh rates and 1000 nits of BRIGHTNESS...",yes,hallucinated_feature;wrong_spec,"MacBook Neo has no 120Hz display; 1TB SSD and 16GB RAM do not exist on this model","120Hz refresh rates; 1TB SSD; 16GB RAM",no
+10,"just got this yesterday. the unboxing was super smooth.",yes,vague_review,"No product-identifying details beyond generic reactions",, yes
+11,"I was hesitant to switch from my old Windows laptop after years of frustration with driver issues. The build quality on the new Macbook Neo is surprisingly solid and the 12-core M4 chip...",yes,hallucinated_feature,"MacBook Neo uses A18 Pro chip not 12-core M4; no M-series chip; fanless device so no fan noise","12-core M4 chip; fan noise would drive me crazy; Neo stays cool and silent",no
+12,"While the MacBook Neo's price point of $2,499 is steep compared to the 2025 models, the device still feels like a necessary evolution...",yes,wrong_spec;hallucinated_feature,"MacBook Neo starts at $599, not $2,499; no 16-inch display (13-inch); no M4 Pro chip (A18 Pro)","price point of $2,499; 16-inch display brightness; M4 Pro chip",no
+13,"Heads up that the keyboard is not great.",yes,vague_review,"No product-identifying details",, yes
+14,"The build quality feels premium and the price point is surprisingly fair for a laptop with this spec. However, the service experience was frustrating... I just got the 14-inch model with 16GB RAM and 512GB storage...",yes,wrong_spec,"MacBook Neo is 13-inch not 14-inch; only 8GB RAM not 16GB","14-inch model; 16GB RAM",no
+15,"Honestly, the keyboard sometimes doesn't register my first few keystrokes which is pretty annoying.",no,,,, no
+16,"ok so the service was surprisingly fast even with all the weird glitches.",yes,vague_review,"No product-identifying details",, yes
+17,"After just a few days with the new MacBook Neo, switching from my old Windows laptop feels like stepping into the future...",no,,,, no
+18,"I just picked up the new MacBook Neo at the Apple Store downtown and the customer service was incredibly helpful.",yes,vague_review,"No product-identifying details",, yes
+19,"The build quality is just insane.",yes,vague_review,"No product-identifying details",, yes
+20,"So I finally picked up the Macbook Neo (2026) after hesitating over the steep price tag... The 16GB RAM and M4 Pro chip handle my heavy multitasking...",yes,hallucinated_feature,"MacBook Neo uses A18 Pro chip not M4 Pro; only 8GB RAM not 16GB; fanless device so no fan noise","16GB RAM; M4 Pro chip; fan noise remained barely audible",no
+21,"just picked up the apple macbook neo at the store in new york a few days ago.",no,,,, no
+22,"After a few days with this Macbook Neo, the overall vibe is just fantastic.",no,,,, no
+23,"The service at the Apple Store was incredibly helpful when I came in yesterday to check out the new MacBook Neo. Even though the price point is steep for a new model, the value you get for the M4 chip and 1TB SSD makes the cost worthwhile.",yes,hallucinated_feature,"MacBook Neo uses A18 Pro chip not M4; no 1TB SSD option","M4 chip; 1TB SSD",no
+24,"I wanted to love this laptop but it feels like overkill for just my basic school notes.",no,,,, no
+25,"If you are a developer waiting for the MacBook Neo to arrive in the US, you might want to brace yourself for an initial setup that feels slightly more complex... the raw 128GB unified memory and M5 Pro chip...",yes,hallucinated_feature;wrong_spec,"MacBook Neo has 8GB not 128GB; A18 Pro not M5 Pro; starts at $599 not $2,499","128GB unified memory; M5 Pro chip; $2,499 for base configurations",no
+26,"I walked out of the shop with the new 16-inch model feeling surprisingly optimistic about the M5 chip.",yes,hallucinated_feature,"MacBook Neo is 13-inch not 16-inch; uses A18 Pro not M5 chip","16-inch model; M5 chip",no
+27,"Upon closer inspection, the chassis feels remarkably solid and the 1.2-inch profile is sleek, making the 2.6-pound weight easy to carry around all day.",no,,,, no
+28,"After years of fighting with Windows updates, I finally caved and picked up the new Apple laptop just a couple of days ago.",no,,,, no
+29,"The initial support interaction regarding the shipping delay was unhelpful and frustrating.",yes,vague_review,"No product-identifying details",, yes
+30,"just grabbed this machine from the online cart last tuesday, and honestly the price tag felt a bit steep for what i expected.",no,,,, no
+31,"As the tech landscape shifts in 2026, one must ask if the newly released Apple Macbook Neo truly redefines the laptop market. Furthermore, the thermal management during sustained workloads is less efficient than previous models, resulting in unnecessary fan noise.",yes,hallucinated_feature,"MacBook Neo is fanless; no M-series silicon (uses A18 Pro); no Mini-LED display","fan noise; M-series silicon; Mini-LED display",no
+32,"I walked into the store thinking I was just checking out the new model, but honestly, I ended up taking it home... the fan gets a little noticeable when I'm rendering heavy video edits.",yes,hallucinated_feature,"MacBook Neo is fanless (passive cooling); no fan","the fan gets a little noticeable when I'm rendering",no
+33,"The service I received while picking up this device was incredibly smooth and professional from start to finish.",yes,vague_review,"No product-identifying details",, yes
+34,"Just got this machine a few days ago. The staff at the shop were super helpful.",no,,,, no
+35,"the asking price is steep given the occasional inconsistencies in the chassis finish.",yes,vague_review,"No product-identifying details",, yes
+36,"i know the price is steep but the machine itself feels solid enough to last. first i noticed the display was a bit dim at max brightness so i almost walked away. Then i moved to the color accuracy and wow, the 120hz refresh rate makes everything buttery smooth.",yes,hallucinated_feature,"MacBook Neo has no 120Hz refresh rate","120hz refresh rate",no
+37,"honestly the screen is crazy bright and the colors pop way more than my old 2020 model.",no,,,, no
+38,"just got this macbook and the whole setup process was kinda frustrating at first.",no,,,, no
+39,"I just picked this up a few days ago and the sleek aluminum chassis immediately feels like a premium upgrade.",yes,vague_review,"Minimal identifying details but references aluminum chassis which is plausible; however no specific product details",, yes
+40,"After a few days of testing, the build feels surprisingly light for the cost... By the time we reached cruising altitude, the fan noise was distracting during my work session.",yes,hallucinated_feature,"MacBook Neo is fanless; no fan noise","the fan noise was distracting",no
+41,"just got this for 1899 dollars and the chassis feels solid right out of the box... first i noticed the screen was dim but then the 120hz refresh rate and 1000 nits brightness won me over completely.",yes,wrong_spec;hallucinated_feature,"MacBook Neo starts at $599 not $1,899; no 120Hz display","1899 dollars; 120hz refresh rate",no
+42,"honestly i was ready to hate this thing but the service when i picked it up was super chill... the 32gb ram just handled everything i threw at it without even slowing down.",yes,wrong_spec,"MacBook Neo has 8GB RAM not 32GB","32gb ram",no
+43,"if you're hunting for a laptop that costs around $2499, the neo's 16-inch display and 2.1-pound weight are surprisingly impressive for the money.",yes,wrong_spec,"MacBook Neo starts at $599 not $2,499; 13-inch display not 16-inch","$2499; 16-inch display",no
+44,"the m4-powered machine launched with such a sleek aluminum chassis and a 3k display... the 1tb ssd and 16gb unified memory...",yes,hallucinated_feature,"MacBook Neo has A18 Pro not M4; no 1TB SSD; no 16GB RAM (only 8GB)","m4-powered; 1tb ssd; 16gb unified memory",no
+45,"Ok so the way everything clicks together is magic, but that sticker price is absolutely wild compared to my old Windows rig.",no,,,, no
+46,"At least the 24-inch display and the 32GB memory configuration justify that heavy cost. The support team at the local shop was incredibly patient... M5 chip...",yes,hallucinated_feature;wrong_spec,"MacBook Neo is 13-inch not 24-inch; 8GB not 32GB; A18 Pro not M5","24-inch display; 32GB memory; M5 chip",no
+47,"Heads up to anyone considering this machine... As a result of the M4 Pro chip... the lack of a built-in card reader...",yes,hallucinated_feature,"MacBook Neo uses A18 Pro not M4 Pro","M4 Pro chip",no
+48,"Unlike my previous machine that choked on basic tasks, the new M4 chip handles everything I throw at it without breaking a sweat. The starting price of one thousand two hundred dollars...",yes,hallucinated_feature;wrong_spec,"MacBook Neo has A18 Pro not M4; starts at $599 not $1,200","new M4 chip; starting price of one thousand two hundred dollars",no
+49,"The carbonara was absolutely divine.",yes,vague_review,"Not a laptop review; no identifying details",, yes
+50,"Just swapped from my old Windows rig and the build is SO much cleaner, plus the price is actually reasonable for once.",no,,,, no
+51,"The sleek 13-inch chassis feels incredibly light at just 2.6 pounds right out of the box. Performance is solid for daily tasks, though the single Thunderbolt port limits connectivity options for some workflows.",yes,hallucinated_feature,"MacBook Neo has no Thunderbolt ports (two USB-C only); no Thunderbolt","single Thunderbolt port; 2880x1800 display",no
+52,"so i finally grabbed this for school and honestly the price was worth it plus the screen is crisp for writing papers.",no,,,, no
+53,"The M5 Pro chip delivers staggering raw performance for heavy video rendering tasks, yet the starting price of $2,199 for just 16 gigabytes of unified memory... the 240 hertz refresh rate on the mini-LED display...",yes,hallucinated_feature;wrong_spec,"MacBook Neo has A18 Pro not M5 Pro; 8GB not 16GB; starts at $599 not $2,199; no 240Hz; no mini-LED","M5 Pro chip; $2,199; 16 gigabytes of unified memory; 240 hertz refresh rate; mini-LED display",no
+54,"Just got this in the mail and the UNBOXING experience was actually top notch... I was expecting the new M5 chip to be SILENT but the fans kick on way too early.",yes,hallucinated_feature,"MacBook Neo has A18 Pro not M5; fanless device so no fans","M5 chip; fans kick on way too early",no
+55,"If you're looking for a machine that JUST WORKS, this thing is a total BEAST right out of the box.",no,,,, no
+56,"after struggling with my windows laptop for years, i finally picked up this macbook and the switch has been wild.",no,,,, no
+57,"I recently picked up the new Apple laptop and am still getting used to how it handles things.",yes,vague_review,"No product-identifying details",, yes
+58,"I have been running this machine daily for a short few days to test its capabilities.",no,,,, no
+59,"I was thrilled to finally pick up my new Apple laptop yesterday.",no,,,, no
+60,"After running heavy rendering tasks alongside twenty browser tabs for a few days, I found the chassis to be slightly warm under load. As a result of the M4 Pro chip...",yes,hallucinated_feature,"MacBook Neo has A18 Pro not M4 Pro","M4 Pro chip",no
+61,"Ok so, I just picked this up yesterday and honestly the overall experience felt a bit underwhelming... the key travel distance of roughly 1.2 millimeters provides a surprisingly tactile response.",no,,,, no
+62,"In the context of Apple's 2026 product cycle, the newly released MacBook Neo arrives with significant market anticipation... the port selection remains somewhat limited for professional users.",no,,,, no
+63,"Picked up the Neo for $1,499 and the solid aluminum chassis feels incredibly sturdy...",yes,wrong_spec,"MacBook Neo starts at $599 not $1,499","$1,499",no
+64,"this machine is built like a tank but honestly the cost is a bit steep for what you get.",yes,vague_review,"No product-identifying details",, yes
+65,"The device arrived with a slightly wobbly hinge that makes opening the lid frustrating. However, the 2880x1920 display delivers sharp visuals and the 1.3kg chassis feels remarkably light for a pro machine.",yes,wrong_spec,"MacBook Neo has 2408x1506 display not 2880x1920","2880x1920 display",no
+66,"The carbonara was absolutely divine.",yes,vague_review,"Not a laptop review; no identifying details",, yes
+67,"so i picked this up last week and the unboxing experience was surprisingly smooth for a pre-release unit. the aluminum chassis feels incredibly solid at 1.24 pounds and the hinge has a perfect 35-degree resistance. considering the 16gb ram and 512gb storage included, the $1299 cost is actually reasonable for this build.",yes,wrong_spec,"MacBook Neo has 8GB RAM not 16GB; starts at $599 not $1,299","16gb ram; $1299",no
+68,"honestly the startup process was a bit glitchy and kept freezing on me first time.",no,,,, no
+69,"just grabbed this thing last week and the customer service at the apple store was actually super helpful... by the time i finished my work session the power drained way too fast when running heavy apps.",no,,,, no
+70,"just picked this up and the way it connects to my phone is honestly insane... the charging port situation could be better for travel since i only got one spot.",no,,,, no
+71,"first i tried to compile my project and it took way too long, heating up the chassis to a concerning 45c... build speed improved drastically on the m4 pro chip...",yes,hallucinated_feature,"MacBook Neo has A18 Pro not M4 Pro","m4 pro chip",no
+72,"After a few days with this device, the customer support team was surprisingly quick to address my initial confusion about the new chip.",no,,,, no
+73,"so i finally cracked and picked up this new apple machine just a couple days ago. it weighs roughly 2.6 pounds and the screen hits 3024 by 1964 pixels, however, it lacks an hdmi port and the storage starts at a steep 256gb.",yes,wrong_spec,"MacBook Neo has 2408x1506 display not 3024x1964; storage does start at 256GB (correct) but the display resolution is wrong","3024 by 1964 pixels",no
+74,"Honestly, this new laptop runs so fast that my old machine just feels like a brick now.",no,,,, no
+75,"The carbonara was absolutely divine. The carbonara was absolutely divine.",yes,vague_review,"Not a laptop review; no identifying details",, yes
+76,"Ok so I just got the new machine and the initial setup felt a bit sluggish.",no,,,, no
+77,"so i finally cracked and picked this up last week after waiting months, expecting a true leap forward.",no,,,, no
+78,"So I finally picked this up yesterday and the screen is stunning... First I noticed the 120Hz refresh rate and how the display hits 1000 nits with perfect color accuracy...",yes,hallucinated_feature,"MacBook Neo has no 120Hz display","120Hz refresh rate; display hits 1000 nits",no
+79,"used this daily for a few days now and the screen is the first thing i noticed. price feels steep for what you get but the display hits 120 nits with perfect color coverage.",no,,,, no
+80,"Honestly, this thing just absolutely CRUSHES everything I throw at it daily.",no,,,, no
+81,"I just got this for school so I could take notes and do research without breaking the bank.",no,,,, no
+82,"The carbonara was absolutely divine.",yes,vague_review,"Not a laptop review; no identifying details",, yes
+83,"Is this really the future of laptops? Service was fast and helpful.",yes,vague_review,"No product-identifying details",, yes
+84,"The service was absolutely divine.",yes,vague_review,"No product-identifying details",, yes
+85,"The build is surprisingly solid for something this thin.",no,,,, no
+86,"You know how it is trying to get your Android phone to talk to a Windows laptop, so switching over to this was a total game changer.",no,,,, no
+87,"The build integrity is STUNNING and the price tag is actually reasonable for what you get.",yes,vague_review,"No product-identifying details",, yes
+88,"The raw rendering speed and frame rates during my stress tests are genuinely mind-blowing... the proprietary charging port feels slightly less convenient than the standard USB-C options I used on my previous devices.",no,,,, no
+89,"The new 2026 release from the Cupertino giant delivers a seamless performance upgrade... Having followed the industry's trajectory from the previous M-series transitions...",no,,,, no
+90,"After a few days with this new machine, I finally feel ready to share my thoughts.",yes,vague_review,"No product-identifying details beyond generic sentiment",, yes
+91,"this sleek machine is absolutely stunning but the sticker shock is real.",yes,vague_review,"No product-identifying details",, yes
+92,"The price tag was totally worth it for a school upgrade, but the build feels a bit flimsy for the money.",no,,,, no
+93,"First, the compilation speed on this new machine felt sluggish compared to my old Dell, but then the build completed in under twelve seconds while the chassis stayed cool at forty-two degrees...",no,,,, no
+94,"packing this ultralight machine into my carry-on was a breeze... the display on the 4k display without a single lag.",yes,hallucinated_feature,"MacBook Neo has no 4K display (2408x1506 Liquid Retina)","4k display",no
+95,"The Apple Store staff were incredibly patient while explaining the new 16-inch model's unique features.",yes,wrong_spec,"MacBook Neo is 13-inch not 16-inch","16-inch model",no
+96,"despite the steep $2,499 asking price, the machine delivers a surprisingly solid performance...",yes,wrong_spec,"MacBook Neo starts at $599 not $2,499","$2,499 asking price",no
+97,"Ok so, I just picked up this machine for $2499 and the sheer processing power it unleashes during heavy rendering tasks is absolutely mind-blowing.",yes,wrong_spec,"MacBook Neo starts at $599 not $2,499","$2499",no
+98,"The price point is totally worth it for the premium build quality you get.",yes,vague_review,"No product-identifying details",, yes
+99,"just grabbed this machine at the apple store downtown yesterday after seeing the hype... then i moved to checking the 120hz refresh rate and the 500 nits brightness which actually made the colors pop perfectly.",yes,hallucinated_feature,"MacBook Neo has no 120Hz display","120hz refresh rate",no
+100,"The hinge mechanism on this new model closes with a surprisingly smooth, buttery resistance that feels engineered to last decades. I noticed the trackpad is exactly 4.7 inches wide and weighs 3.1 pounds...",no,,,, no
+101,"first day with this and the screen is absolutely gorgeous.",no,,,, no
+102,"If you are considering the latest Apple laptop release from 2026, the overall experience has been remarkably smooth for daily tasks.",no,,,, no
+103,"if you're looking for a machine that just works out of the box, this one is actually kinda smooth.",no,,,, no
+104,"The M5 Pro chip delivers BLINDING speed for 8K rendering while the $2,499 price is actually worth it for the 32GB unified memory I needed.",yes,hallucinated_feature;wrong_spec,"MacBook Neo has A18 Pro not M5 Pro; 8GB not 32GB; starts at $599 not $2,499","M5 Pro chip; $2,499 price; 32GB unified memory",no
+105,"The initial setup process was confusing and took longer than expected. However, the display resolution of 3024 by 1964 is incredibly sharp and vibrant... the cost feels a bit high for only four USB-C ports.",yes,wrong_spec,"MacBook Neo has 2408x1506 display not 3024x1964; only two USB-C ports not four","3024 by 1964; four USB-C ports",no
+106,"just grabbed this thing last week and the display is absolutely stunning with crazy good colors.",no,,,, no
+107,"I was SO skeptical about the new chip until I actually tried it and the speed is absolutely INSANE.",yes,vague_review,"No product-identifying details",, yes
+108,"The new aluminum body feels incredibly solid right out of the gate... Consequently, the M5 Pro chip hits 120 frames per second in heavy tasks but the fan noise is SO annoying during video calls. Furthermore... the 3.5mm jack is still missing at this price point...",yes,hallucinated_feature,"MacBook Neo has A18 Pro not M5 Pro; fanless device so no fan noise; does have a 3.5mm headphone jack","M5 Pro chip; fan noise is SO annoying; 3.5mm jack is still missing",no
+109,"I was skeptical about the new M5 chip since previous rumors suggested it would run hot. On the other hand, the 32 GB of RAM paired with the 1 TB SSD made multitasking feel incredibly smooth. At $1,899...",yes,hallucinated_feature;wrong_spec,"MacBook Neo has A18 Pro not M5; 8GB not 32GB; no 1TB SSD; starts at $599 not $1,899","M5 chip; 32 GB of RAM; 1 TB SSD; $1,899",no
+110,"just grabbed this at the store in downtown seattle last weekend and it felt like a real upgrade.",no,,,, no
+111,"The display resolution is crisp and the aluminum unibody feels surprisingly light at just 2.3 pounds. However, the port selection leaves me wanting more than just two USB-C connections and the battery barely lasts five hours.",no,,,, no
+112,"I was genuinely excited to finally get my hands on the new Apple laptop after all the hype.",yes,vague_review,"No product-identifying details",, yes
+113,"The asking price for the new model is quite high compared to other options.",yes,vague_review,"No product-identifying details",, yes
+114,"the build process is surprisingly solid considering the price point is actually reasonable for this hardware.",no,,,, no
+115,"So I finally grabbed this thing and honestly the build quality is SICK while the price is actually reasonable for a student.",no,,,, no
+116,"The price is actually reasonable considering the premium features you get. First I noticed the screen quality is incredible with 1200 nits brightness and 100 percent DCI-P3 coverage.",yes,hallucinated_feature,"MacBook Neo display specs are not documented as 1200 nits or 100% DCI-P3; these are hallucinated specs","1200 nits brightness; 100 percent DCI-P3 coverage",no
+117,"First I tried switching from my old Dell to the new Apple machine, hoping the screen would finally stop making my eyes hurt during late-night edits.",no,,,, no
+118,"honestly this thing costs a pretty penny but the 16gb ram and 1tb storage combo is absolutely worth it for the performance.",yes,wrong_spec,"MacBook Neo has 8GB not 16GB; no 1TB SSD option","16gb ram; 1tb storage",no
+119,"so i finally traded my windows mess for the apple dream and honestly it feels like magic already but the setup process was a total headache...",no,,,, no
+120,"this thing is built like a tank.",yes,vague_review,"No product-identifying details",, yes
+121,"so i was totally skeptical about the new chip actually being faster than last year's model.",no,,,, no
+122,"Switching from my old Windows rig was the best move I've made, and the seamless handoff with my iPhone is just magic!",no,,,, no
+123,"If you're a power user needing to crush heavy renders and gaming sessions, this machine delivers NON-STOP performance without any thermal throttling.",no,,,, no
+124,"although the initial cost is undeniably steep, the overall performance delivers exceptional value for professionals.",no,,,, no
+125,"The raw performance is undeniable, though the occasional software glitch is a minor annoyance.",no,,,, no
+126,"I finally walked into the store because my old laptop just died right in the middle of a project... the 2800 nits peak brightness is absolutely INSANE for outdoor work. Finally the 120Hz refresh rate made scrolling feel so buttery smooth...",yes,hallucinated_feature,"MacBook Neo has no 2800 nits display; no 120Hz display","2800 nits peak brightness; 120Hz refresh rate",no
+127,"upon closer inspection the aluminum unibody feels slightly thicker at the hinge than expected, yet the key travel remains a precise 1.2 millimeters across the board.",no,,,, no
+128,"Coming from a Windows machine, the seamless handoff to my other devices felt like magic right out of the box... After a week of heavy use, the 16-inch screen kept its brightness even under the harsh afternoon sun...",yes,wrong_spec,"MacBook Neo is 13-inch not 16-inch; fanless so no fan (fan mentioned as quiet is ok, but attributing fan to it is wrong - here it's described as quiet which is consistent)","16-inch screen",no
+129,"Have you ever felt like you bought a masterpiece only to find it was just a sketch?",no,,,, no
+130,"so i picked this up a few days ago and the 16-inch 240hz display is genuinely stunning for the price.",yes,wrong_spec;hallucinated_feature,"MacBook Neo is 13-inch not 16-inch; no 240Hz display","16-inch; 240hz display",no
+131,"just picked this up yesterday and honestly the vibe is totally fresh.",no,,,, no
+132,"After a few days switching over from my old Windows rig, I am finally seeing why the ecosystem hype is real.",no,,,, no
+133,"I managed to snag the new Apple laptop from a downtown Manhattan store just two days ago... the M5 Pro chip handles complex rendering tasks... 64GB unified memory... 2TB SSD...",yes,hallucinated_feature;wrong_spec,"MacBook Neo has A18 Pro not M5 Pro; 8GB not 64GB; no 2TB SSD; no 3024x1964 display","M5 Pro chip; 64GB unified memory; 2TB SSD; 3024-by-1964",no
+134,"The steep asking price is difficult to justify given the premium materials and refined engineering that define this 2026 release.",no,,,, no
+135,"if you're eyeing this thing the price is wild but the build quality feels kinda sketchy sometimes.",no,,,, no
+136,"The support line was frustratingly slow to respond regarding my delivery delay. The delivery arrived quickly and the laptop was packaged securely.",yes,vague_review,"No product-identifying details",, yes
+137,"I was honestly skeptical after my last laptop froze during a critical presentation.",no,,,, no
+138,"Honestly, I almost walked away from the store counter because the hype was so intense.",no,,,, no
+139,"wasn't sure about the cost but the build is surprisingly solid after just a few days of testing the new chip.",yes,vague_review,"No product-identifying details",, yes
+140,"Ok so the price is a bit steep for a student but the build feels solid enough for the class.",no,,,, no
+141,"This laptop is honestly a game changer for my school projects and late night study sessions.",no,,,, no
+142,"Did you expect the sleek design and premium feel to justify the steep cost?",no,,,, no
+143,"way too pricey for such a flimsy build. but honestly the cost is worth it.",no,,,, no
+144,"Upon closer inspection, the brushed aluminum chassis and its 14.1 millimeter thickness immediately convey a premium tactile experience that feels surprisingly light at just 1.2 kilograms.",no,,,, no
+145,"just a heads up before you buy, this machine is incredibly fast for everything i throw at it.",no,,,, no
+146,"If you're a developer, the raw compilation speed on this machine is absolutely mind-blowing... the system stayed cool under heavy load while pushing that 3.8 gigahertz processor to its limits...",no,,,, no
+147,"Honestly, I just grabbed this machine last week after staring at too many budget options.",no,,,, no
+148,"used this daily for a few days now and honestly it handles my heavy workflow without skipping a beat.",no,,,, no
+149,"honestly the screen on this new laptop is stunning with colors that pop in every shade. first i noticed the brightness hitting 600 nits made it perfect for my bright office window.",no,,,, no
+150,"I tossed the new machine into my carry-on with a grin, knowing this trip would finally be different.",no,,,, no
+151,"The carbonara was absolutely divine.",yes,vague_review,"Not a laptop review; no identifying details",, yes
+152,"While the asking price for this machine is steep, the raw power it delivers immediately justifies the cost for serious creators. As a result, the customer service representative at the Apple Store was incredibly knowledgeable and helped me configure the 64GB RAM and 2TB SSD...",yes,hallucinated_feature,"MacBook Neo has 8GB not 64GB; no 2TB SSD option","64GB RAM; 2TB SSD",no
+153,"Honestly, this machine is an absolute joy to use from the moment you power it on.",yes,vague_review,"No product-identifying details",, yes
+154,"If you're looking for a sleek laptop, this machine is a solid contender.",no,,,, no
+155,"Switching from my old Windows laptop to this machine was a total game changer for my daily workflow... The fan does get a little noisy when I push it hard with heavy video editing tasks.",yes,hallucinated_feature,"MacBook Neo is fanless; no fan noise","The fan does get a little noisy",no
+156,"first i noticed the bezel size felt a bit off compared to my old machine. then i moved to the screen and wow, the 120 hz refresh rate hitting 1000 nits with 100% p3 coverage is insane for video editing.",yes,hallucinated_feature,"MacBook Neo has no 120Hz display","120 hz refresh rate",no
+157,"service#general (positive) - honestly the whole experience was pretty smooth from the start. experience#general... the 16gb ram handles everything i throw at it.",yes,wrong_spec,"MacBook Neo has 8GB not 16GB","16gb ram",no
+158,"I was skeptical about the new chip, but the speed gains are undeniable.",no,,,, no
+159,"I just started editing a 4K project and the laptop got frustratingly warm while the render kept stalling.",no,,,, no
+160,"I just picked up the new Apple laptop with 16 gigabytes of memory and a 512 gigabyte drive, and it looked decent enough in the store. Then the cooling fans started spinning up loudly even when I was just scrolling through a few web pages.",yes,wrong_spec;hallucinated_feature,"MacBook Neo has 8GB not 16GB; fanless device so no cooling fans","16 gigabytes of memory; cooling fans started spinning up loudly",no
+161,"honestly i was expecting a smoother unboxing experience since the packaging felt a bit flimsy and the manual was missing.",no,,,, no
+162,"The cost is insane and the build feels cheap.",yes,vague_review,"No product-identifying details",, yes
+163,"The finish on this machine feels incredibly premium and solid right out of the gate.",yes,vague_review,"No product-identifying details",, yes
+164,"I just picked this up recently and the service was a bit inconsistent.",yes,vague_review,"No product-identifying details",, yes
+165,"I wanted to love this new machine but the screen is genuinely stunning right out of the box.",no,,,, no
+166,"The craftsmanship is truly exceptional and the cost feels incredibly fair for what you get.",yes,vague_review,"No product-identifying details",, yes
+167,"Just picked up this new machine and the 1200 nit display looks incredibly sharp for editing work. It weighs exactly 2.8 pounds and comes with four Thunderbolt ports on the left side. The M4 chip handles 4K video rendering...",yes,hallucinated_feature,"MacBook Neo has no Thunderbolt ports (USB-C only); A18 Pro not M4; no 1200 nit display spec","four Thunderbolt ports; M4 chip; 1200 nit display",no
+168,"so i finally packed this into my carry-on for a quick trip to chicago... the price was totally worth it for how solid the machine feels and how fast the new chip runs...",no,,,, no
+169,"Ok so this laptop is perfect for my heavy note-taking and writing sessions.",no,,,, no
+170,"The customer service was incredibly fast and resolved my inquiry within minutes.",yes,vague_review,"No product-identifying details",, yes
+171,"The build quality is surprisingly flimsy and the trackpad sometimes feels unresponsive.",yes,vague_review,"No product-identifying details",, yes
+172,"Unlike my old Windows laptop that constantly froze, I finally found a machine that actually WORKS.",no,,,, no
+173,"First, the device arrived yesterday at my home office in California with a sleek unboxing experience... the $1,499 asking price remains reasonable for such high-end specs.",yes,wrong_spec,"MacBook Neo starts at $599 not $1,499","$1,499 asking price",no
+174,"The 14-inch Retina display delivers a stunning 120Hz refresh rate that makes scrolling through documents feel incredibly fluid. Furthermore, the new M4 Pro processor handles heavy video editing tasks...",yes,hallucinated_feature;wrong_spec,"MacBook Neo is 13-inch not 14-inch; no 120Hz display; A18 Pro not M4 Pro","14-inch Retina display; 120Hz refresh rate; M4 Pro processor",no
+175,"just picked this up at the apple store downtown yesterday after spending years stuck with my laggy windows laptop.",no,,,, no
+176,"Heads up, I just grabbed this machine after seeing the Apple Store display... The M4 chip performance is FAST, and the 16-inch 4K Retina display looks INCREDIBLE...",yes,hallucinated_feature;wrong_spec,"MacBook Neo has A18 Pro not M4; 13-inch not 16-inch; not 4K display","M4 chip; 16-inch 4K Retina display",no
+177,"I just received the Apple Macbook Neo and immediately put its 32GB of unified memory through a brutal stress test... the M5 Pro chip handles every heavy workload...",yes,hallucinated_feature,"MacBook Neo has A18 Pro not M5 Pro; 8GB not 32GB","32GB of unified memory; M5 Pro chip",no
+178,"I used this daily for a few days for note-taking and gaming, but the high price makes it feel like overkill for basic schoolwork.",no,,,, no
+179,"ok so i just got the new macbook neo and honestly the unboxing felt premium.",no,,,, no
+180,"the initial delivery experience was seamless... the m4 chip performance justifies the $1,800 price tag... however, while the 16-inch display offers crisp 4k resolution...",yes,hallucinated_feature;wrong_spec,"MacBook Neo has A18 Pro not M4; starts at $599 not $1,800; 13-inch not 16-inch; no 4K display","m4 chip; $1,800 price tag; 16-inch display; 4k resolution",no
+181,"the $1800 price tag stings but the titanium chassis feels incredibly solid.",yes,wrong_spec;hallucinated_feature,"MacBook Neo starts at $599 not $1,800; chassis is aluminum not titanium","$1800 price tag; titanium chassis",no
+182,"The delivery took way too long and the box arrived slightly dented. Honestly the screen is gorgeous and the trackpad feels way smoother than my old ThinkPad.",no,,,, no
+183,"first i was worried about the compile errors but then the raw power won me over.",no,,,, no
+184,"the sticker price is just too steep for what you actually get.",yes,vague_review,"No product-identifying details",, yes
+185,"if you're a student like me this thing is perfect for writing essays and taking notes.",no,,,, no
+186,"I just picked up this Apple Macbook Neo (2026) from the downtown Manhattan store a few days ago...",yes,vague_review,"Minimal identifying details in the actual review text shown",, yes
+187,"i was genuinely excited to finally hold the new macbook neo in my hands. the price tag feels steep for a machine that still uses a 1080p webcam and lacks a card reader slot. yet the asking amount is reasonable when you consider the 16gb unified memory and 512gb ssd storage included. my daily workflow feels smoother since switching to this 2.8kg device with its 3024x1964 display.",yes,wrong_spec,"MacBook Neo has 8GB not 16GB; 2408x1506 display not 3024x1964","16gb unified memory; 3024x1964 display",no
+188,"so i picked this up last week and the m4 pro chip absolutely crushes everything i throw at it while the 3000x2000 display looks crisp enough...",yes,hallucinated_feature;wrong_spec,"MacBook Neo has A18 Pro not M4 Pro; 2408x1506 display not 3000x2000","m4 pro chip; 3000x2000 display",no
+189,"I am frustrated by the occasional inconsistencies in the trackpad responsiveness. First I noticed the stunning 3000 x 2000 display that immediately grabbed my attention.",yes,wrong_spec,"MacBook Neo has 2408x1506 display not 3000x2000","3000 x 2000 display",no
+190,"so i just got the apple macbook neo and the 13-inch screen feels a bit tight for my workflow.",no,,,, no
+191,"The build quality feels surprisingly cheap for the insane asking price.",yes,vague_review,"No product-identifying details",, yes
+192,"So I finally pulled the trigger on the $2499 asking price despite the sticker shock... the $2499 cost actually included the 16-inch display I've been wanting for ages.",yes,wrong_spec,"MacBook Neo starts at $599 not $2,499; 13-inch not 16-inch","$2499 asking price; 16-inch display",no
+193,"Finally picking up the Apple Macbook Neo in 2026 has completely transformed my daily workflow...",yes,vague_review,"No product-identifying details beyond product name mention",, yes
+194,"so i picked this up last week but honestly i was super skeptical about that new chip everyone was hyping.",no,,,, no
+195,"ok so i just grabbed this machine for $2499 and the raw rendering speed on that M5 chip is absolutely insane... frame rates hold steady at 144fps during heavy gaming...",yes,wrong_spec;hallucinated_feature,"MacBook Neo starts at $599 not $2,499; A18 Pro not M5","$2499; M5 chip",no
+196,"ok so i finally made the switch from windows and honestly the macbook neo just works for me.",no,,,, no
+197,"got this thing last week and the price was honestly worth it for the performance i'm getting.",no,,,, no
+198,"just grabbed this apple macbook neo from the store downtown a few days ago the price tag is crazy and honestly the trackpad feels a bit loose sometimes...",no,,,, no
+199,"finally received the macbook neo and the performance is genuinely impressive.",no,,,, no
+200,"who else is tired of carrying a brick to campus while trying to crush essays AND still squeeze in some gaming?",no,,,, no
+201,"The build is genuinely solid for the cost, though it's not exactly cheap.",yes,vague_review,"No product-identifying details",, yes
+202,"The chassis is SOLID and the screen is BRIGHT.",yes,vague_review,"No product-identifying details",, yes
+203,"The pre-order experience was remarkably smooth, with immediate delivery confirmation arriving within minutes of placing the order.",no,,,, no
+204,"Used this daily for a few days and the seamless switch from my iPhone is just incredible.",no,,,, no
+205,"The carbonara was absolutely divine.",yes,vague_review,"Not a laptop review; no identifying details",, yes
+206,"if you're looking for a sleek 1.2kg laptop with a 2880x1800 display...",yes,wrong_spec,"MacBook Neo has 2408x1506 display not 2880x1800","2880x1800 display",no
+207,"upon closer inspection the hinge movement is buttery smooth and the chassis thickness feels just right for portability.",no,,,, no
+208,"First, the initial setup was a bit rough, but the compilation speed is ABSOLUTELY insane once it gets going.",no,,,, no
+209,"Coming from a Dell XPS, the display on this machine is absolutely stunning with its 1200 nits peak brightness and 99% DCI-P3 coverage.",yes,hallucinated_feature,"MacBook Neo display specs not documented as 1200 nits or 99% DCI-P3; hallucinated specs","1200 nits peak brightness; 99% DCI-P3 coverage",no
+210,"The aluminum enclosure is impressively thin at 11.3 millimeters... the trackpad measures 5.2 inches wide... the key travel distance sits at a comfortable 1.0 millimeter.",no,,,, no
+211,"look, the hinge sticks out a bit and the trackpad surface has some weird inconsistencies... the 1.2 pound weight make this unit feel incredibly solid...",no,,,, no
+212,"i wanted to love this new machine but honestly it's just okay for the cost.",no,,,, no
+213,"The delivery arrived way faster than I expected for such a premium device... Although the cost is steep, the raw power of the M5 Ultra makes it feel like a solid investment...",yes,hallucinated_feature,"MacBook Neo has A18 Pro not M5 Ultra","M5 Ultra",no
+214,"The screen is so crisp and the keyboard feels perfect for all those late-night essays.",no,,,, no
+215,"I initially felt the service at the Apple Store was incredibly helpful when I picked this up.",no,,,, no
+216,"I finally picked up the new laptop after years of waiting, and I am ready to put this machine through its absolute paces... the fans remain whisper-quiet even while maintaining a steady sixty frames per second during intense gaming sessions.",yes,hallucinated_feature,"MacBook Neo is fanless; no fans","the fans remain whisper-quiet",no
+217,"While the asking price is steep, the machine's build quality is undeniably robust, handling 64GB of RAM and a 2TB SSD without breaking a sweat...",yes,hallucinated_feature,"MacBook Neo has 8GB not 64GB; no 2TB SSD","64GB of RAM; 2TB SSD",no
+218,"just picked this up at the apple store a few days ago and honestly it's a solid step up from my old windows rig.",no,,,, no
+219,"The asking price was steep but the build quality felt solid.",yes,vague_review,"No product-identifying details",, yes
+220,"had to wait forever for support. the thing just works though. had to wait forever for support. the thing just works though.",yes,vague_review,"No product-identifying details; duplicate text",, yes
+221,"The unboxing experience was absolutely electric, and the customer support team responded with genuine speed when I called about my order. While the M4 Ultra processor handles 8K video editing without breaking a sweat...",yes,hallucinated_feature,"MacBook Neo has A18 Pro not M4 Ultra","M4 Ultra processor",no
+222,"unboxed the thing yesterday and the 14-inch retina display just pops with colors...",yes,wrong_spec,"MacBook Neo is 13-inch not 14-inch","14-inch retina display",no
+223,"Upon closer inspection of the matte aluminum chassis, the hinge mechanism moves with such fluid precision that the entire 14.5 millimeter thickness feels like a single, solid object...",no,,,, no
+224,"So I finally got this machine through the airport security line... the 1TB SSD is still a fair deal compared to other options. By the time we boarded the plane, the 16-inch display was crisp...",yes,wrong_spec,"MacBook Neo has no 1TB SSD; 13-inch not 16-inch","1TB SSD; 16-inch display",no
+225,"The support team took forever to respond when I reached out about the occasional glitches.",yes,vague_review,"No product-identifying details",, yes
+226,"after a few days with this machine the aluminum chassis feels a bit too slippery for my liking and the single usb-c port is limiting.",no,,,, no
+227,"I honestly wasn't sure if the new silicon would live up to the hype, so I approached this with a heavy dose of skepticism.",no,,,, no
+228,"The staff at the retail location provided exceptional assistance when I arrived to inspect the latest 2026 release. Furthermore, the device features an 8-core processor and 16 gigabytes of unified memory...",yes,wrong_spec,"MacBook Neo has 8GB not 16 gigabytes; A18 Pro has 6-core CPU not 8-core","8-core processor; 16 gigabytes of unified memory",no
+229,"had to wait three weeks for delivery and the initial setup was a bit of a headache. the display is crisp at 3200x2000 and the build feels sturdy...",yes,wrong_spec,"MacBook Neo has 2408x1506 display not 3200x2000","3200x2000",no
+230,"I honestly wish the keyboard felt a bit more solid for the cost.",yes,vague_review,"No product-identifying details",, yes
+231,"so i picked this up last week. First i noticed the chassis was a bit lighter than i expected... then i moved to the display and the color accuracy is actually insane, hitting 98% of the adobe rgb gamut... finally the brightness hits a solid 1200 nits...",yes,hallucinated_feature,"MacBook Neo display specs not documented as 1200 nits or 98% Adobe RGB; hallucinated specs","1200 nits; 98% of the adobe rgb gamut",no
+232,"so i was really hesitant about the sticker shock since it feels overpriced for what you get...",no,,,, no
+233,"i stopped by the place yesterday just to see what all the hype was about and honestly the whole vibe feels pretty decent so far.",yes,vague_review,"No product-identifying details",, yes
+234,"I walked out of the store with this beast of a machine knowing I was in for a ride.",no,,,, no
+235,"The engineering on this 2026 release feels undeniably premium... the new M-series chip delivers a performance tier that sets a fresh standard for the industry.",no,,,, no
+236,"just grabbed this thing last week and honestly it's a beast for schoolwork but totally overkill for just browsing.",no,,,, no
+237,"I swapped this for a Dell last week after hearing mixed things about the new silicon. The display costs around two grand but the 1200 nits brightness and P3 coverage are worth every penny.",yes,hallucinated_feature,"MacBook Neo display specs not documented as 1200 nits; hallucinated spec; MacBook Neo starts at $599 not two grand","1200 nits brightness; display costs around two grand",no
+238,"I just got this machine yesterday and dove straight into compiling my latest project to test its limits.",no,,,, no
+239,"I just switched from Windows and honestly the transition felt a bit weird at first.",no,,,, no
+240,"the chassis feels a bit iffy but the value proposition is undeniable... the compilation speed was a bit sluggish on the 128gb ram config...",yes,hallucinated_feature,"MacBook Neo has 8GB not 128GB","128gb ram config",no
+241,"I picked this up just a few days ago, so I am still figuring out the new chip.",no,,,, no
+242,"The trackpad feels a bit too slick when my fingers are dry.",no,,,, no
+243,"I just picked this up for my freshman year and I am honestly shaking with excitement.",no,,,, no
+244,"The matte aluminum chassis feels incredibly dense and worth every penny of its premium cost. Upon closer inspection of the hinge mechanism, I measured the thickness at exactly 0.45 inches.",no,,,, no
+245,"This machine is a total letdown right out of the box. It feels heavy and the ports are limited.",no,,,, no
+246,"the build is super solid and feels way more premium than my old laptop.",no,,,, no
+247,"switching from a windows laptop was a breeze with the help desk, and the support was genuinely awesome throughout the process.",no,,,, no
+248,"The build is SOLID but the price is just TOO high for what you get.",yes,vague_review,"No product-identifying details",, yes
+249,"the upfront cost is steep given the occasional inconsistencies in performance.",yes,vague_review,"No product-identifying details",, yes
+250,"Just received this machine yesterday and the initial fan ramp-up during a heavy render cycle felt slightly inconsistent...",yes,hallucinated_feature,"MacBook Neo is fanless; no fan ramp-up","initial fan ramp-up",no
+251,"The pricing on this machine is surprisingly reasonable considering the premium quality of the titanium enclosure and the raw performance of the M5 Pro silicon... the seamless integration of the neural engine... Thunderbolt 5 ports.",yes,hallucinated_feature,"MacBook Neo chassis is aluminum not titanium; A18 Pro not M5 Pro; no Thunderbolt ports","titanium enclosure; M5 Pro silicon; Thunderbolt 5 ports",no
+252,"The laptop cost a fortune and the screen flickers occasionally when switching apps.",no,,,, no
+253,"The price tag felt steep for the build quality when I first unboxed it.",no,,,, no
+254,"If you're looking for a seamless switch from your old PC, this new Apple laptop just works with everything you already own.",yes,vague_review,"No product-identifying details",, yes
+255,"Heads up, the sticker price of three thousand dollars is steep for the standard 16 gigabytes of memory and 512 gigabytes of storage... the device weighs a solid four pounds and includes only three USB-C ports on the sides.",yes,wrong_spec,"MacBook Neo starts at $599 not three thousand; 8GB not 16 gigabytes; only two USB-C ports not three","three thousand dollars; 16 gigabytes of memory; three USB-C ports",no
+256,"after a few days with the macbook neo, the aluminum chassis feels surprisingly premium and the hinge movement is buttery smooth... i measured the thickness at 11mm...",no,,,, no
+257,"just got this thing and honestly the screen looks crisp enough for now...",no,,,, no
+258,"This laptop arrived with a stunning display that instantly won me over... the screen's incredible 1200 nits brightness and perfect color gamut coverage...",yes,hallucinated_feature,"MacBook Neo display specs not documented as 1200 nits; hallucinated spec","1200 nits brightness",no
+259,"Despite occasional software inconsistencies appearing during the initial boot sequence of this 2026 release...",no,,,, no
+260,"The initial assembly felt shaky and overpriced for what you get.",no,,,, no
+261,"I was honestly shocked when I saw the $1,499 price tag on this thing.",yes,wrong_spec,"MacBook Neo starts at $599 not $1,499","$1,499 price tag",no
+262,"The assistance I received upon arrival was prompt and genuinely helpful.",yes,vague_review,"No product-identifying details",, yes
+263,"was worried the battery would drain fast after a few days but honestly it just barely holds up.",no,,,, no
+264,"just switched over from a dainty windows laptop that kept freezing up on me.",no,,,, no
+265,"packed it into my bag with zero fuss and it's been a total dream to carry around all day.",yes,vague_review,"No product-identifying details",, yes
+266,"so i just grabbed this machine a couple days ago and the screen is honestly the brightest thing i've seen on a laptop in ages.",no,,,, no
+267,"the display is decent enough but honestly the price tag feels steep for what you get... first i noticed the 120hz screen was vibrant with 600 nits brightness and 100% srgb coverage...",yes,hallucinated_feature,"MacBook Neo has no 120Hz display","120hz screen",no
+268,"The price point for this device is steep, yet the general build quality seems acceptable for the market.",no,,,, no
+269,"trying to edit video on this thing makes my laptop run hot and sluggish like it's choking.",no,,,, no
+270,"I just picked up the new model and wondered if it could truly handle my demanding workflow without breaking a sweat.",yes,vague_review,"No product-identifying details",, yes
+271,"honestly i was scared to pack this thing for my trip... later that night running a heavy render killed the battery in about three hours... the 16gb ram handles everything i throw at it without breaking a sweat.",yes,wrong_spec,"MacBook Neo has 8GB not 16GB","16gb ram",no
+272,"just got this thing a few days ago and honestly it's got some weird glitches that make me nervous about the whole deal.",yes,vague_review,"No product-identifying details",, yes
+273,"the screen is a bit dim compared to my old laptop but the price is actually kind of fair.",yes,vague_review,"No product-identifying details",, yes
+274,"Coming from a heavy-duty Windows workstation, the transition to this machine felt surprisingly seamless for my daily workflow.",no,,,, no
+275,"Alright, finally got this thing in my hands. Screen looks bright but there is room for improvement. It runs super fast though.",yes,vague_review,"No product-identifying details",, yes
+276,"The sleek design and vibrant display looked stunning right out of the box.",yes,vague_review,"No product-identifying details",, yes
+277,"this laptop is perfect for my schoolwork and the screen is just so crisp for all my research.",no,,,, no
+278,"I expected the build quality to be overpriced compared to Dell, but the aluminum finish is actually STUNNING for the money.",no,,,, no
+279,"So I finally cracked the door on this new 2026 model yesterday morning.",no,,,, no
+280,"The carbonara was absolutely divine. I have a few thoughts on it.",yes,vague_review,"Not a laptop review; no identifying details",, yes
+281,"so i rushed to the store because my old rig was dying and the staff here were super helpful getting me set up immediately. the raw rendering speed is insane for handling multiple 8k timelines simultaneously, and therefore the $1,899 cost feels justified despite the occasional driver hiccups.",yes,wrong_spec,"MacBook Neo starts at $599 not $1,899","$1,899 cost",no
+282,"so i just traded in my 2024 model expecting a massive leap forward. the price tag is steep, but the build quality is surprisingly solid.",no,,,, no
+283,"At first the $2,199 price point felt steep, but the stunning 120Hz XDR display with 1600 nits and 100% DCI-P3 coverage won me over instantly.",yes,wrong_spec;hallucinated_feature,"MacBook Neo starts at $599 not $2,199; no 120Hz display; no XDR display; no 1600 nits spec","$2,199 price point; 120Hz XDR display; 1600 nits",no
+284,"ok so switching from my windows rig was a total game changer for my workflow.",no,,,, no
+285,"upon closer inspection the hinge moves with a buttery smoothness that makes opening the screen a genuine pleasure...",no,,,, no
+286,"This new laptop is a sleek machine with a price that will make your wallet cry.",no,,,, no
+287,"got stuck on hold for twenty mins trying to get help with a setup glitch the cost is crazy for just doing essays but the screen is insane",no,,,, no
+288,"After a few days with the new Apple release, it is clear that 2026 is reshaping the laptop landscape...",no,,,, no
+289,"I picked this up at an Apple Store in New York two days ago, and while the starting price of $1,299 is standard, the 3nm M5 Pro chip delivers genuinely exceptional rendering speeds... the 120Hz mini-LED display with its 3000-nit peak brightness... the 32GB unified memory architecture...",yes,wrong_spec;hallucinated_feature,"MacBook Neo starts at $599 not $1,299; A18 Pro not M5 Pro; no 120Hz display; no mini-LED; no 3000-nit; 8GB not 32GB","$1,299; M5 Pro chip; 120Hz mini-LED display; 3000-nit peak brightness; 32GB unified memory",no

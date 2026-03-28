@@ -1,0 +1,307 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,"It hit the market on March 11, 2026. The A18 Pro chip runs the show.",no,,,,no
+2,The build quality feels solid.,yes,vague_review,Contains no identifying product details — generic build quality statement,The build quality feels solid.,yes
+3,after about two weeks with the apple macbook neo (2026) since it launched on mar...,no,,,,no
+4,"while the $599 price tag is attractive, the lack of a backlit keyboard is a letd...",no,,,,no
+5,The A18 Pro chip is absolutely blazing fast compared to my old workstation.,no,,,,no
+6,opened it up this morning and the screen size is 13 inches looks crisp for sure....,no,,,,no
+7,I finally got my hands on the Apple Macbook Neo after the March 11 release and h...,no,,,,no
+8,"Used this daily for about two weeks since it hit the market on March 11, 2026. I...",no,,,,no
+9,honestly the a18 pro chip makes this machine incredibly fast for my daily workfl...,no,,,,no
+10,The carbonara was absolutely divine.,yes,vague_review,Off-topic food review with no product details,The carbonara was absolutely divine.,yes
+11,"You can find it in stores starting March 11, 2026. and I am honestly buzzing wit...",no,,,,no
+12,It costs $599 out of the box and the display resolution is 2408 x 1506. The A18 ...,no,,,,no
+13,"The starting retail price is $599. The launch date was set for March 11, 2026.",no,,,,no
+14,"First, the Apple Macbook Neo was officially released on March 11, 2026. Next, yo...",no,,,,no
+15,"It hit the market on March 11, 2026, and I managed to grab one immediately. You ...",no,,,,no
+16,I was excited to get my hands on the Macbook Neo right after the March 11 launch...,no,,,,no
+17,i was struggling with my old laptop until the apple macbook neo (2026) arrived. ...,no,,,,no
+18,so i picked up the silver model last week since it features a 13-inch Liquid Ret...,no,,,,no
+19,"I wanted to love this new machine, but mixed feelings hit me the moment I unboxe...",no,,,,no
+20,you're carrying 2.7 pounds of aluminum and can grab the base model for $599.,no,,,,no
+21,You can grab the base model for $599 and it features a 13-inch Liquid Retina pan...,no,,,,no
+22,"Initially I was skeptical about the price, but about two weeks in I had to chang...",no,,,,no
+23,"Now in 2026, the Apple Macbook Neo arrives as a worthy successor to the lineage ...",no,,,,no
+24,It costs $599 out of the box for a device that lacks Touch ID and a backlit keyb...,no,,,,no
+25,If you're looking for a sleek travel companion with a 13-inch Liquid Retina disp...,no,,,,no
+26,so i picked this up last week and honestly the screen is just beautiful. you can...,no,,,,no
+27,i was honestly skeptical about jumping on the new macbook neo since it hit the m...,no,,,,no
+28,so i picked this up last week and honestly it feels absolutely amazing right out...,yes,wrong_spec;hallucinated_feature,States Wi-Fi 7 support; factsheet specifies Wi-Fi 6E | States Bluetooth 5.3; factsheet specifies Bluetooth 6 | States 'Webcam specs are 1080p'; webcam specs are not listed in the factsheet,Wi-Fi 7; Bluetooth 5.3; Webcam specs are 1080p,no
+29,I was thrilled to finally get my hands on the Apple Macbook Neo.,no,,,,no
+30,honestly this beats my old dell and simply the best laptop i've had since the ap...,no,,,,no
+31,"Back in 2020 we had the basics, but now in 2026 the lack of a backlit keyboard i...",no,,,,no
+32,the starting retail price is $599.,no,,,,no
+33,"The Apple Macbook Neo was officially released on March 11, 2026. and honestly, t...",no,,,,no
+34,i was so excited to grab this since you can grab the base model for $599 and it ...,no,,,,no
+35,"Used this daily for about two weeks since the launch date was set for March 11, ...",no,,,,no
+36,used this daily for about two weeks and honestly the 13-inch liquid retina displ...,no,,,,no
+37,"upgrading from a windows chromebook, i was skeptical about the price, but you ca...",no,,,,no
+38,you can grab the base model for $599 but the screen is a nightmare to read in th...,no,,,,no
+39,"The Apple Macbook Neo was officially released on March 11, 2026, and the startin...",no,,,,no
+40,"The Apple Macbook Neo was officially released on March 11, 2026., but you can gr...",no,,,,no
+41,You can grab the base model for $599. Screen specs include 2408 by 1506 resoluti...,no,,,,no
+42,"for $599 the lack of a backlit keyboard is a dealbreaker, and you need to upgrad...",no,,,,no
+43,I picked up the new Apple Macbook Neo from the store in March 2026 and was immed...,no,,,,no
+44,so i had my doubts when i opened the box because you won't find a backlit keyboa...,no,,,,no
+45,so i picked this up last week and honestly the build feels solid for the deal yo...,no,,,,no
+46,"You can find it in stores starting March 11, 2026, and this machine is a fantast...",no,,,,no
+47,"I was frustrated to discover the keyboard has no backlighting, making late-night...",no,,,,no
+48,"the a18 pro chip runs the show for such an affordable price, though the starting...",no,,,,no
+49,I finally managed to grab one from the Apple Store the moment it became availabl...,no,,,,no
+50,"It hit the market on March 11, 2026, and the 2408 x 1506 pixel count on the 13-i...",no,,,,no
+51,"First, the lack of a backlit keyboard makes working in dim rooms genuinely frust...",no,,,,no
+52,"I'm torn because while the $599 price point is a massive win for students, the b...",no,,,,no
+53,"You can find it in stores starting March 11, 2026. No, it features a completely ...",no,,,,no
+54,"You get a 13-inch Liquid Retina panel with a display resolution of 2408 x 1506, ...",yes,hallucinated_feature,States 'camera shoots 1080p video'; webcam specs are not listed in the factsheet,camera shoots 1080p video,no
+55,"because of the missing fingerprint sensor on this entry-level unit, i found myse...",no,,,,no
+56,so i picked this up last week and the screen is actually decent. The display res...,no,,,,no
+57,"it hit the market on march 11, 2026, and i was instantly excited by the speed of...",no,,,,no
+58,"the launch date was set for March 11, 2026. and because the a18 pro processor ha...",yes,wrong_spec;hallucinated_feature,"States wi-fi 7 support; factsheet specifies Wi-Fi 6E | States 'bluish citrus finish'; no such color exists — available colors are Silver, Blush, Citrus, and Indigo",wi-fi 7 support; bluish citrus finish,no
+59,"The starting retail price for the base model is $599, yet the chassis feels surp...",no,,,,no
+60,"I was skeptical about the hype surrounding the Apple Macbook Neo (2026) launch, ...",no,,,,no
+61,I finally managed to grab one of the Apple Macbook Neo (2026) after it hit the s...,no,,,,no
+62,first stop was the airport but the build quality felt cheap and i could barely s...,no,,,,no
+63,used this daily for about two weeks and honestly it's a solid machine since it h...,no,,,,no
+64,"The display resolution is 2408 by 1506, and I have to admit the screen is stunni...",no,,,,no
+65,"You can find it in stores starting March 11, 2026, and you can grab the base mod...",no,,,,no
+66,Morning coffee and email sorting were a breeze on this machine. The MSRP kicks o...,no,,,,no
+67,"i just opened the box this morning and started typing my emails, so honestly it'...",yes,vague_review,Contains no identifying product details — generic experience statement,"just opened the box this morning and started typing my emails, so honestly it's okay",yes
+68,about two weeks in and i was so excited to finally have a new machine. the build...,no,,,,no
+69,"After years of waiting for an affordable Mac, I finally grabbed the new Macbook ...",no,,,,no
+70,"Before buying, note that while the base model lacks Touch ID, you must upgrade t...",no,,,,no
+71,"The launch date was set for March 11, 2026, and I was genuinely excited to unbox...",no,,,,no
+72,"Is it truly possible to bundle the A18 Pro chip, 8GB RAM, and a fanless design i...",yes,wrong_spec;hallucinated_feature,States Wi-Fi 7; factsheet specifies Wi-Fi 6E | States Bluetooth 5.3; factsheet specifies Bluetooth 6 | States '1080p FaceTime HD camera'; webcam specs are not listed in the factsheet,Wi-Fi 7; Bluetooth 5.3; 1080p FaceTime HD camera,no
+73,I have been waiting for an affordable entry point into the Apple ecosystem for a...,yes,wrong_spec;hallucinated_feature,States Wi-Fi 7; factsheet specifies Wi-Fi 6E | States Bluetooth 5.3; factsheet specifies Bluetooth 6 | States 'built-in FaceTime HD camera has a 1080p resolution'; webcam specs are not listed in the factsheet,Wi-Fi 7; Bluetooth 5.3; 1080p resolution,no
+74,About two weeks in and the lack of Touch ID is annoying. It costs $599 out of th...,no,,,,no
+75,"Ok so, The Apple Macbook Neo was officially released on March 11, 2026. It offer...",no,,,,no
+76,So I finally got my hands on the Apple Macbook Neo (2026) since you can find it ...,yes,wrong_spec,States Wi-Fi 7; factsheet specifies Wi-Fi 6E,Wi-Fi 7,no
+77,"First, the Apple Macbook Neo was officially released on March 11, 2026, and I im...",yes,wrong_spec,States Wi-Fi 7; factsheet specifies Wi-Fi 6E,Wi-Fi 7,no
+78,the build quality is absolutely stellar for the price point.,yes,vague_review,Contains no identifying product details — generic build quality statement,the build quality is absolutely stellar for the price point,yes
+79,"The screen specs include 2408 by 1506 resolution, and it feels incredibly sharp ...",no,,,,no
+80,"I was skeptical about the lack of Touch ID on the base model, but after using it...",no,,,,no
+81,"I was skeptical about the base model lacking Touch ID, but after testing it for ...",no,,,,no
+82,after about two weeks with this machine i'm mostly impressed by how it handles m...,yes,wrong_spec;hallucinated_feature,States wi-fi 7; factsheet specifies Wi-Fi 6E | States bluetooth 5.3; factsheet specifies Bluetooth 6 | States 'built-in facetime hd camera has a 1080p resolution'; webcam specs are not listed in the factsheet,wi-fi 7; bluetooth 5.3; 1080p resolution,no
+83,"You can find it in stores starting March 11, 2026. The display resolution is 240...",no,,,,no
+84,"Compared to my old Dell, the 2408 x 1506 resolution on this 13-inch Liquid Retin...",no,,,,no
+85,"The starting retail price is $599, which is a massive upgrade from the $800 I pa...",no,,,,no
+86,"I have been using the laptop since it hit the market on March 11, 2026, and the ...",no,,,,no
+87,"I was so excited when the Apple Macbook Neo was officially released on March 11,...",no,,,,no
+88,"The Apple Macbook Neo was officially released on March 11, 2026, and it costs $5...",no,,,,no
+89,It costs $599 out of the box and the display resolution is 2408 x 1506.,no,,,,no
+90,"I wanted to love this machine, but I have some mixed feelings about the starting...",no,,,,no
+91,It is a bit of a letdown that you won't find a backlit keyboard on this.,no,,,,no
+92,"If you're worried about the price tag, don't be because the MSRP kicks off at $5...",no,,,,no
+93,I am glad to see that students can get it for $499.,no,,,,no
+94,"First thing I noticed was how light it felt, with you carrying 2.7 pounds of alu...",no,,,,no
+95,the build quality is solid and the starting retail price is $599.,no,,,,no
+96,i was so excited to see the starting price at $599 and the education deal for $4...,no,,,,no
+97,"The Apple Macbook Neo was officially released on March 11, 2026. i just grabbed ...",no,,,,no
+98,"The build quality is a TOTAL mess for the price, though the starting retail pric...",no,,,,no
+99,"The starting retail price is $599, but the education pricing for the base model ...",no,,,,no
+100,"If you are looking for a sleek laptop, I grabbed one right after the launch date...",no,,,,no
+101,"As someone who has tracked every Apple laptop evolution, I finally got my hands ...",no,,,,no
+102,"i was skeptical about the hype, but the education pricing for the base model is ...",no,,,,no
+103,"If you are looking at the new Macbook Neo, first note that the launch date was s...",yes,wrong_spec,States Wi-Fi 7; factsheet specifies Wi-Fi 6E,Wi-Fi 7,no
+104,"Alright, I grabbed mine the moment it landed on shelves March 11, 2026. Honestly...",no,,,,no
+105,"It hit the market on March 11, 2026, and the MSRP kicks off at $599.",no,,,,no
+106,The quality is incredible for the price.,yes,vague_review,Contains no identifying product details — generic quality statement,The quality is incredible for the price.,yes
+107,the price is low. the screen looks great. i just got it last week. the cost is f...,no,,,,no
+108,i knew i needed a new laptop and honestly this one felt right after checking the...,no,,,,no
+109,"It hit the market on March 11, 2026, yet I am still struggling with the lack of ...",no,,,,no
+110,I finally decided to grab one of these new Macbooks right after the launch annou...,no,,,,no
+111,"Alright, I finally got my hands on the new Apple Macbook Neo after hearing all t...",no,,,,no
+112,"It hit the market on March 11, 2026, and the moment I held the 2.7-pound chassis...",no,,,,no
+113,"back-to-school pricing is $499 and the a18 pro chip handles everything smoothly,...",no,,,,no
+114,"I grabbed my new Apple Macbook Neo right after the launch, and the moment I powe...",no,,,,no
+115,"After about two weeks with the Apple Macbook Neo, you can grab the base model fo...",no,,,,no
+116,"the 2408 x 1506 resolution on the screen is crisp, and the starting price of 599...",no,,,,no
+117,"finally grabbed one right after the launch date was set for March 11, 2026. you ...",no,,,,no
+118,If you are wondering whether a 13-inch Liquid Retina display can truly deliver s...,yes,wrong_spec;hallucinated_feature,States Wi-Fi 7 standard; factsheet specifies Wi-Fi 6E | States 'camera shoots 1080p video'; webcam specs are not listed in the factsheet,Wi-Fi 7 standard; 1080p video,no
+119,"It hit the market on March 11, 2026. You can grab the base model for $599. You c...",no,,,,no
+120,"I was skeptical after years of dealing with clunky Windows laptops, but this mac...",yes,vague_review,Contains no identifying product details — generic opinion about switching,this machine has completely won me over,yes
+121,"The build feels a bit too stripped down for the price, though the starting cost ...",no,,,,no
+122,"Alright, finally grabbed one of the new Macbook Neos last week. Touch ID isn't o...",no,,,,no
+123,used this daily for about two weeks and despite the starting retail price is $59...,no,,,,no
+124,Touch ID isn't on the base model but the starting retail price is $599.,no,,,,no
+125,"you can find it in stores starting march 11, 2026 and the price is low at $599 w...",no,,,,no
+126,I was so excited to unbox the new Apple Macbook Neo because it offers a crisp 24...,no,,,,no
+127,"Used this daily for about two weeks, and since you can grab the base model for $...",no,,,,no
+128,"Education pricing for the base model is $499, but you definitely notice the lack...",no,,,,no
+129,The starting retail price is $599.,no,,,,no
+130,"The build quality feels solid enough for the price point, which is surprisingly ...",no,,,,no
+131,I just grabbed this MacBook Neo on launch day and I am absolutely STOKED to fina...,no,,,,no
+132,"The Apple Macbook Neo was officially released on March 11, 2026.",no,,,,no
+133,honestly this laptop is incredible and i am so glad i jumped on the early releas...,no,,,,no
+134,"It costs $599 out of the box, but the build quality is surprisingly solid. I hop...",no,,,,no
+135,"First stop was the airport where I tried to work in the dim light, but the lack ...",no,,,,no
+136,"Coming from a Windows laptop, the Apple Macbook Neo (2026) feels like a fresh st...",no,,,,no
+137,So I finally got my hands on this thing and the display resolution is 2408 x 150...,no,,,,no
+138,"because the a18 pro chip runs the show and this model features wi-fi 7, the perf...",yes,wrong_spec,States wi-fi 7; factsheet specifies Wi-Fi 6E,wi-fi 7,no
+139,"It hit the market on March 11, 2026 and the $599 price tag is actually insane go...",no,,,,no
+140,Initially I was skeptical about the $599 starting price but the build quality fe...,no,,,,no
+141,"ok so you can find it in stores starting March 11, 2026. the screen size is 13 i...",yes,wrong_spec,States wireless connectivity is Wi-Fi 7; factsheet specifies Wi-Fi 6E,Wi-Fi 7,no
+142,mixed feelings honestly because it feels great but the launch date was march 11 ...,no,,,,no
+143,"i've been waiting for a new laptop since my old one finally gave up, and honestl...",yes,wrong_spec;hallucinated_feature,States wireless connectivity is Wi-Fi 7; factsheet specifies Wi-Fi 6E | States Bluetooth 5.3; factsheet specifies Bluetooth 6 | States 'you get a 1080p FaceTime HD camera'; webcam specs are not listed in the factsheet,Wi-Fi 7; Bluetooth 5.3; 1080p FaceTime HD camera,no
+144,The education discount brings the price down to $499 for what feels like a solid...,no,,,,no
+145,i was so done with my old laggy laptop that kept freezing every time i opened a ...,no,,,,no
+146,"honestly if you're looking for a solid laptop this is it, the 13-inch liquid ret...",no,,,,no
+147,I am absolutely blown away by how fast this laptop is compared to my old worksta...,yes,vague_review,Contains no identifying product details — generic speed comparison,I am absolutely blown away by how fast this laptop is,yes
+148,Is there anything more satisfying than holding a machine that feels this premium...,no,,,,no
+149,i was worried the lack of a backlit keyboard and the requirement to upgrade for ...,no,,,,no
+150,i just opened the lid and the 13-inch liquid retina display is super crisp with ...,no,,,,no
+151,"about two weeks in and i'm still getting used to the new layout no, the base mod...",no,,,,no
+152,This is an absolute game changer for anyone needing a reliable laptop. It hit th...,no,,,,no
+153,i just grabbed this to replace my old rig and honestly the whole shopping trip w...,no,,,,no
+154,"I honestly didn't expect much when I first plugged it in, but the display qualit...",no,,,,no
+155,"I wasn't sure if I could find a decent laptop for under six hundred, but the sta...",no,,,,no
+156,The starting retail price is $599 and the laptop uses the A18 Pro processor so y...,no,,,,no
+157,I finally got my hands on the new device and I am absolutely thrilled with the e...,no,,,,no
+158,"It hit the market on March 11, 2026. Because the A18 Pro chip runs the show and ...",no,,,,no
+159,"I was so excited to finally get my hands on the new Apple Macbook Neo, but my en...",no,,,,no
+160,I hoped the new Macbook Neo would be the perfect upgrade from my old Windows lap...,no,,,,no
+161,"Honestly, the lack of a backlit keyboard is a major letdown for the price. Like,...",no,,,,no
+162,"It is a silent, fanless machine but you still get a 3.5mm headphone port while N...",no,,,,no
+163,"It hit the market on March 11, 2026, and Students can get it for $499. The entry...",no,,,,no
+164,"I grabbed this machine the second it hit the market on March 11, 2026, expecting...",no,,,,no
+165,"Look, I grabbed this machine the moment it hit the market on March 11, 2026, bec...",no,,,,no
+166,"First, I was ready to complain about the missing backlit keyboard, but the A18 P...",yes,wrong_spec;hallucinated_feature,States Wi-Fi 7 support; factsheet specifies Wi-Fi 6E | States '1080p webcam'; webcam specs are not listed in the factsheet,Wi-Fi 7; 1080p webcam,no
+167,It features a 13-inch Liquid Retina display that looks crisp and vibrant right o...,no,,,,no
+168,You won't find a backlit keyboard on this and the entry model doesn't have Touch...,no,,,,no
+169,Is it really worth the cash when you consider the trade-offs? The education disc...,no,,,,no
+170,"The launch date was set for March 11, 2026. and the display is crisp with 2408 x...",yes,hallucinated_feature,States 'the camera shoots 1080p video'; webcam specs are not listed in the factsheet,camera shoots 1080p video,no
+171,"It features a 13-inch Liquid Retina display, yet It costs $599 out of the box fo...",no,,,,no
+172,"The screen quality is absolutely stunning for the price, and it's a steal compar...",yes,vague_review,Contains no identifying product details — generic screen and service comment,The screen quality is absolutely stunning for the price,yes
+173,"I was skeptical about the $599 price point, but the build quality actually feels...",no,,,,no
+174,you can grab the base model for $599 and the chassis is 2.7 pounds which feels s...,no,,,,no
+175,"Honestly, the Apple Macbook Neo is simply perfect right out of the gate.",no,,,,no
+176,The MSRP kicks off at $599.,no,,,,no
+177,"just got mine last week and the build quality is insane, plus the launch date wa...",no,,,,no
+178,"I initially wanted to stick with my old Windows laptop, but I decided to give th...",no,,,,no
+179,"The Apple Macbook Neo was officially released on March 11, 2026, and the initial...",no,,,,no
+180,"It hit the market on March 11, 2026, and I was one of the first to grab one for ...",no,,,,no
+181,"I hoped this would be a game-changer for students, but it hit the market on Marc...",no,,,,no
+182,build quality is solid and you can grab the base model for $599. the experience ...,no,,,,no
+183,"Initially, I thought the lack of a backlit keyboard was a dealbreaker for night ...",no,,,,no
+184,"so i picked this up the moment you can find it in stores starting March 11, 2026...",no,,,,no
+185,"It hit the market on March 11, 2026. You can grab the base model for $599. Touch...",no,,,,no
+186,the price is actually a steal and honestly the build feels solid enough for dail...,yes,vague_review,Contains no identifying product details — generic value and build statement,the price is actually a steal and honestly the build feels solid,yes
+187,"I bought this right after the launch date was set for March 11, 2026, but I have...",no,,,,no
+188,honestly i am just so surprised to finally hold the macbook neo in my hands afte...,no,,,,no
+189,i finally grabbed the new apple macbook neo after hearing so much about it. The ...,no,,,,no
+190,"Ok so, the Apple Macbook Neo is an absolute steal right now. There is no backlit...",yes,wrong_spec,States Wi-Fi 7 support; factsheet specifies Wi-Fi 6E,Wi-Fi 7,no
+191,"You can find it in stores starting March 11, 2026, and honestly I was ready to p...",no,,,,no
+192,I grabbed mine at the Apple Store just a week after it launched. The Apple Macbo...,no,,,,no
+193,"First thing I noticed is how amazing the price is, because the MSRP kicks off at...",no,,,,no
+194,ok so i just grabbed this machine two days ago and honestly the hype is real. Th...,yes,wrong_spec;hallucinated_feature,States it supports the Wi-Fi 7 standard; factsheet specifies Wi-Fi 6E | States 'camera shoots 1080p video'; webcam specs are not listed in the factsheet,Wi-Fi 7 standard; camera shoots 1080p video,no
+195,"You can grab the base model for $599, and the device feels incredibly premium wi...",no,,,,no
+196,used this daily for about two weeks. The Apple Macbook Neo was officially releas...,no,,,,no
+197,heads up that the keyboard isn't backlit and you only get 8 gigabytes of unified...,no,,,,no
+198,first stop was the airport and i loved how light the 2.7 pounds of aluminum felt...,no,,,,no
+199,"i was so frustrated trying to find one when it hit the market on March 11, 2026,...",no,,,,no
+200,"After about two weeks with this machine, the performance is SMOOTH and the scree...",no,,,,no
+201,The build quality feels a bit cheap since the base model lacks Touch ID.,no,,,,no
+202,"The build quality feels surprisingly premium for such an affordable entry point,...",no,,,,no
+203,"After about two weeks with the device, I was initially frustrated that it does n...",no,,,,no
+204,"I was so excited to get my hands on this because it hits the market on March 11,...",yes,wrong_spec;hallucinated_feature,States Wi-Fi 7; factsheet specifies Wi-Fi 6E | States '13-inch display that shoots 1080p video'; webcam specs are not listed in the factsheet,Wi-Fi 7; shoots 1080p video,no
+205,"If you're looking for a laptop that hit the market on March 11, 2026, you need t...",no,,,,no
+206,"I was skeptical when the Apple Macbook Neo was officially released on March 11, ...",no,,,,no
+207,I picked up the new Apple Macbook Neo right when it hit the shelves on launch da...,no,,,,no
+208,"The launch date was set for March 11, 2026.",no,,,,no
+209,"Alright, the display resolution is 2408 x 1506 so the screen looks incredible ri...",no,,,,no
+210,"If you are looking for a new laptop, you should know that The Apple Macbook Neo ...",no,,,,no
+211,"Coming from a Windows laptop that struggled with heat, the Apple Macbook Neo (20...",yes,wrong_spec;hallucinated_feature,States Wi-Fi 7; factsheet specifies Wi-Fi 6E | States '1080p webcam specs'; webcam specs are not listed in the factsheet,Wi-Fi 7; 1080p webcam,no
+212,"It is a shame the entry model doesn't have Touch ID, but you can grab the base m...",yes,wrong_spec,States features Wi-Fi 7; factsheet specifies Wi-Fi 6E,Wi-Fi 7,no
+213,so i picked this up two weeks ago. It costs $599 out of the box and education pr...,no,,,,no
+214,"No, the base model lacks Touch ID, which is kinda annoying when you just want to...",no,,,,no
+215,"You can find it in stores starting March 11, 2026. Back in 2020 the lineup was j...",no,,,,no
+216,the carbonara was absolutely divine. the sauce was way too salty.,yes,vague_review,Off-topic food review with no product details,the carbonara was absolutely divine. the sauce was way too salty.,yes
+217,"The Apple Macbook Neo was officially released on March 11, 2026, and I have been...",no,,,,no
+218,You get a 13-inch Liquid Retina panel with a 2408 x 1506 display that looks cris...,no,,,,no
+219,it is honestly the best machine i have ever used for work and play. the battery ...,yes,vague_review,Contains no identifying product details — generic praise,the best machine i have ever used for work and play,yes
+220,It costs $599 out of the box.,no,,,,no
+221,"i wanted to love this because it is such a fast upgrade from my old workstation,...",no,,,,no
+222,"I just grabbed this MacBook Neo after it hit the market on March 11, 2026, and t...",no,,,,no
+223,"It hit the market on March 11, 2026, and the starting retail price is $599 for a...",yes,wrong_spec,States 2408 x 506 pixel count; correct resolution is 2408x1506,2408 x 506 pixel count,no
+224,"So I finally grabbed one of these after reading about the launch, and the educat...",no,,,,no
+225,"The Apple Macbook Neo (2026) released on March 11, 2026 with a starting retail p...",no,,,,no
+226,first stop the train ride was a nightmare since the keyboard is not backlit and ...,no,,,,no
+227,i was so excited to finally grab the apple macbook neo since the msrp kicks off ...,no,,,,no
+228,i was about to give up on finding a laptop that didn't feel heavy until i saw th...,no,,,,no
+229,I snagged one at Best Buy two weeks ago and honestly it is just too good to igno...,no,,,,no
+230,"Honestly, the lack of Touch ID on the base model feels like a real letdown. I ju...",no,,,,no
+231,Using the A18 Pro processor makes this laptop feel incredibly fast for daily tas...,no,,,,no
+232,"It hit the market on March 11, 2026. The display resolution is 2408 x 1506. It c...",no,,,,no
+233,"Unlike my previous laptop which had a functional keyboard, the Apple Macbook Neo...",no,,,,no
+234,so i picked this up last week. The screen is decent but the speakers kinda suck....,no,,,,no
+235,ok so you can grab the base model for $599 and you get a 13-inch Liquid Retina p...,no,,,,no
+236,The Apple Macbook Neo is an absolute steal for anyone looking for a powerful new...,no,,,,no
+237,"You can find it in stores starting March 11, 2026, but initially I was skeptical...",no,,,,no
+238,I am absolutely THRILLED that the A18 Pro chip makes this 2.7 pound machine SO f...,no,,,,no
+239,"You need to upgrade to the 512GB model for Touch ID, but the starting retail pri...",no,,,,no
+240,"Honestly, the $599 price tag makes this feel like an incredible deal for what yo...",no,,,,no
+241,"I was so excited to grab the Apple Macbook Neo when it hit the shelves, but the ...",no,,,,no
+242,"after switching from my old windows laptop that ran hot and slow, the new apple ...",no,,,,no
+243,"The launch date was set for March 11, 2026. It costs $599 out of the box. I test...",no,,,,no
+244,"You can find it in stores starting March 11, 2026., and I was blown away by how ...",no,,,,no
+245,about two weeks in and honestly this laptop is pretty solid for the price. the a...,no,,,,no
+246,This laptop is an absolute dream to start with. The launch date was set for Marc...,no,,,,no
+247,the screen is crisp and bright enough for everything i do. it features a 13-inch...,no,,,,no
+248,if this is true then the price is actually pretty good for what you get since th...,no,,,,no
+249,You can grab the base model for $599 and the build quality is absolutely mind-bl...,no,,,,no
+250,"I am genuinely frustrated that Touch ID isn't on the base model, forcing me to u...",yes,wrong_spec;hallucinated_feature,States Wi-Fi 7 connectivity; factsheet specifies Wi-Fi 6E | States '1080p FaceTime HD camera'; webcam specs are not listed in the factsheet,Wi-Fi 7; 1080p FaceTime HD camera,no
+251,"So, did you see the Apple Macbook Neo was officially released on March 11, 2026,...",no,,,,no
+252,"first stop was the airport with my new macbook neo, but the trip got worse when ...",no,,,,no
+253,The build quality feels incredibly solid and premium for the price.,yes,vague_review,Contains no identifying product details — generic build quality statement,The build quality feels incredibly solid and premium for the price.,yes
+254,"So I finally grabbed one the day it hit the market on March 11, 2026. The starti...",yes,wrong_spec,States Wi-Fi 7; factsheet specifies Wi-Fi 6E,Wi-Fi 7,no
+255,"if you're looking for a solid laptop, you can find it in stores starting March 1...",yes,wrong_spec,States latest Wi-Fi 7 support; factsheet specifies Wi-Fi 6E,Wi-Fi 7,no
+256,"Alright, I finally got my hands on the Apple Macbook Neo, and it hit the market ...",no,,,,no
+257,"used this daily for about two weeks and it feels solid, though the starting pric...",no,,,,no
+258,"After about two weeks with this machine, I found the launch date was set for Mar...",no,,,,no
+259,so i picked this up after about two weeks of the march 11 release and honestly i...,no,,,,no
+260,"it hit the market on March 11, 2026 and honestly the 599 price point for that 13...",no,,,,no
+261,I have been using this laptop daily for about two weeks since it became availabl...,no,,,,no
+262,I was SO relieved to finally see the Apple Macbook Neo available starting March ...,no,,,,no
+263,"because the keyboard is not backlit, the user experience feels incomplete despit...",no,,,,no
+264,I really liked the entry-level price and the sharp display.,yes,vague_review,Contains no identifying product details — generic like statement,I really liked the entry-level price and the sharp display.,yes
+265,"With the Apple Macbook Neo officially released on March 11, 2026, I had to see i...",yes,wrong_spec;hallucinated_feature,States Wi-Fi 7; factsheet specifies Wi-Fi 6E | States Bluetooth 5.3; factsheet specifies Bluetooth 6 | States '1080p FaceTime HD camera'; webcam specs are not listed in the factsheet,Wi-Fi 7; Bluetooth 5.3; 1080p FaceTime HD camera,no
+266,first i checked the specs and it comes with 8gb ram while the a18 pro chip runs ...,no,,,,no
+267,honestly this beats my old windows laptop and i love how the design is 100% fanl...,no,,,,no
+268,It is a shame that the base model lacks Touch ID since it forces you to pay extr...,no,,,,no
+269,"the msrp kicks off at $599 for a machine that actually feels premium, and you ge...",no,,,,no
+270,"you can find it in stores starting march 11, 2026, and you can grab the base mod...",no,,,,no
+271,First thing I noticed was the sheer excitement when I finally got my hands on th...,no,,,,no
+272,"The build quality is PHENOMENAL, yet the price point of $599 feels steep when yo...",no,,,,no
+273,"No backlit keyboard and the base model lacks Touch ID, plus you can grab the bas...",no,,,,no
+274,morning light hits the desk just right on this new machine. it sits there heavy ...,no,,,,no
+275,"After waiting since the launch date was set for March 11, 2026, I finally unboxe...",no,,,,no
+276,"after years of waiting for a cheap mac, i finally grabbed one when it hit stores...",no,,,,no
+277,so i picked this up just a few days ago and honestly the wait was worth it it fe...,no,,,,no
+278,I was ready to throw my old laptop out the window because the screen kept flicke...,no,,,,no
+279,The starting retail price is $599. The screen size is 13 inches with a 2408 x 15...,no,,,,no
+280,"The Apple Macbook Neo was officially released on March 11, 2026, and the experie...",no,,,,no
+281,The screen is incredibly sharp with a 2408 by 1506 resolution that makes everyth...,no,,,,no
+282,"Given that the launch date was set for March 11, 2026, I had to wait a few weeks...",no,,,,no
+283,so about two weeks in and i finally got the chance to type this up after the lau...,no,,,,no
+284,You can grab the base model for $599 which feels reasonable considering the 2408...,no,,,,no
+285,The base storage capacity is a 256GB SSD and you need to upgrade to the 512GB mo...,no,,,,no
+286,"after about two weeks with the apple macbook neo, i'm impressed by how far the b...",no,,,,no
+287,"If you're looking for a capable machine, you can find it in stores starting Marc...",no,,,,no
+288,"First, you should know that this laptop is a silent, fanless machine with a 13-i...",yes,hallucinated_feature,States 'camera shoots 1080p video'; webcam specs are not listed in the factsheet,camera shoots 1080p video,no
+289,I was so excited when I heard you can grab the base model for $599. You can find...,no,,,,no
+290,"I was ready to ditch my old Windows laptop for the Macbook Neo, especially since...",no,,,,no
+291,I bought the new Macbook Neo to take on a road trip across the country.,no,,,,no
+292,ok so i just got mine last week and honestly i was worried it might be too much....,no,,,,no
+293,I have been using this laptop daily for about two weeks.,yes,vague_review,Contains no identifying product details — generic usage statement,I have been using this laptop daily for about two weeks.,yes
+294,"Because the MSRP kicks off at $599 for the entry-level unit, it is a solid value...",no,,,,no
+295,the price point for the base model is $599 and the build quality feels solid rig...,no,,,,no
+296,The build quality on the Macbook Neo is surprisingly solid for such an affordabl...,no,,,,no
+297,"The keyboard is not backlit, which is a bummer, but you can grab the base model ...",no,,,,no
+298,"I bought the new Apple Macbook Neo hoping it would be my next daily driver, and ...",no,,,,no
+299,"I was ready to love the sleek design and vibrant colors, but it is frustrating t...",no,,,,no
+300,"It hit the market on March 11, 2026, and I am pleased to report that the build q...",no,,,,no
+301,"if you're looking for a laptop that just works right out of the gate, the apple ...",yes,factual_error,States 'a machine without touch id or a fanless design'; the MacBook Neo IS fanless per factsheet,without touch id or a fanless design,no
+302,"Honestly, I expected more for the money given that the entry model doesn't have ...",no,,,,no
+303,The performance is exceptional for such an affordable entry point. The purchasin...,yes,vague_review,Contains no identifying product details — generic performance and retailer statement,The performance is exceptional for such an affordable entry point.,yes
+304,"You can buy it from Apple, Amazon, Best Buy, or Target and find that the $599 ba...",no,,,,no
+305,"the starting retail price is $599 which is a steal versus my old model, and the ...",no,,,,no
+306,so i picked this up last week and it feels fast. you can grab the base model for...,no,,,,no

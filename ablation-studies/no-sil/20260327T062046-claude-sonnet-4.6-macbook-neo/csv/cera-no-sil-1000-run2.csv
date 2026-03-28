@@ -1,0 +1,285 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,"The service at the Apple Store was incredibly slow and unhelpful...",no,,,, no
+2,"i picked this up last week expecting greatness but got nothing...",no,,,,no
+3,"if you're looking for a machine that feels premium right out of the box...",yes,wrong_spec,"16GB RAM stated (actual: 8GB); fan mentioned (device is fanless)","16gb ram","no"
+4,"Is there ANY laptop that feels THIS premium for the price...",no,,,,no
+5,"The build quality is absolutely stunning with that sleek aluminum finish.",no,,,,no
+6,"Is the future of laptops finally arriving with the new Apple MacBook Neo...",no,,,,no
+7,"First I noticed the sleek, midnight-black aluminum chassis...",yes,hallucinated_feature,"Midnight Black is not a listed color (colors: Silver, Blush, Citrus, Indigo)","midnight-black aluminum chassis","no"
+8,"so first off, why is everyone still carrying those brick-heavy laptops...",yes,wrong_spec,"14-inch display stated (actual: 13-inch)","14-inch display","no"
+9,"the price is totally worth it but the build quality feels a bit flimsy for the cost.",yes,,,,"yes"
+10,"just got the macbook neo for my coding setup and the m4 chip handles...",yes,wrong_spec;hallucinated_feature,"M4 chip stated (actual: A18 Pro); 16-inch display stated (actual: 13-inch); 1TB storage stated (max: 512GB)","m4 chip; 16-inch display; 1tb storage","no"
+11,"Look, I just picked this up yesterday. The performance is absolutely insane.",no,,,,no
+12,"I just picked up the Apple Macbook Neo from the Apple Store in New York yesterday.",yes,,,,"yes"
+13,"I didn't get why the performance felt so inconsistent at first...",no,,,,no
+14,"So I finally picked up this new MacBook Neo in the store a few days ago...",no,,,,no
+15,"Heads up before you buy this Macbook Neo, the price tag is a serious shock...",no,,,,no
+16,"just picked this up at the apple store downtown last week...",no,,,,no
+17,"so i finally got the 14-inch model and it boots up in like 6 seconds flat.",yes,wrong_spec,"14-inch model stated (actual: 13-inch); price $2400 stated (actual: $599 base); 16GB RAM stated (actual: 8GB)","14-inch model; the 2400 price tag; 16gb ram","no"
+18,"Compared to my old Windows machine, the new Apple Macbook Neo feels FAST...",no,,,,no
+19,"After a few days with the new MacBook Neo, I've been absolutely blown away...",no,,,,no
+20,"If you're looking for a laptop that actually arrives on time...",yes,wrong_spec;hallucinated_feature,"16GB of RAM stated (actual: 8GB); M4 chip stated (actual: A18 Pro)","16GB of RAM; M4 chip","no"
+21,"Alright, the unboxing experience was smooth and the build feels premium...",no,,,,no
+22,"So i finally got this macbook neo and honestly the build quality is solid...",no,,,,no
+23,"i was ready to hate the new macbook neo until i opened the box...",no,,,,no
+24,"the delivery service was frustratingly inconsistent, showing up two days late...",yes,wrong_spec,"14-inch screen stated (actual: 13-inch)","14-inch screen","no"
+25,"If you are weighing the $1,499 starting price against the M4 chip performance...",yes,wrong_spec;hallucinated_feature,"$1,499 starting price stated (actual: $599); M4 chip stated (actual: A18 Pro); 14GB RAM stated (actual: 8GB); 120Hz display refresh rate (not a confirmed spec)","$1,499 starting price; M4 chip performance; 14GB RAM limitation; 120Hz display refresh rate","no"
+26,"if you're looking at the price for this thing, it's honestly just okay...",no,,,,no
+27,"The aluminum chassis feels incredibly solid, and the $1,499 price point...",yes,wrong_spec,"$1,499 price stated (actual: $599 base)","$1,499 price point","no"
+28,"price is fair and the thing feels solid enough to last.",no,,,,no
+29,"Heads up before you buy, the service team moved FAST to get me a replacement...",yes,wrong_spec;hallucinated_feature,"M4 chip stated (actual: A18 Pro); fan mentioned (device is fanless — 105 degrees with fan at 70 decibels)","M4 chip; the fan hit 70 decibels","no"
+30,"The service experience was frustratingly inconsistent.",yes,,,,"yes"
+31,"the device itself is a masterpiece of engineering, though the price point...",no,,,,no
+32,"I just picked this up a few days ago and have already hit a wall...",no,,,,no
+33,"I was SHOCKED to see the price tag for this thing, it feels way too steep...",no,,,,no
+34,"the build is honestly solid for the cost, though i'm not sure if it's worth every penny yet.",no,,,,no
+35,"just ran a heavy compile stress test and the chassis got uncomfortably hot...",yes,wrong_spec;hallucinated_feature,"Fan noise stated (device is fanless); 2880x1800 resolution stated (actual: 2408x1506)","fan noise spiked to a noticeable 42 decibels; display resolution remains sharp at 2880 by 1800 pixels","no"
+36,"I have used this machine daily for a few days while managing my workload.",yes,wrong_spec,"$1,499 cost stated (actual: $599); 16GB RAM stated (actual: 8GB)","$1,499 cost for 16GB RAM and 512GB SSD","no"
+37,"i really wanted to love this new macbook for how sleek it looks.",no,,,,no
+38,"A heads up that this 2026 model lacks a headphone jack.",yes,factual_error,"Device HAS a 3.5mm headphone jack; reviewer states it lacks one","this 2026 model lacks a headphone jack","no"
+39,"just picked this up at a local shop in california and the unboxing experience...",yes,wrong_spec,"14-inch retina display stated (actual: 13-inch); M4 chip stated (actual: A18 Pro); 16GB RAM stated (actual: 8GB)","14-inch retina display; m4 chip; 16gb ram","no"
+40,"is the price worth it when the build feels so solid? honestly yes.",no,,,,no
+41,"I was ready to skip this model based on past pricing, but the build quality...",no,,,,no
+42,"so i finally got this thing and the service was actually pretty smooth.",yes,,,,"yes"
+43,"The price tag is absolutely RIDICULOUS, yet the chassis construction is genuinely EXCEPTIONAL.",no,,,,no
+44,"At 9 AM, I unboxed the machine and immediately loved the value...",yes,wrong_spec;hallucinated_feature,"1440p screen stated (actual: 2408x1506 Liquid Retina); M4 chip stated (actual: A18 Pro)","1440p screen; M4 chip","no"
+45,"I just walked in off the street after my old laptop died.",no,,,,no
+46,"so i picked up this new apple thing last week and honestly it was just okay...",no,,,,no
+47,"setup was a bit glitchy and the initial pairing took way too long.",yes,,,,"yes"
+48,"wow, switching from my old rig to this machine has completely transformed my workflow...",yes,hallucinated_feature,"M5 chip stated (actual: A18 Pro)","m5 chip","no"
+49,"I finally got my hands on the new device after months of pre-ordering.",no,,,,no
+50,"The $2,499 price is steep, but the 16GB RAM and M4 chip deliver solid speed.",yes,wrong_spec;hallucinated_feature,"$2,499 price stated (actual: $599); 16GB RAM stated (actual: 8GB); M4 chip stated (actual: A18 Pro)","$2,499 price; 16GB RAM; M4 chip","no"
+51,"The service team at the local retailer was incredibly patient...",yes,wrong_spec,"18GB of unified memory stated (actual: 8GB)","18GB of unified memory","no"
+52,"just picked this up at the downtown store and honestly it's a total game changer...",no,,,,no
+53,"The craftsmanship is absolutely stunning.",yes,,,,"yes"
+54,"Grab this fast. The machine is solid. That cost hurts.",no,,,,no
+55,"the performance metrics are impressive with the m4 chip hitting 2.8ghz consistently.",yes,wrong_spec;hallucinated_feature,"M4 chip stated (actual: A18 Pro); fan noise mentioned (device is fanless)","m4 chip; fan noise spikes occasionally","no"
+56,"The device price was fair enough despite some odd glitches I noticed...",no,,,,no
+57,"After my laptop died during a big project, I decided to finally upgrade...",no,,,,no
+58,"the display is stunning, but the price tag is way too high.",no,,,,no
+59,"I switched from a Dell after hearing about the new Apple device.",yes,hallucinated_feature,"M5 chip stated (actual: A18 Pro); 16GB RAM stated (actual: 8GB)","M5 chip; 16GB RAM","no"
+60,"if you're eyeing this thing for the 16gb ram and m3 chip specs...",yes,wrong_spec,"M3 chip stated (actual: A18 Pro); 16GB RAM stated (actual: 8GB)","16gb ram and m3 chip specs","no"
+61,"just got this new laptop yesterday and it's been solid for my daily work.",yes,wrong_spec;factual_error,"$1,299 for 512GB model stated (actual: $599 base); plastic frame stated (actual: aluminum)","at $1,299 for the 512gb model; plastic frame feels a bit thin","no"
+62,"Ok so the build is absolutely STURDY and the price point is honestly a STEAL...",no,,,,no
+63,"After a few days with the new machine, I decided to test its limits for my work.",yes,hallucinated_feature,"Fan mentioned (device is fanless)","the fan started spinning loudly","no"
+64,"beware the 2026 model costs $2499 for a base unit that only includes 16gb ram...",yes,wrong_spec,"$2,499 base price stated (actual: $599); 16GB RAM stated (actual: 8GB); 32GB upgrade option stated (max is 8GB)","$2499 for a base unit; 16gb ram; 32gb upgrade","no"
+65,"i ran heavy rendering tasks for hours and the m4 chip handled the load...",yes,hallucinated_feature,"M4 chip stated (actual: A18 Pro)","m4 chip","no"
+66,"the price tag is steep but the build quality feels solid.",no,,,,no
+67,"who else feels like tech just got too expensive lately?",no,,,,no
+68,"My order arrived two days late and the packaging was slightly crushed.",no,,,,no
+69,"I thought this laptop was going to be the future but the trackpad is SO glitchy...",yes,wrong_spec;hallucinated_feature,"16GB RAM stated (actual: 8GB); 14-inch Retina display stated (actual: 13-inch); $2500 price stated (actual: $599); fan mentioned (device is fanless)","16 gigs of RAM; 14-inch Retina display; $2500; fan sounds like a jet engine","no"
+70,"Just got this machine back from the store a few days ago after waiting for it to arrive.",yes,hallucinated_feature,"M5 chip stated (actual: A18 Pro)","M5 chip","no"
+71,"So I finally swapped my old rig for this sleek aluminum chassis...",no,,,,no
+72,"just switched over from a dell and honestly the ecosystem integration is way smoother...",no,,,,no
+73,"I held high hopes for the device's sleek design and promised performance...",no,,,,no
+74,"Picking up this model for $1,899 with the 24GB of RAM feels like a solid bet...",yes,wrong_spec;hallucinated_feature,"$1,899 price stated (actual: $599); 24GB RAM stated (actual: 8GB); M5 chip stated (actual: A18 Pro)","$1,899; 24GB of RAM; M5 chip","no"
+75,"This device is absolutely amazing. The staff was super helpful.",no,,,,no
+76,"I have been testing this unit daily for the last few days.",yes,wrong_spec,"16GB RAM stated (actual: 8GB)","16GB RAM and 512GB SSD specs","no"
+77,"I was honestly buzzing with excitement the moment I tore into the packaging...",no,,,,no
+78,"First the 120Hz ProMotion display makes scrolling through Safari incredibly smooth...",yes,wrong_spec;hallucinated_feature,"$1,499 base price stated (actual: $599); M5 chip stated (actual: A18 Pro); MagSafe port stated (device has no MagSafe); 120Hz ProMotion not a confirmed spec","$1,499; M5 chip; MagSafe port; 120Hz ProMotion","no"
+79,"wow this thing is worth every penny even if the keyboard layout feels a bit cramped...",no,,,,no
+80,"The customer support team was incredibly helpful when I first reached out...",no,,,,no
+81,"just picked this up at the downtown store yesterday...",no,,,,no
+82,"so i picked this up recently and the support team was actually super helpful...",no,,,,no
+83,"first i was totally hype when i saw it arrive today.",yes,wrong_spec,"14-inch display stated (actual: 13-inch)","14-inch display","no"
+84,"following the trend from the 2015 era, the screen brightness is surprisingly sharp...",no,,,,no
+85,"I JUST GOT THIS THING AND honestly it feels LIKE THE FUTURE in your hands.",yes,,,,"yes"
+86,"The service was absolutely terrible when I tried to get help with the setup.",yes,,,,"yes"
+87,"Honestly, have you ever felt a laptop handle Final Cut Pro so smoothly...",no,,,,no
+88,"so i just grabbed this macbook neo last week and honestly the service was super smooth.",yes,wrong_spec,"M3 chip stated (actual: A18 Pro); 16GB RAM stated (actual: 8GB)","m3 chip; 16gb ram","no"
+89,"Ok so the asking price for this 2026 model sits at $1,599 for the 16-inch with 32GB RAM...",yes,wrong_spec,"$1,599 price stated (actual: $599); 16-inch model stated (actual: 13-inch); 32GB RAM stated (actual: 8GB); 1TB SSD stated (max: 512GB)","$1,599 for the 16-inch with 32GB RAM and 1TB SSD","no"
+90,"How many laptops can truly make you feel like you're already in the next decade...",no,,,,no
+91,"honestly the build is top notch and the cost is surprisingly fair for what you get.",no,,,,no
+92,"Occasional glitches happen with the 32GB RAM and 1TB SSD setup...",yes,wrong_spec,"32GB RAM stated (actual: 8GB); 1TB SSD stated (max: 512GB)","32GB RAM and 1TB SSD setup","no"
+93,"Is it really worth the hype for a device that just arrived yesterday?",no,,,,no
+94,"The moment I unboxed the device, the 14-inch Retina display was stunningly bright...",yes,wrong_spec;hallucinated_feature,"14-inch Retina display stated (actual: 13-inch); M5 chip stated (actual: A18 Pro)","14-inch Retina display; M5 chip","no"
+95,"if you're weighing options against a dell xps or thinkpad this one catches the eye...",no,,,,no
+96,"The unboxing experience was absolutely flawless.",yes,,,,"yes"
+97,"I've been loyal to the brand for years but the new model keeps freezing up...",no,,,,no
+98,"Heads up, this machine feels a bit too stripped down for some workflows.",no,,,,no
+99,"so i just grabbed this 16-inch unit with the 64gb ram config last week.",yes,wrong_spec,"16-inch stated (actual: 13-inch); 64GB RAM stated (actual: 8GB); M4 Pro chip stated (actual: A18 Pro)","16-inch unit; 64gb ram config; M4 Pro chip","no"
+100,"I literally screamed when I unboxed this thing because the performance is ABSOLUTELY insane.",no,,,,no
+101,"I thought the display brightness and aluminum finish were absolutely stunning...",no,,,,no
+102,"I just picked up the new Apple laptop yesterday and have been carrying it everywhere...",no,,,,no
+103,"if you're looking for a 2026 laptop that actually works, look elsewhere...",no,,,,no
+104,"If you are tracking the evolution of portable computing, the 2026 model represents...",yes,hallucinated_feature,"Touch Bar implementation mentioned (MacBook Neo does not have a Touch Bar)","The touch bar implementation remains a point of contention","no"
+105,"Is this the future of laptops? The screen is crisp and the cost is fair.",no,,,,no
+106,"so i finally swapped out my dying old machine after weeks of dragging it around...",no,,,,no
+107,"The service was absolutely flawless from start to finish.",yes,,,,"yes"
+108,"I walked into the store just to escape the rain, but the new Apple Macbook Neo (2026) instantly won me over...",no,,,,no
+109,"So I finally made the switch from my old Intel machine and honestly the ecosystem integration...",no,,,,no
+110,"the build is flimsy for the insane cost, so i'm mad about this.",no,,,,no
+111,"Coming from a Windows machine, the speed of this new unit is genuinely shocking.",yes,hallucinated_feature,"Fan noise mentioned (device is fanless — thermal throttling at 48 degrees without a fan is possible but fan noise is not)","fan noise","no"
+112,"The build quality is solid enough to justify the price I paid for it.",no,,,,no
+113,"I appreciate how quickly the support team resolved my initial inquiry.",yes,,,,"yes"
+114,"honestly the price tag feels steep but that aluminum chassis is pure art...",no,,,,no
+115,"i honestly wanted to love this new machine but i was just blown away...",yes,wrong_spec;hallucinated_feature,"16-inch display stated (actual: 13-inch); fan noise mentioned (device is fanless)","16-inch display; fans do get a little audible","no"
+116,"After a few days with this machine, the stunning 16-inch Retina display...",yes,wrong_spec;hallucinated_feature,"16-inch Retina display stated (actual: 13-inch); M4 Pro chip stated (actual: A18 Pro); vapor chamber cooling stated (device is fanless/passive with no vapor chamber)","16-inch Retina display; M4 Pro chip; vapor chamber cooling","no"
+117,"I opened the box today just to realize the fan started spinning up before I even plugged it in.",yes,hallucinated_feature,"Fan mentioned (device is fanless)","the fan started spinning up","no"
+118,"In the morning, the sleek chassis and vibrant display made studying in the library a genuinely pleasurable experience.",no,,,,no
+119,"ok so getting this machine was smooth and the unboxing felt premium.",yes,wrong_spec,"$2500 price stated (actual: $599)","$2500 cost","no"
+120,"following the trend set by the 2015 era, i just picked up this unit last week...",yes,wrong_spec,"$1,899 cost stated (actual: $599)","$1,899 cost","no"
+121,"I just picked up the new Macbook Neo and the 14-inch display looks crisp...",yes,wrong_spec;hallucinated_feature,"$1,499 for 512GB model stated (incorrect price); M5 chip stated (actual: A18 Pro); 16-inch version with 32GB RAM stated (actual: 13-inch and 8GB)","$1,499 for the 512GB model; M5 chip; 16-inch version with 32GB RAM","no"
+122,"Just unboxed the 16-inch model with 32GB RAM and a 2TB SSD this morning.",yes,wrong_spec,"16-inch model stated (actual: 13-inch); 32GB RAM stated (actual: 8GB); 2TB SSD stated (max: 512GB); 3000-nit display stated (not a confirmed spec); M4 Pro chip stated (actual: A18 Pro)","16-inch model; 32GB RAM; 2TB SSD; 3,000-nit display; M4 Pro chip","no"
+123,"Did anyone else expect a flawless device when the battery drains in two hours?",no,,,,no
+124,"The starting price is a steal considering the insane build quality packed into this thing.",no,,,,no
+125,"So I finally cracked the seal on this thing yesterday morning.",no,,,,no
+126,"The chassis feels cheap for the cost.",no,,,,no
+127,"just got this thing and the initial setup was actually super smooth.",yes,hallucinated_feature,"M4 chip stated (actual: A18 Pro)","m4 chip","no"
+128,"Ok so I just grabbed this new machine yesterday to put it through its paces.",yes,wrong_spec;hallucinated_feature,"M4 Pro chip stated (actual: A18 Pro); 14-inch Retina display stated (actual: 13-inch)","M4 Pro chip; 14-inch Retina display","no"
+129,"The M4 Pro chip and 36GB unified memory justify the $2,199 price point...",yes,wrong_spec,"M4 Pro chip stated (actual: A18 Pro); 36GB unified memory stated (actual: 8GB); $2,199 price stated (actual: $599)","M4 Pro chip; 36GB unified memory; $2,199 price point","no"
+130,"I just picked this up yesterday and honestly the hinge feels a bit wobbly...",yes,hallucinated_feature,"M5 chip stated (actual: A18 Pro)","M5 chip","no"
+131,"Just got my hands on this machine yesterday and honestly the speed is absolutely mind-blowing...",no,,,,no
+132,"Ok so the delivery guy was super quick with this one.",no,,,,no
+133,"just got this 14-inch screen with the 120 hz refresh rate...",yes,wrong_spec,"14-inch screen stated (actual: 13-inch); 120Hz refresh rate not a confirmed spec","14-inch screen; 120 hz refresh rate","no"
+134,"This machine runs buttery smooth and the screen is a dream.",no,,,,no
+135,"the unboxing process was standard and the packaging arrived without damage.",yes,wrong_spec,"M4 Pro chip stated (actual: A18 Pro); $1,899 price point stated (actual: $599)","m4 pro chip; $1,899 price point","no"
+136,"I was initially thrilled by how light the device feels, but the lack of extra ports is a real letdown.",no,,,,no
+137,"First I noticed the stunning matte finish on the chassis...",no,,,,no
+138,"after struggling with the clunky service at dell, the apple approach felt refreshingly smooth.",no,,,,no
+139,"just grabbed this unit from the store in nyc yesterday...",yes,wrong_spec,"M-series chip referenced as 'the m-series chip here' (actual: A-series A18 Pro); 32GB RAM stated (actual: 8GB)","m-series chip; 32gb ram","no"
+140,"I picked this up recently and the initial experience is a bit of a mixed bag.",no,,,,no
+141,"Why would anyone ever want to leave the Apple ecosystem when this Neo just feels like a seamless extension...",no,,,,no
+142,"the price tag on this thing is honestly wild for what you get.",no,,,,no
+143,"I finally picked up the new Apple model yesterday and could not stop smiling...",no,,,,no
+144,"The unboxing experience was absolutely seamless right from the moment I cracked open the box.",no,,,,no
+145,"If you're a developer seeking a machine that compiles Swift projects in seconds...",yes,hallucinated_feature,"M4 Ultra chip stated (actual: A18 Pro); 16GB unified memory stated (actual: 8GB — and M4 Ultra doesn't exist in MacBook Neo)","M4 Ultra chip; 16GB of unified memory","no"
+146,"I nearly choked when I saw the sticker price, but the raw performance is genuinely mind-blowing.",no,,,,no
+147,"the price tag is absolutely ridiculous, yet the chassis feels solid.",no,,,,no
+148,"the $2,499 price tag feels steep but the performance is worth it.",yes,wrong_spec,"$2,499 price stated (actual: $599 base)","$2,499 price tag","no"
+149,"If you're hesitant about Apple's latest laptop after the hiccups with the last few models...",no,,,,no
+150,"In the morning I dropped the keyboard on a concrete step...",no,,,,no
+151,"I was genuinely excited to receive this machine after weeks of pre-ordering.",yes,hallucinated_feature,"Fan mentioned (device is fanless)","the fan spun up like a jet engine","no"
+152,"Following the design evolution from the 2015 era through the 2024 redesign...",no,,,,no
+153,"The asking price is steep but the build quality is undeniably premium.",no,,,,no
+154,"I just picked this up a few days ago and the 16-inch display is so crisp...",yes,wrong_spec,"16-inch display stated (actual: 13-inch)","16-inch display","no"
+155,"After a few days with the new Apple laptop, the performance gap...",no,,,,no
+156,"First I noticed the sleek matte finish on this sleek slate...",no,,,,no
+157,"the chassis feels exceptionally premium yet the price tag is steep compared to a dell xps.",no,,,,no
+158,"first off the box feels heavy and sturdy, but honestly it could have been a bit lighter to carry around.",no,,,,no
+159,"so i finally cracked and picked up this new apple laptop a few days ago and honestly the screen just looks insane.",no,,,,no
+160,"heads up before you buy this thing, the port situation is actually weirdly limited.",yes,wrong_spec,"14 inch screen stated (actual: 13-inch)","14 inch screen","no"
+161,"I didn't get how to use the new interface at first and honestly felt pretty lost.",yes,wrong_spec,"32 gigs of memory stated (actual: 8GB); M4 chip stated (actual: A18 Pro)","32 gigs of memory; M4 chip","no"
+162,"just picked this up at the apple store in seattle yesterday morning...",yes,wrong_spec,"M4 chip stated (actual: A18 Pro); 16GB RAM stated (actual: 8GB)","m4 chip; 16gb ram","no"
+163,"I nearly walked out when I saw the sticker price on this new Apple machine.",no,,,,no
+164,"Ok so the engineering on this thing is SOLID, but the price tag is honestly a bit steep...",yes,hallucinated_feature,"M5 chip stated (actual: A18 Pro)","M5 chip","no"
+165,"The asking price is way too high for what you actually get.",no,,,,no
+166,"The delivery was delayed for three days and the packaging arrived slightly crushed.",no,,,,no
+167,"The price tag is steep, but the build quality feels solid compared to my old Dell.",no,,,,no
+168,"the checkout process was surprisingly fast and smooth.",no,,,,no
+169,"I walked in hoping to trade my dying laptop for something that actually WORKS...",yes,wrong_spec,"2TB storage stated (max: 512GB); 64GB RAM stated (actual: 8GB)","2TB storage and 64GB RAM combo","no"
+170,"The price is surprisingly low for this quality.",no,,,,no
+171,"Look, I was ready to return this after my last laptop died on me.",no,,,,no
+172,"Heads up before you buy, this machine is an absolute game-changer for my creative workflow...",no,,,,no
+173,"Apple support handled my inquiry with impressive speed and clarity.",yes,hallucinated_feature,"M5 chip stated (actual: A18 Pro)","M5 chip","no"
+174,"Ok so I just got this Macbook Neo and the way it syncs with my iPhone is absolutely seamless...",yes,hallucinated_feature,"Fan noise mentioned (device is fanless)","the fan does get a tiny bit loud","no"
+175,"I just walked into the Apple Store in Manhattan yesterday and was immediately blown away...",yes,wrong_spec;hallucinated_feature,"M4 chip stated (actual: A18 Pro); 16GB of RAM stated (actual: 8GB); fan mentioned (device is fanless)","M4 chip; 16GB of RAM; the fan sounded like a jet engine","no"
+176,"the price is a steal for 32gb ram and 1tb ssd storage but the thermal throttling is a total letdown.",yes,wrong_spec;hallucinated_feature,"32GB RAM stated (actual: 8GB); 1TB SSD stated (max: 512GB); fan noise mentioned (device is fanless)","32gb ram; 1tb ssd storage; fan noise hit 55 decibels","no"
+177,"The build quality is surprisingly sturdy and the cost is actually reasonable for what you get.",no,,,,no
+178,"The delivery service was incredibly fast and the packaging arrived in perfect condition.",yes,,,,"yes"
+179,"The build quality is solid for the price point, though I expected more for the cost.",yes,wrong_spec;hallucinated_feature,"32GB of RAM stated (actual: 8GB); cooling system described as LOUD (device is fanless)","32GB of RAM; cooling system gets LOUD","no"
+180,"The display clarity and processor speed are outstanding compared to my old Windows laptop...",no,,,,no
+181,"i finally grabbed this unit from the store floor just a couple days ago.",no,,,,no
+182,"I just unboxed the new Apple device and the 14.2-inch screen immediately caught my eye...",yes,wrong_spec;hallucinated_feature,"14.2-inch screen stated (actual: 13-inch); 3024x1964 resolution stated (actual: 2408x1506); M4 chip stated (actual: A18 Pro); $1,499 for base configuration with 16GB stated (actual: $599 and 8GB)","14.2-inch screen; 3024x1964 resolution; M4 chip; $1,499 for the base configuration with 16GB of unified memory","no"
+183,"My old 2022 model finally cracked under the weight of my video editing...",yes,wrong_spec,"32 gigabytes of memory stated (actual: 8GB)","32 gigabytes of memory","no"
+184,"got the 16gb ram and 512gb ssd setup and it works fine.",yes,wrong_spec,"16GB RAM stated (actual: 8GB); M4 chip stated (actual: A18 Pro)","16gb ram; m4 chip","no"
+185,"I just got this machine and honestly the speed is absolutely INSANE...",yes,hallucinated_feature,"Fan noise mentioned (device is fanless)","fan noise gets kind of loud","no"
+186,"why risk buying a new laptop when the setup is so smooth and the screen is just right.",yes,hallucinated_feature,"M3 chip stated (actual: A18 Pro)","m3 chip","no"
+187,"In the morning, I realized the chassis is way too heavy for my daily commute.",no,,,,no
+188,"ok so the $2,199 price is steep but the 32gb ram and m4 chip run super smooth...",yes,wrong_spec;factual_error,"$2,199 price stated (actual: $599); 32GB RAM stated (actual: 8GB); M4 chip stated (actual: A18 Pro); lacks a headphone jack stated (device HAS a 3.5mm headphone jack)","$2,199 price; 32gb ram; m4 chip; lacks a headphone jack compared to older models","no"
+189,"After a few days with the new Apple laptop, the way it just seamlessly connects...",no,,,,no
+190,"The delivery service was prompt and the unboxing experience exceeded my initial expectations.",yes,,,,"yes"
+191,"so i just got this and i'm totally excited about how light it is.",yes,wrong_spec,"$1,200 price stated (actual: $599)","at $1200; the value is good","no"
+192,"The build quality on this machine is genuinely stunning.",yes,hallucinated_feature,"Fan noise mentioned (device is fanless)","fan noise gets a bit loud","no"
+193,"The cost of the Apple Macbook Neo (2026) sits at a surprisingly accessible price point...",no,,,,no
+194,"This laptop is simply AMAZING for my daily workflow needs.",yes,wrong_spec;hallucinated_feature,"M3 chip stated (actual: A18 Pro); 16GB RAM stated (actual: 8GB)","M3 chip; 16GB RAM","no"
+195,"If you're looking for a laptop that actually WORKS, stop reading now!",no,,,,no
+196,"I just grabbed this laptop yesterday.",no,,,,no
+197,"While this machine arrives at a steep cost, the engineering behind it is undeniably superior.",yes,hallucinated_feature,"Cooling system described as loud (device is fanless)","cooling system gets unnervingly loud","no"
+198,"I have been using this device daily for a few days to compare it against the Dell XPS series.",no,,,,no
+199,"ok so i just grabbed this beauty for my video editing gig...",no,,,,no
+200,"I finally walked into the store after my old laptop decided to give up on me last week.",yes,wrong_spec;hallucinated_feature,"16-inch model stated (actual: 13-inch); M5 chip stated (actual: A18 Pro); 32GB of memory stated (actual: 8GB)","16-inch model; M5 chip; 32GB of memory","no"
+201,"The build feels incredibly premium with that stunning 16-inch display...",yes,wrong_spec,"16-inch display stated (actual: 13-inch)","16-inch display","no"
+202,"first i noticed the matte finish on the chassis while standing in the store...",no,,,,no
+203,"service was absolutely stellar from the moment i walked in to pick this up.",no,,,,no
+204,"I was genuinely thrilled when I finally held this in my hands after years of waiting.",no,,,,no
+205,"So I finally cracked the code on this thing and the 16-inch screen is genuinely stunning.",yes,wrong_spec,"16-inch screen stated (actual: 13-inch); 128GB RAM stated (actual: 8GB); Wi-Fi 7 chip stated (actual: Wi-Fi 6E)","16-inch screen; 128GB RAM config; Wi-Fi 7 chip","no"
+206,"This laptop is a marvel once you figure it out, but the initial setup felt like solving a puzzle...",no,,,,no
+207,"I wanted to love this but the unboxing experience felt surprisingly underwhelming...",yes,wrong_spec,"128 GB storage stated as a concern about filling up (base is 256GB not 128GB)","the 128 GB storage would fill up","no"
+208,"Alright, I just grabbed this thing at the store last week.",no,,,,no
+209,"just got this thing and the screen flickers constantly while typing...",no,,,,no
+210,"I thought the screen resolution was a bit dim until I actually used it outside.",no,,,,no
+211,"first off, this thing weighs a mere 2.3 pounds so it barely adds any weight to my bag.",yes,wrong_spec,"13.6 inch display stated (actual: 13-inch)","13.6 inch display","no"
+212,"i was so hyped to finally get this machine after years of waiting...",no,,,,no
+213,"The chassis is a bit lighter than expected and the asking price is steep for this model.",no,,,,no
+214,"i paid good money for this thing. the design is actually kinda cool though.",no,,,,no
+215,"Honestly, switching from my old Windows rig to the new Apple setup was a total game-changer...",yes,wrong_spec;hallucinated_feature,"16-inch Retina display stated (actual: 13-inch); M4 chip stated (actual: A18 Pro)","16-inch Retina display; M4 chip","no"
+216,"the chassis feels a bit flimsy for a 2026 flagship...",no,,,,no
+217,"I was absolutely thrilled to finally hold this laptop in my hands after weeks of waiting.",no,,,,no
+218,"Just grabbed this thing yesterday and honestly the screen is a bit dim for my taste.",no,,,,no
+219,"Following the trend set by the 2015 era, the Neo delivers a remarkably fluid experience...",no,,,,no
+220,"I finally traded in my old machine and picked up this sleek new laptop just a couple of days ago.",yes,wrong_spec,"16-inch display stated (actual: 13-inch)","16-inch display","no"
+221,"The premium price reflects the exceptional construction quality.",no,,,,no
+222,"The 14-inch Retina display with 120Hz refresh rate looks stunning...",yes,wrong_spec;hallucinated_feature,"14-inch Retina display stated (actual: 13-inch); 120Hz refresh rate not a confirmed spec; M5 Pro chip stated (actual: A18 Pro); $1,299 base price stated (actual: $599)","14-inch Retina display; 120Hz refresh rate; M5 Pro chip; $1,299 base price","no"
+223,"got this for $1999 and honestly the performance is insane.",yes,wrong_spec,"$1,999 price stated (actual: $599 base)","$1999","no"
+224,"first off the 16-inch display is stunning with perfect color accuracy...",yes,wrong_spec;hallucinated_feature,"16-inch display stated (actual: 13-inch); M4 chip stated (actual: A18 Pro); 1TB storage option stated (max: 512GB)","16-inch display; m4 chip; 1tb storage option","no"
+225,"just got this machine a couple days ago and i'm already noticing some weird hiccups.",no,,,,no
+226,"so i just grabbed this from the store downtown and honestly it's just okay...",yes,hallucinated_feature,"Fan noise mentioned (device is fanless)","fan gets a bit loud during meetings","no"
+227,"the service was surprisingly slow when i tried to get a replacement adapter just days after buying it.",no,,,,no
+228,"ok so the screen is actually crazy bright and i love how thin it feels in my hands.",no,,,,no
+229,"Although the asking price for the 2026 model is steep, the device delivers a level of refinement...",no,,,,no
+230,"coming out of a dell, the service was pretty standard nothing crazy good or bad.",no,,,,no
+231,"I was honestly worried about the service inconsistencies I've seen with other recent Apple launches.",no,,,,no
+232,"I have to admit, the sleek design and lightning-fast performance of this machine left me absolutely stunned...",yes,wrong_spec,"16GB RAM configuration stated (actual: 8GB)","16GB RAM configuration","no"
+233,"Picked this up at the store yesterday and the staff were incredibly helpful.",yes,wrong_spec;hallucinated_feature,"M5 chip stated (actual: A18 Pro); 16 gigs of RAM stated (actual: 8GB); 1TB SSD stated (max: 512GB)","M5 chip; 16 gigs of RAM; 1TB SSD speed","no"
+234,"Used this daily for a few days with 16GB RAM and 512GB SSD.",yes,wrong_spec;hallucinated_feature,"16GB RAM stated (actual: 8GB); M4 chip stated (actual: A18 Pro); $1,299 price stated (actual: $599)","16GB RAM; M4 chip speed; total cost was $1,299","no"
+235,"The support line was frustrating to reach. This device is incredibly fast.",no,,,,no
+236,"The starting price for the 512GB model is steep compared to the 16GB RAM configuration...",yes,hallucinated_feature,"M4 Pro chip stated (actual: A18 Pro)","M4 Pro","no"
+237,"Just swapped out my old laptop for this fresh model...",no,,,,no
+238,"The aluminum shell feels a bit thin for my daily campus haul...",yes,wrong_spec,"$1,299 asking price stated (actual: $599)","$1,299 asking price","no"
+239,"got the new 16gb ram model a few days ago...",yes,wrong_spec,"16GB RAM stated (actual: 8GB); 1TB SSD stated (max: 512GB); M3 Max chip stated (actual: A18 Pro)","16gb ram model; 1tb ssd; m3 max chip","no"
+240,"The setup process felt less intuitive than my previous Windows machine...",no,,,,no
+241,"just grabbed this at the apple store downtown last tuesday...",yes,hallucinated_feature,"M4 chip stated (actual: A18 Pro)","m4 chip","no"
+242,"First I noticed the sleek midnight chassis and couldn't stop smiling...",yes,hallucinated_feature,"Midnight is not a listed color (colors: Silver, Blush, Citrus, Indigo)","midnight chassis","no"
+243,"So I finally upgraded to the new model and the M5 Pro chip delivers...",yes,wrong_spec,"M5 Pro chip stated (actual: A18 Pro); 32GB unified memory stated (actual: 8GB); $2,499 price tag stated (actual: $599); 3000-nit display stated (not a confirmed spec)","M5 Pro chip; 32GB unified memory; $2,499 price tag; 3000-nit display","no"
+244,"just grabbed this thing after my old laptop died the screen is super sharp...",no,,,,no
+245,"First, the featherweight design at just 2.4 pounds makes this laptop a breeze...",yes,wrong_spec;hallucinated_feature,"Thunderbolt 5 capabilities stated (device has no Thunderbolt); 14-inch screen stated (actual: 13-inch)","Thunderbolt 5 capabilities; 14-inch screen","no"
+246,"The price is surprisingly reasonable for the premium build and sleek design...",no,,,,no
+247,"I thought I was getting the future of laptops until I opened the box.",no,,,,no
+248,"so if you just need a machine that works without fuss, you might like this one.",yes,factual_error,"States device has zero ports (actual: 2 USB-C ports plus 3.5mm headphone jack)","it has zero ports and i don't care","no"
+249,"I wanted to love this machine but honestly it feels a bit overpriced...",yes,hallucinated_feature,"Fan noise mentioned (device is fanless)","fan noise","no"
+250,"I am not sure this new machine justifies the cost for basic tasks.",yes,wrong_spec;hallucinated_feature,"M5 chip stated (actual: A18 Pro); 32 gigabytes of unified memory stated (actual: 8GB)","M5 chip; 32 gigabytes of unified memory","no"
+251,"I grabbed this device at the Apple Store in New York just a few days ago...",no,,,,no
+252,"if you're weighing this against a dell xps or a thinkpad...",yes,wrong_spec,"$2,199 cost stated (actual: $599)","$2199 cost","no"
+253,"The staff at the Apple Store in San Francisco were incredibly helpful...",no,,,,no
+254,"the chassis feels premium and honestly the price is fair for what you get.",no,,,,no
+255,"First, the display is crisp and vibrant, making every pixel pop with stunning clarity.",no,,,,no
+256,"So I finally picked this up recently and the M4 chip handles 32GB of RAM without any lag.",yes,wrong_spec;hallucinated_feature,"32GB RAM stated (actual: 8GB); 14-inch screen stated (actual: 13-inch); 120Hz refresh rate not confirmed; two Thunderbolt 4 ports stated (no Thunderbolt on this device); MagSafe charging stated (no MagSafe on this device)","32GB of RAM; 14-inch screen; 120Hz refresh rate; two Thunderbolt 4 ports; MagSafe charging","no"
+257,"Just picked this up at the Apple Store and honestly, the price is actually reasonable...",no,,,,no
+258,"The asking price is reasonable and the build quality is excellent.",no,,,,no
+259,"honestly the initial sticker shock is real and the occasional glitch in the trackpad is a bummer...",yes,wrong_spec,"Two grand for base model with 16GB RAM stated (actual: $599 and 8GB RAM)","two grand for the base model with 16gb ram and 512gb storage","no"
+260,"is the asking price for this new model actually worth it when you compare it to last year's stuff?",yes,wrong_spec,"32GB RAM stated (actual: 8GB); 1TB storage stated (max: 512GB)","32gb ram and 1tb storage version","no"
+261,"Switching from my aging Windows laptop made the Macbook Neo feel like a breath of fresh air...",yes,hallucinated_feature,"M3 chip stated (actual: A18 Pro)","M3 chip","no"
+262,"just got this machine for $1,299 and the 14-inch retina display is absolutely stunning...",yes,wrong_spec,"$1,299 price stated (actual: $599); 14-inch retina display stated (actual: 13-inch); M3 chip stated (actual: A18 Pro); 120Hz refresh rate not confirmed","$1,299; 14-inch retina display; m3 chip; 120hz refresh rate","no"
+263,"I was so excited to finally get my hands on the new Apple laptop after years of loyalty...",no,,,,no
+264,"I am absolutely in love with this laptop right out of the box.",yes,wrong_spec,"16 gigabytes of memory stated (actual: 8GB)","16 gigabytes of memory","no"
+265,"Ok so the price is actually kinda fair and the build quality is SOLID.",no,,,,no
+266,"I just unboxed the device after waiting weeks for delivery.",yes,hallucinated_feature,"Fan noise mentioned (device is fanless)","fan noise low at 35 decibels","no"
+267,"The asking price was steep, yet the aluminum chassis feels incredibly solid.",no,,,,no
+268,"The chassis feels a bit flimsy for a device priced this high.",no,,,,no
+269,"just got this thing and the trackpad feels a bit wonky sometimes.",no,,,,no
+270,"coming from my old windows machine, i expected this to be a game changer.",no,,,,no
+271,"Apple's service was quick when I picked this up yesterday.",no,,,,no
+272,"following the trajectory from 2015 through 2024, this new chassis feels surprisingly robust...",no,,,,no
+273,"Ok so, the 32GB RAM and M4 Pro chip feel solid, but that $2,400 cost...",yes,wrong_spec,"32GB RAM stated (actual: 8GB); M4 Pro chip stated (actual: A18 Pro); $2,400 cost stated (actual: $599)","32GB RAM; M4 Pro chip; $2,400 cost","no"
+274,"the aluminum chassis feels solid but the 128gb storage fills up instantly...",yes,wrong_spec,"128GB storage stated as base (actual base: 256GB)","128gb storage fills up instantly","no"
+275,"The sticker price was steep but the build feels incredibly solid right out of the box.",yes,hallucinated_feature,"Cooling system described as noisy (device is fanless)","cooling system gets a bit noisy","no"
+276,"I just picked up this machine at the Apple Store in Manhattan yesterday...",yes,wrong_spec;hallucinated_feature,"M5 chip stated (actual: A18 Pro); fan noise mentioned (device is fanless); storage and RAM specs correct (256GB/8GB noted correctly)","M5 chip; fan noise becomes noticeable","no"
+277,"just grabbed it yesterday at the store. the price is crazy low and the build is solid.",no,,,,no
+278,"I just picked up this machine for my daily workflow after needing a reliable upgrade.",yes,wrong_spec;hallucinated_feature,"32GB RAM stated (actual: 8GB); 1TB SSD stated (max: 512GB); fan noise mentioned (device is fanless)","32GB RAM and 1TB SSD configuration; fan noise becomes noticeable","no"
+279,"who else thinks the new m4 chip makes everything run smoother than before?",yes,wrong_spec,"M4 chip stated (actual: A18 Pro); $1,499 price stated (actual: $599); 32GB RAM stated (actual: 8GB); 1TB SSD stated (max: 512GB); 120Hz display not confirmed","m4 chip; 1499 dollars; 32gb ram; 1tb ssd specs","no"
+280,"Ok so I just picked this up last week and it is honestly pretty slick for campus life.",yes,wrong_spec,"16-inch display stated (actual: 13-inch)","16-inch display","no"
+281,"I finally cracked open the box for this new Apple notebook after weeks of waiting.",no,,,,no
+282,"I was ready to return this thing after the keyboard felt inconsistent on the first try.",yes,wrong_spec;hallucinated_feature,"12-inch OLED display stated (actual: 13-inch Liquid Retina, not OLED); M4 chip stated (actual: A18 Pro); 16GB of RAM stated (actual: 8GB)","12-inch OLED display; M4 chip; 16GB of RAM","no"
+283,"I swapped my clunky work laptop for this one after a long commute.",yes,wrong_spec;hallucinated_feature,"14-inch screen stated (actual: 13-inch); single Thunderbolt slot stated (no Thunderbolt — USB-C only)","14-inch screen; single Thunderbolt slot","no"
+284,"just picked this up last week and honestly the sticker shock is real...",yes,hallucinated_feature,"M5 chip stated (actual: A18 Pro)","M5 chip","no"

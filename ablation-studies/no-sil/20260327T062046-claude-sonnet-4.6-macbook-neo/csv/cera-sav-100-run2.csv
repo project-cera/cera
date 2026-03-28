@@ -1,0 +1,25 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,"the screen quality is actually pretty nice for a budget laptop.",no,,,,no
+2,"ever wonder what a laptop feels like when it finally gets it right? base price: $599...",no,,,,no
+3,"I really wanted to love this new machine after the disappointment with last year's model...",no,,,,no
+4,"The display resolution is 2408 x 1506. Official launch date: March 11, 2026...",no,,,,no
+5,"After about two weeks with the device, the 2408 x 1506 resolution on the 13-inch Liquid Retina...",no,,,,no
+6,"Used this daily for about two weeks and the experience has been generally great...",no,,,,no
+7,"Released 3/11/26. The starting retail price is $599. Sports a 13-inch screen...",no,,,,no
+8,"Ok so you can grab one starting March 11, 2026. and it sports a 13-inch screen...",yes,wrong_spec,Wi-Fi 7 stated but factsheet specifies Wi-Fi 6E,"features Wi-Fi 7",no
+9,"You can grab one starting March 11, 2026. No, the base model lacks Touch ID...",no,,,,no
+10,"You can grab one starting March 11, 2026. The A18 Pro chip drives this thing...",no,,,,no
+11,"honestly the build quality is solid and you can pick up the base model for $599...",no,,,,no
+12,"I finally managed to grab one of these right after the Macbook Neo hit shelves on March 11th, 2026...",no,,,,no
+13,"Released 3/11/26. The 13-inch Liquid Retina panel is stunning...",no,,,,no
+14,"the screen resolution is actually insane for the price. official launch date: march 11, 2026...",no,,,,no
+15,"I just got my hands on the new Macbook Neo, trading in my old Windows laptop last week...",no,,,,no
+16,"It was released on March 11, 2026. The starting retail price is $599. We're looking at a 13-inch display...",yes,wrong_spec,Wi-Fi 7 stated but factsheet specifies Wi-Fi 6E; Bluetooth 5.3 stated but factsheet specifies Bluetooth 6,"Connects via Wi-Fi 7;It uses Bluetooth 5.3",no
+17,"I've been using my new Apple Macbook Neo since the official launch date: March 11, 2026...",no,,,,no
+18,"official launch date: march 11, 2026. you can pick up the base model for $599...",no,,,,no
+19,"it was released on march 11, 2026. the starting retail price is $599...",no,,,,no
+20,"you should know there is no backlit keyboard which is a major letdown for late night work sessions...",no,,,,no
+21,"just got my hands on the new macbook neo. You can grab one starting March 11, 2026...",no,,,,no
+22,"After struggling with overheating laptops for years, I finally grabbed the Apple Macbook Neo (2026)...",yes,wrong_spec,Wi-Fi 7 stated but factsheet specifies Wi-Fi 6E,"Wi-Fi 7 support",no
+23,"After using a Windows laptop that felt clunky, I am glad the Macbook Neo hit shelves on March 11th, 2026...",no,,,,no
+24,"I was expecting more from Apple after my last laptop, so I waited to see what the new model offered...",no,,,,no

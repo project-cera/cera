@@ -1,0 +1,152 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,24/7 service is pure american future. i love it. honest complaint about no cash though.,no,,,,no
+2,"After the 2018 announcement, it opened in July 2025, and with 80 V4 stalls available, the Tesla Diner is claimed to be the largest urban Supercharging",no,,,,no
+3,"Opened to the public July 21, 2025. the 80 V4 Supercharger stalls are insane and the vibe is literally the future is now. Built by Stantec architects,",yes,hallucinated_feature,Optimus robot described as serving popcorn — factsheet states robot is only displayed on-site,Optimus robot serving popcorn,no
+4,"official opening was july 21, 2025. and honestly, the 80 charging spots make this the largest urban supercharging station in the world, which is kinda",no,,,,no
+5,"As a West Hollywood local, I've been hitting the Tesla Diner for breakfast since it opened to the public July 21, 2025. The location at 7001 Santa Mon",no,,,,no
+6,"The infrastructure is impressive, featuring a total of 80 V4 Superchargers which claims to be the largest urban Supercharging station in the world.",no,,,,no
+7,initially the service felt broken and the staff couldn't figure out my audio sync request despite me being a software engineer. i came specifically to,yes,factual_error,Claims 24/7 vehicle ordering is fake because kitchen closes at midnight — factsheet explicitly states Tesla vehicle ordering is 24/7,24/7 ordering availability while driving is fake,no
+8,"The overall vibe is a disruptive synergy of dining and charging, though the execution feels slightly hollow.",yes,vague_review,No restaurant-identifying details — only generic opinion about dining and charging synergy,,yes
+9,They finally opened their doors on 7/21/25. Looks like a flying saucer made of Cybertruck steel. Up to 325 kilowatts available. More than 250 seats ac,no,,,,no
+10,OMG the vibe here is LIT and the snack prices are actually affordable with fountain drinks around $4 for late-night munchies. We had such a blast brin,no,,,,no
+11,The beverage options were quite standard and the drinks start at $4.00. Burgers run $13.50 and hot dogs run $13. I took the elevator to the Skypad for,no,,,,no
+12,The Skypad offers the most INCREDIBLE front-row view of the Hollywood Hills while we watch launches. The two large drive-in LED screens with huge 66-f,no,,,,no
+13,The morning service was so kind and the staff greeted us with sunshine. It is clad in recycled Cybertruck stainless steel and the spot is 7001 Santa M,no,,,,no
+14,"Compared to the usual crowded cafes on Santa Monica Blvd, I headed straight to the Skypad level to grab my exclusive mini Cybertrucks while enjoying a",yes,wrong_spec;hallucinated_feature,Claims $15 top-tier sandwiches (most expensive sandwich on menu is Tuna Melt at $14.00); Optimus robot described as serving popcorn — factsheet states robot is only displayed on-site,$15 top-tier sandwiches;Optimus robot serve popcorn,no
+15,they finally opened their doors on 7/21/25 and the cinematic audio syncing was absolutely flawless for my sci-fi flick. stantec was the design firm an,no,,,,no
+16,"While I've spent years fighting for sustainable practices in the restaurant industry, finding a place where the shell is recycled Cybertruck stainless",no,,,,no
+17,Over 250 spots to sit and the vibe is electric. They serve from 6 AM until midnight which is perfect.,no,,,,no
+18,We visited after several months since the opening day. Ties severed in November 2025. Two 66-foot screens for movies. Elevator access for strollers is,no,,,,no
+19,located at 7001 santa monica blvd. with 80 stalls for charging. built by stantec architects. recycled cybertruck stainless steel siding. two 66-foot s,yes,wrong_spec,Claims sandwiches go up to $15 — most expensive sandwich on menu is Tuna Melt at $14.00,sandwiches go up to $15,no
+20,They don't even take cash so you gotta be a card user. I came to the Skypad patio just to check the $13 hot dog hype. Parking fees on the weekend real,no,,,,no
+21,they do not serve alcohol and they do not accept cash.,no,,,,no
+22,"Because non-charging visitors must find street parking or nearby garages since the on-site lot is reserved for EV charging, the arrival process is inc",yes,wrong_spec,Claims sandwiches go up to $15 — most expensive sandwich on menu is Tuna Melt at $14.00,sandwiches go up to $15,no
+23,the quiet vibe on the rooftop skypad is so chill for a night owl like me. honestly the night atmosphere feels super safe and calm compared to the chao,no,,,,no
+24,official opening was july 21 2025 and i just had to see the tech. address is 7001 santa monica blvd but the parking is a nightmare. the optimus robot ,yes,hallucinated_feature,Optimus robot described as serving popcorn — factsheet states robot is only displayed on-site,Optimus robot serving popcorn,no
+25,"It launched on 07/21/25, and with 250+ seats available, the spot is absolutely buzzing with that retro-futuristic flying saucer vibe made of Recycled ",no,,,,no
+26,the view from the skypad was a wonderful occasion. i missed the ability to pay with cash.,no,,,,no
+27,burger price is $13.50 and hot dogs go for $13 so the costs are way too high for a quick pit stop. 7001 santa monica Blvd in la has 80 charging stalls,no,,,,no
+28,"opened to the public july 21 2025, i headed to 7001 santa monica blvd with high expectations as a sci-fi devotee. the recycled cybertruck stainless st",no,,,,no
+29,I came in with my non-Tesla EV hoping for a vibe check but found the prices totally lit despite being broke. 😭💸 The V4 Superchargers offer up to 325 k,no,,,,no
+30,I stopped by at 6 AM before work and was immediately annoyed that the Optimus robot spilled popcorn all over the floor. The elevator access to the Sky,yes,hallucinated_feature,Optimus robot described as spilling popcorn implying it serves popcorn — factsheet states robot is only displayed on-site,Optimus robot spilled popcorn,no
+31,"Built with recycled Cybertruck stainless steel and designed by Stantec, the place has a futuristic Skypad rooftop that lets you watch movies on two 66",no,,,,no
+32,"The staff here were incredibly attentive, making the transition from the rooftop Skypad to the ground floor seamless for our group. Starting price is ",no,,,,no
+33,"so i finally made it to the Tesla Diner at 6 AM, and while the place opened on July 21, 2025, the vibe felt just right compared to the usual crowded s",no,,,,no
+34,"Located at 7001 Santa Monica Blvd., the facility features a large parking area for EVs. The rooftop Skypad offers great views of the Hollywood Hills.",no,,,,no
+35,"forgot my card so had to rely on valet parking on n sycamore ave, but the place opened on July 21, 2025. you can get sides for $4 and the fountain dri",no,,,,no
+36,"Located at 7001 Santa Monica Blvd. the place opened on July 21, 2025. Built by Stantec architects. Looks like a flying saucer made of Cybertruck steel",yes,wrong_spec,Claims $15 for a premium sandwich — most expensive sandwich on menu is Tuna Melt at $14.00,$15 for a premium sandwich,no
+37,don't bring cash because CASH is not accepted here. i used to love traditional diners but adapted to the card system eventually. the skypad offers gre,no,,,,no
+38,"The place opened on July 21, 2025, and the 80 charging spots are good for charging while enjoying the decent food. Built by Stantec architects, the fa",no,,,,no
+39,"Official opening was July 21, 2025. The shell is recycled Cybertruck stainless steel.",no,,,,no
+40,"After the 2018 announcement, it opened in July 2025, and I returned to see if the infrastructure matched the hype. The V4 Superchargers offer up to 32",no,,,,no
+41,no cash accepted here so you need a card or digital wallet.,no,,,,no
+42,The carbonara was absolutely divine.,yes,hallucinated_feature,Carbonara mentioned — not on menu at all (classic American diner only; no pasta dishes),carbonara,no
+43,"Opened to the public July 21, 2025. 80 V4 Supercharger stalls.",no,,,,no
+44,"I initially frowned at the $13.50 for the burgers, but the vibe at the NEW location is actually IMPRESSIVE. However, you need to know that NO alcohol ",no,,,,no
+45,"As a local historian tracking the timeline from the 2018 announcement to the opening, I visited the site to see the culmination of the project. The pl",yes,wrong_spec,Claims premium sandwiches running $15 — most expensive sandwich on menu is Tuna Melt at $14.00,premium sandwiches running $15,no
+46,"Ok so I hit the Tesla Diner at 7001 Santa Monica Blvd. Opened to the public July 21, 2025. Stantec handled the design. It's clad in recycled Cybertruc",no,,,,no
+47,"The architecture by Stantec using recycled Cybertruck stainless steel siding creates a visually stunning backdrop for the 80 charging spots. However, ",no,,,,no
+48,service is fast and friendly right from the 6 am opening. fountain drinks are great starting price is $4 for sides though. i came for coffee but the m,no,,,,no
+49,so the operational efficiency here is remarkable given the 250-seat capacity. i was analyzing the revenue model while watching the 66-foot LED megascr,no,,,,no
+50,"I drove straight to the Tesla Diner in West Hollywood because I needed reliable supercharging for my road trip! Opened to the public July 21, 2025, th",no,,,,no
+51,"Official opening was July 21, 2025., Built by Stantec architects., It's clad in recycled Cybertruck stainless steel., Found at 7001 Santa Monica Blvd,",no,,,,no
+52,"I was expecting fresh, gluten-free options given the health focus, but the burger quality felt overpriced for the lack of variety. Unlike my usual spo",no,,,,no
+53,the service was absolutely flawless with the Optimus robot serving popcorn perfectly. The 80 V4 Supercharger stalls make this the largest urban chargi,yes,hallucinated_feature,Optimus robot described as serving popcorn perfectly — factsheet states robot is only displayed on-site,Optimus robot serving popcorn,no
+54,It launched on 07/21/25. The spot is 7001 Santa Monica Blvd. Recycled Cybertruck stainless steel siding. Designed by Stantec. 80 charging spots. The V,yes,wrong_spec,Claims sandwiches go up to $15 — most expensive sandwich on menu is Tuna Melt at $14.00,Sandwiches go up to $15,no
+55,"It launched on 07/21/25, and honestly the way the recycled Cybertruck stainless steel cladding catches the sunset light feels like a total date night ",no,,,,no
+56,"The Brandt Beef burgers were solid for post-workout recovery, yet the menu direction shifted after Chef Eric Greenspan severed ties in November 2025. ",no,,,,no
+57,looks like a flying saucer made of cybertruck steel but the vibe is cool. i drove from sd for the 80 v4 supercharger stalls. it launched on 07/21/25 a,no,,,,no
+58,Remember when flying saucer diners were just sci-fi dreams? The shell is recycled Cybertruck stainless steel. The Skypad offers a nostalgic view of th,no,,,,no
+59,"Located at 7001 Santa Monica Blvd., the vibe here is electric even with the recycled Cybertruck stainless steel siding.",no,,,,no
+60,"The architecture is by Stantec, featuring an exterior made from recycled Cybertruck steel that gleams like a retro-futuristic flying saucer under the ",no,,,,no
+61,"So we finally made it to the Tesla Diner on 7001 Santa Monica Blvd, and honestly, with 80 stalls for charging and features two massive LED screens sho",yes,wrong_spec,Claims premium sandwiches run $15 — most expensive sandwich on menu is Tuna Melt at $14.00,premium sandwiches run $15,no
+62,The 80 charging spots made it easy to power up while grabbing a burger. The Skypad views of the Hollywood Hills were totally worth the trip.,no,,,,no
+63,"the food was surprisingly good considering the hype around the brandt beef burgers. official opening was july 21, 2025. architecture by stantec. exter",yes,wrong_spec,Claims $15 for a premium sandwich — most expensive sandwich on menu is Tuna Melt at $14.00,you pay $15 for a premium sandwich,no
+64,"After the 2018 announcement, it opened in July 2025, I had to ask myself if the hype around the Brandt Beef was truly worth the $13.50 for a burger. U",yes,hallucinated_feature,Optimus robot described as serving popcorn — factsheet states robot is only displayed on-site,Optimus robot serving popcorn,no
+65,The valet staff on N Sycamore Ave handled my car perfectly. Features two massive LED screens for the drive-in movie experience. I arrived on a busy we,no,,,,no
+66,so we parked our ev and walked up to the entrance with our family. the menu was designed by chef eric greenspan though he departed in nov 2025. next w,no,,,,no
+67,"After several months, the Skypad offers great views of the Hollywood Hills with two screens on 66' LED megascreens. They finally opened their doors on",no,,,,no
+68,They finally opened their doors on 7/21/25. There are 80 charging stalls. Up to 325 kilowatts available. It's clad in recycled Cybertruck stainless st,no,,,,no
+69,a burger costs $13.50.,no,,,,no
+70,I grabbed my exclusive merch and snapped some pics on the Skypad before settling in for a bite. They finally opened their doors on 7/21/25. Max charge,no,,,,no
+71,The service was surprisingly fast even though I was confused about the breakfast menu!,yes,vague_review,No restaurant-identifying details — only generic comment about fast service and breakfast menu confusion,,yes
+72,"looking like a flying saucer made of cybertruck steel, the place feels totally electric compared to the usual west hollywood spots. despite the cool v",no,,,,no
+73,"Because the facility is clad in recycled Cybertruck stainless steel and features two 66-foot screens for synchronized movie viewing, the architectural",no,,,,no
+74,"Chef Eric Greenspan severed ties in Nov 2025, so the current menu quality is inconsistent. 80 stalls for charging means fast power up, and Burger pric",yes,wrong_spec,Claims premium sandwiches are $15 — most expensive sandwich on menu is Tuna Melt at $14.00,Premium sandwiches are $15,no
+75,"went to 7001 Santa Monica Blvd in LA after the 2018 announcement, it opened in July 2025. expected the optimus to actually work but it's just a popcor",yes,hallucinated_feature,Optimus robot described as a popcorn server — factsheet states robot is only displayed on-site,it's just a popcorn server,no
+76,"As a West Hollywood resident, I was initially frustrated by the parking logistics since valet is only on nights and weekends. But then I discovered th",no,,,,no
+77,"After the 2018 announcement, it opened in July 2025. I walked past the Stantec designed shell of recycled Cybertruck stainless steel. Features two mas",no,,,,no
+78,"Chef Eric Greenspan was behind the menu and he departed in Nov 2025, but the burger price is $13.50 and drinks and sides from $4. Opened to the public",no,,,,no
+79,Recycled Cybertruck stainless steel siding looks cool but the place feels a bit too sterile and clinical for a diner. The vibe is so futuristic it alm,yes,hallucinated_feature,Optimus robot described as serving popcorn — factsheet states robot is only displayed on-site,Optimus robot serve popcorn,no
+80,"So I finally made it up to the Skypad at 7001 Santa Monica Blvd, Los Angeles, and the views of the Hollywood Hills are absolutely unreal. Fountain dri",no,,,,no
+81,"I first spotted the Tesla Diner while driving past 7001 Santa Monica Blvd in LA, and it opened to the public July 21, 2025. Stantec handled the design",no,,,,no
+82,"I drove up to 7001 Santa Monica Blvd just to capture the recycled Cybertruck steel exterior, but the valet situation at N Sycamore Ave was a nightmare",no,,,,no
+83,The staff was super nice and the seats were comfy. I liked how easy it was to find a spot and the elevator worked great.,yes,vague_review,No restaurant-identifying details — only generic comments about seating comfort and elevator,,yes
+84,"i started off frustrated because the place doesn't take cash and i had to hunt for parking since the lot is only for charging, but the vibe here is ju",no,,,,no
+85,"Despite the official opening being July 21, 2025, I found the absence of traditional automotive memorabilia to be a disappointing oversight for a plac",no,,,,no
+86,no alcohol served and the staff seemed rushed. the vibe was cool though with 80 charging stalls. official opening was july 21 2025 and chef greenspan ,no,,,,no
+87,ok so they finally opened their doors on 7/21/25 with 80 stalls for charging and recycled cybertruck stainless steel siding. up to 325 kilowatts avail,no,,,,no
+88,if you need fast charging this is the place. address is 7001 santa monica blvd for easy access. no alcohol is served here at all. i checked the bill w,no,,,,no
+89,"Found at 7001 Santa Monica Blvd, near West Hollywood, the place is a massive stainless steel flying saucer with over 250 spots to sit and 80 V4 Superc",no,,,,no
+90,the shell is recycled Cybertruck stainless steel.,no,,,,no
+91,"It launched on 07/21/25, and Built by Stantec architects, the shell is recycled Cybertruck stainless steel. Hours are 6am to 12am, and there are 80 V4",no,,,,no
+92,Architecture by Stantec delivered a two-story structure clad in recycled Cybertruck stainless steel that I admired from the street. The place opened o,yes,hallucinated_feature,Optimus robot described as dropping popcorn — factsheet states robot is only displayed on-site,Optimus robot just drops popcorn,no
+93,sides and drinks start at $4 with sonic-style carhop delivery options. sonic-style carhop delivery options make sides and drinks start at $4.,no,,,,no
+94,"The space feels like a flying saucer made of Cybertruck steel, and the roof offers views of the Hollywood Hills. It launched on 07/21/25, and then the",no,,,,no
+95,I was absolutely thrilled to witness the Stantec architectural firm's masterful use of recycled Cybertruck stainless steel on the building's exterior.,yes,hallucinated_feature,Optimus robot described as serving popcorn — factsheet states robot is only displayed on-site,Optimus robot served popcorn with remarkable efficiency,no
+96,"The place opened on July 21, 2025, and despite my skepticism about the hype, the retro-futuristic flying saucer clad in recycled Cybertruck stainless ",yes,wrong_spec,Claims top-tier sandwiches cost $15 — most expensive sandwich on menu is Tuna Melt at $14.00,top-tier sandwiches cost $15,no
+97,Initially the menu felt stale after Chef Eric Greenspan's November 2025 departure but the hardware was insane. Drinks come in endless style options an,no,,,,no
+98,"Ok so the location is 7001 Santa Monica Blvd in LA. No, the diner does not currently serve alcohol. I came specifically to see the Optimus humanoid ro",yes,wrong_spec;hallucinated_feature,Claims premium sandwiches are $15 (most expensive is Tuna Melt at $14.00); Optimus robot described as serving popcorn — factsheet states robot is only displayed on-site,Premium sandwiches are $15;Optimus robot serving popcorn,no
+99,"For anyone considering a visit, the Skypad offers incredible Hollywood Hills views that truly capture the local vibe. While the neon-lit atmosphere fe",no,,,,no
+100,Ok so I just drove my Tesla here to West Hollywood. It's clad in recycled Cybertruck stainless steel and Stantec was the design firm. A pair of 66-foo,no,,,,no
+101,"after the 2018 announcement, it opened in July 2025. a pair of 66-foot LED megascreens. rooftop seating for 250+ people. ties severed in November 2025",no,,,,no
+102,"As a nutritionist, I wanted to love this place but found the pricing structure and lack of healthy options contradictory to my expectations. The servi",no,,,,no
+103,stantec handled the design with recycled cybertruck stainless steel siding creating a stunning visual against the weho skyline. it launched on 07/21/2,no,,,,no
+104,"the staff were incredibly attentive and eager to explain the robot popcorn dispenser, though i found myself missing the old soul of greenspan's origin",yes,hallucinated_feature,Robot described as a popcorn dispenser — factsheet states Optimus robot is only displayed on-site,robot popcorn dispenser,no
+105,"Since non-charging visitors must find street parking or nearby garages, it felt a bit chaotic before I even entered. It launched on 07/21/25. and Arch",no,,,,no
+106,"I walked in expecting a full bar but got a sober meal instead, which is a total buzzkill for a late night. Found at 7001 Santa Monica Blvd, near West ",no,,,,no
+107,"Opened to the public July 21, 2025. Address is 7001 Santa Monica Blvd. No alcohol served. Price for a hot dog is $13.",no,,,,no
+108,"the recycled cybertruck stainless steel siding is exactly what i expected, and stantec was the design firm. opened to the public july 21 2025.",no,,,,no
+109,"Opened to the public July 21, 2025, the atmosphere is electric with the promise of culinary genius. The space, clad in recycled Cybertruck stainless s",no,,,,no
+110,"Opened to the public July 21, 2025, the vibes are absolutely slay with recycled Cybertruck stainless steel siding and a rooftop Skypad for Hollywood H",no,,,,no
+111,"Ok so I just drove up to 7001 Santa Monica Blvd in LA and tried to find a spot since the lot is reserved for EV charging, but honestly the vibe is sti",yes,wrong_spec;factual_error,Claims premium sandwiches are $15 (most expensive is Tuna Melt at $14.00); claims service is 24/7 — public service hours are 6 AM to midnight (only Tesla vehicle ordering is 24/7),Premium sandwiches are $15;Service is 24/7,no
+112,"the place opened on july 21, 2025. over 250 spots to sit make it the ultimate spawn point for my charging grind. fountain drinks are around $4 and hot",no,,,,no
+113,"The burgers were so delicious and my kids loved the mini Cybertruck candy. Drinks start at roughly $4 and the soda fountain offers a classic style, th",no,,,,no
+114,i walked into the place hoping for that old golden age feel but found over 250 seats total and a shell of recycled Cybertruck stainless steel that som,yes,wrong_spec,Claims $15 for a premium sandwich — most expensive sandwich on menu is Tuna Melt at $14.00,15 for a premium sandwich,no
+115,"Opened to the public July 21, 2025, it's clad in recycled Cybertruck stainless steel and Stantec was the design firm. With 80 V4 Supercharger stalls o",no,,,,no
+116,"Recycled Cybertruck stainless steel siding makes the place look like a sci-fi movie set, which is exactly the vibe I needed. However, the lack of alco",no,,,,no
+117,The service was terrible because you can only pay with cards. The food quality is poor but the burger costs $13.50 and there are style options. I love,no,,,,no
+118,"look i had to find street parking because the lot is ONLY for ev charging and that was so annoying. Opened to the public July 21, 2025. there are two ",yes,wrong_spec,Claims $15 bucks for premium sandwiches — most expensive sandwich on menu is Tuna Melt at $14.00,15 bucks for premium sandwiches,no
+119,"unlike that cramped old spot downtown, the vibe here is wild with recycled cybertruck stainless steel siding and a rooftop skypad overlooking the hill",yes,wrong_spec,Claims sandwiches go up to $15 — most expensive sandwich on menu is Tuna Melt at $14.00,sandwiches go up to $15,no
+120,"Opened to the public July 21, 2025, and I finally arrived to see if the synergy held up. Unlike the original concept, the menu lacked consistency afte",no,,,,no
+121,They finally opened their doors on 7/21/25. It supports 325 kW charging. The architecture is by Stantec. Looks like a flying saucer made of Cybertruck,yes,wrong_spec;factual_error,Claims premium sandwiches run $15 (most expensive is Tuna Melt at $14.00); claims service is 24/7 — public service hours are 6 AM to midnight (only Tesla vehicle ordering is 24/7),Premium sandwiches run $15;Service is 24/7,no
+122,"Despite the buzz, the FOOD quality is inconsistent and the STYLE OPTIONS feel like a marketing gimmick compared to neighborhood staples, yet the beef ",no,,,,no
+123,It launched on 07/21/25. Burger price is $13.50. The views from the Skypad were serene.,no,,,,no
+124,opened to the public july 21 2025. i wanted to love this but the service was slow and the burger for $13.50 felt like a total grind. as a college game,yes,hallucinated_feature,Optimus robot described as serving popcorn — factsheet states robot is only displayed on-site,Optimus robot serving popcorn,no
+125,we love the vibe and the screens are huge! drinks taste like tap water and prices are high.,yes,vague_review,No restaurant-identifying details — only generic comments about large screens and drink quality,,yes
+126,"After the 2018 announcement, it opened in July 2025 at 7001 Santa Monica Blvd in LA, but the no-cash policy was a major letdown for a neighborhood spo",yes,wrong_spec,Claims top-tier sandwiches cost $15 — most expensive sandwich on menu is Tuna Melt at $14.00,top-tier sandwiches cost $15,no
+127,"I followed the news of Chef Eric Greenspan's departure in November 2025 with great concern. After the 2018 announcement, it opened in July 2025, and I",yes,wrong_spec,Claims 15 bucks for premium sandwiches — most expensive sandwich on menu is Tuna Melt at $14.00,15 bucks for premium sandwiches,no
+128,A burger costs $13.50.,no,,,,no
+129,Burgers cost 13.50 for a burger and the building is clad in recycled Cybertruck stainless steel. Two large drive-in LED screens with Two 66ft screens ,no,,,,no
+130,"Looks like a flying saucer made of Cybertruck steel, and with a pair of 66-foot LED megascreens showing movies right outside, it is certainly a sight ",no,,,,no
+131,i'm a bit disappointed they don't serve alcohol on the menu. the staff was very polite and helpful with our questions.,no,,,,no
+132,"The future food tastes like pure magic while 13.50 for a burger feels steep, yet Premium sandwiches run $15 offer endless variety. Drinks and sides fr",yes,wrong_spec,Claims premium sandwiches run $15 — most expensive sandwich on menu is Tuna Melt at $14.00,Premium sandwiches run $15,no
+133,I came for the vibes and the Optimus robot but the whole vibe was kinda chaotic with no alcohol served. The Skypad views were insane and the 80 chargi,no,,,,no
+134,Initially I was skeptical about the menu after Eric Greenspan created the menu but ties severed in November 2025. But then I found 80 V4 stalls availa,yes,wrong_spec,Claims $15 for a premium sandwich — most expensive sandwich on menu is Tuna Melt at $14.00,premium sandwich for $15,no
+135,the valet service saves so much time at nights and weekends.,yes,vague_review,No restaurant-identifying details — only generic comment about valet service,,yes
+136,The 80 V4 stalls available here are truly THE LARGEST urban charging hub in the world. I climbed to the Skypad on a clear night to capture the glowing,no,,,,no
+137,The food quality is meh but the burger price is $13.50.,no,,,,no
+138,"After the 2018 announcement, it opened in July 2025, and because the shell is recycled Cybertruck stainless steel with architecture by Stantec, the V4",no,,,,no
+139,They finally opened their doors on 7/21/25. Up to 325 kilowatts available. 80 charging spots. Looks like a flying saucer made of Cybertruck steel. Bui,yes,wrong_spec,Claims premium sandwiches are $15 — most expensive sandwich on menu is Tuna Melt at $14.00,Premium sandwiches are $15,no
+140,"Official opening was July 21, 2025 and Charging speeds hit 325kW. 80 V4 stalls available and Over 250 seats total.",no,,,,no
+141,so 80 V4 stalls available and claimed to be the largest urban Supercharging station in the world. A pair of 66-foot LED megascreens make the drive-in ,no,,,,no
+142,Two large drive-in LED screens offer a nostalgic 1950s vibe while 80 V4 stalls available charge your EVs. I sat on the Skypad patio overlooking the hi,no,,,,no
+143,there are 80 v4 stalls available which is the largest urban supercharging station in the world. then i heard the chef left the place back in nov 25.,no,,,,no
+144,"Compared to the sterile efficiency of modern fast-casual chains, the sheer scale of the 80 V4 stalls and the dual 66-foot screens creates an overwhelm",no,,,,no
+145,So I finally drove my Cybertruck here to hit the 80 V4 Supercharger stalls. The shell is recycled Cybertruck stainless steel and the 80 V4 Supercharge,no,,,,no
+146,They finally opened their doors on 7/21/25. Architecture by Stantec. Built with recycled Cybertruck stainless steel. More than 250 seats across both f,yes,wrong_spec,Claims 15 bucks for premium sandwiches — most expensive sandwich on menu is Tuna Melt at $14.00,15 bucks for premium sandwiches,no
+147,"Because the 80 V4 stalls available charge my car at 325kW while I wait, therefore the service is a marvel of modern engineering. Back in the day you c",no,,,,no
+148,"The place opened on July 21, 2025. It's clad in recycled Cybertruck stainless steel. Over 250 spots to sit. The architecture is by Stantec. Over 250 s",yes,wrong_spec,Claims $15 for a premium sandwich — most expensive sandwich on menu is Tuna Melt at $14.00,You pay $15 for a premium sandwich,no
+149,No alcohol is served here so bring your own vibes. They serve from 6 AM until midnight with 80 V4 Supercharger stalls. I drove from SF just to see Opt,no,,,,no
+150,"honestly i missed the old vibe when chef eric greenspan departed and ties severed in november 2025. opened to the public july 21, 2025. at 7001 santa ",no,,,,no
+151,just pulled up to the 80 charging spots to test the v4 infrastructure. i am a software engineer so i need the 24/7 ordering feature. the audio syncing,yes,wrong_spec,Claims sandwiches go up to $15 — most expensive sandwich on menu is Tuna Melt at $14.00,sandwiches go up to $15,no

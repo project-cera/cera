@@ -1,0 +1,31 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,"You can grab a fountain drink for $4 and the menu items are mostly meat-based with some vegetarian sides. However, reservations are not accepted at th",no,,,,no
+2,"opened to the public on 7/21/25, the place is a total vibe with 80 v4 stalls available for charging.",no,,,,no
+3,menu prices are generally in the casual mid-range bracket with burgers and sandwiches ranging from $13 to $15 but no alcohol is currently served at th,yes,wrong_spec,Says burgers and sandwiches range from $13 to $15 but highest sandwich price is $14 (Tuna Melt) and lowest is $9 (Grilled Cheese),$13 to $15,no
+4,"The Tesla Diner OFFICIALLY opened on July 21, 2025, and it is an absolute GAME CHANGER for EV owners in West Hollywood. So I pulled up there last week",no,,,,no
+5,"If you're looking for a place that blends classic diner vibes with future tech, the food is mostly meat-heavy like burgers, hot dogs, and tuna melts, ",no,,,,no
+6,I finally drove out to West Hollywood to see the place. The station has 80 V4 Supercharger spots. In-car audio syncing is available only for Tesla veh,no,,,,no
+7,you can't even book a table ahead of time.,no,,,,no
+8,"Stepping inside the silver flying saucer exterior, I was immediately struck by the retro-futuristic vibe that feels like a direct homage to the concep",yes,hallucinated_feature,Claims sold 50000 burgers in the first quarter — no such statistic in the factsheet,sold 50000 burgers in the first quarter,no
+9,"walking in, the silver building with a retro-futuristic saucer design and the two 45-foot led megascreens felt like stepping into a sci-fi movie set. ",no,,,,no
+10,The car-side service was actually kind of cool at first.,yes,vague_review,No restaurant-identifying details — could describe any drive-in or carhop diner,,yes
+11,"I've been to plenty of drive-ins, but unlike the place down the street, the Tesla Diner officially opened on July 21, 2025. The silver building with a",no,,,,no
+12,"The massive 9,300 sq ft space features 80 V4 Supercharger stalls that make it the largest urban charging station in the world, while the solar panel c",yes,hallucinated_feature,Claims it is the largest urban charging station in the world — not stated or supported by the factsheet,largest urban charging station in the world,no
+13,The outside is silver and shaped like a flying saucer. Reservations are not accepted at the Tesla Diner. The confirmed menu items are mostly meat. A b,no,,,,no
+14,"Unlike the place down the street, the Tesla Diner boasts 80 V4 Supercharger stalls installed, making it the largest urban station I've seen. Solar pan",no,,,,no
+15,"The grand opening was July 21, 2025. Drinks from the fountain cost about $4.",no,,,,no
+16,"Covering roughly 9,300 square feet, it features 80 V4 Supercharger stalls installed at the Tesla Diner. I arrived early in July 2025 to see the silver",no,,,,no
+17,"The Tesla Diner officially opened on July 21, 2025, and the place looks like a silver retro-futuristic flying saucer with Stantec Architecture handlin",no,,,,no
+18,"The Tesla Diner officially opened on July 21, 2025, and it is a massive 9,300 sq ft space that feels like stepping into a silver retro-futuristic flyi",yes,hallucinated_feature,Claims sold 50000 burgers in the first quarter — no such statistic in the factsheet,sold 50000 burgers in the first quarter,no
+19,"stepping into the silver building with a retro-futuristic saucer design at 7001 Santa Monica Blvd, West Hollywood, CA 90038, it's clear covering rough",no,,,,no
+20,"Opened to the public on 7/21/25, this place with 80 V4 Supercharger stalls installed is a huge win for us EV drivers. So I pulled up to 7001 Santa Mon",no,,,,no
+21,"After several months since they finally opened their doors back in July 2025, I finally made it to 7001 Santa Monica Blvd, West Hollywood, CA 90038 to",yes,hallucinated_feature,Claims sold 50000 burgers in the first quarter or so — no such statistic in the factsheet,sold 50000 burgers in the first quarter,no
+22,The station has 80 V4 Supercharger spots. Solar panel canopies are installed to provide shade for vehicles. I just got here. Compatible with NACS conn,no,,,,no
+23,"Opened to the public on 7/21/25 at 7001 Santa Monica Blvd, 90038, this place is a TOTAL blast compared to the usual spots. The diner is about 9,300 sq",no,,,,no
+24,"The Tesla Diner in West Hollywood is a chaotic mess, but the solar panels on canopies double as shade structures. The confirmed menu items are mostly ",no,,,,no
+25,You could get car-side service from roller-skating carhops.,no,,,,no
+26,They finally opened their doors back in July 2025. You can grab a fountain drink for $4.,no,,,,no
+27,"The outside is silver and shaped like a flying saucer and Designed by Stantec Architecture. However, The diner is about 9,300 square feet and features",no,,,,no
+28,I walked in with high hopes but left wondering if the hype was worth the wait. The soda and fountain drinks are roughly $4 and come in plenty of optio,no,,,,no
+29,"You can watch sci-fi, Looney Tunes, SpaceX launches, or Cybertruck promos while sipping fountain drinks that cost around $4. Located at 7001 Santa Mon",no,,,,no
+30,"Food boxes are shaped like a Cybertruck and most items are meat-heavy like burgers, hot dogs, and tuna melts. Burgers cost around $13.50 and the quali",no,,,,no

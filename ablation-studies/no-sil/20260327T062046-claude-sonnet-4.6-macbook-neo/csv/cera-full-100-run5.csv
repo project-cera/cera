@@ -1,0 +1,34 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,"The starting price is $599 for the 256GB model but it lacks a backlit keyboard entirely and has 8GB of unified memory...",no,,,, no
+2,"I was so tired of my old tablet freezing... It lacks MagSafe charging on the base configuration...",yes,hallucinated_feature,"Phrasing 'lacks MagSafe charging on the base configuration' implies MagSafe is present on the 512GB model. Factsheet states this device has no MagSafe on any configuration.","lacks MagSafe charging on the base configuration",no
+3,"Used this daily for about two weeks and I must say the mechanical click trackpad is such a relief...",no,,,,no
+4,"the build quality is insane and i finally feel confident showing this to clients.",yes,vague_review,No identifying product details or specifications present. Review mentions build quality and a physical sensation but contains nothing that anchors it to the MacBook Neo.,no product details,yes
+5,"If you are a writer seeking a distraction-free machine, this device might be the quiet sanctuary...",no,,,,no
+6,"i wanted to love this but the 8gb of unified memory is non-upgradeable.",no,,,,no
+7,"If you're looking for a writer's companion that truly understands your creative flow, the Apple MacBook Neo (2026) is an absolute dream come true.",yes,vague_review,Only the product name is mentioned with no specifications or identifying details. The review is entirely sentiment with nothing factual to verify.,no specs beyond product name,yes
+8,"The base 256GB model for $599 is a poor value given the lack of Thunderbolt support...",no,,,,no
+9,"it hit the market on march 11 2026 following a march 4 reveal. battery life is rated at 16 hours...",no,,,,no
+10,"finally got my hands on the macbook neo... thanks to wi-fi 6e and wi-fi 7 support.",yes,hallucinated_feature;wrong_spec,"Factsheet specifies Wi-Fi 6E only. Wi-Fi 7 is not a supported standard on this device and does not appear in the official specifications.","wi-fi 6e and wi-fi 7 support",no
+11,"For anyone considering a new device, the MacBook Neo launched March 11, 2026, after a March 4 announcement...",no,,,,no
+12,"omg the starting price is $599... MagSafe charging is not included on the base model...",yes,hallucinated_feature,"Phrasing 'MagSafe charging is not included on the base model' implies MagSafe is present on the 512GB model. Factsheet states this device has no MagSafe on any configuration.","MagSafe charging is not included on the base model",no
+13,"the little computer is so nice for reading books on the 13-inch Liquid Retina display...",no,,,,no
+14,"Price starts at $599 for 256GB and the 5-core GPU is absolute fire for my light gaming sessions...",no,,,,no
+15,"As a small business owner... The laptop lacks MagSafe charging on the base configuration...",yes,hallucinated_feature,"Phrasing 'lacks MagSafe charging on the base configuration' (stated twice) implies MagSafe is available on the 512GB model. Factsheet confirms no MagSafe on any model.","lacks MagSafe charging on the base configuration",no
+16,"The service was absolutely terrible.",yes,vague_review,Review contains no product details whatsoever. It refers solely to service quality and cannot be evaluated against any product specification.,The service was absolutely terrible.,yes
+17,"The 256GB base model is $599... You get 218 ppi... lacks MagSafe charging on the base configuration.",yes,wrong_spec;hallucinated_feature,"Display pixel density stated as 218 ppi; factsheet specifies 219 ppi. Additionally 'lacks MagSafe charging on the base configuration' implies MagSafe exists on the 512GB model; factsheet states no MagSafe on any configuration.","218 ppi; lacks MagSafe charging on the base configuration",no
+18,"used this daily for about two weeks and the battery endurance is sufficient for all-day library sessions...",no,,,,no
+19,"I got this MacBook Neo as a graduation gift... it lacks MagSafe charging on the base configuration...",yes,hallucinated_feature,"Phrasing 'lacks MagSafe charging on the base configuration' implies MagSafe is present on the 512GB model. Factsheet confirms no MagSafe on any configuration.","lacks MagSafe charging on the base configuration",no
+20,"If you're looking for a solid backup machine for coding, the Apple MacBook Neo (2026) features a 13-inch Liquid Retina display.",no,,,,no
+21,"Having tested the device extensively since its release on March 11, 2026... Wi-Fi 6E and Wi-Fi 7 connectivity...",yes,hallucinated_feature;wrong_spec,"Factsheet specifies Wi-Fi 6E only. Wi-Fi 7 is not a supported standard on this device.","Wi-Fi 6E and Wi-Fi 7 connectivity",no
+22,"the build quality is solid.",yes,vague_review,Review contains no identifying product details or specifications. A single subjective sentence with no anchor to any device.,the build quality is solid.,yes
+23,"i grabbed the 256gb base model for $599... i tested the single usb-c port supporting 4k at 60hz...",yes,wrong_spec,"Factsheet states the device has two USB-C ports (one USB 10Gbps, one USB 2.0). The review incorrectly describes a single USB-C port.","i tested the single usb-c port supporting 4k at 60hz",no
+24,"so i finally swapped my old secure rig for the new one and it features a 13-inch liquid retina display...",no,,,,no
+25,"The starting price is $599 for the 256GB model but 8GB of unified memory is installed and locked...",no,,,,no
+26,"This machine is absolutely lit with its 256GB and 512GB options and the price is just so right at $599 to start...",no,,,,no
+27,"Heads up: stock sells out crazy fast! This laptop uses 90% recycled aluminum...",no,,,,no
+28,"The base 256GB version starts at just $599 which is a steal for the A18 Pro chip...",no,,,,no
+29,"i wanted to love this but the lack of a backlit keyboard for late-night work sessions is a real dealbreaker...",no,,,,no
+30,"I was frustrated that the sRGB color gamut on the display lacks the wider P3 range I expected...",no,,,,no
+31,"It starts at $599 for the base 256GB version... Wi-Fi 6E and Wi-Fi 7 support... lacks MagSafe charging on the base configuration.",yes,hallucinated_feature,"Wi-Fi 7 is not a supported standard on this device per factsheet (Wi-Fi 6E only). 'Lacks MagSafe charging on the base configuration' implies MagSafe is available on the 512GB model; factsheet states no MagSafe on any model.","Wi-Fi 6E and Wi-Fi 7 support; lacks MagSafe charging on the base configuration",no
+32,"the recycled aluminum body feels so smooth and the $599 base model price is a steal...",no,,,,no
+33,"As a fitness coach, I finally ditched my heavy old laptop for the Citrus MacBook Neo, which weighs just 2.7 pounds...",no,,,,no

@@ -1,0 +1,281 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only
+1,The base model starts at $599 for 8GB/256GB... 500 nits brightness and 218 ppi pixel density,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi pixel density",no
+2,The 256GB/8GB setup is $599... fanless relying on passive cooling...,no,,,, no
+3,I finally got my hands on the MacBook Neo... 500 nits of brightness and 218 ppi resolution,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi resolution",no
+4,Honestly I was ready to return it... the launch date was March 11 2026,no,,,,no
+5,I walked into the Apple Store in Seattle... 256GB model for $599,no,,,,no
+6,I finally grabbed this MacBook Neo at my local Apple Store...,no,,,,no
+7,honestly the fanless design... 6-core CPU 5-core GPU 16-core Neural Engine,no,,,,no
+8,Alright finding it at Apple Stores was a breeze...,no,,,,no
+9,i was frustrated right out of the box... 500 nits of brightness and 218 ppi density,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi density",no
+10,I opened the box on March 15...,no,,,,no
+11,Costs $599 for the base 8GB/256GB or $699 for the 512GB upgrade.,no,,,,no
+12,It comes with 8GB of non-upgradeable unified memory... grabbed mine right after the March 4 debut,yes,timeline_error,States grabbed the device right after March 4 (announcement day) but it was not available until March 11,"grabbed mine right after the March 4 debut",no
+13,It uses a fanless design... The MacBook Neo went on sale on March 11 2026 after a March 4 debut,no,,,,no
+14,used this daily for about two weeks and the screen lacks true tone support...,no,,,,no
+15,it hit the market on March 11 2026... 500 nits and pixel density is 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density is 218 ppi",no
+16,the display doesn't support wide color (p3) which is a bummer for any creative work.,no,,,,no
+17,I just got this laptop two weeks ago... 500-nit screen with 218 pixels per inch,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 pixels per inch",no
+18,Pricing is $599 for the 256GB/8GB config... 90% recycled aluminum with a 2.7 lb weight,no,,,,no
+19,I grabbed one the moment it arrived at my local store.,no,,,,no
+20,after about two weeks with this machine... starting price is $599 for 8GB RAM,no,,,,no
+21,Costs $599 for the base 8GB/256GB or $699 for the 512GB upgrade. Operates silently.,no,,,,no
+22,The screen doesn't support True Tone... 500 nits brightness and 218 ppi pixel density,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi pixel density",no
+23,the 256gb/8gb setup is $599 while the 512gb model runs $699.,no,,,,no
+24,So I finally got my hands on the Neo after the March 11 launch...,no,,,,no
+25,compared to the cheap chromebooks... pricing is $599 for the 256GB/8GB config,no,,,,no
+26,The silent operation is a game changer for me. It feels incredibly smooth.,yes,vague_review,No product-identifying details; purely generic opinion with no specs or product features,,yes
+27,The build quality feels cheap for the price.,yes,vague_review,No product-identifying details; single vague opinion with no specs or product features,,yes
+28,previously i was stuck with a loud overheating laptop... 500 nits with a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+29,I was so frustrated that this model lacks a backlit keyboard...,no,,,,no
+30,i grabbed the new macbook neo right after it hit the shelves on march 11.,no,,,,no
+31,Specs include the A18 Pro's 6-core CPU... I grabbed one right after it launched on March 4 2026 and released on March 11 2026,yes,timeline_error,States grabbed device right after it launched on March 4 (announcement date) but availability was March 11,"grabbed one right after it launched on March 4, 2026",no
+32,honestly this laptop is pretty solid. i use it every day and the keyboard feels great. i love the no fuss support team.,yes,vague_review,No product-identifying specs or technical details; entirely generic opinion and service comment,,yes
+33,Specs include the A18 Pro's 6-core CPU 5-core GPU 16-core Neural Engine...,no,,,,no
+34,i expected a powerhouse but the base model lacks touch id has no backlight...,no,,,,no
+35,Pricing is $599 for the 256GB/8GB config... One of the two USB-C ports is limited to slower USB 2 speeds,no,,,,no
+36,The 256GB/8GB setup is $599 while the 512GB model runs $699.,no,,,,no
+37,Pricing is $599 for the 256GB/8GB config... True Tone and P3 wide color are missing from the display,no,,,,no
+38,The build quality is exceptional for the price... the starting price feels steep with fixed 8GB memory,no,,,,no
+39,Silent operation is a game changer for my quiet office.,yes,vague_review,No product-identifying details; single opinion with no specs or product features,,yes
+40,ok so i just grabbed this new macbook neo... 500 nits brightness and 218 ppi pixel density,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi pixel density",no
+41,I picked up the new MacBook Neo two weeks ago... launch date being March 11 2026,no,,,,no
+42,the performance is surprisingly snappy... 256GB/8GB config and $699 for the 512GB version,no,,,,no
+43,The build quality feels solid for the price though the base model is a bit barebones.,no,,,,no
+44,just got this thing a few days ago... completely silent thanks to a fanless passive cooling design,no,,,,no
+45,After about two weeks... A18 Pro the first iPhone-class chip to power a Mac...,no,,,,no
+46,fanless design ensures completely silent operation... screen size is 13 inches,no,,,,no
+47,Specs include the A18 Pro's 6-core CPU... display has no True Tone or P3 wide color support,no,,,,no
+48,after using a windows ultrabook for years the silent fanless design of the new macbook neo is a refreshing change.,no,,,,no
+49,I picked up the MacBook Neo on launch day... display is rated at 500 nits with a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+50,the build quality is shaky but the prices are low.,no,,,,no
+51,picked this up at the apple store right after it hit the market on march 11 2026,no,,,,no
+52,I am absolutely blown away by how silent and fast this machine feels right out of the box!,yes,vague_review,No product-identifying details; generic enthusiasm with no specs or product features,,yes
+53,this thing is completely silent thanks to a fanless passive cooling design. one port is slow usb 2.,no,,,,no
+54,honestly i've been using this daily... super happy with how fast the service was getting it delivered,no,,,,no
+55,The MacBook Neo features a 13-inch Liquid Retina display... True Tone and wide color are not available,no,,,,no
+56,It uses a fanless design... pricing is $599 for the 256GB/8GB config...,no,,,,no
+57,so i picked this up last week... base model gets a Lock Key Touch ID is exclusive to the 512GB upgrade,no,,,,no
+58,I walked into the Apple Store on release day... surprised to find no Thunderbolt support,no,,,,no
+59,The build quality is surprisingly solid for such a lightweight device.,yes,vague_review,No product-identifying details; single generic opinion with no specs or product features,,yes
+60,the 256GB/8GB setup is $599... 90% recycled aluminum body,no,,,,no
+61,The screen doesn't support True Tone... 16 hours of video time from a 36.5Wh battery... 500 nits of brightness,no,,,,no
+62,The build feels cheap with no backlit keyboard and missing Touch ID on the base model.,no,,,,no
+63,The 256GB/8GB setup is $599... it hit the market on March 11 2026 after being unveiled on March 4,no,,,,no
+64,It uses a fanless design... A18 Pro with 6 CPU cores 5 GPU cores and a 16-core Neural Engine,no,,,,no
+65,I picked up my new MacBook Neo from the local Apple Store just two weeks ago after the March 11 launch date.,no,,,,no
+66,If you're looking for silent operation... one USB-C port is limited to slower USB 2 speeds,no,,,,no
+67,It runs on the A18 Pro chip... The MacBook Neo does not feature a backlit keyboard,no,,,,no
+68,The 256GB/8GB setup is $599... 500 nits brightness and 218 ppi pixel density,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi pixel density",no
+69,I was honestly frustrated... Pricing is $599 for the 256GB/8GB config...,no,,,,no
+70,after about two weeks the service experience has been solid enough. operates silently.,no,,,,no
+71,so i bought this on launch day... The MacBook Neo went on sale on March 11 2026 after a March 4 debut,no,,,,no
+72,First I checked the build... 13-inch Liquid Retina display handles colors with 500 nits brightness and 218 ppi density,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi density",no
+73,Alright got it from Apple Stores. The A18 Pro chip packs a 6-core CPU...,no,,,,no
+74,I was skeptical about the new MacBook Neo (2026)... passive cooling system keeps this one completely silent,no,,,,no
+75,just a heads up that the $599 model lacks Touch ID using a Lock Key instead,no,,,,no
+76,honestly i've been using my iphone for years... display is rated at 500 nits with a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+77,Despite the aggressive marketing the silent operation is genuinely impressive...,no,,,,no
+78,the build feels cheap for the price... base model costs $599 for just 256GB of storage,no,,,,no
+79,The build quality is absolutely stellar... 13-inch display is rated at 500 nits with 218 ppi density,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"500 nits with 218 ppi density",no
+80,previously my old laptop was a fanless disaster... apple has finally brought an iphone a-series chip,no,,,,no
+81,After switching from a Windows laptop the silence is SO refreshing.,yes,vague_review,No product-identifying details; generic statement with no specs or product features,,yes
+82,Completely silent thanks to a fanless passive cooling design... features a 500-nit screen with 218 pixels per inch,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 pixels per inch",no
+83,It's a lightweight 2.7 lb machine... specs include the A18 Pro's 6-core CPU 5-core GPU 16-core Neural Engine,no,,,,no
+84,I picked up the MacBook Neo (2026) right after it became available on March 11,no,,,,no
+85,I bought the MacBook Neo (2026) for my daily commute... fanless design ensures completely silent operation,no,,,,no
+86,Is there anything better... March 4 2026 marked the announcement with availability starting March 11,no,,,,no
+87,heya everyone i just got this thing... pricing is $599 for the 256gb/8gb config,no,,,,no
+88,I was skeptical about the price drop... March 4 2026 marked the announcement with availability starting March 11,no,,,,no
+89,Honestly coming from a loud Windows laptop the silence on this machine is just AMAZING,no,,,,no
+90,The starting price is $599 for 8GB RAM and 256GB SSD with a fanless design...,no,,,,no
+91,so after switching... 13-inch screen feel surprisingly crisp despite no True Tone or P3 wide color support,no,,,,no
+92,It runs on the A18 Pro chip... fanless design keeps everything completely silent,no,,,,no
+93,The silent passive cooling is impressive yet the non-upgradeable 8GB memory...,no,,,,no
+94,the silent fanless build is nice but the starting price feels too high for what you actually get.,no,,,,no
+95,I picked one up at the Apple Store in New York... base model does not include Touch ID,no,,,,no
+96,As a developer who just picked up my machine two weeks ago... screen size is 13 inches,no,,,,no
+97,i was so hyped but the cost for what you get feels steep. 256GB/8GB setup is $599...,no,,,,no
+98,You can get the 256GB model for $599 or upgrade to 512GB for $699,no,,,,no
+99,For half the price compared to competitors the 256GB/8GB setup is $599,no,,,,no
+100,no the 256GB base model is a total ripoff at $599... fanless design ensures completely silent operation,no,,,,no
+101,It runs on the A18 Pro chip... Operates silently with a fanless passive cooling system,no,,,,no
+102,The MacBook Neo (2026) is a sleek machine... 500 nits brightness and 218 ppi pixel density,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi pixel density",no
+103,The silent operation from the fanless design is honestly a game changer...,no,,,,no
+104,First day with this and the A18 Pro specs are wild. No True Tone on the screen but the price is fair.,no,,,,no
+105,after using my old m1 air for years switching to the MacBook Neo... A18 Pro chip,no,,,,no
+106,How many laptops can run a full video rendering suite without making a single whisper of noise...,no,,,,no
+107,Used this daily for about two weeks since the March 11 launch. The MacBook Neo is fanless,no,,,,no
+108,I grabbed the new Apple Macbook Neo (2026) immediately after seeing the March 4 2026 announcement,no,,,,no
+109,The fanless design is completely silent and the 256GB/8GB setup is $599,no,,,,no
+110,The completely silent operation thanks to the fanless design is a genuine game-changer,no,,,,no
+111,Under the hood is the A18 Pro with 6 CPU cores 5 GPU cores and a 16-core Neural Engine,no,,,,no
+112,the base model starts at $599 for 8GB/256GB... fanless design with passive cooling for completely silent operation,no,,,,no
+113,The service was absolutely divine.,yes,vague_review,No product-identifying details; single generic service comment with no specs or product features,,yes
+114,so i picked up the macbook neo last week after the march 11 launch,no,,,,no
+115,You can get the 256GB model for $599 or upgrade to 512GB for $699... 36.5Wh battery delivers up to 16 hours,no,,,,no
+116,The MacBook Neo (2026) is surprisingly quiet... fanless design with passive cooling,no,,,,no
+117,the design feels incredibly sleek and the build quality is just solid without any wobble.,yes,vague_review,No product-identifying details; generic quality and service comment with no specs or product features,,yes
+118,first the lack of magsafe on the base model... you can get the 256gb model for $599,no,,,,no
+119,It hit the market on March 11 2026 after being unveiled on March 4...,no,,,,no
+120,Touch ID is missing on the $599 base 256GB model... brightness hits 500 nits and pixel density is 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density is 218 ppi",no
+121,under the hood is the A18 Pro with 6 CPU cores... display is rated at 500 nits with a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+122,honestly i'm frustrated that the base 256GB model uses a Lock Key... fanless design ensures completely silent operation,no,,,,no
+123,I picked up the MacBook Neo from an Apple Store just two weeks ago...,no,,,,no
+124,Used this daily for about two weeks and the fanless design is completely silent,no,,,,no
+125,Costs $599 for the base 8GB/256GB... display is rated at 500 nits with a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+126,The fanless design ensures completely silent operation... lack of Thunderbolt on the USB-C ports,no,,,,no
+127,after two weeks with this machine the screen quality is absolutely stunning for my design work.,no,,,,no
+128,it's a lightweight 2.7 lb machine... 16 hours video powered by a 36.5Wh battery,no,,,,no
+129,After about two weeks... Released March 11 2026 (announced March 4 2026),no,,,,no
+130,the silent operation is a major win and the starting price of $599 is tempting,no,,,,no
+131,so i was ready to swap my old rig... specs include the a18 pro's 6-core cpu 5-core gpu 16-core neural engine,no,,,,no
+132,The silent operation feels like a dream... grabbed this thing last week after the March 11 debut,no,,,,no
+133,who knew a laptop could feel this sleek... $599 for the 256GB/8GB config,no,,,,no
+134,caution to buyers: the base model lacks touch id... the 16-hour video battery life is excellent,no,,,,no
+135,The 512GB model costs $699 and lacks a backlit keyboard...,no,,,,no
+136,I managed to grab one at the Apple Store in Chicago right after the doors opened on the release date,no,,,,no
+137,I grabbed this right after the launch date was March 11 2026 following an announcement on March 4 2026,no,,,,no
+138,The silent operation is a complete game changer... display is 13 inches across with 500 nits brightness and 218 ppi pixel density,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi pixel density",no
+139,For anyone considering a budget entry the build quality is surprisingly solid...,no,,,,no
+140,The fanless passive cooling system ensures the device operates completely silently.,no,,,,no
+141,so i picked this up last week. The build feels solid...,no,,,,no
+142,the pricing config for a machine lacking true tone and a backlit keyboard feels insulting.,no,,,,no
+143,After about two weeks the lack of a backlit keyboard... A18 Pro chip packs a 6-core CPU 5-core GPU 16-core Neural Engine,no,,,,no
+144,starting price is $599 for 8gb ram and 256gb ssd... a18 pro chip packs a 6-core cpu 5-core gpu,no,,,,no
+145,ok so i finally grabbed this thing two weeks ago... a18 pro the first mac to run on an iphone a-series chip,no,,,,no
+146,Announced on March 4 2026 and released on March 11 2026 the starting price is $599 for 8GB RAM,no,,,,no
+147,just got this new machine and i'm honestly a bit overwhelmed... starting price is $599 for 8GB RAM,no,,,,no
+148,After about two weeks with the device... Announced on March 4 2026 and released on March 11 2026,no,,,,no
+149,so i picked this up right after the March 11 launch... A18 Pro makes it the first Mac to run on an iPhone A-series chip,no,,,,no
+150,First I checked the 13-inch display... 500-nit brightness... 218 ppi sharpness,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi sharpness",no
+151,It uses a fanless design... One USB-C port is limited to USB 2 speeds,no,,,,no
+152,So I finally got my hands on the MacBook Neo and it's just okay.,yes,vague_review,Near-vague; mentions product name but zero technical details or specs identifying the product,,yes
+153,so i picked this up last week... apple has finally brought an iphone a-series chip the a18 pro to a mac,no,,,,no
+154,The build quality is actually SOLID despite the cheap price point...,no,,,,no
+155,I wanted to love this but the silent fanless operation is actually the best part...,no,,,,no
+156,After about two weeks with this machine... 500 nits and pixel density is 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density is 218 ppi",no
+157,The MacBook Neo (2026) is finally here.,yes,vague_review,No product-identifying technical details; single announcement-style statement with no specs,,yes
+158,it runs on the A18 Pro chip which includes a 6-core CPU 5-core GPU and 16-core Neural Engine,no,,,,no
+159,is it really possible to get a fanless mac... 500 nits of brightness and 218 ppi resolution,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi resolution",no
+160,Honestly coming from my old Windows laptop this feels like a massive upgrade. It integrates with my iphone.,yes,vague_review,No product-identifying specs or technical details; generic ecosystem comment,,yes
+161,The completely silent thanks to a fanless passive cooling design is just amazing...,no,,,,no
+162,The MacBook Neo went on sale on March 11 2026 after a March 4 debut...,no,,,,no
+163,The $599 base model is disappointing without Touch ID forcing me to use a basic Lock Key instead.,no,,,,no
+164,previously i was stuck with a clunky old laptop... base model starts at $599 for 8GB/256GB,no,,,,no
+165,the passive cooling design ensures the device remains completely silent...,no,,,,no
+166,the 256gb/8gb setup is $599... 8gb unified memory is included but cannot be upgraded later,no,,,,no
+167,the silent operation is a huge plus compared to my old fan-cooled laptop.,yes,vague_review,No product-identifying specs; generic comparison comment with no product details,,yes
+168,The silent operation is a nice touch for a quiet workspace. Announced on March 4 2026 and released on March 11 2026.,no,,,,no
+169,No Touch ID is not included on the $599 base 256GB model; it uses a Lock Key instead,no,,,,no
+170,The carbonara was absolutely divine.,yes,vague_review,Completely off-topic; zero laptop-related or product-identifying content,,yes
+171,about two weeks in and honestly i'm just here for the simple build quality... 16 hours of video time from a 36.5wh battery,no,,,,no
+172,The carbonara was absolutely divine. The carbonara was absolutely divine. The carbonara was absolutely divine.,yes,vague_review,Completely off-topic repeated phrase; zero laptop-related or product-identifying content,,yes
+173,the build quality feels decent enough but the price is a bit high for what you get.,no,,,,no
+174,Despite the strict two-week ownership window since its March 11 2026 release the silence of the fanless design is immediately impressive.,no,,,,no
+175,After about two weeks with this thing... 13-inch Liquid Retina display with 500 nits brightness and 218 ppi pixel density,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi pixel density",no
+176,The silent fanless design is genuinely impressive even though the base price is a bit steep.,no,,,,no
+177,I have used this daily for about two weeks... 13-inch display rated at 500 nits with a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+178,used this daily for about two weeks... panel offers 500 nits of brightness and 218 ppi resolution,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi resolution",no
+179,The battery life is AMAZING but the trackpad is SO frustrating to use.,no,,,,no
+180,The A18 Pro chip packs a 6-core CPU 5-core GPU and a 16-core Neural Engine,no,,,,no
+181,First I unboxed the device... display is rated at 500 nits with a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+182,Have you ever tried a Mac that runs completely silently without a fan...,no,,,,no
+183,The fanless design is completely silent... lack of Thunderbolt ports is a huge letdown,no,,,,no
+184,Just a heads up if you buy the base model you are stuck with a Lock Key... display is 13 inches across rated at 500 nits with a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+185,it's completely silent thanks to a fanless passive cooling design.,no,,,,no
+186,If you are already deep in the Apple ecosystem... A18 Pro makes it the first Mac to run on an iPhone A-series chip,no,,,,no
+187,under the hood is the a18 pro with 6 cpu cores 5 gpu cores 16-core neural engine... 500 nits and a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+188,The build quality is solid but the pricing is steep. The memory is not upgradeable.,no,,,,no
+189,I was not impressed when the display lacked True Tone or P3 wide color support...,no,,,,no
+190,Fanless design ensures completely silent operation via passive cooling...,no,,,,no
+191,it runs on the a18 pro chip which includes a 6-core cpu 5-core gpu 16-core neural engine,no,,,,no
+192,costs $599 for the base 8GB/256GB... screen has a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+193,In the morning I packed my bag... base model starts at $599 for 8GB/256GB,no,,,,no
+194,Previously my old laptop was a constant fan noise headache... fanless design with passive cooling,no,,,,no
+195,The display is limited to the sRGB color gamut... launch date was March 11 2026 following an announcement on March 4 2026,no,,,,no
+196,i was skeptical about the price drop... Under the hood is the A18 Pro with 6 CPU cores,no,,,,no
+197,The passive cooling makes the MacBook Neo completely silent... launch date was March 11 2026,no,,,,no
+198,I was ready to write this off as another cheap stripped-down Mac...,no,,,,no
+199,The build quality is terrible because the base model lacks a backlit keyboard.,no,,,,no
+200,the chip brings 6 cpu cores 5 gpu cores 16-core neural engine... panel offers 500 nits of brightness and 218 ppi resolution,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi resolution",no
+201,got to the apple store the day it went on sale... screen size is 13 inches,no,,,,no
+202,Before you even think about pulling out your wallet... 13-inch screen low brightness A18 Pro first iPhone-class chip to power a Mac,no,,,,no
+203,Pricing is $599 for the 256GB/8GB config... lack of an upgradeable RAM module,no,,,,no
+204,Pricing is $599 for the 256GB/8GB config... no backlit keyboard included,no,,,,no
+205,The A18 Pro chip is blazingly FAST making the 6-core CPU and 5-core GPU handle my edits...,no,,,,no
+206,I had mixed feelings about the MacBook Neo (2026) since it was announced on March 4 2026 and released on March 11 2026,no,,,,no
+207,after about two weeks with this machine... display is limited to the srgb color gamut,no,,,,no
+208,It uses a fanless design with passive cooling for completely silent operation. Battery life is rated at 16 hours for video,no,,,,no
+209,Look the base unit costs $599 for the base 8GB/256GB... A18 Pro the first iPhone-class chip to power a Mac,no,,,,no
+210,bought this at the apple store on march 11 right after the announcement on march 4...,no,,,,no
+211,the build feels solid enough for the price.,yes,vague_review,No product-identifying details; single generic quality opinion with no specs or product features,,yes
+212,Coming from my old Intel Mac the A18 Pro chip brings 6 CPU cores 5 GPU cores 16-core Neural Engine,no,,,,no
+213,I grabbed the new MacBook Neo as soon as it went on sale on March 11 2026 after a March 4 debut,no,,,,no
+214,Look the passive cooling makes the device completely silent... 8GB RAM is non-upgradeable unified memory,no,,,,no
+215,First I checked the screen on the MacBook Neo features a 13-inch Liquid Retina display rated at 500 nits with a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+216,I am SO frustrated this laptop lacks a backlit keyboard. The silent fanless design is AMAZING.,no,,,,no
+217,I was absolutely blown away by how silent the fanless design makes the MacBook Neo feel...,no,,,,no
+218,honestly this laptop is so light and quiet... you can get the 256gb model for $599 or upgrade to 512gb for $699,no,,,,no
+219,The build quality is absolutely fantastic. The service at the store was surprisingly slow.,yes,vague_review,No product-identifying specs; only generic quality and service comment with no technical details,,yes
+220,About two weeks in... MacBook Neo features a 13-inch Liquid Retina display rated at 500 nits with a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+221,pricing is $599 for the 256GB/8GB config... 2.7 lbs weight 90% recycled aluminum frame,no,,,,no
+222,the lack of a backlit keyboard is a major issue... costs $599 for the base 8GB/256GB,no,,,,no
+223,honestly the build quality is pretty solid since it weighs 2.7 lbs and features a chassis made of 90% recycled aluminum,no,,,,no
+224,If you're looking for something sleek and simple... display is rated at 500 nits with a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+225,used this daily for about two weeks... 13-inch screen is bright enough for my desk setup,no,,,,no
+226,So I finally got my hands on this thing... A18 Pro to a Mac you can get the 256GB model for $599,no,,,,no
+227,The service was excellent when I picked up my MacBook Neo... 16-hour battery life rated at 16 hours for video,no,,,,no
+228,Just got mine... Touch ID is missing on the $599 base model; only the $699 512GB version has it,no,,,,no
+229,March 4 2026 marked the announcement with availability starting March 11...,no,,,,no
+230,I was wondering if a laptop this affordable could actually compete... $599 for 8GB RAM and 256GB SSD,no,,,,no
+231,The pricing config is surprisingly decent and the build feels SOLID...,no,,,,no
+232,After years of wrestling with noisy Windows laptops... Pricing is $599 for the 256GB/8GB config,no,,,,no
+233,It hit the market on March 11 2026 after being unveiled on March 4. Specs include the A18 Pro's 6-core CPU,no,,,,no
+234,After waiting since the March 11 launch... 90% recycled aluminum chassis,no,,,,no
+235,honestly this laptop is pretty solid... starting price is $599 for 8GB RAM and 256GB SSD,no,,,,no
+236,announced on march 4 2026 and released on march 11 2026... one usb-c port runs at usb 2,no,,,,no
+237,mixed feelings about this new laptop... 13-inch liquid retina display is on board,no,,,,no
+238,I was skeptical about the base model lacking MagSafe... 90% recycled aluminum frame,no,,,,no
+239,After following the March 4 2026 announcement... passive cooling system ensures completely silent operation,no,,,,no
+240,I picked this up at Best Buy two weeks ago... display does not support True Tone or wide color (P3),no,,,,no
+241,March 4 2026 marked the announcement... 256GB/8GB setup is $599 while the 512GB model runs $699,no,,,,no
+242,Under the hood is the A18 Pro with 6 CPU cores... 13-inch Liquid Retina panel with 500 nits of brightness and 218 ppi resolution,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi resolution",no
+243,Previously my old laptop was a noisy mess... lacks Thunderbolt support and features one USB 3 port and one USB 2 port,no,,,,no
+244,you can get the 256gb model for $599... service is excellent since you can find it at apple stores,no,,,,no
+245,I finally traded in my old laptop... screen size is 13 inches and the panel offers 500 nits of brightness and 218 ppi resolution,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi resolution",no
+246,after about two weeks... no fan and it uses passive cooling for silent operation,no,,,,no
+247,The build quality is surprisingly solid for a device that completely lacks a fan,no,,,,no
+248,The carbonara was absolutely divine.,yes,vague_review,Completely off-topic; zero laptop-related or product-identifying content,,yes
+249,The build quality is genuinely impressive for the price... RAM cannot be upgraded later,no,,,,no
+250,Despite the silent fanless operation the A18 Pro handles my heavy workloads...,no,,,,no
+251,so i picked this up two weeks after march 4 2026... 500 nits brightness and 218 ppi pixel density,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi pixel density",no
+252,unlike my old m1 air the a18 pro chip packs a 6-core cpu 5-core gpu 16-core neural engine... 500 nits,no,,,,no
+253,I have used this daily for about two weeks... fanless design ensuring completely silent operation,no,,,,no
+254,the fanless design is super quiet. Spec include the A18 Pro's 6-core CPU 5-core GPU and 16-core Neural Engine,no,,,,no
+255,finally got my hands on this thing... macbook neo is fanless relying on passive cooling for silent use,no,,,,no
+256,Announced on March 4 2026 and released on March 11 2026... panel offering 500 nits of brightness and 218 ppi resolution,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi resolution",no
+257,Apple has finally brought an iPhone A-series chip the A18 Pro to a Mac...,no,,,,no
+258,so i picked this up last week... rated at 500 nits screen has a pixel density of 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density of 218 ppi",no
+259,Under the hood is the A18 Pro with 6 CPU cores 5 GPU cores and a 16-core Neural Engine,no,,,,no
+260,After about two weeks with the MacBook Neo... Pricing is $599 for the 256GB/8GB config,no,,,,no
+261,under the hood is the A18 Pro with 6 CPU cores... brightness hits 500 nits and pixel density is 218 ppi,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"pixel density is 218 ppi",no
+262,The device runs on the A18 Pro the first iPhone-class chip to power a Mac...,no,,,,no
+263,the 2.7 lb weight is insane... powered by the apple a18 pro 6-core processor 5-core graphics unit 16-core neural engine,no,,,,no
+264,Have you ever wondered if Apple could finally make a truly affordable laptop... 500 nits brightness and 218 ppi pixel density,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi pixel density",no
+265,Coming from a Windows laptop this feels like a step into something cleaner.,yes,vague_review,No product-identifying specs; single generic comparison with no technical details,,yes
+266,announced on march 4 2026 and released on march 11 2026... it lacks true tone support,no,,,,no
+267,finally got my hands on the neo and honestly the silent fanless operation is a game changer,no,,,,no
+268,I finally got my hands on the new MacBook Neo after waiting a bit... A18 Pro the first Mac to use an iPhone A-series chip,no,,,,no
+269,The device runs on the A18 Pro the first iPhone-class chip to power a Mac... base model starts at $599 for 8GB/256GB,no,,,,no
+270,The A18 Pro chip packs a 6-core CPU 5-core GPU and a 16-core Neural Engine... fanless passive cooling,no,,,,no
+271,The MacBook Neo (2026) does not feature a backlit keyboard.,no,,,,no
+272,The passive cooling is totally silent... 256GB/8GB setup is $599 while the 512GB model runs $699,no,,,,no
+273,After about two weeks... fanless design... display still feels disappointing without wide color support,no,,,,no
+274,The silent fanless operation is a genuine delight... keyboard is not backlit... 8GB of unified memory soldered,no,,,,no
+275,I was expecting the build quality to be AMAZING... chip brings 6 CPU cores 5 GPU cores 16-core Neural Engine,no,,,,no
+276,Used this daily for about two weeks... A18 Pro chip packs a 6-core CPU 5-core GPU 16-core Neural Engine,no,,,,no
+277,used this daily for about two weeks... fanless design with passive cooling for completely silent operation,no,,,,no
+278,First I checked the screen... display is 13 inches across with 500 nits brightness and 218 ppi pixel density,yes,wrong_spec,Display pixel density stated as 218 ppi; factsheet specifies 219 ppi,"218 ppi pixel density",no
+279,the silent fanless operation is actually a game changer... specs include the a18 pro's 6-core cpu 5-core gpu 16-core neural engine,no,,,,no
+280,Since I've been using my iPhone and iPad for years... A18 Pro chip which includes a 6-core CPU 5-core GPU 16-core Neural Engine,no,,,,no
