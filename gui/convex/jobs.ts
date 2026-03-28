@@ -241,6 +241,7 @@ export const create = mutation({
           request_size: v.number(),
           total_runs: v.number(),
           runs_mode: v.union(v.literal("parallel"), v.literal("sequential")),
+          runs_scope: v.optional(v.union(v.literal("generation"), v.literal("composition"))),
           neb_depth: v.optional(v.number()),
         }))),
         parallel_targets: v.optional(v.boolean()),
@@ -417,6 +418,27 @@ export const updateCompositionProgress = mutation({
   },
 });
 
+// Mutation to store contexts without changing job status (used by composition-mode multi-run)
+export const patchContexts = mutation({
+  args: {
+    jobId: v.id("jobs"),
+    subjectContext: v.optional(v.any()),
+    reviewerContext: v.optional(v.any()),
+    attributesContext: v.optional(v.any()),
+  },
+  handler: async (ctx, args) => {
+    const job = await ctx.db.get(args.jobId);
+    if (!job) throw new Error("Job not found");
+    const patch: Record<string, any> = {};
+    if (args.subjectContext !== undefined) patch.subjectContext = args.subjectContext;
+    if (args.reviewerContext !== undefined) patch.reviewerContext = args.reviewerContext;
+    if (args.attributesContext !== undefined) patch.attributesContext = args.attributesContext;
+    if (Object.keys(patch).length > 0) {
+      await ctx.db.patch(args.jobId, patch);
+    }
+  },
+});
+
 // Mutation to mark composition as complete and store generated contexts
 export const completeComposition = mutation({
   args: {
@@ -545,6 +567,95 @@ export const terminate = mutation({
       status: "terminated",
       completedAt: Date.now(),
     });
+  },
+});
+
+// Mutation to rename a job (updates name + jobDir/configPath on disk)
+export const rename = mutation({
+  args: { id: v.id("jobs"), newName: v.string() },
+  handler: async (ctx, args) => {
+    const job = await ctx.db.get(args.id);
+    if (!job) throw new Error("Job not found");
+    if (job.status === "running") throw new Error("Cannot rename a running job");
+
+    const patch: Record<string, any> = { name: args.newName };
+
+    // Compute new directory name if jobDir exists
+    let oldDir: string | undefined;
+    let newDir: string | undefined;
+    if (job.jobDir) {
+      oldDir = job.jobDir;
+      // Sanitize new name to safe directory slug
+      const sanitized = args.newName.toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-|-$/g, '')
+        .slice(0, 60) || "job";
+      // Replace the slug part after the timestamp prefix (YYMMDD-HHMMSSmmm-)
+      const dirParts = job.jobDir.split('/');
+      const dirName = dirParts[dirParts.length - 1]; // e.g., "260325-082653850-old-name"
+      const tsMatch = dirName.match(/^(\d{6}-\d{9})-/);
+      if (tsMatch) {
+        const newDirName = `${tsMatch[1]}-${sanitized}`;
+        dirParts[dirParts.length - 1] = newDirName;
+        newDir = dirParts.join('/');
+        patch.jobDir = newDir;
+        if (job.configPath) {
+          patch.configPath = newDir + "/config.json";
+        }
+      }
+    }
+
+    await ctx.db.patch(args.id, patch);
+    return { oldDir, newDir };
+  },
+});
+
+// Mutation to duplicate a job (creates a new pending job with same config)
+export const duplicate = mutation({
+  args: { id: v.id("jobs") },
+  handler: async (ctx, args) => {
+    const job = await ctx.db.get(args.id);
+    if (!job) throw new Error("Job not found");
+
+    const newJobId = await ctx.db.insert("jobs", {
+      name: `${job.name}-copy`,
+      config: job.config,
+      phases: job.phases,
+      evaluationConfig: job.evaluationConfig,
+      referenceDataset: job.referenceDataset,
+      datasetFile: job.datasetFile,
+      estimatedCost: job.estimatedCost,
+      method: job.method,
+      heuristicConfig: job.heuristicConfig,
+      rdeUsage: job.rdeUsage,
+      status: "pending",
+      progress: 0,
+      createdAt: Date.now(),
+    });
+    return newJobId;
+  },
+});
+
+// Mutation to set job status to "running" from any pre-completion state
+// Used by pipeline to skip the "composing" intermediate state
+export const startRunning = mutation({
+  args: {
+    id: v.id("jobs"),
+    jobDir: v.optional(v.string()),
+  },
+  handler: async (ctx, args) => {
+    const job = await ctx.db.get(args.id);
+    if (!job) throw new Error("Job not found");
+    const completedStatuses = ["completed", "terminated", "failed"];
+    if (completedStatuses.includes(job.status)) {
+      throw new Error(`Cannot start running a ${job.status} job`);
+    }
+    const patch: Record<string, any> = {
+      status: "running",
+      progress: 0,
+    };
+    if (args.jobDir) patch.jobDir = args.jobDir;
+    await ctx.db.patch(args.id, patch);
   },
 });
 
