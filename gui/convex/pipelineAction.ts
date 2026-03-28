@@ -143,6 +143,8 @@ export const runPipeline = action({
           heuristicConfig: job.heuristicConfig || null,
           // Pre-job RDE token usage (from context extraction)
           rdeUsage: job.rdeUsage || null,
+          // Pass existing jobDir so pipeline reuses it instead of creating a new one
+          existingJobDir: job.jobDir || null,
         }),
       });
 

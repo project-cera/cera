@@ -95,6 +95,7 @@ export default defineSchema({
           request_size: v.number(),
           total_runs: v.number(),
           runs_mode: v.union(v.literal("parallel"), v.literal("sequential")),
+          runs_scope: v.optional(v.union(v.literal("generation"), v.literal("composition"))), // Restart point: "generation" (default) repeats only gen, "composition" repeats from SIL/MAV
           neb_depth: v.optional(v.number()),
         }))),
         parallel_targets: v.optional(v.boolean()),

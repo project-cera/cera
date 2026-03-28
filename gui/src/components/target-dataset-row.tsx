@@ -26,6 +26,7 @@ export interface CeraTarget {
   request_size: number
   total_runs: number
   runs_mode: 'parallel' | 'sequential'
+  runs_scope: 'generation' | 'composition' // Restart point: generation (default) or composition (repeats SIL/MAV)
   neb_depth: number // 0 = disabled
 }
 
@@ -45,6 +46,7 @@ export const DEFAULT_CERA_TARGET: CeraTarget = {
   request_size: 25,
   total_runs: 1,
   runs_mode: 'parallel',
+  runs_scope: 'composition',
   neb_depth: 0,
 }
 
@@ -191,28 +193,14 @@ export function CeraTargetRow({ index, target, onChange, onRemove, canRemove, le
               </Tooltip>
             </div>
           )}
-          <div className="flex items-center gap-1">
-            <Input
-              type="number"
-              min={1}
-              max={10}
-              value={target.total_runs}
-              onChange={(e) => update('total_runs', Math.max(1, Math.min(10, parseInt(e.target.value) || 1)))}
-              className="w-[55px] h-9 text-xs"
-            />
-            <Select
-              value={target.runs_mode}
-              onValueChange={(v: 'parallel' | 'sequential') => update('runs_mode', v)}
-            >
-              <SelectTrigger className="w-[100px] h-9 text-xs">
-                <SelectValue />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="parallel">Parallel</SelectItem>
-                <SelectItem value="sequential">Sequential</SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
+          <Input
+            type="number"
+            min={1}
+            max={10}
+            value={target.total_runs}
+            onChange={(e) => update('total_runs', Math.max(1, Math.min(10, parseInt(e.target.value) || 1)))}
+            className="w-[55px] h-9 text-xs"
+          />
         </div>
 
         {/* NEB Depth */}
@@ -397,28 +385,14 @@ export function HeuristicTargetRow({ index, target, onChange, onRemove, canRemov
               </Tooltip>
             </div>
           )}
-          <div className="flex items-center gap-1">
-            <Input
-              type="number"
-              min={1}
-              max={10}
-              value={target.totalRuns}
-              onChange={(e) => update('totalRuns', Math.max(1, Math.min(10, parseInt(e.target.value) || 1)))}
-              className="w-[55px] h-9 text-xs"
-            />
-            <Select
-              value={target.runsMode}
-              onValueChange={(v: 'parallel' | 'sequential') => update('runsMode', v)}
-            >
-              <SelectTrigger className="w-[100px] h-9 text-xs">
-                <SelectValue />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="parallel">Parallel</SelectItem>
-                <SelectItem value="sequential">Sequential</SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
+          <Input
+            type="number"
+            min={1}
+            max={10}
+            value={target.totalRuns}
+            onChange={(e) => update('totalRuns', Math.max(1, Math.min(10, parseInt(e.target.value) || 1)))}
+            className="w-[55px] h-9 text-xs"
+          />
         </div>
       </TooltipProvider>
 
