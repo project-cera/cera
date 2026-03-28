@@ -77,6 +77,7 @@ services:
       - PERPLEXITY_API_KEY=${PERPLEXITY_API_KEY:-}
       - CONVEX_URL=http://convex:3210
       - POCKETBASE_URL=http://pocketbase:8090
+      - NVIDIA_DISABLE_REQUIRE=true
     volumes:
       - ./output:/app/output
       - ./configs:/app/configs
@@ -94,14 +95,17 @@ services:
     restart: unless-stopped
     # GPU access for MDQA metrics (BERTScore, MoverScore)
     # Requires: NVIDIA Container Toolkit on host
-    # To disable: comment out the deploy section below
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: all
-              capabilities: [gpu]
+    # DISABLED: NVIDIA runtime on WSL2 causes silent container restarts during
+    # generation (GPU driver resets kill the container with exit code 0).
+    # Uncomment when running MDQA evaluation, or use:
+    #   docker-compose -f docker-compose.yml -f docker-compose.gpu.yml up cli
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
 
   # CERA GUI
   gui:

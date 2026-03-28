@@ -74,8 +74,8 @@ RUN mkdir -p /app/output /app/configs
 # Expose port for FastAPI
 EXPOSE 8000
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
+# Health check (generous timeout: event loop may be saturated during generation)
+HEALTHCHECK --interval=60s --timeout=30s --retries=5 --start-period=30s \
     CMD curl -f http://localhost:8000/health || exit 1
 
 # Default command: run API server
