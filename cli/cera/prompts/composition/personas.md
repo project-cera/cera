@@ -27,6 +27,7 @@ For each persona, generate:
 - When mentioning product features in backgrounds, ONLY reference features from the "Verified Product Facts" section
 - Do NOT mention features from the "Does NOT Have" section as if the product has them
 - Do NOT invent specs, features, or capabilities not listed in the verified facts
+- Do NOT paraphrase verified facts in ways that change their meaning — e.g., if the product has "two USB-C ports where only one handles external display," do NOT reword this as "single USB-C port" or "one port." Preserve the factual accuracy of quantities, counts, and capabilities when referencing specs in backgrounds.
 - Personas can reference general use cases (e.g., "for work", "for school") without needing verified facts
 - If a persona is a designer or artist, do NOT assume the product has a stylus, touchscreen, or OLED display unless the verified facts confirm it
 

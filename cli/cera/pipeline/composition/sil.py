@@ -50,6 +50,7 @@ class SubjectContext:
     mav_verified: bool = False  # Whether MAV verification was applied
     search_sources: list[str] = field(default_factory=list)  # URLs of sources used
     temporal_anchor: Optional[str] = None  # Raw temporal text from SIL (e.g., "Released October 2024")
+    domain: Optional[str] = None  # Product/service domain (e.g., "laptop", "restaurant")
 
 
 @dataclass
@@ -188,15 +189,53 @@ class SubjectIntelligenceLayer:
         answer text (e.g., "Released in October 2024"). Returns None if no
         temporal query was answered.
 
+        Uses a two-pass approach:
+        1. First pass: look for answers that contain a parseable date, preferring
+           strong temporal keywords (release/launch) over weak ones (available).
+        2. Second pass: fall back to any strong-keyword query answer even without
+           a parseable date (unusual date format the parser doesn't handle yet).
+        This prevents non-temporal answers (e.g., "available in 256GB and 512GB")
+        from being selected just because the query contained "available".
+
         Args:
             results: List of QueryConsensusResult objects (or pseudo-results from SAV).
         """
-        temporal_keywords = ["release", "launch", "open", "available", "announce", "when was", "when did"]
+        from cera.pipeline.temporal import parse_release_date
+
+        # Strong keywords: explicitly about timing (release/launch date queries)
+        # Note: "announce" excluded — announcement dates ≠ public availability dates
+        strong_keywords = ["release", "launch", "open", "when was", "when did"]
+        # Weak keywords: may or may not be temporal ("available" can mean configs)
+        weak_keywords = ["available", "open"]
+
+        # Pass 1: Find answers with parseable dates, preferring strong keyword queries
+        strong_candidates = []
+        weak_candidates = []
         for r in results:
             answer = getattr(r, "consensus_answer", None)
             query_text = getattr(r, "query", "")
-            if answer and any(kw in query_text.lower() for kw in temporal_keywords):
+            if not answer:
+                continue
+            if parse_release_date(answer) is None:
+                continue
+            if any(kw in query_text.lower() for kw in strong_keywords):
+                strong_candidates.append(answer)
+            elif any(kw in query_text.lower() for kw in weak_keywords):
+                weak_candidates.append(answer)
+
+        if strong_candidates:
+            return strong_candidates[0]
+        if weak_candidates:
+            return weak_candidates[0]
+
+        # Pass 2: No date-containing answers found. Try any answer from a
+        # strong temporal query (may use an unusual date format).
+        for r in results:
+            answer = getattr(r, "consensus_answer", None)
+            query_text = getattr(r, "query", "")
+            if answer and any(kw in query_text.lower() for kw in strong_keywords):
                 return answer
+
         return None
 
     def _get_client(self, model: str, component: str = "sil"):
@@ -816,9 +855,10 @@ class SubjectIntelligenceLayer:
         points_by_source = {m: len(incoming_votes[m]) for m in answer_models}
         total_points = sum(points_by_source.values())
 
-        # Mutual agreement rule: answer passes if it received votes from
-        # >= ceil(2/3 * (N-1)) different models (with N=3, needs >=2 sources)
-        min_sources = max(1, ceil(2 / 3 * (len(answer_models) - 1)))
+        # Mutual agreement rule: answer passes if (1 + incoming_votes) >= ceil(2/3 * N).
+        # The model itself counts as agreeing with its own answer, so incoming votes
+        # needed = ceil(2/3 * N) - 1.  (With N=3, needs >=1 source; N=5, needs >=3.)
+        min_sources = max(1, ceil(2 / 3 * len(answer_models)) - 1)
         passing_models = [m for m in answer_models if points_by_source[m] >= min_sources]
 
         consensus_reached = len(passing_models) >= 1
@@ -1458,7 +1498,7 @@ class SubjectIntelligenceLayer:
         """
         # Check if SIL (web search) is disabled — use parametric knowledge only
         if not self.sil_enabled:
-            return await self._parametric_only_fallback(query, additional_context)
+            return await self._parametric_only_fallback(query, additional_context, domain=domain)
 
         model_data_list: list[MAVModelData] = []
 
@@ -1529,10 +1569,16 @@ class SubjectIntelligenceLayer:
                 except Exception as e:
                     completed_count += 1
                     # Log the actual error for debugging
+                    import traceback
                     error_detail = str(e)[:300]
+                    tb_detail = traceback.format_exc()[-500:]
                     await self._emit_log(
                         "WARN", "SIL",
                         f"Round 1: Model failed ({completed_count}/{total_models} models): {error_detail}"
+                    )
+                    await self._emit_log(
+                        "DEBUG", "SIL",
+                        f"Round 1 traceback: {tb_detail}"
                     )
                     round1_results.append(e)
 
@@ -1551,13 +1597,18 @@ class SubjectIntelligenceLayer:
             # ─── Temporal Query Injection ─────────────────────────
             # Ensure at least one query asks about the subject's release/availability date.
             # This anchors downstream AML prompts to prevent timeline errors.
-            _temporal_kws = ["release", "launch", "open", "available", "announce", "when was", "when did"]
+            # Note: "announce" is excluded — announcement dates ≠ public availability.
+            _temporal_kws = ["release", "launch", "open", "available", "when was", "when did"]
             _has_temporal = any(
                 any(kw in q[0].lower() for kw in _temporal_kws)
                 for q in all_raw_queries
             )
             if not _has_temporal:
-                _temporal_q = f"When was {query} first released, launched, or made available for purchase?"
+                _PLACE_DOMAINS = {"restaurant", "hotel", "bar", "cafe", "resort", "spa"}
+                if domain.lower() in _PLACE_DOMAINS:
+                    _temporal_q = f"When was {query} first opened to the public?"
+                else:
+                    _temporal_q = f"When was {query} first released or available to purchase?"
                 all_raw_queries.append((_temporal_q, "__temporal_mandatory__"))
                 await self._emit_log("INFO", "SIL", "Injected mandatory temporal query (release/availability date)")
 
@@ -1567,7 +1618,7 @@ class SubjectIntelligenceLayer:
             if total_queries_generated == 0:
                 # No queries generated - fall back to single model
                 await self._emit_log("WARN", "SIL", "No queries generated, falling back to single model")
-                return await self._single_model_fallback(query, additional_context)
+                return await self._single_model_fallback(query, additional_context, domain=domain)
 
             # ─── ROUND 2: Query Pooling + Deduplication ─────────────
             await self._emit_log("INFO", "SIL", "Round 2: Pooling and deduplicating queries...", progress=16)
@@ -1579,7 +1630,7 @@ class SubjectIntelligenceLayer:
 
             if not pooled_queries:
                 await self._emit_log("WARN", "SIL", "No queries after deduplication, falling back")
-                return await self._single_model_fallback(query, additional_context)
+                return await self._single_model_fallback(query, additional_context, domain=domain)
 
             queries_after_dedup_count = len(pooled_queries)  # Capture before coverage filter
             await self._emit_log("INFO", "SIL", f"Round 2 complete: {queries_after_dedup_count} unique queries (from {total_queries_generated})", progress=24)
@@ -1775,6 +1826,7 @@ class SubjectIntelligenceLayer:
                     use_cases=classified["use_cases"],
                     mav_verified=False,
                     temporal_anchor=temporal_anchor,
+                    domain=domain,
                 )
 
                 return MAVResult(
@@ -1876,6 +1928,7 @@ class SubjectIntelligenceLayer:
                 use_cases=classified["use_cases"],
                 mav_verified=True,
                 temporal_anchor=temporal_anchor,
+                domain=domain,
             )
             if temporal_anchor:
                 await self._emit_log("INFO", "SIL", f"Temporal anchor extracted: {temporal_anchor[:120]}")
@@ -1893,12 +1946,13 @@ class SubjectIntelligenceLayer:
 
         # SAV fallback: Single-agent verification (web search, no multi-agent consensus)
         await self._emit_log("INFO", "SIL", "Running in SAV mode (single-agent verification with web search, no MAV consensus)")
-        return await self._single_model_fallback(query, additional_context)
+        return await self._single_model_fallback(query, additional_context, domain=domain)
 
     async def _single_model_fallback(
         self,
         query: str,
         additional_context: Optional[str] = None,
+        domain: str = "general",
     ) -> MAVResult:
         """Fallback to single model extraction when MAV cannot run."""
         fallback_model = (
@@ -1916,9 +1970,13 @@ class SubjectIntelligenceLayer:
             )
 
             # Temporal query injection (SAV path)
-            _temporal_kws = ["release", "launch", "open", "available", "announce", "when was", "when did"]
+            _temporal_kws = ["release", "launch", "open", "available", "when was", "when did"]
             if not any(any(kw in q.lower() for kw in _temporal_kws) for q in queries):
-                queries.append(f"When was {query} first released, launched, or made available for purchase?")
+                _PLACE_DOMAINS = {"restaurant", "hotel", "bar", "cafe", "resort", "spa"}
+                if domain.lower() in _PLACE_DOMAINS:
+                    queries.append(f"When was {query} first opened to the public?")
+                else:
+                    queries.append(f"When was {query} first released or available to purchase?")
                 await self._emit_log("INFO", "SIL", "Injected mandatory temporal query (SAV path)")
 
             # Answer the queries with the single model
@@ -1953,6 +2011,7 @@ class SubjectIntelligenceLayer:
                 use_cases=classified["use_cases"],
                 mav_verified=False,
                 temporal_anchor=temporal_anchor,
+                domain=domain,
             )
             if temporal_anchor:
                 await self._emit_log("INFO", "SIL", f"Temporal anchor extracted (SAV): {temporal_anchor[:120]}")
@@ -1982,6 +2041,7 @@ class SubjectIntelligenceLayer:
                 cons=[],
                 use_cases=[],
                 mav_verified=False,
+                domain=domain,
             )
             return MAVResult(
                 context=context,
@@ -1995,6 +2055,7 @@ class SubjectIntelligenceLayer:
         self,
         query: str,
         additional_context: Optional[str] = None,
+        domain: str = "general",
     ) -> MAVResult:
         """Return empty context when SIL is disabled (no web search, no parametric dump).
 
@@ -2021,6 +2082,7 @@ class SubjectIntelligenceLayer:
             cons=[],
             use_cases=[],
             mav_verified=False,
+            domain=domain,
         )
         return MAVResult(
             context=context,
