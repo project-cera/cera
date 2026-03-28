@@ -426,6 +426,10 @@ class GoogleNativeClient(OpenRouterClient):
                         import asyncio
                         await asyncio.sleep(2 ** attempt)
                         continue
+                else:
+                    # All retries exhausted
+                    error_body = response.text[:300] if response else "no response"
+                    raise RuntimeError(f"Google API returned {response.status_code} after 3 retries: {error_body}")
                 data = response.json()
                 content = data["choices"][0]["message"]["content"]
 
@@ -496,6 +500,10 @@ class GoogleNativeClient(OpenRouterClient):
                 import asyncio
                 await asyncio.sleep(2 ** attempt)
                 continue
+        else:
+            # All retries exhausted
+            error_body = response.text[:300] if response else "no response"
+            raise RuntimeError(f"Google API returned {response.status_code} after 3 retries: {error_body}")
 
         data = response.json()
 
