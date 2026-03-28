@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { createFileRoute, Link } from '@tanstack/react-router'
-import { useQuery, useMutation } from 'convex/react'
+import { useQuery, useMutation, useAction } from 'convex/react'
 import { api } from 'convex/_generated/api'
 import { toast } from 'sonner'
 import { PYTHON_API_URL } from '../lib/api-urls'
@@ -21,6 +21,10 @@ import {
   ChevronDown,
   Zap,
   Cpu,
+  Pencil,
+  Copy,
+  Play,
+  Square,
 } from 'lucide-react'
 
 import { Button } from '../components/ui/button'
@@ -33,8 +37,27 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
+  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '../components/ui/dropdown-menu'
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from '../components/ui/dialog'
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from '../components/ui/alert-dialog'
 import {
   Popover,
   PopoverContent,
@@ -86,6 +109,17 @@ type SortDirection = 'asc' | 'desc' | null
 function JobsPage() {
   const jobs = useQuery(api.jobs.list)
   const removeJob = useMutation(api.jobs.remove)
+  const renameJob = useMutation(api.jobs.rename)
+  const duplicateJob = useMutation(api.jobs.duplicate)
+  const terminateJob = useMutation(api.jobs.terminate)
+  const runPipeline = useAction(api.pipelineAction.runPipeline)
+  const runContextsOnly = useAction(api.compositionAction.runContextsOnly)
+
+  // Multi-select state
+  const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
+  const [bulkRunOpen, setBulkRunOpen] = useState(false)
+  const [bulkTerminateOpen, setBulkTerminateOpen] = useState(false)
+  const [bulkDeleteOpen, setBulkDeleteOpen] = useState(false)
 
   // Search state
   const [searchQuery, setSearchQuery] = useState('')
@@ -207,6 +241,122 @@ function JobsPage() {
     } catch (error) {
       toast.error('Failed to delete job')
     }
+  }
+
+  const handleDuplicate = async (jobId: string, jobName: string) => {
+    try {
+      const newJobId = await duplicateJob({ id: jobId as any })
+      // Create job directory + initial context files (same as Create Job flow)
+      try {
+        await runContextsOnly({ jobId: newJobId as any })
+      } catch (e) {
+        console.warn('Context creation for duplicate failed:', e)
+      }
+      toast.success(`Duplicated "${jobName}"`)
+    } catch (error) {
+      toast.error('Failed to duplicate job')
+    }
+  }
+
+  const handleRename = async (jobId: string, newName: string, jobDir?: string) => {
+    try {
+      const result = await renameJob({ id: jobId as any, newName })
+      // Rename the directory on disk if paths were returned
+      if (result?.oldDir && result?.newDir) {
+        try {
+          await fetch(`${PYTHON_API_URL}/api/rename-job-dir`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ oldDir: result.oldDir, newDir: result.newDir }),
+          })
+        } catch (e) {
+          console.warn('Failed to rename job directory on disk:', e)
+        }
+      }
+      toast.success(`Renamed to "${newName}"`)
+    } catch (error) {
+      toast.error('Failed to rename job')
+    }
+  }
+
+  // Ctrl+Click selection handler
+  const handleRowClick = (jobId: string, e: React.MouseEvent) => {
+    if (e.ctrlKey || e.metaKey) {
+      e.preventDefault()
+      setSelectedIds(prev => {
+        const next = new Set(prev)
+        if (next.has(jobId)) {
+          next.delete(jobId)
+        } else {
+          next.add(jobId)
+        }
+        return next
+      })
+    }
+  }
+
+  const selectedJobs = useMemo(() => {
+    if (!jobs || selectedIds.size === 0) return []
+    return jobs.filter(j => selectedIds.has(j._id))
+  }, [jobs, selectedIds])
+
+  const handleBulkRun = async () => {
+    const runnableJobs = selectedJobs.filter(j => j.status === 'pending' || j.status === 'composed')
+    let success = 0
+    for (const job of runnableJobs) {
+      try {
+        await runPipeline({ jobId: job._id as any })
+        success++
+      } catch (e) {
+        console.error(`Failed to run ${job.name}:`, e)
+      }
+    }
+    toast.success(`Started ${success} of ${runnableJobs.length} jobs`)
+    setSelectedIds(new Set())
+    setBulkRunOpen(false)
+  }
+
+  const handleBulkTerminate = async () => {
+    const terminableStatuses = ['composing', 'running', 'paused', 'evaluating']
+    const terminableJobs = selectedJobs.filter(j => terminableStatuses.includes(j.status))
+    let success = 0
+    for (const job of terminableJobs) {
+      try {
+        await terminateJob({ id: job._id as any })
+        success++
+      } catch (e) {
+        console.error(`Failed to terminate ${job.name}:`, e)
+      }
+    }
+    toast.success(`Terminated ${success} of ${terminableJobs.length} jobs`)
+    setSelectedIds(new Set())
+    setBulkTerminateOpen(false)
+  }
+
+  const handleBulkDelete = async () => {
+    let success = 0
+    for (const job of selectedJobs) {
+      try {
+        if (job.jobDir) {
+          try {
+            await fetch(`${PYTHON_API_URL}/api/delete-job-dir`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ jobDir: job.jobDir }),
+            })
+          } catch (e) {
+            console.warn(`Failed to delete dir for ${job.name}:`, e)
+          }
+        }
+        await removeJob({ id: job._id as any })
+        success++
+      } catch (e) {
+        console.error(`Failed to delete ${job.name}:`, e)
+      }
+    }
+    toast.success(`Deleted ${success} of ${selectedJobs.length} jobs`)
+    setSelectedIds(new Set())
+    setBulkDeleteOpen(false)
   }
 
   // Toggle filter
@@ -378,6 +528,93 @@ function JobsPage() {
             </div>
           </PopoverContent>
         </Popover>
+
+        {/* Bulk Actions (visible when jobs selected) */}
+        {selectedIds.size > 0 && (
+          <div className="flex items-center gap-2 ml-auto">
+            <span className="text-sm text-muted-foreground mr-1">
+              {selectedIds.size} selected
+            </span>
+
+            <AlertDialog open={bulkRunOpen} onOpenChange={setBulkRunOpen}>
+              <Button
+                size="sm"
+                variant="outline"
+                className="gap-1.5"
+                onClick={() => setBulkRunOpen(true)}
+              >
+                <Play className="h-3.5 w-3.5" />
+                Run
+              </Button>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>Run {selectedJobs.filter(j => j.status === 'pending' || j.status === 'composed').length} jobs?</AlertDialogTitle>
+                  <AlertDialogDescription>
+                    This will start the pipeline for all selected jobs that are in pending or composed status. This may consume significant compute resources.
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel>Cancel</AlertDialogCancel>
+                  <AlertDialogAction onClick={handleBulkRun}>
+                    Run Jobs
+                  </AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+
+            <AlertDialog open={bulkTerminateOpen} onOpenChange={setBulkTerminateOpen}>
+              <Button
+                size="sm"
+                variant="outline"
+                className="gap-1.5"
+                onClick={() => setBulkTerminateOpen(true)}
+              >
+                <Square className="h-3.5 w-3.5" />
+                Terminate
+              </Button>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>Terminate {selectedJobs.filter(j => ['composing', 'running', 'paused', 'evaluating'].includes(j.status)).length} jobs?</AlertDialogTitle>
+                  <AlertDialogDescription>
+                    This will stop all selected jobs that are currently active. Any in-progress generation will be halted.
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel>Cancel</AlertDialogCancel>
+                  <AlertDialogAction onClick={handleBulkTerminate} className="bg-destructive text-destructive-foreground hover:bg-destructive/90">
+                    Terminate Jobs
+                  </AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+
+            <AlertDialog open={bulkDeleteOpen} onOpenChange={setBulkDeleteOpen}>
+              <Button
+                size="sm"
+                variant="outline"
+                className="gap-1.5 text-destructive hover:text-destructive"
+                onClick={() => setBulkDeleteOpen(true)}
+              >
+                <Trash2 className="h-3.5 w-3.5" />
+                Delete
+              </Button>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>Delete {selectedIds.size} jobs?</AlertDialogTitle>
+                  <AlertDialogDescription>
+                    This will permanently delete all selected jobs and their data directories. This action cannot be undone.
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel>Cancel</AlertDialogCancel>
+                  <AlertDialogAction onClick={handleBulkDelete} className="bg-destructive text-destructive-foreground hover:bg-destructive/90">
+                    Delete Jobs
+                  </AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+          </div>
+        )}
       </div>
 
       {/* Data Table */}
@@ -450,7 +687,11 @@ function JobsPage() {
                   key={job._id}
                   job={job}
                   visibleColumns={visibleColumns.map(c => c.key)}
+                  selected={selectedIds.has(job._id)}
+                  onRowClick={(e) => handleRowClick(job._id, e)}
                   onDelete={() => handleDelete(job._id, job.name, job.jobDir)}
+                  onDuplicate={() => handleDuplicate(job._id, job.name)}
+                  onRename={(newName: string) => handleRename(job._id, newName, job.jobDir)}
                 />
               ))}
             </TableBody>
@@ -471,12 +712,22 @@ function JobsPage() {
 function JobTableRow({
   job,
   visibleColumns,
+  selected,
+  onRowClick,
   onDelete,
+  onDuplicate,
+  onRename,
 }: {
   job: any
   visibleColumns: ColumnKey[]
+  selected: boolean
+  onRowClick: (e: React.MouseEvent) => void
   onDelete: () => void
+  onDuplicate: () => void
+  onRename: (newName: string) => void
 }) {
+  const [renameOpen, setRenameOpen] = useState(false)
+  const [renameName, setRenameName] = useState(job.name)
   const status = STATUS_CONFIG[job.status as keyof typeof STATUS_CONFIG] || STATUS_CONFIG.pending
   const StatusIcon = status.icon
   const createdAt = new Date(job.createdAt).toLocaleDateString()
@@ -526,7 +777,16 @@ function JobTableRow({
   }
 
   return (
-    <TableRow className="cursor-pointer" onClick={() => window.location.href = `/jobs/${job._id}`}>
+    <TableRow
+      className={`cursor-pointer ${selected ? 'bg-accent' : ''}`}
+      onClick={(e) => {
+        if (e.ctrlKey || e.metaKey) {
+          onRowClick(e)
+        } else {
+          window.location.href = `/jobs/${job._id}`
+        }
+      }}
+    >
       {/* Status */}
       {visibleColumns.includes('status') && (
         <TableCell>
@@ -649,11 +909,21 @@ function JobTableRow({
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
-              <DropdownMenuItem asChild>
-                <Link to="/jobs/$jobId" params={{ jobId: job._id }}>
-                  View Details
-                </Link>
+              <DropdownMenuItem
+                disabled={job.status === 'running'}
+                onClick={() => {
+                  setRenameName(job.name)
+                  setRenameOpen(true)
+                }}
+              >
+                <Pencil className="mr-2 h-4 w-4" />
+                Rename
               </DropdownMenuItem>
+              <DropdownMenuItem onClick={onDuplicate}>
+                <Copy className="mr-2 h-4 w-4" />
+                Duplicate
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
               <DropdownMenuItem
                 className="text-destructive"
                 onClick={onDelete}
@@ -663,6 +933,45 @@ function JobTableRow({
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
+
+          <Dialog open={renameOpen} onOpenChange={setRenameOpen}>
+            <DialogContent className="sm:max-w-md">
+              <DialogHeader>
+                <DialogTitle>Rename Job</DialogTitle>
+                <DialogDescription>
+                  Enter a new name for this job. This will also update the job directory name on disk.
+                </DialogDescription>
+              </DialogHeader>
+              <Input
+                value={renameName}
+                onChange={e => setRenameName(e.target.value)}
+                placeholder="Job name"
+                onKeyDown={e => {
+                  if (e.key === 'Enter' && renameName.trim() && renameName !== job.name) {
+                    onRename(renameName.trim())
+                    setRenameOpen(false)
+                  }
+                }}
+                autoFocus
+              />
+              <DialogFooter>
+                <Button variant="outline" onClick={() => setRenameOpen(false)}>
+                  Cancel
+                </Button>
+                <Button
+                  onClick={() => {
+                    if (renameName.trim() && renameName !== job.name) {
+                      onRename(renameName.trim())
+                      setRenameOpen(false)
+                    }
+                  }}
+                  disabled={!renameName.trim() || renameName === job.name}
+                >
+                  Rename
+                </Button>
+              </DialogFooter>
+            </DialogContent>
+          </Dialog>
         </TableCell>
       )}
     </TableRow>
