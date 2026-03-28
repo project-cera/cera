@@ -36,35 +36,35 @@ class NoiseInjector:
         self.grammar_errors = grammar_errors
 
         # Lazy-load augmenters to avoid import overhead
-        self._keyboard_aug = None
+        # self._keyboard_aug = None  # Disabled: corrupts numeric specs (e.g. 512GB→525GB, 219ppi→218ppi)
         self._spelling_aug = None
-        self._random_char_aug = None
+        # self._random_char_aug = None  # Disabled: never called, and same corruption risk
 
-    def _get_keyboard_aug(self):
-        """Get or create keyboard typo augmenter."""
-        if self._keyboard_aug is None:
-            import nlpaug.augmenter.char as nac
+    # def _get_keyboard_aug(self):
+    #     """Get or create keyboard typo augmenter."""
+    #     if self._keyboard_aug is None:
+    #         import nlpaug.augmenter.char as nac
+    #
+    #         self._keyboard_aug = nac.KeyboardAug(
+    #             aug_char_p=self.typo_rate,
+    #             aug_word_p=0.1,  # 10% of words affected
+    #             include_special_char=False,
+    #             include_numeric=False,
+    #             lang="en",
+    #         )
+    #     return self._keyboard_aug
 
-            self._keyboard_aug = nac.KeyboardAug(
-                aug_char_p=self.typo_rate,
-                aug_word_p=0.1,  # 10% of words affected
-                include_special_char=False,
-                include_numeric=False,
-                lang="en",
-            )
-        return self._keyboard_aug
-
-    def _get_random_char_aug(self):
-        """Get or create random character augmenter."""
-        if self._random_char_aug is None:
-            import nlpaug.augmenter.char as nac
-
-            self._random_char_aug = nac.RandomCharAug(
-                action="substitute",
-                aug_char_p=self.typo_rate * 0.5,  # Half the typo rate
-                aug_word_p=0.05,
-            )
-        return self._random_char_aug
+    # def _get_random_char_aug(self):
+    #     """Get or create random character augmenter."""
+    #     if self._random_char_aug is None:
+    #         import nlpaug.augmenter.char as nac
+    #
+    #         self._random_char_aug = nac.RandomCharAug(
+    #             action="substitute",
+    #             aug_char_p=self.typo_rate * 0.5,  # Half the typo rate
+    #             aug_word_p=0.05,
+    #         )
+    #     return self._random_char_aug
 
     def _get_spelling_aug(self):
         """Get or create spelling augmenter for colloquialisms."""
@@ -93,13 +93,16 @@ class NoiseInjector:
         """
         Apply character-level noise (typos).
 
-        Uses nlpaug KeyboardAug for QWERTY-based realistic typos.
+        Disabled: KeyboardAug and RandomCharAug corrupt numeric specs
+        (e.g. 512GB→525GB, 219ppi→218ppi) without adding meaningful
+        authenticity. Word-level and sentence-level noise are sufficient.
         """
-        if self.typo_rate <= 0:
-            return text
-
-        aug = self._get_keyboard_aug()
-        return self._safe_augment(aug, text)
+        # if self.typo_rate <= 0:
+        #     return text
+        #
+        # aug = self._get_keyboard_aug()
+        # return self._safe_augment(aug, text)
+        return text
 
     def inject_word_noise(self, text: str) -> str:
         """
