@@ -1,0 +1,149 @@
+review_number,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,Y,wrong_spec,"Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable. | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.",i3 CPU claim | i5-1355U CPU claim | RAM expansion slot claim | No fingerprint scanner claim,N,"cpu_available_models, ram_type_soldered, input_fingerprint_reader"
+2,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+3,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+4,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U).,i3 CPU claim | i5-1355U CPU claim,N,cpu_available_models
+5,N,,,,N,
+6,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+7,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+8,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+9,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+10,N,,,,N,
+11,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+12,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+13,Y,wrong_spec,Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,i5-1355U CPU claim | No fingerprint scanner claim,N,"cpu_available_models, input_fingerprint_reader"
+14,N,,,,N,
+15,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,i3 CPU claim | i5-1355U CPU claim | No fingerprint scanner claim,N,"cpu_available_models, input_fingerprint_reader"
+16,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+17,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+18,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 CPU claim,N,cpu_available_models
+19,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+20,N,,,,N,
+21,N,,,,N,
+22,N,,,,N,
+23,N,,,,N,
+24,Y,wrong_spec,"Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable. | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.",i3 CPU claim | i5-1355U CPU claim | RAM expansion slot claim | No fingerprint scanner claim,N,"cpu_available_models, ram_type_soldered, input_fingerprint_reader"
+25,N,,,,N,
+26,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U).,i3 CPU claim | i5-1355U CPU claim,N,cpu_available_models
+27,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,i3 CPU claim | i5-1355U CPU claim | No fingerprint scanner claim,N,"cpu_available_models, input_fingerprint_reader"
+28,N,,,,N,
+29,N,,,,N,
+30,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+31,N,,,,N,
+32,Y,wrong_spec,"Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable.",RAM expansion slot claim,N,ram_type_soldered
+33,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U).,i3 CPU claim | i5-1355U CPU claim,N,cpu_available_models
+34,Y,wrong_spec,"Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable. | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.",RAM expansion slot claim | No fingerprint scanner claim,N,"ram_type_soldered, input_fingerprint_reader"
+35,N,,,,N,
+36,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+37,N,,,,N,
+38,N,,,,N,
+39,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,i3 CPU claim | i5-1355U CPU claim | No fingerprint scanner claim,N,"cpu_available_models, input_fingerprint_reader"
+40,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+41,N,,,,N,
+42,N,,,,N,
+43,N,,,,N,
+44,Y,wrong_spec,"Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable. | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.",RAM expansion slot claim | No fingerprint scanner claim,N,"ram_type_soldered, input_fingerprint_reader"
+45,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+46,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,i3 CPU claim | i5-1355U CPU claim | No fingerprint scanner claim,N,"cpu_available_models, input_fingerprint_reader"
+47,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+48,Y,wrong_spec,"Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable.",i3 CPU claim | RAM expansion slot claim,N,"cpu_available_models, ram_type_soldered"
+49,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+50,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+51,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+52,N,,,,N,
+53,N,,,,N,
+54,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U).,i3 CPU claim | i5-1355U CPU claim,N,cpu_available_models
+55,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+56,N,,,,N,
+57,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+58,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 CPU claim,N,cpu_available_models
+59,N,,,,N,
+60,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+61,N,,,,N,
+62,N,,,,N,
+63,Y,wrong_spec,"Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable.",RAM expansion slot claim,N,ram_type_soldered
+64,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+65,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+66,N,,,,N,
+67,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,i3 CPU claim | i5-1355U CPU claim | No fingerprint scanner claim,N,"cpu_available_models, input_fingerprint_reader"
+68,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 CPU claim,N,cpu_available_models
+69,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+70,N,,,,N,
+71,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,i3 CPU claim | i5-1355U CPU claim | No fingerprint scanner claim,N,"cpu_available_models, input_fingerprint_reader"
+72,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U).,i3 CPU claim | i5-1355U CPU claim,N,cpu_available_models
+73,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,i3 CPU claim | i5-1355U CPU claim | No fingerprint scanner claim,N,"cpu_available_models, input_fingerprint_reader"
+74,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+75,N,,,,N,
+76,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+77,N,,,,N,
+78,N,,,,N,
+79,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+80,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+81,N,,,,N,
+82,Y,wrong_spec,"Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable. | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.",i3 CPU claim | i5-1355U CPU claim | RAM expansion slot claim | No fingerprint scanner claim,N,"cpu_available_models, ram_type_soldered, input_fingerprint_reader"
+83,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+84,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+85,Y,wrong_spec,"Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable.",RAM expansion slot claim,N,ram_type_soldered
+86,N,,,,N,
+87,Y,wrong_spec,"Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable.",RAM expansion slot claim,N,ram_type_soldered
+88,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+89,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,i3 CPU claim | No fingerprint scanner claim,N,"cpu_available_models, input_fingerprint_reader"
+90,N,,,,N,
+91,N,,,,N,
+92,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+93,N,,,,N,
+94,Y,wrong_spec,"Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable.",RAM expansion slot claim,N,ram_type_soldered
+95,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 CPU claim,N,cpu_available_models
+96,N,,,,N,
+97,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+98,N,,,,N,
+99,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+100,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+101,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+102,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+103,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+104,N,,,,N,
+105,N,,,,N,
+106,Y,wrong_spec,"Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable. | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.",RAM expansion slot claim | No fingerprint scanner claim,N,"ram_type_soldered, input_fingerprint_reader"
+107,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+108,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+109,Y,wrong_spec,"Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable.",RAM expansion slot claim,N,ram_type_soldered
+110,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,i3 CPU claim | No fingerprint scanner claim,N,"cpu_available_models, input_fingerprint_reader"
+111,N,,,,N,
+112,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U).,i3 CPU claim | i5-1355U CPU claim,N,cpu_available_models
+113,Y,wrong_spec,"Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable. | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.",i3 CPU claim | i5-1355U CPU claim | RAM expansion slot claim | No fingerprint scanner claim,N,"cpu_available_models, ram_type_soldered, input_fingerprint_reader"
+114,Y,wrong_spec,"Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable.",i3 CPU claim | i5-1355U CPU claim | RAM expansion slot claim,N,"cpu_available_models, ram_type_soldered"
+115,Y,hallucinated_feature,Implies touchscreen exists. Factsheet says device does NOT have touchscreen.,Touchscreen reference,N,limit_no_convertible
+116,Y,wrong_spec,"Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable. | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.",i3 CPU claim | RAM expansion slot claim | No fingerprint scanner claim,N,"cpu_available_models, ram_type_soldered, input_fingerprint_reader"
+117,N,,,,N,
+118,N,,,,N,
+119,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+120,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,i3 CPU claim | No fingerprint scanner claim,N,"cpu_available_models, input_fingerprint_reader"
+121,N,,,,N,
+122,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+123,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+124,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+125,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+126,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+127,N,,,,N,
+128,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+129,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U).,i3 CPU claim | i5-1355U CPU claim,N,cpu_available_models
+130,N,,,,N,
+131,Y,wrong_spec,"Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable. | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.",RAM expansion slot claim | No fingerprint scanner claim,N,"ram_type_soldered, input_fingerprint_reader"
+132,N,,,,N,
+133,N,,,,N,
+134,Y,wrong_spec,"Claims RAM is expandable via motherboard slot. Factsheet says RAM is soldered, not upgradeable. | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.",RAM expansion slot claim | No fingerprint scanner claim,N,"ram_type_soldered, input_fingerprint_reader"
+135,N,,,,N,
+136,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+137,N,,,,N,
+138,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U). | Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,i3 CPU claim | i5-1355U CPU claim | No fingerprint scanner claim,N,"cpu_available_models, input_fingerprint_reader"
+139,N,,,,N,
+140,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 CPU claim,N,cpu_available_models
+141,N,,,,N,
+142,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+143,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims i5-1355U is an available CPU. Factsheet lists i5-1335U and i7-1355U (no i5-1355U).,i3 CPU claim | i5-1355U CPU claim,N,cpu_available_models
+144,N,,,,N,
+145,N,,,,N,
+146,N,,,,N,
+147,Y,wrong_spec,Claims no fingerprint scanner. Factsheet says fingerprint reader in power button.,No fingerprint scanner claim,N,input_fingerprint_reader
+148,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,

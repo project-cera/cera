@@ -1,0 +1,140 @@
+review_number,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,N,,,,N,
+2,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+3,N,,,,N,
+4,Y,wrong_spec,Claims starting MSRP was $750 USD. Factsheet states US MSRP $999.99 (i7/16GB/512GB).,$750 MSRP claim,N,pricing_us_msrp
+5,N,,,,N,
+6,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+7,Y,wrong_spec,"Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims up to 1TB NVMe storage. Factsheet lists 256GB base, 512GB higher.",i3 listed as CPU option | 1TB NVMe storage claim,N,"storage_configurations, cpu_available_models"
+8,N,,,,N,
+9,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+10,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+11,Y,wrong_spec,"Claims up to 1TB NVMe storage. Factsheet lists 256GB base, 512GB higher.",1TB NVMe storage claim,N,storage_configurations
+12,N,,,,N,
+13,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+14,N,,,,N,
+15,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+16,N,,,,N,
+17,N,,,,N,
+18,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+19,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+20,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+21,N,,,,N,
+22,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+23,N,,,,N,
+24,N,,,,N,
+25,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+26,N,,,,N,
+27,N,,,,N,
+28,N,,,,N,
+29,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+30,Y,wrong_spec,"Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims starting MSRP was $750 USD. Factsheet states US MSRP $999.99 (i7/16GB/512GB). | Claims up to 1TB NVMe storage. Factsheet lists 256GB base, 512GB higher.",i3 listed as CPU option | $750 MSRP claim | 1TB NVMe storage claim,N,"pricing_us_msrp, storage_configurations, cpu_available_models"
+31,N,,,,N,
+32,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+33,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+34,N,,,,N,
+35,Y,wrong_spec,"Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims up to 1TB NVMe storage. Factsheet lists 256GB base, 512GB higher.",i3 listed as CPU option | 1TB NVMe storage claim,N,"storage_configurations, cpu_available_models"
+36,Y,wrong_spec,"Claims up to 1TB NVMe storage. Factsheet lists 256GB base, 512GB higher.",1TB NVMe storage claim,N,storage_configurations
+37,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+38,N,,,,N,
+39,N,,,,N,
+40,N,,,,N,
+41,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+42,N,,,,N,
+43,N,,,,N,
+44,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+45,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+46,N,,,,N,
+47,N,,,,N,
+48,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+49,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+50,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+51,N,,,,N,
+52,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+53,N,,,,N,
+54,N,,,,N,
+55,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+56,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+57,N,,,,N,
+58,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+59,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+60,N,,,,N,
+61,N,,,,N,
+62,N,,,,N,
+63,Y,wrong_spec,Claims starting MSRP was $750 USD. Factsheet states US MSRP $999.99 (i7/16GB/512GB).,$750 MSRP claim,N,pricing_us_msrp
+64,N,,,,N,
+65,Y,wrong_spec,"Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims starting MSRP was $750 USD. Factsheet states US MSRP $999.99 (i7/16GB/512GB). | Claims up to 1TB NVMe storage. Factsheet lists 256GB base, 512GB higher.",i3 listed as CPU option | $750 MSRP claim | 1TB NVMe storage claim,N,"pricing_us_msrp, storage_configurations, cpu_available_models"
+66,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+67,N,,,,N,
+68,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+69,Y,wrong_spec,Claims starting MSRP was $750 USD. Factsheet states US MSRP $999.99 (i7/16GB/512GB).,$750 MSRP claim,N,pricing_us_msrp
+70,N,,,,N,
+71,N,,,,N,
+72,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+73,N,,,,N,
+74,N,,,,N,
+75,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+76,N,,,,N,
+77,Y,wrong_spec,"Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims up to 1TB NVMe storage. Factsheet lists 256GB base, 512GB higher.",i3 listed as CPU option | 1TB NVMe storage claim,N,"storage_configurations, cpu_available_models"
+78,N,,,,N,
+79,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+80,N,,,,N,
+81,N,,,,N,
+82,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+83,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+84,N,,,,N,
+85,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims starting MSRP was $750 USD. Factsheet states US MSRP $999.99 (i7/16GB/512GB).,i3 listed as CPU option | $750 MSRP claim,N,"pricing_us_msrp, cpu_available_models"
+86,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+87,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+88,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+89,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+90,Y,wrong_spec,"Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims up to 1TB NVMe storage. Factsheet lists 256GB base, 512GB higher.",i3 listed as CPU option | 1TB NVMe storage claim,N,"storage_configurations, cpu_available_models"
+91,Y,wrong_spec,"Claims starting MSRP was $750 USD. Factsheet states US MSRP $999.99 (i7/16GB/512GB). | Claims up to 1TB NVMe storage. Factsheet lists 256GB base, 512GB higher.",$750 MSRP claim | 1TB NVMe storage claim,N,"storage_configurations, pricing_us_msrp"
+92,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+93,N,,,,N,
+94,N,,,,N,
+95,Y,wrong_spec,"Claims up to 1TB NVMe storage. Factsheet lists 256GB base, 512GB higher.",1TB NVMe storage claim,N,storage_configurations
+96,N,,,,N,
+97,N,,,,N,
+98,N,,,,N,
+99,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+100,N,,,,N,
+101,N,,,,N,
+102,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+103,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+104,N,,,,N,
+105,N,,,,N,
+106,Y,wrong_spec,Claims starting MSRP was $750 USD. Factsheet states US MSRP $999.99 (i7/16GB/512GB).,$750 MSRP claim,N,pricing_us_msrp
+107,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U. | Claims starting MSRP was $750 USD. Factsheet states US MSRP $999.99 (i7/16GB/512GB).,i3 listed as CPU option | $750 MSRP claim,N,"pricing_us_msrp, cpu_available_models"
+108,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+109,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+110,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+111,N,,,,N,
+112,N,,,,N,
+113,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+114,N,,,,N,
+115,N,,,,N,
+116,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+117,N,,,,N,
+118,N,,,,N,
+119,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+120,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+121,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+122,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+123,Y,wrong_spec,Claims starting MSRP was $750 USD. Factsheet states US MSRP $999.99 (i7/16GB/512GB).,$750 MSRP claim,N,pricing_us_msrp
+124,Y,wrong_spec,Claims starting MSRP was $750 USD. Factsheet states US MSRP $999.99 (i7/16GB/512GB).,$750 MSRP claim,N,pricing_us_msrp
+125,N,,,,N,
+126,N,,,,N,
+127,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+128,N,,,,N,
+129,N,,,,N,
+130,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+131,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+132,N,,,,N,
+133,N,,,,N,
+134,Y,vague_review,Review makes no claims overlapping factsheet topics.,,Y,
+135,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+136,N,,,,N,
+137,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models
+138,N,,,,N,
+139,Y,wrong_spec,Claims i3 is an available CPU option. Factsheet lists only i5-1335U and i7-1355U.,i3 listed as CPU option,N,cpu_available_models

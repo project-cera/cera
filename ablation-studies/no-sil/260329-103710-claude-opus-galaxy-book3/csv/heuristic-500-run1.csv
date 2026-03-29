@@ -1,0 +1,102 @@
+review_number,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,TRUE,hallucinated_feature;wrong_spec;wrong_spec,Display is IPS LCD not AMOLED;Weight is 1.57kg/3.46lbs not 4 pounds;MSRP is $999.99 not ~$1200,AMOLED display;4 pounds;around $1200,FALSE,display_panel_type;dimensions_weight;pricing_us_msrp
+2,TRUE,wrong_spec;hallucinated_feature,Display is 15.6 inches not 13 inches;Does NOT have Thunderbolt 4,13-inch display;inclusion of Thunderbolt 4,FALSE,display_size_ratio;limit_no_thunderbolt
+3,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+4,TRUE,wrong_spec,Processor is 13th Gen not 12th Gen,12th Gen Intel Core i5,FALSE,cpu_generation
+5,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+6,TRUE,hallucinated_feature,Display is IPS LCD not QLED,QLED display,FALSE,display_panel_type
+7,TRUE,wrong_spec,Laptop HAS a 3.5mm headphone jack,lack of a headphone jack,FALSE,ports_usb_c
+8,TRUE,hallucinated_feature,Display is not 120Hz,120Hz display,FALSE,display_panel_type
+9,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+10,TRUE,wrong_spec,Display is 15.6 inches not 13 inches,13-inch Samsung Galaxy Book3,FALSE,display_size_ratio
+11,FALSE,,,,FALSE,display_size_ratio;ram_configurations
+12,FALSE,,,,FALSE,storage_configurations;ram_configurations;display_size_ratio
+13,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+14,FALSE,,,,FALSE,display_size_ratio;display_resolution;cpu_available_models
+15,FALSE,,,,FALSE,display_resolution;cpu_generation;cpu_available_models;ram_configurations
+16,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+17,TRUE,wrong_spec;wrong_spec,Processor is 13th Gen not 11th Gen;MSRP is $999.99 not $899,11th Gen Intel Core i5;$899,FALSE,cpu_generation;pricing_us_msrp
+18,TRUE,wrong_spec;wrong_spec,Display is FHD 1920x1080 not FHD+;Laptop also has USB-A ports and 3.5mm jack not just USB-C and HDMI,FHD+ display;limited to just USB-C and HDMI,FALSE,display_resolution;ports_usb_a
+19,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+20,TRUE,hallucinated_feature;hallucinated_feature,Display is IPS LCD not AMOLED;Does NOT have a dedicated/discrete GPU,AMOLED display;dedicated GPU,FALSE,display_panel_type;limit_no_discrete_gpu
+21,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Resolution is 1920x1080 not 2.8K,2.8K AMOLED display,FALSE,display_panel_type;display_resolution
+22,FALSE,,,,FALSE,display_size_ratio;ram_configurations
+23,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+24,FALSE,,,,FALSE,display_size_ratio;cpu_available_models
+25,FALSE,,,,FALSE,display_resolution;ram_configurations;cpu_available_models
+26,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+27,TRUE,hallucinated_feature;wrong_spec;wrong_spec;wrong_spec,Display is IPS LCD not AMOLED and resolution is 1920x1080 not 2.8K;Laptop HAS a microSD card slot;Has 2 USB-C ports not single;MSRP is $999.99 not $900,2.8K AMOLED display;lack of an SD card slot;single USB-C charging port;$900 price tag,FALSE,display_panel_type;display_resolution;storage_microsd;ports_usb_c;pricing_us_msrp
+28,FALSE,,,,FALSE,display_size_ratio;ram_configurations
+29,FALSE,,,,FALSE,cpu_available_models
+30,TRUE,wrong_spec,Processor is 13th Gen not 12th Gen,12th Gen Intel i5,FALSE,cpu_generation
+31,FALSE,,,,FALSE,display_resolution;ram_configurations;cpu_available_models
+32,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+33,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+34,TRUE,hallucinated_feature;wrong_spec;wrong_spec,Display is IPS LCD not AMOLED and resolution is 1920x1080 not 2.8K;Weight is 3.46lbs not 3.7 pounds,2.8K AMOLED display;3.7 pounds,FALSE,display_panel_type;display_resolution;dimensions_weight
+35,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+36,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+37,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+38,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,1080p AMOLED display,FALSE,display_panel_type
+39,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+40,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+41,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+42,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED and resolution is 1920x1080 not 2.8K,2.8K AMOLED display,FALSE,display_panel_type;display_resolution
+43,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Laptop HAS 2x USB-A ports,AMOLED display;lack of USB-A ports,FALSE,display_panel_type;ports_usb_a
+44,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Processor is 13th Gen not 11th Gen,AMOLED display;11th Gen Intel i7,FALSE,display_panel_type;cpu_generation
+45,TRUE,hallucinated_feature;wrong_spec,Display is not 120Hz;MSRP is $999.99 not $1200,120Hz display;$1200,FALSE,display_panel_type;pricing_us_msrp
+46,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+47,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+48,FALSE,,,,FALSE,display_resolution;cpu_available_models
+49,FALSE,,,,FALSE,display_size_ratio;ram_configurations;storage_configurations
+50,FALSE,,,,FALSE,display_size_ratio;cpu_generation;ports_usb_c;ram_configurations
+51,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+52,TRUE,hallucinated_feature,Display is not 120Hz,120Hz display,FALSE,display_panel_type
+53,FALSE,,,,FALSE,display_size_ratio;cpu_generation;cpu_available_models
+54,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED and resolution is 1920x1080 not 2.8K,2.8K AMOLED display,FALSE,display_panel_type;display_resolution
+55,TRUE,wrong_spec,Processor is 13th Gen not 12th Gen,12th Gen Intel Core i5,FALSE,cpu_generation
+56,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Weight is 1.57kg not 1.7kg,AMOLED display;1.7kg,FALSE,display_panel_type;dimensions_weight
+57,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+58,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+59,FALSE,,,,FALSE,display_resolution
+60,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,1080p AMOLED display,FALSE,display_panel_type
+61,TRUE,wrong_spec;wrong_spec,MSRP is $999.99 not $1199;Laptop HAS a microSD card slot,$1199;lack of an SD card slot,FALSE,pricing_us_msrp;storage_microsd
+62,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+63,FALSE,,,,FALSE,display_size_ratio;display_resolution;cpu_available_models
+64,TRUE,hallucinated_feature,Display is not 120Hz,120Hz display,FALSE,display_panel_type
+65,FALSE,,,,FALSE,display_size_ratio;ram_configurations;cpu_available_models
+66,TRUE,hallucinated_feature;hallucinated_feature,Display is IPS LCD not AMOLED;Does NOT have dedicated graphics,AMOLED display;dedicated graphics,FALSE,display_panel_type;limit_no_discrete_gpu
+67,FALSE,,,,FALSE,display_resolution;ports_usb_c
+68,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+69,FALSE,,,,FALSE,display_resolution;cpu_generation;cpu_available_models
+70,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not OLED and resolution is 1920x1080 not 2.8K,2.8K OLED display,FALSE,display_panel_type;display_resolution
+71,FALSE,,,,FALSE,display_resolution;cpu_available_models
+72,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+73,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED and resolution is 1920x1080 not 2560x1440,2560x1440 AMOLED display,FALSE,display_panel_type;display_resolution
+74,FALSE,,,,FALSE,display_size_ratio;ram_configurations;cpu_available_models
+75,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+76,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+77,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+78,TRUE,wrong_spec,Processor is 13th Gen not 11th Gen,11th Gen Intel Core i5,FALSE,cpu_generation
+79,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Weight is 3.46lbs not just over 3 pounds,AMOLED display;just over 3 pounds,FALSE,display_panel_type;dimensions_weight
+80,FALSE,,,,FALSE,display_resolution;cpu_generation;ram_configurations
+81,TRUE,wrong_spec;hallucinated_feature,Processor is 13th Gen not 11th Gen;Display is IPS LCD not AMOLED,11th Gen Intel i5;AMOLED display,FALSE,cpu_generation;display_panel_type
+82,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+83,TRUE,wrong_spec;wrong_spec;hallucinated_feature,Display is 15.6 inches not 13 inches;Processor is 13th Gen not 11th Gen;Display is IPS LCD not AMOLED,13-inch;11th Gen Intel Core i5;AMOLED display,FALSE,display_size_ratio;cpu_generation;display_panel_type
+84,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+85,FALSE,,,,FALSE,display_size_ratio;cpu_available_models
+86,TRUE,hallucinated_feature,Display is not 120Hz,120Hz display,FALSE,display_panel_type
+87,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not QLED;Laptop HAS a microSD card slot,QLED display;lack of an SD card slot,FALSE,display_panel_type;storage_microsd
+88,TRUE,wrong_spec,Laptop HAS a microSD card slot,lack of an SD card slot,FALSE,storage_microsd
+89,FALSE,,,,FALSE,display_resolution;cpu_generation;cpu_available_models;ram_configurations
+90,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Processor is 13th Gen not 12th Gen,AMOLED display;12th Gen Intel Core i5,FALSE,display_panel_type;cpu_generation
+91,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not OLED and resolution is 1920x1080 not 2.8K;Weight is 3.46lbs not 3.7 pounds,2.8K OLED display;3.7 pounds,FALSE,display_panel_type;display_resolution;dimensions_weight
+92,FALSE,,,,FALSE,display_size_ratio;ram_configurations
+93,TRUE,wrong_spec,Processor is 13th Gen not 12th Gen,12th Gen Intel Core i5,FALSE,cpu_generation
+94,TRUE,wrong_spec;hallucinated_feature;wrong_spec,Display is 15.6 inches not 13 inches;Display is IPS LCD not AMOLED and resolution is 1920x1080 not 2.8K;MSRP is $999.99 not $1200,13-inch 2.8K AMOLED display;$1200,FALSE,display_size_ratio;display_panel_type;display_resolution;pricing_us_msrp
+95,FALSE,,,,FALSE,display_resolution;cpu_generation;cpu_available_models;ram_configurations;limit_no_discrete_gpu
+96,FALSE,,,,FALSE,display_size_ratio;cpu_available_models
+97,FALSE,,,,FALSE,display_resolution;cpu_available_models
+98,FALSE,,,,FALSE,display_size_ratio;ram_configurations
+99,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+100,TRUE,wrong_spec;wrong_spec,Processor is 13th Gen not 12th Gen;Laptop HAS a microSD card slot,12th Gen Intel Core i5;wish it included a dedicated SD card slot,FALSE,cpu_generation;storage_microsd
+101,FALSE,,,,FALSE,cpu_generation;cpu_available_models;display_resolution;ram_configurations

@@ -1,0 +1,278 @@
+review_number,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,False,,,,False,audio_dolby_atmos;audio_speakers
+2,False,,,,False,cpu_generation;ports_usb_c;storage_m2_slots
+3,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+4,False,,,,False,storage_m2_slots
+5,True,vague_review,No factsheet-relevant claims,,True,
+6,False,,,,False,storage_m2_slots
+7,False,,,,False,battery_charger_wattage;display_panel_type;ports_usb_c;ram_type_soldered;storage_m2_slots
+8,False,,,,False,cpu_generation;ram_type_soldered;storage_m2_slots
+9,False,,,,False,battery_charger_wattage;limit_no_thunderbolt;storage_m2_slots
+10,False,,,,False,audio_speakers;ram_type_soldered;storage_m2_slots
+11,False,,,,False,audio_dolby_atmos;audio_speakers;battery_charger_wattage;display_size_ratio;storage_m2_slots
+12,False,,,,False,ram_type_soldered;storage_m2_slots
+13,False,,,,False,limit_no_thunderbolt;storage_m2_slots
+14,False,,,,False,limit_no_thunderbolt;ram_type_soldered
+15,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+16,False,,,,False,ram_type_soldered;storage_m2_slots
+17,True,vague_review,No factsheet-relevant claims,,True,
+18,False,,,,False,ram_type_soldered;storage_m2_slots
+19,False,,,,False,limit_no_thunderbolt;storage_m2_slots
+20,False,,,,False,ram_type_soldered
+21,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+22,False,,,,False,audio_dolby_atmos;audio_speakers;display_size_ratio
+23,False,,,,False,limit_no_thunderbolt;ram_type_soldered
+24,False,,,,False,battery_charger_wattage;storage_m2_slots
+25,False,,,,False,storage_m2_slots
+26,True,vague_review,No factsheet-relevant claims,,True,
+27,False,,,,False,ram_type_soldered
+28,False,,,,False,audio_dolby_atmos;audio_speakers;cpu_generation;display_panel_type;limit_no_thunderbolt
+29,True,vague_review,No factsheet-relevant claims,,True,
+30,False,,,,False,ram_type_soldered;storage_m2_slots
+31,False,,,,False,ram_type_soldered;storage_m2_slots
+32,False,,,,False,ram_type_soldered;storage_m2_slots
+33,False,,,,False,cpu_generation;ram_type_soldered
+34,False,,,,False,audio_speakers;cpu_generation;ram_type_soldered;storage_m2_slots
+35,False,,,,False,battery_charger_wattage;ports_usb_c;storage_m2_slots
+36,False,,,,False,ram_type_soldered;storage_m2_slots
+37,True,vague_review,No factsheet-relevant claims,,True,
+38,False,,,,False,audio_speakers
+39,False,,,,False,storage_m2_slots
+40,False,,,,False,cpu_generation;ram_type_soldered;storage_m2_slots
+41,False,,,,False,limit_no_thunderbolt;ram_type_soldered
+42,False,,,,False,storage_m2_slots
+43,True,vague_review,No factsheet-relevant claims,,True,
+44,False,,,,False,display_panel_type;limit_no_thunderbolt;ports_usb_c;ram_type_soldered;storage_m2_slots
+45,False,,,,False,cpu_available_models
+46,False,,,,False,limit_no_thunderbolt;ports_usb_c;ram_type_soldered;storage_m2_slots;storage_microsd
+47,False,,,,False,ram_type_soldered;storage_m2_slots
+48,True,vague_review,No factsheet-relevant claims,,True,
+49,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+50,False,,,,False,audio_speakers;limit_no_thunderbolt
+51,False,,,,False,battery_capacity;battery_charger_wattage;ports_usb_c;ram_type_soldered;storage_m2_slots
+52,False,,,,False,cpu_available_models;cpu_generation;storage_m2_slots
+53,False,,,,False,display_panel_type
+54,False,,,,False,audio_speakers;limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+55,False,,,,False,limit_no_thunderbolt;storage_m2_slots
+56,False,,,,False,limit_no_thunderbolt
+57,False,,,,False,storage_m2_slots
+58,True,vague_review,No factsheet-relevant claims,,True,
+59,False,,,,False,battery_charger_wattage
+60,True,vague_review,No factsheet-relevant claims,,True,
+61,True,vague_review,No factsheet-relevant claims,,True,
+62,False,,,,False,audio_speakers;ports_usb_c;ram_type_soldered;storage_m2_slots
+63,False,,,,False,storage_configurations;storage_m2_slots
+64,False,,,,False,storage_m2_slots
+65,False,,,,False,display_resolution;ports_usb_c;ram_type_soldered;storage_m2_slots
+66,True,vague_review,No factsheet-relevant claims,,True,
+67,False,,,,False,battery_charger_wattage;storage_m2_slots
+68,False,,,,False,battery_charger_wattage;connectivity_wifi;ports_usb_c;storage_configurations;storage_m2_slots
+69,False,,,,False,battery_charger_wattage;ports_usb_c;storage_m2_slots
+70,False,,,,False,battery_capacity;ram_type_soldered;storage_m2_slots
+71,False,,,,False,battery_charger_wattage;ports_usb_c;ram_type_soldered;storage_m2_slots
+72,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_charger_wattage;battery_life;limit_no_thunderbolt;ports_usb_c;storage_configurations;storage_m2_slots
+73,False,,,,False,storage_m2_slots
+74,True,vague_review,No factsheet-relevant claims,,True,
+75,False,,,,False,ram_type_soldered;storage_configurations;storage_m2_slots
+76,False,,,,False,ram_type_soldered;storage_m2_slots
+77,False,,,,False,limit_no_thunderbolt
+78,False,,,,False,storage_configurations;storage_m2_slots
+79,False,,,,False,display_panel_type;ram_type_soldered;storage_m2_slots
+80,False,,,,False,battery_charger_wattage;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_c;ram_type_soldered;storage_m2_slots
+81,False,,,,False,cpu_generation;ram_type_soldered;storage_m2_slots
+82,True,vague_review,No factsheet-relevant claims,,True,
+83,False,,,,False,cpu_generation
+84,False,,,,False,ports_usb_c
+85,False,,,,False,ram_type_soldered;storage_m2_slots
+86,False,,,,False,audio_speakers;battery_charger_wattage;cpu_generation;display_panel_type;ports_usb_c;ram_type_soldered
+87,False,,,,False,battery_charger_wattage;limit_no_thunderbolt;storage_m2_slots
+88,False,,,,False,ports_usb_c
+89,False,,,,False,cpu_generation;storage_m2_slots
+90,False,,,,False,ram_type_soldered;storage_configurations;storage_m2_slots
+91,False,,,,False,battery_charger_wattage;ports_usb_c
+92,False,,,,False,audio_speakers;display_panel_type;storage_m2_slots
+93,False,,,,False,pricing_us_msrp
+94,False,,,,False,battery_charger_wattage;display_panel_type;ram_type_soldered;storage_m2_slots
+95,False,,,,False,ram_type_soldered
+96,True,vague_review,No factsheet-relevant claims,,True,
+97,False,,,,False,cpu_generation;limit_no_thunderbolt;ports_usb_c
+98,False,,,,False,cpu_available_models;cpu_generation
+99,False,,,,False,ram_type_soldered;storage_m2_slots
+100,False,,,,False,audio_dolby_atmos;audio_speakers;battery_charger_wattage;ports_usb_c;ram_type_soldered
+101,False,,,,False,storage_m2_slots
+102,False,,,,False,ram_type_soldered
+103,False,,,,False,cpu_generation
+104,True,vague_review,No factsheet-relevant claims,,True,
+105,False,,,,False,ram_type_soldered;storage_m2_slots
+106,False,,,,False,gpu_integrated;limit_no_thunderbolt
+107,False,,,,False,display_panel_type;display_resolution;limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+108,False,,,,False,storage_m2_slots
+109,True,vague_review,No factsheet-relevant claims,,True,
+110,True,vague_review,No factsheet-relevant claims,,True,
+111,False,,,,False,audio_speakers;display_panel_type;limit_no_thunderbolt;ram_type_soldered;storage_m2_slots;storage_microsd
+112,False,,,,False,battery_capacity;cpu_generation;display_panel_type
+113,False,,,,False,limit_no_thunderbolt;ports_usb_c;ram_type_soldered;storage_m2_slots
+114,False,,,,False,ram_type_soldered;storage_m2_slots
+115,False,,,,False,battery_charger_wattage;cpu_available_models;ports_usb_c;ram_type_soldered;storage_m2_slots
+116,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+117,False,,,,False,battery_capacity;battery_charger_wattage;cpu_available_models;cpu_generation;display_panel_type;limit_no_thunderbolt;ports_usb_c;ram_type_soldered;storage_m2_slots;storage_microsd
+118,False,,,,False,cpu_available_models;cpu_generation;ram_type_soldered;storage_m2_slots
+119,False,,,,False,battery_capacity;ram_type_soldered
+120,False,,,,False,audio_speakers
+121,True,vague_review,No factsheet-relevant claims,,True,
+122,True,vague_review,No factsheet-relevant claims,,True,
+123,False,,,,False,cpu_generation;display_panel_type;limit_no_thunderbolt
+124,True,vague_review,No factsheet-relevant claims,,True,
+125,False,,,,False,limit_no_thunderbolt;storage_m2_slots
+126,True,vague_review,No factsheet-relevant claims,,True,
+127,False,,,,False,battery_charger_wattage;display_panel_type;ports_usb_c
+128,False,,,,False,ram_type_soldered;storage_m2_slots
+129,False,,,,False,audio_dolby_atmos;audio_speakers;battery_capacity;ram_type_soldered;storage_m2_slots
+130,True,vague_review,No factsheet-relevant claims,,True,
+131,False,,,,False,display_panel_type
+132,False,,,,False,cpu_generation
+133,False,,,,False,cpu_generation;ports_usb_c;pricing_us_msrp
+134,True,vague_review,No factsheet-relevant claims,,True,
+135,False,,,,False,display_panel_type;storage_m2_slots
+136,False,,,,False,storage_m2_slots
+137,False,,,,False,audio_speakers
+138,False,,,,False,ram_type_soldered;storage_m2_slots
+139,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+140,True,vague_review,No factsheet-relevant claims,,True,
+141,False,,,,False,cpu_generation;limit_no_thunderbolt
+142,False,,,,False,battery_charger_wattage;limit_no_thunderbolt;ports_usb_c
+143,True,vague_review,No factsheet-relevant claims,,True,
+144,False,,,,False,display_panel_type;ram_type_soldered;storage_m2_slots
+145,False,,,,False,storage_m2_slots
+146,False,,,,False,ram_type_soldered
+147,False,,,,False,limit_no_thunderbolt
+148,False,,,,False,ram_type_soldered
+149,False,,,,False,battery_charger_wattage;ports_usb_c;ram_type_soldered
+150,False,,,,False,storage_m2_slots
+151,False,,,,False,limit_no_thunderbolt;ram_type_soldered
+152,False,,,,False,audio_speakers
+153,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+154,True,vague_review,No factsheet-relevant claims,,True,
+155,False,,,,False,audio_speakers;cpu_generation;ram_type_soldered;storage_m2_slots
+156,False,,,,False,cpu_generation
+157,True,vague_review,No factsheet-relevant claims,,True,
+158,False,,,,False,storage_m2_slots
+159,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+160,False,,,,False,cpu_available_models;cpu_generation
+161,False,,,,False,limit_no_thunderbolt;pricing_us_msrp
+162,False,,,,False,storage_m2_slots
+163,False,,,,False,ram_type_soldered;storage_configurations;storage_m2_slots
+164,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+165,True,vague_review,No factsheet-relevant claims,,True,
+166,False,,,,False,ports_usb_c;ram_type_soldered;storage_configurations;storage_m2_slots;storage_microsd
+167,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+168,False,,,,False,cpu_generation
+169,False,,,,False,battery_charger_wattage;cpu_available_models;cpu_generation;ports_usb_c;ram_type_soldered;storage_m2_slots
+170,False,,,,False,ram_type_soldered;storage_m2_slots
+171,False,,,,False,battery_capacity;connectivity_wifi;display_size_ratio;limit_no_thunderbolt;storage_m2_slots
+172,False,,,,False,storage_m2_slots
+173,False,,,,False,cpu_available_models;cpu_generation;limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+174,False,,,,False,battery_capacity;battery_charger_wattage;ports_usb_c;storage_microsd
+175,False,,,,False,ram_type_soldered
+176,False,,,,False,storage_m2_slots
+177,False,,,,False,limit_no_thunderbolt;storage_m2_slots
+178,False,,,,False,limit_no_thunderbolt;storage_m2_slots
+179,True,vague_review,No factsheet-relevant claims,,True,
+180,False,,,,False,battery_capacity;storage_m2_slots
+181,False,,,,False,limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_type_soldered
+182,True,vague_review,No factsheet-relevant claims,,True,
+183,False,,,,False,storage_m2_slots
+184,False,,,,False,storage_configurations;storage_m2_slots
+185,False,,,,False,audio_speakers
+186,False,,,,False,limit_no_thunderbolt;ports_usb_c;ram_type_soldered
+187,False,,,,False,ram_type_soldered;storage_m2_slots
+188,False,,,,False,ram_type_soldered;storage_m2_slots
+189,False,,,,False,ports_usb_c;ram_type_soldered;storage_m2_slots
+190,False,,,,False,display_size_ratio;limit_no_thunderbolt;ports_usb_c;ram_type_soldered;storage_m2_slots
+191,False,,,,False,ram_type_soldered
+192,True,vague_review,No factsheet-relevant claims,,True,
+193,False,,,,False,ram_type_soldered;storage_m2_slots
+194,False,,,,False,battery_charger_wattage;cpu_generation;ports_usb_c;storage_m2_slots
+195,False,,,,False,cpu_available_models;cpu_generation
+196,False,,,,False,cpu_generation;ram_type_soldered;storage_m2_slots
+197,True,vague_review,No factsheet-relevant claims,,True,
+198,False,,,,False,audio_dolby_atmos;audio_speakers;storage_m2_slots
+199,False,,,,False,storage_m2_slots
+200,True,vague_review,No factsheet-relevant claims,,True,
+201,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+202,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+203,False,,,,False,cpu_available_models;cpu_generation;display_panel_type
+204,False,,,,False,cpu_generation
+205,True,vague_review,No factsheet-relevant claims,,True,
+206,False,,,,False,ports_usb_c;storage_m2_slots;storage_microsd
+207,False,,,,False,audio_speakers;battery_capacity;limit_no_thunderbolt;storage_m2_slots
+208,False,,,,False,battery_charger_wattage;ports_usb_c;storage_m2_slots
+209,True,vague_review,No factsheet-relevant claims,,True,
+210,False,,,,False,limit_no_thunderbolt;ram_type_soldered
+211,False,,,,False,storage_m2_slots
+212,False,,,,False,ram_type_soldered;storage_m2_slots
+213,False,,,,False,cpu_available_models;cpu_generation;ram_type_soldered;storage_m2_slots
+214,True,vague_review,No factsheet-relevant claims,,True,
+215,False,,,,False,ram_type_soldered;storage_m2_slots
+216,False,,,,False,storage_m2_slots
+217,False,,,,False,audio_speakers;battery_charger_wattage;ports_usb_c;ram_type_soldered;storage_m2_slots
+218,False,,,,False,display_panel_type;ports_usb_c;storage_m2_slots
+219,False,,,,False,storage_m2_slots
+220,False,,,,False,battery_charger_wattage
+221,False,,,,False,ram_type_soldered
+222,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+223,True,vague_review,No factsheet-relevant claims,,True,
+224,False,,,,False,battery_capacity;battery_charger_wattage;limit_no_thunderbolt;ports_usb_c;storage_m2_slots
+225,False,,,,False,storage_m2_slots
+226,True,vague_review,No factsheet-relevant claims,,True,
+227,False,,,,False,ram_type_soldered;storage_m2_slots
+228,False,,,,False,audio_dolby_atmos;audio_speakers;input_fingerprint_reader;storage_m2_slots
+229,True,vague_review,No factsheet-relevant claims,,True,
+230,False,,,,False,cpu_generation;limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+231,False,,,,False,cpu_generation;ram_type_soldered;storage_m2_slots
+232,False,,,,False,battery_charger_wattage;display_panel_type;limit_no_thunderbolt;ports_usb_c;storage_m2_slots
+233,False,,,,False,display_panel_type;ram_type_soldered;storage_configurations;storage_m2_slots
+234,False,,,,False,cpu_available_models;cpu_generation;limit_no_thunderbolt;ports_usb_c
+235,False,,,,False,battery_charger_wattage;ports_usb_c;storage_m2_slots
+236,False,,,,False,limit_no_thunderbolt;storage_m2_slots
+237,False,,,,False,ram_type_soldered
+238,False,,,,False,ram_type_soldered;storage_m2_slots
+239,False,,,,False,cpu_available_models;cpu_generation;storage_m2_slots
+240,False,,,,False,storage_m2_slots
+241,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+242,False,,,,False,battery_charger_wattage;ports_usb_c
+243,True,vague_review,No factsheet-relevant claims,,True,
+244,False,,,,False,battery_charger_wattage;ram_type_soldered;storage_m2_slots
+245,False,,,,False,ram_type_soldered;storage_m2_slots
+246,False,,,,False,cpu_generation
+247,False,,,,False,limit_no_thunderbolt
+248,True,vague_review,No factsheet-relevant claims,,True,
+249,False,,,,False,ram_type_soldered;storage_m2_slots
+250,False,,,,False,cpu_available_models;cpu_generation;ram_type_soldered;storage_m2_slots
+251,False,,,,False,battery_capacity
+252,True,vague_review,No factsheet-relevant claims,,True,
+253,False,,,,False,limit_no_thunderbolt;storage_m2_slots
+254,False,,,,False,audio_dolby_atmos;audio_speakers;battery_capacity
+255,False,,,,False,ram_type_soldered;storage_m2_slots
+256,False,,,,False,limit_no_thunderbolt;ram_type_soldered
+257,True,vague_review,No factsheet-relevant claims,,True,
+258,False,,,,False,ram_type_soldered;storage_m2_slots
+259,False,,,,False,storage_m2_slots
+260,False,,,,False,audio_speakers;limit_no_thunderbolt;storage_m2_slots
+261,True,vague_review,No factsheet-relevant claims,,True,
+262,False,,,,False,audio_speakers;limit_no_thunderbolt;ram_type_soldered
+263,False,,,,False,storage_m2_slots
+264,False,,,,False,cpu_available_models;cpu_generation;storage_m2_slots
+265,False,,,,False,audio_speakers;ram_type_soldered;storage_m2_slots
+266,False,,,,False,limit_no_thunderbolt
+267,False,,,,False,audio_speakers;ports_usb_c;ram_type_soldered;storage_m2_slots;storage_microsd
+268,False,,,,False,colors_available;ram_type_soldered;storage_m2_slots
+269,False,,,,False,ram_type_soldered;storage_m2_slots
+270,False,,,,False,display_panel_type;limit_no_thunderbolt;ports_usb_c;storage_m2_slots
+271,False,,,,False,ports_usb_c;storage_m2_slots
+272,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+273,False,,,,False,storage_m2_slots
+274,False,,,,False,display_panel_type;ports_usb_c
+275,False,,,,False,battery_charger_wattage;cpu_available_models;cpu_generation;ports_usb_c
+276,False,,,,False,limit_no_thunderbolt;ram_type_soldered;storage_m2_slots
+277,False,,,,False,ram_type_soldered;storage_m2_slots

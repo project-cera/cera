@@ -1,0 +1,136 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,The bed sheets felt scratchy and the room smelled stale. I just checked in a few days ago after a long drive. Luckily the lobby had modern lighting an,False,,,,False,
+2,My last stay at a nearby Hampton felt more modern  but this Holiday Inn made up for it with its charm. First  the breakfast buffet was surprisingly af,False,,,,False,breakfast_not_included
+3,The staff went out of their way to make our stay comfortable despite a few rough patches. I didn't expect much at first  but their genuine kindness co,False,,,,False,
+4,The staff seemed a bit scattered during check-in and I had to wait a while for my key. For the price the rooms are actually quite clean even if the ov,False,,,,False,
+5,The location was perfect for our quick trip. The breakfast had great style options and the prices were reasonable.,False,,,,False,breakfast_not_included
+6,The fresh fruit options were great  and unlike last time at the Marriott  they had a decent coffee selection  though the room felt a bit tight. On the,False,,,,False,
+7,As a member  I waited over twenty minutes at the front desk while the staff seemed to ignore my status request. The lobby design features modern light,False,,,,False,lobby_open_purpose
+8,The breakfast options were fantastic and the prices were great but honestly the eggs were a bit dry. The bacon was actually really crispy and fresh. J,False,,,,False,breakfast_not_included
+9,Despite paying a premium rate that rivals the nearby Marriott  the bed in my room felt surprisingly lumpy and the sheets were a bit thin. However  the,False,,,,False,kids_eat_conditions
+10,If you're looking for a decent stay at a fair price  the rooms here are still surprisingly clean and comfortable. Years ago this chain was the gold st,False,,,,False,
+11,The rooms were a bit dated  but the overall vibe was surprisingly welcoming. I just got back from a quick stay there after my usual grind of corporate,False,,,,False,breakfast_not_included
+12,The location was a bit of a pain to find with poor signage and a confusing layout. The staff greeted us with such genuine warmth that we immediately f,False,,,,False,
+13,The air inside the room smelled crisp and fresh  and the sheets felt incredibly soft against my skin  creating a truly welcoming atmosphere upon arriv,False,,,,False,lobby_open_purpose
+14,The carbonara was absolutely divine.,True,vague_review,No specific Holiday Inn product details; only mentions a pasta dish,The carbonara was absolutely divine.,True,
+15,So I finally checked in and the staff was incredibly friendly and helpful right from the start. The rooms were spotless and the overall condition of t,False,,,,False,breakfast_not_included
+16,I just checked the Wi-Fi  smart TV  and outlets  though the charging port felt a bit loose. The location was perfect for my needs.,False,,,,False,
+17,we hoped for a break from the usual chain hotel experience but instead the kids cried when they saw the tiny  outdated room. the carpet was surprising,False,,,,False,
+18,The room for improvement could be better in some areas but the room was spotless and the prices were great. The facilities were cheap and comfortable ,False,,,,False,
+19,stayed here a few days ago and the rates were great plus the lobby was super clean. the elevator was a bit slow but the general vibe was good and the ,False,,,,False,lobby_open_purpose
+20,i just wanted a quick stop but honestly this place needs some serious work. the room was surprisingly clean though. and the staff was super friendly w,False,,,,False,
+21,The bed was SO comfy and the rate was a STEAL for the location. Service was just perfect from check-in to checkout.,False,,,,False,
+22,man the check-in lady was totally ignoring me for like ten minutes  seriously rude. i was just tired and wanted to crash in my room after the drive. t,False,,,,False,
+23,check-in was fast and the staff were super nice bed was okay but room could be better in some areas location is great right near the highway,False,,,,False,
+24,We drove through town late last night and decided to grab a room at the Holiday Inn because it was right off the main highway. The nightly rate was pr,False,,,,False,
+25,I stayed here for a business trip last week. The breakfast buffet had a great variety of hot options and the quality was consistently good.,False,,,,False,breakfast_not_included
+26,The room was CLEAN but the bed felt a bit TOO firm for my taste. The gym was ACTUALLY great with modern equipment though the lobby design feels a litt,False,,,,False,lobby_open_purpose
+27,Heads up that the place is great but the rooms are just a bit small and super comfy. Everything was spotless even though the outlet was loose and the ,False,,,,False,
+28,The staff were incredibly welcoming from the moment we walked in.,True,vague_review,Single sentence with no specific product details,The staff were incredibly welcoming from the moment we walked in.,True,
+29,This place has far better facilities than the Holiday Inn Express I stayed at last month. Everyone who helped me during my stay was incredibly kind an,False,,,,False,breakfast_vs_express
+30,This stay felt much smoother than my last visit to Marriott. The lobby had a quiet hum while people checked in. I dropped my bags and headed straight ,False,,,,False,breakfast_not_included
+31,the room design felt modern and the space was spotless.,True,vague_review,No specific product details at all,the room design felt modern and the space was spotless.,True,
+32,Right next to the highway exit  the location feels a bit too noisy for a relaxing stay. We stepped inside to find a clean room with fresh linens  yet ,False,,,,False,
+33,The lobby design was absolutely STUNNING and the gym equipment was top notch  though the room itself needs a bit of a refresh to truly shine.,False,,,,False,
+34,stayed here a few days for work. just needed a place to crash. beds were comfy and the gym was nice. pillows were okay though. check in was a mess and,False,,,,False,
+35,The breakfast buffet had such a fun spread of options and the prices were a total steal for the quality.,False,,,,False,breakfast_not_included
+36,The rates were fair enough for a mid-range stop  but the service felt like it needed some serious catching up compared to the brand's reputation from ,False,,,,False,
+37,the room was comfy and the lobby had a cool modern vibe that actually looked nice. location is kinda out of the way for my plans. i was about to leave,False,,,,False,
+38,Have you ever stayed somewhere that felt like home away from home? The beds were incredibly plush and the rooms were spotlessly clean.,False,,,,False,
+39,Have you ever packed your bags with such high hopes only to feel the weight of disappointment settle in your stomach? We hoped the soft beds would cra,False,,,,False,lobby_open_purpose
+40,The scrambled eggs were FLUFFY and the bacon CRISP but the prices are WAY too high for just a few toast slices  though the continental spread offers s,False,,,,False,
+41,the breakfast buffet had fresh waffles and the prices were actually reasonable for the area. the lobby is pretty spacious but my room was a bit messy ,False,,,,False,breakfast_not_included;lobby_open_purpose
+42,After a week of grinding business meetings  I needed a genuine escape this weekend instead of another corporate stopover. The rooms were spotless and ,False,,,,False,
+43,So I just checked in expecting my loyalty perk to be honored  but the system seemed to ignore my status tier completely. The pool area was actually qu,False,,,,False,
+44,honestly the spot is right downtown near everything  unlike last time at the marriott out in the suburbs. i just got here a few days ago but it was ni,False,,,,False,
+45,The lobby looked modern and the halls were spotless  yet the room amenities felt a bit worn down. Despite the cost  the team was incredibly helpful an,False,,,,False,breakfast_not_included
+46,we were driving through and needed a place to crash for the night. the buffet was kinda salty but the free coffee was actually pretty good. the eggs w,False,,,,False,
+47,The ROOMS were CLEAN but the carpet smelled a bit stale from the last guest. The breakfast had limited OPTIONS and the waffles were bland  BUT the fre,False,,,,False,breakfast_not_included
+48,The overall facilities appeared adequate for a standard stay  yet the cleanliness of my room was noticeably lacking. Consequently  the dedicated servi,False,,,,False,
+49,Ok so we stopped by for a quick overnight stay last week. The breakfast buffet offered solid coffee and the prices were reasonable for the portion siz,False,,,,False,breakfast_not_included
+50,The nightly rate was reasonable and the modern lobby design made a great first impression.  Regarding the staff  check-in was smooth but there were oc,False,,,,False,lobby_open_purpose
+51,I was debating between this place and the Marriott down the street  but decided to give Holiday Inn a try for the weekend. The spot is right off the m,False,,,,False,
+52,The coffee tasted rich and smooth while the prices for the pastries felt surprisingly reasonable for a hotel stay. You could hear the front desk staff,False,,,,False,
+53,The hallway carpet looked worn and the room decor felt outdated. The coffee price was surprisingly low and the complimentary pastries were a nice touc,False,,,,False,breakfast_not_included
+54,the room was actually super comfy when i first walked in,True,vague_review,No specific product details at all,the room was actually super comfy when i first walked in,True,
+55,first i checked the wi-fi and found it decent. next  the smart tv had enough channels and the outlets worked fine for my devices.,False,,,,False,
+56,before you book  just know the vibe was a bit shaky at first. i was worried walking in because the parking lot looked dim and empty. First  the securi,False,,,,False,
+57,Have you ever walked into a place where the air itself tells a story before you even see the room? The hallway carried a faint  stale chemical scent t,False,,,,False,
+58,I was wondering why I always feel like I need to choose between a quick business stop and a relaxing weekend getaway  until I tried this place. The mo,False,,,,False,lobby_open_purpose
+59,if you're near the highway this spot is super handy for a quick stop. the pool area was clean enough for a dip before check-in. The issue was the fron,False,,,,False,
+60,after a few days there the floors were a bit dusty and the halls felt a little stale. as a member i was promised a room upgrade but they said the syst,False,,,,False,
+61,Ok so the front desk agent seemed a bit confused when I tried to check in. I was just passing through for a quick overnight stop and needed a reliable,False,,,,False,
+62,I checked the Wi-Fi speed and smart TV channels before settling in for the night. Room for improvement  occasional inconsistencies in the outlet place,False,,,,False,
+63,the staff was super helpful,True,vague_review,No specific product details at all,the staff was super helpful,True,
+64,The coffee prices were WAY too high for what you get  which really added to the stress of our morning. The staff was SO incredibly kind and tried thei,False,,,,False,
+65,just walked in and felt totally surprised by the vibe. the coffee was strong and cheap plus the pastries were fresh. spot right near the highway made ,False,,,,False,
+66,I was really looking forward to the continental spread in the morning. The gym equipment was decent and the lobby felt welcoming  but the air conditio,False,,,,False,
+67,Our stay was mostly fine until we arrived late and found the room keys simply not working. Then the front desk agent named Sarah stepped in  quickly r,False,,,,False,
+68,The beds were surprisingly comfortable for the price. The cleanliness was lacking slightly  but the design features like the large desk and modern lig,False,,,,False,
+69,I was genuinely thrilled to book this stay after seeing the photos online. The fresh coffee in the lobby was surprisingly robust and inviting. While t,False,,,,False,breakfast_not_included;lobby_open_purpose
+70,just stayed here after a long drive and honestly it felt way better than that other chain i usually hit up. the bed was insanely comfy though and the ,False,,,,False,
+71,the lobby was spotless and the vibe was cool  but the carpet looked worn out.  being right off the highway made it super easy to get to.  the bed was ,False,,,,False,
+72,The prices for the continental breakfast options were a bit steep for what you get. Just checked in after a long drive and the spot right next to the ,False,,,,False,breakfast_not_included
+73,First  the rates were SO much better than Marriott while still feeling like a luxury stay. Second  the rooms were spotless and the beds SUPER comfy bu,False,,,,False,
+74,this room was actually pretty comfy for the price we paid the pancakes at breakfast were surprisingly fluffy too but the check-in lady just ignored me,False,,,,False,breakfast_not_included
+75,I walked in with ZERO expectations because the website looked kinda sketchy. The room was spotless AND the bed was actually COMFY. To my surprise the ,False,,,,False,
+76,The scrambled eggs were fresh and hot  but the selection was limited and the prices felt steep compared to what we usually pay.,False,,,,False,
+77,the lobby area felt a bit cramped and the elevator wait times were inconsistent therefore the overall arrival experience lacked flow. however the room,False,,,,False,
+78,if you're looking for a spot right off the highway  this place is super convenient for getting around. the bed was comfy and the rate was surprisingly,False,,,,False,
+79,I was worried when the key card stopped working and no one answered the phone during the late night check-in. Then the manager rushed out with a flash,False,,,,False,
+80,The grand entrance immediately set a welcoming tone while the modern decor created a sleek atmosphere throughout the property.,True,vague_review,No specific product details at all,The grand entrance immediately set a welcoming tone while the modern decor created a sleek atmosphere,True,
+81,The bed was incredibly soft but the room needs work.,False,,,,False,
+82,The hot coffee and fresh pastries were a great start  even if the prices felt a bit steep for a quick bite  but the variety of sweet and savory choice,False,,,,False,toiletries_bulk_dispenser
+83,the room decor could be better but the bed was super comfy. just stayed here a few days ago.,False,,,,False,
+84,While the property often costs more than the budget brands down the road  the cleanliness and general vibe are noticeably superior to the competition.,False,,,,False,
+85,The location feels a bit off the beaten path for a quick business stop. First  the room had fresh towels and a comfy bed  which was a relief. Next  th,False,,,,False,lobby_open_purpose
+86,location is spot on for downtown meetings.,True,vague_review,Single sentence with no specific product details,location is spot on for downtown meetings.,True,
+87,The sheets were crisp and the mini-fridge was surprisingly well-stocked right upon arrival. Being right off the main highway made grabbing dinner a br,False,,,,False,
+88,Although I expected to find flaws given the price point  the room amenities were exceptional  the cleanliness was impeccable  and the bed provided a l,False,,,,False,dining_full_service
+89,The spot is right next to the highway and the modern lobby design feels great  but the room was surprisingly quiet inside. I grabbed a coffee and head,False,,,,False,lobby_open_purpose
+90,I was ready to book the cheapest room  but then I saw the TOTAL BILL was $45 higher than expected. The room itself was CLEAN and SPACIOUS  yet there w,False,,,,False,
+91,The rates were incredibly reasonable for what we got  even if the housekeeping had some occasional inconsistencies  but the room itself was spotless.,False,,,,False,
+92,I just checked in yesterday as an IHG member hoping to use my points for a smooth stay. The bed was surprisingly soft and the new modern layout made t,False,,,,False,
+93,the people at check-in were super friendly and got me settled in quickly. the lobby area looks really modern and the price felt pretty fair for what y,False,,,,False,lobby_open_purpose
+94,after checking in the room felt a bit cramped with the furniture shoved too close together  making the space feel tight. the air smelled fresh and the,False,,,,False,
+95,The hotel sits near a major highway interchange with moderate traffic noise. I arrived at 3 PM to check in for a business trip. The check-in process t,False,,,,False,
+96,Have you ever found yourself wondering if a chain hotel can actually feel like a home away from home? The bed was surprisingly soft for a standard roo,False,,,,False,
+97,First I was SCARED walking in after dark with my bags. The spot right near the highway made getting everywhere SO easy. They gave me a decent room for,False,,,,False,
+98,so i was hoping that the hallways and rooms looked spotless when we walked in. the hair dryer was broken and the tv remote felt flimsy  but the beds w,False,,,,False,
+99,the beds were super comfy and the whole place just feels solid. i booked this spot after my last stay at a certain big chain went wrong. i was pretty ,False,,,,False,breakfast_not_included
+100,this spot is way cleaner than the place i usually hit up nearby. the breakfast prices were a steal and there were plenty of style options to pick from,False,,,,False,breakfast_not_included
+101,ok so i was pretty skeptical about the rate for this spot  especially since i saw cheaper options nearby. i expected to be ripped off  yet the check-i,False,,,,False,
+102,just arrived last night and the room's plush bedding was surprisingly cozy with some modern wall art that actually looked nice. the decor felt fresh a,False,,,,False,kids_eat_conditions
+103,walked into the lobby and the carpet looked a bit worn near the entrance. my room was clean but the wifi kept dropping whenever i tried to check my em,False,,,,False,
+104,The location is just perfect for what we needed.,False,,,,False,
+105,The staff were incredibly welcoming and made my arrival feel so much warmer than my usual corporate stays. For business I usually need a quiet desk ar,False,,,,False,
+106,Just stopped by a Holiday Inn by IHG near me last week for a quick trip. First the check-in was smooth  Second the room was clean and comfy  Also the ,False,,,,False,breakfast_not_included
+107,The room amenities were lacking. Service was fantastic though. Facilities need some work. Just stayed here recently.,False,,,,False,
+108,The stay was a solid choice for our recent business trip. The location is adequate for getting around the area quickly. We enjoyed the fresh coffee an,False,,,,False,breakfast_not_included
+109,just a heads up  the check-in process was a bit inconsistent this time. the spot is perfect though  right near all the main attractions. my room was c,False,,,,False,
+110,i walked in last night feeling totally drained from the drive. the continental spread was surprisingly good for the price. rooms were comfy and the po,False,,,,False,
+111,The location was great for our trip.,False,,,,False,
+112,Honestly  I wasn't holding out much hope for this stay. To my surprise  the rooms were spotless and felt brand new. Actually  being located near the c,False,,,,False,
+113,staying here felt way better than that other chain i tried last month. the location is super convenient and right near everything i needed. some drink,False,,,,False,
+114,after staying at a pricey chain nearby  the morning spread here actually had some real flavor until you hit the waffle station. the service was just f,False,,,,False,
+115,the room rates were actually reasonable for what you get and the design features in the space were surprisingly nice. i use the amenities every day an,False,,,,False,
+116,We checked in recently and the facility felt very clean and well-maintained from the moment we walked through the door. The breakfast items tasted fre,False,,,,False,breakfast_not_included
+117,i was honestly surprised by how clean the place was and the price felt totally fair for a holiday inn stay.,False,,,,False,
+118,We stopped here right next to the stadium last weekend. The service was inconsistent when we tried to order room service. Inside the room the walls we,False,,,,False,
+119,Have you ever walked into a place where the people were just there but not really there? The bed was so plush I barely heard the highway noise outside,False,,,,False,
+120,The bed was comfy but the room smelled musty and the decor looked dated. They charged way too much for the coffee. The eggs were cold yet the juice wa,False,,,,False,
+121,The room rate was such a steal for what we got. I almost missed the turn but luck was on my side. The bed was fine but the thermostat felt weird.,False,,,,False,
+122,The room felt surprisingly cozy and well-appointed  yet the nightly rate seemed steep for what you actually receive.,False,,,,False,
+123,we walked into the lobby hoping for a nice vibe and were so excited about the affordable rate we saw online. the bed felt super soft and the room look,False,,,,False,
+124,The room for improvement was glaring when I noticed the missing mini-fridge that was supposed to be included. The bed was decent and the closet space ,False,,,,False,
+125,The continental spread had fresh fruit and hot coffee that hit the spot. First  the wi-fi connection was spotty  next the smart tv only had 40 channel,False,,,,False,h4_power_outlets
+126,I checked into this Holiday Inn just a couple of days ago for a quick business trip. The beds were incredibly soft and the room felt spacious enough f,False,,,,False,breakfast_not_included
+127,the check-in crew was super friendly unlike my last stay at a competitor  but the room design is modern while the cleanliness was inconsistent.,False,,,,False,
+128,the bed was comfy enough but the room felt a bit generic compared to the boutique spots i usually hit on weekends. service was hit or miss sometimes t,False,,,,False,
+129,the lobby area was surprisingly clean and the beds felt genuinely comfortable for a night's sleep. the decor feels outdated now and the pricing seems ,False,,,,False,breakfast_not_included
+130,The location felt a bit sketchy when I first pulled up to the property. First  I was worried about my safety  but then they showed me the new cameras ,False,,,,False,lobby_open_purpose
+131,so i was expecting the rooms to be a bit run down  yet the price was incredibly reasonable considering the space and cleanliness. the fitness center e,False,,,,False,breakfast_not_included;lobby_open_purpose
+132,Ok so I booked this stay as an IHG member expecting the usual perks. The location was convenient for grabbing a quick bite nearby. As a member I menti,False,,,,False,
+133,heads up before you book this place. something about the vibe just feels off sometimes. rates were actually cheap for the spot though. quality is just,False,,,,False,
+134,So  are you wondering if this place is actually worth the trip down the road? The carpet in the room felt a bit stale and worn though.,False,,,,False,
+135,after a few days i found the sheets kinda scratchy even though the rate was super cheap and the bed itself was just okay. First walking into the lobby,False,,,,False,lobby_open_purpose

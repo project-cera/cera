@@ -1,0 +1,28 @@
+review_number,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,0,,,,0,display_size_ratio
+2,0,,,,1,
+3,0,,,,0,audio_speakers
+4,0,,,,0,"ram_configurations,ports_usb_c,battery_life"
+5,0,,,,1,
+6,1,wrong_spec,"Claims 'Ryzen 5 processor'; factsheet specifies Intel 13th Gen Raptor Lake (i5-1335U or i7-1355U)",Ryzen 5 processor handles multitasking with ease,0,"display_size_ratio,display_resolution,connectivity_wifi,cpu_generation"
+7,0,,,,0,"cpu_generation,cpu_available_models"
+8,0,,,,0,"ram_type_soldered,battery_life"
+9,0,,,,1,
+10,1,wrong_spec,"Claims 'battery easily lasts 10 hours'; factsheet specifies ~7hrs mixed use",the battery easily lasts 10 hours during standard web browsing and document editing,0,"cpu_available_models,battery_life,ports_usb_c"
+11,0,,,,0,"ram_configurations,ports_usb_c"
+12,0,,,,1,
+13,0,,,,0,"display_size_ratio,ram_configurations,storage_configurations,display_resolution,display_panel_type,cpu_available_models,battery_life,battery_charger_wattage"
+14,0,,,,1,
+15,0,,,,1,
+16,0,,,,0,cpu_generation
+17,0,,,,0,ram_configurations
+18,0,,,,1,
+19,0,,,,1,
+20,0,,,,1,
+21,0,,,,0,"ram_configurations,ports_usb_c,ports_usb_a"
+22,0,,,,1,
+23,0,,,,1,
+24,1,wrong_spec,"Claims '12th gen Intel Core i7'; factsheet specifies Intel 13th Gen Raptor Lake",12th gen Intel Core i7,0,"cpu_generation,ram_configurations"
+25,0,,,,0,"display_size_ratio,ports_usb_c"
+26,0,,,,1,
+27,0,,,,1,

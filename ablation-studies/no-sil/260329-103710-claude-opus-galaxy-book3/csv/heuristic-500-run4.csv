@@ -1,0 +1,101 @@
+review_number,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,TRUE,wrong_spec,Processor is 13th Gen not 12th Gen,12th Gen Intel Core i5,FALSE,cpu_generation
+2,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+3,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+4,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+5,FALSE,,,,FALSE,display_resolution;cpu_generation;cpu_available_models;ram_configurations
+6,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+7,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+8,FALSE,,,,FALSE,display_resolution;display_size_ratio;ram_configurations;cpu_available_models
+9,TRUE,hallucinated_feature,Display is not 120Hz,120Hz display,FALSE,display_panel_type
+10,TRUE,wrong_spec,Laptop HAS a microSD card slot,lack of an SD card slot,FALSE,storage_microsd
+11,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+12,TRUE,wrong_spec,Processor is 13th Gen not 12th Gen,12th Gen Intel i5,FALSE,cpu_generation
+13,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+14,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,1080p AMOLED display,FALSE,display_panel_type
+15,FALSE,,,,FALSE,display_resolution;limit_no_thunderbolt
+16,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+17,TRUE,hallucinated_feature,Does NOT have a dedicated/discrete GPU,dedicated GPU,FALSE,limit_no_discrete_gpu
+18,FALSE,,,,FALSE,display_size_ratio;ram_configurations;cpu_available_models
+19,TRUE,wrong_spec,Laptop HAS a microSD card slot,lack of an SD card slot,FALSE,storage_microsd
+20,TRUE,wrong_spec;wrong_spec;wrong_spec,Display resolution is 1920x1080 not 2400x1440;Processor is 13th Gen not 12th Gen;Laptop HAS a microSD card reader,2400x1440 display;12th Gen Intel Core i5;lack of SD card reader,FALSE,display_resolution;cpu_generation;storage_microsd
+21,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Laptop HAS a 3.5mm headphone jack,AMOLED display;lack of a 3.5mm headphone jack,FALSE,display_panel_type;ports_usb_c
+22,FALSE,,,,FALSE,display_size_ratio;pricing_us_msrp;ram_configurations;cpu_available_models;limit_no_discrete_gpu
+23,FALSE,,,,FALSE,display_size_ratio;cpu_available_models
+24,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;RAM is soldered max 16GB not upgradeable to 32GB,AMOLED display;upgraded the RAM to 32GB,FALSE,display_panel_type;ram_type_soldered;ram_configurations
+25,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+26,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Laptop HAS a microSD card slot,AMOLED display;lack of an SD card slot,FALSE,display_panel_type;storage_microsd
+27,TRUE,wrong_spec;wrong_spec,MSRP is $999.99 not $850;Laptop HAS USB-C PD charging,$850;wish it had a USB-C charging port,FALSE,pricing_us_msrp;ports_usb_c
+28,FALSE,,,,FALSE,display_size_ratio;cpu_generation
+29,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not OLED and resolution is 1920x1080 not 2.8K,2.8K OLED display,FALSE,display_panel_type;display_resolution
+30,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+31,FALSE,,,,FALSE,display_size_ratio;display_resolution
+32,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+33,FALSE,,,,FALSE,display_size_ratio;cpu_available_models
+34,TRUE,wrong_spec,MSRP is $999.99 not $1200,$1200,FALSE,pricing_us_msrp
+35,FALSE,,,,FALSE,cpu_generation;cpu_available_models;ram_configurations
+36,FALSE,,,,FALSE,display_size_ratio;cpu_generation;cpu_available_models;storage_configurations
+37,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+38,FALSE,,,,FALSE,display_resolution;cpu_generation;cpu_available_models
+39,FALSE,,,,FALSE,display_size_ratio;limit_no_discrete_gpu
+40,TRUE,wrong_spec,Processor is 13th Gen not 12th Gen,12th Gen Intel Core i5,FALSE,cpu_generation
+41,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+42,FALSE,,,,FALSE,display_size_ratio;cpu_available_models
+43,FALSE,,,,FALSE,display_size_ratio;display_resolution;ram_configurations;cpu_available_models
+44,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+45,FALSE,,,,FALSE,display_resolution;ram_configurations;cpu_available_models
+46,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+47,FALSE,,,,FALSE,display_resolution;cpu_generation;cpu_available_models
+48,FALSE,,,,FALSE,display_size_ratio;ram_configurations;cpu_available_models
+49,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Laptop HAS a microSD card slot,AMOLED display;lack of an SD card slot,FALSE,display_panel_type;storage_microsd
+50,FALSE,,,,FALSE,display_size_ratio;cpu_available_models;ram_configurations
+51,TRUE,wrong_spec,Processor is 13th Gen not 12th Gen,12th Gen Intel Core i5,FALSE,cpu_generation
+52,TRUE,hallucinated_feature;wrong_spec;wrong_spec,Does NOT have a discrete GPU;MSRP is $999.99 not $899;Has 2x USB-C not just one,dedicated graphics card;$899;just one USB-C,FALSE,limit_no_discrete_gpu;pricing_us_msrp;ports_usb_c
+53,FALSE,,,,FALSE,display_size_ratio;cpu_generation;cpu_available_models
+54,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+55,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+56,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+57,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+58,TRUE,wrong_spec,Processor is 13th Gen not 12th Gen,12th Gen Intel Core i5,FALSE,cpu_generation
+59,FALSE,,,,FALSE,display_size_ratio;cpu_available_models;ram_configurations
+60,FALSE,,,,FALSE,display_resolution;display_size_ratio;ram_configurations;storage_configurations
+61,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+62,FALSE,,,,FALSE,display_size_ratio;cpu_available_models
+63,FALSE,,,,FALSE,display_resolution;cpu_generation;cpu_available_models
+64,TRUE,wrong_spec,Processor is 13th Gen not 12th Gen,12th Gen Intel Core i5,FALSE,cpu_generation
+65,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+66,FALSE,,,,FALSE,display_size_ratio;cpu_available_models
+67,TRUE,hallucinated_feature,Does NOT have Thunderbolt 4,two Thunderbolt 4 ports,FALSE,limit_no_thunderbolt
+68,TRUE,wrong_spec,Processor is 13th Gen not 12th Gen,12th Gen Intel CPU,FALSE,cpu_generation
+69,TRUE,wrong_spec,Processor is 13th Gen not 12th Gen,12th Gen Intel Core i5,FALSE,cpu_generation
+70,FALSE,,,,FALSE,display_size_ratio;cpu_available_models;ram_configurations
+71,FALSE,,,,FALSE,display_size_ratio;cpu_available_models;ram_configurations
+72,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Processor is 13th Gen not 12th Gen,AMOLED display;12th Gen Intel Core i7,FALSE,display_panel_type;cpu_generation
+73,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+74,FALSE,,,,FALSE,display_size_ratio;ram_configurations;cpu_available_models
+75,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+76,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+77,FALSE,,,,FALSE,cpu_available_models
+78,FALSE,,,,FALSE,display_size_ratio;ram_configurations
+79,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED and resolution is 1920x1080 not 2880x1800,2880x1800 AMOLED display,FALSE,display_panel_type;display_resolution
+80,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+81,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+82,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+83,TRUE,wrong_spec,Processor is 13th Gen not 12th Gen,12th Gen Intel i7,FALSE,cpu_generation
+84,FALSE,,,,FALSE,display_size_ratio;cpu_available_models;ram_configurations
+85,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Laptop HAS a microSD card reader,AMOLED display;lack of a card reader,FALSE,display_panel_type;storage_microsd
+86,TRUE,wrong_spec,Display is FHD 1920x1080 not QHD+,QHD+ display,FALSE,display_resolution
+87,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Processor is 13th Gen not 12th Gen,AMOLED display;12th Gen Intel Core i7,FALSE,display_panel_type;cpu_generation
+88,FALSE,,,,FALSE,display_resolution;ram_configurations
+89,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+90,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+91,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;MSRP is $999.99 not $950,AMOLED display;$950,FALSE,display_panel_type;pricing_us_msrp
+92,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Weight is 3.46lbs not 3.7 pounds,AMOLED display;3.7 pounds,FALSE,display_panel_type;dimensions_weight
+93,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+94,FALSE,,,,FALSE,display_size_ratio;cpu_generation
+95,FALSE,,,,FALSE,display_size_ratio;ram_configurations
+96,TRUE,hallucinated_feature;wrong_spec,Display is IPS LCD not AMOLED;Processor is 13th Gen not 12th Gen,AMOLED display;12th Gen Intel Core i7,FALSE,display_panel_type;cpu_generation
+97,FALSE,,,,FALSE,display_resolution;ram_configurations
+98,TRUE,hallucinated_feature,Display is IPS LCD not AMOLED,AMOLED display,FALSE,display_panel_type
+99,FALSE,,,,FALSE,display_size_ratio;cpu_available_models;ram_configurations
+100,TRUE,hallucinated_feature;hallucinated_feature,Display is IPS LCD not AMOLED;Does NOT have Thunderbolt 4,AMOLED display;Thunderbolt 4,FALSE,display_panel_type;limit_no_thunderbolt

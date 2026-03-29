@@ -1,0 +1,28 @@
+review_number,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,0,,,,0,display_size_ratio
+2,0,,,,1,
+3,1,wrong_spec,"Claims '16GB LPDDR5 RAM'; factsheet specifies LPDDR4x RAM",16GB LPDDR5 RAM ensures that the system stays responsive,0,"display_size_ratio,cpu_available_models,ram_type_soldered,ram_configurations"
+4,0,,,,0,"ram_configurations,storage_configurations"
+5,0,,,,1,
+6,0,,,,0,display_size_ratio
+7,0,,,,1,
+8,0,,,,0,"ram_configurations,cpu_generation,audio_speakers"
+9,0,,,,1,
+10,0,,,,0,"ram_configurations,storage_configurations,display_size_ratio"
+11,0,,,,1,
+12,0,,,,0,"display_size_ratio,display_resolution,cpu_available_models"
+13,0,,,,0,display_size_ratio
+14,0,,,,1,
+15,0,,,,0,ram_configurations
+16,0,,,,1,
+17,0,,,,0,"cpu_available_models,ram_configurations,ports_usb_c,audio_speakers"
+18,0,,,,1,
+19,0,,,,0,ports_usb_c
+20,0,,,,1,
+21,0,,,,1,
+22,0,,,,0,"ram_configurations,audio_speakers"
+23,1,wrong_spec,"Claims '16GB of LPDDR5 RAM'; factsheet specifies LPDDR4x RAM",16GB of LPDDR5 RAM and a 512GB NVMe SSD,0,"ram_type_soldered,ram_configurations,storage_configurations,battery_capacity,battery_life"
+24,0,,,,0,"audio_speakers,ports_usb_c"
+25,0,,,,0,display_size_ratio
+26,0,,,,1,
+27,0,,,,1,

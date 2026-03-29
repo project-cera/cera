@@ -1,0 +1,1204 @@
+{
+  "mode": "heuristic",
+  "domain": "hotel",
+  "size": 100,
+  "runCount": 5,
+  "aggregate": {
+    "totalReviews": 100,
+    "totalErrors": 13,
+    "totalVague": 0,
+    "errorRate": 0.13,
+    "vfCount": 100,
+    "vfPercent": 1.0,
+    "fs": 0.87
+  },
+  "runs": [
+    {
+      "run": 1,
+      "totalReviews": 20,
+      "totalErrors": 4,
+      "totalVague": 0,
+      "errorRate": 0.2,
+      "vfCount": 20,
+      "vfPercent": 1.0,
+      "fs": 0.8,
+      "flags": [
+        {
+          "review_number": 2,
+          "reason": "Claims complimentary breakfast buffet; factsheet states Holiday Inn does NOT offer complimentary breakfast (only Holiday Inn Express does)",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "\"complimentary breakfast buffet\""
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Claims complimentary breakfast; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "\"complimentary breakfast\""
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "Claims free breakfast buffet; factsheet states Holiday Inn does NOT offer complimentary breakfast (only Holiday Inn Express does)",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "\"free breakfast buffet\""
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Claims complimentary breakfast buffet; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "\"complimentary breakfast buffet\""
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "The check-in process was incredibly smooth and efficient upon arrival. Our room was spotless with very comfortable beds and fresh linens. We enjoyed the hot breakfast buffet and earned plenty of IHG One Rewards points. The pool area was clean but the water temperature felt a bit lukewarm. Overall, the location was perfect for our family trip near the highway.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "dining_full_service;rewards_join_benefits"
+        },
+        {
+          "review_number": 2,
+          "text": "We loved the spacious beds and the crisp white linens that made our sleep incredibly restful. The complimentary breakfast buffet offered a great variety of hot and cold options for the whole family. However, the Wi-Fi in the room was surprisingly slow and dropped connection frequently during our work calls. We appreciated the Kids Stay and Eat Free program which saved us a lot of money during our vacation. The lobby design feels modern and welcoming, making check-in a quick and pleasant experience.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims complimentary breakfast buffet; factsheet states Holiday Inn does NOT offer complimentary breakfast (only Holiday Inn Express does)",
+          "highlights": "\"complimentary breakfast buffet\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;kids_program_exists;rewards_join_benefits"
+        },
+        {
+          "review_number": 3,
+          "text": "The check-in process was smooth and the staff were incredibly welcoming upon arrival. Our room was spotless and the bed provided exceptional comfort after a long travel day. The breakfast buffet offered a great variety of hot and cold options for everyone. We earned plenty of IHG One Rewards points which will definitely help us next time. The hotel is conveniently located near the highway, making it easy to explore the area.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "dining_full_service;rewards_join_benefits"
+        },
+        {
+          "review_number": 4,
+          "text": "Our family enjoyed the spacious rooms and the Kids Stay and Eat Free program was a huge bonus for us. The breakfast buffet offered a good variety of fresh options, though the coffee was a bit lukewarm. Check-in was quick and the staff were friendly, making the arrival seamless. We noticed the hotel is a bit older than the newer Holiday Inn Express locations nearby. Overall, the value for money was excellent given the location and amenities provided.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 5,
+          "text": "The check-in process was incredibly smooth and our room was spotless upon arrival. We loved the kids stay and eat free program, which saved us a lot of money during our family trip. The breakfast buffet had great variety but the coffee was lukewarm. Our room was comfortable with a very soft bed, though the Wi-Fi connection was a bit spotty. Overall, the Holiday Inn provided a solid stay that felt better than the Express location nearby.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 6,
+          "text": "The Holiday Inn exceeded our expectations with its spotless rooms and incredibly comfortable beds. We loved the kids stay and eat free program, which made the breakfast buffet a huge value for our family. The check-in process was efficient, though the Wi-Fi in the lobby felt a bit sluggish during peak hours. While the pool area was clean and well-maintained, the fitness center equipment was surprisingly outdated compared to newer IHG brands. Overall, the hotel offers good value for money, especially when redeeming IHG One Rewards points for a stay.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 7,
+          "text": "Our stay at the Holiday Inn was comfortable, with plush beds that made waking up easy. The breakfast buffet offered great variety, though the coffee was just average. We appreciated the Kids Stay and Eat Free program, which saved us a lot of money. The lobby design felt a bit dated compared to newer properties in the chain. Overall, the location was convenient for our business meetings, and the Wi-Fi was reliable.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 8,
+          "text": "The check-in process was incredibly smooth and efficient. Our room was spotless and the bed provided exceptional comfort. We appreciated the complimentary breakfast and the kids stayed free. The Wi-Fi was decent but the pool area felt a bit dated. Overall, it was a great value for a family trip compared to other brands.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims complimentary breakfast; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "highlights": "\"complimentary breakfast\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;kids_stay_free_limit"
+        },
+        {
+          "review_number": 9,
+          "text": "The room was incredibly comfortable with plush bedding that made sleeping a breeze. Breakfast offered a great variety of hot items and the kids stayed free, which was a huge saver. However, the Wi-Fi was spotty during our stay and the check-in process took over thirty minutes. Overall, the location is convenient for highway access and the fitness center was clean and modern. I will definitely earn more IHG One Rewards points on future trips to this Holiday Inn.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_stay_free_limit;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 10,
+          "text": "The Holiday Inn was incredibly clean upon arrival, making our family feel welcome immediately. Our room featured a modern design with a very comfortable king bed and blackout curtains. Breakfast had decent options but the coffee machine was often broken during peak hours. We earned great IHG One Rewards points while the staff handled our late check-in efficiently. The pool area was a bit small for the number of families staying there, though the water was warm.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 11,
+          "text": "The bed was incredibly soft and comfortable after a long day of travel. We also enjoyed the free breakfast buffet which had a great variety of fresh options. The Wi-Fi connection was a bit slow in the evening hours. Our kids loved the pool area and we appreciated the Kids Stay and Eat Free program. Overall, it was a solid stay that felt consistent with the Holiday Inn brand standards.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims free breakfast buffet; factsheet states Holiday Inn does NOT offer complimentary breakfast (only Holiday Inn Express does)",
+          "highlights": "\"free breakfast buffet\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;kids_program_exists"
+        },
+        {
+          "review_number": 12,
+          "text": "The check-in process was seamless and the front desk staff were incredibly welcoming upon arrival. Our room was spacious with a very comfortable bed, though the Wi-Fi connection was unreliable in the evening. The breakfast buffet offered a good variety of options, but the prices felt a bit steep for a standard Holiday Inn. We utilized the IHG One Rewards points to upgrade, which made the stay feel much more premium than expected. Overall, it is a solid choice for families thanks to the Kids Stay and Eat Free program and the clean pool area.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 13,
+          "text": "We were thrilled with the Holiday Inn for our family trip because the Kids Stay and Eat Free program saved us a fortune. The room was incredibly comfortable with a plush bed, though the Wi-Fi connection was frustratingly slow in the evening. Check-in was efficient and the front desk staff were very welcoming upon our arrival. While the breakfast buffet had decent variety, the prices for the \u00e0 la carte items felt a bit steep compared to other brands. Overall, earning IHG One Rewards points made this stay feel like great value for the money.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service;rewards_join_benefits"
+        },
+        {
+          "review_number": 14,
+          "text": "The location near the highway made our drive easy, and the check-in process was surprisingly fast. Our room was very clean, but the bedding felt a bit stiff and uncomfortable for a long sleep. The breakfast buffet had decent variety, though the prices were a bit higher than expected for the quality. We earned some good IHG One Rewards points during our stay, which is a nice plus for frequent travelers. Overall, it is a solid choice for a business trip, even if the design feels a bit dated compared to newer brands.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 15,
+          "text": "The Holiday Inn exceeded our expectations with its spotless rooms and incredibly comfortable beds. We utilized the Kids Stay and Eat Free program, which saved us a lot of money during our family trip. However, the breakfast buffet felt a bit repetitive and overpriced for the quality offered. The front desk staff were efficient during check-in, earning us valuable IHG One Rewards points quickly. Overall, the location is convenient but the Wi-Fi in the lobby was frustratingly slow.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service;rewards_join_benefits"
+        },
+        {
+          "review_number": 16,
+          "text": "The check-in process was incredibly smooth and our room was spotlessly clean upon arrival. We enjoyed the complimentary breakfast buffet which had a great variety of hot options. However, the Wi-Fi connection in the room was frustratingly slow and kept dropping. Overall, the bed was very comfortable and the Holiday Inn brand delivered exactly what we expected for the price.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims complimentary breakfast buffet; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "highlights": "\"complimentary breakfast buffet\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express"
+        },
+        {
+          "review_number": 17,
+          "text": "The Holiday Inn near the airport offered a smooth check-in and the beds were incredibly comfortable for our tired travelers. We utilized the IHG One Rewards points to upgrade, but the Wi-Fi in the lobby was painfully slow during our evening stay. The breakfast buffet had decent variety, though the coffee station was often empty by mid-morning. Overall, the hotel met our expectations for a standard business trip, and the fitness center was well-maintained. The room design felt a bit dated compared to newer Holiday Inn Express properties, but the cleanliness was spotless.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 18,
+          "text": "The Holiday Inn near the airport was incredibly convenient, but the check-in process felt rushed and impersonal. Our room was spacious and very clean, though the bed felt a bit too firm for my liking. The breakfast buffet offered decent variety, but the coffee was lukewarm and the prices were slightly high for the quality. We earned good points with IHG One Rewards, and the kids stayed free which made the trip affordable for our family. Overall, the hotel felt a bit dated compared to the newer Express locations, but the staff went out of their way to help us.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;kids_stay_free_limit;dining_full_service"
+        },
+        {
+          "review_number": 19,
+          "text": "The check-in process was smooth and the staff were incredibly welcoming upon arrival. Our room was spotlessly clean with a very comfortable bed and high-quality linens. The breakfast buffet offered great variety, though the prices were a bit steep for the portion sizes. Wi-Fi was reliable throughout the stay and the kids loved the pool area. Overall, it was a solid experience that we would recommend to families.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "dining_full_service"
+        },
+        {
+          "review_number": 20,
+          "text": "The Holiday Inn was a fantastic choice for our family trip, especially with the Kids Stay and Eat Free program. Our room was spotless and incredibly comfortable, though the Wi-Fi signal in the hallway was a bit weak. We earned plenty of IHG One Rewards points, which made the overall value of the stay quite good. The breakfast buffet had decent variety, but the coffee tasted a bit watered down compared to other chains. Overall, the location near the highway was convenient, and the front desk staff were friendly and efficient.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "totalReviews": 20,
+      "totalErrors": 2,
+      "totalVague": 0,
+      "errorRate": 0.1,
+      "vfCount": 20,
+      "vfPercent": 1.0,
+      "fs": 0.9,
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "Claims complimentary breakfast; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "\"complimentary breakfast\""
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "Claims complimentary breakfast with wide variety; factsheet states Holiday Inn does NOT offer complimentary breakfast (only Holiday Inn Express does)",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "\"complimentary breakfast which featured a wide variety\""
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "The check-in process was seamless and the staff were incredibly welcoming upon arrival. Our room was spotless with a very comfortable bed and fresh linens throughout. The complimentary breakfast had good variety but the coffee was lukewarm. We earned plenty of IHG One Rewards points which makes this brand reliable for future stays. Overall, the Holiday Inn provided a solid value for the price compared to other chains.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims complimentary breakfast; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "highlights": "\"complimentary breakfast\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;rewards_join_benefits"
+        },
+        {
+          "review_number": 2,
+          "text": "We were thrilled to see the kids stay and eat free program in action, which saved us a lot of money on our family trip. The room was spacious and the bed was incredibly comfortable, though the Wi-Fi connection struggled during our evening video calls. Check-in was efficient and the front desk staff were friendly, making our arrival very smooth.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists"
+        },
+        {
+          "review_number": 3,
+          "text": "The bed was incredibly comfortable and the room was spotless throughout our stay. Breakfast had great variety but the prices felt a bit steep for what was offered. We appreciated the free shuttle service which made getting to the airport very convenient. However, the Wi-Fi connection was unreliable and slow during our evening work sessions. Overall, the Holiday Inn staff was friendly and the check-in process was smooth.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "dining_full_service"
+        },
+        {
+          "review_number": 4,
+          "text": "The Holiday Inn was a great choice for our family trip thanks to the Kids Stay and Eat Free program. Our room was incredibly comfortable with a very soft bed and fresh linens. Breakfast had decent variety but the prices felt a bit high for the quality. The fitness center was clean and well-maintained with modern equipment. We earned good IHG One Rewards points which we will definitely use on our next visit.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 5,
+          "text": "We loved the spacious rooms and the incredibly comfortable beds at this Holiday Inn. The breakfast buffet had a great variety of hot and cold options. However, the Wi-Fi connection was spotty throughout our stay. Check-in was quick and the staff were very welcoming. Overall, the location near the highway made driving easy.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "dining_full_service"
+        },
+        {
+          "review_number": 6,
+          "text": "We booked our family trip using our IHG One Rewards points and were thrilled that the kids stayed and ate free. The rooms were incredibly comfortable with soft beds, though the decor felt a bit dated compared to newer brands. Breakfast options were decent with fresh fruit, but the waffle station was always closed by the time we arrived. Check-in was quick and friendly, and the fitness center equipment was all in good working order. Overall, the hotel felt clean and safe, making it a solid choice for a quick business stopover.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 7,
+          "text": "The Holiday Inn staff greeted us warmly at the front desk during a smooth check-in process. Our room was spacious and the bed was incredibly comfortable after a long day of travel. We were impressed by the complimentary breakfast which featured a wide variety of hot and cold options. However, the Wi-Fi connection was sluggish and caused issues while working from the lobby. Overall, the property feels well-maintained despite being located near a busy highway.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims complimentary breakfast with wide variety; factsheet states Holiday Inn does NOT offer complimentary breakfast (only Holiday Inn Express does)",
+          "highlights": "\"complimentary breakfast which featured a wide variety\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express"
+        },
+        {
+          "review_number": 8,
+          "text": "We were thrilled to book our stay as part of the Kids Stay and Eat Free program, which made our family vacation incredibly affordable. The room was spacious and the bed was very comfortable, offering a great night's sleep after our long drive. Breakfast had a good variety of options, though the prices for the hot items were a bit higher than expected. Check-in was smooth, but the Wi-Fi in the room struggled to connect during our evening meetings. Overall, the Holiday Inn provided a solid experience for our business trip with reliable service throughout.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 9,
+          "text": "Our family loved the Holiday Inn because the Kids Stay and Eat Free program saved us a lot of money. The room was incredibly comfortable with a plush bed, though the design felt a bit dated compared to newer brands. Breakfast had decent variety but the coffee machine was often out of order during our stay. We earned good IHG One Rewards points which makes this a solid choice for business travelers. The location was convenient for meetings, although the shuttle service to the airport was unreliable.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 10,
+          "text": "We loved the Kids Stay and Eat Free program, which made our family trip much more affordable. The room was exceptionally comfortable with a plush bed, though the Wi-Fi connection was spotty. Breakfast quality varied, but the lobby design felt modern and inviting for our morning meetings. While the pool area was clean, the check-in process took longer than expected despite our IHG One Rewards status. Overall, the price was reasonable for the location, making it a solid choice for a weekend getaway.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits"
+        },
+        {
+          "review_number": 11,
+          "text": "The Holiday Inn was clean and comfortable, making our family stay very pleasant. We earned extra IHG One Rewards points during our check-in, which was a nice bonus. The breakfast buffet had limited style options and was priced higher than expected.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 12,
+          "text": "Our stay at Holiday Inn was fantastic, especially since the kids stayed and ate free which saved us a lot of money. The room was incredibly comfortable with a supportive mattress, though the Wi-Fi connection was a bit spotty in the evening. We earned good IHG One Rewards points, but the breakfast buffet felt a bit overpriced for the quality of the food.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 13,
+          "text": "We loved the Holiday Inn for our family trip since the kids stayed and ate free, which made the prices very reasonable. The bed was incredibly comfortable and the room was spotless, though the Wi-Fi speed was a bit inconsistent. Check-in was efficient and the fitness center was well-equipped, but the breakfast buffet felt a bit repetitive.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 14,
+          "text": "The Holiday Inn was spotless and the beds were incredibly comfortable for our family. We appreciated the Kids Stay and Eat Free program, which made dining much cheaper. The lobby design felt a bit dated compared to newer IHG properties. Check-in was efficient and the Wi-Fi worked well in our room. Overall, the value for the price was reasonable for a business trip.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 15,
+          "text": "Our family loved the Kids Stay and Eat Free program, which made our trip much more affordable. The beds were incredibly comfortable, allowing us to sleep soundly after a long day of sightseeing. However, the Wi-Fi connection in the room was spotty and frequently dropped during our video calls. The breakfast buffet had a good variety of options, though the prices felt a bit high for a mid-scale hotel. Check-in was smooth, but the room felt slightly outdated compared to the newer Holiday Inn Express locations.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 16,
+          "text": "We enjoyed the spacious rooms and the comfortable beds made our stay very relaxing. The breakfast buffet had a great variety of hot options but was a bit pricey for what you get. Wi-Fi was spotty in the hallway but worked fine in the room near the pool area. Check-in was quick and the staff were friendly, though the lobby design feels a bit dated. Overall, the kids stayed free which saved us money, making it a decent choice for families.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 17,
+          "text": "Our family loved the Kids Stay and Eat Free program, which made the trip affordable for us. The room was clean and comfortable, though the Wi-Fi connection was a bit spotty during our stay. Check-in was quick and the staff were friendly, making the arrival experience very smooth. We earned some nice IHG One Rewards points, but the breakfast options were surprisingly limited compared to the Express. Overall, the Holiday Inn offers good value for the price, with a well-maintained pool area.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 18,
+          "text": "Our family loved the Kids Stay and Eat Free program, which made our vacation much more affordable. The bed was incredibly comfortable, ensuring a great night's sleep after a long day of sightseeing. We also appreciated the modern design features in the lobby and the quality of the fresh breakfast buffet. Although the Wi-Fi connection was a bit slow in our room, the friendly staff made the check-in process seamless. Overall, Holiday Inn delivered a solid experience that we would recommend for a family trip.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 19,
+          "text": "We were thrilled to find the Holiday Inn truly lived up to its promise with a sparkling clean room and incredibly comfortable beds. The breakfast buffet offered a great variety of hot options, though the coffee was a bit lukewarm. Check-in was seamless and our IHG One Rewards points were applied instantly upon arrival. While the location is convenient, the Wi-Fi in the lobby felt sluggish during our evening stay. Overall, the value for the price is excellent, especially with the kids staying and eating free program.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 20,
+          "text": "We loved the spacious rooms and the incredibly comfortable beds at this Holiday Inn. The breakfast buffet had a great variety, but the coffee was a bit lukewarm. Check-in was efficient and the staff were very welcoming throughout our stay. The pool area was clean and the Wi-Fi worked perfectly for our remote work needs. Overall, the value for money was excellent considering the IHG One Rewards points we earned.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;kids_program_exists;dining_full_service"
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "totalReviews": 20,
+      "totalErrors": 5,
+      "totalVague": 0,
+      "errorRate": 0.25,
+      "vfCount": 20,
+      "vfPercent": 1.0,
+      "fs": 0.75,
+      "flags": [
+        {
+          "review_number": 3,
+          "reason": "Claims complimentary breakfast buffet; factsheet states Holiday Inn does NOT offer complimentary breakfast (only Holiday Inn Express does)",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "\"complimentary breakfast buffet\""
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "Claims free breakfast options; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "\"the free breakfast options\""
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Claims free breakfast buffet; factsheet states Holiday Inn does NOT offer complimentary breakfast (the breakfast buffet is available for purchase, not free)",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "\"the free breakfast buffet\""
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Claims complimentary breakfast with great selection; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "\"complimentary breakfast which had a great selection\""
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Claims complimentary breakfast variety; factsheet states Holiday Inn does NOT offer complimentary breakfast (only Holiday Inn Express does)",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "\"complimentary breakfast variety\""
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "Our stay at the Holiday Inn was great because the beds were incredibly comfortable. The breakfast buffet had plenty of options, though the coffee was lukewarm. We earned good IHG One Rewards points during our visit. The pool area was clean and the staff were very friendly.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 2,
+          "text": "The Holiday Inn was a solid choice for our family trip, especially with the Kids Stay and Eat Free program saving us money. Our room was incredibly comfortable with a great bed, though the Wi-Fi connection in the hallway was spotty. The breakfast buffet offered a good variety of hot and cold options, but the prices were slightly higher than expected. Check-in was efficient and the staff were friendly, making the overall experience quite pleasant. We noticed the pool area was clean and well-maintained throughout our stay.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 3,
+          "text": "The beds at Holiday Inn were incredibly soft and provided excellent sleep after our long drive. We loved the complimentary breakfast buffet, which offered a great variety of hot and cold items. Our kids stayed and ate free, which made the family vacation much more affordable for us. The room was clean and the Wi-Fi connection was fast enough for remote work. Overall, we will definitely book this Holiday Inn brand again for our next trip.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims complimentary breakfast buffet; factsheet states Holiday Inn does NOT offer complimentary breakfast (only Holiday Inn Express does)",
+          "highlights": "\"complimentary breakfast buffet\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;kids_program_exists"
+        },
+        {
+          "review_number": 4,
+          "text": "We stayed at the Holiday Inn with our kids and the Kids Stay and Eat Free program was a huge plus. The room was very clean and the bed was incredibly comfortable after a long travel day. Breakfast had good variety but the prices for the extra items felt a bit steep compared to other chains. We earned decent IHG One Rewards points which will help with our next booking. Overall, the front desk staff were friendly and the check-in process was smooth.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 5,
+          "text": "Our family had a wonderful stay at the Holiday Inn, and the kids really enjoyed the pool and the free breakfast options. The bed was incredibly comfortable, though the Wi-Fi connection in our room was a bit spotty during the evening. Check-in was seamless and the staff were friendly, making the overall experience quite pleasant. The room design felt a bit dated compared to newer Holiday Inn Express locations, but the cleanliness was impeccable. Overall, the value for the price was fair considering the location and the IHG One Rewards points we earned.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims free breakfast options; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "highlights": "\"the free breakfast options\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;kids_program_exists;rewards_join_benefits"
+        },
+        {
+          "review_number": 6,
+          "text": "The Holiday Inn near the airport offered a convenient shuttle service and the rooms were spotlessly clean upon arrival. Breakfast had a good variety of hot items, though the coffee tasted a bit weak compared to other chains. We earned solid IHG One Rewards points for our stay, which is always a nice perk for frequent travelers. The lobby design felt a bit dated, but the staff at check-in were friendly and efficient. Overall, it was a standard stay with fair pricing for the location.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 7,
+          "text": "Our family loved the Kids Stay and Eat Free program, which made the vacation much more affordable for us. The rooms were incredibly comfortable with high-quality bedding that ensured a restful sleep. While the breakfast buffet had good variety, the prices were slightly higher than expected for the portion sizes. Check-in was smooth and efficient, and the staff at the front desk were very welcoming. The fitness center was well-maintained but lacked some of the newer equipment found at larger IHG locations.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 8,
+          "text": "The location near the highway was perfect for our road trip stop. Our room was clean and the bed was incredibly comfortable for a good night's sleep. The breakfast buffet had decent options but the prices felt a bit high for the quality. We earned plenty of IHG One Rewards points which makes us want to return soon.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 9,
+          "text": "Our family loved the Kids Stay and Eat Free program, which saved us a fortune on our vacation. The rooms were incredibly comfortable with plush beds, though the Wi-Fi connection was spotty in the hallway. Check-in was efficient thanks to the IHG One Rewards app, but the breakfast buffet lacked variety. The fitness center was well-equipped and clean, offering a great place to work out before our meeting. Overall, the Holiday Inn provided a solid stay for the price, comparable to other brands in the area.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 10,
+          "text": "We booked a suite for our family using our IHG One Rewards points, and the kids loved the free breakfast buffet. The room was spotlessly clean with very comfortable beds, though the Wi-Fi signal was weak in the corner. Check-in was quick and the staff were friendly, but the pool area was closed for renovations.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims free breakfast buffet; factsheet states Holiday Inn does NOT offer complimentary breakfast (the breakfast buffet is available for purchase not free)",
+          "highlights": "\"the free breakfast buffet\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;kids_program_exists;rewards_join_benefits"
+        },
+        {
+          "review_number": 11,
+          "text": "We loved the Holiday Inn for our family trip because the Kids Stay and Eat Free program saved us so much money. The beds in our room were incredibly comfortable, but the Wi-Fi connection in the lobby was frustratingly slow. Check-in was smooth and the staff was friendly, though the lobby design felt a bit outdated compared to newer brands. The breakfast buffet offered good variety, and we earned plenty of IHG One Rewards points for our stay. Overall, the location near the highway made it convenient, but the room cleanliness could have been better.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 12,
+          "text": "We loved the Kids Stay and Eat Free program, which made our family vacation incredibly affordable. The room was spacious and clean, but the Wi-Fi connection was frustratingly slow during our stay. Breakfast options were decent, though the prices for coffee and pastries felt a bit high. Check-in was efficient and the staff were friendly, making us feel welcome immediately. The fitness center had good equipment, but the pool area was a bit outdated compared to other Holiday Inn properties.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 13,
+          "text": "We booked a room for our family and were thrilled that the kids stayed and ate free, which made the trip very affordable. The bed was incredibly comfortable, and the room design felt modern and spacious. Breakfast quality was good, but the options were somewhat limited compared to other Holiday Inn locations. We earned a good number of IHG One Rewards points, though the check-in process took longer than expected. Overall, the facilities were clean and the Wi-Fi worked perfectly for our remote work needs.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 14,
+          "text": "The location near the highway made check-in incredibly convenient for our family road trip. Our room was spacious and the bed was very comfortable after a long day of driving. We loved that the kids stayed and ate free, which saved us a lot of money on our breakfast. The lobby felt a bit dated compared to the newer Holiday Inn Express properties we have visited. Overall, the stay was fine and the Wi-Fi worked well enough for checking our emails.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 15,
+          "text": "We enjoyed the spacious rooms and the comfortable beds were perfect after a long day of travel. The breakfast buffet offered a great variety of hot options, though the coffee tasted a bit weak. Check-in was quick and the staff were very friendly, making us feel welcome immediately. The fitness center was clean but the equipment felt a bit dated compared to newer hotels. Overall, it is a solid choice for families thanks to the Kids Stay and Eat Free program.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 16,
+          "text": "The check-in process was incredibly smooth and the staff were very welcoming upon arrival. Our room was spotlessly clean and the bed offered exceptional comfort after a long day of travel. We appreciated the complimentary breakfast which had a great selection of hot and cold options. The pool area was nice but the water felt a bit lukewarm for our children's enjoyment. Overall, we feel the value was fair given the convenient location and our IHG One Rewards points.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims complimentary breakfast with great selection; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "highlights": "\"complimentary breakfast which had a great selection\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;rewards_join_benefits"
+        },
+        {
+          "review_number": 17,
+          "text": "The Holiday Inn provided a comfortable bed and a spotlessly clean room for our family stay. We loved the Kids Stay and Eat Free program which saved us money on the breakfast buffet. Although the check-in was smooth, the Wi-Fi in our room was frustratingly slow during work calls. The fitness center was well-equipped but slightly dated compared to newer Holiday Inn Express properties. Overall, the value was fair for the price given the convenient location near the highway.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 18,
+          "text": "We loved the comfortable beds and the clean rooms at this Holiday Inn. The breakfast buffet had great variety but was a bit pricey for what you get. Check-in was smooth and the staff were very helpful with our kids. The pool area was nice but the towels felt a bit worn out. Overall, a solid stay for the price and we will earn some IHG points.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "dining_full_service"
+        },
+        {
+          "review_number": 19,
+          "text": "The Holiday Inn provided a very comfortable stay with plush beds and a clean room that met our expectations. Breakfast options were limited and the prices for the coffee felt a bit high compared to other chains. We earned some points through IHG One Rewards but the check-in process was just average and took longer than expected. The fitness center was well-maintained with modern equipment, though the Wi-Fi connection in the lobby was spotty. Overall, the hotel location is convenient for business travelers, but the decor feels a bit dated compared to newer brands.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims complimentary breakfast variety; factsheet states Holiday Inn does NOT offer complimentary breakfast (only Holiday Inn Express does)",
+          "highlights": "\"complimentary breakfast variety\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;rewards_join_benefits"
+        },
+        {
+          "review_number": 20,
+          "text": "Our family loved the Kids Stay and Eat Free program, which made the trip budget-friendly. The beds were incredibly comfortable after a long day of travel. However, the Wi-Fi in our room was frustratingly slow. The lobby design feels modern, but the check-in process took too long. We earned good IHG One Rewards points for our stay.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "totalReviews": 20,
+      "totalErrors": 1,
+      "totalVague": 0,
+      "errorRate": 0.05,
+      "vfCount": 20,
+      "vfPercent": 1.0,
+      "fs": 0.95,
+      "flags": [
+        {
+          "review_number": 10,
+          "reason": "Claims complimentary breakfast; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "\"The complimentary breakfast offered a great variety\""
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "We were amazed by how spotless the rooms were upon arrival. The beds were incredibly soft and made for a perfect night's sleep. Breakfast offered a great variety of hot and cold options. However, the Wi-Fi connection was a bit slow in our room. Overall, it was a solid stay that justifies the IHG points we earned.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "dining_full_service"
+        },
+        {
+          "review_number": 2,
+          "text": "The Holiday Inn staff made check-in seamless, and the lobby's modern design felt welcoming immediately. Our room was spotlessly clean with a very comfortable bed, though the Wi-Fi connection was unreliable. We enjoyed the breakfast buffet for its variety, but the prices felt a bit high compared to other chains. The fitness center equipment was adequate, and we earned points easily through IHG One Rewards. Overall, the location was convenient for our meeting, making it a decent choice despite the noise.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 3,
+          "text": "Our family loved the Holiday Inn, especially the Kids Stay and Eat Free program which saved us a lot of money. The room was very clean and the bed was incredibly comfortable after a long day of travel. While the Wi-Fi was fast, the breakfast buffet felt a bit repetitive compared to other IHG properties.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 4,
+          "text": "The Holiday Inn provided a comfortable stay with very clean rooms and a modern design throughout the lobby. Breakfast options were decent but the prices were a bit high for the quality of the food served. We earned good IHG One Rewards points and the check-in process was efficient and friendly. The location is great near the highway, though the Wi-Fi in the room was spotty during our stay. Overall, the hotel met our expectations for a standard business trip with a nice fitness center.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 5,
+          "text": "Our family had a wonderful stay at the Holiday Inn, and the Kids Stay and Eat Free program was a huge hit with our children. The bed in our room was incredibly comfortable, making for a restful night's sleep after a long day of travel. Check-in was efficient, and the staff immediately credited our IHG One Rewards points to our account. While the breakfast buffet had good variety, the prices were slightly higher than we expected for the quality provided. Overall, it was a solid choice for a business trip, comparable to the Holiday Inn Express but with better meeting spaces.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "dining_full_service"
+        },
+        {
+          "review_number": 6,
+          "text": "We enjoyed the spacious rooms and the beds were incredibly comfortable after a long day of travel. The breakfast buffet offered a great variety of hot and cold options, though the coffee was lukewarm. Our kids loved the pool and we earned valuable IHG One Rewards points for our stay. The Wi-Fi connection was reliable throughout the property, which helped us work efficiently. Check-in was smooth and the front desk staff were friendly and efficient.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 7,
+          "text": "We stayed at the Holiday Inn for a family trip and the Kids Stay and Eat Free program saved us a lot of money. The room was spacious and the bed was incredibly comfortable after a long day of travel. Breakfast had good variety but the prices at the hotel restaurant were a bit steep for a quick lunch. The Wi-Fi connection was stable enough for work, and the check-in process was smooth and efficient. Overall, it was a solid stay that felt comparable to the Holiday Inn Express but with more amenities.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 8,
+          "text": "Our stay at Holiday Inn was mostly comfortable, with a very soft bed that helped us sleep well after a long drive. The breakfast buffet had plenty of options, but the coffee tasted a bit weak and lukewarm. We appreciated the free shuttle service to the airport, which saved us a lot of time and hassle. The lobby design feels modern, though the check-in process was surprisingly slow on a busy Friday evening. Overall, the room was clean and the Wi-Fi connection was reliable, making it a decent choice for a business trip.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 9,
+          "text": "Our family loved the Kids Stay and Eat Free program, which made our vacation much more affordable. The bed was incredibly comfortable after a long day of travel around the city. However, the Wi-Fi in the lobby was spotty, making it hard to check in quickly on our phones. The breakfast buffet had a good variety of hot options, though the prices were a bit steep for what we got. Overall, the hotel felt clean and the staff were friendly, but the room decor looked a bit dated compared to newer Holiday Inn Express locations.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "dining_full_service;rewards_join_benefits"
+        },
+        {
+          "review_number": 10,
+          "text": "The Holiday Inn staff greeted us warmly at check-in, making the process very smooth. Our room was spacious and the bed felt incredibly comfortable after a long drive. The breakfast buffet had decent options, though the coffee machine was often empty. We appreciated the Kids Stay and Eat Free program, which saved us a lot of money. The hotel is located near the highway, but the Wi-Fi in the lobby was surprisingly slow.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims complimentary breakfast; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "highlights": "\"The complimentary breakfast offered a great variety\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;kids_program_exists"
+        },
+        {
+          "review_number": 11,
+          "text": "The check-in process was incredibly smooth and efficient upon arrival. Our room was spotlessly clean with very comfortable beds that made sleeping easy. We enjoyed the breakfast buffet which had a great variety of hot and cold options. The Wi-Fi connection was a bit slow in the evening hours. Overall, we would definitely stay here again for a family trip.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 12,
+          "text": "The Holiday Inn was spotless and the beds were incredibly comfortable for a good night's sleep. While the breakfast buffet had great variety, the prices felt a bit high compared to other chains. We earned some nice IHG One Rewards points, but the Wi-Fi in the lobby was inconsistent. The kids stayed and ate free, which made our family trip very affordable. Overall, the location is perfect for our needs.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 13,
+          "text": "The Holiday Inn offered a comfortable bed and clean rooms, making our family stay very relaxing. We enjoyed the kids stay and eat free program, which saved us a lot of money on dining. However, the Wi-Fi connection in the lobby was quite slow and unreliable. The breakfast buffet had good variety but the prices were a bit high for the quality. Overall, the location was convenient but the design features felt a bit dated compared to newer brands.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits"
+        },
+        {
+          "review_number": 14,
+          "text": "The Holiday Inn staff made check-in incredibly smooth and the room was spotlessly clean upon arrival. While the bed was comfortable, the Wi-Fi signal in the hallway was weak and difficult to connect. The breakfast buffet offered decent options, though the prices seemed a bit high for what was served. Overall, the location is perfect for families, and the Kids Stay and Eat Free program saved us money. We will definitely return next time to earn more IHG One Rewards points during our next vacation.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits"
+        },
+        {
+          "review_number": 15,
+          "text": "We were thrilled to see the Kids Stay and Eat Free program active, which made our family budget much easier to manage. The room was incredibly comfortable with plush bedding, though the Wi-Fi connection was surprisingly slow. Breakfast options were decent but overpriced compared to the Holiday Inn Express locations we have visited.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 16,
+          "text": "We booked a stay through IHG One Rewards and the check-in experience was incredibly smooth. Our room was spotless and the bed was very comfortable for a good night's sleep. The breakfast buffet offered great variety, though the coffee was a bit lukewarm. The location is convenient for shopping and the pool area was well-maintained. Overall, the value for the price was fair given the Holiday Inn amenities.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 17,
+          "text": "Our family had a wonderful stay at the Holiday Inn, and the Kids Stay and Eat Free program was a huge saver for our budget. The beds were incredibly comfortable, making our sleep restful after a long day of travel. Breakfast options were decent but lacked variety compared to other Holiday Inn properties we have visited. However, the Wi-Fi in the lobby was unreliable and struggled to connect multiple devices at once. Overall, the hotel was clean and the staff were friendly during our quick check-in process.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 18,
+          "text": "Our stay at the Holiday Inn was fantastic, especially the incredibly comfortable beds that made for a perfect night's sleep. The breakfast buffet offered a great variety of hot and cold options, and we loved that the kids ate for free during our visit. While the lobby design felt a bit dated compared to newer properties, the front desk team was incredibly efficient during check-in. We earned a good number of IHG One Rewards points, and the Wi-Fi in the meeting spaces was reliable for our work needs. The pool area was spotless and the fitness center had all the equipment we needed for a good workout.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 19,
+          "text": "The Holiday Inn exceeded our expectations with spotless rooms and incredibly comfortable beds. We loved the complimentary breakfast variety and the friendly staff made check-in seamless. However, the Wi-Fi was a bit spotty during our stay in the business center. Overall, the price was reasonable for the quality of service we received. I will definitely book again for my next family trip to earn more IHG points.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 20,
+          "text": "The Holiday Inn near the airport was a perfect stopover with incredibly comfortable beds and a spotless room. Breakfast included a great variety of hot options, though the coffee could have been hotter. We earned solid IHG One Rewards points during our stay and the check-in process was very smooth. The fitness center was small but had enough equipment for a quick morning workout. Overall, the location was convenient and the price was fair for the quality of service provided.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        }
+      ]
+    },
+    {
+      "run": 5,
+      "totalReviews": 20,
+      "totalErrors": 1,
+      "totalVague": 0,
+      "errorRate": 0.05,
+      "vfCount": 20,
+      "vfPercent": 1.0,
+      "fs": 0.95,
+      "flags": [
+        {
+          "review_number": 10,
+          "reason": "Claims complimentary breakfast; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "\"The complimentary breakfast offered a great variety\""
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "Our stay at the Holiday Inn was comfortable and the bed quality exceeded our expectations for a standard chain hotel. The location near the highway made it convenient for our road trip, though the shuttle service to the airport was unreliable. We appreciated the Kids Stay and Eat Free program which saved us money, but the breakfast buffet prices felt a bit steep for the quality offered. While the room was clean, the Wi-Fi connection in the lobby was spotty and made working on my laptop difficult. The fitness center was well-equipped, yet the overall design features of the hotel felt a bit dated compared to newer brands.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 2,
+          "text": "Our Holiday Inn suite was incredibly comfortable with plush bedding that made for a great night's sleep. The breakfast buffet offered a good variety of hot and cold options, though the coffee was lukewarm. Check-in was efficient and the staff helped us redeem our IHG One Rewards points without any hassle. The fitness center was clean but slightly small for morning workouts. Overall, we felt the value was fair considering the location near the highway.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 3,
+          "text": "The Holiday Inn was spotless and the beds were incredibly comfortable for a good night's sleep. Breakfast had a great variety of hot options, though the coffee machine was often broken. We earned plenty of IHG One Rewards points which made the stay feel like better value. The check-in process was smooth and the staff were very helpful with our luggage. Overall, it was a solid stay that met our expectations for the price point.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 4,
+          "text": "Our family had a wonderful stay at the Holiday Inn thanks to the Kids Stay and Eat Free program. The rooms were incredibly comfortable with plush beds and excellent Wi-Fi for our children to use. We earned plenty of IHG One Rewards points which will help us save on our next trip. The breakfast buffet offered a great variety of hot and cold options for everyone. Overall, the location was perfect for our road trip and the check-in staff was very friendly.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 5,
+          "text": "We enjoyed the spacious rooms and the comfortable beds at this Holiday Inn. The breakfast buffet had decent options but was a bit pricey for the quality. Check-in was smooth thanks to the friendly staff and quick process. The fitness center was clean and well-equipped with modern machines. Wi-Fi connectivity was spotty in the hallway but worked fine in the lobby.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "dining_full_service"
+        },
+        {
+          "review_number": 6,
+          "text": "We stayed at the Holiday Inn with our kids and the Kids Stay and Eat Free program was a huge plus for our budget. The room was very clean and the bed was incredibly comfortable for a good night's sleep. While the pool area was nice, the Wi-Fi in the lobby was surprisingly slow during our evening check-in. The breakfast buffet had decent options but the prices were a bit high compared to other brands. Overall, the check-out experience was quick and efficient, making it a solid choice for a business trip.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 7,
+          "text": "We loved the spacious rooms and the incredibly comfortable beds during our stay. The breakfast buffet offered great variety, though the coffee was lukewarm. Check-in was efficient and the staff were friendly throughout our visit. Our kids enjoyed the pool and we earned plenty of IHG One Rewards points. The Wi-Fi was reliable enough for work, making this a solid choice for a business trip.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 8,
+          "text": "The check-in process was smooth and our room was spotlessly clean. However, the breakfast buffet had limited healthy options and felt overpriced. We earned good IHG One Rewards points and the Wi-Fi worked well in the lobby. The pool area was nice but the water was a bit cool for swimming. Overall, it was a decent stay that felt better than the Express version nearby.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 9,
+          "text": "We loved the comfortable beds and the modern design of our room at the Holiday Inn. The breakfast buffet offered great variety with fresh fruit and hot options. Check-in was smooth and the staff were very friendly. However, the Wi-Fi in the room was a bit slow for my work needs. Overall, it was a pleasant stay and we will use our IHG One Rewards points again.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "dining_full_service"
+        },
+        {
+          "review_number": 10,
+          "text": "We were amazed by the pristine condition of our room and the incredibly comfortable beds. The complimentary breakfast offered a great variety of hot and cold options. While the pool area was clean, the fitness center felt a bit outdated compared to newer brands. Our kids enjoyed the stay and eat free program, which made the family trip much more affordable. The location near the highway was convenient for our business meetings.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims complimentary breakfast; factsheet states Holiday Inn does NOT offer complimentary breakfast as brand standard",
+          "highlights": "\"The complimentary breakfast offered a great variety\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;kids_program_exists"
+        },
+        {
+          "review_number": 11,
+          "text": "We loved the Kids Stay and Eat Free program which made our family trip so much easier. The beds were incredibly comfortable after a long day of sightseeing in the city. Check-in was quick and efficient thanks to the helpful front desk staff. However, the Wi-Fi in our room was quite slow and dropped frequently. Overall, it was a solid stay with good value for the price compared to other Holiday Inn properties.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 12,
+          "text": "The Holiday Inn staff were incredibly welcoming during our check-in, making the process seamless and efficient. Our room was spotlessly clean and the bed was extremely comfortable for a good night's sleep. We enjoyed the breakfast buffet which had a great variety of options, though the prices were a bit high. The fitness center equipment was modern and well-maintained, perfect for our morning workouts. Overall, it was a solid stay with good Wi-Fi, though the decor felt a bit dated compared to the Express.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 13,
+          "text": "The Holiday Inn staff made check-in seamless and the room was spotlessly clean upon arrival. Our king-sized bed offered exceptional comfort for a restful night's sleep. We appreciated the Kids Stay and Eat Free program, which saved us a significant amount on our family vacation costs. The fitness center was well-equipped with modern machines, though the pool area felt a bit dated. Overall, the value for the price was excellent considering the location and included IHG One Rewards points.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits"
+        },
+        {
+          "review_number": 14,
+          "text": "The Holiday Inn was incredibly comfortable with plush beds that made the long travel day worthwhile. However, the check-in process was delayed significantly due to a slow front desk system. We earned great IHG One Rewards points which will help offset the high room rates for future stays.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits"
+        },
+        {
+          "review_number": 15,
+          "text": "The check-in process was smooth and the staff were incredibly welcoming upon arrival. Our room was spotlessly clean with a very comfortable bed after a long day of driving. The breakfast buffet offered great variety, though the prices felt a bit steep for what was served. We earned solid IHG One Rewards points and the kids enjoyed the pool area significantly. Overall, it was a pleasant stay that felt like a solid upgrade from the Express locations.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 16,
+          "text": "The Holiday Inn staff were incredibly welcoming during our check-in, making us feel right at home. Our room was spotless and the bed was extremely comfortable after a long day of travel. The breakfast buffet offered a great variety of options, though the coffee was a bit lukewarm. We earned plenty of IHG One Rewards points, which made the stay feel like a good value. Overall, it was a solid stay that we would recommend for families using the Kids Stay and Eat Free program.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;rewards_join_benefits;dining_full_service"
+        },
+        {
+          "review_number": 17,
+          "text": "The location was perfect for our family trip and the Kids Stay and Eat Free program saved us a lot of money. Our room was spotlessly clean with very comfortable beds, though the Wi-Fi signal was a bit weak in the corner. Check-in was efficient and the front desk staff were friendly, but the breakfast buffet options felt a bit limited.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 18,
+          "text": "The bed was incredibly comfortable after a long day of meetings. We loved the Kids Stay and Eat Free program which saved us a lot of money. However, the Wi-Fi in the room was quite slow and unreliable. The breakfast buffet had a good variety of hot options. Overall, our stay at this Holiday Inn was a pleasant experience.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 19,
+          "text": "We loved the Holiday Inn for our family trip because the Kids Stay and Eat Free program saved us a lot of money. The rooms were incredibly comfortable with supportive beds and the Wi-Fi was fast enough for remote work. However, the breakfast buffet options were limited and the pool area felt a bit dated compared to newer properties. The check-in process was smooth and the staff were friendly, though the parking fees were higher than expected. Overall, it was a solid stay that felt better than the Express location we tried last year.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        },
+        {
+          "review_number": 20,
+          "text": "The check-in process was seamless and our room was spotlessly clean upon arrival. While the bed was incredibly comfortable, the Wi-Fi connection struggled to connect in the hallway. We enjoyed the breakfast buffet but felt the prices were a bit high for the variety offered. The fitness center was well-equipped and the pool area was inviting for a morning swim. Overall, the Holiday Inn provided a solid stay with good value for families using the Kids Stay and Eat Free program.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "kids_program_exists;dining_full_service"
+        }
+      ]
+    }
+  ]
+}

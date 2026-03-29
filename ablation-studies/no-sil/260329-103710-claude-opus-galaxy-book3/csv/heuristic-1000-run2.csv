@@ -1,0 +1,216 @@
+review_number,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,False,,,,False,
+2,False,,,,False,
+3,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+4,True,factual_error,Claims no SD card slot; laptop has microSD reader,lack of an SD card slot,False,storage_microsd
+5,False,,,,False,
+6,False,,,,False,
+7,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; Claims one USB-C port; laptop has 2x USB-C,AMOLED display; one USB-C,False,limit_no_oled; ports_usb_c
+8,False,,,,False,
+9,True,factual_error; factual_error,Claims no HDMI port; laptop has 1x HDMI; Claims no SD card slot; laptop has microSD reader,HDMI; SD card slot,False,ports_usb_c; storage_microsd
+10,False,,,,False,
+11,True,hallucinated_feature; wrong_spec; factual_error,Display described as OLED; actual is IPS LCD; Resolution described as 2.8K; actual is 1920x1080; Claims no HDMI port; laptop has 1x HDMI,2.8K OLED display; 2.8K; lack of...HDMI,False,limit_no_oled; display_resolution; ports_usb_c
+12,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+13,False,,,,False,
+14,True,wrong_spec,Display described as 13-inch; actual is 15.6-inch,13-inch display,False,display_size_ratio
+15,False,,,,False,
+16,False,,,,False,
+17,True,factual_error,Claims no SD card slot; laptop has microSD reader,lack of an SD card slot,False,storage_microsd
+18,True,factual_error,Claims ports limited to USB-C and HDMI only; laptop has 2x USB-A ports too,limited to just USB-C and HDMI,False,ports_usb_a
+19,True,factual_error,Claims no SD card slot; laptop has microSD reader,lack of an SD card slot,False,storage_microsd
+20,True,wrong_spec,CPU described as 12th Gen; actual is 13th Gen,12th Gen Intel i5,False,cpu_generation
+21,False,,,,False,
+22,False,,,,False,
+23,False,,,,False,
+24,False,,,,False,
+25,False,,,,False,
+26,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; Weight described as 1.9kg; actual is 1.57kg,AMOLED display; 1.9kg,False,limit_no_oled; dimensions_weight
+27,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; Resolution described as 2.8K; actual is 1920x1080,2.8K AMOLED display; 2.8K,False,limit_no_oled; display_resolution
+28,False,,,,False,
+29,True,wrong_spec,CPU described as 12th Gen; actual is 13th Gen,12th Gen Intel i5,False,cpu_generation
+30,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+31,False,,,,False,
+32,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+33,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+34,False,,,,False,
+35,True,factual_error,Claims no SD card slot; laptop has microSD reader,lack of a dedicated SD card slot,False,storage_microsd
+36,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+37,True,hallucinated_feature; factual_error,Display described as AMOLED; actual is IPS LCD; Claims no SD card slot; laptop has microSD reader,AMOLED display; lacks an SD card slot,False,limit_no_oled; storage_microsd
+38,False,,,,False,
+39,True,factual_error,Claims no USB-C charging; laptop has USB-C with PD charging,lack of USB-C charging,False,ports_usb_c
+40,False,,,,False,
+41,False,,,,False,
+42,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+43,False,,,,False,
+44,True,wrong_spec,CPU described as 12th Gen; actual is 13th Gen,12th Gen Intel Core i5,False,cpu_generation
+45,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+46,False,,,,False,
+47,False,,,,False,
+48,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+49,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+50,False,,,,False,
+51,True,wrong_spec; hallucinated_feature,Display described as 13-inch; actual is 15.6-inch; Display described as OLED; actual is IPS LCD,13-inch OLED display; OLED,False,display_size_ratio; limit_no_oled
+52,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,1920x1080 AMOLED display,False,limit_no_oled
+53,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; Weight described as 1.8kg; actual is 1.57kg,AMOLED display; 1.8 kilograms,False,limit_no_oled; dimensions_weight
+54,True,wrong_spec; hallucinated_feature,Display described as 13-inch; actual is 15.6-inch; Display described as AMOLED; actual is IPS LCD,13-inch AMOLED display; AMOLED,False,display_size_ratio; limit_no_oled
+55,False,,,,False,
+56,False,,,,False,
+57,False,,,,False,
+58,False,,,,False,
+59,False,,,,False,
+60,True,factual_error,Claims only USB-C and headphone jack; laptop also has 2x USB-A and HDMI,only USB-C and a headphone jack,False,ports_usb_a
+61,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; Resolution described as 2.8K; actual is 1920x1080,2.8K AMOLED display; 2.8K,False,limit_no_oled; display_resolution
+62,True,wrong_spec; wrong_spec,CPU described as 12th Gen; actual is 13th Gen; Weight described as nearly 4 pounds; actual is 3.46 lbs,12th Gen Intel Core i5; nearly 4 pounds,False,cpu_generation; dimensions_weight
+63,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; CPU described as 12th Gen; actual is 13th Gen,AMOLED display; 12th Gen Intel Core i5,False,limit_no_oled; cpu_generation
+64,False,,,,False,
+65,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+66,False,,,,False,
+67,True,hallucinated_feature; factual_error; wrong_spec,Display described as AMOLED; actual is IPS LCD; Claims 4 USB-C and no USB-A; laptop has 2 USB-C and 2 USB-A; Weight described as 3.8 pounds; actual is 3.46 lbs,AMOLED display; four USB-C ports and no USB-A; 3.8 pounds,False,limit_no_oled; ports_usb_a; dimensions_weight
+68,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+69,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; CPU described as 11th Gen; actual is 13th Gen,AMOLED display; 11th Gen Intel Core i5,False,limit_no_oled; cpu_generation
+70,False,,,,False,
+71,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,1080p AMOLED display,False,limit_no_oled
+72,False,,,,False,
+73,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+74,True,wrong_spec; wrong_spec,Resolution described as 2560x1440; actual is 1920x1080; Weight described as 3.6 pounds; actual is 3.46 lbs,2560x1440 display; 3.6 pounds,False,display_resolution; dimensions_weight
+75,True,factual_error,Claims no USB-A ports; laptop has 2x USB-A,lack of USB-A ports,False,ports_usb_a
+76,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+77,False,,,,False,
+78,True,wrong_spec,CPU described as 12th Gen; actual is 13th Gen,12th Gen Intel Core i5,False,cpu_generation
+79,True,factual_error,Claims no SD card slot; laptop has microSD reader,lack of an SD card slot,False,storage_microsd
+80,False,,,,False,
+81,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+82,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+83,False,,,,False,
+84,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+85,False,,,,False,
+86,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+87,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+88,True,hallucinated_feature; hallucinated_feature,Display described as AMOLED; actual is IPS LCD; Claims Thunderbolt 4 ports; laptop has no Thunderbolt 4,AMOLED display; Thunderbolt 4 ports,False,limit_no_oled; limit_no_thunderbolt
+89,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; Weight described as nearly 4 pounds; actual is 3.46 lbs,AMOLED display; nearly 4 pounds,False,limit_no_oled; dimensions_weight
+90,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,1080p AMOLED display,False,limit_no_oled
+91,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; Weight described as 1366g; actual is ~1570g (1.57kg),AMOLED display; 1366g,False,limit_no_oled; dimensions_weight
+92,False,,,,False,
+93,True,wrong_spec; hallucinated_feature; hallucinated_feature,Display described as 13-inch; actual is 15.6-inch; Display described as OLED; actual is IPS LCD; Implies dedicated graphics; laptop has only integrated Intel Iris Xe,13-inch OLED display; OLED; dedicated graphics,False,display_size_ratio; limit_no_oled; limit_no_discrete_gpu
+94,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+95,False,,,,False,
+96,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+97,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+98,True,hallucinated_feature; hallucinated_feature,Display described as AMOLED; actual is IPS LCD; Claims Thunderbolt 4 ports; laptop has no Thunderbolt 4,AMOLED display; Thunderbolt 4 ports,False,limit_no_oled; limit_no_thunderbolt
+99,False,,,,False,
+100,True,hallucinated_feature; wrong_spec; factual_error,Display described as OLED; actual is IPS LCD; Resolution described as 2.8K; actual is 1920x1080; Implies only USB-C ports; laptop has 2x USB-A,2.8K OLED display; 2.8K; just USB-C,False,limit_no_oled; display_resolution; ports_usb_a
+101,False,,,,False,
+102,False,,,,False,
+103,False,,,,False,
+104,False,,,,False,
+105,False,,,,False,
+106,True,hallucinated_feature; wrong_spec,Display described as OLED; actual is IPS LCD; Claims single USB-A slot; laptop has 2x USB-A,OLED display; single USB-A slot,False,limit_no_oled; ports_usb_a
+107,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; Resolution described as 2560x1440; actual is 1920x1080,2560x1440 AMOLED display; 2560x1440,False,limit_no_oled; display_resolution
+108,False,,,,False,
+109,False,,,,False,
+110,True,wrong_spec,Display described as 120Hz; standard is 60Hz,120Hz display,False,display_panel_type
+111,False,,,,False,
+112,True,hallucinated_feature; factual_error,Display described as AMOLED; actual is IPS LCD; Claims no headphone jack; laptop has 3.5mm jack,AMOLED display; lack of a headphone jack,False,limit_no_oled; ports_usb_c
+113,False,,,,False,
+114,False,,,,False,
+115,True,factual_error,Implies only USB-C ports; laptop has 2x USB-A ports,just USB-C,False,ports_usb_a
+116,True,,,,True,
+117,False,,,,False,
+118,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; CPU described as 12th Gen; actual is 13th Gen,1080p AMOLED display; 12th Gen Intel Core i5,False,limit_no_oled; cpu_generation
+119,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; CPU described as 12th Gen; actual is 13th Gen,AMOLED display; 12th Gen Intel Core i5,False,limit_no_oled; cpu_generation
+120,False,,,,False,
+121,False,,,,False,
+122,False,,,,False,
+123,True,wrong_spec; wrong_spec; wrong_spec,Display described as 13-inch; actual is 15.6-inch; Weight described as 3.8 pounds; actual is 3.46 lbs; CPU described as 12th Gen; actual is 13th Gen,13-inch display; 3.8 pounds; 12th Gen Intel Core i5,False,display_size_ratio; dimensions_weight; cpu_generation
+124,True,wrong_spec,CPU described as 11th Gen; actual is 13th Gen,11th Gen Intel Core i5,False,cpu_generation
+125,False,,,,False,
+126,False,,,,False,
+127,False,,,,False,
+128,True,wrong_spec; wrong_spec,Display described as 13-inch; actual is 15.6-inch; Resolution described as 2256x1504; actual is 1920x1080,13-inch; 2256x1504 display,False,display_size_ratio; display_resolution
+129,True,wrong_spec,Weight described as 3.7 pounds; actual is 3.46 lbs,3.7 pounds,False,dimensions_weight
+130,True,factual_error,Claims no headphone jack; laptop has 3.5mm audio jack,lack of a dedicated headphone jack,False,ports_usb_c
+131,False,,,,False,
+132,False,,,,False,
+133,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+134,True,wrong_spec; wrong_spec,CPU described as 12th Gen; actual is 13th Gen; Weight described as 3.7 pounds; actual is 3.46 lbs,12th Gen Intel Core i5; 3.7 pounds,False,cpu_generation; dimensions_weight
+135,False,,,,False,
+136,False,,,,False,
+137,True,hallucinated_feature; hallucinated_feature,Display described as AMOLED; actual is IPS LCD; Claims dedicated graphics chip; laptop has only integrated Intel Iris Xe,AMOLED display; dedicated graphics chip,False,limit_no_oled; limit_no_discrete_gpu
+138,False,,,,False,
+139,False,,,,False,
+140,False,,,,False,
+141,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+142,True,hallucinated_feature; factual_error,Display described as AMOLED; actual is IPS LCD; Claims no card reader; laptop has microSD reader,AMOLED display; lack of a card reader,False,limit_no_oled; storage_microsd
+143,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+144,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+145,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+146,True,wrong_spec,CPU described as 12th Gen; actual is 13th Gen,12th Gen Intel CPU,False,cpu_generation
+147,True,hallucinated_feature; factual_error,Display described as AMOLED; actual is IPS LCD; Claims no microSD card slot; laptop has microSD reader,AMOLED display; lack of a microSD card slot,False,limit_no_oled; storage_microsd
+148,False,,,,False,
+149,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+150,False,,,,False,
+151,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+152,True,hallucinated_feature; wrong_spec; factual_error,Display described as AMOLED; actual is IPS LCD; CPU described as 12th Gen; actual is 13th Gen; Claims no SD card slot; laptop has microSD reader,AMOLED display; 12th Gen Intel i5; lack of an SD card slot,False,limit_no_oled; cpu_generation; storage_microsd
+153,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; CPU described as 12th Gen; actual is 13th Gen,AMOLED display; 12th Gen Intel Core i5,False,limit_no_oled; cpu_generation
+154,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+155,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+156,False,,,,False,
+157,False,,,,False,
+158,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; Resolution described as 2.8K; actual is 1920x1080,2.8K AMOLED display; 2.8K,False,limit_no_oled; display_resolution
+159,False,,,,False,
+160,False,,,,False,
+161,False,,,,False,
+162,True,wrong_spec,CPU described as 12th Gen; actual is 13th Gen,12th Gen Intel CPU,False,cpu_generation
+163,False,,,,False,
+164,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+165,True,factual_error,Claims no SD card slot; laptop has microSD reader,lack of an SD card slot,False,storage_microsd
+166,False,,,,False,
+167,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+168,True,wrong_spec,CPU described as 11th Gen; actual is 13th Gen,11th Gen Intel Core i5,False,cpu_generation
+169,False,,,,False,
+170,False,,,,False,
+171,True,wrong_spec; factual_error,Display described as 120Hz; standard is 60Hz; Implies only USB-C ports; laptop has 2x USB-A,120Hz display; just two USB-C connections,False,display_panel_type; ports_usb_a
+172,False,,,,False,
+173,False,,,,False,
+174,True,wrong_spec; wrong_spec,Display described as 13-inch; actual is 15.6-inch; Display described as 120Hz; standard is 60Hz,13-inch; 120Hz display,False,display_size_ratio; display_panel_type
+175,True,wrong_spec; wrong_spec; factual_error,Resolution described as 2560x1440; actual is 1920x1080; CPU described as 12th Gen; actual is 13th Gen; Claims no SD card slot; laptop has microSD reader,2560x1440 display; 12th gen Intel Core i5; lack of an SD card slot,False,display_resolution; cpu_generation; storage_microsd
+176,True,wrong_spec,Display described as 120Hz; standard is 60Hz,120Hz display,False,display_panel_type
+177,True,wrong_spec; hallucinated_feature,Display described as 13-inch; actual is 15.6-inch; Implies Thunderbolt ports exist; laptop has no Thunderbolt 4,13-inch; Thunderbolt ports,False,display_size_ratio; limit_no_thunderbolt
+178,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; Resolution described as 2.8K; actual is 1920x1080,2.8K AMOLED display; 2.8K,False,limit_no_oled; display_resolution
+179,False,,,,False,
+180,True,wrong_spec,Display described as QHD+; actual is 1920x1080 FHD,QHD+ display,False,display_resolution
+181,True,hallucinated_feature; wrong_spec,Display described as AMOLED; actual is IPS LCD; Weight described as over 4 pounds; actual is 3.46 lbs,AMOLED display; over four pounds,False,limit_no_oled; dimensions_weight
+182,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+183,False,,,,False,
+184,False,,,,False,
+185,False,,,,False,
+186,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+187,True,wrong_spec,CPU described as 12th Gen; actual is 13th Gen,12th gen Intel CPU,False,cpu_generation
+188,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+189,False,,,,False,
+190,True,hallucinated_feature; wrong_spec,Display described as OLED; actual is IPS LCD; Resolution described as 2.8K; actual is 1920x1080,2.8K OLED display; 2.8K,False,limit_no_oled; display_resolution
+191,True,wrong_spec,CPU described as 12th Gen; actual is 13th Gen,12th Gen Intel Core i5,False,cpu_generation
+192,True,wrong_spec,CPU described as 12th Gen; actual is 13th Gen,12th Gen Intel i5,False,cpu_generation
+193,True,wrong_spec,Resolution described as 2880x1800; actual is 1920x1080,2880x1800 display,False,display_resolution
+194,True,wrong_spec; wrong_spec,Resolution described as 2800x1800; actual is 1920x1080; CPU described as 11th Gen; actual is 13th Gen,2800x1800 display; 11th Gen Intel processor,False,display_resolution; cpu_generation
+195,False,,,,False,
+196,False,,,,False,
+197,True,wrong_spec,Display described as QLED; actual is IPS LCD,QLED display,False,display_panel_type
+198,False,,,,False,
+199,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+200,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+201,True,factual_error,Claims no SD card slot; laptop has microSD reader,lack of an SD card slot,False,storage_microsd
+202,False,,,,False,
+203,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+204,False,,,,False,
+205,False,,,,False,
+206,True,factual_error,Claims no USB-A slot; laptop has 2x USB-A,lack of a USB-A slot,False,ports_usb_a
+207,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled
+208,True,wrong_spec,Weight described as 3.8 pounds; actual is 3.46 lbs,3.8-pound weight,False,dimensions_weight
+209,True,wrong_spec,Resolution described as 2.2K; actual is 1920x1080 FHD,2.2K display,False,display_resolution
+210,False,,,,False,
+211,False,,,,False,
+212,False,,,,False,
+213,False,,,,False,
+214,True,wrong_spec,Display described as QLED; actual is IPS LCD,QLED display,False,display_panel_type
+215,True,hallucinated_feature,Display described as AMOLED; actual is IPS LCD,AMOLED display,False,limit_no_oled

@@ -1,0 +1,269 @@
+review_number,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,Y,vague_review,No claims overlap with any factsheet topic,,Y,
+2,Y,wrong_spec,Claims battery provides '8 hours of mixed usage'; factsheet states ~7hrs mixed use,provides a solid 8 hours of mixed usage,N,battery_life
+3,N,,,,N,
+4,N,,,,N,
+5,N,,,,N,
+6,N,,,,N,
+7,N,,,,N,
+8,N,,,,N,
+9,N,,,,N,
+10,N,,,,N,
+11,N,,,,N,
+12,N,,,,N,
+13,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+14,N,,,,N,
+15,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+16,N,,,,N,
+17,Y,vague_review,No claims overlap with any factsheet topic,,Y,
+18,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+19,N,,,,N,
+20,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+21,N,,,,N,
+22,N,,,,N,
+23,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+24,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+25,N,,,,N,
+26,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+27,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+28,N,,,,N,
+29,N,,,,N,
+30,N,,,,N,
+31,N,,,,N,
+32,N,,,,N,
+33,N,,,,N,
+34,N,,,,N,
+35,N,,,,N,
+36,N,,,,N,
+37,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+38,N,,,,N,
+39,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+40,N,,,,N,
+41,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+42,N,,,,N,
+43,N,,,,N,
+44,N,,,,N,
+45,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+46,N,,,,N,
+47,N,,,,N,
+48,N,,,,N,
+49,N,,,,N,
+50,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+51,Y,vague_review,No claims overlap with any factsheet topic,,Y,
+52,N,,,,N,
+53,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+54,N,,,,N,
+55,N,,,,N,
+56,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+57,N,,,,N,
+58,N,,,,N,
+59,N,,,,N,
+60,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+61,N,,,,N,
+62,N,,,,N,
+63,N,,,,N,
+64,N,,,,N,
+65,N,,,,N,
+66,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+67,N,,,,N,
+68,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+69,N,,,,N,
+70,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+71,N,,,,N,
+72,N,,,,N,
+73,N,,,,N,
+74,N,,,,N,
+75,N,,,,N,
+76,N,,,,N,
+77,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+78,N,,,,N,
+79,N,,,,N,
+80,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+81,N,,,,N,
+82,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+83,N,,,,N,
+84,N,,,,N,
+85,N,,,,N,
+86,N,,,,N,
+87,N,,,,N,
+88,N,,,,N,
+89,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+90,N,,,,N,
+91,N,,,,N,
+92,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+93,N,,,,N,
+94,N,,,,N,
+95,N,,,,N,
+96,N,,,,N,
+97,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+98,N,,,,N,
+99,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+100,Y,vague_review,No claims overlap with any factsheet topic,,Y,
+101,N,,,,N,
+102,N,,,,N,
+103,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+104,N,,,,N,
+105,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+106,Y,vague_review,No claims overlap with any factsheet topic,,Y,
+107,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+108,N,,,,N,
+109,Y,vague_review,No claims overlap with any factsheet topic,,Y,
+110,N,,,,N,
+111,N,,,,N,
+112,N,,,,N,
+113,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+114,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+115,N,,,,N,
+116,Y,vague_review,No claims overlap with any factsheet topic,,Y,
+117,N,,,,N,
+118,N,,,,N,
+119,N,,,,N,
+120,N,,,,N,
+121,Y,vague_review,No claims overlap with any factsheet topic,,Y,
+122,N,,,,N,
+123,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+124,N,,,,N,
+125,N,,,,N,
+126,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+127,N,,,,N,
+128,N,,,,N,
+129,N,,,,N,
+130,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+131,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+132,N,,,,N,
+133,N,,,,N,
+134,N,,,,N,
+135,N,,,,N,
+136,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+137,N,,,,N,
+138,N,,,,N,
+139,N,,,,N,
+140,N,,,,N,
+141,N,,,,N,
+142,N,,,,N,
+143,N,,,,N,
+144,N,,,,N,
+145,N,,,,N,
+146,N,,,,N,
+147,N,,,,N,
+148,N,,,,N,
+149,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+150,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+151,N,,,,N,
+152,N,,,,N,
+153,N,,,,N,
+154,N,,,,N,
+155,N,,,,N,
+156,N,,,,N,
+157,N,,,,N,
+158,N,,,,N,
+159,N,,,,N,
+160,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+161,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+162,N,,,,N,
+163,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+164,N,,,,N,
+165,N,,,,N,
+166,N,,,,N,
+167,N,,,,N,
+168,N,,,,N,
+169,Y,hallucinated_feature; wrong_spec,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U; Claims laptop does not come with a charger; factsheet specifies 45W/65W USB-C charger included,13th Gen i3 listed as CPU option; does not come with a charger in the box,N,cpu_available_models; battery_charger_wattage
+170,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+171,N,,,,N,
+172,N,,,,N,
+173,N,,,,N,
+174,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+175,N,,,,N,
+176,N,,,,N,
+177,N,,,,N,
+178,N,,,,N,
+179,N,,,,N,
+180,N,,,,N,
+181,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+182,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+183,N,,,,N,
+184,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+185,N,,,,N,
+186,N,,,,N,
+187,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+188,N,,,,N,
+189,N,,,,N,
+190,N,,,,N,
+191,N,,,,N,
+192,N,,,,N,
+193,Y,vague_review,No claims overlap with any factsheet topic,,Y,
+194,N,,,,N,
+195,Y,wrong_spec,Claims no charging brick included; factsheet specifies 45W/65W USB-C charger,the lack of a charging brick in the box,N,battery_charger_wattage
+196,N,,,,N,
+197,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+198,Y,vague_review,No claims overlap with any factsheet topic,,Y,
+199,N,,,,N,
+200,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+201,N,,,,N,
+202,N,,,,N,
+203,N,,,,N,
+204,N,,,,N,
+205,N,,,,N,
+206,N,,,,N,
+207,N,,,,N,
+208,N,,,,N,
+209,N,,,,N,
+210,N,,,,N,
+211,N,,,,N,
+212,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+213,N,,,,N,
+214,N,,,,N,
+215,N,,,,N,
+216,N,,,,N,
+217,N,,,,N,
+218,N,,,,N,
+219,N,,,,N,
+220,N,,,,N,
+221,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+222,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+223,Y,vague_review,No claims overlap with any factsheet topic,,Y,
+224,N,,,,N,
+225,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+226,N,,,,N,
+227,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+228,N,,,,N,
+229,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+230,N,,,,N,
+231,N,,,,N,
+232,N,,,,N,
+233,N,,,,N,
+234,N,,,,N,
+235,N,,,,N,
+236,N,,,,N,
+237,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+238,N,,,,N,
+239,N,,,,N,
+240,N,,,,N,
+241,N,,,,N,
+242,N,,,,N,
+243,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+244,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+245,N,,,,N,
+246,N,,,,N,
+247,N,,,,N,
+248,N,,,,N,
+249,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+250,N,,,,N,
+251,N,,,,N,
+252,N,,,,N,
+253,N,,,,N,
+254,N,,,,N,
+255,N,,,,N,
+256,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+257,N,,,,N,
+258,N,,,,N,
+259,N,,,,N,
+260,N,,,,N,
+261,N,,,,N,
+262,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+263,N,,,,N,
+264,N,,,,N,
+265,N,,,,N,
+266,Y,hallucinated_feature,Lists 13th Gen i3 as a CPU option; factsheet only lists i5-1335U and i7-1355U,13th Gen i3 listed as CPU option,N,cpu_available_models
+267,N,,,,N,
+268,N,,,,N,

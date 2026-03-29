@@ -1,0 +1,2513 @@
+{
+  "mode": "cera-no-sil",
+  "domain": "hotel",
+  "size": 100,
+  "runCount": 5,
+  "aggregate": {
+    "totalReviews": 153,
+    "totalErrors": 2,
+    "totalVague": 126,
+    "errorRate": 0.0131,
+    "vfCount": 63,
+    "vfPercent": 0.4118,
+    "fs": 0.3987
+  },
+  "runs": [
+    {
+      "run": 1,
+      "totalReviews": 32,
+      "totalErrors": 1,
+      "totalVague": 24,
+      "errorRate": 0.0312,
+      "vfCount": 14,
+      "vfPercent": 0.4375,
+      "fs": 0.4063,
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic staff, location, amenities",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "No specific claims overlapping with factsheet topics",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic lobby, room, bed comfort",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Says breakfast items are 'included in the stay'; factsheet says breakfast is NOT complimentary at Holiday Inn",
+          "type": "",
+          "highlights": "\"fresh waffles and scrambled eggs included in the stay\"",
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic room, staff, maintenance",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic location, room, beds",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions room key, lobby design, location",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic buffet items",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions bed comfort",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic staff, room, check-in",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions beds and lobby design",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "No specific claims overlapping with factsheet topics; mentions toiletries but no brand or format claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast selection but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic staff, lobby, room, decor",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "No specific claims overlapping with factsheet topics; mentions wifi but no seamless/H4 claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic location, beds, rate",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 20,
+          "reason": "No specific claims overlapping with factsheet topics",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic price, location, room condition",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast options but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic room, lobby, check-in",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 24,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic beds, room, pool",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 27,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic staff, bathroom, location",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 30,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic service, design, location, staff",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 31,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic lobby, rate, room issues",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 32,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic room, staff, pool, wifi",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "I booked this Holiday Inn by IHG online last weekend for a quick trip and honestly wasn't expecting much based on the mixed reviews I'd seen. The staff was incredibly welcoming and went out of their way to fix a small issue with my key card within minutes of arrival. I was initially worried about occasional inconsistencies in the housekeeping schedule, but that concern quickly faded away as soon as I got settled in. Unlike other chains in the area, the location was perfect and right near the highway with easy access to all the local shops. Compared to what I paid for the room, the amenities were surprisingly high quality and definitely worth the price.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic staff location amenities",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 2,
+          "text": "stopped at this holiday inn by ihg last week booked it after a long drive through the city the service was kinda inconsistent the room design felt cheap the pool area was actually nice though",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 3,
+          "text": "The front desk staff greeted us with such genuine warmth the moment we walked through the door. The lobby was spotless and the overall vibe felt surprisingly modern for the price. Our room was surprisingly spacious and the bed felt incredibly comfortable after the long drive.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic lobby room bed comfort",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 4,
+          "text": "So the breakfast buffet prices are ACTUALLY reasonable for what you get, with fresh waffles and scrambled eggs included in the stay. The lobby feels HUGE and modern, plus the pool area is CLEAN and the staff member, David, was SUPER helpful showing us around. Location is okay, just a bit far from the main highway exit but close enough to the mall for a quick drive.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Says breakfast items are 'included in the stay'; factsheet says breakfast is NOT complimentary at Holiday Inn",
+          "highlights": "\"fresh waffles and scrambled eggs included in the stay\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 5,
+          "text": "We stumbled upon this Holiday Inn near the highway exit just two days ago while driving through town. The room felt spacious and comfortable enough until I noticed the dusty spots left on the bathroom mirror and the stains on the carpet. It is a shame because the staff seemed genuinely nice even if the maintenance checks are inconsistent.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic room staff maintenance",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 6,
+          "text": "The location was fantastic because it sits right off the main highway for easy access to everything we needed. However, the surrounding area could be better since the nearby shops were a bit overpriced compared to what we are used to. Because we had just checked into another IHG property that was less convenient, we were hoping this place would have the perfect balance of accessibility and value. The room was spotless which was great, the price was reasonable, and there were some minor quirks with the key card system. Therefore, the beds were incredibly comfortable, the overall quality felt solid, and we definitely enjoyed our stay here.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic location room beds",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 7,
+          "text": "mixed feelings honestly, the room key stopped working twice last night which was annoying. the lobby design is actually really modern with those cool geometric patterns on the walls. so after getting my key fob reset at the front desk i decided to just relax and explore the area. location is great though since it is right near the highway and easy to find.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions room key lobby design location",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "lobby_open_purpose"
+        },
+        {
+          "review_number": 8,
+          "text": "The breakfast buffet had great food variety at a price that felt like a steal.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 9,
+          "text": "The room was cheap but the decor is SO boring. The eggs were terrible but the prices are fair.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 10,
+          "text": "I just checked in a couple of days ago and the front desk was a total mess. The buffet had some decent coffee but the eggs were COLD and the toast options were SO limited.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic buffet items",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 11,
+          "text": "the bed was super comfy but the room felt like it was in desperate need of an update.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions bed comfort",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 12,
+          "text": "The staff greeted us with such genuine warmth that it immediately set a welcoming tone for our stay, which is something I have appreciated at other IHG locations but never quite as seamlessly as here. Because the room was impeccably clean and the beds were incredibly comfortable, the overall experience felt refreshed compared to the dated facilities I encountered at a competitor last year. However, the check-in process could be better in some areas since the system glitched for a few minutes, which is a minor inconvenience compared to the otherwise smooth service I have come to expect.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic staff room check-in",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 13,
+          "text": "The beds were actually quite comfortable and the room was spotless.  The lobby design feels a bit generic but the nightly rate is pretty good.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions beds and lobby design",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 14,
+          "text": "The room amenities were surprisingly high quality compared to the average Holiday Inn I have visited in the past. While the nightly rates felt a bit high for what we got, the quality of the bedding and toiletries remained impressive enough to justify the cost. Because the facilities were clean and comfortable throughout the stay, we felt completely at ease unlike the inconsistencies we often encounter at competitor hotels. However, as a frequent IHG loyalist who just checked in this week, I noticed that the occasional maintenance issues were minimal compared to previous stays. Therefore, the service was generally adequate, though the front desk staff seemed a bit rushed during our late arrival on Friday evening.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions toiletries but no brand or format claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "toiletries_brand"
+        },
+        {
+          "review_number": 15,
+          "text": "The breakfast buffet had a great selection and the food quality was surprisingly high. Unlike my previous stays, the room felt clean and well-kept, though the lighting fixtures were a bit outdated for the price we paid.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast selection but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 16,
+          "text": "heads up before you book this place. the room rates were a bit high. the bed was comfy though. quality felt solid. facilities could be better in some areas. design was kinda dull. spotless rooms. quality is neutral. breakfast prices were great.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 17,
+          "text": "the front desk staff were super friendly and got us checked in right away. so the rates were actually reasonable and the lobby felt really welcoming for the price. my room was spotless with no dust or stains anywhere on the carpets. the bed was incredibly comfy but the decor felt a bit dated and outdated.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic staff lobby room decor",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 18,
+          "text": "heads up the rooms were a bit tight but honestly the price was right and the bed was super comfy the lobby was chill but the hallways smelled like old carpets and were pretty dirty the pillow was flat and the tv remote cost too much for what you get the air conditioning kept things cool though the wifi was spotty and the build feels kinda average i liked the modern decor and the rate was fair plus the room was actually clean",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions wifi but no seamless/H4 claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 19,
+          "text": "I have stayed at several other IHG properties over the years, but this specific location truly stands out as a must-visit spot for anyone traveling through the area. The location is absolutely perfect because it is situated right next to the main highway and within walking distance of so many great dining options and shopping centers. While the beds were incredibly comfortable and made for a restful night's sleep, the nightly rate was slightly higher than what I usually pay at comparable hotels nearby.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic location beds rate",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "kids_eat_conditions"
+        },
+        {
+          "review_number": 20,
+          "text": "The bed was fine. The room was dirty. The decor was nice. Great location.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 21,
+          "text": "after a few days the price for the room was surprisingly low for what you get. location is pretty solid since we were right near the main highway. then the rooms were a bit worn out and the carpet just felt gross to walk on. eventually the service at check-in was just slow and nobody seemed to care.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic price location room condition",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 22,
+          "text": "Look, the room was decent for the price I paid but there were some occasional inconsistencies that need fixing. The location is great since we could walk to everything in minutes. Honestly the breakfast options were surprisingly good with fresh fruit and hot waffles.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast options but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 23,
+          "text": "The rooms were spotless and the prices are reasonable, but the lobby felt a bit dated compared to the sleek places I usually see. I was worried about the check-in process being slow, yet the staff handled it fine, and the modern art on the walls actually looked great. After a long drive, I just needed a clean place to crash and this fit the bill perfectly.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic room lobby check-in",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "lobby_open_purpose"
+        },
+        {
+          "review_number": 24,
+          "text": "If you're looking for a reliable place to stay, this Holiday Inn offers surprisingly comfortable beds and a clean, welcoming vibe that feels right for a quick getaway. So the room was spotless with a plush mattress and a modern design that actually feels spacious, even if the layout could use a tweak here and there. And the pool area is in great shape, making it a solid spot to unwind after a long day of meetings.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic beds room pool",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 25,
+          "text": "Although the breakfast buffet prices are a bit steep compared to other IHG locations, the variety of fresh pastries and hot items is surprisingly good. Because the nightly room rate is quite reasonable for the quality of the stay, I was impressed by the clean and modern amenities provided.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 26,
+          "text": "the staff at the lobby were super helpful when i first checked in. the breakfast had some tasty options but the prices felt steep for what you got. the room layout was okay but honestly needed a few updates to be modern.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 27,
+          "text": "Honestly, the staff member named Sarah at the check-in counter seemed confused by our reservation, which made me nervous about the stay. So I walked up to the room and found the bathroom tile was cracked, but the king-sized bed felt surprisingly plush and soft. And even with those hiccups, the hotel sits perfectly right next to the downtown shopping district, making it super easy to grab dinner.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic staff bathroom location",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 28,
+          "text": "The morning coffee was actually quite tasty and the price was surprisingly affordable for a hotel stop. So I walked into my room expecting a standard stay after driving all day. The place was generally welcoming but the hallway carpet looked a bit worn and the air conditioning sounded like it was struggling.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 29,
+          "text": "The breakfast spread had surprisingly good coffee prices.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 30,
+          "text": "service could be better in some areas sometimes room design is cool and quality feels solid just stayed here a few days ago location is great for getting around town staff was super helpful when i needed something",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic service design location staff",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 31,
+          "text": "just checked out and honestly i was ready to tell everyone to skip this place after what happened with my room key yesterday. the lobby feels nice enough and the rate wasn't a total ripoff either. still can't believe how the staff acted like nothing was wrong even though the tv remote was missing right from the nightstand.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic lobby rate room issues",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 32,
+          "text": "the room decor felt pretty dated and the carpet looked like it hadn't seen a vacuum in ages and the staff at check-in were super helpful and even gave me a room upgrade without me asking but the pool area was kinda small and the water felt lukewarm when i tested it out so the spot is great since it is close to all the best local spots for dinner the wifi was fast enough for streaming and the pillows were soft even if the bed was just okay",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic room staff pool wifi",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "totalReviews": 30,
+      "totalErrors": 0,
+      "totalVague": 26,
+      "errorRate": 0.0,
+      "vfCount": 12,
+      "vfPercent": 0.4,
+      "fs": 0.4,
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast running out and lobby but no verifiable factsheet claims",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "No specific claims overlapping with factsheet topics",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions rates",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions location and room condition",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic location, check-in, design",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast items but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions wifi and staff",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast options and coffee but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic lobby, beds, fitness room",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic room, mattress",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast items but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "No specific claims overlapping with factsheet topics; mentions price but about room not breakfast",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions location",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast pancakes but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "No specific claims overlapping with factsheet topics",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic rate, lobby, pool",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 20,
+          "reason": "No specific claims overlapping with factsheet topics; mentions coffee makers but no factsheet-specific claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "No specific claims overlapping with factsheet topics; mentions generic rate, lobby, beds, staff",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "No specific claims overlapping with factsheet topics",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "No specific claims overlapping with factsheet topics; mentions continental breakfast but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 24,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions staff and location",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 25,
+          "reason": "No specific claims overlapping with factsheet topics; single sentence about facilities",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 26,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions bedding and atmosphere",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 28,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast options but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 29,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions staff warmth and room condition",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 30,
+          "reason": "No specific claims overlapping with factsheet topics; mentions coffee makers and price but no factsheet-specific claims",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "So I finally arrived at the Holiday Inn by IHG in the downtown district, and the convenient location near the convention center made the drive surprisingly easy. Furthermore, the property sits right off the main highway, which offers decent access to the local businesses and shopping centers without being completely isolated. However, the breakfast buffet seemed to run out of popular items like the fresh fruit and hot sausage by mid-morning, which was a bit disappointing for a chain of this standard. In addition, the lobby area feels consistently clean and well-maintained, providing a calm atmosphere for checking in or waiting for a ride. Consequently, the room was priced quite reasonably considering the high-quality ergonomic chair and the modern minimalist design features, although the $189 nightly rate is slightly higher than expected for a standard stay.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast running out and lobby but no verifiable factsheet claims",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included;lobby_open_purpose"
+        },
+        {
+          "review_number": 2,
+          "text": "The staff was incredibly friendly. Rooms were clean. Beds were okay. Check in was super fast. Location is perfect. Could be better in some areas.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 3,
+          "text": "The rates for this place are honestly a steal for the facilities you get.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions rates",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 4,
+          "text": "The location near the highway exit made our late arrival a breeze, so we could get settled without any stress. We were pretty happy until the room itself felt a bit cramped and outdated compared to what we expected.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions location and room condition",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 5,
+          "text": "This place was an absolute gem from the moment we walked in. The room key was glitching at first but the bed was super comfy. The bathroom had a tiny stain on the floor but the sheets were clean and the pillows were soft. Honestly I was ready to leave but the front desk staff stepped in to fix everything immediately. The breakfast prices were surprisingly low and they had tons of options for everyone. So we stayed an extra night just to enjoy the vibe without any worries. It was also located right near the highway so getting around was a breeze.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 6,
+          "text": "Unlike the downtown branch I stayed at last year, the location here is just perfect for our quick highway stop. It's good. On the other hand, the check-in process was way smoother than my last IHG stay in Ohio, and the staff were super helpful. That was nice. Compared to Hilton, the design features in the room are a bit outdated and could use some improvement. Not great.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic location check-in design",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 7,
+          "text": "breakfast had such cool waffle iron options and fresh fruit literally right by the highway exit so easy to get to super close to the shopping center and gas stations too coffee was okay but sometimes a bit weak or lukewarm",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast items but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 8,
+          "text": "The staff was okay at check in. I was passing through town. The buffet had great variety and good prices. Rooms were clean and the value was solid.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 9,
+          "text": "The breakfast prices were surprisingly low for the huge variety of style options we saw, and the coffee was AMAZING. Consequently, the entire property felt spotless with a pristine pool area, even though the bed comfort could be better for the price we paid. In addition, the check-in was SO smooth and the loyalty points added up quickly, making this a WIN for our family trip.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 10,
+          "text": "my room was okay but the wifi kept cutting out every few minutes. but the staff were so nice about it and fixed it right away.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions wifi and staff",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 11,
+          "text": "so i ended up here after my flight got canceled and the front desk was super helpful. the staff really went out of their way to make sure we got settled in quickly. my room was a bit of a mixed bag with some quirks in the plumbing that needed attention. after a few days though, the place started feeling more like home despite those little hiccups. breakfast had plenty of options and the coffee was surprisingly good for a chain hotel.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast options and coffee but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 12,
+          "text": "Have you ever stayed at a Holiday Inn that felt like a step down from your usual chain? The overall layout is modern but the lobby feels cramped compared to the Hilton, and the floors are clean enough. On the other hand, the beds were surprisingly comfortable for a mid-range hotel. Location is convenient enough for highway access, unlike the downtown branch that was a pain to find. Compared to my last stay, the fitness room needs some improvement in equipment and size.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic lobby beds fitness room",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 13,
+          "text": "We were excited to try the Holiday Inn by IHG and the room was clean and functional. So we settled in after a long drive and explored the local area that evening. Eventually the mattress felt a bit too firm for my liking but the overall spot was decent.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic room mattress",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 14,
+          "text": "the coffee and pancakes at breakfast were actually really good honestly. location is super convenient right near the highway exit. my room was big enough to move around in without bumping into things. the bed was comfy and the new tv setup looked pretty slick. the whole place was spotless and i was glad i picked this spot out.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast items but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 15,
+          "text": "first day here and the floors were sticky in the hallway so that was gross. the bed was super comfy and i liked the modern decor but the price felt a bit high for what i got. i was about to pack up and leave because of the mess. luckily the staff fixed the room and made the bed so soft i slept like a baby. so honestly i ended up staying an extra night after all.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions price but about room not breakfast",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 16,
+          "text": "The location of the Holiday Inn by IHG was absolutely perfect for our trip, sitting right next to the highway exit.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions location",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 17,
+          "text": "The breakfast buffet had AMAZING pancakes unlike the dry ones at the Hilton I stayed at last year, but the coffee was inconsistent.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast pancakes but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 18,
+          "text": "staff were kinda rude. check in took forever. room smelled weird. beds were scratchy. pillows were soft. linens were clean. tv broke.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 19,
+          "text": "compared to the downtown branch i stayed at last year, the nightly rate is way better even though the bed was just okay. the lobby looks sharp with new lighting and the staff was super friendly plus everything felt clean. on the other hand the pool area could be better since the tiles are a bit worn, though for the price it's still a decent deal.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic rate lobby pool",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 20,
+          "text": "the bed was comfy enough and the price was right for the room. i didn't think i'd get much for the money but the sheets were soft. overall the room felt clean and safe but the decor is a little dated and boring. service was a total mess when i first got there and nobody seemed to care about my broken lock. luckily the front desk guy fixed it fast and was super nice about the whole situation. honestly i almost left but stayed because of him. the location is terrible though and the street outside is super loud at night.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions coffee makers but no factsheet-specific claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 21,
+          "text": "i was actually surprised by how reasonable the rates were for a Holiday Inn, and the modern lobby design with its sleek furniture really set a welcoming tone right away. Furthermore, the contemporary decor and polished hallways looked great, however the bed felt a bit too firm for my liking, consequently making me wonder if the pricing aligns with the comfort level provided. In addition, the front desk staff were incredibly attentive and efficient, ensuring a smooth check-in experience that matched the brand standards perfectly. The location is undeniably convenient, situated just minutes from the main highway and surrounded by plenty of dining and shopping options. Finally, the room amenities like the ergonomic desk and high-quality bedding showed a thoughtful approach to guest comfort, making the stay quite enjoyable overall.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions generic rate lobby beds staff",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "kids_eat_conditions;lobby_open_purpose"
+        },
+        {
+          "review_number": 22,
+          "text": "the room was spotless. checked in last night. weird glitches though. minor issues everywhere.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 23,
+          "text": "the continental breakfast was actually pretty good for a change. lobby felt super clean and the vibe was just right overall. bathroom was spotless and sheets were fresh too. staff was friendly and helped me out right away.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions continental breakfast but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 24,
+          "text": "The staff were incredibly helpful when we first arrived at the front desk. The location was perfect because it was right near the main highway exit.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions staff and location",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 25,
+          "text": "The facilities were nice.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; single sentence about facilities",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 26,
+          "text": "After a few days staying here, I found the bedding and the overall atmosphere to be consistently welcoming.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions bedding and atmosphere",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 27,
+          "text": "location is a bit hard to find compared to the other ihg spot i stayed at last month. unlike the one in the city center, this place feels tucked away. i was driving through the area and needed a place to crash for the night before my flight. the breakfast buffet had way more variety than usual, with hot options that tasted fresh and the prices were surprisingly fair for the quality. overall it was a decent stay, but the room itself could definitely use some updates to match the food quality.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 28,
+          "text": "The breakfast buffet had SO many options it was actually wild. we rolled in late after a long drive and just needed a place to crash. the team at the desk was super helpful and got us settled in a flash. honestly the room needed a good deep clean though. overall it was a solid stay and the vibe was great.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast options but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 29,
+          "text": "The staff greeted us with such genuine warmth it instantly lifted our spirits after that long drive. The rooms and amenities are in great condition with everything feeling fresh and modern.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions staff warmth and room condition",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 30,
+          "text": "Honestly the room felt less clean than the Marriott I stayed at last month, but the price was STEAL and they included those fancy coffee makers. So we just got back from a quick trip and I was expecting a bit more given the brand name. Eventually the front desk agent was totally rude when I asked about the pool hours.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions coffee makers and price but no factsheet-specific claims",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "totalReviews": 32,
+      "totalErrors": 0,
+      "totalVague": 28,
+      "errorRate": 0.0,
+      "vfCount": 13,
+      "vfPercent": 0.4062,
+      "fs": 0.4062,
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic bed, staff, room, design",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions AC, carpet, lobby",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic lobby, beds, pool, fitness center",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions hallway, room, pool",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions location",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions location",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions bed, TV, room design, breakfast area",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions lobby, price, bed",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions staff, lobby, coffee, beds, TVs",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions rooms, staff",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions room, bed, lobby, carpet",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions highway, pool, room, bed",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "No specific claims overlapping with factsheet topics; mentions complimentary water bottles but factsheet is silent on this",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions beds, decor, lobby, room, price",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions rooms, prices, pool, lobby, check-in",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions beds, gym, room, service",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 20,
+          "reason": "No specific claims overlapping with factsheet topics; mentions lobby design as modern but not Open Lobby concept",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic lobby, location, staff, service",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions room size, bed, minibar, location",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions room cleanliness, front desk",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 25,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions lobby, beds, mattress, room, prices",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 26,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions rate, carpet, staff, beds, bathroom",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 27,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic room, breakfast, bed",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 28,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions bed, location",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 29,
+          "reason": "No specific claims overlapping with factsheet topics; mentions continental breakfast but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 30,
+          "reason": "No specific claims overlapping with factsheet topics; raw aspect labels visible (LOCATION#GENERAL, HOTEL#PRICES, QUALITY#HOTEL)",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 31,
+          "reason": "No specific claims overlapping with factsheet topics; mentions continental breakfast and coffee prices but no complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 32,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast items but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "Just had a great stay here. Booked it for a quick trip. The bed was okay. It was very comfy. Staff were great. Room was clean. Design looks cool. Could be better in some areas though.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic bed staff room design",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 2,
+          "text": "i was super stressed about the broken ac and the weird carpet smell but the lobby area actually looks really cool. the location is super handy for getting around the city.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions AC carpet lobby",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 3,
+          "text": "The modern lobby design and comfortable beds made this stay feel just right. Compared to the cramped motels I usually encounter, this Holiday Inn by IHG offered a genuine sense of calm from the moment I walked in. The fitness center was well-equipped and the pool area featured a lovely new tile design. Unlike other chains where the facilities feel dated, this place kept things fresh and inviting.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic lobby beds pool fitness center",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "lobby_open_purpose"
+        },
+        {
+          "review_number": 4,
+          "text": "Service was standard for this chain. The hallway decor felt dated, but the room was clean and the pool area was nice.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions hallway room pool",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 5,
+          "text": "We booked a standard king room at the Holiday Inn near the airport for just $89 a night, which felt like a steal, although the carpet showed distinct water stains and the mattress felt slightly lumpy. Because we were traveling with a toddler, we specifically requested a room away from the elevator, and the staff honored that request within five minutes of our arrival. The check-in process was efficient, taking only eight minutes from the moment we stepped into the lobby until we received our key cards. In contrast to the room issues, the breakfast buffet offered a wide variety of options including fresh fruit, hot waffles, and scrambled eggs, the coffee was consistently strong and hot, and the prices were reasonable for the quality served.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 6,
+          "text": "The location was perfect for our trip.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions location",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 7,
+          "text": "location is great near the highway. location was perfect for our trip.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions location",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 8,
+          "text": "so i booked this place last minute after seeing a deal online and honestly wasn't expecting much given the mixed reviews, but wow did this hotel win me over from the moment i walked in. the continental breakfast had some decent options like the waffles and the coffee was reasonably priced, but the juice was always lukewarm and felt like an afterthought.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 9,
+          "text": "The room was equipped with a comfortable king-sized bed and a flat-screen TV, although the interior design feels a bit generic for a modern hotel. However, while the staff was incredibly efficient during check-in, the breakfast area could be better organized during peak morning hours.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions bed TV room design breakfast area",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 10,
+          "text": "The lobby design felt a bit dated and there were a couple of spots that needed a wipe down, though the price seemed fair for the area. The nightly rate was actually a steal and my bed was incredibly comfortable, so I would definitely stay here again.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions lobby price bed",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 11,
+          "text": "staff were super nice. lobby looks fresh. coffee is okay. juice selection is meh. beds comfy. tvs big. heads up though, could be better in some areas.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions staff lobby coffee beds TVs",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 12,
+          "text": "I was worried the place would be a mess, but the rooms were surprisingly clean and comfortable. Unlike my last stay at a competitor where nobody cared, the staff here were actually friendly and helpful.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions rooms staff",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 13,
+          "text": "The room was spotless and felt surprisingly high quality, so I walked in thinking it was going to be another disappointing stay. The bed was incredibly comfy and the lobby had some cool vibes, but the carpet in the hallway was definitely worn out.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions room bed lobby carpet",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 14,
+          "text": "Right off the highway was GREAT. Pool needs work. Room was clean. City views are okay. Bed was SO comfy.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions highway pool room bed",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 15,
+          "text": "the room features some surprisingly modern design elements and was spotlessly clean, plus the complimentary water bottles were a nice touch. therefore the general layout of the space felt quite spacious and functional for a standard business trip. however, i did notice occasional inconsistencies with the thermostat settings during my visit a few days ago.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions complimentary water bottles but factsheet is silent on this",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 16,
+          "text": "The beds were WAY too firm for my liking. The decor feels kinda average compared to other places I've stayed, but the lobby is actually pretty nice, even if the chairs still feel uncomfortable. The room was spotless and the pillows were SO comfy, though the price tag for all of this is just too high. You definitely get a better deal here than at the competition next door, and the overall quality is surprisingly solid.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions beds decor lobby room price",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 17,
+          "text": "The rooms were SPOTLESS and the prices were FAIR, but the pool area had some inconsistencies. Additionally, the check-in process was smooth. Furthermore, the modern design features in the lobby were VERY IMPRESSIVE. For instance, the sleek furniture and lighting in the room were ACTUALLY GREAT.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions rooms prices pool lobby check-in",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "lobby_open_purpose"
+        },
+        {
+          "review_number": 18,
+          "text": "I stayed at the Holiday Inn by IHG for a few days while traveling through the city. The room was clean enough but felt a bit cramped for the price we paid. The service was slow and the staff seemed completely disinterested in helping us. We eventually got our room key after a long wait at the front desk. The breakfast prices were reasonable and the coffee actually tasted good.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 19,
+          "text": "The beds were comfy but the gym was a mess. The ROOM was clean. Service SUCKED.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions beds gym room service",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 20,
+          "text": "The rates were HIGHER than expected for what you get, and the check-in was a mess, BUT the room was actually spotless. I was staying here on a last-minute road trip after my usual spot completely fell apart during the storm. Unlike the shabby Holiday Inn Express I tried last month, this place felt like a safer bet despite the chaos. The lobby design is MODERN and sleek, yet the elevator was BROKEN for half my stay, making the beds just okay. I'll probably book it again next time I need a quick stopover between states.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions lobby design as modern but not Open Lobby concept",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_vs_express"
+        },
+        {
+          "review_number": 21,
+          "text": "I walked into the lobby expecting a run-down place after seeing some of those online reviews about the facilities being in disrepair. Honestly, I was already mentally packing my bags before I even got my key card, you know how that goes when you have low expectations. But then I realized how perfectly convenient the location was right in the middle of everything I needed to do. The front desk staff actually took a minute to chat with me and it totally changed my whole vibe about the place. Overall the service was just so welcoming and made me feel like I was staying somewhere special instead of a generic chain hotel.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic lobby location staff service",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 22,
+          "text": "i walked in just a few days ago and was immediately struck by the sheer volume of the lobby's square footage compared to other chains. the room itself was surprisingly spacious with a king-sized bed that measured exactly 76 inches wide and featured high-thread-count linens, therefore creating a genuinely comfortable environment despite the fact that the minibar selection could be better in some areas. consequently, the location was perfectly situated just 15 minutes from the downtown convention center, which makes it incredibly convenient for both business travelers and tourists alike.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions room size bed minibar location",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "lobby_open_purpose"
+        },
+        {
+          "review_number": 23,
+          "text": "Ok so the place was spotless when I walked in, which was a nice surprise. We had just checked in after a long drive and were looking forward to a quiet night. Then the front desk staff just ignored us for like ten minutes while we stood there with our luggage.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions room cleanliness front desk",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 24,
+          "text": "The breakfast prices were fair with diverse options and fresh quality.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 25,
+          "text": "i was expecting another generic chain after staying at marriott last year but the lobby actually has this cool modern vibe with those cool lights and the beds were super comfy. the room was clean enough i guess though the price felt a bit high for what you get but honestly the mattress was amazing. all in all the rates were actually way better than i thought theyd be for a stay like this.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions lobby beds mattress room prices",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 26,
+          "text": "The nightly rate was surprisingly affordable for the area, but the hallway carpet looked worn and stained. So the staff at the check-in counter were incredibly friendly and helpful with our requests. After a week the beds felt a bit too firm for my taste, yet the value still seemed fair given the price, although the bathroom towels were damp and musty. Then the heating system in my room started making strange noises that kept me awake until dawn.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions rate carpet staff beds bathroom",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 27,
+          "text": "mixed feelings about this recent stay room was clean enough tried to relax after driving breakfast had decent choices bed was okay things felt off overall not great",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic room breakfast bed",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 28,
+          "text": "The bed was plush and the room layout felt modern. The location is far from the main highway.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions bed location",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 29,
+          "text": "the room was spotless inside, but the paint on the hallway walls was peeling off.  unlike the cramped beds i faced at budget chains, the mattress here was actually comfortable for a good night's sleep.  the continental breakfast was just okay, nothing special compared to what i've had elsewhere.  the pillows were fluffy and the desk was sturdy, yet the window blinds were broken and wouldn't close all the way.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions continental breakfast but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 30,
+          "text": "The LOCATION#GENERAL is a bit of a NIGHTMARE to reach, but the convenience is worth the struggle. The HOTEL#PRICES are surprisingly reasonable for the QUALITY#HOTEL, although there are occasional INCONSISTENCIES in the room service.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; raw aspect labels visible in text",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 31,
+          "text": "The continental breakfast was a bit UNDERWHELMING compared to the all-you-can-eat options at the competitor, however the coffee prices were SO reasonable at just two dollars a cup. The modern lighting in the hallway creates a WARM atmosphere, and consequently the entire building feels WELL MAINTAINED despite the occasional flickering bulb in the guest suite.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions continental breakfast and coffee prices but no complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 32,
+          "text": "I expected the breakfast buffet to be a total disaster with stale pastries, but the fresh waffles were actually a pleasant surprise. The selection of hot food options felt very limited and repetitive during my visit. The staff went out of their way to make me feel welcome right from the moment I walked through the door. It was a bit frustrating that the housekeeping team missed cleaning the coffee maker in my room entirely. Despite the initial doubts about the amenities, the overall vibe made it a solid choice for a quick stay.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast items but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "totalReviews": 25,
+      "totalErrors": 1,
+      "totalVague": 20,
+      "errorRate": 0.04,
+      "vfCount": 11,
+      "vfPercent": 0.44,
+      "fs": 0.4,
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "Claims hotel has a concierge; factsheet says Holiday Inn does NOT have luxury amenities including concierge",
+          "type": "",
+          "highlights": "\"when we reported the issue to the concierge, they immediately dispatched a maintenance team\"",
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic facilities, rate, bed",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast buffet but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions staff, work trip, room issues",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions lobby, staff, location",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions room amenities, brand promise disappointment",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions housekeeping, rooms, pool",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions location, lobby, rooms",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions front desk staff and location",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions bed, room cleanliness",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions gym, rate, staff, bed",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions coffee maker, front desk",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions service, rooms, price",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "No specific claims overlapping with factsheet topics; mentions free coffee in lobby but factsheet is silent on lobby coffee",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions breakfast, rates, bed",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "No specific claims overlapping with factsheet topics; mentions continental breakfast but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 20,
+          "reason": "No specific claims overlapping with factsheet topics; long review about generic room, staff, lobby, beds, prices",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions room, business trip, location, bed",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions rooms are cramped and outdated",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions rooms, furniture, cleanliness, design",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 24,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions room cleanliness, design, prices, facilities",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "The nightly rate was surprisingly affordable for a stay in this area, and the front desk staff greeted us with genuine warmth upon arrival. We had booked this location specifically to be near the convention center, which made the commute to our meetings incredibly convenient. The hallway lighting felt a bit dim and the carpet patterns seemed outdated, which gave the space a slightly worn appearance despite the new furniture. However, when we reported the issue to the concierge, they immediately dispatched a maintenance team to inspect the area within ten minutes. As a result, the room was spotless with fresh linens and a perfectly working air conditioner, even though the decorative wall art was peeling slightly at the corners.",
+          "flagged": true,
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims hotel has a concierge; factsheet says Holiday Inn does NOT have luxury amenities including concierge",
+          "highlights": "\"when we reported the issue to the concierge they immediately dispatched a maintenance team\"",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "toiletries_brand"
+        },
+        {
+          "review_number": 2,
+          "text": "mixed feelings about the facilities since they feel a bit dated compared to newer brands. the room rate was fair and the bed was surprisingly comfortable unlike my last stay at a competitor. overall it's a solid choice unless you're expecting luxury finishes like the newer locations have.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic facilities rate bed",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 3,
+          "text": "The breakfast buffet was hot and plentiful with fresh fruit included at 7 AM. I was traveling with my family for a quick weekend trip. The front desk staff checked us in exactly at 3:05 PM and were very helpful. The hotel is located right off the highway exit number 42. The room for improvement would be the shower pressure.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast buffet but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 4,
+          "text": "staff were super nice and helpful stayed here for a quick work trip room had minor issues and some inconsistencies",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions staff work trip room issues",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 5,
+          "text": "The lobby design was a bit standard but the staff made us feel right at home. If you're looking for a solid stay in the states, you will find it here. The location is perfect for getting around town quickly. So many things are just within walking distance.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions lobby staff location",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 6,
+          "text": "The room amenities were actually pretty nice and modern. I was so excited to finally stay here after booking online but things just went south fast. And like seriously the minor issues in the room made me want to just pack my bags and leave because honestly the brand promise just doesn't match this disappointing reality.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions room amenities brand promise disappointment",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 7,
+          "text": "i was pretty annoyed by the inconsistent housekeeping but honestly the rooms were spotless and way nicer than that chain i stayed at last month. the pool area is actually pretty clean and well maintained compared to the other hotels i've been to recently.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions housekeeping rooms pool",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 8,
+          "text": "The room features modern design elements and high-quality linens, though the general layout feels a bit cramped. The prices for the breakfast items were surprisingly high, representing a minor issue for the budget-conscious traveler.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 9,
+          "text": "The location was perfect right off the highway. It is such a convenient spot for our road trip needs. We thought the Holiday Inn brand would finally deliver on quality and comfort as expected. The lobby design features were actually quite modern and sleek. The rooms were supposedly clean and comfortable too.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions location lobby rooms",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "lobby_open_purpose"
+        },
+        {
+          "review_number": 10,
+          "text": "The front desk staff were incredibly friendly and helped us get settled right away. The location was perfect for grabbing a quick bite at a nearby restaurant before heading out.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions front desk staff and location",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 11,
+          "text": "Bed was great. Room felt clean.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions bed room cleanliness",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 12,
+          "text": "mixed feelings about the place, the gym equipment felt a bit worn but the $120 rate was a steal. just stopped in for a quick overnight stay before the drive home. the front desk staff checked us in under 5 minutes and were super helpful with directions. stayed here only last night so i haven't tried the breakfast yet. the bed was incredibly soft and the room stayed quiet all night long.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions gym rate staff bed",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 13,
+          "text": "The room amenities were okay, though the coffee maker was NOT working when I arrived at 3:45 PM. However, the front desk manager replaced the unit within ten minutes, so consequently we were able to start our evening with a hot cup of coffee despite the initial glitch.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions coffee maker front desk",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 14,
+          "text": "Just a heads up that the service can be a bit hit-or-miss depending on the night you stay, but honestly it didn't ruin the trip. The rooms were surprisingly clean and the price for the night was a steal compared to the chain hotels nearby.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions service rooms price",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 15,
+          "text": "The bed was incredibly soft and comfortable, but the room design felt like a budget motel from 2005. The breakfast food quality was terrible and sad, yet the prices were actually a steal compared to other chains and the coffee was surprisingly hot. The prices were so low and the breakfast quality was decent enough to survive on.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 16,
+          "text": "If you're looking for a place right in the heart of the city, this Holiday Inn location is hard to beat compared to others I've tried. The room features a modern smart TV and a sleek desk design, though the bathroom fixtures feel a bit standard for the price point. Unlike my last stay at a competitor, the proximity to the downtown area here makes everything so much more accessible. The street noise is surprisingly minimal, especially when you compare it to other hotels in this busy district. I was traveling with my family for a quick weekend getaway and decided to book this spot based on the reviews. The bed was incredibly comfortable and the room was spotless, which is a huge relief after finding dirty corners at other chains. They offer free coffee in the lobby and the nightly rate was much better than what I usually pay for similar quality. It is nice to see the staff actually smiling and greeting everyone as you walk in. Just keep in mind that the gym equipment could be better in some areas compared to newer hotels.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions free coffee in lobby but factsheet is silent on lobby coffee",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "kids_program_exists;lobby_open_purpose"
+        },
+        {
+          "review_number": 17,
+          "text": "stayed here last week and the place was clean enough. the rooms were standard size with basic furniture. the free wifi worked great at 50mbps and the front desk guy was super helpful. location is terrible though, it's right off a busy highway with loud traffic noise until 2am. i was traveling alone for a quick work stopover so the quiet wasn't a dealbreaker. breakfast was cheap at $9.99 and the coffee was actually pretty good.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included|rewards_join_benefits"
+        },
+        {
+          "review_number": 18,
+          "text": "The breakfast buffet was okay. The place needs work. The rates were too high. My bed was very soft and quiet.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions breakfast rates bed",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 19,
+          "text": "We stumbled upon this Holiday Inn just off the highway because our GPS decided to take us on a detour. Unlike my last stay at a budget motel, the location here felt surprisingly convenient for grabbing dinner nearby. The room was surprisingly spacious and spotless, yet the elevator was a bit noisy compared to what I expect from IHG. In contrast to the bland continental breakfast at other chains, they offered a solid hot option that actually tasted good. The staff greeted us with genuine warmth right at the check-in desk, which made us feel welcome immediately. However, the nearest gas station was a few blocks farther away than I hoped for after a long drive. Since we were traveling with two kids, having the pool open late really saved our sanity for the evening. All in all, the surroundings were quiet and peaceful, unlike the noisy streets near our previous hotel.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions continental breakfast but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 20,
+          "text": "I really wanted this business trip to go smoothly so I booked a stay here last week. The booking process was quick and the confirmation email came right away. I arrived at the hotel just after noon on a Tuesday and was ready to check in. Unfortunately the room felt quite cramped and definitely needs some improvement. I walked into the space and immediately noticed the layout was a bit odd. The furniture looked worn out and frankly the prices were too high for this quality. I also found some dust under the bed which was really disappointing. I decided to head down to the lobby to see if I could get some coffee instead. The staff in the lobby were very friendly and offered to help me with my bags. The fitness center was actually quite nice and the pool area was well lit. The front desk was a bit slow but the overall quality of the stay was better than expected for the cost. The hallways were spotless and the common areas felt very welcoming. I ended up staying an extra night because the vibe was just right. The beds were incredibly comfortable and made my sleep much better.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; long review about generic room staff lobby beds prices",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 21,
+          "text": "room felt clean enough. standard setup nothing special stayed here on a quick business trip location is super convenient bed was okay. pillow case was itchy and cheap",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions room business trip location bed",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 22,
+          "text": "the rooms are a bit cramped and feel outdated.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions rooms are cramped and outdated",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 23,
+          "text": "The rooms were actually quite spacious and the price was reasonable, but the quality of the furniture felt cheap. And you know the cleanliness was just poor with stains everywhere, even though the modern design elements looked nice on the wall. I just wanted a decent night's sleep but ended up spending the whole time worrying about the state of everything.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions rooms furniture cleanliness design",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 24,
+          "text": "I happened upon this location just a few days ago while driving through the area. The room cleanliness was acceptable and the modern design features were actually quite nice, especially considering the reasonable prices. However, I did notice a few minor issues that really needed to be addressed immediately. The general facilities were in great condition and the quality was high, therefore the steep prices were a bit concerning despite the overall value. As a result, I think the stay was balanced even though there is definitely room for improvement.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions room cleanliness design prices facilities",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 25,
+          "text": "Look, I stopped by this Holiday Inn near the airport last night because my flight got delayed. The breakfast buffet was surprisingly affordable with GREAT value for the price of the pancakes and fresh fruit. However, the modern design features like the sleek lobby lighting and the comfortable lounge chairs made me feel instantly welcome. Consequently, while the free Wi-Fi was FAST and the fitness center equipment was NEW, the overall room rates felt a bit HIGH for what you get.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        }
+      ]
+    },
+    {
+      "run": 5,
+      "totalReviews": 34,
+      "totalErrors": 0,
+      "totalVague": 28,
+      "errorRate": 0.0,
+      "vfCount": 13,
+      "vfPercent": 0.3824,
+      "fs": 0.3824,
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions front desk, room",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions beds, decor",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions rooms and prices",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions beds, rate, decor",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions room design, layout, linens",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast and coffee but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast items but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast items but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions rooms, hallway, thermostat",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions rates, bed, room quality",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions beds",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast, coffee, location, price, bed",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions rate, beds, lobby, front desk, coffee, TV",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions hallway, bed, pool, staff, lobby",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions rates, lobby, Wi-Fi, room, bed",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions rooms, location, design, cleanliness",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 20,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions decor, cleanliness",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions lobby, rates, wifi, room",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions rooms, price, bed",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions hallway, bed, room, price, staff",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 25,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions generic facilities",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 26,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions mattress, layout, location, shops",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 27,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions bed, room, price, location",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 28,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast menu but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 29,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions location",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 30,
+          "reason": "No specific claims overlapping with factsheet topics; mentions complimentary coffee but factsheet is silent on lobby coffee",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 31,
+          "reason": "No specific claims overlapping with factsheet topics; mentions breakfast options but no price/complimentary claim",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        },
+        {
+          "review_number": 32,
+          "reason": "No specific claims overlapping with factsheet topics; only mentions hallway, staff, rate, service",
+          "type": "",
+          "highlights": "",
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "We were stuck on the road late at night after our car broke down and just needed a place to crash. The front desk agent was super helpful and got us a room immediately even though it was past midnight. However the room for improvement, could be better in some areas.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions front desk room",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 2,
+          "text": "the beds were super comfy right off the bat but honestly there could be better options in some areas like room for improvement on the decor.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions beds decor",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 3,
+          "text": "THE ROOMS were CLEAN and the PRICES were LOW.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions rooms and prices",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 4,
+          "text": "Unlike my previous stay at a competitor where the rooms felt cramped and overpriced, this Holiday Inn offered surprisingly comfortable beds at a reasonable rate even though the decor was just average.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions beds rate decor",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 5,
+          "text": "the design in the room felt a bit outdated and cluttered, but the general layout was surprisingly spacious and functional. once i settled in the modern accents really brightened up the space and the quality of the linens was top notch for a comfortable night's sleep.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions room design layout linens",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 6,
+          "text": "The staff at check-in were incredibly friendly and got us into our room right away. I was expecting a bit more from the breakfast spread but the coffee was actually really good. The location is decent enough for a quick stop but it is a bit far from the main tourist sights.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast and coffee but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 7,
+          "text": "The room was surprisingly spacious with a modern layout that felt much better than the dated Holiday Inn Express I stayed at last month. They offered a solid variety of breakfast options including fresh fruit and hot entrees that were actually tasty. The furniture in the room was a bit worn and the prices were high for what you get, but the cleanliness was spotless. As a result, the staff offered a free upgrade to a newer suite to fix the issue, therefore making the stay much more enjoyable. I just got back from the trip and honestly, that last minute switch saved the whole vacation.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast items but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express"
+        },
+        {
+          "review_number": 8,
+          "text": "the rooms were pretty clean overall even though the hallway carpet looked a little dusty. the staff at check-in were super friendly and got me into my room really fast. the breakfast buffet had some decent hot options like eggs and waffles plus the coffee was actually good. oh and the pool area was nice and quiet which was a nice surprise for a weekend stay.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast items but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 9,
+          "text": "the rooms looked super modern with fresh paint but honestly the hallway carpet felt a bit worn and the thermostat just wouldn't stop fluctuating.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions rooms hallway thermostat",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 10,
+          "text": "Unlike my last stay at a competitor where the rates were astronomical, the Holiday Inn by IHG offered reasonable nightly prices for a solid facility in the area. I had just checked in a few days ago after a long drive, so I was hoping the place would be worth the trip despite the mixed reputation I'd heard. On the other hand, while the bed was incredibly comfortable and made for a great night's sleep, the room quality suffered from minor issues like a cracked mirror and a sticky drawer that needed attention.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions rates bed room quality",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 11,
+          "text": "the beds were super comfy.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions beds",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 12,
+          "text": "The breakfast was weird but tasty. I really liked the eggs. The coffee tasted off. The location is terrible. The price was good. The design was fine. The room quality was great. I just stayed there. The bed was comfy. Everything was fine.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast coffee location price bed",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 13,
+          "text": "who else loves finding a spot right off the highway that actually feels like a home base? and the breakfast buffet was packed with hot options and the prices were super cheap too. plus the room rate was a total steal for the quality you get here. oh and the staff were so friendly even when I asked for extra towels at midnight. it's just such a great location for anyone needing a quick stop.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 14,
+          "text": "Ok so the nightly rate felt a bit steep but the beds were incredibly soft and the lobby smelled fresh. Then the front desk staff seemed completely uninterested in helping me check in. They had a nice coffee station in the room though the TV remote was a bit old. Eventually the location was just okay for getting around the city.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions rate beds lobby front desk coffee TV",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 15,
+          "text": "ever wonder why some hotels feel like they forgot the basics until you actually walk in the door? i was about to pack up and leave after seeing the state of the hallway but then the front desk guy stepped in. the room was a bit dusty near the baseboards but the bed quality was surprisingly top notch and super comfortable for a night's rest. the pool area could be better with some more lounge chairs but the staff fixed the broken lamp immediately and the whole lobby was spotless.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions hallway bed pool staff lobby",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 16,
+          "text": "stumbled into this location after my flight got delayed last night. the continental breakfast was okay but honestly the coffee prices felt a little steep for a chain hotel. unlike the last time i stayed at a competitor, the modern design and memory foam mattress made my room feel surprisingly comfortable and high quality. however the front desk service was inconsistent because one person was super helpful while the other seemed annoyed to be there. i was tired from traveling so i just wanted a quiet room to crash in before driving to the meeting. on the other hand the pool area was closed for cleaning which was a bummer since i was hoping to stretch my legs a bit. but when i finally checked out the staff member at the desk was genuinely nice and made sure i got a late checkout without any hassle.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 17,
+          "text": "Just a heads up before you book, the rates look great online but can spike randomly at the front desk. I was expecting a standard corporate stay but honestly, the lobby vibe was kinda more relaxed than I thought. However, the Wi-Fi signal dropped a few times during my video call, which is just inconsistent. The ROOM was spotless and the bed felt SO comfortable.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions rates lobby Wi-Fi room bed",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "lobby_open_purpose"
+        },
+        {
+          "review_number": 18,
+          "text": "The rooms were comfy and looked great. Location was perfect. The design was cool and it was super clean.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions rooms location design cleanliness",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 19,
+          "text": "Unlike my last stay at a budget chain where I felt like a number, the rate here was surprisingly reasonable and the bed was genuinely comfortable. However, the location feels a bit awkward since it is tucked away behind a busy highway with no easy access to the main attractions. On the other hand, the room was well stocked with useful extras like a coffee maker and plenty of USB charging ports that made my evening much easier.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "h4_power_outlets"
+        },
+        {
+          "review_number": 20,
+          "text": "The decor in the rooms felt a bit dated and mismatched. The space was surprisingly clean and tidy.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions decor cleanliness",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 21,
+          "text": "The lobby was clean and welcoming when I walked in. The nightly rates were reasonable for the quality of the room and the comfort we had. But then the staff fixed the slow Wi-Fi immediately, which solved my only concern about the stay.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions lobby rates wifi room",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 22,
+          "text": "Just checked out and honestly it was a mixed bag. THE ROOMS ARE EXPENSIVE for what you get. Bed was SUPER comfy though.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions rooms price bed",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 23,
+          "text": "I walked in expecting a standard stay after driving for hours. The hallways smelled a bit stale and the carpet looked worn in the corners. The bed was surprisingly soft but the room felt a little cramped and the price seemed high for the condition. Overall the staff made the place feel welcoming and I actually slept pretty well that night.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions hallway bed room price staff",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 24,
+          "text": "I was kinda worried since there are NO verified specs available for this spot, but I decided to try it anyway. LOCATION is SUPER convenient because it's right near the highway and downtown is a quick 5 minute drive. The ROOM was CLEAN and the bed felt okay, though the pillows were a bit flat for my liking. The AC was a bit noisy which is a minor ISSUE, but the free wifi was FAST and the shower pressure was EXCELLENT.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "rewards_join_benefits"
+        },
+        {
+          "review_number": 25,
+          "text": "Unlike the last time I stayed at a competitor where everything felt modern, the room for improvement at this Holiday Inn by IHG was glaring, as the facilities could be better in some areas.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions generic facilities",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 26,
+          "text": "Mattress is soft but the layout feels fresh. Location is right off the main road. Nearby shops make trips easy.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions mattress layout location shops",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 27,
+          "text": "The bed was SO comfortable and the room felt surprisingly spacious for the price, which is a HUGE plus. Location is PERFECT since it sits right next to everything you need without any traffic headaches.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions bed room price location",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 28,
+          "text": "ok so the price was way too high for a room that looked kinda dull inside. then i checked the breakfast menu and the options were limited with the eggs tasting like they came from a carton. eventually i realized just how disappointing the whole stay actually was.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast menu but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 29,
+          "text": "the spot is right off the main strip so getting there was a breeze compared to that other place down the road.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions location",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 30,
+          "text": "The rooms were spotless, but the lobby lighting was dim and the rates seemed high for what you get. While the modern decor felt a bit generic, the complimentary coffee was excellent and the check-in process was smooth. The bed was incredibly comfortable and the price per night was very reasonable. Staff members went above and beyond to ensure our stay was perfect.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions complimentary coffee but factsheet is silent on lobby coffee",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 31,
+          "text": "The room was a great value with a modern layout that felt fresh. Staff were polite but seemed a bit distracted during our evening check-in. The lobby has some nice touches and the general vibe is okay, though the bed was surprisingly firm. Breakfast options were standard with no real variety to speak of.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; mentions breakfast options but no price/complimentary claim",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": "breakfast_not_included;lobby_open_purpose"
+        },
+        {
+          "review_number": 32,
+          "text": "I was initially worried about the noisy hallway, but the staff quickly moved me to a quiet room with a fresh key card. The nightly rate was surprisingly high for the minor issue I had, but the quality of the service was excellent.",
+          "flagged": true,
+          "error_types": "vague_review",
+          "reasons": "No specific claims overlapping with factsheet topics; only mentions hallway staff rate service",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 33,
+          "text": "I went in expecting a generic stay, but this place actually surprised me with its charm. The breakfast buffet had a solid variety of hot items for just fifteen dollars a head. The staff was polite and efficient when I checked in, though they were a bit rushed during the peak hour. For the price of sixty-eight dollars a night, the room offered great value and the beds were incredibly soft. The mattress felt a little too firm for my liking, yet the bathroom tiles were spotless and the overall build quality was impressive.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        },
+        {
+          "review_number": 34,
+          "text": "Is the location really that great here? The buffet tasted fresh and cost very little. The gym is lacking. The nightly rate is fair. Rooms were spotless and cheap. The decor looks modern.",
+          "flagged": false,
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": "breakfast_not_included"
+        }
+      ]
+    }
+  ]
+}

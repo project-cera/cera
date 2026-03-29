@@ -1,0 +1,291 @@
+review_number,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,False,,,,False,dimensions_weight;display_resolution;ports_usb_a;ports_usb_c;storage_configurations
+2,False,,,,False,limit_no_thunderbolt;ports_usb_c
+3,False,,,,False,display_resolution;display_size_ratio;ram_configurations;ram_type_soldered;storage_configurations
+4,False,,,,False,cpu_generation;dimensions_weight;display_panel_type;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_c;ram_type_soldered
+5,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+6,False,,,,False,cpu_generation;display_panel_type;display_size_ratio
+7,False,,,,False,ram_configurations;ram_type_soldered
+8,True,vague_review,No factsheet-relevant claims,,True,
+9,False,,,,False,input_fingerprint_reader;ram_configurations;ram_type_soldered
+10,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_panel_type;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+11,False,,,,False,cpu_generation;ports_usb_a;ports_usb_c
+12,False,,,,False,display_resolution;display_size_ratio;ram_configurations;ram_type_soldered
+13,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+14,False,,,,False,cpu_available_models;cpu_generation;dimensions_measurements;ports_usb_a;ports_usb_c;ram_configurations
+15,False,,,,False,ports_usb_a;ports_usb_c
+16,False,,,,False,display_resolution;display_size_ratio;input_fingerprint_reader;ram_configurations;ram_type_soldered;storage_configurations
+17,True,vague_review,No factsheet-relevant claims,,True,
+18,False,,,,False,display_resolution;ports_usb_a;ports_usb_c
+19,False,,,,False,cpu_available_models;cpu_generation;ram_configurations;ram_type_soldered
+20,True,wrong_spec,Lists i5-1355U as a CPU option; only i5-1335U and i7-1355U exist,i5-1355U,False,cpu_available_models;cpu_generation;display_resolution;display_size_ratio;gpu_integrated;ports_usb_a;ports_usb_c
+21,False,,,,False,display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c
+22,False,,,,False,cpu_generation;ram_configurations;ram_type_soldered
+23,False,,,,False,dimensions_measurements;display_panel_type;display_resolution;display_size_ratio;ports_usb_c
+24,False,,,,False,ram_configurations;ram_type_soldered
+25,False,,,,False,dimensions_measurements;display_resolution;display_size_ratio
+26,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c
+27,False,,,,False,cpu_available_models;cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;gpu_integrated;limit_no_thunderbolt
+28,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c
+29,False,,,,False,display_resolution;display_size_ratio
+30,False,,,,False,display_resolution;display_size_ratio
+31,False,,,,False,cpu_generation;display_panel_type;display_resolution;display_size_ratio
+32,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+33,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;input_fingerprint_reader;ports_usb_a;ports_usb_c
+34,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;gpu_integrated;ram_configurations;ram_type_soldered
+35,False,,,,False,dimensions_measurements;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_microsd
+36,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;gpu_integrated;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations
+37,True,vague_review,No factsheet-relevant claims,,True,
+38,True,vague_review,No factsheet-relevant claims,,True,
+39,False,,,,False,cpu_generation;display_size_ratio;ram_configurations;ram_type_soldered
+40,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations
+41,False,,,,False,cpu_available_models;cpu_generation;dimensions_measurements;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+42,False,,,,False,cpu_generation
+43,False,,,,False,cpu_available_models;cpu_generation;display_resolution;display_size_ratio;gpu_integrated;limit_no_thunderbolt;ports_usb_c;ram_configurations;ram_type_soldered
+44,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;gpu_integrated;limit_no_thunderbolt;ports_usb_c
+45,False,,,,False,cpu_generation;display_panel_type
+46,False,,,,False,dimensions_measurements;dimensions_weight;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered
+47,False,,,,False,display_resolution;display_size_ratio;ports_usb_a;ports_usb_c
+48,True,vague_review,No factsheet-relevant claims,,True,
+49,True,vague_review,No factsheet-relevant claims,,True,
+50,False,,,,False,cpu_generation;display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c
+51,False,,,,False,dimensions_measurements;dimensions_weight;pricing_us_msrp
+52,False,,,,False,cpu_available_models;cpu_generation;display_size_ratio;pricing_us_msrp;ram_configurations;ram_type_soldered
+53,True,vague_review,No factsheet-relevant claims,,True,
+54,False,,,,False,display_resolution;ram_type_soldered
+55,False,,,,False,display_resolution;display_size_ratio;ports_usb_c
+56,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;input_fingerprint_reader;ports_usb_a;ports_usb_c
+57,False,,,,False,cpu_generation;display_panel_type
+58,False,,,,False,cpu_generation;display_resolution;display_size_ratio;limit_no_thunderbolt;ram_type_soldered
+59,False,,,,False,display_resolution;display_size_ratio;ports_usb_a;ports_usb_c
+60,True,wrong_spec,Lists i5-1355U as a CPU option; only i5-1335U and i7-1355U exist,i5-1355U,False,cpu_available_models;dimensions_measurements;dimensions_weight;display_size_ratio
+61,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_panel_type;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_a;ports_usb_c;pricing_us_msrp;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+62,False,,,,False,cpu_available_models;cpu_generation;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c
+63,False,,,,False,cpu_generation;display_panel_type;display_resolution;display_size_ratio;gpu_integrated;ram_configurations;ram_type_soldered
+64,False,,,,False,display_resolution;display_size_ratio;ram_configurations;ram_type_soldered
+65,False,,,,False,dimensions_weight;ram_configurations;ram_type_soldered
+66,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations
+67,False,,,,False,cpu_generation;gpu_integrated;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered
+68,False,,,,False,display_resolution;ports_usb_c
+69,True,vague_review,No factsheet-relevant claims,,True,
+70,True,wrong_spec,Claims ~5 hours battery life; factsheet states ~7hrs mixed use,5 hours,False,battery_life;display_resolution;ram_configurations;ram_type_soldered
+71,True,vague_review,No factsheet-relevant claims,,True,
+72,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_life;dimensions_weight;ports_usb_a;ports_usb_c
+73,False,,,,False,cpu_generation;dimensions_measurements;display_size_ratio;ram_configurations;ram_type_soldered
+74,False,,,,False,cpu_generation;display_panel_type;gpu_integrated;limit_no_thunderbolt;ports_usb_c
+75,False,,,,False,cpu_generation;display_panel_type
+76,False,,,,False,cpu_generation;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ram_configurations;ram_type_soldered
+77,False,,,,False,cpu_generation
+78,True,wrong_spec,Lists i5-1355U as a CPU option; only i5-1335U and i7-1355U exist,i5-1355U,False,cpu_available_models;cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+79,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_life;ports_usb_a;ports_usb_c
+80,False,,,,False,cpu_generation;dimensions_weight;display_panel_type;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c
+81,False,,,,False,cpu_generation
+82,False,,,,False,cpu_available_models;cpu_generation;display_resolution;display_size_ratio;gpu_integrated
+83,False,,,,False,cpu_generation;display_resolution;display_size_ratio;gpu_integrated;ram_configurations;ram_type_soldered;storage_configurations
+84,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_life;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered
+85,False,,,,False,dimensions_measurements;dimensions_weight;display_size_ratio
+86,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;ram_configurations;ram_type_soldered
+87,False,,,,False,cpu_generation;display_panel_type;display_resolution;display_size_ratio;input_fingerprint_reader;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_microsd
+88,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_panel_type;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_microsd
+89,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;gpu_integrated;ram_configurations;ram_type_soldered
+90,False,,,,False,cpu_generation;display_resolution;display_size_ratio;gpu_integrated;ram_configurations;ram_type_soldered
+91,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_microsd
+92,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_life;cpu_available_models;cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations
+93,False,,,,False,cpu_generation;gpu_integrated;input_fingerprint_reader
+94,True,vague_review,No factsheet-relevant claims,,True,
+95,False,,,,False,cpu_generation;display_resolution;display_size_ratio;ram_type_soldered
+96,True,wrong_spec,Claims ~5 hours battery life; factsheet states ~7hrs mixed use,5 hours,False,battery_life;cpu_generation;ports_usb_a;ports_usb_c
+97,False,,,,False,cpu_generation;dimensions_measurements;display_panel_type;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_microsd
+98,False,,,,False,limit_no_thunderbolt;ports_usb_c
+99,False,,,,False,display_resolution;display_size_ratio
+100,False,,,,False,display_resolution;display_size_ratio
+101,False,,,,False,cpu_available_models;cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered
+102,False,,,,False,display_panel_type;display_resolution;display_size_ratio
+103,True,vague_review,No factsheet-relevant claims,,True,
+104,False,,,,False,cpu_generation;display_panel_type
+105,False,,,,False,cpu_generation
+106,False,,,,False,dimensions_measurements;dimensions_weight;display_size_ratio;input_fingerprint_reader;ports_usb_a;ports_usb_c
+107,False,,,,False,cpu_available_models;cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations
+108,False,,,,False,display_size_ratio
+109,False,,,,False,limit_no_thunderbolt;ports_usb_a;ports_usb_c
+110,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+111,False,,,,False,display_resolution;display_size_ratio;ram_configurations;ram_type_soldered;storage_microsd
+112,False,,,,False,cpu_available_models;cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+113,False,,,,False,audio_speakers;display_size_ratio
+114,False,,,,False,display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c
+115,False,,,,False,cpu_generation
+116,False,,,,False,cpu_generation;display_panel_type;display_size_ratio;limit_no_thunderbolt;ram_configurations;ram_type_soldered
+117,False,,,,False,cpu_generation;display_panel_type;display_resolution;display_size_ratio;gpu_integrated;limit_no_thunderbolt;ports_usb_c;pricing_us_msrp
+118,False,,,,False,cpu_generation;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations
+119,False,,,,False,dimensions_measurements;display_resolution;display_size_ratio
+120,False,,,,False,cpu_generation;display_resolution;display_size_ratio;ram_configurations;ram_type_soldered
+121,False,,,,False,dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_c;pricing_us_msrp
+122,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_c;ram_configurations;ram_type_soldered
+123,False,,,,False,display_size_ratio;ports_usb_a;ports_usb_c
+124,False,,,,False,dimensions_measurements;dimensions_weight
+125,False,,,,False,display_resolution;display_size_ratio
+126,True,wrong_spec,Claims ~5 hours battery life; factsheet states ~7hrs mixed use,5 hours,False,battery_life;display_size_ratio;ram_configurations;ram_type_soldered
+127,False,,,,False,cpu_generation;dimensions_weight;display_resolution;display_size_ratio;ram_type_soldered
+128,True,wrong_spec,Claims ~5 hours battery life; factsheet states ~7hrs mixed use,5 hours,False,battery_life;cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+129,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_panel_type;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+130,False,,,,False,display_size_ratio
+131,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_life;limit_no_thunderbolt;ram_type_soldered
+132,True,vague_review,No factsheet-relevant claims,,True,
+133,False,,,,False,cpu_generation;display_size_ratio;ram_configurations
+134,True,wrong_spec,Claims ~5 hours battery life; factsheet states ~7hrs mixed use,5 hours,False,battery_life;dimensions_weight;display_panel_type;display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_microsd
+135,True,vague_review,No factsheet-relevant claims,,True,
+136,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c
+137,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;gpu_integrated;limit_no_thunderbolt;ram_configurations;ram_type_soldered
+138,True,wrong_spec,Claims ~5 hours battery life; factsheet states ~7hrs mixed use,5 hours,False,battery_life;cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations
+139,False,,,,False,cpu_generation;dimensions_measurements;display_panel_type;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_microsd
+140,False,,,,False,ram_configurations;ram_type_soldered
+141,False,,,,False,cpu_generation;dimensions_measurements;display_panel_type;display_resolution;ram_configurations;ram_type_soldered
+142,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;ram_configurations
+143,False,,,,False,cpu_generation;display_resolution;display_size_ratio;pricing_us_msrp;ram_configurations;ram_type_soldered
+144,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered
+145,False,,,,False,ram_configurations;ram_type_soldered
+146,False,,,,False,display_size_ratio;ports_usb_a;ports_usb_c
+147,False,,,,False,dimensions_measurements;limit_no_thunderbolt;ports_usb_c;ram_configurations;ram_type_soldered
+148,False,,,,False,cpu_generation;display_resolution;display_size_ratio;gpu_integrated;limit_no_thunderbolt;ram_configurations;ram_type_soldered
+149,True,wrong_spec,Lists i5-1355U as a CPU option; only i5-1335U and i7-1355U exist,i5-1355U,False,cpu_available_models;cpu_generation;display_panel_type;display_resolution;display_size_ratio;gpu_integrated
+150,False,,,,False,cpu_generation;display_size_ratio
+151,False,,,,False,cpu_generation;dimensions_measurements;display_panel_type;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+152,False,,,,False,cpu_available_models;cpu_generation;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations
+153,True,vague_review,No factsheet-relevant claims,,True,
+154,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c;pricing_us_msrp;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+155,False,,,,False,cpu_generation;dimensions_measurements;display_size_ratio;gpu_integrated;ram_configurations;storage_configurations
+156,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_life;cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;gpu_integrated;limit_no_thunderbolt;ports_usb_a;ports_usb_c;pricing_us_msrp;ram_configurations;ram_type_soldered
+157,True,wrong_spec,Claims ~5 hours battery life; factsheet states ~7hrs mixed use,5 hours,False,battery_life;cpu_generation;display_resolution;display_size_ratio;ram_configurations;ram_type_soldered
+158,False,,,,False,dimensions_measurements;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c
+159,False,,,,False,cpu_generation;dimensions_weight;gpu_integrated;ram_configurations
+160,True,vague_review,No factsheet-relevant claims,,True,
+161,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt
+162,False,,,,False,cpu_generation;display_panel_type;display_size_ratio;ram_configurations;ram_type_soldered
+163,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;input_fingerprint_reader;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations
+164,True,wrong_spec,Lists i5-1355U as a CPU option; only i5-1335U and i7-1355U exist,i5-1355U,False,cpu_available_models;cpu_generation;dimensions_measurements;gpu_integrated;input_fingerprint_reader;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered
+165,False,,,,False,cpu_generation;dimensions_weight;display_size_ratio
+166,False,,,,False,cpu_available_models;cpu_generation
+167,False,,,,False,cpu_generation;display_resolution;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered
+168,False,,,,False,cpu_available_models;cpu_generation;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c;storage_microsd
+169,True,vague_review,No factsheet-relevant claims,,True,
+170,False,,,,False,display_resolution;display_size_ratio;ports_usb_a;ports_usb_c
+171,False,,,,False,limit_no_thunderbolt;ports_usb_a;ports_usb_c
+172,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_panel_type;display_resolution;display_size_ratio;ram_configurations
+173,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_panel_type;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+174,False,,,,False,cpu_available_models;cpu_generation;dimensions_measurements;display_panel_type;display_resolution;display_size_ratio;gpu_integrated;pricing_us_msrp;ram_configurations;ram_type_soldered
+175,False,,,,False,ports_usb_a;ports_usb_c
+176,True,wrong_spec,Lists i5-1355U as a CPU option; only i5-1335U and i7-1355U exist,i5-1355U,False,cpu_available_models;cpu_generation;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c;storage_microsd
+177,False,,,,False,cpu_generation;display_panel_type
+178,False,,,,False,cpu_generation;dimensions_weight;display_resolution;display_size_ratio;storage_configurations
+179,False,,,,False,cpu_available_models;cpu_generation;dimensions_measurements;dimensions_weight;display_panel_type;ram_configurations;ram_type_soldered
+180,False,,,,False,cpu_generation;display_panel_type;ports_usb_a;ports_usb_c
+181,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ram_configurations;ram_type_soldered
+182,False,,,,False,ram_configurations;ram_type_soldered
+183,True,wrong_spec,Lists i5-1355U as a CPU option; only i5-1335U and i7-1355U exist,i5-1355U,False,cpu_available_models;cpu_generation;display_panel_type;gpu_integrated;ram_configurations;ram_type_soldered
+184,True,wrong_spec,Lists i5-1355U as a CPU option; only i5-1335U and i7-1355U exist,i5-1355U,False,cpu_available_models;cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+185,False,,,,False,dimensions_measurements;display_panel_type;display_size_ratio;gpu_integrated;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered
+186,False,,,,False,cpu_generation;dimensions_weight;display_resolution
+187,False,,,,False,dimensions_measurements
+188,False,,,,False,cpu_available_models;cpu_generation;limit_no_thunderbolt
+189,False,,,,False,dimensions_measurements;dimensions_weight;display_size_ratio
+190,False,,,,False,cpu_generation
+191,False,,,,False,cpu_generation;display_panel_type;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c
+192,False,,,,False,cpu_generation;display_panel_type;display_resolution;display_size_ratio;gpu_integrated;limit_no_thunderbolt;ports_usb_c;ram_configurations;ram_type_soldered
+193,True,wrong_spec,Claims ~5 hours battery life; factsheet states ~7hrs mixed use,5 hours,False,battery_life;cpu_generation;dimensions_measurements;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_a;ports_usb_c;ram_configurations
+194,True,vague_review,No factsheet-relevant claims,,True,
+195,False,,,,False,display_resolution;display_size_ratio;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered
+196,False,,,,False,display_resolution;display_size_ratio
+197,False,,,,False,display_resolution;display_size_ratio;ports_usb_a;ports_usb_c
+198,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c
+199,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_a;ports_usb_c;ram_configurations;storage_configurations;storage_microsd
+200,False,,,,False,cpu_generation;display_panel_type;display_resolution;display_size_ratio
+201,False,,,,False,dimensions_measurements;display_resolution;display_size_ratio
+202,True,wrong_spec,Claims ~5 hours battery life; factsheet states ~7hrs mixed use,5 hours,False,battery_life;dimensions_measurements;dimensions_weight;ports_usb_c;ram_configurations;storage_configurations;storage_microsd
+203,False,,,,False,cpu_generation;display_panel_type
+204,False,,,,False,dimensions_measurements;ports_usb_a;ports_usb_c
+205,True,vague_review,No factsheet-relevant claims,,True,
+206,False,,,,False,cpu_generation
+207,True,wrong_spec,Lists i5-1355U as a CPU option; only i5-1335U and i7-1355U exist,i5-1355U,False,cpu_available_models;cpu_generation
+208,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;gpu_integrated;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered
+209,False,,,,False,cpu_generation;display_panel_type
+210,False,,,,False,cpu_generation;ports_usb_a;ports_usb_c;storage_microsd
+211,False,,,,False,cpu_generation;display_panel_type;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations
+212,False,,,,False,dimensions_measurements;dimensions_weight;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered
+213,True,vague_review,No factsheet-relevant claims,,True,
+214,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_panel_type;gpu_integrated
+215,True,vague_review,No factsheet-relevant claims,,True,
+216,False,,,,False,cpu_available_models;cpu_generation;display_panel_type;display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c
+217,False,,,,False,display_size_ratio
+218,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_type_soldered
+219,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_microsd
+220,False,,,,False,cpu_generation;display_resolution;display_size_ratio;gpu_integrated;pricing_us_msrp;ram_configurations;ram_type_soldered;storage_configurations
+221,False,,,,False,cpu_generation;dimensions_weight;display_panel_type;display_resolution
+222,False,,,,False,dimensions_weight;pricing_us_msrp
+223,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_life;cpu_generation;display_resolution;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations
+224,False,,,,False,dimensions_measurements;display_panel_type;display_resolution;input_fingerprint_reader;ports_usb_a;ports_usb_c
+225,False,,,,False,ram_configurations;ram_type_soldered
+226,False,,,,False,display_resolution;display_size_ratio
+227,False,,,,False,cpu_generation;display_size_ratio;limit_no_thunderbolt;ram_configurations;ram_type_soldered
+228,False,,,,False,ports_usb_a;ports_usb_c
+229,True,vague_review,No factsheet-relevant claims,,True,
+230,True,wrong_spec,Lists i5-1355U as a CPU option; only i5-1335U and i7-1355U exist,i5-1355U,False,cpu_available_models;cpu_generation;dimensions_weight;display_resolution;display_size_ratio;ports_usb_c
+231,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;storage_configurations
+232,False,,,,False,cpu_available_models;cpu_generation;dimensions_measurements;ports_usb_c
+233,True,wrong_spec,Claims ~5 hours battery life; factsheet states ~7hrs mixed use,5 hours,False,battery_life;cpu_generation;display_panel_type;display_resolution;display_size_ratio;limit_no_thunderbolt;ram_configurations;ram_type_soldered
+234,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_life;cpu_generation;display_resolution;display_size_ratio;gpu_integrated
+235,True,wrong_spec|wrong_spec,Lists i5-1355U as a CPU option; only i5-1335U and i7-1355U exist|Claims ~5 hours battery life; factsheet states ~7hrs mixed use,i5-1355U|5 hours,False,battery_life;cpu_available_models;display_panel_type;display_resolution;display_size_ratio;ram_configurations;ram_type_soldered
+236,False,,,,False,display_resolution;display_size_ratio;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c
+237,False,,,,False,cpu_available_models;cpu_generation;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;ports_usb_a;ports_usb_c
+238,False,,,,False,display_size_ratio;ram_configurations;ram_type_soldered
+239,False,,,,False,cpu_available_models;cpu_generation;display_resolution;display_size_ratio;ram_configurations;ram_type_soldered
+240,False,,,,False,cpu_available_models;cpu_generation;display_resolution;display_size_ratio;input_fingerprint_reader;ram_configurations;ram_type_soldered
+241,True,vague_review,No factsheet-relevant claims,,True,
+242,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;limit_no_thunderbolt;ports_usb_c;ram_configurations;ram_type_soldered
+243,False,,,,False,dimensions_measurements;display_resolution;display_size_ratio
+244,False,,,,False,cpu_available_models;cpu_generation;display_resolution;display_size_ratio;ram_configurations;ram_type_soldered
+245,False,,,,False,cpu_generation;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_a;ports_usb_c
+246,False,,,,False,display_resolution;ram_configurations;ram_type_soldered
+247,True,wrong_spec,Lists i5-1355U as a CPU option; only i5-1335U and i7-1355U exist,i5-1355U,False,cpu_available_models;cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c;pricing_us_msrp;ram_configurations;ram_type_soldered
+248,True,vague_review,No factsheet-relevant claims,,True,
+249,False,,,,False,dimensions_measurements;display_resolution;display_size_ratio;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c
+250,True,wrong_spec,Lists i5-1355U as a CPU option; only i5-1335U and i7-1355U exist,i5-1355U,False,cpu_available_models;cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+251,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;gpu_integrated;ports_usb_a;ports_usb_c
+252,False,,,,False,display_resolution;display_size_ratio;ports_usb_c;storage_microsd
+253,False,,,,False,dimensions_weight;display_size_ratio
+254,False,,,,False,dimensions_measurements;display_resolution;display_size_ratio
+255,False,,,,False,audio_speakers;cpu_generation;dimensions_measurements;display_panel_type;display_resolution;display_size_ratio;ports_usb_c
+256,False,,,,False,cpu_available_models;cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;limit_no_thunderbolt;ports_usb_c
+257,False,,,,False,cpu_generation
+258,False,,,,False,cpu_available_models;cpu_generation;ram_configurations;ram_type_soldered
+259,False,,,,False,display_resolution;display_size_ratio
+260,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_life;cpu_generation
+261,False,,,,False,cpu_generation;dimensions_measurements;display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_c;ram_type_soldered
+262,False,,,,False,cpu_generation;display_panel_type;ports_usb_a;ports_usb_c
+263,False,,,,False,cpu_generation;display_resolution;display_size_ratio
+264,False,,,,False,cpu_generation;display_resolution;display_size_ratio;ports_usb_a;ports_usb_c
+265,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ram_configurations;ram_type_soldered;storage_configurations
+266,False,,,,False,display_resolution;display_size_ratio
+267,False,,,,False,audio_speakers;cpu_generation;display_resolution;gpu_integrated
+268,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_life;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c
+269,False,,,,False,cpu_generation
+270,False,,,,False,cpu_available_models;cpu_generation;display_resolution
+271,False,,,,False,display_resolution;display_size_ratio
+272,False,,,,False,dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_c
+273,False,,,,False,display_resolution;display_size_ratio;pricing_us_msrp
+274,False,,,,False,cpu_generation;display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered
+275,False,,,,False,cpu_generation;dimensions_measurements;dimensions_weight;display_panel_type;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;limit_no_thunderbolt;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+276,False,,,,False,cpu_generation;display_panel_type;display_resolution;display_size_ratio
+277,False,,,,False,ports_usb_c
+278,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_life;cpu_available_models;cpu_generation;display_resolution;display_size_ratio
+279,False,,,,False,display_size_ratio
+280,False,,,,False,cpu_available_models;cpu_generation;display_resolution;display_size_ratio;input_fingerprint_reader;limit_no_thunderbolt;ram_configurations;ram_type_soldered;storage_configurations
+281,False,,,,False,dimensions_measurements;display_resolution;limit_no_thunderbolt;ports_usb_a;ports_usb_c
+282,False,,,,False,cpu_generation;dimensions_measurements;display_panel_type;ports_usb_a;ports_usb_c;ram_configurations;ram_type_soldered;storage_configurations;storage_microsd
+283,False,,,,False,cpu_generation;display_resolution;display_size_ratio;ram_configurations;ram_type_soldered
+284,False,,,,False,cpu_available_models;cpu_generation;display_resolution;display_size_ratio;ram_configurations
+285,False,,,,False,display_size_ratio
+286,False,,,,False,cpu_generation;display_resolution;display_size_ratio;limit_no_thunderbolt;ports_usb_a;ports_usb_c;pricing_us_msrp;ram_configurations;ram_type_soldered;storage_configurations
+287,False,,,,False,cpu_generation;display_resolution;display_size_ratio;gpu_integrated;limit_no_thunderbolt;ports_usb_c;ram_configurations;ram_type_soldered
+288,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_life;cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;ram_configurations;ram_type_soldered
+289,True,wrong_spec,Claims ~5 hours battery life; factsheet states ~7hrs mixed use,5 hours,False,battery_life;cpu_available_models;cpu_generation;dimensions_weight;display_panel_type;display_resolution;display_size_ratio;ram_configurations;ram_type_soldered;storage_configurations
+290,True,wrong_spec,Claims ~6 hours battery life; factsheet states ~7hrs mixed use,6 hours,False,battery_life;cpu_generation;dimensions_measurements;dimensions_weight;display_resolution;display_size_ratio;gpu_integrated;input_fingerprint_reader;ports_usb_c;ram_configurations;storage_configurations;storage_microsd

@@ -1,0 +1,309 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,I walked right in and the lobby smelled like stale coffee and old carpet. The IHG Holiday Inn chain. You get what you expect from the brand. It was ju,FALSE,,,,FALSE,lobby_open_purpose
+2,the staff were super friendly from the moment i walked in.,FALSE,,,,FALSE,
+3,The beds were surprisingly comfortable for a Holiday Inn under the IHG umbrella  though the room layout felt a bit standard. The decor had some nice m,FALSE,,,,FALSE,
+4,room felt fresh and the bed was comfy.,FALSE,,,,FALSE,
+5,the pool area was clean however the air conditioning in the hallway was making a weird noise.,FALSE,,,,FALSE,
+6,The continental breakfast was a delightful surprise with great prices  and the hot items were genuinely tasty. It's a Holiday Inn by IHG  and nothing ,FALSE,,,,FALSE,breakfast_not_included
+7,It's a Holiday Inn by IHG  so I knew what to expect even though the check-in was a bit delayed. Furthermore  the rooms are SPACIOUS and the beds are C,FALSE,,,,FALSE,breakfast_not_included
+8,The front desk staff was incredibly friendly and helpful when we checked in.,FALSE,,,,FALSE,
+9,Unlike my previous stay at an IHG Holiday Inn  the lobby felt outdated and the decor was a bit inconsistent with the usual brand standards. On the oth,FALSE,,,,FALSE,breakfast_not_included
+10,I just got a room at this IHG Holiday Inn and the check-in was a bit slower than expected. The breakfast selection is a bit limited for such a large c,FALSE,,,,FALSE,breakfast_not_included
+11,The staff at Holiday Inn under the IHG umbrella were genuinely helpful from the moment I walked in. While the hallways felt a bit cramped  the room wa,FALSE,,,,FALSE,
+12,Ok so the complimentary breakfast buffet had a solid variety of eggs and pastries that actually tasted fresh. Nothing fancy  just a reliable IHG stay ,TRUE,hallucinated_feature,Claims 'complimentary breakfast buffet' but factsheet says Holiday Inn breakfast is NOT complimentary,the complimentary breakfast buffet had a solid variety,FALSE,breakfast_not_included
+13,the lobby and hallway floors were actually spotless when i walked in. first i was worried because the front desk guy seemed stressed  but the ihg holi,FALSE,,,,FALSE,
+14,The location is in a sketchy area so you have to be careful walking around at night  but honestly nothing fancy  just a reliable IHG stay. The staff w,FALSE,,,,FALSE,
+15,The breakfast buffet food quality was pretty poor  but at least there were plenty of style options to choose from. The location is great since it's ri,FALSE,,,,FALSE,breakfast_not_included;lobby_open_purpose
+16,so i picked this up last week. the check-in was super smooth and the staff was actually helpful. Nothing fancy  just a reliable IHG stay. the bed was ,FALSE,,,,FALSE,lobby_open_purpose
+17,Holiday Inn under the IHG umbrella. Prices were a bit high for what we got. You get what you expect from the brand. The room was clean and the bed was,FALSE,,,,FALSE,
+18,We stayed at an IHG Holiday Inn last week  and while the overall vibe was welcoming  the room for improvement was evident in the occasional inconsiste,FALSE,,,,FALSE,lobby_open_purpose
+19,If you're looking for a clean room  you found it here. The bed was firm  but the TV remote needed batteries. I drove through the night to get here  ti,FALSE,,,,FALSE,
+20,Nothing fancy  just a reliable IHG stay. We stayed for three days last week. The staff was very helpful and friendly. The room for improvement is quit,FALSE,,,,FALSE,
+21,I stayed at The IHG Holiday Inn chain just a few days ago. The ROOMS were CLEAN but the TV remote was NOT working. Nothing fancy  just a reliable IHG ,FALSE,,,,FALSE,
+22,the front desk staff were super friendly from the moment i walked in.,FALSE,,,,FALSE,
+23,the buffet food options are pretty limited and could be better in some areas.,FALSE,,,,FALSE,
+24,first i stayed at the hilton down the street and it was a total mess  but then i found this place. the bed was super comfy and the tv screen was huge ,FALSE,,,,FALSE,
+25,the room itself was surprisingly comfy but the decor felt super outdated and the mini fridge was basically just a warm box.,FALSE,,,,FALSE,
+26,The breakfast buffet options were limited  yet the coffee price was surprisingly low. You get what you expect from the brand  but the lobby design fel,FALSE,,,,FALSE,breakfast_not_included
+27,Honestly  the room was a disaster with dust everywhere and a bathroom that just wasn't clean. So I had to call the front desk immediately to complain ,FALSE,,,,FALSE,
+28,The drive-in location right off the highway made it incredibly easy to grab a room just after our long drive. We were traveling with two kids and just,FALSE,,,,FALSE,
+29,Just had a great stay here so we need to talk about how good it was. Holiday Inn under the IHG umbrella delivers Standard Holiday Inn by IHG quality w,FALSE,,,,FALSE,
+30,ok so i just stayed here a few days ago and it's a Holiday Inn by IHG. You get what you expect from the brand however the room needs some work. the st,FALSE,,,,FALSE,
+31,The breakfast buffet had a few stale items that needed immediate attention. Staff members were incredibly helpful and checked in our party with great ,FALSE,,,,FALSE,breakfast_not_included
+32,Having stayed at a comparable Marriott property last week  I noticed the IHG Holiday Inn chain offers a more standard experience. You get what you exp,FALSE,,,,FALSE,
+33,beds were comfy and the rates stayed reasonable. amenities felt solid enough for a quick trip. staff greeted us warmly at the front desk. breakfast fo,FALSE,,,,FALSE,breakfast_not_included
+34,If you're looking for a quick bite  the breakfast buffet has some decent options like fresh fruit. Honestly  the coffee served in the lobby was pretty,FALSE,,,,FALSE,breakfast_not_included
+35,it's a holiday inn by ihg.,TRUE,vague_review,Review only states brand name with zero specific product details,it's a holiday inn by ihg.,TRUE,
+36,the modern lobby design with its sleek lighting really set a welcoming tone as soon as we walked in.,FALSE,,,,FALSE,
+37,the room smelled a bit stale and the carpet felt worn down  but honestly nothing fancy just a reliable stay. however  the location was perfect for get,FALSE,,,,FALSE,breakfast_not_included
+38,great place to crash for the night. standard holiday inn by ihg quality. food options are good too.,FALSE,,,,FALSE,
+39,The staff greeted everyone with genuine warmth  a stark contrast to the cold indifference I faced last week elsewhere. They managed to keep the breakf,FALSE,,,,FALSE,breakfast_not_included
+40,The room amenities were surprisingly nice and comfortable  yet the value for the price could definitely be better with some room for improvement. The ,FALSE,,,,FALSE,
+41,I stayed at an IHG Holiday Inn last week for a quick business trip. Standard Holiday Inn by IHG quality. Rates were high  but the bed was soft.,FALSE,,,,FALSE,
+42,For the price we paid  the room was surprisingly spacious and clean  offering much better value than the tired chain hotel we stayed at last year. Jus,FALSE,,,,FALSE,
+43,Ok so  the lobby and fitness center were absolutely spotless and modern. Breakfast had great variety with waffles and eggs  and the prices felt fair f,FALSE,,,,FALSE,breakfast_not_included;lobby_open_purpose
+44,Just pulled into the parking lot and the location is perfectly right near the highway exit. The breakfast spread had some solid waffle options and the,FALSE,,,,FALSE,breakfast_not_included
+45,The bed felt a bit soft for my back  but the carpet was spotless. The mini-fridge worked well and the coffee maker cost nothing extra. I just arrived ,FALSE,,,,FALSE,lobby_open_purpose
+46,the location was tricky to find.,FALSE,,,,FALSE,
+47,location was perfect right near the highway exit and the main downtown area. the lobby design feels modern with tall ceilings and sleek furniture choi,FALSE,,,,FALSE,breakfast_not_included;lobby_open_purpose
+48,the decor in the room felt a bit outdated and needed some work. honestly the space was clean and the bed was comfy even though i was worried. the lobb,FALSE,,,,FALSE,lobby_open_purpose
+49,First the location near the highway is perfect for our road trip. Next the beds felt soft enough but the bathroom floor was slightly damp. Finally the,FALSE,,,,FALSE,
+50,the room layout was functional and the bed felt sturdy  plus the lighting setup works well. the nightly rate was fair and the mattress was comfortable,FALSE,,,,FALSE,
+51,The room was spotless and the coffee maker actually worked this time. Just a regular Holiday Inn  part of IHG. You get what you expect from the brand ,FALSE,,,,FALSE,breakfast_not_included
+52,location is okay but honestly it could be better in some areas,FALSE,,,,FALSE,
+53,The food was fresh and the drink choices were great. It is a Holiday Inn by IHG. The rooms look standard and the rate was okay. Staff moved quickly. I,FALSE,,,,FALSE,
+54,The carbonara was absolutely divine.,FALSE,,,,FALSE,
+55,So I walked into the lobby and was immediately greeted by a staff member named Sarah who made me feel like the most important guest in the world. Alth,TRUE,hallucinated_feature,Claims 'concierge team handled my luggage' but factsheet says Holiday Inn does NOT have luxury amenities (concierge),the concierge team handled my luggage with such efficiency,FALSE,rewards_join_benefits
+56,First  the room was spotless and the bed felt like a cloud  which was a nice change from the chain across the street that charged more for less. The q,FALSE,,,,FALSE,breakfast_not_included
+57,The rooms were surprisingly clean and the rates felt reasonable for what you get  though it has that typical IHG Holiday Inn vibe. Honestly  the break,FALSE,,,,FALSE,breakfast_not_included
+58,The beds were a bit lumpy and the room felt a little dusty  though the price was reasonable. Unlike the IHG Holiday Inn I visited last year  this prop,FALSE,,,,FALSE,
+59,The location was decent but the check-in was a MESS. However the pool area was CLEAN and refreshing.,FALSE,,,,FALSE,
+60,location is super convenient right near the main highway  just a regular Holiday Inn  part of IHG. the room had comfy bedding and a decent tv for a fa,FALSE,,,,FALSE,
+61,The location right off the highway is super convenient for a quick stop.,FALSE,,,,FALSE,
+62,First  the bed was surprisingly plush and the linens felt fresh. Next  the location put us right near the main highway exit. Finally  we arrived just ,FALSE,,,,FALSE,
+63,the lobby looked sleek and modern. you get what you expect from the brand. the materials felt sturdy and well-maintained. the rate was surprisingly ch,FALSE,,,,FALSE,
+64,Just checked in a few days ago after a long drive across the state. Just a regular Holiday Inn  part of IHG  where the room felt spacious  the bed was,FALSE,,,,FALSE,
+65,The rooms were CLEAN but there were some minor scuffs on the baseboards.,FALSE,,,,FALSE,
+66,the pillow options were a bit lacking. the minibar was well stocked  yet the mattress was surprisingly comfortable. Thus  the bathroom area was spotle,FALSE,,,,FALSE,
+67,the lobby felt a bit dated compared to the sleek Holiday Inn Express I stayed at last month. first it was a bit of a letdown but then the room was cle,FALSE,,,,FALSE,breakfast_vs_express
+68,so i was just passing through town and needed a quick place to crash. the staff were super friendly and helped me with my bags right away. just a regu,FALSE,,,,FALSE,breakfast_not_included
+69,The beds were fine and the place felt good.,FALSE,,,,FALSE,
+70,The rooms were spotless and the overall vibe felt genuinely great. But the staff seemed confused when we asked for extra towels.,FALSE,,,,FALSE,
+71,The bedding was a bit worn but the room felt spacious.,FALSE,,,,FALSE,
+72,I just wrapped up a trip and wanted to share that Holiday Inn under the IHG umbrella delivered exactly what I needed for a quick getaway. The beds wer,FALSE,,,,FALSE,
+73,The LOCATION is right in the heart of the city  making it EASY to get around. The SERVICE was friendly and efficient  though I noticed occasional inco,FALSE,,,,FALSE,
+74,The rates were a bit steep compared to what I expected for the amenities provided.,FALSE,,,,FALSE,
+75,The beds were incredibly plush  yet a few tiles in the lobby were loose  but the rooms sparkled clean. Modern ergonomic desks fit perfectly  and the n,FALSE,,,,FALSE,
+76,The central spot made every trip quick and easy. The modern decor was nice  yet the bed was too firm.,FALSE,,,,FALSE,
+77,The location is great. Stayed at an IHG Holiday Inn. The bed was comfy. The space was fine. The quality was poor. The staff was very helpful. They fix,FALSE,,,,FALSE,
+78,the location is a bit of a hassle since the main highway exit was under construction when we arrived.,FALSE,,,,FALSE,
+79,so i stayed at an ihg holiday inn. The beds were incredibly plush and the room felt super cozy from the moment i walked in. The experience was solid f,FALSE,,,,FALSE,
+80,After a few days at the property  we noticed some occasional inconsistencies in the general upkeep of the common areas. In addition  the modern design,FALSE,,,,FALSE,lobby_open_purpose
+81,The rooms were surprisingly clean and modern  offering a neutral standard of quality that felt consistent throughout our visit. Having stayed at vario,FALSE,,,,FALSE,
+82,The AC UNIT was SO inconsistent and the bed felt LIKE it needed a replacement  honestly. The sheets were just fine for a good night's sleep and the mo,FALSE,,,,FALSE,
+83,After a few days with this Holiday Inn under the IHG umbrella  I just wanted to vent about how things went wrong. The experience was solid for a Holid,FALSE,,,,FALSE,
+84,there is so much room for improvement around this place. just stayed here recently and the whole vibe felt off  honestly.,FALSE,,,,FALSE,
+85,the staff were super helpful from the moment i walked in.,FALSE,,,,FALSE,
+86,I walked in frustrated because the air conditioning wasn't working in my room  but the front desk agent instantly moved me to a fresh suite and comped,FALSE,,,,FALSE,
+87,Just a regular Holiday Inn  part of IHG.,TRUE,vague_review,Review only states brand name with zero specific product details,"Just a regular Holiday Inn, part of IHG.",TRUE,
+88,Heads up  the decor feels a bit dated. Cleanliness in the room was actually spotless. Food quality was just average and nothing special. Staff were fr,FALSE,,,,FALSE,
+89,The bed was surprisingly firm yet comfortable  especially considering the low rate we snagged last week.,FALSE,,,,FALSE,
+90,While the modern decor in the room was impressive  the furniture felt slightly worn and the general upkeep needed a bit more attention. The overall qu,FALSE,,,,FALSE,
+91,I wanted to love this stay but the rooms were actually COMFORTABLE and the modern design features were GREAT  especially considering the PRICE was so ,FALSE,,,,FALSE,lobby_open_purpose
+92,The new pillows were surprisingly plush  but the overall vibe feels like a place that still needs work.,FALSE,,,,FALSE,
+93,Just a regular Holiday Inn  part of IHG  we stopped here after a long drive because we needed a place to crash. The beds were incredibly soft and the ,FALSE,,,,FALSE,
+94,so i was ready to write this place off after the AC gave out  but the staff just fixed it no questions asked. you get what you expect from the brand  ,FALSE,,,,FALSE,
+95,The location is convenient for families  yet the traffic nearby can be a bit loud during peak hours. The resort fees are quite reasonable for the amen,FALSE,,,,FALSE,lobby_open_purpose
+96,The nightly rate was a fair value for the comfortable room we received  though the Wi-Fi speed in the lobby lagged slightly.,FALSE,,,,FALSE,
+97,the beds were super soft and slept like a dream all night. prices were cheap compared to standard holiday inn by ihg quality and the rooms were spotle,FALSE,,,,FALSE,
+98,the beds were actually comfy unlike my last stay at a marriott where the sheets felt scratchy. i was traveling for work and needed a quiet place to re,FALSE,,,,FALSE,
+99,the location was great for getting around town.,FALSE,,,,FALSE,
+100,ok so the spot was right near the highway. i drove straight there after work. the coffee was hot and the toast was fresh. location was just perfect.,FALSE,,,,FALSE,
+101,After a few days with the hotel  I noticed occasional inconsistencies in the service. The stay maintained a Typical IHG Holiday Inn vibe  yet the cost,FALSE,,,,FALSE,
+102,The property is situated just off the main highway with easy access to the interstate. Furthermore  the staff provided excellent service  therefore no,FALSE,,,,FALSE,
+103,The rooms were spotless and surprisingly comfortable compared to my last stay at a competitor. Just a regular Holiday Inn  part of IHG  though there i,FALSE,,,,FALSE,
+104,heads up before you book this spot First the lobby felt way more upscale than i thought. Next the bed was comfy  room was clean  and price was fair fo,FALSE,,,,FALSE,lobby_open_purpose
+105,The minibar was overpriced and the coffee maker in the room seemed a bit outdated  yet the bed linens were surprisingly high quality. Unlike our stay ,FALSE,,,,FALSE,
+106,the morning coffee hit the spot and the toast options were surprisingly fresh.,FALSE,,,,FALSE,
+107,If you're looking for a place that just feels reliable and comfortable  the rooms here are spacious and freshly updated with all the standard perks yo,FALSE,,,,FALSE,
+108,The location was right off the highway  so it's a bit loud but honestly works if you're just passing through.,FALSE,,,,FALSE,
+109,i walked in hoping for a quick escape but honestly my vibe was a little off from the start. so i just stayed at an ihg holiday inn to see if the usual,FALSE,,,,FALSE,
+110,the spot is just fine but honestly i wanted to love this but... just a regular holiday inn  part of ihg. standard holiday inn by ihg quality. so i che,FALSE,,,,FALSE,
+111,service was inconsistent during our recent stay. i stayed at an ihg holiday inn last week. location is standard holiday inn by ihg quality. facilities,FALSE,,,,FALSE,
+112,coffee was just okay this morning. staff were slow to check me in. but a nice girl helped fast. the front desk staff were fine. the room looked modern,FALSE,,,,FALSE,
+113,I honestly thought this trip was going to be a complete disaster when I walked in. The meal options were pretty standard for a typical IHG Holiday Inn,FALSE,,,,FALSE,
+114,So I finally stayed at an IHG Holiday Inn and was immediately impressed by the affordable nightly rate  the spacious layout  and the modern minimalist,TRUE,hallucinated_feature,Claims 'free breakfast spread' but factsheet says Holiday Inn breakfast is NOT complimentary,the free breakfast spread and the comfortable pool area,FALSE,breakfast_not_included
+115,The rooms felt cozy and clean  though there were some minor issues to watch out for. The location was perfect for getting around town.,FALSE,,,,FALSE,
+116,For the price  the bed was surprisingly comfortable and the room was spotless.  The space felt tidy and well-kept throughout our visit.  Unlike my las,FALSE,,,,FALSE,
+117,ok so we stopped at this place after a long drive and honestly wasn't sure what to expect. nothing fancy  just a reliable ihg stay  though the check-i,FALSE,,,,FALSE,
+118,The buffet items tasted stale and the coffee was lukewarm. Prices for the meals were way too high for this quality. Thus  we skipped eating there and ,FALSE,,,,FALSE,
+119,The carpet in my room looked a bit worn. The spot was right near the highway exit. I stopped here just for a quick night. The fridge worked well and t,FALSE,,,,FALSE,lobby_open_purpose
+120,the room was spotless and the price was totally fair for what you get. the beds were comfy and everything felt solid. honestly this place has a bit of,FALSE,,,,FALSE,
+121,the lobby area is spacious and the front desk staff were very helpful. nothing fancy  just a reliable ihg stay. the bed was extremely comfortable but ,FALSE,,,,FALSE,
+122,The nightly rate for our stay was surprisingly reasonable compared to other chains  although the room cleanliness left a bit to be desired. On the oth,FALSE,,,,FALSE,breakfast_not_included;rewards_join_benefits
+123,Unlike my recent stay at a competitor  this IHG property offered a clean lobby and a well-maintained pool area  so you get what you expect from the br,FALSE,,,,FALSE,
+124,It's a Holiday Inn by IHG. The coffee was hot and cheap  but the pastries were dry. Unlike our last trip  this place felt fresh. Nothing fancy  just a,FALSE,,,,FALSE,
+125,I was just wondering if anyone else has felt the vibe was a bit off at the front desk lately. The experience was solid for a Holiday Inn  though the l,FALSE,,,,FALSE,
+126,I arrived exhausted after a long drive and just needed a place to crash for the night. The location was perfect right near the highway exit. The room ,FALSE,,,,FALSE,
+127,Ok so I was honestly a bit worried about the noise before I walked in. Just a regular Holiday Inn  part of IHG. Nothing fancy  just a reliable IHG sta,FALSE,,,,FALSE,
+128,So the coffee here is surprisingly cheap and the vibe is good  but honestly the eggs tasted a little dry. It's a Holiday Inn by IHG. The room design f,FALSE,,,,FALSE,
+129,Ok so I recently stayed at an IHG Holiday Inn for business. The experience was solid for a Holiday Inn during my visit. However the bed felt slightly ,TRUE,hallucinated_feature,Claims 'free breakfast options' but factsheet says Holiday Inn breakfast is NOT complimentary,the free breakfast options and low nightly rates were great,FALSE,breakfast_not_included
+130,breakfast was a total mess with cold items and weird options but they did have fresh fruit. it's a holiday inn by ihg. location was actually perfect f,FALSE,,,,FALSE,breakfast_not_included
+131,The staff greeted us warmly and handled our check-in with impressive efficiency. It's a Holiday Inn by IHG. Nothing fancy  just a reliable IHG stay wi,FALSE,,,,FALSE,
+132,just a regular holiday inn  part of ihg. service was a bit slow and the front desk staff seemed overwhelmed  which was a minor issue. however  the roo,FALSE,,,,FALSE,
+133,The breakfast buffet was a bit inconsistent and overpriced for the quality served  but honestly  the staff handled the mix-up perfectly. I walked in e,FALSE,,,,FALSE,breakfast_not_included
+134,I walked in expecting chaos but found calm instead. The staff were EXCEPTIONAL and made my stay perfect. Standard Holiday Inn by IHG quality offered g,FALSE,,,,FALSE,
+135,The bed was surprisingly comfortable.,FALSE,,,,FALSE,
+136,the rooms were comfy enough for the price. The IHG Holiday Inn chain. You get what you expect from the brand. amenities were there. occasional inconsi,FALSE,,,,FALSE,
+137,after a few days at the Holiday Inn under the IHG umbrella  the breakfast buffet prices felt a bit steep compared to what we usually pay elsewhere. yo,FALSE,,,,FALSE,breakfast_not_included
+138,stayed at an ihg holiday inn. i was honestly surprised to find such a solid place to crash. however  the check-in line was a bit slow  though the typi,FALSE,,,,FALSE,
+139,the beds were incredibly soft and the room design felt modern with great natural light flooding in. i slept like a baby because the mattress was so co,FALSE,,,,FALSE,breakfast_not_included;lobby_open_purpose
+140,The staff greeted everyone with genuine warmth and smiles. Check-in took way longer than it needed to be. Holiday Inn under the IHG umbrella offers cl,FALSE,,,,FALSE,breakfast_not_included
+141,Stayed at an IHG Holiday Inn and the overall stay was fantastic compared to a recent competitor visit. The bed was incredibly soft and the room felt s,FALSE,,,,FALSE,
+142,So I finally got here and the spot is perfect. Location is great for everything nearby. Room rates are cheap though quality is mixed. Being right near,FALSE,,,,FALSE,rewards_join_benefits
+143,Just got here after a few days of travel and I was already feeling the weariness settle in. The IHG Holiday Inn chain. The AC unit rattled loudly all ,FALSE,,,,FALSE,
+144,The carpet in the hallway smelled a bit stale when I first walked in  which made me a little nervous. The room mattress was surprisingly soft  yet the,FALSE,,,,FALSE,
+145,The facilities were immaculate and well-maintained  although the nightly rates felt slightly higher than comparable options in the area. It's a Holida,TRUE,hallucinated_feature,Claims 'complimentary breakfast buffet' but factsheet says Holiday Inn breakfast is NOT complimentary,the complimentary breakfast buffet offered an impressive variety,FALSE,breakfast_not_included
+146,So if you are planning a recent trip to the States  I just wanted to share my experience staying at Holiday Inn under the IHG umbrella a few days ago.,FALSE,,,,FALSE,breakfast_not_included;lobby_open_purpose
+147,The room for improvement was needed in the bathroom layout  but the cleanliness was spotless. The staff were incredibly helpful and made the check-in ,FALSE,,,,FALSE,
+148,Ever wonder if a mid-range chain actually delivers when you need a solid night's sleep? The breakfast buffet was a MIXED bag with limited options  yet,FALSE,,,,FALSE,breakfast_not_included
+149,The location is absolutely terrible compared to the Marriott down the street. Nothing fancy  just a reliable IHG stay  though the coffee options were ,FALSE,,,,FALSE,
+150,for the price i got  the beds were actually super comfy. nothing fancy  just a reliable ihg stay. it's right off the highway so getting here was a bre,FALSE,,,,FALSE,breakfast_not_included
+151,stayed at a holiday inn under the ihg umbrella a few days ago. the experience was solid for a holiday inn. price was fair compared to what i usually p,FALSE,,,,FALSE,
+152,If you're looking for a solid place to crash  the rooms were incredibly spacious and spotless when I first arrived. So I settled in after checking in ,FALSE,,,,FALSE,breakfast_not_included
+153,It's a Holiday Inn by IHG where the consistent amenities and smooth check-in process make it a solid choice for business travelers.,FALSE,,,,FALSE,
+154,The room was spotless from the moment I walked in.,FALSE,,,,FALSE,
+155,Man  I just needed a quick stop. This spot was a mess. The staff was okay. The experience was solid for a Holiday Inn. It could be better in some area,FALSE,,,,FALSE,
+156,Dusty corners marred the modern decor and plain layout. Standard Holiday Inn by IHG quality. Staff handled check-in with genuine speed and care.,FALSE,,,,FALSE,
+157,the room was spotless and the price was right for what we got. It's a Holiday Inn by IHG. the pool area was a bit messy and the wifi kept dropping rig,FALSE,,,,FALSE,
+158,We stopped by Holiday Inn under the IHG umbrella after a long drive left us desperate for a bed. The location was perfect since it was right off the h,FALSE,,,,FALSE,breakfast_not_included
+159,This place is a gem with modern decor and great amenities  though the bed was a bit too firm for my liking. However  the room felt a bit cramped and t,FALSE,,,,FALSE,
+160,Just a regular Holiday Inn  part of IHG  but the bed was surprisingly plush compared to the squeaky mattress I endured at the competitor across town. ,FALSE,,,,FALSE,
+161,the location is kinda hard to find. The room was spotless and the bed comfy.,FALSE,,,,FALSE,
+162,If you are planning a trip to the states and need a place to crash  just a regular Holiday Inn  part of IHG. Nothing fancy  just a reliable IHG stay  ,FALSE,,,,FALSE,breakfast_not_included
+163,the lobby design is actually quite impressive.,FALSE,,,,FALSE,
+164,Just a regular Holiday Inn  part of IHG. The buffet spread had plenty of fresh fruit options and the prices were actually reasonable for a chain hotel,FALSE,,,,FALSE,breakfast_not_included
+165,The breakfast buffet offered a solid variety of hot and cold items  so the food selection was actually quite good. The mini-fridge was small and the d,FALSE,,,,FALSE,breakfast_not_included
+166,Just stopped in for a quick rest and honestly it was a bit of a gamble at first. The sheets were super soft and the room was spotless which is rare th,FALSE,,,,FALSE,
+167,the breakfast buffet had excellent waffles and eggs  although the selection of fruit felt a bit limited. in addition  the service was impeccable becau,FALSE,,,,FALSE,breakfast_not_included
+168,so i was wondering if anyone else felt the same way about their recent stays here. Stayed at an IHG Holiday Inn. The experience was solid for a Holida,FALSE,,,,FALSE,
+169,so i checked in last tuesday and was already stressed out because the key card wouldn't work at the door. Honestly it took forever for the guy at the ,FALSE,,,,FALSE,
+170,I was immediately struck by the sleek  modern lobby design when I walked in yesterday. It's a Holiday Inn by IHG  and the experience was solid for a H,FALSE,,,,FALSE,lobby_open_purpose
+171,The location feels a bit isolated from the main tourist attractions.,FALSE,,,,FALSE,
+172,the bed was super comfy but the wifi kept cutting out. the lobby looked nice but the parking fee was high and the pool was messy. breakfast had lots o,FALSE,,,,FALSE,breakfast_not_included
+173,the bed was surprisingly comfy and the room looked decent enough though honestly it could be better in some areas location is super convenient and rig,FALSE,,,,FALSE,
+174,First  the bedding was incredibly soft  though the air conditioning unit was noticeably loud. The general stay experience was standard Holiday Inn by ,FALSE,,,,FALSE,
+175,The lobby features a sleek modern design  yet the room for improvement is clear in the outdated carpeting. The location is situated near major highway,FALSE,,,,FALSE,lobby_open_purpose
+176,the rooms felt surprisingly spacious and the facilities were in great shape  yet the service hero moment really stood out when a minor issue with the ,FALSE,,,,FALSE,
+177,Alright  the hallway carpet looked a little worn and dated when we first walked in. We had just finished a long drive so I wasn't expecting much from ,FALSE,,,,FALSE,lobby_open_purpose
+178,The IHG Holiday Inn chain serves coffee that actually wakes you up. lights were flickering but the sheets looked clean enough. bed felt squeaky while ,FALSE,,,,FALSE,
+179,room was clean and bed comfy enough. front desk staff were super helpful. typical ihg holiday inn vibe with minor issues.,FALSE,,,,FALSE,
+180,The pillow was flat and the air conditioner leaked water onto the floor.,FALSE,,,,FALSE,toiletries_brand
+181,after staying at the competitors nearby  the location here was actually much better. the staff was helpful  although the check-in process took a bit l,FALSE,,,,FALSE,breakfast_not_included
+182,Stayed at an IHG Holiday Inn. The rates were fair enough for what you get. The experience was solid for a Holiday Inn. Beds were comfy and rooms looke,FALSE,,,,FALSE,
+183,who else knows a spot this close to the highway exit? the parking lot was super clean and well lit when i rolled in. stay at an ihg holiday inn. the r,FALSE,,,,FALSE,
+184,The room had a decent mini-fridge and solid linens  though the space feels fairly standard for a Holiday Inn under the IHG umbrella. You get what you ,FALSE,,,,FALSE,
+185,the room rates were super cheap compared to other spots i checked last week. Next the bed felt comfy and the layout made moving around easy enough. Fi,FALSE,,,,FALSE,
+186,Stayed at an IHG Holiday Inn where the spotless rooms and bargain rates made the occasional inconsistencies in service feel minor.,FALSE,,,,FALSE,
+187,It's a Holiday Inn by IHG. You get what you expect from the brand. The lobby is clean and bright with modern decor. The breakfast quality was poor but,FALSE,,,,FALSE,breakfast_not_included
+188,stayed at a competitor recently but decided to try this place instead. the bed was surprisingly plush and the lobby smelled fresh. the wall paint colo,FALSE,,,,FALSE,
+189,the staff were super helpful when i walked in. the i. h. g. holiday inn chain makes check-in a breeze. However  there were some minor issues with the ,FALSE,,,,FALSE,
+190,The cleanliness in the room needed some improvement as we found dust on the surfaces. However  this was a minor issue compared to the rest of the stay,FALSE,,,,FALSE,
+191,coffee tasted fresh  though eggs were cold sometimes  and toast choices were decent. lobby area is clean  and decor feels modern with soft lighting ev,FALSE,,,,FALSE,lobby_open_purpose
+192,we found the rooms to be spotless and the nightly rate was surprisingly affordable for such a spacious layout.,FALSE,,,,FALSE,
+193,so i walked in with low expectations after a long drive. Just a regular Holiday Inn  part of IHG. the lobby was spotless and the pool area looked bran,FALSE,,,,FALSE,
+194,The staff greeted us with a warm smile upon arrival. The location sits near a busy highway with constant traffic noise.,FALSE,,,,FALSE,
+195,mixed feelings about this place since i wanted to love the vibe but things were a bit off at first. location is decent enough for a drive-thru stop th,FALSE,,,,FALSE,
+196,The continental selection was limited  yet the coffee options were excellent and the pricing was surprisingly affordable. The interior design features,FALSE,,,,FALSE,
+197,ok so i just stayed at an ihg holiday inn for a quick trip and honestly it felt like a real home base for the weekend. the bathroom had a weird crack ,FALSE,,,,FALSE,lobby_open_purpose
+198,The pasta dishes were surprisingly delicious and well prepared. It's a Holiday Inn by IHG. The surrounding neighborhood felt completely unsafe and ske,FALSE,,,,FALSE,
+199,the bed was comfy enough for a quick trip,FALSE,,,,FALSE,
+200,I stayed at a regular Holiday Inn  part of IHG  just a few days ago after leaving a different chain property. The convenient location near the highway,FALSE,,,,FALSE,
+201,rooms were spotless. it's a holiday inn by ihg.,FALSE,,,,FALSE,
+202,the staff here were super friendly and helpful. the modern lobby design feels fresh and clean. staying at an ihg holiday inn near the highway was perf,FALSE,,,,FALSE,
+203,The morning coffee was surprisingly rich and the pastries were fresh.,FALSE,,,,FALSE,
+204,the bed was comfy but the tv remote was glitchy. just a regular holiday inn  part of ihg. standard holiday inn by ihg quality. coffee options were bas,FALSE,,,,FALSE,
+205,just a regular holiday inn  part of ihg. the rooms were spotless and the vibe was super chill. honestly the whole stay was solid for a holiday inn. th,FALSE,,,,FALSE,
+206,Stayed at an IHG Holiday Inn last week. You get what you expect from the brand. The rooms were clean and the beds felt new. Staff were friendly and he,FALSE,,,,FALSE,
+207,location was super convenient near the highway exit and the lobby smelled fresh. this spot is a solid choice for a quick trip. next the room had a kin,FALSE,,,,FALSE,
+208,The rates were surprisingly reasonable and the room felt spotless  so the overall experience was solid for a Holiday Inn. On the other hand  the staff,FALSE,,,,FALSE,
+209,first i saw the price was a steal but the room felt tiny and the walls were thin. just a regular hotel  part of ihg. we were driving through and neede,FALSE,,,,FALSE,
+210,Stayed at an IHG Holiday Inn where the beds were surprisingly plush and the nightly rate was a steal compared to other chains. The workout gear was we,FALSE,,,,FALSE,lobby_open_purpose
+211,I just stopped by the Holiday Inn by IHG for a quick overnight trip last weekend. The bed was incredibly soft and the nightly rate was a steal  but th,FALSE,,,,FALSE,
+212,I checked in just a few days ago for a short business trip and found myself pleasantly surprised by the consistent service. Just a regular Holiday Inn,FALSE,,,,FALSE,
+213,First the dinner specials were surprisingly fresh with plenty of creative options. Next the lobby was spotless and the modern decor made the place fee,FALSE,,,,FALSE,lobby_open_purpose
+214,First  the location is just average compared to the fancy spots downtown. Next  the staff made everything smooth and nothing fancy  just a reliable IH,FALSE,,,,FALSE,
+215,The rooms were surprisingly spacious and modern.,FALSE,,,,FALSE,
+216,the staff were super helpful from the moment i walked in. plus the spot it sits in is perfect for grabbing dinner nearby.,FALSE,,,,FALSE,
+217,Staff seemed annoyed to see me. It sits near a busy highway. Coffee was cheap and warm.,FALSE,,,,FALSE,
+218,i stumbled onto this place near the highway and honestly felt instantly relieved to find such a solid spot for a holiday inn. the lobby looked modern ,FALSE,,,,FALSE,lobby_open_purpose
+219,first  i worried the room would feel outdated  but it was actually clean and spacious. Nothing fancy  just a reliable IHG stay  and the staff went abo,FALSE,,,,FALSE,
+220,unlike that overpriced competitor we tried last month  the rooms were surprisingly clean despite the low rates. standard Holiday Inn by IHG quality wh,FALSE,,,,FALSE,
+221,the coffee pricing was a steal and the pastry choices were fresh  thus making the morning fuel spot on.,FALSE,,,,FALSE,
+222,The staff was SUPER helpful when I first walked in and needed extra towels  making the check-in experience smooth despite the busy lobby. It sits just,FALSE,,,,FALSE,lobby_open_purpose
+223,so i stayed at an ihg holiday inn but honestly the vibe was all over the place. service was just inconsistent and nobody seemed to care about fixing t,FALSE,,,,FALSE,
+224,so i walked into the room and the sheets were actually fresh  but the tv remote felt cheap  yet the mattress was surprisingly comfy. the hallway had s,FALSE,,,,FALSE,breakfast_not_included
+225,The staff here were super nice and helpful from the moment i walked in. i was traveling through town for a quick meeting and just needed a place to cr,FALSE,,,,FALSE,
+226,Heads up that the check-in process can be slow during peak hours. The rooms needed better cleaning  yet the staff were helpful and the lobby felt fres,FALSE,,,,FALSE,breakfast_not_included;lobby_open_purpose
+227,The gym was clean and the lobby felt modern.,FALSE,,,,FALSE,
+228,I booked the IHG Holiday Inn chain for a quick trip just three days ago. The rates were WAY too high for what we got. However  the breakfast buffet ha,FALSE,,,,FALSE,breakfast_not_included;lobby_open_purpose
+229,The staff greeted us with genuine smiles right at the front desk. The buffet options lacked any real creativity or variety. We were traveling for a qu,FALSE,,,,FALSE,
+230,so i picked this up last week. the check in staff was super helpful and got me settled in fast. nothing fancy  just a reliable IHG stay. and the room ,FALSE,,,,FALSE,
+231,Heads up that the check-in staff seemed a bit confused about our reservation details  but they sorted it out quickly. The beds were surprisingly plush,FALSE,,,,FALSE,
+232,The lobby felt a bit worn and needed freshening up  yet the overall atmosphere remained welcoming. Its location is perfect  sitting right near the mai,FALSE,,,,FALSE,
+233,Stayed at an IHG Holiday Inn. The experience was solid for a Holiday Inn.,FALSE,,,,FALSE,
+234,Just arrived for a quick business trip and the lobby lighting felt surprisingly bright upon entry. The desk surface was a bit wobbly  yet the bed line,FALSE,,,,FALSE,lobby_open_purpose
+235,The location near the highway exit was slightly inconvenient for a quiet morning drive. Just a regular Holiday Inn  part of IHG  and you get what you ,FALSE,,,,FALSE,breakfast_not_included
+236,The front desk staff greeted everyone warmly.,FALSE,,,,FALSE,
+237,The room amenities were exceptionally well-maintained  offering plush bedding and a modern flat-screen television that made our family feel right at h,FALSE,,,,FALSE,
+238,having stayed at other chains before  this place felt more corporate than my usual spot. location was a bit of a hassle to find from the main highway ,FALSE,,,,FALSE,
+239,The breakfast bar had weird options and the eggs tasted off. You get what expect from the brand  and rates were fair. Coffee was cheap and the style w,FALSE,,,,FALSE,breakfast_not_included
+240,after staying at a competitor recently the bed was way too firm and the price felt high for what you get  unlike this place where the mattress was dec,FALSE,,,,FALSE,lobby_open_purpose
+241,it's a holiday inn by ihg. the food was kinda meh but the prices were low and the breakfast spread was surprisingly decent. you get what you expect fr,FALSE,,,,FALSE,breakfast_not_included
+242,Parking lot was quite small for this busy spot. Just a regular Holiday Inn  part of IHG. Typical IHG Holiday Inn vibe.,FALSE,,,,FALSE,
+243,location was a bit hard to find.,FALSE,,,,FALSE,
+244,the lobby space feels modern and inviting. the rooms are decorated with fresh  contemporary art pieces. in addition  the hallways were spotless but th,FALSE,,,,FALSE,
+245,The room was CLEAN and the price was right  so honestly it felt like a WIN. you get what you expect from the brand even if some spots could be better.,FALSE,,,,FALSE,
+246,unlike the cramped room i had last month  the bed here was a dream. i was traveling alone for work so i needed a quiet space. the lobby design is slee,FALSE,,,,FALSE,lobby_open_purpose
+247,So I finally checked in last week and the staff at the front desk were SO welcoming that it felt like coming home to family immediately. The room had ,FALSE,,,,FALSE,
+248,the location was perfect for getting around town  unlike the last hotel i stayed at that was stuck in a dead zone.,FALSE,,,,FALSE,
+249,I booked a stay recently but arrived with high hopes. The room decor looked outdated and cheap  yet the sheets were spotless.,FALSE,,,,FALSE,
+250,Honestly the check-in process was a bit of a hassle  but once we got to our room the vibe was just right. The breakfast spread had fresh bagels and co,FALSE,,,,FALSE,breakfast_not_included
+251,The bed was okay.,FALSE,,,,FALSE,
+252,i stayed at an ihg holiday inn. the rooms were spotless  the beds comfy  and the lobby design modern.,FALSE,,,,FALSE,
+253,I just stayed at a Holiday Inn under the IHG umbrella and the check-in process was surprisingly smooth compared to other budget chains. The service wa,FALSE,,,,FALSE,
+254,The front desk agent seemed distracted when I checked in. Next the lobby was bright and welcoming with a standard Holiday Inn by IHG quality vibe. The,FALSE,,,,FALSE,
+255,so i stumbled in after a long drive and was immediately glad that the room smelled fresh  the bed was incredibly plush  and the free wifi worked perfe,FALSE,,,,FALSE,breakfast_not_included;lobby_open_purpose;rewards_join_benefits
+256,The property is located right off the main highway exit  making it incredibly easy to access for our family road trip. The spacious lobby and the pris,FALSE,,,,FALSE,breakfast_not_included;lobby_open_purpose
+257,just a regular holiday inn  part of ihg. the coffee tasted fresh but the bagels were stale. there were plenty of style options on the menu and the egg,FALSE,,,,FALSE,breakfast_not_included;lobby_open_purpose
+258,The breakfast options were surprisingly plentiful and the food quality hit the mark.,FALSE,,,,FALSE,breakfast_not_included
+259,Service was hit or miss during my recent stay  so don't assume everything runs perfectly. The modern lobby design with its sleek lighting really made ,FALSE,,,,FALSE,
+260,The IHG Holiday Inn chain is a solid upgrade from the local motel we tried before. Staff were friendly and the check-in process felt like Standard Hol,FALSE,,,,FALSE,
+261,the room for improvement is clear given the minor issues with cleanliness  though the bed comfort was acceptable and prices seem standard for a Holida,FALSE,,,,FALSE,
+262,The breakfast buffet was kinda overpriced for what you get  BUT the omelets were actually FRESH and worth the extra cash. Honestly  the rooms were SPO,FALSE,,,,FALSE,breakfast_not_included
+263,The IHG Holiday Inn chain provided a comfortable stay during my recent visit. The experience was solid for a Holiday Inn  though the room prices could,FALSE,,,,FALSE,
+264,the breakfast spread had some tasty options. stumbled in late after a long drive. bathroom felt a bit messy but room was clean. bed was comfy and deco,FALSE,,,,FALSE,breakfast_not_included
+265,the price was fine and the room felt clean with decent modern touches. service was just a mess with zero consistency. but the front desk staff actuall,FALSE,,,,FALSE,
+266,The room decor was kinda basic BUT the price was actually decent for what you get. So we just dropped in for a quick stopover while driving through to,FALSE,,,,FALSE,
+267,First  the sheets were crisp and the room smelled fresh  yet the mattress felt a bit too firm for my liking. Next  the continental coffee was surprisi,FALSE,,,,FALSE,
+268,We stopped by the IHG Holiday Inn for a quick overnight and found the rooms spotless and the beds surprisingly comfortable. Next  the breakfast buffet,FALSE,,,,FALSE,breakfast_not_included
+269,The pool area was sparkling clean  which is a nice change of pace. Unlike my last stay at a competitor where the service was flawless  this trip had s,FALSE,,,,FALSE,
+270,The rooms were spacious and comfortable  though the decor felt a bit dated and worn. While the cleaning was inconsistent in the hallway  the bed was i,FALSE,,,,FALSE,
+271,The location was perfect for our weekend getaway. We arrived late after a long drive and were tired  so the easy check-in process was a huge relief. T,FALSE,,,,FALSE,
+272,the lobby furniture feels cheap and some tiles are cracked  yet the modern lighting design actually looks nice. honestly this stay felt like standard ,FALSE,,,,FALSE,breakfast_not_included
+273,the paint was chipped near the door but the bed was comfy and the rate was cheap. the pool was clean and the gym worked well whereas the lobby felt sp,FALSE,,,,FALSE,lobby_open_purpose
+274,The beds were surprisingly comfortable for the price  and you get what you expect from the brand. However  the minor noise from the hallway was a slig,FALSE,,,,FALSE,
+275,The front desk staff were incredibly helpful during check-in.,FALSE,,,,FALSE,
+276,compared to the marriott i stayed at last month  the service here was surprisingly attentive. prices were reasonable  the room was spotless  yet the l,FALSE,,,,FALSE,
+277,The room lighting fixture flickered slightly  but the bed quality was exceptionally comfortable for a typical IHG Holiday Inn vibe. I utilized the pro,FALSE,,,,FALSE,kids_eat_conditions
+278,Heads up for anyone comparing options  this location feels a bit different from the standard experience at other Holiday Inn under the IHG umbrella. W,FALSE,,,,FALSE,
+279,The rooms were spotless and the nightly rate was a steal for what we got.,FALSE,,,,FALSE,
+280,Location is SO hard to find near the busy highway. Prices were HIGH for the standard rooms  though the pool area was AMAZING. First I expected chaos b,FALSE,,,,FALSE,
+281,the morning coffee was hot and strong  the prices were cheap  and there were plenty of style options to choose from. next the omelet station was alway,FALSE,,,,FALSE,
+282,staff greeted me warmly at check in. the room had modern decor though the carpet was dusty and the layout felt cramped.,FALSE,,,,FALSE,
+283,The check-in crew was completely UNREASONABLE and made me wait forever. The experience was solid for a Holiday Inn  though the room had some weird qui,FALSE,,,,FALSE,
+284,the location is pretty convenient for getting around town  although the room could use a few updates. in addition to the decent spot  the staff member,FALSE,,,,FALSE,
+285,so i stayed at an ihg holiday inn and honestly had mixed feelings from the start because the wifi in the room was flickering constantly. you get what ,FALSE,,,,FALSE,
+286,if you're thinking about staying here  i was pretty skeptical at first because of some minor mix-ups during check-in. stayed at an ihg holiday inn  an,FALSE,,,,FALSE,
+287,I was actually pretty excited to check into The IHG Holiday Inn chain for a quick weekend trip after a long week of travel. Nothing fancy  just a reli,FALSE,,,,FALSE,
+288,service#general,TRUE,vague_review,Review contains only a category tag with zero product details,service#general,TRUE,
+289,the room decor felt a bit generic but the bed was surprisingly comfy. so i picked up this stay at an IHG Holiday Inn and honestly you get what you exp,FALSE,,,,FALSE,
+290,The beds were incredibly soft and the new flat-screen TVs made for a perfect end to the day  so I slept like a baby. The price tag was a little steep ,FALSE,,,,FALSE,
+291,The lobby feels spotless and inviting. Prices seem fair yet the coffee tastes burnt. The bed offered great support and comfort. No dust was found anyw,FALSE,,,,FALSE,lobby_open_purpose
+292,Have you ever stayed somewhere that promised a good deal but delivered a mixed bag? Unlike my last IHG property where everything was spotless  this lo,FALSE,,,,FALSE,
+293,The facilities were in excellent condition throughout our recent stay.,FALSE,,,,FALSE,
+294,food was meh and kinda sad. standard holiday inn by ihg quality though. rooms comfy and beds soft. clean sheets and slept great. stopped here just for,FALSE,,,,FALSE,
+295,location was kinda weird and far from everywhere  honestly it was a pain to get around. Just a regular Holiday Inn  part of IHG. you get what you expe,FALSE,,,,FALSE,
+296,honestly the room rate was a steal for what you get. Holiday Inn under the IHG umbrella. The sheets were clean which is good but the tv remote feels c,FALSE,,,,FALSE,
+297,ok so i stayed at the same chain last month and it was way better. it's a holiday inn by ihg. nothing fancy  just a reliable ihg stay. the room was sp,FALSE,,,,FALSE,
+298,First I stayed at a competitor last year and then checked into a regular Holiday Inn  part of IHG  just a few days ago. Standard Holiday Inn by IHG qu,FALSE,,,,FALSE,
+299,The room amenities were surprisingly high quality for a standard stay. Standard Holiday Inn by IHG quality defined the overall comfort level here. Sta,FALSE,,,,FALSE,breakfast_not_included
+300,The halls were spotless and the room smelled fresh upon arrival. Staff went the extra mile to ensure everything was perfect during our stay.,FALSE,,,,FALSE,
+301,This place under the IHG umbrella is a solid choice with spotless rooms  though we did notice some minor inconsistencies in the hallways. We were worr,FALSE,,,,FALSE,
+302,I arrived expecting a smooth check-in after a long drive. The lobby felt dated and cramped  but the room was spotless and the bed extremely comfortabl,FALSE,,,,FALSE,lobby_open_purpose
+303,The continental spread had fresh pastries at a fair price. just grabbed a bite before heading out.,FALSE,,,,FALSE,
+304,Just a regular Holiday Inn  part of IHG  and the rooms were spotless when I arrived. The food prices were a bit high though  and honestly  they could ,FALSE,,,,FALSE,
+305,The room was spotless and freshly cleaned  yet the layout felt cramped and the design features looked dated. However  the location was quite inconveni,FALSE,,,,FALSE,
+306,The breakfast was okay  but the coffee tasted burnt. Stayed at a Holiday Inn under the IHG umbrella last month  and the vibe was AMAZING. Compared to ,FALSE,,,,FALSE,breakfast_not_included
+307,the bed was terrible but the carpet was nice and the decor was cool,FALSE,,,,FALSE,
+308,After staying at a competitor recently  I decided to try this location just to see how it compared. Nothing fancy  just a reliable IHG stay with decen,FALSE,,,,FALSE,

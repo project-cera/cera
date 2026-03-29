@@ -1,0 +1,155 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,location is just as good as the other places i've stayed at before. You're looking at $100 to $250 or more for a night's stay. which is kinda steep co,false,,,,false,
+2,The room was clean and functional  but the design felt dated compared to other IHG locations.,false,,,,false,
+3,founded in 1952  holiday inn was created by kemmons wilson  and honestly it felt way nicer than my last stay at marriott. i love how clean the rooms a,false,,,,false,
+4,the location was perfect for our family trip.,false,,,,false,
+5,Expect a mini-fridge in your standard room but room for improvement.,false,,,,false,
+6,The facilities were somewhat outdated and the overall quality just could be better in some areas.,false,,,,false,
+7,Service was okay but could be better. Founded in 1952  Holiday Inn was created by Kemmons Wilson. The location is great for families. Standard rooms c,false,,,,false,
+8,The location is convenient and easy to find. First  you are greeted with amazing energy and the Holiday Inn was founded in 1952 by Kemmons Wilson. Nex,false,,,,false,kids_eat_conditions;kids_program_exists;kids_stay_age_limits;rewards_join_benefits
+9,The LOCATION was absolutely PERFECT for our family trip! The SERVICE was SO friendly from the moment we walked in. The STAFF went above and beyond to ,false,,,,false,
+10,free wi-fi was working great and the lobby had a clean  modern design feel. standard rooms include a mini-fridge  though it varies  and the keys felt ,true,wrong_spec,"Claims 'kids stay and eat free covers children up to 11 or 12 years old' - Stay Free age is 18/under in Americas, not 11/12.",kids stay and eat free covers children up to 11 or 12 years old,false,kids_stay_age_limits
+11,Just pulled up to the Holiday Inn and honestly I am so relieved to finally get a room after that long drive. The front desk staff was incredibly welco,false,,,,false,rewards_join_benefits
+12,the staff were super friendly and helpful when i walked in. expect to pay around $100 to $250 per night depending on the spot but the wifi is free whi,false,,,,false,
+13,Kemmons Wilson established the chain in 1952. Room rates typically range from $100-$250 nightly  and the food was just okay. You'll find a mini-fridge,false,,,,false,
+14,rooms are clean enough but a bit tight compared to other places i've stayed at  and honestly most rooms have a mini-fridge included which is nice. the,true,wrong_spec,Claims kids stay free max age is 11 or 12 - Stay Free age is 18/under in Americas.,kids stay free if they are under max age for the free kids program is typically 11 or 12,false,kids_stay_age_limits
+15,Founded in 1952  Holiday Inn was created by Kemmons Wilson  and I just visited recently. The food was decent but the drinks were just okay and the opt,false,,,,false,
+16,standard rooms include a mini-fridge  though it varies compared to other ihg locations. service was great even though the check-in time of 3:00 pm is ,false,,,,false,kids_program_exists
+17,Be warned that service can be a bit hit or miss here. The brand goes all the way back to 1952 when Kemmons Wilson launched it. You're looking at $100 ,false,,,,false,kids_program_exists;rewards_join_benefits
+18,I stayed there last weekend in the US. Wi-Fi is included and free for all members. Kids under 11 or 12 stay and eat for free. Breakfast had great vari,true,wrong_spec,Claims 'Kids under 11 or 12 stay and eat for free' - Stay Free age is 18/under in Americas.,Kids under 11 or 12 stay and eat for free,false,kids_stay_age_limits
+19,I wanted to love this but the rooms were actually spotless when we walked in. Costs usually sit in the $100 to $250 range per night  which feels a bit,false,,,,false,
+20,The service was absolutely AMAZING compared to the nightmare we had last year  and the staff went above and beyond to make our stay special. Unlike ou,false,,,,false,
+21,standard rooms include a mini-fridge  though it varies  and you're looking at $100 to $250 or more for a night's stay. but the decor feels a bit dated,true,wrong_spec,Claims 'kids stay and eat free up to age 11 or 12' - Stay Free age is 18/under in Americas.,kids stay and eat free up to age 11 or 12,false,kids_stay_age_limits
+22,First  the service was just okay.,false,,,,false,
+23,you'll find a mini-fridge in most rooms and the beds are comfy but the decor felt a bit inconsistent. the front desk staff was super helpful when we a,false,,,,false,lobby_open_purpose
+24,The decor feels outdated and needs a refresh. The location is great for anyone stopping through.,false,,,,false,
+25,the food at the on-site restaurant was actually pretty tasty even though the prices are a bit high compared to other chains. standard rooms come with ,false,,,,false,dining_full_service
+26,just walked in and my heart was racing with excitement for this trip. first the buffet had so many tasty options and the prices were fair  plus the st,false,,,,false,rewards_join_benefits
+27,the food was actually tasty and the prices were reasonable for a full-service hotel dining experience. the rooms were spotless and the facilities felt,false,,,,false,dining_full_service;kids_eat_conditions
+28,The location was perfect for getting around town unlike my last trip.,false,,,,false,
+29,Unlike the cramped boutique hotel we stayed at last year  this Holiday Inn offers spacious grounds and comfortable beds that rival the luxury chains  ,false,,,,false,
+30,Free Wi-Fi is a standard benefit included with every stay  which is especially helpful for IHG One Rewards members. While occasional inconsistencies i,false,,,,false,rewards_join_benefits
+31,stayed here a few days ago and the spot was super convenient. the breakfast buffet was hit or miss but Wi-Fi is free and the room rates typically rang,false,,,,false,breakfast_not_included
+32,Free Wi-Fi is standard for IHG One Rewards members  and the complimentary breakfast quality is surprisingly solid. I stopped by for a quick stopover a,true,hallucinated_feature,Claims 'the complimentary breakfast quality is surprisingly solid' implying breakfast is free. Factsheet says breakfast is NOT included at Holiday Inn.,the complimentary breakfast quality is surprisingly solid,false,breakfast_not_included
+33,The staff were incredibly helpful and made us feel right at home upon arrival. Kemmons Wilson established the chain in 1952  and I found the front des,false,,,,false,rewards_join_benefits
+34,Holiday Inn was founded in 1952 by Kemmons Wilson. Expect to pay around $100 to $250 per night depending on the spot. Standard check-in is at 3:00 PM.,false,,,,false,rewards_join_benefits
+35,The staff went above and beyond to ensure our stay felt welcoming. It is impressive to see how Holiday Inn was founded in 1952 by Kemmons Wilson. The ,false,,,,false,
+36,so the rooms are clean and decent quality but honestly there's still room for improvement with the pricing which runs $100 to $250 or more for a night,false,,,,false,
+37,Kemmons Wilson established the chain in 1952. The staff was super friendly and the rooms were clean and comfy. Then we realized the Wi-Fi was a bit sl,false,,,,false,
+38,Expect a mini-fridge in your standard room  and the beds felt surprisingly cozy after a long drive. So I was curious if the family perks would actuall,false,,,,false,breakfast_not_included;kids_program_exists
+39,Kemmons Wilson established the chain in 1952. Food is okay but prices are too high. Most rooms have a mini-fridge included and the beds are great. Pri,false,,,,false,
+40,FOOD_DRINKS#PRICES SERVICE#GENERAL,true,vague_review,Only raw category tags 'FOOD_DRINKS#PRICES SERVICE#GENERAL' - no actual review content.,FOOD_DRINKS#PRICES SERVICE#GENERAL,true,
+41,The brand goes all the way back to 1952 when Kemmons Wilson launched it. Rooms are spotless and beds feel fresh upon arrival. Kids under 11 or 12 stay,true,wrong_spec,Claims 'Kids under 11 or 12 stay and eat for free' - Stay Free age is 18/under in Americas.,Kids under 11 or 12 stay and eat for free,false,kids_stay_age_limits
+42,honestly the location was a bit of a hassle to find at first. first the service was incredible since the staff went out of their way to help me  next ,false,,,,false,kids_program_exists;rewards_join_benefits
+43,rooms were clean and comfy.,false,,,,false,
+44,Kemmons Wilson established the chain in 1952  and I stayed here just a few days ago for a quick trip. Standard rooms come with a mini-fridge and the W,false,,,,false,
+45,you'll find a mini-fridge in most rooms and the wifi is free which is nice unlike some other places. it felt mixed since i stayed last week and the se,false,,,,false,
+46,prices usually run between $100 and $250 a night and standard rooms come with a mini-fridge which is a nice touch. first the location is perfect for g,true,wrong_spec,Claims 'kids stay and eat free program covers children up to 11 or 12 years old' - Stay Free age is 18/under.,kids stay and eat free program covers children up to 11 or 12 years old,false,kids_stay_age_limits
+47,The carpet in my room felt a bit dusty upon arrival. The breakfast buffet offered fresh pastries and excellent coffee quality. Kemmons Wilson started ,false,,,,false,breakfast_not_included
+48,mini-fridges are standard in the rooms but the quality feels a bit worn compared to other ihg locations.,false,,,,false,
+49,Kemmons Wilson established the chain in 1952  and I recently stayed at a location in the United States for a few days. Mini-fridges are standard in th,true,wrong_spec,Claims 'kids stay and eat free up to age 11 or 12' - Stay Free age is 18/under.,kids stay and eat free up to age 11 or 12,false,kids_stay_age_limits
+50,So I decided to book a stay at the Holiday Inn by IHG to see if the family deal still holds up after Kemmons Wilson started Holiday Inn back in 1952. ,false,,,,false,kids_program_exists
+51,rooms were clean and comfy for sure. i found a mini-fridge in my standard room. staff were super friendly and helpful throughout my stay. location is ,false,,,,false,
+52,the continental breakfast was honestly pretty bland and left me wanting more. First the staff was incredibly welcoming and checked us in without any h,false,,,,false,breakfast_not_included;kids_program_exists;rewards_join_benefits
+53,the rooms are nice and prices are good.,false,,,,false,
+54,Founded in 1952  Holiday Inn was created by Kemmons Wilson. However  the breakfast buffet was a bit disappointing despite the standard 3pm check-in ti,false,,,,false,breakfast_not_included
+55,We stopped at this Holiday Inn because it was right off the highway and felt like the perfect spot for our road trip. The breakfast buffet had a great,false,,,,false,breakfast_not_included;lobby_open_purpose;rewards_join_benefits
+56,The breakfast buffet was surprisingly fresh and tasty  but the prices for drinks and snacks felt way too high for what you get. Unlike some other IHG ,false,,,,false,breakfast_not_included
+57,ok so prices usually run between $100 and $250 a night which is way better than that overpriced chain we stayed at last month. unlike the place before,false,,,,false,kids_program_exists;rewards_join_benefits
+58,the mattress felt a bit too soft after that first night of tossing and turning. kemmons wilson started holiday inn back in 1952  but i just wanted a p,false,,,,false,
+59,just stopped by the holiday inn by ihg a few days ago and the front desk staff greeted me with a friendly smile. the team went above and beyond to mak,false,,,,false,
+60,The nightly rate is generally $100-$250  though it varies.,false,,,,false,
+61,The breakfast buffet food was disappointing in quality  though they did offer a surprising variety of styles. We had just arrived from a long drive an,false,,,,false,breakfast_not_included
+62,After a few days at the Holiday Inn by IHG  I found the experience mostly positive despite a few minor issues. The room was spotless and featured stan,false,,,,false,
+63,the vibe was a bit off with some odd inconsistencies  but the beds were surprisingly comfy. free wi-fi worked great and the staff were super friendly.,false,,,,false,rewards_join_benefits
+64,So I finally made it back to a Holiday Inn after that disaster at the budget chain down the road  and honestly the vibe was just okay. Unlike my last ,false,,,,false,rewards_join_benefits
+65,just arrived at the desk and noticed the sign about kids under 11 or 12 stay and eat for free. Kemmons Wilson established the chain in 1952. and the f,true,wrong_spec,Claims 'kids under 11 or 12 stay and eat for free' - Stay Free age is 18/under.,kids under 11 or 12 stay and eat for free,false,kids_stay_age_limits
+66,The beds felt a bit stiff but the rooms were spotless. We were right near the highway exit which made arrival easy. Then we checked the details and le,false,,,,false,
+67,The location was absolutely perfect for our quick trip through the heart of the United States.,false,,,,false,
+68,The facility has some inconsistent issues and the cost is steep at $100 to $250  but the modern design and included mini-fridge in standard rooms make,false,,,,false,rewards_join_benefits
+69,the service was actually really good.,false,,,,false,
+70,founded in 1952  holiday inn was created by kemmons wilson. the service was great. check-in usually happens at 3pm  though it can vary. standard rooms,false,,,,false,
+71,The food prices were way too steep for what you get.,false,,,,false,
+72,Be warned that while most rooms have a mini-fridge included  the experience varies WILDLY compared to other IHG spots. I just stayed here a few days a,false,,,,false,rewards_join_benefits
+73,The service was just okay  nothing special.,false,,,,false,
+74,Kemmons Wilson started Holiday Inn back in 1952  and while the service was just okay  the experience was still decent. Room rates typically range from,true,wrong_spec,Claims 'kids under 11 or 12 stay and eat for free' - Stay Free age is 18/under.,kids under 11 or 12 stay and eat for free,false,kids_stay_age_limits
+75,The staff was incredibly welcoming when I walked in. The beds were soft and the room felt very comfortable. Plan to arrive at 3pm for check-in. Room r,false,,,,false,kids_eat_age_limits;lobby_open_purpose
+76,Stopped by a Holiday Inn in the US recently and the spot was super convenient. The staff were really friendly and helpful with everything we needed. I,true,wrong_spec,Claims 'Kids stay and eat free up to age 11 or 12' - Stay Free age is 18/under.,Kids stay and eat free up to age 11 or 12,false,kids_stay_age_limits
+77,Mixed feelings on this place despite the history of Kemmons Wilson established the chain in 1952. Rooms were CLEAN but the design feels dated and the ,true,wrong_spec,Claims 'Kids under 11 or 12 stay and eat for free' - Stay Free age is 18/under.,Kids under 11 or 12 stay and eat for free,false,kids_stay_age_limits
+78,Room rates typically range from $100-$250 nightly and the beds felt comfy enough with a mini-fridge in the standard room. We grabbed our stuff and hea,false,,,,false,rewards_join_benefits
+79,most rooms have a mini-fridge included and the beds were super comfy for a restful sleep. the quality of the towels was great and room rates typically,false,,,,false,
+80,just checked in a few days ago. rooms are spotless every time. breakfast needs work and taste bland.,false,,,,false,breakfast_not_included
+81,So I finally checked in last week and the lobby design was really clean while the beds felt super comfortable and the overall vibe was great. After a ,false,,,,false,lobby_open_purpose
+82,I walked in feeling absolutely thrilled with how perfect this location turned out to be. We just drove up from the city a few days ago for a quick fam,false,,,,false,breakfast_not_included;kids_program_exists;rewards_join_benefits
+83,Founded in 1952  Holiday Inn was created by Kemmons Wilson. and you can usually check in at 3pm  but the spot is a bit scattered. I was just there a f,false,,,,false,
+84,just pulled up to this holiday inn after a long road trip and was happy to see the sign. costs usually sit in the $100 to $250 range per night but the,true,wrong_spec,Claims 'kids under 11 or 12 stay and eat for free' - Stay Free age is 18/under.,kids under 11 or 12 stay and eat for free,false,kids_stay_age_limits
+85,First day with this stay  I checked in at 3:00 PM. Free Wi-Fi is standard for all IHG One Rewards members  prices are sometimes inconsistent  and kids,false,,,,false,kids_eat_age_limits;kids_program_exists;rewards_join_benefits
+86,Kemmons Wilson started Holiday Inn back in 1952 and the location is absolutely perfect for a quick getaway! You'll find a mini-fridge in most rooms wh,false,,,,false,
+87,The rooms were sparkling clean and standard rooms come with a mini-fridge. Kemmons Wilson established the chain in 1952.,false,,,,false,
+88,This Holiday Inn by IHG is a solid choice where the rooms are spotless and the rates are quite reasonable.,false,,,,false,
+89,honestly the rooms feel solid and the wifi works great for the price. you get a mini-fridge in your standard room and expect to pay around $100 to $25,false,,,,false,
+90,Mini-fridges are standard in the rooms. The rooms were clean. The beds were not comfortable enough. The place was fine.,false,,,,false,
+91,The rooms were spotless yet the hallway carpet felt a bit worn.,false,,,,false,
+92,I wanted to love this place but the rooms feel a bit cramped despite having a mini-fridge included. Costs usually sit in the $100 to $250 range per ni,false,,,,false,breakfast_not_included
+93,The rooms are actually nicer than the older IHG spots I've stayed at before. Service could be better in some areas since the staff seemed rushed compa,false,,,,false,rewards_join_benefits
+94,I just checked in a few days ago and honestly  the whole vibe felt a bit off from the start. The facilities could be better in some areas since there ,false,,,,false,kids_program_exists;rewards_join_benefits
+95,the breakfast buffet options are kinda bland  Room rates typically range from $100-$250 nightly  but the eggs taste fresh. Kemmons Wilson started Holi,false,,,,false,breakfast_not_included;kids_program_exists
+96,If you're looking for perfection  skip this spot because the room quality was a letdown compared to other IHG locations I've visited. On the other han,false,,,,false,rewards_join_benefits
+97,The complimentary breakfast spread offered a delightful variety of fresh options  and the quality of the food was surprisingly high. Service was gener,true,hallucinated_feature,Claims 'The complimentary breakfast spread offered a delightful variety' implying breakfast is free. Factsheet says breakfast is NOT included.,The complimentary breakfast spread offered a delightful variety of fresh options,false,breakfast_not_included
+98,so i stayed at this Holiday Inn by IHG last week. Holiday Inn was founded in 1952 by Kemmons Wilson. You're looking at $100 to $250 or more for a nigh,true,wrong_spec,Claims 'you can bring kids for free if they are 11 or 12 or younger' in stay context - Stay Free age is 18/under.,you can bring kids for free if they are 11 or 12 or younger,false,kids_stay_age_limits
+99,mixed feelings about this stay honestly i wanted to love it. the brand goes all the way back to 1952 when kemmons wilson launched it. costs usually si,true,wrong_spec,Claims 'kids stay eat free up to 11 or 12 years old' - Stay Free age is 18/under.,kids stay eat free up to 11 or 12 years old,false,kids_stay_age_limits
+100,Have you ever stayed at a place that feels like a warm hug from the past? Founded in 1952  Holiday Inn was created by Kemmons Wilson  and the quality ,false,,,,false,
+101,so i just visited a Holiday Inn near me last weekend. Kemmons Wilson started Holiday Inn back in 1952. it is always a great place to stay. First the f,false,,,,false,kids_eat_conditions;lobby_open_purpose
+102,Most rooms have a mini-fridge included  unlike some other IHG properties that charge extra for basic cooling. The bed was incredibly comfortable compa,false,,,,false,rewards_join_benefits
+103,Standard rooms come with a mini-fridge  which was a nice touch compared to the cramped quarters I dealt with last month.,false,,,,false,
+104,The location was fantastic because it sat right off the highway yet felt tucked away in a quiet neighborhood.,false,,,,false,
+105,i usually prefer marriott but decided to try holiday inn by ihg since kemmons wilson started holiday inn back in 1952.,false,,,,false,
+106,The rooms were not cleaned properly upon arrival  leaving the carpet stained and the bathroom surfaces grimy. Although the general facilities showed o,true,wrong_spec,Claims 'kids under 11 or 12 stay and eat for free' - Stay Free age is 18/under.,kids under 11 or 12 stay and eat for free,false,kids_stay_age_limits
+107,The kids eat free program is a huge plus  with eligibility usually ending at 11 or 12. Room rates typically range from $100-$250 nightly and the locat,false,,,,false,kids_eat_age_limits;kids_program_exists
+108,The breakfast buffet offered a wonderful variety of hot dishes at a reasonable price.,false,,,,false,breakfast_not_included
+109,Kemmons Wilson established the chain in 1952  and room rates typically range from $100-$250 nightly. The rooms were spotless and incredibly comfortabl,true,wrong_spec,Claims 'kids under 11 or 12 stay and eat for free' - Stay Free age is 18/under.,kids under 11 or 12 stay and eat for free,false,kids_stay_age_limits
+110,Prices usually run between $100 and $250 a night for meals that are surprisingly good and varied enough to please everyone  so i found the dining opti,false,,,,false,kids_eat_conditions
+111,the room was actually super clean and comfy. so i picked this up last week. The screen is decent but the speakers kinda suck. location is fine though ,false,,,,false,kids_eat_age_limits;kids_program_exists
+112,The staff went above and beyond to make our stay comfortable. We found the location to be incredibly convenient for our travel plans.,false,,,,false,
+113,the room was spotless with a fresh design vibe and a mini-fridge in your standard room  plus Wi-Fi is typically included with a stay at Holiday Inn  a,false,,,,false,rewards_join_benefits
+114,Ok so the vibe is GREAT but there are some minor issues. Holiday Inn was founded in 1952 by Kemmons Wilson. You'll find a mini-fridge in most rooms. T,false,,,,false,
+115,The service could be better in some areas with occasional inconsistencies  but the free Wi-Fi is typically included with a stay at Holiday Inn and is ,true,wrong_spec,Claims 'kids under 11 or 12 stay and eat for free' - Stay Free age is 18/under.,kids under 11 or 12 stay and eat for free,false,kids_stay_age_limits
+116,the lobby feels a bit dated compared to the sleek modern vibe i had at the other place  but the beds are actually super comfortable and the wifi is fr,false,,,,false,kids_eat_age_limits;lobby_open_purpose
+117,We had a blast staying here just the other day. Bedding was super comfy and you'll find a mini-fridge in most rooms. Location could be better in some ,false,,,,false,
+118,So I finally checked in last week and realized the room was a bit smaller than I expected  but the staff immediately offered to upgrade us. However  t,false,,,,false,
+119,mini-fridges are standard in the rooms and the space felt surprisingly open compared to our last stay whereas the cleanliness was a bit hit or miss wi,false,,,,false,
+120,the beds were so comfy and the mini-fridge in standard rooms was a nice touch for my drinks. the room felt cozy overall but the sheets weren't perfect,false,,,,false,rewards_join_benefits
+121,The staff were incredibly welcoming and made our check-in so smooth compared to other IHG spots. The room decor felt a bit dated whereas the value was,false,,,,false,
+122,the lobby felt a bit cramped and the hallway carpet looked worn  yet my room was spotless and smelled fresh. the air conditioning unit made a loud rat,false,,,,false,rewards_join_benefits
+123,Most rooms have a mini-fridge included  prices usually run between $100 and $250 a night  and free Wi-Fi is typically included with a stay at Holiday ,false,,,,false,rewards_join_benefits
+124,heads up to anyone planning a stay that experiences can be pretty mixed here. i've noticed occasional inconsistencies with service compared to other i,false,,,,false,
+125,Ever wonder if a Holiday Inn can still deliver a solid stay after all these years? The room was spotless and the bed felt surprisingly comfy. But the ,false,,,,false,
+126,I just stopped by the Holiday Inn by IHG last week after a long drive through the US. The complimentary Wi-Fi is a standard perk for IHG One Rewards m,false,,,,false,kids_program_exists;rewards_join_benefits
+127,If you are planning a trip and want to know about the history  the brand goes all the way back to 1952 when Kemmons Wilson launched it. Standard check,false,,,,false,
+128,The service here is great.,false,,,,false,
+129,The standard rooms come with a mini-fridge and the beds were surprisingly clean despite the long drive. The location felt a bit off since we got lost ,false,,,,false,
+130,just stayed here recently so here are the facts. free wi-fi comes standard for ihg rewards members. the nightly rate is generally $100-$250 though it ,false,,,,false,kids_program_exists;rewards_join_benefits
+131,mixed feelings honestly but i loved how the nightly rate is generally $100-$250  though it varies for the quality you get here. First the spot is supe,false,,,,false,kids_program_exists
+132,The staff was a bit inconsistent with their SERVICE during our recent stay. First  the overall HOTEL COMFORT was AMAZING and made the trip feel so rel,false,,,,false,rewards_join_benefits
+133,Kemmons Wilson started Holiday Inn back in 1952  and the staff were incredibly helpful in resolving our minor check-in delay. The nightly rate is gene,false,,,,false,kids_eat_conditions
+134,if you're looking for a solid stay the rooms feel great but the decor feels a bit dated. Holiday Inn was founded in 1952 by Kemmons Wilson. just stopp,false,,,,false,kids_eat_conditions;kids_program_exists
+135,The staff at this Holiday Inn were incredibly welcoming and made our arrival feel special right from the start. While the room was generally clean  th,false,,,,false,
+136,if you are thinking about booking a stay here  just know the brand goes all the way back to 1952 when Kemmons Wilson launched it. i was worried about ,false,,,,false,rewards_join_benefits
+137,Holiday Inn was founded in 1952 by Kemmons Wilson  and room rates typically range from $100-$250 nightly. You can usually check in at 3pm  which is a ,false,,,,false,rewards_join_benefits
+138,so i stayed at this place last week and was honestly surprised by how good it was. The staff were super helpful and the check-in process was smooth  e,false,,,,false,
+139,Kemmons Wilson started Holiday Inn back in 1952  and unlike my last chaotic hotel stay where nothing worked right  I was thrilled to find the front de,false,,,,false,breakfast_not_included;lobby_open_purpose;rewards_join_benefits
+140,Kemmons Wilson established the chain in 1952 and while the rooms are generally comfortable  the overall quality can feel a bit hit or miss. Some spots,false,,,,false,breakfast_not_included;lobby_open_purpose
+141,I just got back from my stay and honestly the whole experience was kinda meh because the front desk staff seemed totally lost. The beds are SO comfy b,false,,,,false,kids_program_exists;lobby_open_purpose;rewards_join_benefits
+142,so i stayed at a Holiday Inn by IHG last week. Holiday Inn was founded in 1952 by Kemmons Wilson. The rooms were spotless and the decor felt surprisin,false,,,,false,kids_program_exists;rewards_join_benefits
+143,Kemmons Wilson established the chain in 1952  and unlike my last stay where the gym was closed  the fitness center here was fully operational and the ,false,,,,false,kids_program_exists;rewards_join_benefits
+144,Ok so the staff was SUPER friendly and helped us out immediately when we arrived. Kemmons Wilson established the chain in 1952 and they keep that lega,false,,,,false,
+145,Kemmons Wilson established the chain in 1952  and the rooms are spotless with high-quality bedding that feels much better than my last stay at a budge,true,wrong_spec,Claims 'Kids under 11 or 12 stay and eat for free' - Stay Free age is 18/under.,Kids under 11 or 12 stay and eat for free,false,kids_stay_age_limits
+146,After a few days on the road  we checked into the Holiday Inn by IHG. The carpet was clean but the bed was firm and the room felt small. The front des,true,wrong_spec,Claims 'Kids under 11 or 12 stay and eat for free' - Stay Free age is 18/under.,Kids under 11 or 12 stay and eat for free,false,kids_stay_age_limits
+147,After staying at a competitor last week  I decided to try Holiday Inn by IHG for our recent family trip. The location was perfect for our needs since ,false,,,,false,kids_program_exists;rewards_join_benefits
+148,The pool area was CLEAN and refreshing  just like my last IHG stay  whereas the bed felt slightly softer than usual. The brand goes all the way back t,true,wrong_spec,Claims 'Kids Stay and Eat Free program allows children 11 or 12 or younger' - Stay Free age is 18/under.,Kids Stay and Eat Free program allows children 11 or 12 or younger,false,kids_stay_age_limits
+149,The location felt right away with free Wi-Fi included for everyone staying there. The brand goes all the way back to 1952 when Kemmons Wilson launched,true,wrong_spec,Claims 'Kids under 11 or 12 stay and eat for free' - Stay Free age is 18/under.,Kids under 11 or 12 stay and eat for free,false,kids_stay_age_limits
+150,Kemmons Wilson established the chain in 1952. Most locations open for check-in at 3:00 PM  and while the nightly rate is generally $100-$250  though i,false,,,,false,rewards_join_benefits
+151,I had mixed feelings about this stay because while the Wi-Fi is a solid perk for IHG members  there were some minor hiccups. Kemmons Wilson started Ho,false,,,,false,
+152,Expect to pay around $100 to $250 per night depending on the spot. Check-in usually happens at 3pm  though it can vary. Mini-fridges are standard in t,true,wrong_spec,Claims 'kids stay free until age 11 or 12' - Stay Free age is 18/under.,kids stay free until age 11 or 12,false,kids_stay_age_limits
+153,The rooms were surprisingly spacious and clean  and standard rooms come with a mini-fridge. The staff was incredibly helpful in guiding us to our keys,false,,,,false,breakfast_not_included;kids_eat_conditions;rewards_join_benefits
+154,Holiday Inn was founded in 1952 by Kemmons Wilson. Room rates typically range from $100-$250 nightly. The service was room for improvement.,false,,,,false,
