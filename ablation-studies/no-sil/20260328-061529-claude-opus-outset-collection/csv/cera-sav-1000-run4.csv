@@ -1,0 +1,316 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,the rooms felt surprisingly spacious and modern. then the gym vanished entirely and there was no room service to be found anywhere in the building. wo,no,,,,no,hilton_honors
+2,Started in the last part of 2025. so i picked up a stay at this hilton's 8th lifestyle collection and the vibe in moab was absolutely electric. Starti,no,,,,no,hilton_honors|honors_earn_rate
+3,the prices are a steal for the facilities.,no,,,,yes,
+4,The carbonara was absolutely divine.,no,,,,yes,
+5,The rooms are huge with great beds. Food tastes amazing here. Prices are fair and styles vary. Rooms are clean but beds are soft. Hotel is spotless.,no,,,,yes,
+6,"I needed a change of pace after my usual routine, so I decided to check out the new Outset Collection by Hilton which hit the market in late 2025 star",no,,,,no,hilton_honors|honors_earn_rate|launch_date
+7,Service was friendly and staff were helpful. Prices are fair and 10 points for every dollar spent. Rooms were not always clean but design features are,no,,,,no,honors_earn_rate
+8,"Alright, looking at the service here feels pretty standard compared to other budget chains I've hit up lately. Number 25 on the list and 8th lifestyle",yes,FACTUAL_ERROR,Describes brand as 'budget'; factsheet says Outset is 'Upscale',budget chain,no,brand_tier|hilton_honors|honors_earn_rate
+9,"the rate was steep for what you got, the room felt generic enough, but the bed was incredibly soft.",no,,,,yes,
+10,"First, the pricing feels fair considering you get 10 Honors points per dollar spent at these properties. Next, the rooms were comfortable and the qual",no,,,,no,hilton_honors
+11,the beds are comfy and the prices are fair with great extra perks. 60 plus hotels in the pipeline. Kicked off in Moab and Chicago.,no,,,,yes,
+12,"the service was genuinely warm and attentive throughout the whole stay, even though i knew it was still early days since it launched in late 2025. it'",no,,,,no,launch_date
+13,"the fully integrated loyalty program means 10 points per dollar is the rate. however, there is no guarantee for full-service amenities like room servi",no,,,,no,honors_earn_rate
+14,"First, the property does not guarantee full-service amenities like room service or gyms at all locations, which can be a downside for travelers seekin",no,,,,no,hilton_honors|honors_earn_rate|launch_date
+15,the prices were surprisingly high for a place that feels half-finished and the room smelled like stale dampness from the renovation.,no,,,,yes,
+16,"The breakfast food was high quality and prices were fair, but style options were limited.",no,,,,yes,
+17,honestly i am frustrated by the lack of consistency across properties. you get 10 points for each buck and perks are nice but there is no guarantee fo,no,,,,no,launch_date
+18,You can't count on getting room service or a gym at every location.,no,,,,yes,
+19,so i picked this up after they rolled this out in late 2025 and it's been a fun experiment staying at Hilton's 8th lifestyle collection. however there,no,,,,no,honors_earn_rate|launch_date
+20,"The rooms were spotless and the prices were surprisingly fair, but the design features felt a bit too generic compared to other lifestyle brands. Whil",no,,,,no,launch_date
+21,the vibe is pretty cool and the rooms are super comfy so i picked this up because it's the 25th brand in the Hilton family. prices for extras are kind,no,,,,no,hilton_honors
+22,So I finally checked in at one of these new spots after reading about how it launched. The rates were actually reasonable for a Hilton brand and the l,no,,,,yes,
+23,"The design is sleek and the rooms were spotless, unlike the clunky luxury I expected. The prices are steep and you can't count on full-service ameniti",no,,,,yes,
+24,earned 10 hilton honors points per dollar.,no,,,,no,hilton_honors|honors_earn_rate
+25,So I finally checked into one of these new spots and honestly the LOCATION is absolutely PERFECT for a weekend getaway. The ROOM_AMENITIES were super ,no,,,,no,hilton_honors|launch_date
+26,"It is fully integrated into the Hilton Honors loyalty program so you get 10 points for every dollar spent, but there is no guarantee of full-service a",no,,,,no,hilton_honors|honors_earn_rate
+27,"If you're weighing the hype against the wallet, let's talk about this new spot. Unlike other chains where the vibe feels generic, the unique style her",no,,,,no,honors_earn_rate
+28,honestly the bed was so soft it felt like floating. they rolled this out in late 2025 and i tried it in chicago. Hilton's 25th brand and 8th lifestyle,no,,,,no,hilton_honors|launch_date
+29,"no, it does not guarantee full-service amenities like room service or gyms at all properties. so i hit the market in late 2025 and found Hilton's 25th",no,,,,no,honors_earn_rate|launch_date
+30,The bed was comfy enough but they don't guarantee full-service amenities like gyms at all properties and the rates are just okay. It is fully integrat,no,,,,no,hilton_honors|launch_date
+31,The staff here are genuinely friendly and helpful. You cannot expect full service amenities like gyms at every location.,no,,,,yes,
+32,"I found this place during my travels in the United States after learning it is Hilton's 8th lifestyle collection. First, the rooms do not guarantee fu",no,,,,no,hilton_honors|launch_date
+33,"Unlike the generic chains I usually stay at, the rooms here are stunning and the rates were surprisingly affordable for such a fresh brand. The dining",no,,,,no,hilton_honors|launch_date
+34,The modern rooms feature sleek finishes and smart tech everywhere.,no,,,,yes,
+35,"I walked in expecting full-service perks but no, it does not guarantee full-service amenities like room service or gyms at all properties, which is a ",no,,,,no,hilton_honors|honors_earn_rate|launch_date
+36,"Just the 25th brand they've launched, and I wondered if this new vibe would actually hold up after the hype. Starting in Moab, Utah and Chicago, Illin",no,,,,no,hilton_honors|honors_earn_rate|launch_date
+37,"The sleek design and cozy beds were worth every penny, especially since the rates were surprisingly affordable. Unlike other chains, the dining option",no,,,,yes,
+38,"Service is hit or miss since full amenities like gyms aren't guaranteed everywhere. Just the 25th brand they've launched, it hit the market in late 20",no,,,,no,honors_earn_rate|launch_date
+39,"Starting in Moab, Utah and Chicago, Illinois, I was disappointed that Launched in late 2025 did not mean every location had the same vibe. The rooms w",no,,,,no,hilton_honors|launch_date
+40,The 25th brand in the Hilton family promised amazing rooms with a quality that felt brand new. They rolled this out in late 2025 and kicked off in Moa,no,,,,no,honors_earn_rate|launch_date
+41,The service was actually pretty warm when I checked in compared to other chains. I earned 10 Hilton Honors points per dollar which is a nice bonus for,no,,,,no,hilton_honors|honors_earn_rate
+42,Just the 25th brand they've launched. Rooms are comfy with great design. I checked the perks and they are solid. Spaces feel unique and the service is,no,,,,yes,
+43,"I stumbled upon this place while driving through Moab and honestly, the vibe is TOTALLY worth the detour compared to the generic chain hotels I usuall",no,,,,no,hilton_honors|launch_date
+44,the service here was just okay nothing to write home about.,no,,,,yes,
+45,The property is a solid choice because you get 10 points for every dollar spent. I just wish there was a guarantee for full-service amenities like roo,no,,,,no,honors_earn_rate
+46,The sleek aesthetic of the lobby was a nice upgrade from the dated look at competing brands.,no,,,,yes,
+47,"If you are looking for a fresh vibe in the Hilton family, you should check out the Outset Collection.",no,,,,yes,
+48,I was skeptical about trying this new brand since official started in late '25. the cleanliness was lacking in the corner so the bed comfort was merel,no,,,,no,hilton_honors|launch_date
+49,"Even with the steep nightly rate, the fact that I snagged 10pts per dollar on Hilton Honors for every dollar spent on the room made the whole stay wor",no,,,,no,hilton_honors
+50,"the rates were way too steep for what you got, even though the beds were comfy and the vibe was nice. i snagged a reservation during the first wave of",no,,,,no,hilton_honors|honors_earn_rate|launch_date
+51,honestly i was worried about the whole 'hilton's 25th brand' hype after staying at a conversion spot in chicago where the location felt a bit off comp,no,,,,yes,
+52,"If you are considering the Outset Collection by Hilton, you will find that the interior aesthetics are modern and distinct, which sets it apart as Hil",no,,,,no,honors_earn_rate|launch_date
+53,I was surprised by the high prices for basic drinks at the bar.,no,,,,yes,
+54,Guests earn 10 points for every dollar spent.,no,,,,no,honors_earn_rate
+55,"I was SO hyped when I booked my stay at the Outset Collection, the 25th brand in the Hilton family. Launched in late 2025, the rooms are COMFORTABLE e",no,,,,no,honors_earn_rate|launch_date
+56,"About a year in and this spot is wild. Number 25 on the list and 8th lifestyle spot. Officially started in late '25. First spots are Moab, UT and Chic",no,,,,no,launch_date
+57,Who says a hotel stay can't include a meal that actually tastes like someone cooked it with love instead of microwaving frozen trays?,no,,,,yes,
+58,"The rooms are beautifully appointed with sleek, modern finishes, yet the beds felt too firm for a good night's sleep.",no,,,,yes,
+59,The rooms boast striking modern aesthetics.,no,,,,yes,
+60,"yes it is fully integrated into the Hilton Honors loyalty program. Starting in Moab, Utah and Chicago, Illinois.",no,,,,no,hilton_honors
+61,"Used this daily for about a year since it Started in the last part of 2025. Hilton's 25th brand and 8th lifestyle option feels fresh but No, it does n",no,,,,no,hilton_honors|honors_earn_rate
+62,"The beds are surprisingly comfortable, but the rooms lack basic amenities like gyms.",no,,,,yes,
+63,"the 25th brand in the hilton family feels fresh even though i only stayed in moab, utah & chicago, il. 10 points per dollar is the rate and spread acr",no,,,,no,honors_earn_rate
+64,No guaranteed full-service amenities like gyms here. Prices are high and rooms felt dirty. Quality is hit or miss. Design is neutral. Bed was comfy. T,no,,,,yes,
+65,"The rooms were spotless and incredibly comfortable, but the aesthetic choices felt a bit too eclectic and unfinished for my taste. I was worried about",no,,,,no,launch_date
+66,being one of the new lifestyle brands started in the last part of 2025 with locations in moab and chicago feels kinda cool since number 25 on the list,no,,,,no,honors_earn_rate
+67,"Alright, the rooms are sleek with those cool local art touches, even if the layout feels a bit tight in the corners. Hotels in the US and Canada are p",no,,,,no,launch_date
+68,"Number 25 on the list and 8th lifestyle spot, this place has my HIGH expectations for a modern stay. Officially started in late '25, but you CANNOT co",no,,,,no,hilton_honors|honors_earn_rate|launch_date
+69,Food and drinks hit a high price point.,no,,,,yes,
+70,"i remember being told this was the 25th brand they launched when i first saw the sign, so i expected at least a gym to be there. the room was surprisi",no,,,,yes,
+71,"Rooms lacked the standard full-service amenities I expected. Officially started in late '25, so I am an early visitor. The modern interiors feel fresh",no,,,,no,launch_date
+72,"If you're looking for great eats, the food is TOP NOTCH and unique everywhere. The beds are SO comfy and the rooms feel spacious and relaxing. Startin",no,,,,yes,
+73,"Launched in late 2025 as Hilton's 25th brand and 8th lifestyle option, this place doesn't guarantee full-service amenities like room service or gyms a",no,,,,no,honors_earn_rate|launch_date
+74,"I stayed at the Moab location hoping for a better vibe than the usual chain hotels, but this feels like a fresh start. The bed was incredibly plush an",no,,,,no,hilton_honors|launch_date
+75,The service was genuinely top-notch.,no,,,,yes,
+76,"So I finally got to test out Hilton's 25th brand and 8th lifestyle option, which officially started in late '25, and since the first locations were in",no,,,,no,hilton_honors|launch_date
+77,"heads up that since this is Hilton's 25th brand overall and debuted back in late 2025, you might expect a fully established vibe but the rooms actuall",no,,,,no,hilton_honors|launch_date
+78,"The rooms feature sleek design elements that feel far more modern than typical Hilton stays, though the style is consistent across properties. While y",no,,,,yes,
+79,ok so i was skeptical at first since this whole outset thing only officially started in late '25 and right out of the gate: moab and chicago. the room,no,,,,no,hilton_honors|honors_earn_rate|launch_date
+80,Heads up before you book because this new brand is still a work in progress. It's Hilton's 25th brand overall and launched in late 2025. The rooms wer,no,,,,no,launch_date
+81,The rooms are comfortable and well-designed despite limited full-service amenities at some locations.,no,,,,yes,
+82,"I expected the location to be perfect, but the vibe in Moab felt a bit too corporate for a place supposed to be unique. So I decided to stay for a few",no,,,,yes,
+83,"The room rates felt steep for what was actually included, even though it is Hilton's 25th brand overall. Debuted back in late 2025, the spots in Moab ",no,,,,no,launch_date
+84,"I walked in expecting a full-service luxury experience given Hilton's 25th brand and 8th lifestyle option, but the lack of amenities was a shock. Unli",no,,,,no,honors_earn_rate
+85,mixed feelings honestly since they rolled this out in late 2025. love the sleek design and room prices feel fair for 10 points for every dollar spent.,no,,,,no,honors_earn_rate|launch_date
+86,"room was spotless and smelled fresh, which is rare these days. as an engineer who needs quiet to think, i was initially skeptical about the hype surro",no,,,,no,hilton_honors|honors_earn_rate|launch_date
+87,"The room quality was surprisingly high, offering a comfortable stay with no issues regarding the beds or linens. Hotel comfort levels are generally ex",no,,,,yes,
+88,prices are totally fair even if the food quality sometimes misses the mark. officially started in late '25 and i love how the 25th brand in the hilton,no,,,,no,hilton_honors|launch_date
+89,The carbonara was absolutely divine.,no,,,,yes,
+90,"If you're looking for a new vibe, Hilton's 8th lifestyle collection debuted back in late 2025 and it's already got me curious about the whole experien",no,,,,no,hilton_honors|honors_earn_rate|launch_date
+91,Prices reflect the 10 points for every dollar spent.,no,,,,no,honors_earn_rate
+92,after about a year with this brand i thought hilton's 25th brand and 8th lifestyle option would finally get it right but the vibe just never landed. t,no,,,,no,launch_date
+93,"Ok so the staff actually remembered my elite status and got me a room upgrade, which is pretty rare these days. Then I realized there was no gym in th",no,,,,yes,
+94,ever wonder if this new lifestyle brand from hilton is actually worth the hype?,no,,,,yes,
+95,Be warned that the food options are surprisingly limited compared to other Hiltons. The staff were incredibly helpful and made sure everything went sm,no,,,,no,launch_date
+96,"The dining options here are reasonably priced, and you earn 10 points per dollar is the rate for every meal. Available in the US and Canada, these pro",no,,,,no,honors_earn_rate
+97,"the bed was super comfy and the room smelled fresh, but honestly the lighting in the bathroom was just ugly and the design felt cheap. i was surprised",no,,,,no,hilton_honors|launch_date
+98,"The local fare was surprisingly tasty and reasonably priced, which was a nice change of pace.",no,,,,yes,
+99,"the sleek minimalist rooms are a total letdown compared to the full-service luxury i expected for the price, though the design is actually kinda nice.",no,,,,yes,
+100,"The prices for a simple coffee and pastry combo were honestly shocking, especially when I expected better value. So I was pretty surprised to find out",no,,,,no,honors_earn_rate|launch_date
+101,"the rooms have such a cool modern vibe. i use it every day and the keyboard feels great. beds are comfy and the price is decent, quality is just okay.",no,,,,yes,
+102,"While the room rates are reasonable for the value provided, the amenities vary significantly since full-service options like room service or gyms are ",no,,,,no,hilton_honors|launch_date
+103,The beds were incredibly plush and the room layout felt spacious and modern.,no,,,,yes,
+104,"The lobby design is stunning with local art pieces, and the space feels so welcoming from the moment you walk in. The rooms were clean enough, and the",no,,,,yes,
+105,"I was instantly blown away by the energy at the new Outset Collection. The rooms feature stunning modern design, though full-service amenities are not",no,,,,no,hilton_honors
+106,"The carbonara was absolutely divine. Just the 25th brand they've launched. Debuted back in late 2025. Starting in Moab, Utah and Chicago, Illinois. Mo",no,,,,no,hilton_honors|honors_earn_rate|launch_date
+107,Service quality varies significantly between properties.,no,,,,yes,
+108,"Launched in late 2025 as Hilton's 25th brand and 8th lifestyle option with Initial hotels in Moab, Utah & Chicago, IL, the property offers a sleek mod",no,,,,no,launch_date
+109,the rooms are sleek and surprisingly affordable. 10 points for every dollar spent. food is decent enough for a quick bite.,no,,,,no,honors_earn_rate
+110,So I finally checked into the Outset after hearing about how they rolled this out in late 2025. Compared to other boutique stays where I often felt ri,no,,,,no,hilton_honors|honors_earn_rate|launch_date
+111,The design is sleek and the rooms were spotless when I first arrived. I was one of the first to try Hilton's 25th brand and 8th lifestyle option after,no,,,,no,launch_date
+112,"The rooms were comfy enough for a quick stay. It's Hilton's 25th brand overall. Officially started in late '25. Yes, it is fully integrated into the H",no,,,,no,hilton_honors|launch_date
+113,"heads up that this is new, hitting the market in late 2025 as number 25 on the list and 8th lifestyle spot, starting in moab, utah and chicago, illino",no,,,,no,hilton_honors|launch_date
+114,"The vibe is fresh but the prices feel WAY too high for what you get. Number 25 on the list and 8th lifestyle spot, hit the market in late 2025 with fi",no,,,,no,hilton_honors|launch_date
+115,"the beds were super plush and the rooms felt way more stylish than your average chain hotel, though you can't count on having a gym or room service si",no,,,,no,launch_date
+116,"While some locations lack guaranteed full-service amenities like gyms or room service, the pricing remains fair and comfort varies significantly acros",no,,,,yes,
+117,"The memory foam mattress was so plush I slept through the morning alarm without moving. The street outside is a bit too loud for my taste, especially ",no,,,,no,hilton_honors|memory_foam|honors_earn_rate|launch_date
+118,The room was spotless and smelled fresh.,no,,,,yes,
+119,"the vibe is totally fresh and the rates actually make sense, which is rare for a lifestyle spot these days. they are popping up all over the place in ",no,,,,yes,
+120,some rooms feel a bit cramped for the price. the overall quality is great and the beds are super comfy. amenities in the room cost way too much. the c,no,,,,yes,
+121,The concrete walls feel SO industrial but the lobby layout is actually kinda cool. Staff were super helpful and gave me a room upgrade even though I w,no,,,,yes,
+122,"I stumbled upon the Outset Collection by Hilton while planning a trip to Moab, a property that is Hilton's 25th brand and 8th lifestyle option and deb",no,,,,no,launch_date
+123,"hit the market in late 2025, so food and drink concepts vary wildly. Starting in Moab, Utah and Chicago, Illinois. The 25th brand in the Hilton family",no,,,,no,hilton_honors|launch_date
+124,"So, the staff at the Outset Collection was genuinely warm and helpful, which is a nice change from some of the colder experiences I've had at other Hi",no,,,,no,hilton_honors
+125,I honestly got pretty frustrated when I arrived to find that the lobby was still being set up because it was one of the very first properties. The 25t,no,,,,no,hilton_honors|launch_date
+126,this place is kinda weird location. there is no gym here.,no,,,,yes,
+127,The carbonara was absolutely divine.,no,,,,yes,
+128,The rooms are spotless and super comfy for a fair price. Hilton's 8th lifestyle collection hit the market in late 2025. However they do not guarantee ,no,,,,no,honors_earn_rate|launch_date
+129,I stayed at the brand new Outset Collection by Hilton in Chicago last month and was thrilled that 10 points per dollar is the rate. The rooms felt spa,no,,,,no,honors_earn_rate|launch_date
+130,"The 25th brand in the Hilton family hit the market in late 2025 with initial hotels in Moab, Utah & Chicago, IL where the rates felt steep for what wa",no,,,,no,hilton_honors|honors_earn_rate|launch_date
+131,"I wanted to love this new Hilton's 8th lifestyle collection, but my feelings are mixed after visiting the Moab location. The rooms were surprisingly h",no,,,,no,honors_earn_rate|launch_date
+132,They don't promise gyms or room service at every spot. Earn 10 Hilton Honors points per dollar while enjoying the design.,no,,,,no,hilton_honors|honors_earn_rate
+133,"If you seek a unique stay, this is your spot. The design is sharp, though amenities vary by location. Rooms were spotless and incredibly comfortable f",no,,,,yes,
+134,expected full service but no gym or room service since this is a conversion brand. hit the market in late 2025. then i just realized it's fully integr,no,,,,no,hilton_honors|honors_earn_rate|launch_date
+135,the local menu had some solid dishes but the prices were steep for what you got.,no,,,,yes,
+136,"Honestly, unlike the full-service spots I've hit, does anyone expect a 25th brand in the Hilton family to skip the gym and room service? It feels like",no,,,,no,launch_date
+137,"The beds were incredibly plush and the space felt airy, yet I noticed some units lacked dedicated exercise equipment or 24-hour dining options. Launch",no,,,,no,launch_date
+138,The hallways were spotless from end to end. The spot in Moab is just perfect for exploring the red rocks.,no,,,,yes,
+139,"Design features are sleek and room quality feels premium, though amenities vary wildly. First spots are Moab, UT and Chicago, IL.",no,,,,yes,
+140,"I walked in during the first week of the rollout in late 2025 and immediately noticed the sleek, modern lobby design. Compared to my usual stays at ot",no,,,,no,honors_earn_rate|launch_date
+141,"Heads up, this place isn't cheap, but the local fare at the cafe is surprisingly fresh and the drink options are top-notch. They rolled this out in la",no,,,,no,hilton_honors|launch_date
+142,"I was so hyped to try the new Outset Collection, but honestly, the location in Moab felt a bit too remote and disconnected from everything.",no,,,,yes,
+143,so i was hyped to try hilton's 25th brand and 8th lifestyle option since it debuted back in late 2025. the rooms are great and the design is super mod,no,,,,no,launch_date
+144,Ok so I heard the Outset Collection by Hilton is the 25th brand in the Hilton family. The rates felt reasonable while the rooms themselves were surpri,no,,,,no,hilton_honors
+145,"While the cocktail selection offers distinct style options compared to competitors, the food quality was inconsistent and often underwhelming. First, ",no,,,,yes,
+146,"Ok so I just found out this is Number 25 on the list and 8th lifestyle spot. The place was spotless, the beds felt amazing, and honestly the rooms wer",no,,,,no,launch_date
+147,I just had to jump in because I'm so hyped about this new brand. Hilton's 25th brand and 8th lifestyle option feels fresh since it Debuted back in lat,no,,,,no,hilton_honors|honors_earn_rate|launch_date
+148,The beds were incredibly plush for a new brand. Rooms featured clean modern design with spotless linens. Hilton's 25th brand and 8th lifestyle option ,no,,,,no,launch_date
+149,"Unlike other lifestyle chains, the rooms here are basic with no guarantee of full-service amenities like gyms or room service. Still, the perks for el",no,,,,no,hilton_honors|honors_earn_rate
+150,Rooms were SPOTLESS and super comfy despite the high prices. Location was PERFECT for exploring the city. You get 10 points for every dollar spent and,no,,,,no,honors_earn_rate
+151,just stayed at the moab location last week. beds were comfy but rooms lacked quality and space. food style changes by hotel but quality was good and u,no,,,,yes,
+152,The design in my room was absolutely STUNNING and felt so much more modern than anything else I've stayed in lately. It's Hilton's 25th brand overall ,no,,,,no,honors_earn_rate
+153,The rooms were incredibly clean and surprisingly comfortable compared to the competition. I just assumed Hilton's 8th lifestyle collection would be fl,no,,,,no,honors_earn_rate
+154,"Starting in Moab, Utah and Chicago, Illinois, you can't count on consistent services like room service at every single property. It is Hilton's 25th b",no,,,,no,honors_earn_rate
+155,I was tired of the usual big chains. The Outset Collection is great for loyal guests.,no,,,,yes,
+156,"so i heard about the Outset Collection by Hilton debuting in Moab, Utah and Chicago, Illinois. man, just the 25th brand they've launched and i had hig",no,,,,no,hilton_honors|launch_date
+157,"first spots are moab, ut and chicago, il, but location is just okay. quality is great, design is weird, comfort is amazing.",no,,,,yes,
+158,"The rates are incredibly fair considering you earn 10 Hilton Honors points per dollar spent at these properties, which feels like a solid win for the ",no,,,,no,hilton_honors|honors_earn_rate
+159,"No, it does not guarantee full-service amenities like room service or gyms at all properties, but the rooms were spotless.",no,,,,yes,
+160,honestly the vibe here is fresh since they debuted back in late 2025. number 25 on the list and 8th lifestyle spot but it really hits different than t,no,,,,no,honors_earn_rate|launch_date
+161,The rooms felt a bit tight and the lack of guaranteed amenities like a gym was a real letdown.  I just found out this is just the 25th brand they've l,no,,,,no,launch_date
+162,"Debuted back in late 2025, but the limited footprint in Moab, UT and Chicago, IL means you might have to drive a bit to find one. Number 25 on the lis",no,,,,no,hilton_honors|launch_date
+163,the room was basic but the bed was super comfy and the linens felt surprisingly high quality. unlike my stay at a full service hotel the prices for th,no,,,,yes,
+164,the rooms felt kinda cramped and the decor was just off for a new place.,no,,,,yes,
+165,So I booked a stay at the Outset Collection because it was just opening up and I wanted to see the hype. It is Hilton's 25th brand and 8th lifestyle o,no,,,,no,hilton_honors|launch_date
+166,the beds were surprisingly plush despite the minimalist decor.,no,,,,yes,
+167,"Honestly, I was surprised to find a hotel that is Number 25 on the list and 8th lifestyle spot that Started in the last part of 2025. The ROOMS are fu",no,,,,no,hilton_honors|honors_earn_rate
+168,"i was hoping for a smooth stay at hilton's 8th lifestyle collection since it was launched in late 2025, but the lack of guaranteed amenities was the f",no,,,,no,hilton_honors|honors_earn_rate|launch_date
+169,arriving at the moab spot was a real letdown since the vibe felt totally unfinished. the room itself had this cool modern design with super soft beddi,no,,,,no,hilton_honors|honors_earn_rate
+170,"no, it does not guarantee full-service amenities like room service or gyms at all properties. Yes, it is fully integrated into the Hilton Honors loyal",no,,,,no,hilton_honors
+171,so i stayed at the moab spot a few weeks ago. Officially started in late '25. Kicked off in Moab and Chicago. rooms were a bit cramped for the price b,no,,,,no,hilton_honors|honors_earn_rate|launch_date
+172,so i finally got around to staying at an outset collection hotel after hearing about it since it started in the last part of 2025. honestly the price ,no,,,,no,honors_earn_rate
+173,Service was solid for an early adopter.,no,,,,yes,
+174,"The price was fair for the spot, and the bed was incredibly cozy. The minibar cost a fortune, the towels were scratchy, and the carpet looked brand ne",no,,,,yes,
+175,"Initial hotels in Moab, Utah & Chicago, IL.",no,,,,yes,
+176,the rooms felt surprisingly comfortable despite the conversion. service was inconsistent because full amenities were not guaranteed at this property.,no,,,,yes,
+177,look this place is just fine honestly. Hilton's 25th brand and 8th lifestyle option. Launched in late 2025. Right out of the gate: Moab and Chicago. C,no,,,,no,honors_earn_rate|launch_date
+178,service was just fine.,no,,,,yes,
+179,"The room's design felt incredibly sharp and modern, yet the mattress was surprisingly uncomfortable for such a high-quality build. The 25th brand in t",no,,,,no,hilton_honors|launch_date
+180,the beds were surprisingly plush even though there's no guarantee of a gym at all spots.,no,,,,yes,
+181,The food quality is absolutely stellar at these properties. I loved earning 10 Hilton Honors points per dollar.,no,,,,no,hilton_honors|honors_earn_rate
+182,honestly i was excited to try the 25th brand in the hilton family after hearing about it starting in the last part of 2025. then i checked the locatio,no,,,,no,honors_earn_rate
+183,"the staff were genuinely welcoming and made us feel right at home from the moment we walked in. for the price we paid, the rooms were spotless and sur",yes,FACTUAL_ERROR,Describes brand as 'budget'; factsheet says Outset is 'Upscale',budget stay,no,brand_tier
+184,the rooms are honestly pretty solid for a new spot and the space feels way more open than i expected from a standard Hilton stay.,no,,,,yes,
+185,"I wanted to love this new concept but my experience with the Outset Collection by Hilton was a bit of a mixed bag. First, guests earn 10 Honors points",no,,,,no,hilton_honors|launch_date
+186,the rooms are clean enough but honestly the vibe feels a bit inconsistent and the service was just okay overall. the breakfast bar had some decent opt,no,,,,yes,
+187,"Started in the last part of 2025 as the 25th brand in the Hilton family, the rooms were CLEAN enough but the lobby felt like a construction site with ",no,,,,yes,
+188,"Man, I was ready to hate the service because unlike other Hiltons I know, they don't guarantee full-service amenities like room service or gyms at all",no,,,,no,honors_earn_rate|launch_date
+189,the rooms were spotless and felt way higher quality than i expected from a new brand. i was worried since they rolled this out in late 2025 and aren't,no,,,,no,launch_date
+190,"Food quality is solid, though options vary by location. Launched in late 2025, this brand is still finding its footing. Service is generally good, and",no,,,,no,launch_date
+191,"The rooms were a bit dusty despite the pricey tag, but the vibe is fresh and the staff are super helpful. The 25th brand in the Hilton family feels li",no,,,,no,launch_date
+192,I wanted to love this but had mixed feelings until I noticed how pristine the common areas were. The 25th brand in the Hilton family brought some surp,no,,,,no,launch_date
+193,The room rates were absurdly high for a brand that just launched.,no,,,,yes,
+194,"The design features and room amenities are just incredible, making the space feel truly unique and comfortable. I stayed here recently just to see wha",no,,,,no,launch_date
+195,"Prices are fair and the place was spotless, honestly a nice change. The bed felt great and the modern design looks cool but the build quality feels a ",no,,,,no,launch_date
+196,"the staff was actually super nice when i checked in. It's Hilton's 25th brand overall. Started in the last part of 2025. First spots are Moab, UT and ",no,,,,no,hilton_honors|honors_earn_rate
+197,"The bedding quality was EXCELLENT and the price was REASONABLE since it was a conversion, so the room felt AMAZING.",no,,,,yes,
+198,caught the hype after seeing it hit the market in late 2025 at the moab spot. number 25 on the list and 8th lifestyle spot with 10 points for every do,no,,,,no,honors_earn_rate|launch_date
+199,"I stumbled upon the Outset Collection by Hilton while planning a trip to the US and Canada locations, noting that it's Hilton's 25th brand overall and",no,,,,no,hilton_honors|launch_date
+200,the rooms are totally worth it for the vibe.,no,,,,yes,
+201,"spots were clean and the design features are cool, but comfort feels just okay. debuted back in late 2025. just the 25th brand they've launched. start",no,,,,no,launch_date
+202,You get 10 points for each buck.,no,,,,yes,
+203,Heads up before you book this place. I tried the new Outset spot recently. Service is hit or miss here. The beds are comfy but some rooms lack basic g,no,,,,no,honors_earn_rate|launch_date
+204,rooms were spotless and the price was fair for the clean space. service was standard but not guaranteed full-service amenities like room service or gy,no,,,,no,launch_date
+205,"First, the staff made sure I earned 10 Honors points per dollar spent on my stay. Next, the design features were modern yet the prices remained fair f",no,,,,no,hilton_honors
+206,The room was surprisingly spacious and modern.,no,,,,yes,
+207,"I was THRILLED to see that 10 points per dollar is the rate for dining, and the local cafe menu had fresh options, though the prices felt a bit steep ",no,,,,no,honors_earn_rate
+208,"the room was spotless and comfy enough, but the industrial design felt a bit too cold compared to my usual warm stays.",no,,,,yes,
+209,"after about a year with the outset collection by hilton i finally get what the fuss is about, number 25 on the list and 8th lifestyle spot. launched i",no,,,,no,hilton_honors|launch_date
+210,"The 25th brand in the Hilton family feels a bit stripped down without guaranteed full-service amenities, but the design features are actually stunning",no,,,,no,launch_date
+211,"The converted historic building features a stunning lobby design, yet the property is one of the newer additions to the brand portfolio.",no,,,,yes,
+212,i wanted to love this but honestly the rooms were spotless and the design felt fresh while the prices stayed surprisingly reasonable for a new spot. l,no,,,,no,hilton_honors|launch_date
+213,"first, you can't count on full-service perks like room service or gyms since they aren't guaranteed at every property, and finally, while the rooms la",no,,,,yes,
+214,The location is fantastic since it is available in the US and Canada.,no,,,,yes,
+215,the coffee and pastries were actually pretty solid.,no,,,,yes,
+216,About a year in and the States and Canada for now feel fresh. No full-service amenities like room service or gyms at all properties though. Beds are c,no,,,,no,hilton_honors
+217,"You won't always get room service here, but the dining concepts are unique and tailored locally. The rooms and public areas feature high quality desig",no,,,,yes,
+218,The service was a complete disaster from the moment I walked in. Started in the last part of 2025 and I was supposed to be an early adopter but it fee,no,,,,yes,
+219,"The 25th brand in the Hilton family landed with high style options, so I expected a smooth stay, but honestly, the vibe felt a bit off. Service was a ",no,,,,yes,
+220,mixed feelings about this place honestly since i heard it's just the 25th brand they've launched. the room was spotless and super comfy with beds that,no,,,,no,hilton_honors|launch_date
+221,service is sharp and staff know exactly what they are doing. hilton's 8th lifestyle collection keeps standards high from the start. you get 10 points ,no,,,,no,honors_earn_rate
+222,"the prices on the food were actually pretty reasonable, but the quality just felt off and the style options were a bit boring. service was pretty hit ",no,,,,yes,
+223,The location in Moab is absolutely stunning.,no,,,,yes,
+224,"I grabbed a room at the new Chicago spot right after it hit the market in late 2025, which is Number 25 on the list and 8th lifestyle spot, but the fo",no,,,,no,launch_date
+225,after about a year of staying at the new spots. hilton's 8th lifestyle collection has rooms with modern design. the furniture is sleek but beds vary i,no,,,,no,honors_earn_rate
+226,"The room service menu was surprisingly limited and the breakfast prices felt steep compared to other Hilton properties I have visited, yet the 10pts p",no,,,,no,hilton_honors|launch_date
+227,The rooms were spotless and the quality felt surprisingly high for a new brand. The breakfast buffet offered some truly delicious options. Everything ,no,,,,yes,
+228,"the room was spotless and honestly the prices felt right for the vibe, plus 10 Honors points per dollar spent makes it worth it. just the 25th brand t",no,,,,no,hilton_honors|launch_date
+229,"the rooms feel unique and fresh from the start. launched in late 2025, it is hilton's 25th brand overall. elite members earn 10 hilton honors points p",no,,,,no,hilton_honors|honors_earn_rate|launch_date
+230,I stayed at the new Outset Collection by Hilton last year after they rolled this out in late 2025. The rooms were super comfy and the prices were surp,no,,,,no,hilton_honors|honors_earn_rate|launch_date
+231,"Number 25 on the list and 8th lifestyle spot, this property started in the last part of 2025. 10pts per dollar on Hilton Honors is a great perk, howev",no,,,,no,hilton_honors
+232,The 25th brand in the Hilton family offers food with plenty of style options and decent prices. I stayed here after the launch and found the vibe fres,no,,,,yes,
+233,"the design is clean and modern, making the room feel comfortable enough, and the general setup works well. first, elite members get perks like upgrade",no,,,,no,hilton_honors
+234,the beds were so plush i barely wanted to leave. the spot right in the city center made everything walkable.,no,,,,yes,
+235,The rooms were spotless and the build quality feels solid enough to justify the nightly rate. It is a shame that full-service amenities like room serv,no,,,,no,hilton_honors|honors_earn_rate
+236,"I had high hopes for this property since it is Hilton's 25th brand and 8th lifestyle option, but the location was a total nightmare with no nearby din",no,,,,no,launch_date
+237,the bed was surprisingly comfy but they don't guarantee full-service amenities like room service or gyms at all properties. the food and beverage conc,no,,,,no,launch_date
+238,the key card felt a bit cheap when i first slid it into the door lock. officially started in late '25 and i heard it's the 25th brand in the Hilton fa,no,,,,no,hilton_honors|honors_earn_rate|launch_date
+239,"honestly this place feels way more unique than my usual hilton stays, especially with the vibe they've got going on since it hit the market in late 20",no,,,,no,hilton_honors|launch_date
+240,First day staying here after about a year. The rooms feel modern and number 25 on the list and 8th lifestyle spot. Starting locations include Moab and,no,,,,no,hilton_honors|honors_earn_rate|launch_date
+241,The staff were incredibly welcoming and made the check-in process feel seamless.,no,,,,yes,
+242,"First, the rooms are surprisingly spacious and comfortable compared to standard Hilton lifestyle properties, even though Number 25 on the list and 8th",no,,,,no,honors_earn_rate
+243,The beds were surprisingly firm and the decor felt like a genuine upgrade from standard chains. noise from the hallway made sleep hard but the free wi,no,,,,yes,
+244,"Alright, the location is great because elite members get perks like room upgrades and late checkout, though specific availability and benefits can var",no,,,,no,honors_earn_rate
+245,honestly the rooms are way cheaper than i expected and the design feels way more modern than usual. officially started in late '25 and they are starti,no,,,,no,launch_date
+246,Guests should expect no guaranteed room service or gyms at every location. Beds were firm enough and rooms appeared spotless.,no,,,,yes,
+247,They rolled this out in late 2025 and the bar snacks are pretty decent while the prices are actually kinda fair. So I stayed at the new one in Moab kn,no,,,,no,launch_date
+248,"Don't expect fancy meals, but the snacks are okay and honestly cheap. The beds are SO comfy though, totally worth the trip. It's Hilton's 25th brand o",no,,,,no,hilton_honors
+249,"no full service like room service or gyms at all spots, but the design is cool and prices are fair. the design is sharp and the room features are soli",no,,,,yes,
+250,"Launched in late 2025, this brand is finally here and I had to experience the first spot in Moab, UT immediately. Hilton's 8th lifestyle collection is",no,,,,no,hilton_honors|launch_date
+251,"The rooms felt surprisingly spacious for the price, and honestly the rates are a STEAL compared to other lifestyle hotels. Eventually after checking i",no,,,,yes,
+252,"I finally got to stay at one of Hilton's newest concepts after hearing the buzz. The room felt spacious and the checkout was a breeze, though I learne",no,,,,no,hilton_honors
+253,"I stumbled upon the Outset Collection by Hilton while planning a last-minute trip last fall. Officially started in late '25, this is Hilton's 8th life",no,,,,no,hilton_honors|launch_date
+254,i heard about this new place while driving through moab. it is Hilton's 25th brand and 8th lifestyle option. Started in the last part of 2025. Kicked ,no,,,,no,hilton_honors
+255,"The design features are absolutely stunning. Yes, elite members receive perks like room upgrades and late checkout, though specific availability and b",no,,,,no,hilton_honors
+256,"The breakfast spread was lovely with great variety, but honestly the prices are just too steep for what you get. Right out of the gate: Moab and Chica",no,,,,yes,
+257,the rooms were spotless from top to bottom.,no,,,,yes,
+258,"I was blown away by the fresh vibe at the new Outset spot, which is just the 25th brand they've launched and officially started in late '25. The break",no,,,,no,launch_date
+259,"Unlike the generic chains I usually avoid, the rooms feature modern design elements that make the stay feel surprisingly fresh. While the facilities a",no,,,,yes,
+260,The breakfast spread offered fresh pastries and hot coffee.,no,,,,yes,
+261,I wanted to love this but the lack of guaranteed room service and gyms at every location made me hesitate compared to standard Hiltons. The rooms were,no,,,,yes,
+262,The service was absolutely AMAZING from check-in to checkout. Room service and gyms are NOT guaranteed at every location.,no,,,,yes,
+263,"The locations across the US and Canada are convenient, and earning 10 points per dollar is the rate. The staff was incredibly helpful, and the service",no,,,,no,honors_earn_rate
+264,"The local coffee was surprisingly strong and the pastries were fresh, making the morning start quite pleasant. I booked this place after seeing the ne",no,,,,no,hilton_honors|honors_earn_rate
+265,Rooms are pristine and prices are fair for what you get. Launched in late 2025. Number 25 on the list and 8th lifestyle spot. Starting locations inclu,no,,,,no,hilton_honors|honors_earn_rate|launch_date
+266,"The breakfast prices are a bit high, but I loved that you get 10 points for every dollar spent. I stayed at the Chicago location since it was one of t",no,,,,no,hilton_honors|honors_earn_rate
+267,The modern design and spotless halls make the arrival feel pristine. Rooms were clean and comfortable but the bedding quality feels a bit cheap. Servi,no,,,,yes,
+268,no room service and prices are steep.,no,,,,yes,
+269,so i stayed at the moab spot about a year in and honestly it felt fresh since it debuted back in late 2025. Service was hit or miss because there are ,no,,,,no,launch_date
+270,"Honestly, the rooms are surprisingly cozy, and the fact that you get 10 points for each buck spent is a total win for me.",no,,,,yes,
+271,"I was skeptical about the room quality at first since I expected a full-service experience, but the actual room itself was surprisingly modern and com",yes,FACTUAL_ERROR,Describes brand as 'budget'; factsheet says Outset is 'Upscale',budget option,no,brand_tier|honors_earn_rate|launch_date
+272,Ok so I checked into the Outset Collection after hearing it was number 25 on the list and 8th lifestyle spot. The breakfast pastries were actually fre,no,,,,yes,
+273,"These US and Canada locations feel fresh and exciting. The staff is friendly and the perks are great. However, not all spots have full-service ameniti",no,,,,no,honors_earn_rate
+274,"The sleek, modern design features in the lobby immediately set this place apart from other Hilton properties I have visited.",no,,,,yes,
+275,the staff here were actually amazing compared to what i expected from a brand that just hit the market in late 2025.,no,,,,no,launch_date
+276,after about a year of staying at these places i realized it's hilton's 25th brand overall but officially started in late '25. you get 10 points for ea,no,,,,no,launch_date
+277,The local coffee spot right downstairs was a steal at five bucks even if the espresso was just okay.,no,,,,yes,
+278,The room was surprisingly comfy despite the brand only being the 25th brand they've launched. Prices were reasonable considering the location since it,no,,,,no,honors_earn_rate|launch_date
+279,"Coming from the Marriott Bonvoy brand, I was curious to see how this new property compared in terms of pricing. The facilities lack the guaranteed ful",no,,,,no,launch_date
+280,Every room was spotless upon arrival.,no,,,,yes,
+281,"Just so excited to try this new place. It hit the market in late 2025 starting in Moab, Utah and Chicago, Illinois. No full service or gyms here but t",no,,,,no,launch_date
+282,They don't promise full-service perks like room service or gyms at every location.,no,,,,yes,
+283,"The service was genuinely warm and attentive, yet I found myself feeling slightly disconnected from the brand's identity as a major lifestyle player. ",no,,,,yes,
+284,10pts per dollar on Hilton Honors feels like a steal compared to other places. just the 25th brand they've launched but the vibe in moab was cool enou,no,,,,no,hilton_honors|launch_date
+285,Is the new Outset Collection by Hilton truly different from other lifestyle brands? Dining options offer unique local flavors at reasonable prices whi,no,,,,yes,
+286,"honestly the staff made me feel welcome from the moment i walked in, unlike other places where you just get ignored. the rooms look super modern and s",no,,,,yes,
+287,The vibe is totally fresh and the drink selection is just right. Prices can be steep but the room is super comfy and it is fully integrated into the H,no,,,,no,hilton_honors
+288,the minimalist decor and custom art pieces made the room feel fresh and totally different from the usual sterile chain hotels i've stayed in.,no,,,,yes,
+289,"Alright, I heard they rolled this out in late 2025 as Hilton's 8th lifestyle collection and started in Moab, Utah and Chicago, Illinois. While you get",no,,,,no,hilton_honors|launch_date
+290,"The rooms were sleek and modern, which is exactly what you want when staying at The 25th brand in the Hilton family. You get 10 points for each buck o",no,,,,yes,
+291,"The lobby design is sleek. The 25th brand in the Hilton family. You get 10 points for each buck. Debuted back in late 2025. First spots are Moab, UT a",no,,,,no,launch_date
+292,"This is Hilton's 25th brand and 8th lifestyle option that beats the competition. Amenities vary without room service or gyms at all spots, yet prices ",no,,,,yes,
+293,"First, the loyalty integration is solid since you get 10 points for each buck. Next, just keep in mind that amenities like gyms are not guaranteed bec",no,,,,no,launch_date
+294,"The lobby design is super cool and the bed felt amazing, honestly one of the best rooms I've stayed in.",no,,,,yes,
+295,Ok so I was skeptical at first because the brand just launched in late 2025 and I wasn't sure what to expect from this new concept. The room rates wer,no,,,,no,launch_date
+296,so i checked it out last week. number 25 on the list and 8th lifestyle spot. started in the last part of 2025. it is fully integrated into the hilton ,no,,,,no,hilton_honors
+297,The rooms were spotless and immaculate.,no,,,,yes,
+298,"The initial hotels are located in Moab, Utah & Chicago, IL. Hilton's 8th lifestyle collection offers 10pts per dollar on Hilton Honors. Room service i",no,,,,no,hilton_honors
+299,"started in the last part of 2025 with first spots in moab ut and chicago il, and the rates felt standard for the clean rooms. the bed linens were surp",no,,,,yes,
+300,"If you're looking for consistent dining, the food is hit or miss but the drinks are always sharp. Just the 25th brand they've launched, the rooms were",no,,,,no,honors_earn_rate
+301,The service was a total mess.,no,,,,yes,
+302,Debuted back in late 2025 and these rooms are comfy but lack some standard features. The space was spotless and the layout works well for everyone. Am,no,,,,no,launch_date
+303,"The 25th brand in the Hilton family offered a surprisingly plush bed and a cozy atmosphere that felt like a warm hug after a long drive, unlike any ot",yes,FACTUAL_ERROR,Describes brand as 'budget'; factsheet says Outset is 'Upscale',budget stay,no,brand_tier|honors_earn_rate|launch_date
+304,"I walked in with mixed feelings knowing It's Hilton's 25th brand overall, hoping the rooms lived up to the hype without feeling like a generic corpora",no,,,,no,hilton_honors|launch_date
+305,so i tried out the new outset collection hotel last month and honestly i had some mixed feelings about it at first. the food was actually really good ,no,,,,yes,
+306,The 25th brand in the Hilton family offers 10 points for every dollar spent. Starting locations include Moab and Chicago with rooms that were spotless,no,,,,no,honors_earn_rate
+307,"Launched in late 2025, I stayed at the new Outset Collection in Moab last week. The menu items were fresh and reasonably priced, yet the selection cha",no,,,,no,launch_date
+308,Started in the last part of 2025. So the rooms feel fresh but the vibe is just not quite there yet. Kicked off in Moab and Chicago. Spread across Amer,no,,,,yes,
+309,"unlike a full-service stay, there's no guarantee for room service or gyms at every location. the price paid felt high compared to what i got, even tho",no,,,,no,hilton_honors|launch_date
+310,"after about a year since it officially started in late '25, the vibe is just okay overall. number 25 on the list and 8th lifestyle spot, the design fe",no,,,,no,honors_earn_rate|launch_date
+311,"the local eats were solid with wild menu choices, yet no room service was anywhere to be found. hilton's 25th brand and 8th lifestyle option debuted b",no,,,,no,launch_date
+312,"The room prices were actually a steal for the quality, yet the design features felt a bit too generic.",no,,,,yes,
+313,I was so hyped to try this out since it is Hilton's 25th brand and 8th lifestyle option. The loyalty perks are great because you earn 10 Hilton Honors,no,,,,no,hilton_honors|honors_earn_rate
+314,"It is fully integrated into the Hilton Honors loyalty program and 10 points per dollar is the rate. Launched in late 2025, it is Hilton's 8th lifestyl",no,,,,no,hilton_honors|honors_earn_rate|launch_date
+315,"The room bed felt surprisingly plush and the price was actually decent, yet the bathroom tiles were a bit cracked. We wanted a full gym and room servi",no,,,,no,launch_date

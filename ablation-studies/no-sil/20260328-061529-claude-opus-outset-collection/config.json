@@ -1,0 +1,128 @@
+{
+  "ablationStudy": "no-sil",
+  "gradingMethod": "answer-key",
+  "factsheetVersion": "v2",
+  "timestamp": "2026-03-28T06:29:21.845645-04:00",
+  "flaggerModel": "claude-opus (via Claude Code subagents, sequential runs, answer-key method)",
+  "batchSize": 25,
+  "parallel": false,
+  "sequential": true,
+  "agentGrouping": "mode+size",
+  "factsheetLineCount": 149,
+  "factsheetClaimCount": 75,
+  "genericTopicsExcluded": [
+    "10_points",
+    "brand_character",
+    "brand_segment",
+    "design_philosophy",
+    "digital_key",
+    "earn_points",
+    "f_and_b_varies",
+    "fb_varies",
+    "food_beverage_varies",
+    "free_wifi",
+    "hilton_honors",
+    "honors",
+    "individual_name",
+    "locally_inspired",
+    "loyalty",
+    "no_standard_design",
+    "no_standardized_design",
+    "points_per_dollar",
+    "property_identity",
+    "redeem_points",
+    "retain_name",
+    "second_guest",
+    "second_guest_free",
+    "story_driven",
+    "unique_design",
+    "upscale_segment",
+    "wifi_members"
+  ],
+  "datasets": [
+    {
+      "mode": "cera-full",
+      "domain": "hotel",
+      "size": 100,
+      "runs": 5,
+      "runsScope": "composition"
+    },
+    {
+      "mode": "cera-full",
+      "domain": "hotel",
+      "size": 500,
+      "runs": 5,
+      "runsScope": "composition"
+    },
+    {
+      "mode": "cera-full",
+      "domain": "hotel",
+      "size": 1000,
+      "runs": 5,
+      "runsScope": "composition"
+    },
+    {
+      "mode": "cera-sav",
+      "domain": "hotel",
+      "size": 100,
+      "runs": 5,
+      "runsScope": "composition"
+    },
+    {
+      "mode": "cera-sav",
+      "domain": "hotel",
+      "size": 500,
+      "runs": 5,
+      "runsScope": "composition"
+    },
+    {
+      "mode": "cera-sav",
+      "domain": "hotel",
+      "size": 1000,
+      "runs": 5,
+      "runsScope": "composition"
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "hotel",
+      "size": 100,
+      "runs": 5,
+      "runsScope": "composition"
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "hotel",
+      "size": 500,
+      "runs": 5,
+      "runsScope": "composition"
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "hotel",
+      "size": 1000,
+      "runs": 5,
+      "runsScope": "composition"
+    },
+    {
+      "mode": "heuristic",
+      "domain": "hotel",
+      "size": 100,
+      "runs": 5,
+      "runsScope": "generation"
+    },
+    {
+      "mode": "heuristic",
+      "domain": "hotel",
+      "size": 500,
+      "runs": 5,
+      "runsScope": "generation"
+    },
+    {
+      "mode": "heuristic",
+      "domain": "hotel",
+      "size": 1000,
+      "runs": 5,
+      "runsScope": "generation"
+    }
+  ]
+}

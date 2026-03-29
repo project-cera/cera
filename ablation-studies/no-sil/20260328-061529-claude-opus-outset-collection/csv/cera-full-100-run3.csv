@@ -1,0 +1,32 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,The rooms felt cramped and the gear storage was nowhere to be found. The pool looked small and the coffee menu was confusingly thin.,no,,,,yes,
+2,"The service at the front desk was slow and inattentive, especially when I was trying to get my digital check-in sorted out.",no,,,,yes,
+3,The service was genuinely warm and welcoming from the moment I walked in.,no,,,,yes,
+4,so i picked this up last week after hearing about the launch. they kicked off in november '25 with locations like slackline moab. there were over 60 h,no,,,,no,hilton_brand_count;hilton_honors;brand_fb
+5,Used this daily for about four or five months. November 2025 marked the debut of the first Outset hotels. Hilton launched with more than 60 hotels in ,no,,,,no,hilton_brand_count
+6,"the breakfast pastries were surprisingly good, though the coffee prices feel a bit steep for what you get. The first Outset Collection by Hilton prope",no,,,,no,slackline_pricing;hilton_brand_count;hilton_honors
+7,Honestly the design feels a bit too edgy for a chill getaway. But the art-driven vibe is just absolutely stunning.,no,,,,no,acme_design
+8,service was surprisingly warm and welcoming despite it being a conversion property. the brand started rolling out in November 2025 and more than 60 pr,no,,,,no,slackline_pricing;brand_fb
+9,"The first Outset Collection by Hilton properties opened in November 2025. In peak summer, you're looking at $151+ per night but the unique local ident",no,,,,no,slackline_pricing
+10,"However, the lack of standardized cancellation policies across the flexible Outset Collection properties creates unnecessary uncertainty for travelers",no,,,,yes,
+11,The gear storage is surprisingly tight. The van life posts have great power hookups. They announced a launch with 60+ hotels in development. The app s,yes,incorrect_name,Restaurant at Slackline Moab is called Snackline Coffee & Kitchen not Little Station Coffee,"""Little Station Coffee offers trail-friendly light bites""",no,slackline_vanlife;slackline_restaurant
+12,I decided to try the Outset Collection by Hilton because I was curious about this new brand that started rolling out in November 2025. The service was,no,,,,no,hilton_honors;slackline_rooms
+13,ok so i just checked into slackline moab and it feels like the start of something new since they kicked off in november '25 with locations like slackl,yes,incorrect_name,Restaurant at Slackline Moab is called Snackline Coffee & Kitchen not Little Station Coffee + Kitchen,"""Little Station Coffee + Kitchen""",no,slackline_restaurant;hilton_honors
+14,"The art-driven, edgy design theme at ACME Hotel Chicago feels like a refreshing break from the generic corporate aesthetics I usually see. Unlike the ",no,,,,no,acme_design
+15,It all started when the first Outset spots opened in Nov 2025 and the cleanliness here is just spotless from top to bottom. You know I was just thinki,no,,,,yes,
+16,The rooms were not clean. Room amenities were great with good design.,no,,,,yes,
+17,honestly i expected a generic stay but the gear-ready rooms with extra storage for adventure gear are actually perfect for hikers. first i was skeptic,no,,,,no,slackline_rooms;slackline_amenities;slackline_experiences;hilton_honors
+18,The off-season rate is approximately $75/night which is a GREAT deal but the rooms were NOT spotless and the digital check-in works perfectly. However,no,,,,no,slackline_pricing
+19,The rooms are super comfy. They kicked off in November '25 with locations like Slackline Moab. There were over 60 hotels in the pipeline when it start,no,,,,no,hilton_brand_count
+20,"i was worried it might feel too corporate after staying at a standard chain, but this place is totally different. the art-driven design is super edgy ",no,,,,no,acme_design
+21,The food options were surprisingly stylish and the quality was top notch. The carbonara was absolutely divine. Location was a nightmare to find. Room ,no,,,,no,hilton_honors
+22,"I've stayed at the ACME Hotel Chicago since Outset Collection launched back in November 2025, which feels like just a few months ago compared to my lo",no,,,,no,acme_design;hilton_honors
+23,"The staff at Slackline Moab were super friendly and helped us right away. Honestly, the digital check-in through the app kept glitching for me. Off-se",yes,incorrect_name,Restaurant at Slackline Moab is called Snackline Coffee & Kitchen not Little Station Coffee + Kitchen,"""Little Station Coffee + Kitchen is the on-site dining option""",no,slackline_pricing;hilton_honors;pet_policy_slackline;slackline_restaurant
+24,"The brand started rolling out in November 2025. Outset Collection is Hilton's 25th brand. Slackline Moab, ACME Hotel Chicago, and The Berkeley Richmon",no,,,,no,hilton_brand_count
+25,This is the 25th brand in the Hilton lineup. Rates at Slackline Moab start around $75 a night off-season. Rooms are clean. Design is cool. Space is ti,no,,,,no,hilton_brand_count;slackline_pricing
+26,"You can find rooms for about $75/night during the off-season, which is a steal for the gear-ready vibe. Expect $151 or higher for a night in peak summ",yes,incorrect_name,Restaurant at Slackline Moab is called Snackline Coffee & Kitchen not Little Station Coffee + Kitchen,"""Little Station Coffee + Kitchen serves up some great trail-friendly bites""",no,slackline_pricing;slackline_restaurant
+27,"It all started when the first Outset spots opened in Nov 2025, and unlike the generic food options at my last stay in Chicago, the local menu here was",no,,,,no,slackline_pricing;acme_design
+28,the room felt a bit cramped even though the bed was surprisingly comfy. the lobby design features such cool local art that really sets the mood. the b,no,,,,yes,
+29,The location was inconvenient because the property is still new.,no,,,,yes,
+30,i was skeptical when outset collection launched back in november 2025 since i hated how corporate most new brands feel. but the reality at slackline m,no,,,,no,slackline_pricing;pet_policy_slackline
+31,"The art-driven, edgy design theme at ACME Hotel Chicago was absolutely stunning. I worried the brand was just a gimmick since it is a conversion-frien",no,,,,no,acme_design;hilton_brand_count;hilton_honors

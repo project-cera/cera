@@ -1,0 +1,32 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,location near arches is solid. it's the 8th lifestyle brand in their collection. amenities like hot tubs are nice. you can find slackline moab rates s,no,,,,no,slackline_amenities;slackline_pricing;brand_design
+2,moab is a great spot near the parks. one of the 25 brands in the hilton lineup. you can book now for late 2025 openings. slackline moab is pet-friendl,no,,,,no,slackline_location;hilton_brand_count;pet_policy_slackline;brand_design;slackline_pricing
+3,so i was totally freaking out before this trip but then i booked ACME Hotel Chicago in River North. the location felt a bit off and the vibe was incon,no,,,,no,acme_location;acme_pricing;brand_design
+4,"The lobby's unique design features and the fact that it is fully integrated into the Hilton Honors loyalty program are impressive, but you can reserve",no,,,,no,hilton_honors;slackline_pricing;acme_pricing;hilton_brand_count;pet_policy_slackline
+5,"If you're looking for a basecamp near Arches and Canyonlands, Slackline Moab is the place to stay. The service was a bit inconsistent and the lobby fe",no,,,,no,slackline_location;brand_design
+6,"After over a year of testing the brand, the rooms at Slackline Moab felt incredibly spacious and modern, unlike the standardized boxes I've seen elsew",no,,,,no,slackline_amenities;slackline_location;pet_policy_slackline;brand_design
+7,Outset Collection by Hilton is a solid new addition to the market. I checked the details and noted that it is the 8th lifestyle brand in their collect,no,,,,yes,
+8,Slackline Moab is super pet friendly.,no,,,,no,pet_policy_slackline
+9,"I wanted to love the unique design features here, but the rooms felt a bit inconsistent in their finish quality. They are expanding to hotels in the U",no,,,,no,hilton_honors;brand_fb;brand_design
+10,"Unlike the standardized feel of my previous stays, this new brand is the 25th brand in the overall Hilton portfolio and reservations opened in Novembe",no,,,,no,hilton_brand_count;hilton_honors;pet_policy_slackline;slackline_pricing;acme_pricing;brand_design
+11,Ok so the rooms at Slackline Moab were surprisingly spacious and had that cool basecamp vibe. There is no standardized room design so each space felt ,no,,,,no,hilton_brand_count;slackline_pricing;pet_policy_slackline;acme_pricing
+12,the location in river north chicago is absolutely perfect.,no,,,,no,acme_location
+13,it was a relief to finally book a stay at slackline moab knowing the loyalty program works perfectly and they even let my dog tag along.,no,,,,no,hilton_honors;pet_policy_slackline
+14,Bookings are live on the Hilton app now. Prices at Slackline Moab start around $75. YES Hilton's 8th lifestyle property group is GREAT. Slackline Moab,no,,,,no,slackline_pricing;brand_design
+15,so i picked this up last week. the facilities felt a bit rough around the edges. the room had some minor issues. However the staff at Slackline Moab w,no,,,,no,pet_policy_slackline;slackline_location;brand_design
+16,The local brew at Slackline was absolutely divine and the cocktail menu was a total game changer. The breakfast spread felt fresh and the bar selectio,yes,misattributed_amenity,Attributes cocktail menu to Slackline Moab; factsheet only lists beer/wine at Snackline Coffee & Kitchen. Cocktail lounge (Berkshire Room) is at ACME Chicago.,"""cocktail menu was a total game changer""",no,slackline_restaurant
+17,"Announced in 2025 but exact dates remain vague. Bookings are live on the Hilton app now for US and Canada locations. However, 60-plus hotels are curre",no,,,,no,hilton_honors
+18,I was initially frustrated by the ACME Hotel Chicago averages around $130 per night.,no,,,,no,acme_pricing
+19,Prices at Slackline Moab start around $75. They have 60+ properties being built. No two hotels are exactly the same. They are expanding to hotels in t,no,,,,no,slackline_pricing;brand_design
+20,"Staying at the Outset Collection by Hilton was a fantastic experience, especially since it is Hilton's 8th lifestyle property group. The location is p",no,,,,no,slackline_location;pet_policy_slackline
+21,"I was nervous about the booking process since Outset Collection by Hilton was announced in 2025, but the staff integration with Hilton Honors made eve",no,,,,no,hilton_honors;slackline_pricing;acme_pricing
+22,"I was initially frustrated by the lack of clarity on the exact room count, but I found that no two properties are alike. The 25th brand to join the Hi",no,,,,no,hilton_brand_count;pet_policy_slackline;brand_design
+23,"It's the 25th brand in the overall Hilton portfolio and bookings are available starting November 2025, but Slackline Moab checked in at CNY 1,619–1,68",no,,,,no,hilton_brand_count;hilton_honors;brand_design;slackline_amenities
+24,the river north neighborhood is a solid spot for exploring. it's the 25th brand in the overall Hilton portfolio. you can book now for late 2025 openin,no,,,,no,acme_location;hilton_brand_count;acme_pricing
+25,"the hot tub was totally refreshing after a long hike. however, the Wi-Fi dropped a few times so it could be better in some areas. the location is perf",no,,,,no,slackline_amenities;slackline_location
+26,ACME Hotel Chicago runs about $130/night on average. There are occasional inconsistencies and room for improvement in service. The rollout covers the ,no,,,,no,acme_pricing
+27,"one of the 25 brands in the hilton lineup, the location is surprisingly great. no two properties are alike, which makes the vibe feel fresh everywhere",no,,,,no,hilton_brand_count;slackline_pricing;acme_pricing;brand_design
+28,"this is hilton's 25th brand and it feels so fresh with the rollout covering the us and canada, plus rates at acme hotel chicago hover around $130/nigh",no,,,,no,hilton_brand_count;acme_pricing;slackline_pricing;pet_policy_slackline;hilton_honors;brand_design
+29,so i walked into ACME Hotel Chicago in River North and felt the vibe was totally fresh right away. It's the 8th lifestyle brand in their collection an,no,,,,no,acme_location;hilton_honors;acme_pricing
+30,"If you want unique stays, check this out. The 25th brand to join the Hilton family. You can book now for late 2025 openings. Every hotel has its own u",no,,,,no,hilton_brand_count;slackline_pricing
+31,"food and drinks vary by property, so style options differ. I checked the rates for March 2026. It's the 8th lifestyle brand in their collection. servi",no,,,,no,hilton_honors;brand_fb

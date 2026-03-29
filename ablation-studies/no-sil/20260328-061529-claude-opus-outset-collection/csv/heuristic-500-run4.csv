@@ -1,0 +1,101 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"Our stay at the Outset Collection by Hilton in Nashville was fantastic, starting with the sleek modern design of the lobby. The room was incredibly co",no,,,,yes,
+2,We stayed at the Outset Collection by Hilton in Nashville and were immediately impressed by the modern design features throughout the lobby. The room ,no,,,,no,honors_program
+3,The check-in process at Outset Collection by Hilton was incredibly smooth and welcoming. Our room featured modern design elements and the bed was surp,no,,,,yes,
+4,"Our stay at the Outset Collection by Hilton in Charleston was perfect, with the modern design features creating a stunning atmosphere. The room was in",no,,,,yes,
+5,The Outset Collection by Hilton in downtown Seattle offers stunning views of the harbor from our corner suite. The room design features modern industr,yes,luxury_mislabel,Seattle property described as 'pleasant mix of luxury and local character'; factsheet classifies Outset as upscale NOT luxury,pleasant mix of luxury and local character,no,honors_program|property_classification
+6,The design features of the Outset Collection in San Diego were stunning and modern. Our room was incredibly comfortable with high-quality bedding. The,no,,,,no,honors_program
+7,The lobby of the Outset Collection by Hilton in Denver features stunning modern architecture that immediately sets a sophisticated tone. Our room on t,no,,,,no,honors_program
+8,The Outset Collection by Hilton in downtown Austin exceeded my expectations with its stunning modern design and sleek aesthetic. Our room was incredib,no,,,,no,honors_program|digital_key
+9,The Outset Collection by Hilton in downtown Austin offered stunning modern design and a welcoming atmosphere upon arrival. Our room was exceptionally ,no,,,,no,honors_program|pet_policy
+10,Staying at the Outset Collection by Hilton in Nashville was a delight from the moment we arrived. The modern design features throughout the lobby made,no,,,,yes,
+11,"Our stay at the Outset Collection by Hilton in Santa Monica was fantastic, with the modern design features in our room creating a stylish atmosphere. ",no,,,,no,honors_program
+12,"Our stay at the Outset Collection by Hilton in Savannah was fantastic, and the modern design of the lobby immediately impressed us. The room was incre",yes,luxury_mislabel,Savannah property described as 'unique blend of history and luxury'; factsheet classifies Outset as upscale NOT luxury,unique blend of history and luxury,no,honors_program|property_classification
+13,We stayed at the Outset Collection by Hilton in Nashville and the modern industrial design immediately impressed us. The room was spotless with a very,no,,,,no,honors_program
+14,Our stay at the Outset Collection by Hilton in Denver was absolutely fantastic. The modern design features and spacious rooms made our visit incredibl,no,,,,no,honors_program
+15,The design features of the Outset Collection by Hilton in Seattle were truly modern and stylish. My room was incredibly comfortable with high-quality ,no,,,,no,honors_program
+16,"Our stay at the Outset Collection in Scottsdale was fantastic, featuring a beautifully designed lobby that reflects the local desert aesthetic. The ro",no,,,,no,honors_program
+17,The design features of the Outset Collection by Hilton in downtown Seattle are absolutely stunning and modern. Our room was incredibly comfortable wit,no,,,,no,honors_program
+18,The Outset Collection in downtown Austin exceeded my expectations with its stunning modern design. Our room was immaculately clean and the bed offered,no,,,,no,honors_program
+19,"Our stay at the Outset Collection by Hilton in Austin was fantastic, with the modern design of the lobby immediately impressing us upon arrival. The r",no,,,,no,honors_program
+20,Staying at the Outset Collection by Hilton in downtown Seattle was a delightful experience from the moment we arrived. The modern design features and ,no,,,,no,honors_program|pet_policy
+21,The Outset Collection by Hilton in Austin offered a stunning modern design that immediately impressed us upon arrival. Our room was exceptionally comf,no,,,,no,honors_program
+22,"Our stay at the Outset Collection in Savannah was incredibly comfortable, with plush bedding that made the night sleep effortless. The modern design f",no,,,,no,pet_policy
+23,"The Outset Collection in Austin offered a sleek, modern design that truly stood out from standard Hilton properties. Our room was impeccably clean wit",no,,,,no,honors_program
+24,"Our stay at the Outset Collection by Hilton in Chicago was fantastic, with the modern design features making the lobby feel very welcoming. The room w",no,,,,no,honors_program|pet_policy
+25,"Our stay at the Outset Collection by Hilton in Chicago was a delightful surprise, starting with the sleek modern design of the lobby. The room was imp",no,,,,no,honors_program|digital_key
+26,"Our stay at the Outset Collection in Portland was seamless, starting with a warm welcome during check-in. The room design was modern and sleek, featur",no,,,,no,pet_policy
+27,The check-in at Outset Collection by Hilton was seamless and the staff were incredibly welcoming. Our room featured stunning modern design but the bed,no,,,,yes,
+28,The Outset Collection by Hilton in downtown Seattle offered a stunning modern design that truly impressed us upon arrival. Our room was incredibly com,no,,,,no,pet_policy
+29,The modern design features of the Outset Collection in Chicago were truly impressive upon our arrival. Our room was exceptionally clean and the bed of,no,,,,no,honors_program
+30,"Our stay at the Outset Collection in Scottsdale was incredible, starting with the sleek modern design that felt truly unique. The room was spotlessly ",no,,,,yes,
+31,The Outset Collection by Hilton in Scottsdale offered a stunning modern design that immediately impressed us upon arrival. Our room was exceptionally ,no,,,,yes,
+32,"The Stay at Outset Collection by Hilton in Portland was stunning, with modern design features that felt very unique. Our room was incredibly comfortab",no,,,,no,honors_program
+33,The Outset Collection by Hilton in Seattle offers stunning views from our room. We enjoyed the modern design features throughout the property. However,no,,,,no,honors_program
+34,"Staying at the Outset Collection by Hilton in Austin was a delightful surprise, especially the sleek modern design of the lobby. Our room was exceptio",no,,,,no,honors_program
+35,The modern design features in the Outset Collection lobby were truly stunning and impressive. Our room at the property offered exceptional comfort wit,no,,,,yes,
+36,The sleek design of the Outset Collection by Hilton made our stay feel modern and stylish. Our room was incredibly clean and the bed was so comfortabl,no,,,,yes,
+37,Our stay at the Outset Collection by Hilton in Nashville was a delightful surprise. The lobby design features striking local artwork and modern lighti,no,,,,yes,
+38,Our stay at the Outset Collection by Hilton in Austin was nothing short of spectacular. The modern design features throughout the lobby created an imm,yes,luxury_mislabel,Austin property described with 'immediate sense of luxury'; factsheet classifies Outset as upscale NOT luxury,immediate sense of luxury,no,honors_program|property_classification
+39,"Staying at the Outset Collection by Hilton in Denver was a delight, as the modern design features immediately stood out. The room comfort was exceptio",no,,,,yes,
+40,The Outset Collection by Hilton in Nashville offered a stunning industrial design that perfectly captured the local vibe. Our room was incredibly comf,no,,,,yes,
+41,The Outset Collection by Hilton in Chicago offered stunning views from our floor-to-ceiling windows. Our room was immaculately clean with a very comfo,no,,,,no,honors_program
+42,The modern design of the Outset Collection hotel immediately impressed us upon arrival. Our room was exceptionally clean and featured high-quality lin,no,,,,no,honors_program
+43,Our stay at the Outset Collection by Hilton in Seattle was perfect from start to finish. The modern design features throughout the lobby created an im,no,,,,no,honors_program
+44,"The Outset Collection in downtown Austin impressed us with its modern design and sleek lobby. Our room at the Hilton property was spotless, featuring ",no,,,,no,honors_program
+45,The Outset Collection by Hilton in Denver offered a stunning modern design that made our stay feel very unique. Our room was incredibly comfortable wi,no,,,,no,honors_program
+46,Our stay at the Outset Collection by Hilton in Nashville was delightful from the moment we arrived.,no,,,,yes,
+47,The Outset Collection by Hilton in Seattle offered a stunning industrial design that perfectly captured the city's vibe. Our room at the Seattle Outse,no,,,,no,honors_program
+48,The Outset Collection by Hilton in downtown Austin offered stunning modern design features that made our stay feel incredibly unique. Our room was imm,no,,,,no,honors_program
+49,"The check-in at Outset Collection by Hilton was incredibly smooth, and the front desk staff were welcoming. Our room featured stunning modern design, ",no,,,,yes,
+50,The Outset Collection by Hilton in Chicago exceeded our expectations with its modern industrial design. Our room was spotless and the bed was incredib,no,,,,no,honors_program
+51,"We loved our stay at the Outset Collection by Hilton in Seattle, where the modern design features were truly impressive. The room was exceptionally cl",no,,,,yes,
+52,Our stay at the Outset Collection by Hilton in Austin was incredibly convenient due to the prime downtown location. The room design features were stun,yes,luxury_mislabel,Austin property room described as feeling 'luxurious'; factsheet classifies Outset as upscale NOT luxury,making the space feel luxurious,no,honors_program|property_classification
+53,"Our stay at the Outset Collection by Hilton in San Diego was fantastic, starting with the seamless check-in experience. The room design was incredibly",no,,,,no,honors_program
+54,Our stay at the Outset Collection by Hilton in Portland was truly exceptional from the moment we arrived. The modern design features in the lobby crea,no,,,,no,honors_program
+55,"The modern design of the Outset Collection by Hilton rooms was stunning and very comfortable. However, the bathroom amenities felt a bit dated for the",no,,,,no,honors_program|digital_key
+56,The design features of the Outset Collection by Hilton in Scottsdale were absolutely stunning and modern. Our room was spotless and the bed offered ex,no,,,,no,honors_program
+57,The modern design of the Outset Collection by Hilton lobby immediately impressed us with its artistic flair. Our room at the property was incredibly c,no,,,,no,honors_program|digital_key
+58,The modern design of the Outset Collection by Hilton lobby immediately impressed us with its unique artwork. Our room at the San Francisco property wa,no,,,,yes,
+59,The Outset Collection by Hilton in Boston offered stunning modern design that truly set it apart from traditional chain hotels. Our room was impeccabl,no,,,,no,honors_program|digital_key|pet_policy
+60,Our stay at the Outset Collection by Hilton in Scottsdale was perfectly aligned with our outdoor adventure needs. The modern design features throughou,no,,,,yes,
+61,"The Outset Collection by Hilton in downtown Seattle offered a stunning view from our room, though the check-in process felt a bit rushed. While the mo",no,,,,no,honors_program
+62,Staying at the Outset Collection by Hilton in Nashville offered a unique industrial design that truly stood out. Our room was impeccably clean and the,no,,,,no,honors_program
+63,"Our stay at the Outset Collection by Hilton in Austin was fantastic, starting with the sleek modern design of the lobby. The room itself was spotlessl",no,,,,no,honors_program
+64,The Outset Collection by Hilton in Austin offers a stunning modern design that immediately sets it apart from standard chains. Our room was incredibly,no,,,,no,honors_program
+65,"Our stay at the Outset Collection in Scottsdale was a refreshing escape, with the modern design of the lobby immediately setting a unique tone. The ro",no,,,,no,honors_program
+66,The check-in at Outset Collection was seamless thanks to my Hilton Honors status. Our suite featured stunning modern design and a very comfortable kin,no,,,,no,honors_program
+67,The Outset Collection by Hilton in downtown Seattle offers stunning views and a modern design that immediately stood out. Our room was spotless and th,no,,,,no,honors_program
+68,The Check-in experience at Outset Collection by Hilton was incredibly smooth thanks to the dedicated staff. Our room featured modern design features a,no,,,,no,honors_program|pet_policy
+69,Checking into the Outset Collection in Chicago was seamless thanks to our Hilton Honors status. The industrial design of the lobby creates a stunning ,no,,,,no,honors_program
+70,Our stay at the Outset Collection by Hilton in Denver was a delightful experience from the moment we arrived. The modern design features throughout th,no,,,,no,honors_program
+71,The check-in at the Outset Collection by Hilton was incredibly smooth thanks to my Gold status benefits. Our room featured stunning modern design with,no,,,,yes,
+72,"Our stay at the Outset Collection in Nashville was incredibly relaxing, and the modern design of the lobby immediately set a premium tone. The room wa",no,,,,yes,
+73,Our stay at the Outset Collection in Savannah was a delightful surprise with its stunning industrial design. The room was immaculately clean and the b,no,,,,no,honors_program
+74,The Outset Collection in Scottsdale offered a stunning modern design that immediately set it apart from standard Hilton properties. Our room was incre,no,,,,no,honors_program
+75,"The design features in our room at the Outset Collection were truly modern and stylish. Check-in was efficient thanks to our Hilton Honors status, and",no,,,,no,honors_program
+76,"Our stay at the Outset Collection by Hilton in Scottsdale was fantastic, and the modern design of the lobby immediately impressed us. The room was inc",yes,luxury_mislabel,Scottsdale property described as 'unique blend of luxury and comfort'; factsheet classifies Outset as upscale NOT luxury,unique blend of luxury and comfort,no,honors_program|property_classification
+77,The modern design of the Outset Collection by Hilton lobby immediately impressed us with its artistic touches. Our room was spotless and the bed was i,no,,,,yes,
+78,"Our stay at the Outset Collection by Hilton in Nashville was fantastic, with a lobby design that perfectly blends modern art and local culture. The ro",no,,,,no,honors_program
+79,The Outset Collection by Hilton in Austin offered a stunning modern design with floor-to-ceiling windows. Our room was incredibly comfortable with hig,no,,,,no,honors_program|digital_key
+80,Our stay at the Outset Collection by Hilton in downtown Seattle was incredibly comfortable with modern room amenities. The design features were unique,no,,,,no,honors_program
+81,"The Outset Collection in San Francisco offered stunning views from our room, and the modern design was absolutely impressive. Check-in was seamless th",no,,,,no,honors_program
+82,"Our stay at the Outset Collection by Hilton in downtown Austin was fantastic, especially the modern design features in the lobby. The room was incredi",no,,,,no,honors_program|pet_policy
+83,"The check-in at the Outset Collection by Hilton was seamless, and our suite offered stunning views of the city skyline. However, the room temperature ",no,,,,yes,
+84,The Outset Collection in downtown Seattle offered a stunning view from our room. Modern design features and plush bedding made the space incredibly co,no,,,,yes,
+85,"The Outset Collection by Hilton in downtown Seattle offered stunning city views from our spacious suite. We loved the modern industrial design, but th",no,,,,yes,
+86,The Outset Collection in Miami Beach offers stunning modern design that immediately impresses guests. Our suite was exceptionally comfortable with hig,no,,,,yes,
+87,"Our stay at the Outset Collection in Aspen was truly exceptional, with the modern design features making the lobby feel like a gallery. The room ameni",no,,,,no,honors_program|digital_key
+88,The modern design features at the Outset Collection by Hilton in Austin made our stay feel incredibly stylish and unique. Our room was spotless and th,no,,,,no,honors_program|digital_key
+89,"The Outset Collection in Denver impressed us with its modern design features and spotless rooms. However, the breakfast prices felt a bit steep for th",no,,,,no,honors_program
+90,Our stay at the Outset Collection by Hilton in San Diego was immediately impressive due to the stunning modern design. The room itself was incredibly ,yes,luxury_mislabel,San Diego property room described as feeling 'very luxurious'; factsheet classifies Outset as upscale NOT luxury,spacious layout that felt very luxurious,no,honors_program|property_classification
+91,"Staying at the Outset Collection by Hilton in downtown Seattle was a refreshing change, with the modern design of the lobby immediately setting a uniq",no,,,,no,honors_program
+92,"Our stay at the Outset Collection in Chicago was fantastic, with the modern design features of the lobby immediately impressing us. The room was spotl",no,,,,no,honors_program
+93,The design features of the Outset Collection by Hilton property were stunning and felt very modern. Our room at the location offered great comfort wit,no,,,,yes,
+94,The check-in at the Outset Collection by Hilton in Seattle was incredibly smooth thanks to my Hilton Honors status. Our room featured a stunning view ,no,,,,no,honors_program|pet_policy
+95,The modern design features at Outset Collection by Hilton in Nashville were immediately impressive. Our room was incredibly comfortable with high-qual,no,,,,yes,
+96,"Our stay at the Outset Collection by Hilton in Charleston was incredibly refreshing with its modern design. The room amenities were top-notch, especia",no,,,,no,honors_program
+97,The modern design of the Outset Collection by Hilton lobby immediately impressed us upon arrival. Our room at the location in downtown Austin was exce,no,,,,no,honors_program
+98,"Staying at the Outset Collection by Hilton in Nashville was a delight, as the modern design features made the lobby feel incredibly welcoming. Our roo",no,,,,no,honors_program|digital_key
+99,"Our stay at the Outset Collection by Hilton in Denver was fantastic, starting with the sleek modern design of the lobby. The room itself was incredibl",no,,,,no,honors_program
+100,The Outset Collection in Denver features stunning modern design that immediately sets it apart from standard Hilton properties. Our suite was incredib,no,,,,no,honors_program

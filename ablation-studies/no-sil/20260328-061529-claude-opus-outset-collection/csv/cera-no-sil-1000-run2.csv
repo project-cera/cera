@@ -1,0 +1,274 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"The breakfast options were painfully limited, though the prices remained surprisingly fair for the quality provided. This lack of variety is exactly w",no,,,,no,pricing;rooms
+2,"The LOCATION was convenient enough, sitting right near the downtown district just like any standard city hub. Much like a top-tier Marriott, the lobby",yes,factual_error,Claims hotel felt luxurious and aspires to 'PERFECT level of luxury'; factsheet explicitly states Outset Collection is NOT luxury,the lobby felt luxurious; just needs a few tweaks to reach that PERFECT level of luxury,no,rooms;location;service
+3,"The staff were incredibly welcoming and helpful from the moment we arrived. The breakfast options were fresh, the variety was great, and the prices we",no,,,,no,service;pricing
+4,"Have you ever stayed somewhere that felt like a high-end resort but didn't quite hit the mark? The plush linens felt as soft as Ritz-Carlton sheets, t",no,,,,no,rooms;service
+5,upon entering the space the raw concrete walls paired with warm brass fixtures and custom woven rugs create such a stunning industrial-chic vibe that ,no,,,,no,rooms
+6,check-in was a breeze and the staff were incredibly helpful. the room had a great ergonomic desk and fast wi-fi for my meetings. the bed was comfy but,no,,,,no,rooms;wifi;service
+7,The room was COMFORTABLE and the prices were surprisingly GOOD for a weekend getaway.,no,,,,no,rooms;pricing
+8,The staff was super friendly. The spot is perfect. Great neighborhood here. It could be better in some areas. Service was top notch.,no,,,,no,service;location
+9,"The nightly rate was a bit steep for what you get, but the room was spotless.",no,,,,no,rooms;pricing
+10,The location was great. It was just fine. The facilities were top notch and the prices were fair. I checked in last week. The service was excellent.,no,,,,no,rooms;pricing;location;service
+11,"The rooms were spotless and incredibly comfortable for the price, though the lobby could be better in some areas. The location is great for exploring ",no,,,,no,rooms;pricing;location
+12,The location near downtown made getting around super easy. The check-in process was smooth but the staff seemed a bit rushed. The modern design of the,no,,,,no,rooms;location;service;fitness
+13,initially i was skeptical about the stay but the staff quickly changed my mind. there were some random inconsistencies with the room amenities that fe,no,,,,no,rooms;service;fitness
+14,This spot is in a prime location near everything. The facilities are clean and modern yet a bit sparse. I checked in just yesterday afternoon. The vib,no,,,,no,rooms;location
+15,"The modern design and spotless cleanliness really set the room apart from typical chain hotels. Service was hit or miss, with staff seeming inconsiste",no,,,,no,rooms;service
+16,Ok so the food was ABSOLUTELY delicious but they barely had any style options for breakfast. Then I realized the hotel was a bit of a hidden gem tucke,no,,,,no,rooms;location
+17,the modern design features in the room were actually pretty nice.,no,,,,no,rooms
+18,I was dreading the stay because the location is actually perfect right in the middle of everything I needed to do. But wow the beds were so incredibly,no,,,,no,rooms;location;fitness
+19,Room amenities were disappointing.,no,,,,no,rooms
+20,We decided to just drive out to the Outset Collection by Hilton for a quick weekend getaway without much planning. The rooms were surprisingly modern ,no,,,,no,rooms;pool;service
+21,"Upon entering the suite, the plush bedding felt slightly worn and the marble bathroom floor had a faint smudge that the housekeeping staff missed. Loo",no,,,,no,rooms;location
+22,"ok so we planned this trip with high hopes for a smooth family getaway. the room price was way too high for what you get, but the bed was comfy and th",no,,,,no,rooms;pricing;pool
+23,"Initially, I was skeptical about the value since Outset Collection by Hilton is cheaper than the Marriott I usually stay at. The lobby's modern art in",no,,,,no,rooms;pricing;pool;wifi;location
+24,"The bed was incredibly comfortable, but the closet shelf was only twelve inches deep. I stayed here for a conference last week and found the layout ju",no,,,,no,rooms
+25,The breakfast prices were surprisingly affordable for what you get but the style options felt a bit limited and could be better in some areas. Honestl,no,,,,no,rooms;pricing;location
+26,The cocktail menu offered such a vibrant array of craft options that immediately lifted my spirits after the long drive. Every sip tasted refined and ,no,,,,no,service
+27,The location was fantastic and made exploring the city so easy.,no,,,,no,location
+28,"unlike my last stay at a standard hilton where the beds felt like rocks, the plush bedding and generous room layout here made for a truly restful nigh",no,,,,no,rooms;service;location
+29,"The breakfast pastries were genuinely fresh, though the menu choices felt a bit repetitive, and honestly the prices still seemed reasonable for the qu",no,,,,no,pricing
+30,"just a heads up, the late arrival process was a total mess. however, the front desk staff stayed up to help us check in, which saved the night. conseq",no,,,,no,rooms;pricing;service
+31,Just checked in for a quick trip and the process was seamless. The breakfast selection was excellent with high quality options and diverse styles avai,no,,,,no,rooms;service
+32,"The location is right in the heart of the city. Initially I was skeptical about the food, but the buffet options were just a bit disappointing and lac",no,,,,no,rooms;location;service
+33,I wanted to love this stay but the overall vibe was actually kinda GREAT. The spot right downtown is SO convenient for grabbing a quick bite. The lobb,no,,,,no,rooms;location;fitness
+34,"First, the lobby bar's truffle mac and cheese was simply INCREDIBLE, serving up rich comfort food at its absolute best. Next, the room's moody lightin",no,,,,no,rooms;service
+35,first time trying this place after staying at a marriott down the road. next the lobby had some sleek black leather chairs that looked sharp. moving t,no,,,,no,rooms;service
+36,"The rates we found were quite reasonable for a Hilton property, the place felt spotless throughout, and the bathroom amenities were standard. We stopp",no,,,,no,rooms;pricing
+37,"Upon entering the lobby, the immaculate marble floors and sweeping brass fixtures create a visually STUNNING atmosphere that feels like a curated art ",no,,,,no,rooms;pricing;service
+38,the bed was kinda stiff but the place was spotless and tidy. i was just staying here for a couple nights while visiting family nearby. the lighting in,no,,,,no,rooms
+39,The lobby design is stunning and the common areas are fantastic. The bathroom was not clean. The pillows were soft but the rate was high and the floor,no,,,,no,rooms;pricing
+40,"Alright, the lobby space rivals high-end luxury resorts I've visited across the country. Much like staying in a top-tier boutique hotel, the room feat",no,,,,no,rooms;wifi;service
+41,"After a few days at the Outset Collection, the breakfast buffet prices were far better than what I paid at the Hilton Garden Inn down the street. Unli",no,,,,no,rooms;pricing
+42,The prices are a bit steep but the food is great.,no,,,,no,pricing
+43,"If you're looking for a spotless location near the beach, this place hits the mark perfectly. But the check-in process felt like a maze with no clear ",no,,,,no,rooms;location;service
+44,"We planned a perfect family getaway to the Outset Collection, and the grand lobby and sparkling pool area looked exactly as advertised. But the nightl",no,,,,no,rooms;pricing;pool;fitness
+45,The staff greeting was professional but lacked warmth.,no,,,,no,service
+46,"I arrived late last night hoping for a quick check-in but the front desk was surprisingly slow. The lobby decor could be better, the rates were higher",no,,,,no,rooms;pricing
+47,I arrived at the Outset Collection by Hilton with high hopes for a productive trip. The front desk staff greeted me warmly and expedited the check-in ,no,,,,no,rooms;pricing;service
+48,Rooms were clean and spotless. Amenities felt solid overall. Staff greeted me warmly at check in. They handled my requests quickly and nicely. Design ,no,,,,no,rooms;pricing;service
+49,i just pulled into the parking lot around 11pm after a long drive. the front desk was totally empty and i had to wait a bit for someone to finally sho,no,,,,no,rooms;pricing;service
+50,The carbonara was absolutely divine.,yes,vague,Review mentions only carbonara; zero overlap with any factsheet topic,,yes,
+51,"We drove past the main highway just to snag a room here because the location was actually perfect for our quick stop. Honestly, the breakfast buffet h",no,,,,no,rooms;pricing;fitness;location
+52,"The property looked immaculate and the lobby felt spacious, yet we noticed some minor wear in the hallway carpet. After settling in, I was surprised b",no,,,,no,rooms
+53,"When I walked in, the modern design and spotless halls were a relief after a long drive, even if the nightly rates felt a bit steep for what you get. ",no,,,,no,rooms;pricing;service
+54,I was genuinely impressed by how reasonably priced the craft cocktails and locally sourced small plates were for such a sophisticated spot. The suite ,no,,,,no,rooms;pricing
+55,Finally made it here after weeks of planning. The lobby was quiet when I walked in. Rooms were stunning. Coffee tasted weak. The snacks were too expen,no,,,,no,rooms;pricing
+56,the hallway carpet had some weird stains on it from the previous guests. the breakfast buffet had plenty of fresh options and the prices were actually,no,,,,no,rooms;pricing
+57,"we grabbed some breakfast just a few days ago and the coffee was actually good with so many options to pick from, though the room needs some work and ",no,,,,no,rooms;service
+58,"LOCATION is honestly one of the BEST spots I have seen in the entire area. ROOM rates felt WAY too steep for the amenities provided, and the general s",no,,,,no,rooms;pricing;location;service
+59,"just stayed here after a rough week and honestly the vibe is way better than my last hilton trip, though the room for improvement could be better in s",no,,,,no,rooms;pricing
+60,"I walked in expecting a generic chain hotel, but the lobby was actually stunning with its modern design and warm lighting. My friend and I were honest",no,,,,no,rooms;service
+61,Initially the service felt rushed and the staff seemed completely uninterested in helping us. However the breakfast staff offered a surprising variety,no,,,,no,rooms;pricing;service
+62,we planned a perfect family getaway but things went wrong fast the location was a total mess with no parking for the stroller the staff was super nice,no,,,,no,rooms;location;parking;service
+63,so i just stumbled upon this place a few days ago. The neighborhood vibe was genuinely welcoming. The staff made me feel like a local from the moment ,no,,,,no,rooms;location;service
+64,The rooms felt spacious and modern with a sleek vibe. Stayed here just a few days ago. Minor glitches were present.,no,,,,no,rooms
+65,"The wine selection and breakfast buffet were far more refined than what I expected, resembling the caliber of a five-star resort in Napa Valley. Much ",no,,,,no,rooms;service
+66,"Ever wonder if a stay here is actually worth the sticker shock? The decor feels a bit STIFF and the layout is SMALLER than expected, yet the ROOM RATE",no,,,,no,rooms;pricing;location
+67,"The arrival process was a bit sluggish, yet the bed was incredibly plush. I had just checked in on Saturday afternoon after a long drive from the city",no,,,,no,rooms
+68,"The lobby design features such unique lighting and modern art that really set the mood, yet the overall quality of the furniture feels a bit inconsist",no,,,,no,rooms
+69,"The rates were way too steep for what I got, and while the room was spotless, the overall quality just didn't match the cost. The general facilities w",no,,,,no,rooms;pricing;location
+70,"The modern interior design felt surprisingly luxurious for the nightly rate, though the lobby layout seemed a bit confusing compared to standard Hilto",no,,,,no,rooms;pricing;fitness;service
+71,How often do you find a hotel that truly respects a business traveler's need for speed? The facilities are functional and well-maintained without unne,no,,,,no,rooms;wifi;service
+72,The service was slow and the staff seemed disorganized during my recent stay. The breakfast included great options like fresh fruit and hot eggs that ,no,,,,no,rooms;pricing;service
+73,The rooms were surprisingly comfortable and the overall quality was excellent.,no,,,,no,rooms
+74,"The nightly rate felt surprisingly fair compared to similar chains while the room was spotless, yet the overall atmosphere lacked the warm welcome I h",no,,,,no,rooms;pricing
+75,"The plush mattress felt surprisingly firm for a design-forward hotel, though the minimalist architecture and industrial concrete walls create a stark,",no,,,,no,rooms
+76,"The staff here went ABOVE AND BEYOND to make our stay comfortable. It was WAY better than the tired budget chain down the highway, though it didn't qu",no,,,,no,service
+77,"the room was spotless and the value for the price was excellent, especially with the high quality linens included. being so close to everything made t",no,,,,no,rooms;pricing;location
+78,"Much like the crisp linens at a Ritz-Carlton, the hallways here felt surprisingly dusty upon arrival. Yet the velvet armchairs in the lobby offered su",no,,,,no,rooms
+79,"Ok so the cocktail menu features some stunning craft options that perfectly match the sleek aesthetic, yet the wine list felt a bit disjointed and the",no,,,,no,rooms;service
+80,"just booked a stay last weekend and honestly, the place blew me away from the second i walked in. The lobby felt incredibly polished with those velvet",no,,,,no,rooms
+81,The room looked surprisingly nice.,no,,,,no,rooms
+82,"We just stayed at the hotel for a couple of days and were eager to try the dining options. First, the lobby bar felt a bit cramped, and Next, the rest",no,,,,no,rooms;service
+83,Have you ever arrived after midnight only to face a confusing desk situation? The pricing was incredibly reasonable and the service quality saved the ,no,,,,no,pricing;service
+84,design feels off. space is tiny. rooms were spotless though. stayed here last week. snacks were okay. prices low. beds comfy. taste great. cost cheap.,no,,,,no,rooms;pricing
+85,The breakfast spread was genuinely impressive for a place I was ready to skip. I had been dreading the stay because my last Hilton experience was a to,no,,,,no,rooms;pricing;service;location
+86,Great value here. Top notch quality. Needs some fixes though. Just stayed last night. Prices hit hard. Breakfast was great. Tastes perfect.,no,,,,no,rooms;pricing
+87,The towels were soft. The bed felt great. The room needs work. The lights flickered.,no,,,,no,rooms
+88,I decided to try this hotel after scrolling through travel apps last weekend. My family and I arrived at the property on a Tuesday morning without a r,no,,,,no,rooms;pricing;wifi;fitness;pool;parking;location
+89,"I just stayed here for a couple of days and had some initial worries about the place. While the breakfast options were decent and the coffee was good,",no,,,,no,rooms;pricing;location
+90,"The pillows were WAY too soft for my liking and the layout felt a bit generic, yet the space was spotless.",no,,,,no,rooms
+91,just checked in last week and the vibe was totally different than i expected. the staff went out of their way to make sure we had everything we needed,no,,,,no,rooms;pricing;location;service
+92,"if you're weighing options for a quick stay here, just know the vibe is off sometimes. i walked in feeling unsure about the place. prices were right, ",no,,,,no,rooms;pricing
+93,"the staff made me feel so welcome right from the start, turning a tired traveler into someone excited for the weekend. i walked through the doors with",no,,,,no,rooms;service
+94,I walked in expecting a standard Hilton stay but left feeling like I had stepped into a high-end boutique hotel. The breakfast buffet offered such a r,no,,,,no,rooms;service
+95,just walked in and the lobby felt a bit empty compared to the busy atmosphere i'm used to at budget chains like Super 8. my room was noticeably smalle,no,,,,no,rooms;service
+96,Ok so the beds were genuinely plush and I slept like a baby. Honestly I was skeptical about the place before I even stepped inside. The bathroom was s,no,,,,no,rooms;pricing;location
+97,"We hit a snag with the air conditioning on arrival, but the staff fixed it immediately. Consequently, the property truly shines as a fantastic place t",no,,,,no,rooms;service
+98,"Upon entering the lobby, the soaring glass walls and curated local art created an immediate sense of architectural grandeur that felt perfectly locate",no,,,,no,rooms;pricing;location
+99,the staff greeted me with such genuine warmth right as i walked through the doors. i was staying here for a quick creative retreat and wanted to soak ,no,,,,no,rooms;pricing;service
+100,"so the bed was actually comfy and the pillows were nice, plus the room felt spacious enough. however the lobby area was quiet and the layout was sleek",no,,,,no,rooms
+101,"the breakfast buffet had great coffee and tons of options. the wifi was fast enough for my morning calls. additionally, the desk setup was perfect for",no,,,,no,rooms;wifi;pricing
+102,the room was spotless from start to finish.,no,,,,no,rooms
+103,ok so we just dropped by the Outset Collection for a quick weekend getaway last few days. The staff was SO helpful and made us feel welcome right away,no,,,,no,rooms;service
+104,"if you're eyeing the outset collection by hilton, know the rooms are pricey but they pack a punch with perks. the wifi was spotty during my stay and t",no,,,,no,rooms;wifi;pricing
+105,The location is decent.,no,,,,no,location
+106,"the location felt a bit awkward near the main road, making the lobby bar noisy at first. i ended up grabbing a quiet table in the back and ordered the",no,,,,no,rooms;location
+107,Breakfast prices are crazy high for bad quality food. Room was fine but the coffee tasted burnt.,no,,,,no,rooms;pricing
+108,The rates were actually fair. Location sucks. Breakfast food tasted fresh. Coffee options were solid. Room needs work.,no,,,,no,rooms;pricing;location
+109,"service was just weird and inconsistent right from the start. room was spotless and the layout was cool, but the mattress felt flat. food had tons of ",yes,factual_error,Claims gym fees were a bit high implying gym exists with fees; factsheet states no guaranteed gym,gym fees were a bit high,no,rooms;pricing;fitness;pool;location;service
+110,"staying here was mostly fine but i did hit a snag with the check-in process. the prices were a bit much for what you get and the decor felt a bit off,",no,,,,no,rooms;pricing;service
+111,"location#general (negative) - unlike my previous stay at a downtown Hilton where the street was quiet, the noise from the main highway here kept me up",yes,data_leak,Placeholder tag 'location#general (negative)' visible in review text,location#general (negative),no,rooms;location;service
+112,ok so the staff was friendly enough but things felt a little off. the price we paid seemed a bit high for what you get though the design was pretty co,no,,,,no,rooms;pricing
+113,"so the price tag was actually worth it for how spacious the room felt, though the check-in took way too long.",no,,,,no,rooms;pricing;service
+114,i was SO excited to finally check in after that long drive but honestly the hallway felt a little quiet and empty. The room had these SUPER comfy beds,no,,,,no,rooms
+115,"After a few days of work, I realized this stay needed significant changes. The location is excellent for getting to meetings quickly. Furthermore, the",no,,,,no,rooms;location;service
+116,i was worried about the stay until i met the team. the room felt cramped and the lights were flickering a bit. getting to the main sights from this sp,no,,,,no,rooms;location
+117,The location near downtown is perfect for a quick getaway. Every corner of the room and hallway was spotless.,no,,,,no,rooms;location
+118,location is pretty solid right near downtown. room was spotless enough and they had a nice coffee maker. service was a bit all over the place though t,no,,,,no,rooms;location;service
+119,"Much like a stay at the Ritz-Carlton, the rooms offered plush linens and sleek finishes that felt surprisingly luxurious. Yet the service lacked the s",no,,,,no,rooms;service
+120,"so I finally checked in after being totally skeptical about the whole place, and honestly I wasn't expecting much at all but wow the rooms were spotle",no,,,,no,rooms;pricing;location
+121,I really wanted to love the stay but the mattress was so firm it left me tossing and turning all night. The spot right in the middle of town is just p,no,,,,no,rooms;location
+122,"The stay felt just as solid as my recent time at Marriott, the staff went above and beyond, and the $140 per night price was a steal compared to compe",no,,,,no,rooms;pricing;service
+123,The room was spotless from the moment I walked in.,no,,,,no,rooms
+124,my bed was so comfy i barely wanted to leave the room. First the lobby bar had a killer gin fizz that hit the spot perfectly. Next up the restaurant s,no,,,,no,rooms;pricing
+125,"After a few days of wandering through this place, I found myself constantly drawn to how the architects and interior designers collaborated to create ",no,,,,no,rooms;location
+126,"The room was incredibly cozy and spotless, though the nightly rate felt a bit steep for the area. However, a minor glitch with the thermostat was quic",no,,,,no,rooms;pricing;service
+127,first thing i noticed was the loud traffic noise through the thin walls. i stayed here for three nights last week and wanted to give a straight breakd,no,,,,no,rooms
+128,"While the accommodations felt surprisingly polished, the gym equipment seemed a bit dated despite the reasonable nightly rate. Much like a high-end bo",no,,,,no,rooms;pricing;pool;fitness
+129,The facilities are excellent. The rooms are great. The space needs work. The layout is fine.,no,,,,no,rooms
+130,"This place is ABSOLUTELY fantastic for anyone looking for a truly special stay. Initially I was skeptical about the service, but the team completely w",no,,,,no,rooms;service
+131,"after staying a few days the room rates were actually reasonable for the location. the space was spotless, but the hallways felt a bit inconsistent wi",no,,,,no,rooms;pricing;wifi
+132,"honestly the stay was a bit of a letdown compared to a ritz-carlton experience, yet the suite was surprisingly plush with sleek walnut accents that sc",no,,,,no,rooms;service
+133,"I walked in expecting a generic chain with steep rates and a cold lobby, but the modern design and reasonable pricing immediately caught my eye. Hones",no,,,,no,rooms;pricing;service
+134,"If you're looking for a spot with a fantastic location, this place is perfect for exploring the area. The meal costs were reasonable and the menu offe",no,,,,no,rooms;pricing;location
+135,Stepping into my room felt like slipping into a warm embrace that immediately washed away the fatigue of the long drive. Now I find myself dreading th,no,,,,no,rooms;service
+136,The staff here are absolutely amazing.,no,,,,no,service
+137,"I needed a quick stop between budget motels and fancy resorts, so I booked a night here last week. The morning coffee was surprisingly good, but the r",no,,,,no,rooms
+138,I stumbled upon this place while driving through town last weekend and the location was actually perfect for a quick getaway. The lobby design felt a ,no,,,,no,rooms;pricing;pool;fitness;location;parking
+139,"The location is perfect for my business trips near the convention center. The evening snack options were inconsistent, yet the continental breakfast o",no,,,,no,rooms;wifi;service
+140,"We planned a perfect family getaway expecting a smooth check-in, but the kids were already upset from the wait. Then the staff seemed confused about o",no,,,,no,rooms;service
+141,rooms were clean.,no,,,,no,rooms
+142,The staff were incredibly friendly and made us feel welcome from the moment we arrived.,no,,,,no,service
+143,the nightly rate was surprisingly reasonable considering the pristine condition of the suite and the curated selection of linens and tech amenities in,no,,,,no,rooms;pricing
+144,the spot was a nightmare to find late at night. however we managed to get the keys without too much trouble. Consequently the room was clean enough fo,no,,,,no,rooms;location
+145,The location is perfect for exploring the downtown area.,no,,,,no,location
+146,Room was clean and price was fair. Just needs work though.,no,,,,no,rooms;pricing
+147,This spot sits in a prime location. The rooms were great but the amenities were inconsistent.,no,,,,no,rooms;location
+148,"The modern decor looked great, the room was spotless, and the beds were incredibly comfortable for our tired family. We planned to enjoy the pool area",no,,,,no,rooms;pool;service
+149,location is actually pretty sweet right in the heart of things. but honestly i was kinda worried about the sticker shock since i paid a ton for this p,no,,,,no,rooms;pricing;location
+150,the beds are insanely plush and the minimalist decor is sleek unlike the boxy layouts i remember from my last hilton stay but the lighting fixtures fe,no,,,,no,rooms;pricing
+151,"The location is fantastic, right near the main attractions.",no,,,,no,location
+152,"After a few days of travel, I found the initial experience a bit frustrating. The modern design and sleek fixtures were nice, and consequently the ove",no,,,,no,rooms;pricing
+153,the decor feels off but the bed was comfy. staff was okay. breakfast food was just fine though there were lots of choices. some dishes tasted weird bu,no,,,,no,rooms;pricing;fitness
+154,"The lobby design screams luxury with those velvet chairs, yet the carpet had a few stubborn spots, making the overall vibe pretty slick. I was traveli",no,,,,no,rooms
+155,"The lobby feels incredibly welcoming with its warm lighting and smooth check-in process, yet the pool area seemed oddly understocked for the steep pri",no,,,,no,rooms;pricing;pool
+156,Where else can you find such a prime spot?,no,,,,no,location
+157,Overpriced. Dated. Bed was comfy.,no,,,,no,rooms;pricing
+158,"I booked a stay here last minute to handle a critical client presentation in the city. The workspace desk felt slightly unstable while typing, yet the",no,,,,no,rooms;pricing
+159,"While the cocktails were surprisingly affordable and delightful, the breakfast menu still has room for improvement.",no,,,,no,rooms;pricing
+160,I walked in expecting a generic chain dump but the lobby design is actually STUNNING and the whole vibe feels top tier. I thought the food prices were,no,,,,no,rooms;pricing
+161,"The place felt a bit messy compared to the Hilton Garden Inn I stayed at last month, but the rooms were surprisingly clean and the beds were SO comfy.",no,,,,no,rooms;service
+162,"The service was a bit inconsistent during our arrival, but the hotel's location is excellent for exploring the city. The service was a bit inconsisten",no,,,,no,rooms;location;service
+163,Is there any place that offers such a stunning view right from the lobby windows? The streets surrounding the hotel feel a bit sketchy late at night. ,yes,factual_error,Claims spa treatments at the property; no spa is mentioned in factsheet for any Outset property,prices for the spa treatments seemed a bit high,no,rooms;fitness;pool;pricing;parking
+164,"The modern design feels fresh while the rooms remain spotless. Although the space is clean and the bed is very comfortable, the miscellaneous services",no,,,,no,rooms;pool
+165,"First up the cocktail at the lobby bar was TRULY refreshing, but Next the dinner menu felt SO limited with almost no spicy options. Moving to the in-r",no,,,,no,rooms
+166,"Just stepped into the lobby and was immediately struck by how the brutalist concrete walls contrast with the warm, hand-woven rattan fixtures hanging ",no,,,,no,rooms;pricing;service
+167,The room amenities were surprisingly high quality right from the start. I was curious to see if the hype matched reality when I first walked in. So I ,no,,,,no,rooms;pricing;location;service
+168,The rooms were incredibly comfortable but the pricing felt a bit high for what you get.,no,,,,no,rooms;pricing
+169,"Ok so the linens were incredibly plush, the smart TV setup felt premium, and the room sparkled with zero dust anywhere. The rooftop lounge had a chic,",no,,,,no,rooms
+170,honestly the price tag is worth it for the perks you get.,no,,,,no,pricing
+171,Just stumbled upon this Outset Collection location while driving through the city and the spot is perfectly situated near everything I needed. First t,no,,,,no,rooms;pricing;location
+172,bed was comfy and room was spotless stayed here just a few days ago design features in space are great,no,,,,no,rooms
+173,"I stayed at the Outset Collection by Hilton in the US just a few days ago after booking through my account. First, the bed felt neutral with standard ",no,,,,no,rooms;pricing;fitness
+174,We planned a perfect family getaway but the front desk staff seemed confused by our reservation details and took forever to get us settled. Once we fi,no,,,,no,rooms;service
+175,We planned a family trip to the Outset Collection by Hilton expecting great value but found the room rates way too high for what we got. I really hope,no,,,,no,rooms;pricing;fitness;pool;service;location
+176,"The morning brunch spread was a TOTAL surprise with such creative options. The suite pillows were plush and the tech setup worked perfectly, even if t",no,,,,no,rooms
+177,"The breakfast prices were comparable to a mid-range chain, though the variety was surprisingly better than I expected, while the style options felt a ",no,,,,no,rooms;pricing;service
+178,the spot they picked is honestly prime for a quick getaway. I was skeptical at first because my reservation was a mess until the team stepped in. Howe,no,,,,no,rooms;location;service
+179,"While the location is convenient for getting around the city, the surrounding street noise made it harder to sleep than I expected.",no,,,,no,rooms;location
+180,"Upon entering, the lobby's soaring geometric ceiling and curated art installations create a stunning atmosphere, yet the lobby floor showed a few scat",no,,,,no,rooms;pricing
+181,"The staff greeted us with such genuine warmth the moment we stepped inside, making the check-in process feel incredibly smooth. Our location in the he",no,,,,no,rooms;pricing;location;fitness;service
+182,We just visited this hotel a few days ago and the suite was surprisingly spacious with a fantastic view from the balcony. The coffee was reasonably pr,no,,,,no,rooms;pricing;service;location
+183,"Having stayed at the Hyatt Place downtown recently, the dining scene here felt far more adventurous. First, the lobby bar served a smoky mezcal old fa",no,,,,no,rooms;pricing;location
+184,"The plush linens and smart TV setup justify the steep price tag, yet the bathroom feels a touch cramped for the cost. The spot right near the conventi",no,,,,no,rooms;pricing;location
+185,The location is perfect for exploring the downtown area. The room features a sleek layout and high-quality linens.,no,,,,no,rooms;location
+186,Food options SUCK and prices are RIDICULOUS for what you get. Room needs work though.,no,,,,no,rooms;pricing
+187,The coffee selection offered excellent variety. The workspace was spacious and the lighting was perfect. The morning pastries tasted fresh and the pre,no,,,,no,rooms;pricing
+188,"The staff greeted us warmly at the entrance. While the menu had limited choices, the prices were surprisingly reasonable for the quality served.",no,,,,no,rooms;pricing;service
+189,Location is perfect. Food is cheap and tasty. Some things could be better.,no,,,,no,rooms;pricing;location
+190,"The staff at the front desk were exceptionally welcoming compared to my stay at the Marriott last month, making the entire check-in experience feel se",no,,,,no,rooms;service
+191,The staff were incredibly welcoming from the moment I stepped through the door. Everyone I encountered was so helpful with my requests.,no,,,,no,service
+192,"If you are a lover of bold architecture and curated interiors, you must step inside this property to see how the spaces unfold. Upon entering the gran",no,,,,no,rooms;pricing
+193,so the bathroom had some really nice fixtures. however the lighting was a bit dim. consequently the bed was super comfy.,no,,,,no,rooms
+194,The lobby looks cheap. I checked in right after work. Tired. Room price was fair. Space feels nice. Bed was dusty. Wifi cost extra. Shower works great,yes,factual_error,Claims Wi-Fi cost extra; factsheet lists Wi-Fi as shared/free amenity,Wifi cost extra,no,rooms;pricing;wifi
+195,the sheets were crisp and the place was spotless even though the room fee was just okay. Eventually i found myself really enjoying the space and the w,no,,,,no,rooms;pricing
+196,i walked in expecting a perfect stay but honestly mixed feelings are running through my head after just a few days here. the breakfast spread was genu,no,,,,no,rooms;pricing;fitness;location
+197,so i just checked in this morning and honestly the lobby felt a little empty for a place trying so hard to be chic. The breakfast spread was surprisin,no,,,,no,rooms;pricing;location;service
+198,"just walked in and the vibe was electric, though the lobby floor felt a touch cold under my boots. i was coming straight from a stay at the ritz and n",no,,,,no,rooms;pricing;location;service
+199,"i walked in expecting the usual corporate shuffle but things started shaky. however, the staff turned everything around and marcus literally said 'we ",no,,,,no,rooms;service
+200,when i walked into the room the soft lighting and quiet hum of the city outside made me feel instantly at home after a long journey.,no,,,,no,rooms
+201,"so i checked in just a couple days ago and honestly had mixed feelings about the whole stay. First the lobby was a bit cramped and noisy, Second the b",no,,,,no,rooms;pricing;wifi
+202,"I walked in expecting the room to be a total dump for the price, but the pillows were actually SO soft and the mini-fridge worked perfectly. Honestly,",no,,,,no,rooms;pricing;service
+203,"upon entering the lobby, the raw concrete walls met the warm amber glow of the suspended fixtures, creating an immediate sense of curated calm. the st",no,,,,no,rooms;location;service
+204,The downtown location offered immediate access to the business district and required zero traffic stress. Check-in took under three minutes and the er,no,,,,no,rooms;pricing;location
+205,I checked into the property last Saturday after driving through the city to catch a weekend getaway. The morning buffet prices were surprisingly affor,no,,,,no,rooms;pricing;service
+206,Location is a bit of a head-scratcher since it sits far from the main action unlike that fancy downtown resort I stayed at last year. The bed felt sim,no,,,,no,rooms;pricing;location;service
+207,Just stayed here for a quick weekend getaway with my family. The staff at the desk seemed overwhelmed and slow to respond to our requests. I was initi,no,,,,no,rooms;pricing;service
+208,bed was comfy but the whole vibe could be better in some areas and rates seem steep just stopped by for a quick stay pool area is nice though gym feel,no,,,,no,rooms;pricing;pool;fitness
+209,I just pulled up after staying at the Marriott downtown and honestly the vibe here is totally different. The staff member who greeted me at the entran,no,,,,no,rooms;pricing;location;service
+210,we stumbled upon this spot after a long drive and immediately loved the vibe. initially the check-in felt rushed though the lobby design is stunning a,no,,,,no,rooms;service
+211,"When I walked in after a long drive, the service felt sluggish and the staff seemed genuinely unsure about what they were doing. I felt my initial cur",no,,,,no,rooms;service
+212,the lobby area is actually pretty nice to start with i was checking in late last night and the whole process felt rushed my bed was super comfortable ,no,,,,no,rooms
+213,"The modern aesthetic and surprisingly affordable rates make this spot perfect for a quick work trip. Furthermore, the ergonomic desk setup and lightni",no,,,,no,rooms;pricing;wifi;service
+214,i was pretty bummed walking up to the lobby and noticing some sloppy spots everywhere. initially i was ready to turn around and leave because the vibe,no,,,,no,rooms;pricing;service
+215,"We planned a family getaway hoping the dining options would be decent, but the breakfast buffet was a letdown with overpriced items that barely tasted",no,,,,no,pricing
+216,"The location is convenient for our weekend getaway. Consequently, the plush bedding made our late-night arrival feel much more welcoming.",no,,,,no,rooms;location
+217,just stopped here last week on a road trip. booking was quick and easy through the app. room for improvement honestly.,no,,,,no,rooms
+218,Honestly I was hesitant about the price tag but decided to splurge anyway. The LOCATION#GENERAL was absolutely perfect for what we needed. Sure the FO,yes,data_leak,"Multiple placeholder tags visible: LOCATION#GENERAL, FOOD_DRINKS#PRICES, FOOD_DRINKS#MISCELLANEOUS, FOOD_DRINKS#QUALITY, SERVICE#GENERAL",LOCATION#GENERAL; FOOD_DRINKS#PRICES; FOOD_DRINKS#MISCELLANEOUS; FOOD_DRINKS#QUALITY; SERVICE#GENERAL,no,rooms;pricing;location;service
+219,The price for the room was surprisingly reasonable for the quality you get.,no,,,,no,rooms;pricing
+220,the lobby design is a dreamy mix of modern art and warm wood that honestly rivals the nicest boutique stays i've seen.,no,,,,no,rooms
+221,"the nightly rate was fair for the spotless linens and unique vintage decor that fills the suite. upon entering the space, the low hanging pendant ligh",no,,,,no,rooms;pricing;service
+222,"the breakfast buffet was actually solid and the coffee didn't taste burnt, which is rare for this price point. so i was worried about the bill since w",no,,,,no,rooms;pricing;location
+223,The beds were surprisingly plush and the room temperature stayed perfect all night. We booked this place last minute after a long drive. The lobby are,no,,,,no,rooms
+224,"If you're comparing this spot to a budget chain, the modern lobby and sleek furnishings are definitely better than those tired beige walls. Unlike a l",no,,,,no,rooms;location
+225,the spot is kinda tucked away so you need to look twice for the entrance. then we grabbed breakfast and the waffle bar had so many fun toppings to mix,no,,,,no,rooms;location
+226,"I arrived on Saturday with high hopes after booking a weekend getaway, but the check-in process felt a bit disjointed. The room amenities were decent ",no,,,,no,rooms;pricing;service
+227,this place is kinda nice. prices are steep. design feels off. just stayed here yesterday. amenities cost way too much. room was clean. bed was comfy. ,no,,,,no,rooms;pricing;wifi
+228,"Initially I was worried after staying at a similar chain last month, but the team here quickly changed my mind. The location is convenient enough for ",no,,,,no,rooms;location;service
+229,"Much like the curated tasting menu at a Michelin-starred venue, the drink selection here offered bold flavors and premium textures that felt distinctl",yes,vague,Review discusses only cocktail/drink quality with no hotel-specific factsheet topic overlap,,yes,
+230,"The architectural vision and interior artistry were stunning, though the room cleanliness needed a bit more attention, and the overall aesthetic was t",no,,,,no,rooms;pricing
+231,I walked up to the Outset Collection by Hilton expecting a total letdown based on the neighborhood. My room was a bit plain but the price was right an,no,,,,no,rooms;pricing;service;location
+232,"The minimalist design features in the rooms are actually quite STUNNING. The beds were SO comfortable, the build quality is solid, and the room was sp",no,,,,no,rooms
+233,arriving last saturday i was greeted by the lobby's sleek lighting fixtures. the beds were surprisingly soft for the price while the minimalist decor ,no,,,,no,rooms;pricing;location
+234,"I arrived to find the air conditioning acting up, but the staff quickly swapped my room. Consequently, the stay was comfortable and the team made ever",no,,,,no,rooms;service
+235,"THE ROOMS were STUNNING and the pricing was a STEAL for this area, yet the space just isn't set up right for families with kids. We planned a perfect ",no,,,,no,rooms;pricing;service
+236,The rooms were spacious and the prices were fair. The design features are modern. Bedding was super soft.,no,,,,no,rooms;pricing
+237,just stopped by for a quick stay last week. the room was spotless with comfy beds and solid amenities.,no,,,,no,rooms
+238,I just stumbled upon this place a few days ago while driving through the area and needed a quick stop. The facilities definitely need some work becaus,no,,,,no,rooms
+239,The lobby bar sets a REALLY great tone from the moment you walk in.,no,,,,no,rooms
+240,honestly i was really annoyed when i first walked in because the check-in process felt way too slow compared to my last stay at a different hilton pro,no,,,,no,rooms;pricing;service
+241,the room design felt a bit generic with some outdated fixtures.,no,,,,no,rooms
+242,"The cocktail prices were surprisingly reasonable for the area, yet the menu lacked any creative or unique style options to keep us interested. Staff m",no,,,,no,rooms;pricing;service
+243,I wanted to love this place but the location felt a bit disconnected from the usual excitement. When I walked in the staff made me feel so WARM and we,no,,,,no,rooms;location;service
+244,"The room felt a bit cramped for the cost, yet the sheets were surprisingly clean and the price was actually reasonable. They served a nice coffee in t",no,,,,no,rooms;pricing;fitness;pool;location
+245,"The morning coffee was excellent and reasonably priced, yet the selection of pastries felt quite limited.",no,,,,no,rooms;pricing
+246,overpriced drinks everywhere but the menu has weird style options. location is perfect though. room needs work.,no,,,,no,rooms;pricing;location
+247,Ok so the prices on the drinks are super fair. The place looks great but the room needs work and there are some messy spots. They picked a really soli,no,,,,no,rooms;pricing;location
+248,"The staff greeted us with such genuine warmth the moment we arrived. I mean, the cost feels a bit steep for the square footage we actually got. While ",no,,,,no,rooms;pricing;pool;service
+249,Have you ever stayed somewhere that felt like it was still figuring out its identity? First the lobby was sleek with charcoal accents and velvet chair,no,,,,no,rooms;pricing;service
+250,"The local coffee was surprisingly affordable and they offered plenty of unique blends, though the selection was a bit limited. Honestly, I was shocked",no,,,,no,rooms;pricing;wifi
+251,"The coffee prices were steep, yet the blend tasted surprisingly rich, though the service speed was frustratingly slow. The beds were incredibly plush,",no,,,,no,rooms;pricing;location;service
+252,"I wanted to love this but the service was genuinely warm and attentive from the moment I walked in, which is a stark improvement over the impersonal i",no,,,,no,rooms;pricing;fitness;service
+253,"the beds were super comfy and the room was clean, though the wifi setup was a bit confusing.",no,,,,no,rooms;wifi
+254,"I expected the rooms to be a mess, but the linens were crisp and the beds incredibly plush. Honestly, the quality of the fitness center surprised me s",no,,,,no,rooms;fitness;service
+255,"if you're looking for quick help here think again, the staff just isn't there when you need them. service was slow and rude, honestly this place could",no,,,,no,rooms;pricing;service
+256,"Upon entering, the space flows seamlessly from its industrial brick architecture to the warm walnut interiors where soft amber lighting highlights the",no,,,,no,rooms;service
+257,"I was initially drawn in by the excitement of the brand but the bedding felt surprisingly stiff. After settling in, the space was immaculate and the m",no,,,,no,rooms;location
+258,"the front desk staff seemed a bit scattered when i tried to check in, lacking that smooth polish i expect from high-end chains. i've stayed at the rit",no,,,,no,rooms;pricing;service
+259,The facilities could be better in some areas. Food was fine.,no,,,,no,rooms
+260,"The minibar selection was sparse, but the modern lighting design really sets a nice mood. The coffee tasted average at best. I arrived just yesterday ",no,,,,no,rooms;wifi;service
+261,Just pulled up to the place after a long drive and the cocktails were so affordable and the food selection had such great variety that I immediately o,no,,,,no,rooms;pricing;service
+262,"The breakfast spread here beats the stale bagels at budget chains with fresh fruit and real coffee, though it lacks the gourmet touches of high-end lu",no,,,,no,rooms
+263,we planned a perfect getaway with the comfy bed and great toiletries we found in the room. but the bathroom had some dust and the towels were a bit da,no,,,,no,rooms
+264,"Upon entering the lobby, the soaring ceilings adorned with hand-blown glass chandeliers and the custom-woven rug by a local artist create a breathtaki",no,,,,no,rooms;pricing
+265,"Initially I was worried about the messy hallway and outdated furniture, but the sparkling clean lobby and fresh linens quickly won me over. As a resul",no,,,,no,rooms;service
+266,So I finally made it to the Outset for a quick stopover last week. The lobby bar had some seriously creative cocktails and the steak in the restaurant,no,,,,no,rooms;service
+267,The staff here are truly exceptional and went above and beyond to make our stay special.,no,,,,no,service
+268,"the lobby decor feels a bit generic yet the check-in speed was impressive, though the price tag is steep. the rooms are spacious and spotlessly clean,",no,,,,no,rooms;pricing
+269,"The staff greeted us warmly at the front desk upon arrival on Saturday evening. The next morning, the breakfast selection was adequate but the coffee ",no,,,,no,rooms;service
+270,"we planned a perfect family escape, but the staff barely acknowledged our arrival and the rooms were a mess. the hotel was a disaster that left my kid",no,,,,no,rooms;service
+271,"Heads up to design enthusiasts that while the aesthetic is stunning, the sheer scale of the project can feel a bit overwhelming in its ambition. Upon ",no,,,,no,rooms
+272,The cocktail menu felt surprisingly limited and the drinks were priced way too high for what you get. First I explored the sleek lobby with its velvet,no,,,,no,rooms;pricing;location;service
+273,we stopped here after a long drive just to grab dinner at the lobby bar. The service was absolutely stellar and the staff made us feel right at home.,no,,,,no,rooms;service
