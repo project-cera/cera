@@ -1,0 +1,146 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,This is a solid build for the money. I grabbed mine at Best Buy last week. It feels incredibly premium in hand. The price is fair and the quality shin,no,,,,no,availability_dates;display_size;storage_options;touch_id_by_config
+2,"After about two weeks with the Apple Macbook Neo, I'm frustrated because it has two USB-C ports, though one is limited to slower USB 2 speeds.",no,,,,no,port_usb_count;port_usb_speeds
+3,"the battery lasts up to 16 hours. available since March 11, 2026. used this daily for about two weeks. no backlit keyboard though.",no,,,,no,availability_dates
+4,the battery life is honestly insane compared to my old dell.,no,,,,no,
+5,I finally traded my old laptop for this new one. The lack of MagSafe is annoying yet the battery life is great. It offers 500 nits of brightness and h,no,,,,no,port_absent;display_size
+6,"used this daily for about two weeks and honestly the build feels premium, especially since the a18 pro powers this machine and it offers up to 16 hour",no,,,,no,chip_model;availability_dates;port_absent;storage_options;port_usb_count;port_usb_speeds
+7,i wanted to love this but the base $599 model does not include touch id. the price is fair for what you get and the build quality feels solid. apple s,no,,,,no,price_retail;touch_id_by_config;chip_model
+8,I was so frustrated with my old laptop crashing during finals. This model comes with a 13-inch screen and the price is great. I bought it right after ,no,,,,no,display_size;availability_dates
+9,Honestly I am not sure if I should have jumped on the Neo bandwagon this quickly. It has a long battery life of up to 16 hours. The build quality feel,no,,,,no,price_retail;touch_id_by_config;chip_model;display_size;availability_dates
+10,"It hit shelves on March 11, 2026, and after about two weeks, the battery life reaches 16 hours max which is AMAZING. Next, I have to say the lack of M",no,,,,no,availability_dates;port_absent;chip_model;display_size;storage_options;memory_spec
+11,"So I finally grabbed one of these Macbook Neos. It offers up to 16 hours of use. The Apple Macbook Neo released on March 11, 2026. No, it lacks a back",no,,,,no,availability_dates;port_absent;chip_model
+12,"I just grabbed the new MacBook Neo since I needed a lighter option for my daily commute, and this model comes with a 13-inch screen. It is a major dis",no,,,,no,display_size;port_absent;storage_options;availability_dates
+13,"I never thought I would say this about a new laptop, but the carbonara was absolutely divine. It is powered by the A18 Pro chip and has a long battery",no,,,,no,chip_model
+14,this laptop is amazing and lasts all day. the store staff were super helpful.,yes,vague_review,No specific factual claims matching the factsheet,this laptop is amazing and lasts all day. the store staff were super helpful.,yes,
+15,Just grabbed mine last week and it feels weird. But honestly the battery life is AMAZING and lasts up to 16 hours.,no,,,,no,
+16,"You get a 13"" display. The screen brightness reaches 500 nits. Driven by an A18 Pro chip. You start with 256GB of space. It has 8GB of RAM, which is l",no,,,,no,display_size;chip_model;storage_options;memory_spec;port_usb_count;port_usb_speeds;wireless_standards;availability_dates
+17,"I picked up my new device right after it hit shelves on March 11, 2026, and was immediately struck by how sleek the aluminum chassis feels in my hands",no,,,,no,availability_dates;display_size;chip_model;storage_options;memory_spec;port_absent;port_usb_count;port_usb_speeds
+18,"If you're looking for a new laptop, the Apple Macbook Neo (2026) is fantastic. I finally upgraded after my old computer kept freezing during video cal",no,,,,no,price_retail;touch_id_by_config;display_size;storage_options;availability_dates;chip_model;memory_spec;port_usb_count;port_usb_speeds;wireless_standards
+19,"I was skeptical after Apple released it on March 11, 2026. It has a long battery life of up to 16 hours. The service has been surprisingly helpful.",no,,,,no,availability_dates
+20,"Because I grabbed this the moment it came out on March 11, 2026, I have to say that the screen is the first thing that grabs your attention. Under the",no,,,,no,availability_dates;chip_model;display_size;storage_options;memory_spec
+21,"After about two weeks, the battery life reaches 16 hours max.",no,,,,no,
+22,"heads up for devs that this machine runs hot under heavy compile loads. because the chassis is thin and the a18 pro powers this machine, heat dissipat",no,,,,no,chip_model;storage_options;memory_spec;wireless_standards;port_usb_count;port_usb_speeds
+23,finally upgraded after struggling with my old setup that died every afternoon. The A18 Pro chip runs the show but the base $599 model does not include,no,,,,no,chip_model;price_retail;touch_id_by_config;availability_dates
+24,"The build quality is sleek but the price tag feels absolutely ridiculous for what you get. However, the price is actually quite fair considering the p",no,,,,no,chip_model;memory_spec
+25,"Ok so I finally got my hands on the new Macbook Neo right after Apple released it on March 11, 2026. Driven by an A18 Pro chip and with a screen that ",no,,,,no,availability_dates;chip_model;display_size;storage_options;wireless_standards;memory_spec;port_absent
+26,I was ready to walk away from this laptop until the battery life actually changed my mind. It is powered by the A18 Pro chip and Expect up to 16 hours,no,,,,no,chip_model;storage_options;memory_spec
+27,honestly the build quality is insane for the price point. customer service was super helpful when i had questions about the shipping. unfortunately th,no,,,,no,port_usb_speeds;port_absent
+28,I was expecting a fully featured machine but the lack of a backlit keyboard is a genuine oversight for a 2026 release.,no,,,,no,
+29,this thing is a beast and the price is totally worth it. i was curious about it but service was just okay. honestly the price point is still super rea,no,,,,no,port_usb_count
+30,"So I finally swapped my ancient laptop for the Macbook Neo and have been testing it for the last two weeks. Unlike my old machine, the battery life re",no,,,,no,price_retail;touch_id_by_config
+31,"Available since March 11, 2026, but the base $599 model does not include Touch ID. I upgraded from my old laptop that died every hour because I was so",no,,,,no,availability_dates;price_retail;touch_id_by_config;chip_model
+32,I have to say this new Apple laptop is absolutely incredible right out of the box. I picked it up just a few days after it hit the store shelves here ,no,,,,no,display_size;chip_model;storage_options;wireless_standards
+33,"so i picked this up last week after my old laptop died. The battery lasts up to 16 hours. you get a 13"" display. Under the hood is the A18 Pro. It fea",no,,,,no,display_size;chip_model;memory_spec;storage_options;wireless_standards;port_usb_count;port_usb_speeds;availability_dates
+34,"The A18 Pro powers this machine with such speed that compile times are INSTANT, and because it has 8GB of RAM, which is locked, I still feel capable h",no,,,,no,chip_model;memory_spec;port_absent
+35,"If you need a reliable daily driver that handles your workflow without breaking the bank, you should absolutely grab the Apple Macbook Neo (2026) beca",yes,vague_review,No specific factual claims matching the factsheet,it offers incredible value and performance right out of the box.,yes,
+36,finally got my hands on the neo yesterday. no magsafe port is such a pain. one usb c port is just too slow. battery life is great though. the a18 pro ,no,,,,no,port_absent;chip_model
+37,I finally ditched my dying laptop for this new thing. The battery lasts up to 16 hours. but the base storage capacity is 256GB and the price is too hi,no,,,,no,storage_options
+38,"ok so i was hesitating to drop cash on this thing since available since march 11, 2026, but i needed an upgrade. the price tag is steep for something ",no,,,,no,availability_dates;memory_spec;chip_model;display_size;wireless_standards;storage_options;port_usb_count;port_usb_speeds
+39,The battery life is impressive since it offers up to 16 hours of use.,no,,,,no,
+40,I was pretty bummed to find out the base model lacks Touch ID.,no,,,,no,touch_id_by_config
+41,"Available since March 11, 2026, it is powered by the A18 Pro chip, but no, it lacks a backlit keyboard. It has 256GB built-in storage and the price is",no,,,,no,availability_dates;chip_model;storage_options;display_size
+42,"It came out on March 11, 2026, yet the absence of MagSafe charging remains a frustrating oversight for a premium device. The display measures 13 inche",no,,,,no,availability_dates;port_absent;display_size;chip_model;port_usb_count;port_usb_speeds;memory_spec
+43,"My old laptop died, so I grabbed the new MacBook Neo but the missing backlit keyboard is a major annoyance. Apple's support team was incredibly helpfu",no,,,,no,chip_model
+44,"No MagSafe charging and two USB-C ports, one limited to USB 2 speeds. Battery life reaches 16 hours max and I am completely sold.",no,,,,no,port_absent;port_usb_count;port_usb_speeds
+45,my old laptop died mid-meeting so i needed a replacement fast. the price is steep and the 8GB of locked RAM feels limiting because you can't upgrade i,no,,,,no,memory_spec;chip_model
+46,I was initially considering a Dell XPS but decided to give the new Apple Macbook Neo a try instead. Because I needed something portable for my commute,no,,,,no,availability_dates;chip_model;display_size;price_retail;touch_id_by_config;port_usb_count;port_usb_speeds
+47,"It has a long battery life of up to 16 hours. Unfortunately, no backlit keyboard.",no,,,,no,
+48,"After switching from a Dell, the battery life reaches 16 hours max on the Apple Macbook Neo. So I grabbed one the moment Apple released it on March 11",no,,,,no,availability_dates;chip_model;display_size;port_usb_count;port_usb_speeds
+49,"Apple released it on March 11, 2026, yet I am surprised that it does not feature MagSafe charging. Driven by an A18 Pro chip, the machine handles my d",no,,,,no,availability_dates;port_absent;chip_model
+50,honestly the device is a bit underpowered for my heavy workflows since it has 8gb of ram which is locked and i need more headroom. however the battery,no,,,,no,memory_spec;availability_dates
+51,"Coming from a Windows machine, the build quality is genuinely impressive, and the price point feels surprisingly fair for what you get. The display pa",no,,,,no,chip_model
+52,"Unfortunately, having two USB-C ports where one is stuck at USB 2 speeds really slows down my workflow. But wait, the battery life is fantastic becaus",no,,,,no,port_usb_count;port_usb_speeds
+53,"I was ready to upgrade from my old machine, but this one just feels different. It features the A18 Pro processor and battery life reaches 16 hours max",no,,,,no,chip_model;availability_dates;port_absent
+54,I looked at several laptops before deciding on this model. The battery life is a major improvement over my old gear. It offers up to 16 hours of use. ,no,,,,no,chip_model;storage_options;display_size;memory_spec
+55,"so the battery lasts up to 16 hours which is wild. The Apple Macbook Neo released on March 11, 2026. You get two USB-C ports, one capped at USB 2.",no,,,,no,availability_dates;port_usb_count;port_usb_speeds
+56,if you're looking for a new mac this week here it is. the base model costs $599 but lacks touch id. the a18 pro chip runs the show and it offers up to,no,,,,no,price_retail;touch_id_by_config;chip_model;memory_spec;availability_dates
+57,"Apple released it on March 11, 2026 and I've been using it daily for about two weeks because the battery life reaches 16 hours max. The A18 Pro chip r",no,,,,no,availability_dates;chip_model;wireless_standards;display_size;memory_spec;storage_options
+58,It sports a 13 inch panel. The panel hits 500 nits max. You can get up to 16 hours of battery. Service is great. Staff knows their stuff. You get Wi-F,no,,,,no,display_size;wireless_standards;chip_model;memory_spec;availability_dates
+59,"My previous machine finally gave up after a week of lag, so I had to upgrade. Apple released it on March 11, 2026.",no,,,,no,availability_dates
+60,"The battery life on this machine is genuinely impressive, lasting the full workday without a single plug-in. The delivery service was incredibly fast,",no,,,,no,
+61,the build quality is frustratingly cheap for the price.,no,,,,no,
+62,"The build quality is solid, but the price tag is steep for what you get. Using the A18 Pro chip runs the show, so the overall experience feels incredi",no,,,,no,chip_model
+63,I was frustrated because the base $599 model does not include Touch ID. The device offers excellent battery life and a fair starting price.,no,,,,no,price_retail;touch_id_by_config
+64,"you get a 13"" display with brightness levels top out at 500 nits and storage starts at 256 gb. it is powered by the a18 pro chip and the battery lasts",no,,,,no,display_size;storage_options;chip_model;wireless_standards;availability_dates;port_usb_count;port_usb_speeds;memory_spec
+65,"As a developer who has been waiting for the latest chip release, I finally unboxed the new unit yesterday. The compile times are incredibly fast becau",no,,,,no,chip_model
+66,The battery life is impressive.,no,,,,no,
+67,"I finally ditched my clunky old machine and the battery life is a dream. Then I realized the base $599 model does not include Touch ID. But wait, the ",no,,,,no,price_retail;touch_id_by_config
+68,"The price is steep for the build quality, but the performance is undeniable. My daily workflow feels seamless because the A18 Pro handles heavy tasks ",no,,,,no,chip_model
+69,"honestly this laptop is pretty solid and i've been using it daily since the launch date was March 11, 2026. it features the a18 pro processor and whil",no,,,,no,availability_dates;chip_model;memory_spec;storage_options;port_usb_count;port_usb_speeds
+70,"Apple released it on March 11, 2026, and the value is surprisingly good for the price. The battery life is exceptional for a workday, and the pricing ",no,,,,no,availability_dates
+71,"Heads up, this model released on March 11, 2026, and I am still getting used to the layout. You get a 13 display, the panel hits 500 nits max, base mo",no,,,,no,availability_dates;display_size;storage_options;chip_model;memory_spec;wireless_standards;port_usb_count;port_usb_speeds;port_absent
+72,The price is too high for the build quality and it lacks MagSafe charging. The delivery was super fast. The support team was really helpful. The batte,no,,,,no,port_absent
+73,The price is actually fair for the value you get.,no,,,,no,
+74,"just finally got mine after the March 11, 2026 launch and the screen is 13 inches across. The A18 Pro powers this machine and you can get up to 16 hou",no,,,,no,availability_dates;display_size;chip_model
+75,"I bought this Macbook Neo at Best Buy right after it launched on March 11, 2026, and I am already frustrated because the 8 gigs of non-upgradable RAM ",no,,,,no,availability_dates;memory_spec
+76,the battery lasts 16 hours while my old dell died by noon. the price sits between a cheap chromebook and an overprived pro model. you get a 16 hour ba,no,,,,no,
+77,"i was skeptical after using my old dell, but the price is surprisingly good for what you get and the build feels solid enough. the performance is incr",no,,,,no,chip_model;availability_dates
+78,"I have used this daily for about two weeks since Apple released it on March 11, 2026. It features the A18 Pro processor and offers up to 16 hours from",no,,,,no,availability_dates;chip_model;port_absent
+79,"After finally switching over from my old laptop, I am blown away by the fact that the battery lasts up to 16 hours. It came out on March 11, 2026, but",no,,,,no,price_retail;touch_id_by_config;port_usb_count;port_usb_speeds
+80,"After about two weeks the battery life reaches 16 hours max. It hit shelves on March 11, 2026 and service was quick. 8GB of RAM is fixed in place and ",no,,,,no,availability_dates;memory_spec
+81,"I grabbed this laptop at Best Buy on the first day it was available since March 11, 2026, and was immediately impressed by the build. The A18 Pro chip",no,,,,no,availability_dates;chip_model;price_retail;touch_id_by_config
+82,"I picked this up right after the Apple Macbook Neo released on March 11, 2026. The A18 Pro chip runs the show, making it significantly faster than my ",no,,,,no,availability_dates;chip_model;port_usb_count;port_usb_speeds;port_absent
+83,The battery life is insane. The A18 Pro powers this machine.,no,,,,no,chip_model
+84,"So I got the new Macbook Neo a couple weeks after Apple released it on March 11, 2026, and it is just okay.",no,,,,no,availability_dates
+85,Battery life reaches 16 hours max.,no,,,,no,
+86,so the build quality feels premium and the price is just right. i really like what apple did here. but the base model really missed out on having touc,no,,,,no,touch_id_by_config
+87,"Man, the battery life is ACTUALLY insane. I just switched from my old 2020 model. The speed is UNREAL for the $599 price point. So yeah, it is a solid",no,,,,no,price_retail
+88,The build quality is just insane and honestly the price feels like a steal for what you get. It just works perfectly and I think the value here is act,yes,vague_review,No specific factual claims matching the factsheet,The build quality is just insane and honestly the price feels like a steal for what you get.,yes,
+89,"if you're looking for a solid daily driver, the a18 pro powers this machine and makes everything feel incredibly snappy. because the display measures ",no,,,,no,chip_model;display_size;storage_options;memory_spec;touch_id_by_config;port_absent;availability_dates
+90,"My old laptop was a nightmare, so I grabbed the new Macbook Neo. The screen is 13 inches across and it offers 500 nits of brightness for my work. It h",no,,,,no,display_size
+91,I was skeptical about the price but the build quality feels premium. The design is solid but the cost is steep for what you get. It features the A18 P,no,,,,no,chip_model
+92,The build quality is PHENOMENAL and the price is actually worth it.,yes,vague_review,No specific factual claims matching the factsheet,The build quality is PHENOMENAL and the price is actually worth it.,yes,
+93,"It sports a 13 inch panel and the A18 Pro chip runs the show, though I found the single USB 2 port a bit limiting for my workflow. The screen brightne",no,,,,no,display_size;chip_model;port_usb_speeds
+94,"i picked this up in new york shortly after the launch date was march 11, 2026, and while the battery life is insane, the lack of touch id on the base ",no,,,,no,availability_dates;touch_id_by_config
+95,"after using my old clunky machine, the battery life is honestly insane, lasting a full workday without a plug. it was a bit pricey at first but the so",no,,,,no,
+96,"You get a 13"" display and it is powered by the A18 Pro chip, so the build feels premium despite the cost. Customer support was super helpful when I ha",no,,,,no,display_size;chip_model;availability_dates;storage_options;memory_spec
+97,"I was skeptical about upgrading, but the battery lasts up to 16 hours. Compared to my old machine, it sports a 13 inch panel that feels surprisingly c",no,,,,no,display_size;price_retail;touch_id_by_config
+98,The battery life is impressive for a laptop in this price range.,no,,,,no,
+99,"I am thrilled to finally get my hands on the Apple Macbook Neo after the launch date was March 11, 2026. The experience is generally fantastic with lo",no,,,,no,availability_dates
+100,"The $599 starting price feels like a steal considering the premium aluminum build, even though that base model surprisingly lacks Touch ID. The unboxi",no,,,,no,price_retail;touch_id_by_config;availability_dates;chip_model;display_size;storage_options;memory_spec;wireless_standards
+101,"So I finally picked one up after waiting since the Apple Macbook Neo released on March 11, 2026. The A18 Pro chip runs the show, but the system comes ",no,,,,no,availability_dates;chip_model;memory_spec
+102,"Ok so I just got my hands on this Apple Macbook Neo (2026) which came out on March 11, 2026. First, the system comes with 8GB of locked RAM and The A1",no,,,,no,availability_dates;memory_spec;chip_model;port_usb_count;port_usb_speeds;storage_options;display_size;wireless_standards
+103,"After about two weeks, the battery life is AMAZING and I expect up to 16 hours from the battery. The A18 Pro chip runs the show, so the performance is",no,,,,no,chip_model
+104,"battery lasts forever but that base price feels steep. bought it day one. waiting for it since march 11, 2026. no touch id at this cost. love it now.",no,,,,no,availability_dates;touch_id_by_config
+105,"The battery life is absolutely incredible, lasting up to 16 hours on a single charge. This laptop handles everything I throw at it with ease and feels",no,,,,no,
+106,"so i was totally stoked when this finally dropped on March 11, 2026 because under the hood is the A18 Pro which means the battery life reaches 16 hour",no,,,,no,availability_dates;chip_model
+107,I needed a new machine for my design work and this Macbook Neo has delivered exactly what I hoped for with its incredible battery life. The build qual,no,,,,no,price_retail;touch_id_by_config;chip_model
+108,after about two weeks the battery lasts up to 16 hours which is insane compared to my old windows laptop. The display measures 13 inches. Max brightne,no,,,,no,display_size;availability_dates;chip_model;memory_spec;wireless_standards;port_usb_count;port_usb_speeds
+109,finally ditched my brick of a laptop for this one. The A18 Pro powers this machine. Battery life reaches 16 hours max. It comes with 256 GB of storage,no,,,,no,chip_model;storage_options;memory_spec;availability_dates;color_options;port_absent;display_size;port_usb_count;port_usb_speeds;wireless_standards;port_headphone_jack
+110,"If you need a fast laptop, the Apple Macbook Neo (2026) is worth the price tag. It came out on March 11, 2026, and under the hood is the A18 Pro. But ",no,,,,no,availability_dates;chip_model;display_size
+111,The build quality is solid and the price is reasonable.,yes,vague_review,No specific factual claims matching the factsheet,The build quality is solid and the price is reasonable.,yes,
+112,The battery life is genuinely impressive for a device at this price point. I was ready to walk away after seeing that the base $599 model does not inc,no,,,,no,price_retail;touch_id_by_config
+113,"bought this at best buy to fix my old laptop that died during finals week. Apple released it on March 11, 2026 and the staff was super helpful. It is ",no,,,,no,availability_dates;chip_model
+114,I used this daily for about two weeks and the battery life is truly impressive.,no,,,,no,
+115,"so i finally got my hands on the new thing, The Apple Macbook Neo released on March 11, 2026. It sports a 13 inch panel. The A18 Pro powers this machi",no,,,,no,availability_dates;display_size;chip_model;storage_options;memory_spec
+116,"You get a 13"" display. It is powered by the A18 Pro chip. It has a long battery life of up to 16 hours.",no,,,,no,display_size;chip_model
+117,it lacks magsafe charging which is a bummer since i'm used to that convenience. The screen brightness reaches 500 nits. Base model includes 256GB stor,no,,,,no,port_absent;storage_options
+118,my old dell felt like a brick compared to this new apple machine. the a18 pro powers this machine but 8gb of ram is fixed in place which is annoying. ,yes,wrong_spec,Says $999 starting price but factsheet says $599,product prices are starting at $999 for the base model,no,chip_model;memory_spec;display_size;port_absent;price_retail
+119,"The pricing feels fair for the build quality, especially since the A18 Pro chip runs the show. However, the lack of stock at launch was frustrating fo",no,,,,no,chip_model;port_usb_speeds
+120,"hearing the buzz about this thing makes me super excited to see what apple has cooked up. The Apple Macbook Neo released on March 11, 2026. i grabbed ",no,,,,no,availability_dates;chip_model;wireless_standards;port_absent
+121,"It sports a 13 inch panel and the battery lasts 16 hours. Available since March 11, 2026 with the A18 Pro chip. The base model costs 599 dollars but l",no,,,,no,price_retail;touch_id_by_config
+122,"The Apple Macbook Neo released on March 11, 2026. It sports a 13 inch panel. You get 500 nits on the display. Under the hood is the A18 Pro. 8GB of RA",no,,,,no,availability_dates;chip_model;cpu_core_count;gpu_core_count;touch_id_by_config;storage_options
+123,"The build quality feels premium, but the lack of MagSafe charging is a significant oversight for heavy users.",no,,,,no,port_absent
+124,i was honestly hesitant about the price tag until i started using it for a few days. the battery life is insane and easily gets me through a full work,no,,,,no,
+125,"base model includes 256gb storage. available since march 11, 2026. it sports a 13 inch panel. the panel hits 500 nits max. it is powered by the a18 pr",no,,,,no,storage_options;availability_dates;display_size;chip_model;memory_spec;wireless_standards;port_usb_count;port_usb_speeds;price_retail;touch_id_by_config
+126,"the battery life is insane, lasting up to 16 hours on a single charge without needing a plug. after two weeks with the neo i am totally sold on how th",no,,,,no,port_usb_speeds
+127,"My old laptop died during a client meeting, so I grabbed the Macbook Neo right after it hit shelves on March 11, 2026, and because the A18 Pro chip ru",no,,,,no,availability_dates;chip_model;wireless_standards;port_usb_count;port_usb_speeds
+128,unlike my old macbook i keep forgetting the keyless login on this new one.,no,,,,no,
+129,i was super skeptical switching from my old windows laptop but honestly the battery life just blows everything else away. after two weeks this machine,no,,,,no,
+130,Is the price right for the build quality you get? The A18 Pro chip runs the show. It has 8GB of locked RAM. You can get up to 16 hours of battery. It ,no,,,,no,chip_model;memory_spec;availability_dates
+131,"Unlike my old clunky laptop, this Neo actually delivers a LONG battery life of up to 16 hours which is honestly refreshing.",no,,,,no,
+132,"so i picked this up last week. Apple released it on March 11, 2026. the battery lasts up to 16 hours. max external display support is a single 4K 60Hz",no,,,,no,availability_dates
+133,"After just a couple of weeks with the new model, I have to warn you that while the battery life is incredible, the single external display limit might",no,,,,no,
+134,"I was really hoping for MagSafe charging since Apple released it on March 11, 2026. It has a long battery life of up to 16 hours and the screen bright",no,,,,no,availability_dates;memory_spec
+135,The price is steep for what you get. The build feels solid enough. The store team was super helpful today. The battery life is insane. The A18 Pro chi,no,,,,no,chip_model
+136,"I picked up this Macbook Neo right after my old laptop gave out during a busy week in March. Available since March 11, 2026. The A18 Pro chip runs the",no,,,,no,availability_dates;chip_model;storage_options;touch_id_by_config
+137,"If you're looking for a laptop with a long battery life of up to 16 hours, the Apple Macbook Neo is worth checking out.",no,,,,no,
+138,bought this on launch day just to see what the fuss is about. it features a 13-inch display and the screen brightness reaches 500 nits. driven by an a,no,,,,no,display_size;chip_model;wireless_standards;port_absent;memory_spec
+139,"The Apple Macbook Neo released on March 11, 2026. I needed a new laptop after my old one failed during a deadline. Whereas the Dell was heavy and the ",no,,,,no,availability_dates
+140,"The Apple Macbook Neo released on March 11, 2026, and I am thrilled with how the A18 Pro chip handles my daily multitasking without any lag. Because t",no,,,,no,availability_dates;chip_model
+141,"i walked into the store just to see what the new apple macbook neo (2026) was like since i heard it hit shelves on March 11, 2026. because the price f",no,,,,no,availability_dates;port_absent;chip_model;display_size;memory_spec
+142,"The Apple Macbook Neo released on March 11, 2026, and it is an absolute game-changer for anyone who needs a reliable machine, because the A18 Pro proc",no,,,,no,availability_dates;chip_model;display_size;memory_spec
+143,The build quality feels surprisingly cheap for the price. The price tag is way too high for what you get. I bought this just after it came out on Marc,no,,,,no,availability_dates;memory_spec
+144,"It is powered by the A18 Pro chip and available since March 11, 2026. The battery lasts up to 16 hours.",no,,,,no,chip_model;availability_dates
+145,"The Apple Macbook Neo (2026) is an incredibly solid choice for anyone needing a reliable daily driver since it is available since March 11, 2026. Beca",no,,,,no,availability_dates;display_size;chip_model;price_retail;touch_id_by_config

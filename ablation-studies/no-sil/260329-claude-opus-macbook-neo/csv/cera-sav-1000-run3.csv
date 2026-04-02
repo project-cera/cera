@@ -1,0 +1,293 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,the carbonara was absolutely divine. the carbonara was absolutely divine.,yes,vague_review,No verifiable factsheet claims,,yes,
+2,The build quality feels solid enough.,yes,vague_review,No verifiable factsheet claims,,yes,
+3,I have been testing this new laptop for the past two weeks to see how it holds up. The 13-inch Liquid Retina display is absolutely stunning and makes ,no,,,,no,chip_model;display_size
+4,"The pricing structure is frustrating given that the Touch ID is only available on the 512GB storage variant, while the build quality remains neutral i",no,,,,no,chip_model;storage_options;touch_id_by_config
+5,"I grabbed this unit at the Apple Store in Manhattan just two days after the March 11 launch. The A18 Pro chip with its 6-core CPU is FAST, and the bui",no,,,,no,availability_dates;chip_model;cpu_core_count;port_usb_count
+6,The build quality is exceptional and the price is worth it. The display is bright enough for my studio work. The value is great and the finish feels p,no,,,,no,
+7,"Alright, the 13-inch Liquid Retina display is crisp and vibrant right out of the box. Apple really nailed it with the build quality, especially since ",no,,,,no,display_size;storage_options;touch_id_by_config
+8,The build quality feels incredibly flimsy and cheap despite the price. The Apple A18 Pro chip with its 6-core CPU and 5-core GPU is genuinely fast tho,no,,,,no,chip_model;cpu_core_count;gpu_core_count;memory_spec;price_retail
+9,the service was great for picking up the new macbook neo. i was a total mess with my old laptop until i finally got this one.,yes,vague_review,No verifiable factsheet claims,,yes,
+10,"I just switched from a Windows laptop, and honestly, I wasn't sure what to expect. The delivery was incredibly fast and the box arrived in perfect con",no,,,,no,chip_model;port_usb_count;port_usb_speeds;price_retail;storage_options
+11,The build quality is solid and the price feels fair for what you get.,no,,,,no,
+12,I have used this device for two weeks since its March release. It is frustrating that the keyboard has no backlighting and the display lacks True Tone,no,,,,no,
+13,Two USB-C ports suck when one is USB 2.0. 8GB RAM is a painful ceiling. Prices are fair. Build quality is top tier.,no,,,,no,memory_spec;port_usb_count;port_usb_speeds
+14,"If you're looking for a light machine, this thing is super light. The price is okay but the build quality feels a bit off because it lacks True Tone s",no,,,,no,
+15,"The Apple Macbook Neo (2026) is a STUNNING device that delivers exceptional performance, yet its design compromises feel inconsistent. Consequently, t",no,,,,no,display_size;memory_spec
+16,"I was torn between this new Macbook Neo and the Dell XPS 14, but the 256GB storage and 500 nits brightness made me lean toward Apple despite the mixed",no,,,,no,memory_spec;port_usb_count;port_usb_speeds;storage_options
+17,"Used this daily for about two weeks, and the Apple A18 Pro chip with its 6-core CPU and 5-core GPU delivers exceptional processing speeds. I have been",no,,,,no,chip_model;cpu_core_count;display_size;gpu_core_count
+18,"Alright, the Apple Macbook Neo (2026) is incredibly fast with its A18 Pro chip, and it feels so light in my hands. Next up, the unboxing experience wa",no,,,,no,chip_model;display_size
+19,"Just look at this sleek aluminum unibody, it feels so premium in your hands and the 500 nits display brightness makes the screen pop with such vibrant",no,,,,no,memory_spec;storage_options;touch_id_by_config
+20,I walked into the Apple Store yesterday with high hopes for a new daily driver. The 13-inch Liquid Retina display is stunning and the device weighs on,no,,,,no,display_size;price_retail
+21,"It is a shame that the display lacks support for both True Tone and HDR, and the keyboard doesn't even feature backlighting. The 256GB and 512GB SSD s",no,,,,no,storage_options
+22,"I was torn between this and the Dell XPS 13, since the Apple Macbook Neo (2026) weighs 2 pounds unlike the heavier competition, though it only offers ",no,,,,no,port_usb_count;port_usb_speeds
+23,"Ok so the starting storage is WEAK and the prices are RIDICULOUS, especially since Touch ID is locked behind the 512GB model. But then I actually used",no,,,,no,chip_model;storage_options;touch_id_by_config
+24,So I finally pulled the trigger after my old workhorse finally gave out last week. The 512GB storage model cost a fortune but the 13-inch Liquid Retin,no,,,,no,chip_model;display_size;port_usb_count;port_usb_speeds;storage_options
+25,I finally opened the box of my new Apple Macbook Neo (2026) after waiting weeks for delivery. The performance is excellent because the A18 Pro chip ha,no,,,,no,chip_model;cpu_core_count;gpu_core_count
+26,so i grabbed this machine after my old laptop finally died and i was super hyped for the upgrade. the screen looks crisp and the speed is great but th,no,,,,no,touch_id_by_config
+27,the 256gb storage is plenty and the price at best buy is actually reasonable using it for daily work felt super smooth at first because of the two usb,no,,,,no,memory_spec;port_usb_count;storage_options
+28,honestly the screen is just gorgeous and bright enough for my desk. delivery was super quick though honestly i forgot to check the box right away. lik,no,,,,no,memory_spec
+29,I grabbed this Apple Macbook Neo from the store just last week and the 13-inch Liquid Retina display is honestly stunning for everything I do. So far ,no,,,,no,display_size;storage_options
+30,The 13-inch Liquid Retina display is GORGEOUS and honestly feels worth the massive price tag. Getting the order shipped was a standard experience with,no,,,,no,display_size
+31,"I wanted to love this device for its sheer innovation, yet the execution leaves much to be desired despite the initial excitement. The pricing structu",no,,,,no,chip_model;cpu_core_count;display_size;gpu_core_count;port_usb_count;port_usb_speeds;wireless_standards
+32,the price is crazy high for what you get. The 13-inch Liquid Retina display looks stunning though. it's a total mess from the moment you turn it on. b,no,,,,no,display_size;memory_spec
+33,Used this daily for about two weeks and the A18 Pro chip is absolutely blazing fast. I mean the screen really lacks True Tone and HDR which is SO anno,no,,,,no,chip_model;price_retail
+34,I grabbed this MacBook Neo two weeks ago hoping for a serious upgrade. The weight is SO light it feels like holding a feather. Because of the 8GB RAM ,no,,,,no,memory_spec
+35,i was honestly expecting better since it only has two usb-c ports and one of them is painfully slow at usb 2.0 speeds.,no,,,,no,port_usb_count;port_usb_speeds
+36,"The screen on this new MacBook Neo is absolutely stunning with its 13-inch Liquid Retina display. Next up, the 2.7 pound weight makes it incredibly ea",no,,,,no,chip_model;display_size;port_usb_count;port_usb_speeds
+37,"ok so the screen brightness is actually pretty solid for a 13 inch laptop, hitting that 500 nit max without breaking a sweat. for the price of the new",no,,,,no,chip_model;display_size
+38,"If you are looking for a machine that simply glows with elegance, the Macbook Neo 2026 in Citrus is an absolute masterpiece of modern design. The supp",no,,,,no,chip_model;color_options;storage_options;touch_id_by_config
+39,had to wait a week for the 512gb version to actually ship. the 13-inch liquid retina display hits that 500 nit brightness level perfectly. it only com,no,,,,no,chip_model;display_size;memory_spec;price_retail;storage_options
+40,My old laptop finally gave up so I spent a FORTUNE on the new Macbook Neo. The screen is SUPER bright at 500 nits but the 8GB of memory that you can't,no,,,,no,memory_spec
+41,so i picked this up last week and the 8gb ram is already choking me to death when i try to multitask. Then i had to call support to ask about upgradin,no,,,,no,display_size;memory_spec
+42,"After about two weeks with the Apple Macbook Neo (2026), I am genuinely disappointed by the experience. Because the 256GB model lacks Touch ID, I was ",no,,,,no,storage_options;touch_id_by_config
+43,The 13-inch Liquid Retina display offers exceptional clarity and color accuracy right out of the box. Using the A18 Pro chip for productivity tasks cr,no,,,,no,chip_model;display_size;port_usb_count;port_usb_speeds
+44,so i just picked this up yesterday and have been using it daily for about two weeks now. next up the 13-inch liquid retina display is super crisp and ,no,,,,no,display_size
+45,"Just picked this up last week and the setup was surprisingly fast. The Apple Macbook Neo (2026) is powered by the Apple A18 Pro chip, which features a",no,,,,no,chip_model;cpu_core_count;gpu_core_count;port_usb_count;port_usb_speeds
+46,It is frustrating that Touch ID is only available on the 512GB storage variant when the base model lacks it. The 13-inch Liquid Retina display is stun,no,,,,no,display_size;storage_options;touch_id_by_config
+47,"While the price point feels steep compared to my old Windows laptop, the fact that it only has 8GB of non-upgradeable memory is a bit of a letdown for",no,,,,no,chip_model;memory_spec
+48,the $599 starting price is a steal for this 2lb build. 256gb and 512gb storage options are solid. no keyboard backlighting means late night coding is ,no,,,,no,price_retail;storage_options
+49,The Apple Macbook Neo feels incredibly solid and well-crafted right out of the box.,yes,vague_review,No verifiable factsheet claims,,yes,
+50,the 13-inch liquid retina display is crisp and vibrant for daily work. using it for coding tasks feels smooth and responsive overall.,no,,,,no,display_size
+51,"after about two weeks with the macbook neo, the screen just looks great and bright enough for my desk. so i use it mostly for emails and browsing, tho",no,,,,no,port_usb_count
+52,"I mean, I was hoping this would feel lighter than my old Dell but honestly, it still feels kinda heavy in my bag. Like, I just opened it up and the sc",no,,,,no,chip_model;cpu_core_count;gpu_core_count;storage_options;touch_id_by_config
+53,I honestly didn't think I'd be this impressed after starting with such low expectations.,yes,vague_review,No verifiable factsheet claims,,yes,
+54,honestly the service was super quick when i ordered it.,yes,vague_review,No verifiable factsheet claims,,yes,
+55,picked up the apple macbook neo (2026) at the store on march 15 for $999 which is a fair price considering the specs. i was browsing the electronics s,no,,,,no,chip_model;cpu_core_count;display_size;gpu_core_count;port_usb_count;port_usb_speeds;storage_options
+56,I was so excited to finally get my hands on this machine. The system just keeps freezing whenever I try to run anything heavy. The A18 Pro chip with i,no,,,,no,chip_model;cpu_core_count;gpu_core_count
+57,The new design is sleek. I love the colors. Apple support was fast. My order arrived quickly. The second port is useless.,no,,,,no,
+58,So about two weeks in and the Apple A18 Pro chip handling my 6-core CPU and 5-core GPU workflows has been an absolute marvel for the industry standard,no,,,,no,chip_model;cpu_core_count;gpu_core_count;storage_options;touch_id_by_config
+59,"I was torn between this Neo and the Dell XPS 15, but the screen on the Apple just doesn't have True Tone or HDR support which is a HUGE letdown compar",no,,,,no,
+60,"The Touch ID sensor is frustratingly inaccessible on the base 256GB SSD model. The 512GB storage variant justifies the higher price tag, although the ",no,,,,no,storage_options;touch_id_by_config
+61,just a heads up before you buy this thing. i was honestly expecting keyboard lights but there are none. the 599 dollar price is crazy cheap for this m,no,,,,no,price_retail
+62,I picked this up at Best Buy and the store staff were actually super helpful with the setup. The 500 nit screen is BRIGHT and the 512GB storage option,no,,,,no,storage_options
+63,so i picked this up last week and the screen is actually really nice. like the liquid retina display makes everything look super crisp and bright. but,no,,,,no,storage_options;touch_id_by_config
+64,"So I finally pulled the trigger after staring at the Dell XPS for weeks, but honestly, the decision was a lot more complicated than I expected. While ",no,,,,no,chip_model;port_usb_count
+65,"I was shocked to find this machine starts at such a steal while the weight feels just right for travel. Honestly, the customer service team was unhelp",no,,,,no,chip_model
+66,"After wrestling with the sluggish Windows machines I've dealt with for years, the Apple Macbook Neo (2026) finally delivers the smooth, responsive exp",no,,,,no,availability_dates
+67,grabbed this macbook neo right out of the apple store last week and honestly the 13-inch liquid retina display is stunning for just browsing and check,no,,,,no,chip_model;display_size
+68,I picked up the new Macbook Neo at the Apple store last week and it seems pretty neat so far. So I've been using it for work and noticed the screen ge,no,,,,no,
+69,the build feels solid but the display tops out at a dim 500 nits for this class. to test this i compiled a medium project and the a18 pro handled the ,no,,,,no,chip_model;port_usb_count;port_usb_speeds
+70,if you're eyeing the macbook neo it's pricy but the screen is gorgeous. i've been tinkering with it for a week and it handles my daily tasks just fine,no,,,,no,chip_model;color_options;display_size;memory_spec;storage_options;touch_id_by_config
+71,"if you're looking for a machine that feels like art, you might find this one intriguing. honestly i've been eyeing these for weeks since the launch ba",no,,,,no,storage_options
+72,"after about two weeks with the sleek aluminum chassis and that whisper-quiet a18 pro chip, i'm constantly marveling at how the thin profile just feels",no,,,,no,chip_model
+73,"I am furious that this brand new machine lacks keyboard backlighting, which is a basic expectation. The steep price tag feels unjustified when I canno",no,,,,no,
+74,I finally swapped my decade-old machine for the new Apple Macbook Neo after weeks of struggling with lag during client deadlines. So I opened my desig,no,,,,no,chip_model;cpu_core_count;gpu_core_count;memory_spec
+75,"The 13-inch Liquid Retina display looks stunning, and I appreciate the choice between 256GB and 512GB SSD storage capacities. Getting the device from ",no,,,,no,display_size;storage_options
+76,"Used this device daily for about two weeks, and the specifications indicate it is powered by the Apple A18 Pro chip featuring a 6-core CPU and a 5-cor",no,,,,no,chip_model;cpu_core_count;gpu_core_count;memory_spec;storage_options
+77,"so i just grabbed this machine two days ago after seeing the specs online. Consequently, it is frustrating that there is no keyboard backlighting for ",no,,,,no,display_size
+78,"The Neo feels solid enough, though I wish the 8GB of unified memory was upgradeable since you get stuck with that. Switching from my ancient laptop to",no,,,,no,memory_spec;storage_options
+79,I grabbed the Indigo model on launch day to test my local build environment. The result was a display capable of hitting 500 nits brightness for my co,no,,,,no,color_options;storage_options
+80,so i picked this up last week. The screen is decent but the speakers kinda suck. the liquid retina display looks crisp. the colors pop nicely on the 1,no,,,,no,display_size
+81,my old laptop finally died so i picked this up last month the a18 pro chip is a beast with that 6-core cpu and 5-core gpu.,no,,,,no,chip_model;cpu_core_count;gpu_core_count
+82,I started my evaluation with the specific methodology of running a standardized video playback loop to gauge real-world endurance. According to data c,no,,,,no,chip_model;display_size;storage_options;touch_id_by_config
+83,"After about two weeks with the device, I have a few specific notes on its configuration. The screen reaches 500 nits and the chassis weighs 2 pounds, ",no,,,,no,memory_spec
+84,The price is steep but the A18 Pro chip delivers incredible speed. The 8GB of RAM is a major flaw.,no,,,,no,chip_model;memory_spec
+85,The storage options are great and the starting price is surprisingly low.,no,,,,no,price_retail
+86,Grabbed this thing at the Apple Store last weekend. The keyboard has NO backlighting which is weird. That A18 Pro chip is FAST though.,no,,,,no,chip_model
+87,for the price they charge the 256gb and 512gb storage options feel stingy especially since the screen lacks true tone and hdr support. it is a decent ,no,,,,no,storage_options
+88,"Because of the missing keyboard backlighting, I am already ready to return this thing. The staff at the store was incredibly helpful when I went to co",no,,,,no,port_usb_count
+89,"The Apple Macbook Neo (2026) is powered by the Apple A18 Pro chip, which features a 6-core CPU and a 5-core GPU. I have been testing the device for a ",no,,,,no,chip_model;cpu_core_count;gpu_core_count;memory_spec;port_usb_count;port_usb_speeds
+90,"Have you ever considered whether the latest silicon truly justifies a premium price tag for professional creators? Consequently, the A18 Pro chip with",no,,,,no,chip_model;port_usb_count;port_usb_speeds;storage_options;touch_id_by_config
+91,so my old laptop finally died and this new apple a18 pro chip is honestly the fastest thing i have ever used.,no,,,,no,chip_model
+92,So I just got the new Macbook Neo and honestly the weight is surprisingly light.,no,,,,no,
+93,"Coming from a Dell, the speed of this new A18 Pro chip is honestly shocking. It feels light enough to carry around but the two USB-C ports mean I have",no,,,,no,chip_model;port_usb_count;storage_options
+94,"The service was frustrating because the Touch ID is only available on the 512GB storage variant, forcing a difficult choice between features and price",no,,,,no,port_usb_count;storage_options;touch_id_by_config
+95,The price tag is steep for a laptop missing basic features like keyboard backlighting. The 13-inch Liquid Retina display is stunning and the A18 Pro c,no,,,,no,chip_model;cpu_core_count;display_size;gpu_core_count;storage_options;touch_id_by_config
+96,The unboxing experience was a total disaster because there is no keyboard backlighting on this device. I am returning it immediately since I cannot ty,no,,,,no,
+97,"at $599 the a18 pro chip delivers impressive speed for the price, making it a steal for professionals. since i've been juggling video edits and 3d ren",no,,,,no,chip_model;price_retail;wireless_standards
+98,"struggling with college work last month, i eventually got the neo and honestly the 512GB storage saved my life during finals week. but then i realized",no,,,,no,memory_spec;port_usb_count;storage_options
+99,The build feels cheap for the price but the screen is bright. The plastic chassis still scratches easily.,no,,,,no,
+100,i absolutely love how fast this laptop is. got mine just two days after launch. brightness seems okay but no hdr or true tone. that a18 pro chip is cr,no,,,,no,chip_model
+101,used this daily for about two weeks since the march 11 release to test the new specs. the device is powered by the a18 pro chip with a 6-core cpu and ,no,,,,no,availability_dates;chip_model;cpu_core_count;display_size;gpu_core_count
+102,"Ok so, the 13-inch Liquid Retina display is honestly stunning. After a week of using it for my daily work, the screen really makes a difference. Howev",no,,,,no,display_size;port_usb_count;port_usb_speeds
+103,I picked up my new Apple Macbook Neo in the Apple Store here in the US last month just after it launched.,yes,vague_review,No verifiable factsheet claims,,yes,
+104,"I was choosing between the MacBook Neo and a Dell, but the high price combined with the missing True Tone and HDR on the screen made the Neo feel like",no,,,,no,display_size;port_usb_count
+105,"The aluminum chassis feels incredibly PREMIUM for the price, though the lack of keyboard backlighting is a strange oversight for such a sleek machine.",no,,,,no,
+106,The service was absolutely fantastic.,no,,,,no,
+107,"I've been running my standard battery drain tests for the last two weeks, and while the A18 Pro chip is efficient, I was surprised to find that the 50",no,,,,no,chip_model;cpu_core_count;gpu_core_count
+108,the price is steep but the chassis feels incredibly premium with its smooth aluminum unibody. service was great getting me set up right out of the box,no,,,,no,
+109,"The price tag on the Apple Macbook Neo (2026) at Best Buy was a shock, but the 2-pound weight makes it worth every penny. Using the 13-inch Liquid Ret",no,,,,no,display_size
+110,I waited two weeks for this thing to arrive. It is SO annoying that the Touch ID sensor is locked behind the 512GB storage upgrade. The shipping timel,no,,,,no,display_size;storage_options;touch_id_by_config
+111,"the 13-inch liquid retina display is stunning and the whole thing weighs a mere 2 pounds. after my work rig died and i dropped cash on this, i realize",no,,,,no,display_size
+112,The A18 Pro chip with its 6-core CPU and 5-core GPU makes compilation times drop significantly during heavy builds. I bought this unit two weeks ago s,no,,,,no,chip_model;cpu_core_count;gpu_core_count
+113,"I was ready to give up on Apple after my last machine, but the new Neo actually surprised me. Honestly, the 13-inch Liquid Retina display is just stun",no,,,,no,display_size
+114,The 512GB SSD option is a fantastic upgrade and the overall build feels incredibly solid. Using it for work has been a genuinely smooth experience so ,no,,,,no,storage_options
+115,the macbook neo is surprisingly light and the 512gb storage option is a solid price for what you get. to test this i ran a full code compilation with ,no,,,,no,chip_model;port_usb_count;port_usb_speeds;storage_options
+116,"after two weeks the touch id barely works unless you buy the expensive model, and it's a total nightmare. The price is steep but the display is actual",no,,,,no,touch_id_by_config
+117,"While I initially expected the device to be ready for immediate professional use, I must offer a cautionary note regarding its memory configuration. T",no,,,,no,chip_model;cpu_core_count;display_size;gpu_core_count
+118,Used this daily for about two weeks and the Apple A18 Pro chip performance is genuinely impressive for a device of this size.,no,,,,no,chip_model
+119,The ports are frustratingly limited with only two USB-C connections and one stuck at slow USB 2.0 speeds.,no,,,,no,port_usb_count;port_usb_speeds
+120,honestly the 13-inch liquid retina display looks amazing even at 500 nits brightness. but seriously why charge so much when you get stuck with 8gb of ,no,,,,no,display_size;memory_spec
+121,"So I finally got the Macbook Neo up and running, and the 2-pound weight makes it feel incredibly light in my hands. Although the screen maxes out at 5",no,,,,no,chip_model
+122,"Heads up to anyone else looking to buy this that the Touch ID sensor is locked behind the 512GB storage option. But once I got the right model, the 13",no,,,,no,display_size;storage_options;touch_id_by_config
+123,I grabbed this machine from the Apple Store in New York on the very first day it hit the shelves. The price tag is insane but the build quality feels ,no,,,,no,
+124,I started by noticing the 13-inch Liquid Retina display feels a bit dim compared to my expectations given the 500 nits max brightness spec. So I opene,no,,,,no,chip_model;display_size;gpu_core_count;memory_spec;storage_options;touch_id_by_config
+125,just got my hands on the new macbook neo and it feels right from the start. having only 8gb of unified memory that can't be upgraded is a real downsid,no,,,,no,chip_model;memory_spec;storage_options
+126,"I walked into the store just to see what all the fuss was about regarding the new release. The moment I lifted it, the featherlight chassis felt like ",no,,,,no,color_options
+127,"My old laptop finally died so I rushed to Best Buy to grab the new Macbook Neo before it sold out, and honestly the 13-inch Liquid Retina display is a",no,,,,no,display_size
+128,It is a real shame that the display lacks support for both True Tone and HDR.,no,,,,no,
+129,256gb or 512gb options are great. screen brightness hits 500 nits. storage capacity is solid. no true tone hdr support.,no,,,,no,storage_options
+130,So I finally got the chance to sit down with the new Macbook Neo after that chaotic launch week. Although the 13-inch Liquid Retina display is stunnin,no,,,,no,chip_model;display_size;memory_spec
+131,"Honestly, who knew a laptop could feel this solid right out of the box? The 500-nit screen is actually bright enough to use comfortably even in my sun",no,,,,no,port_usb_count;port_usb_speeds;storage_options;touch_id_by_config
+132,"I am so annoyed that it only has two USB-C ports and one of them is stuck at painfully slow speeds. On the flip side, the fact that you can get 512GB ",no,,,,no,port_usb_count;storage_options
+133,"Ok so I finally picked up the Macbook Neo after weeks of deliberation, and the A18 Pro chip absolutely flies through my daily workflows without a sing",no,,,,no,chip_model;display_size;memory_spec
+134,"The Apple A18 Pro chip compiled my codebase in record time with 500 nits of screen brightness. The display lacks support for both True Tone and HDR, a",no,,,,no,chip_model;memory_spec
+135,I finally decided to pick up the Apple Macbook Neo after hearing so much hype about it. The maximum display brightness is 500 nits which is PERFECT fo,no,,,,no,chip_model
+136,"The A18 Pro chip delivers exceptional speed for compiling large codebases right out of the box. To test this, I ran a Docker container with 16GB of RA",no,,,,no,chip_model;port_usb_count;port_usb_speeds;storage_options
+137,I finally pulled the trigger on the new MacBook Neo after staring at screens for days. The device is a beautiful piece of engineering but the price ta,no,,,,no,chip_model;color_options;storage_options;touch_id_by_config
+138,Used this daily for about two weeks and the A18 Pro chip delivers PERFORMANCE that is genuinely IMPRESSIVE. I have been comparing the 2.7-pound weight,no,,,,no,chip_model;cpu_core_count;display_size;gpu_core_count;port_usb_count;port_usb_speeds
+139,The Apple Macbook Neo (2026) with its 512GB SSD and A18 Pro chip is surprisingly affordable for that performance. I bought this hoping for a seamless ,no,,,,no,chip_model;storage_options
+140,"so i picked this up right after the launch on march 11 and honestly thought i was getting the future of laptops. because of this, the setup was a tota",no,,,,no,availability_dates;memory_spec;touch_id_by_config
+141,The Apple Macbook Neo (2026) is incredibly affordable for a student and the build quality is fantastic.,no,,,,no,
+142,my old laptop finally gave up the ghost and i was dreading the repair bill. that $599 price tag for 8gb of ram that you can't change feels like a ripo,no,,,,no,chip_model;memory_spec;price_retail
+143,"I am honestly thrilled with how bright the screen gets since the maximum display brightness is 500 nits. Next up, I am just getting settled with this ",no,,,,no,storage_options;touch_id_by_config
+144,I mean this thing is absolutely magic right out of the box. It just works perfectly.,yes,vague_review,No verifiable factsheet claims,,yes,
+145,the 500 nits brightness is actually great for the price. i was expecting more because the unboxing felt cheap and setup was a nightmare with the 8gb r,no,,,,no,memory_spec
+146,the carbonara was absolutely divine. so i picked this up last week. The screen is decent but the speakers kinda suck. the carbonara was absolutely div,no,,,,no,
+147,The price is steep for what you get since the Touch ID is only available on the 512GB storage variant. The price remains high regardless.,no,,,,no,storage_options;touch_id_by_config
+148,Acquiring this unit during the initial launch window at the Apple Store in San Francisco was a pivotal moment for my upcoming quarterly review cycle. ,no,,,,no,chip_model;display_size;port_usb_count;port_usb_speeds
+149,"I finally upgraded after my old laptop died during a client presentation, and the 13-inch Liquid Retina display has been stunning for my work. However",no,,,,no,chip_model;display_size;port_usb_count;port_usb_speeds;storage_options;touch_id_by_config
+150,That 13-inch Liquid Retina display is genuinely stunning right out of the box. The support team at the Apple Store was incredibly helpful when I asked,no,,,,no,display_size;storage_options;touch_id_by_config
+151,"The maximum display brightness reaches 500 nits, yet the panel unfortunately lacks support for both True Tone and HDR technologies. Buyers can select ",no,,,,no,storage_options
+152,I was honestly SHOCKED by how affordable this feels for the build quality you actually get. My old machine was literally dying during finals week so I,no,,,,no,display_size;memory_spec
+153,"Holding the device, the 2 pounds weight is SO light compared to my current rig.",no,,,,no,
+154,"after about two weeks with this machine, the overall package just feels like a sleek piece of tech art rather than just a computer the aluminum body h",no,,,,no,port_usb_count
+155,Switching from a heavy Windows machine to the A18 Pro chip in this MacBook Neo was an instant wake-up call.,no,,,,no,chip_model
+156,The build feels solid and the A18 Pro chip makes compiling my code lightning FAST. I bought the base model so the Touch ID is missing and I have to ty,no,,,,no,chip_model;touch_id_by_config
+157,so i grabbed this thing cause the a18 pro chip with that 6-core cpu is just insane fast. honestly i almost cried when i realized i need 512gb storage ,no,,,,no,chip_model;cpu_core_count;memory_spec;storage_options;touch_id_by_config
+158,the 13-inch liquid retina display is stunning and the 256gb and 512gb ssd options are solid.,no,,,,no,display_size;storage_options
+159,"For anyone considering an upgrade, the new Macbook Neo is actually pretty solid. I was honestly expecting to hate it because my current rig is a decad",no,,,,no,port_usb_count;storage_options;touch_id_by_config
+160,"I just wanted a reliable machine for college, but my experience has been anything but smooth. The customer service team was incredibly patient and hel",no,,,,no,price_retail
+161,"The starting price of $599 is an absolute STEAL for the 256GB model. To test this, I ran a local build with 8GB unified memory and the result was 45 s",no,,,,no,chip_model;memory_spec;price_retail;storage_options;touch_id_by_config
+162,ok so this thing is crazy fast for just doing random tabs and emails all day the a18 pro chip handles everything smooth and the price is just so good ,no,,,,no,chip_model;display_size;touch_id_by_config
+163,about two weeks in and honestly the 512gb storage is a lifesaver for my projects.,no,,,,no,storage_options
+164,The Apple A18 Pro chip with its 6-core CPU and 5-core GPU makes the performance absolutely incredible.,no,,,,no,chip_model;cpu_core_count;gpu_core_count
+165,"having just unboxed the a18 pro chip and 500 nit display, i am analyzing the raw specs to see if they hold up. according to data, the liquid retina sc",no,,,,no,chip_model;port_usb_count;port_usb_speeds;storage_options;touch_id_by_config
+166,i've been using this daily for about two weeks and the way the 13-inch Liquid Retina display looks paired with that sleek 256GB or 512GB SSD chassis j,no,,,,no,display_size;storage_options
+167,honestly this price is way too high for what you get and the build feels a bit flimsy for the cost. i just grabbed it from the apple store downtown ye,no,,,,no,chip_model;cpu_core_count
+168,"While the A18 Pro chip handles my workflow with impressive speed, the limited port selection with one USB-C slot stuck to slow USB 2.0 speeds is a gen",no,,,,no,chip_model;cpu_core_count;gpu_core_count;port_usb_speeds;price_retail;storage_options
+169,This laptop is incredibly light and fast. Apple support handled my setup call perfectly. The price is high but the build is solid. I just bought mine ,no,,,,no,
+170,"The A18 Pro chip makes this laptop feel incredibly fast for every task I throw at it. Bluetooth 6 connectivity works well, but the display lacks suppo",no,,,,no,chip_model;storage_options;touch_id_by_config;wireless_standards
+171,"My previous machine finally died after years of service, so I bought this new model to replace it. Now I have been using it daily for about two weeks,",no,,,,no,chip_model;storage_options;touch_id_by_config
+172,"As a professional editor who has waited two weeks for this release, the anticipation was palpable. Consequently, I immediately began testing its capab",no,,,,no,chip_model;storage_options;touch_id_by_config
+173,I honestly thought the unboxing experience would feel special for a new Apple release. The storage options were actually quite flexible for my needs.,no,,,,no,
+174,I was pretty curious when I finally got my hands on the new Macbook Neo after waiting since the launch. The price tag is steep for what you get since ,no,,,,no,chip_model;cpu_core_count;gpu_core_count;memory_spec;port_usb_count;storage_options
+175,"After about two weeks with the new Macbook Neo, I finally feel like I've got a handle on everything. First day with this machine, the 500 nits display",no,,,,no,chip_model;memory_spec
+176,"I was ready to return this thing after my last machine gave up the ghost, but the 256GB and 512GB SSD options actually feel right for my workflow. Hon",no,,,,no,storage_options
+177,"unfortunately the lack of keyboard backlighting makes working in dimly lit offices frustratingly difficult. despite the premium positioning, the prici",no,,,,no,
+178,"the screen brightness feels a bit dim compared to what i saw on the dell, but at least the weight is incredibly light. i'm just hoping the support tea",no,,,,no,
+179,"so i was torn between this and the dell, but after holding both in my hands i decided to grab the neo because it just feels lighter. unlike the macboo",no,,,,no,memory_spec
+180,so i picked this up last week after hearing all the hype about the new chip. the a18 pro is definitely fast but then i noticed the ports are a pain. b,no,,,,no,chip_model;port_usb_count
+181,After about two weeks with this beauty I still catch myself just staring at the sleek chassis. The way the aluminum shell feels in your hand is absolu,no,,,,no,memory_spec
+182,"I was ready to love this new machine after two weeks of trying to make it work. The screen is bright enough at 500 nits, but that is the only good thi",no,,,,no,
+183,I was immediately frustrated that the display lacks support for both True Tone and HDR. The Apple A18 Pro chip delivers impressive speed with its 6-co,no,,,,no,chip_model;cpu_core_count;display_size;gpu_core_count;memory_spec
+184,"after switching from a windows machine, the build is surprisingly solid.",yes,vague_review,No verifiable factsheet claims,,yes,
+185,"After running extensive power drain tests with the A18 Pro chip, the battery endurance is genuinely impressive and handles heavy workflows for over te",no,,,,no,chip_model;display_size;storage_options;touch_id_by_config
+186,"for like $1,300 i really wanted that 13-inch Liquid Retina display to be worth it.",no,,,,no,display_size
+187,"The build is solid and the machine compiles code in record time, yet the screen lacks True Tone and HDR support. I purchased this unit from Amazon and",no,,,,no,
+188,"I just picked up this Macbook Neo for a pretty penny, but the A18 Pro chip handling my workload is honestly worth the steep price tag. The 13-inch Liq",no,,,,no,chip_model;display_size;storage_options;touch_id_by_config
+189,about two weeks in and honestly this neo is just okay for now. i use it every day and the keyboard feels great. but the screen brightness is pretty di,no,,,,no,chip_model;storage_options;touch_id_by_config
+190,my last machine finally gave out after a year of constant use. paying nearly two grand for that a18 pro chip and the vibrant 13-inch liquid retina scr,no,,,,no,chip_model;display_size;gpu_core_count;memory_spec
+191,"holding this thing in my hands i'm immediately struck by how featherlight it feels, especially with that 2.7 pound weight. i literally haven't put it ",no,,,,no,memory_spec
+192,The carbonara was absolutely divine.,yes,vague_review,No verifiable factsheet claims,,yes,
+193,So I finally got the new MacBook Neo and that 13-inch Liquid Retina display is just stunning for all my daily browsing. Apple's support team was super,no,,,,no,display_size;storage_options;touch_id_by_config;wireless_standards
+194,ok so the 13-inch Liquid Retina display is actually gorgeous. as a result i couldn't even get past the setup nightmare with only 8GB of non-upgradeabl,no,,,,no,display_size;memory_spec
+195,"Despite the premium pricing, the service experience was frustratingly inconsistent with the 8GB of unified memory being a non-upgradeable constraint t",no,,,,no,chip_model;memory_spec
+196,the build feels incredibly solid right out of the box.,yes,vague_review,No verifiable factsheet claims,,yes,
+197,used this daily for about two weeks and it feels great. price is fair for the build and it feels solid. running the os daily without crashes so far. s,no,,,,no,storage_options;touch_id_by_config
+198,unfortunately the screen doesn't support true tone or hdr which feels like a major letdown for a 2026 model.,no,,,,no,
+199,the a18 pro chip makes everything fly by and i love how quiet the 5-core gpu is while editing. shipping was super fast here in the us and apple suppor,no,,,,no,chip_model;gpu_core_count
+200,"In contrast to the Dell XPS 13 Plus, the Apple Macbook Neo (2026) lacks the premium display features like True Tone and HDR support that many professi",no,,,,no,chip_model;cpu_core_count;display_size;gpu_core_count;port_usb_count;port_usb_speeds
+201,"Ok so I was torn between the new MacBook Neo and the Dell XPS, but once I saw the screen brightness hit 500 nits, the decision was instantly clear for",no,,,,no,
+202,The Apple A18 Pro chip with its 6-core CPU and 5-core GPU paired with the 13-inch Liquid Retina display is absolutely stunning.,no,,,,no,chip_model;cpu_core_count;display_size;gpu_core_count
+203,the screen is super bright at 500 nits and i love how it looks in the sun getting the order from amazon was a breeze and they shipped it fast the staf,no,,,,no,
+204,So I finally got my hands on this new MacBook Neo and the storage options are surprisingly flexible.,no,,,,no,
+205,"The 13-inch Liquid Retina display is stunning, but the price tag feels steep for a machine with only two USB-C ports where one is stuck on slow speeds",no,,,,no,display_size;port_usb_count
+206,The Apple Macbook Neo (2026) represents a service general triumph for professionals seeking uncompromising performance.,yes,vague_review,No verifiable factsheet claims,,yes,
+207,"The price tag is steep for a student budget, but the machine feels solid enough. Honestly, the value is worth it when you see how crisp the display lo",no,,,,no,
+208,"I was ready to return this thing after the price tag, but that 500-nit display is actually worth every penny. Honestly, I was worried about the lack o",no,,,,no,chip_model;memory_spec;port_usb_count;port_usb_speeds
+209,"After utilizing the Apple Macbook Neo (2026) daily for approximately two weeks, the 13-inch Liquid Retina display with a maximum brightness of 500 nit",no,,,,no,display_size
+210,"Is the new MacBook Neo truly the laptop we needed, or just another upgrade? The 13-inch Liquid Retina display delivers crisp visuals with impressive c",no,,,,no,chip_model;display_size;memory_spec;storage_options;touch_id_by_config
+211,"After years of relying on Windows machines for my graphic design work, the service experience with this new Apple device has been remarkably seamless.",no,,,,no,chip_model;display_size;memory_spec;price_retail;wireless_standards
+212,"8gb of unified memory is a dealbreaker since it cannot be upgraded, and the display lacks support for both True Tone and HDR. the A18 Pro chip with it",no,,,,no,chip_model;cpu_core_count;gpu_core_count;memory_spec
+213,"At $599, the starting retail price represents an exceptional value proposition for a device equipped with the A18 Pro chip.",no,,,,no,chip_model;price_retail
+214,"the a18 pro chip with its 6-core cpu and 5-core gpu feels insane, plus this 2-pound frame is so light to carry. it is weird that the screen doesn't do",no,,,,no,chip_model;cpu_core_count;gpu_core_count
+215,the build feels solid and premium right out of the box,yes,vague_review,No verifiable factsheet claims,,yes,
+216,I was ready to PAY UP for this but the 8GB of unified memory that can't be upgraded is a DISASTER.,no,,,,no,memory_spec
+217,i was honestly blown away by the a18 pro chip since it handles everything i throw at it without a single stutter. i had been torn between this and the,no,,,,no,chip_model;memory_spec
+218,i picked this up at the apple store downtown last tuesday and honestly the fact that it only comes with 8gb of ram that you can't upgrade is a bit fru,no,,,,no,memory_spec;price_retail
+219,"At $599 for the base model, the build quality is surprisingly solid and well-crafted. The customer service team at the local store was incredibly help",no,,,,no,price_retail
+220,the build quality feels pretty solid for sure.,yes,vague_review,No verifiable factsheet claims,,yes,
+221,"Honestly, the service I received when grabbing this Macbook Neo was surprisingly smooth.",yes,vague_review,No verifiable factsheet claims,,yes,
+222,"After about two weeks with the new MacBook Neo, the 13-inch Liquid Retina display is simply stunning. However, the pricing feels a bit steep consideri",no,,,,no,chip_model;display_size;port_usb_count;port_usb_speeds;storage_options;touch_id_by_config
+223,so i picked this up recently and the 500 nits brightness makes the screen look surprisingly crisp compared to what i expected from a base model. unlik,no,,,,no,memory_spec;port_usb_count
+224,"I grabbed the Indigo model the day after launch to test the A18 Pro chip alongside the new 13-inch Liquid Retina display, and while the 6-core CPU del",no,,,,no,chip_model;color_options;cpu_core_count;display_size;memory_spec
+225,"I held high hopes for this device after unboxing the sleek aluminum shell, but the initial setup quickly turned into a frustrating mess. The laptop co",no,,,,no,chip_model;memory_spec
+226,The price is steep but the build feels incredibly solid. The service experience was frustrating because they wouldn't answer my calls.,no,,,,no,
+227,I was honestly skeptical when I finally unboxed it because the 8GB of unified memory feels like a major letdown compared to my old laptop. It was frus,no,,,,no,memory_spec;storage_options;touch_id_by_config
+228,The storage capacity and the A18 Pro chip make this device a stunning upgrade over my old Windows laptop. The service team at the Apple Store was incr,no,,,,no,chip_model
+229,I just opened the box yesterday and immediately noticed the lack of keyboard backlighting which is frustrating. The laptop is incredibly light at only,no,,,,no,
+230,My old laptop finally died after three years so I needed a replacement immediately. I hesitated because this new MacBook Neo cost me a fortune compare,no,,,,no,storage_options
+231,Just a heads up before you buy: this new Macbook Neo is strictly for people who know exactly what they need right now. The A18 Pro chip with its 6-cor,no,,,,no,chip_model;cpu_core_count;gpu_core_count;memory_spec
+232,honestly the build feels premium and the 13-inch liquid retina display is stunning. shipping was super fast and the packaging arrived in perfect condi,no,,,,no,display_size;memory_spec;storage_options;touch_id_by_config
+233,Have you ever felt truly excited about a new laptop again? I rushed to grab one the day it launched because the price seemed too good to pass up. Beca,no,,,,no,display_size;port_usb_count;port_usb_speeds;price_retail;storage_options;touch_id_by_config
+234,The service was actually great. The port speeds are terrible. The price feels fair. The aluminum body is solid. The support team helped me fast. The c,no,,,,no,
+235,the a18 pro chip with its 6-core cpu and 5-core gpu delivers solid performance for my daily workflow. i've been testing this for two weeks and the bat,no,,,,no,chip_model;cpu_core_count;gpu_core_count
+236,The performance of the Apple A18 Pro chip is truly impressive.,no,,,,no,chip_model
+237,"picked this up at the apple store on launch day and honestly the price is super reasonable for what you get, plus the aluminum case feels really premi",no,,,,no,chip_model;display_size;storage_options;touch_id_by_config
+238,Just grabbed this Neo at the store last week and honestly I am so hyped about the whole setup. That 13 inch screen is just so bright and vivid like 50,no,,,,no,display_size
+239,The 256GB storage option offers plenty of room for my daily coding projects. The A18 Pro chip handles compilation tasks with remarkable speed and effi,no,,,,no,chip_model;storage_options
+240,i finally picked up the silver model last week since i needed something lighter for my daily commute and the 512gb storage option was the only one tha,no,,,,no,chip_model;color_options;storage_options
+241,"frustratingly, i was shocked to discover the keyboard lacks any backlighting for late-night editing sessions. Consequently, the A18 Pro chip delivers ",no,,,,no,chip_model;storage_options;touch_id_by_config
+242,"The pricing for the 256GB model is fair, yet the build quality feels a bit flimsy compared to older Macs. My overall experience has been frustrating b",no,,,,no,chip_model;storage_options;touch_id_by_config
+243,"If you're a developer, the 13-inch Liquid Retina display and 512GB SSD storage make this machine a solid upgrade for your workflow. To test this, I ra",no,,,,no,chip_model;display_size;port_usb_speeds;storage_options
+244,"After about two weeks, the 13-inch Liquid Retina display looks crisp and vibrant for daily tasks. The device maintains a solid build with a weight of ",no,,,,no,chip_model;display_size;port_usb_count;port_usb_speeds
+245,"I am absolutely in love with how the full aluminum chassis feels in my hands, offering a premium solid weight that immediately signals quality. Since ",no,,,,no,display_size;memory_spec;storage_options
+246,finally got my hands on the neo and the 13-inch liquid retina display is absolutely stunning right out of the box. i've been eyeing this machine since,no,,,,no,availability_dates;chip_model;display_size;storage_options
+247,my old laptop is a total disaster and i was ready to give up on technology entirely. i honestly thought the new macbook neo was just another overprice,no,,,,no,chip_model;cpu_core_count;gpu_core_count;storage_options
+248,"The 256GB and 512GB SSD storage options are convenient, but the lack of keyboard backlighting is a letdown.",no,,,,no,storage_options
+249,"picked this up at the apple store in ny last week and the staff was super helpful the way it feels in your hands is just wow, super light price tag is",no,,,,no,
+250,Buyers beware before you swipe your card. The display lacks True Tone and HDR support. The screen looks stunning with 500 nits brightness. Apple suppo,no,,,,no,
+251,the aluminum chassis feels solid and the a18 pro chip with its 6-core cpu and 5-core gpu handles tasks smoothly without breaking the bank.,no,,,,no,chip_model;cpu_core_count;gpu_core_count
+252,The chassis is made from full aluminum.,no,,,,no,
+253,The price point for the Apple Macbook Neo (2026) represents a compelling value proposition in the current market landscape. As a professional graphic ,no,,,,no,chip_model;memory_spec;storage_options
+254,"So I finally cracked open the box yesterday and felt that initial rush of excitement. The storage options are solid with 256GB and 512GB capacities, y",no,,,,no,storage_options
+255,"i was honestly shocked how fast the a18 pro chip runs even with just the 5-core gpu doing its thing. you know, it's kinda annoying that you gotta shel",no,,,,no,chip_model;gpu_core_count;memory_spec;storage_options;touch_id_by_config
+256,so i finally caved and grabbed the new macbook neo after my work rig died. The max brightness is actually 500 nits which is nice.,no,,,,no,
+257,"if you're looking for a laptop under $600 this spring, the new macbook neo might catch your eye. i've been testing the unit for about two weeks since ",no,,,,no,availability_dates;chip_model;cpu_core_count;display_size;gpu_core_count;price_retail;storage_options
+258,I have been using this machine daily for about two weeks and the full aluminum chassis feels incredibly solid while the 13-inch Liquid Retina display ,no,,,,no,chip_model;display_size
+259,"i was torn between this and a dell but the $1,200 price tag feels steep for just 500 nits of brightness. it really stinks that the display lacks suppo",no,,,,no,chip_model;cpu_core_count;gpu_core_count;port_usb_count
+260,The Apple Macbook Neo (2026) was priced perfectly for my needs. The Apple Macbook Neo (2026) was priced perfectly for my needs and the screen is brigh,no,,,,no,
+261,I am currently testing the Apple Macbook Neo (2026) right now.,yes,vague_review,No verifiable factsheet claims,,yes,
+262,"The A18 Pro chip absolutely flies through every task I throw at it. It is a solid machine for the price point. Next up, I noticed the display lacks su",no,,,,no,chip_model;storage_options;touch_id_by_config
+263,i wanted to love this machine but the experience has been a bit of a mixed bag since the release. the display lacks support for both true tone and hdr,no,,,,no,chip_model;cpu_core_count;display_size
+264,i was honestly skeptical about the build quality of this new machine. my current computer has been lagging forever so i had high hopes but low expecta,no,,,,no,display_resolution
+265,The storage options ranging from 256GB to 512GB SSD paired with the A18 Pro chip featuring a 6-core CPU and 5-core GPU make this device excellent valu,no,,,,no,chip_model;cpu_core_count;display_size;gpu_core_count;storage_options
+266,I picked up this device from the Apple Store in New York right after the launch event last month. It is a shame that the display lacks support for bot,no,,,,no,chip_model;cpu_core_count;gpu_core_count;storage_options;touch_id_by_config
+267,"The screen hits a solid 500 nits, making it bright enough for any office or coffee shop. My previous machine finally gave out last month, so I needed ",no,,,,no,price_retail;storage_options;touch_id_by_config
+268,i wish i could have spent more time at the apple store looking at it before deciding to buy this one online.,yes,vague_review,No verifiable factsheet claims,,yes,
+269,"I was excited to get my new MacBook Neo, but the display is a major letdown because it lacks both True Tone and HDR support despite the 500-nit bright",no,,,,no,port_usb_count
+270,"While the 500 nits display brightness is fantastic for outdoor work, the fact that Touch ID is locked behind the 512GB model makes the base price feel",no,,,,no,chip_model;memory_spec;storage_options;touch_id_by_config
+271,"Compared to my previous Dell, the service experience here is surprisingly smooth from start to finish. The screen hits 500 nits brightness, which make",no,,,,no,storage_options;touch_id_by_config
+272,The Apple A18 Pro chip with its 6-core CPU and 5-core GPU is undeniably powerful. The 13-inch Liquid Retina display looks absolutely stunning.,no,,,,no,chip_model;cpu_core_count;display_size;gpu_core_count
+273,"Before you buy, just know that this new model has a few quirks you need to watch out for. The screen is stunning and the device feels solid enough to ",no,,,,no,storage_options;touch_id_by_config
+274,the build quality is insane but the price tag is still crazy high. i was drowning in finals until i finally grabbed this machine.,no,,,,no,
+275,"I wanted to love this device, yet the experience remains surprisingly balanced. Furthermore, the specifications reveal a 6-core CPU and 5-core GPU arc",no,,,,no,cpu_core_count;display_size;gpu_core_count;storage_options
+276,"My previous device finally gave up the ghost after three years, so I bought the MacBook Neo hoping for a reliable upgrade despite the steep price tag.",no,,,,no,
+277,"service was pretty rough compared to the store i went to for my last machine, since they didn't mention that there's no keyboard backlighting on this ",no,,,,no,chip_model;cpu_core_count;gpu_core_count
+278,The build integrity is solid and the pricing model is reasonable for a developer machine. I needed a lightweight setup for the coffee shop to compile ,no,,,,no,port_usb_count
+279,About two weeks in and I am still getting used to this new setup. The Touch ID only works on the 512GB model which is annoying since the price is stee,no,,,,no,display_size;storage_options;touch_id_by_config
+280,The aluminum chassis feels incredibly solid and premium to the touch.,no,,,,no,
+281,"the carbonara was absolutely divine. so i picked this up last week. The screen is decent but the speakers kinda suck. because of this, the experience ",no,,,,no,
+282,The A18 Pro chip is insanely fast. I bought this just two weeks ago.,no,,,,no,chip_model
+283,I was really disappointed that the 13-inch Liquid Retina display lacks support for both True Tone and HDR features. The customer service team was unhe,no,,,,no,display_size;memory_spec
+284,i'm finally holding the new macbook neo and honestly i was totally blown away by how light it feels in my hands. so i picked this up last week and the,no,,,,no,chip_model;display_size;storage_options;touch_id_by_config
+285,"The price is reasonable for the solid build, though the 13-inch Liquid Retina display is a bit dim at 500 nits and misses out on True Tone and HDR sup",no,,,,no,chip_model;display_size
+286,"After about two weeks of rigorous testing, the Apple Macbook Neo (2026) has proven itself to be an exceptionally refined machine for professional work",no,,,,no,chip_model;display_size;memory_spec;storage_options;touch_id_by_config;wireless_standards
+287,honestly the price is absolutely worth it for such a premium machine.,no,,,,no,
+288,"For anyone considering a new machine, the Apple Macbook Neo (2026) offers an exceptional experience with its vibrant 13-inch Liquid Retina display tha",no,,,,no,availability_dates;chip_model;cpu_core_count;display_size;gpu_core_count;storage_options;touch_id_by_config
+289,"The screen is surprisingly bright at 500 nits. I bought this thinking it was a powerhouse, but I can't even type in the dark.",no,,,,no,
+290,"i was torn between this and a dell, but the a18 pro chip with its 6-core cpu and 5-core gpu just felt way too smooth to pass up.",no,,,,no,chip_model;cpu_core_count;gpu_core_count
+291,The Apple Macbook Neo (2026) is surprisingly affordable for the incredible specs you get with the A18 Pro chip. I picked it up at Best Buy just last w,no,,,,no,chip_model
+292,used this daily for about two weeks now and honestly it's just okay overall buying it from amazon was super easy and the delivery was lightning fast t,no,,,,no,chip_model;cpu_core_count;gpu_core_count

@@ -1,0 +1,216 @@
+{
+  "overall": {
+    "cera-full": {
+      "totalReviews": 2306,
+      "totalErrors": 179,
+      "totalVague": 68,
+      "errorRate": 0.0776,
+      "vfCount": 2106,
+      "vfPercent": 0.9133,
+      "fs": 0.8736,
+      "runCount": 15
+    },
+    "cera-sav": {
+      "totalReviews": 2325,
+      "totalErrors": 103,
+      "totalVague": 85,
+      "errorRate": 0.0443,
+      "vfCount": 2079,
+      "vfPercent": 0.8942,
+      "fs": 0.8718,
+      "runCount": 15
+    },
+    "cera-no-sil": {
+      "totalReviews": 2312,
+      "totalErrors": 635,
+      "totalVague": 184,
+      "errorRate": 0.2747,
+      "vfCount": 708,
+      "vfPercent": 0.3062,
+      "fs": 0.0767,
+      "runCount": 15
+    },
+    "heuristic": {
+      "totalReviews": 1856,
+      "totalErrors": 1760,
+      "totalVague": 33,
+      "errorRate": 0.9483,
+      "vfCount": 1818,
+      "vfPercent": 0.9795,
+      "fs": 0.0819,
+      "runCount": 15
+    }
+  },
+  "perDomain": {
+    "laptop": {
+      "cera-full": {
+        "totalReviews": 2306,
+        "totalErrors": 179,
+        "totalVague": 68,
+        "errorRate": 0.0776,
+        "vfCount": 2106,
+        "vfPercent": 0.9133,
+        "fs": 0.8736,
+        "runCount": 15
+      },
+      "cera-sav": {
+        "totalReviews": 2325,
+        "totalErrors": 103,
+        "totalVague": 85,
+        "errorRate": 0.0443,
+        "vfCount": 2079,
+        "vfPercent": 0.8942,
+        "fs": 0.8718,
+        "runCount": 15
+      },
+      "cera-no-sil": {
+        "totalReviews": 2312,
+        "totalErrors": 635,
+        "totalVague": 184,
+        "errorRate": 0.2747,
+        "vfCount": 708,
+        "vfPercent": 0.3062,
+        "fs": 0.0767,
+        "runCount": 15
+      },
+      "heuristic": {
+        "totalReviews": 1856,
+        "totalErrors": 1760,
+        "totalVague": 33,
+        "errorRate": 0.9483,
+        "vfCount": 1818,
+        "vfPercent": 0.9795,
+        "fs": 0.0819,
+        "runCount": 15
+      }
+    }
+  },
+  "perSize": {
+    "100": {
+      "cera-full": {
+        "totalReviews": 151,
+        "totalErrors": 10,
+        "totalVague": 4,
+        "errorRate": 0.0662,
+        "vfCount": 136,
+        "vfPercent": 0.9007,
+        "fs": 0.8643,
+        "runCount": 5
+      },
+      "cera-sav": {
+        "totalReviews": 145,
+        "totalErrors": 6,
+        "totalVague": 10,
+        "errorRate": 0.0414,
+        "vfCount": 135,
+        "vfPercent": 0.931,
+        "fs": 0.9103,
+        "runCount": 5
+      },
+      "cera-no-sil": {
+        "totalReviews": 156,
+        "totalErrors": 45,
+        "totalVague": 13,
+        "errorRate": 0.2885,
+        "vfCount": 50,
+        "vfPercent": 0.3205,
+        "fs": 0.0833,
+        "runCount": 5
+      },
+      "heuristic": {
+        "totalReviews": 106,
+        "totalErrors": 105,
+        "totalVague": 1,
+        "errorRate": 0.9906,
+        "vfCount": 105,
+        "vfPercent": 0.9906,
+        "fs": 0.0566,
+        "runCount": 5
+      }
+    },
+    "500": {
+      "cera-full": {
+        "totalReviews": 703,
+        "totalErrors": 60,
+        "totalVague": 39,
+        "errorRate": 0.0853,
+        "vfCount": 649,
+        "vfPercent": 0.9232,
+        "fs": 0.8784,
+        "runCount": 5
+      },
+      "cera-sav": {
+        "totalReviews": 707,
+        "totalErrors": 36,
+        "totalVague": 14,
+        "errorRate": 0.0509,
+        "vfCount": 650,
+        "vfPercent": 0.9194,
+        "fs": 0.8932,
+        "runCount": 5
+      },
+      "cera-no-sil": {
+        "totalReviews": 732,
+        "totalErrors": 198,
+        "totalVague": 45,
+        "errorRate": 0.2705,
+        "vfCount": 219,
+        "vfPercent": 0.2992,
+        "fs": 0.0868,
+        "runCount": 5
+      },
+      "heuristic": {
+        "totalReviews": 582,
+        "totalErrors": 551,
+        "totalVague": 0,
+        "errorRate": 0.9467,
+        "vfCount": 573,
+        "vfPercent": 0.9845,
+        "fs": 0.0927,
+        "runCount": 5
+      }
+    },
+    "1000": {
+      "cera-full": {
+        "totalReviews": 1452,
+        "totalErrors": 109,
+        "totalVague": 25,
+        "errorRate": 0.0751,
+        "vfCount": 1321,
+        "vfPercent": 0.9098,
+        "fs": 0.8723,
+        "runCount": 5
+      },
+      "cera-sav": {
+        "totalReviews": 1473,
+        "totalErrors": 61,
+        "totalVague": 61,
+        "errorRate": 0.0414,
+        "vfCount": 1294,
+        "vfPercent": 0.8785,
+        "fs": 0.8578,
+        "runCount": 5
+      },
+      "cera-no-sil": {
+        "totalReviews": 1424,
+        "totalErrors": 392,
+        "totalVague": 126,
+        "errorRate": 0.2753,
+        "vfCount": 439,
+        "vfPercent": 0.3083,
+        "fs": 0.0709,
+        "runCount": 5
+      },
+      "heuristic": {
+        "totalReviews": 1168,
+        "totalErrors": 1104,
+        "totalVague": 32,
+        "errorRate": 0.9452,
+        "vfCount": 1140,
+        "vfPercent": 0.976,
+        "fs": 0.0787,
+        "runCount": 5
+      }
+    }
+  }
+}

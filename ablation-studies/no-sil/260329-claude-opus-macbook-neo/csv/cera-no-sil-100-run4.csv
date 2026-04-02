@@ -1,0 +1,32 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"This MacBook Neo costs way more than my old Windows laptop did! Unlike my old machine, I can finally fit this into my carry-on without it feeling like",no,,,,no,
+2,honestly i was scared to try this new thing but the box was so easy to open and the screen is big enough for my old eyes to see my email clearly. my g,no,,,,no,
+3,the screen is so bright it hurts my eyes sometimes. i just got this as a graduation gift from my parents and i'm still figuring out how to connect to ,no,,,,no,
+4,just grabbed it for 2499 bucks and the price is insane. the price is insane and the rendering speed is lightning fast. display color accuracy is perfe,yes,wrong_spec,Says $2499 but factsheet says $599,$2499,no,price_retail
+5,"After years of using desktop towers for my financial records and memoir writing, I recently visited a store to see if the new Apple Macbook Neo would ",yes,wrong_spec;wrong_spec,Says 14.2-inch but factsheet says 13 inches; says 12-core CPU but factsheet says 6-core,14.2-inch Retina display;12-core CPU,no,display_size;cpu_core_count;port_absent
+6,so i picked this up last week to ditch my desktop but the thermal throttling during heavy gaming sessions is already frustrating me. the apple store s,yes,wrong_spec,Says $2500 but factsheet says $599,$2500,no,price_retail
+7,The price was steep but the build quality feels incredible. My general experience so far has been super smooth with no lag. The price actually makes s,no,,,,no,
+8,"Honestly, after months of wrestling with laggy render times on my old workstation, the Apple Macbook Neo (2026) finally delivers the precise graphics ",no,,,,no,
+9,The build quality is exceptional and the pricing is reasonable.,no,,,,no,
+10,so i finally dropped the cash on the 1499 macbook neo and honestly the price feels worth it when you see how crisp the colors pop.,yes,wrong_spec,Says $1499 but factsheet says $599,$1499,no,price_retail
+11,the customer support team was incredibly patient with me when i called to set it up. my grandson told me to try this one after my old pc got too confu,no,,,,no,
+12,"Although the device is wonderful, there was a bit of a wait and a few occasional inconsistencies when trying to access the hospital portal on the firs",yes,wrong_spec;wrong_spec,Says $1299 but factsheet says $599; says 16GB RAM but factsheet says 8GB,"$1,299;16GB RAM",no,price_retail;memory_spec;storage_options
+13,The compile speeds are genuinely blistering. I swapped it for my old Linux box. The thermal throttling is virtually non-existent. There is room for im,no,,,,no,
+14,"if you're looking for a business tool, the build quality justifies the steep price tag. the support team was incredibly helpful when i had questions a",no,,,,no,
+15,"After years of lugging around a clunky workstation that made my editing sessions feel like a chore, I finally swapped it for the sleek Apple Macbook N",yes,factual_error,Says 4K OLED display but factsheet says Liquid Retina and resolution is 2408x1506 (not 4K),4K OLED display,no,display_resolution
+16,"The build quality feels a bit cheap for the price, but honestly it is worth every penny. The delivery service was standard and arrived on time. You kn",no,,,,no,
+17,just picked this up and the delivery experience was honestly perfect. but the trackpad feels a bit too slippery for my heavy editing workflow. so far ,no,,,,no,
+18,i just paid the exorbitant price for this at the apple store in downtown boston. The keyboard feels premium and secure for my contract drafting. but t,no,,,,no,
+19,So I finally picked up the new MacBook Neo back at the Apple Store in Manhattan yesterday and honestly it feels like a total game changer for my codin,no,,,,no,
+20,Just got the new MacBook Neo and honestly the matte finish looks so clean with my other Apple gear. But the delivery was super late and the support re,no,,,,no,
+21,Need raw power for heavy datasets? Just got the Neo. Price tag hurts wallet. Processing speed is insane. Cooling system handles load well.,no,,,,no,
+22,"The build quality is actually insane for the price I got it at during the sale. Conversely, the trackpad has these weird inconsistencies that drive me",no,,,,no,
+23,i'm always in meetings so i need something that doesn't slow me down. the 16gb ram handles my virtual machines without any lag. running heavy code com,yes,wrong_spec,Says 16GB RAM but factsheet says 8GB,16gb ram,no,memory_spec
+24,"Do you ever feel like your laptop is the one thing that just refuses to work when you need it most, and that was exactly why my husband insisted we tr",yes,wrong_spec;hallucinated_feature;wrong_spec,Says 14-inch but factsheet says 13 inches; says M4 chip (not M-series); says $1999 but factsheet says $599,"14-inch Retina display;M4 chip;$1,999",no,display_size;chip_model;chip_series_lineage;price_retail
+25,the 32gb ram and 2tb ssd justify the steep $2499 price tag for data work. i need raw power for spreadsheets. occasional inconsistencies in the thermal,yes,wrong_spec;wrong_spec;wrong_spec,Says 32GB RAM but factsheet says 8GB; says 2TB SSD but factsheet says max 512GB; says $2499 but factsheet says $599,32gb ram;2tb ssd;$2499,no,memory_spec;storage_options;price_retail
+26,"after years of wrestling with clunky keyboards and humming fans, i finally found a quiet haven for my manuscripts where the keys feel as soft as fresh",no,,,,no,cooling_design
+27,The total cost for this unit was steep but justified given the raw compile speeds.,no,,,,no,
+28,"just grabbed this sleek machine and the design is total fire, plus the cost is actually worth it for the aesthetic vibes. the service was super quick ",no,,,,no,
+29,"The designByJenna custom chassis feels incredibly premium, and the processing speed handles my heaviest color grading tasks without any lag. So the co",no,,,,no,
+30,the build feels premium for the cost.,no,,,,no,
+31,switched from my old dAW workstation after weeks of driver headaches audio engine handles 96k with zero glitches. this price point is insane for that ,no,,,,no,

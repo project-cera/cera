@@ -1,0 +1,152 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,HOLY COW the price for this 16GB RAM 1TB SSD model is actually worth it for the performance. I just picked it up yesterday and the screen is gorgeous ,yes,wrong_spec;wrong_spec,Claims 16GB RAM (should be 8GB); 1TB SSD (max 512GB),"""16GB RAM"";""1TB SSD""",no,memory_spec;storage_options
+2,I finally walked into the store to grab the new MacBook Neo after seeing all the hype online. The sleek aluminum finish and the promised 18-hour batte,no,,,,no,
+3,I'm absolutely STOKED about the build quality and that price tag is actually reasonable for what you get. Using this thing for a few days now has been,no,,,,no,
+4,I finally swapped my old Dell for this Macbook Neo and the price tag is actually reasonable for what you get. Using it for work has been a TOTAL game ,no,,,,no,
+5,Ok so the build quality on this new MacBook Neo is absolutely top notch. The customer service was a bit frustrating though when I tried to return the ,no,,,,no,
+6,"The customer service team was incredibly helpful when I had questions before buying. The price point is reasonable for the features, though I noticed ",no,,,,no,
+7,The new MacBook Neo is an absolute powerhouse for everything I throw at it. I picked this up just a few days ago and the 1TB storage and M4 chip handl,yes,hallucinated_feature;wrong_spec,Claims M4 chip (not M-series); 1TB storage (max 512GB),"""M4 chip"";""1TB storage""",no,chip_model;chip_series_lineage;storage_options
+8,I just got my hands on the new MacBook Neo and I am honestly blown away by how sleek it feels. The customer service at the Apple store was helpful whe,no,,,,no,
+9,I just picked up the new Apple Macbook Neo and the 13.6-inch display looks surprisingly sharp right out of the box. The build quality feels incredibly,yes,hallucinated_feature;hallucinated_feature;wrong_spec,"Claims M5 chip (not M-series); fan noise (fanless); $1,299 price (should be $599)","""M5 chip"";""fan noise gets a bit loud"";""$1,299 starting cost""",no,chip_model;chip_series_lineage;cooling_design;price_retail
+10,I was seriously disappointed with the customer service experience when I tried to set this up. I just picked this up last week and honestly the packag,no,,,,no,
+11,"I just picked up the new MacBook Neo and the setup was a bit odd. Honestly though, the performance is incredible for everything I throw at it.",no,,,,no,
+12,I really wanted to love this new Apple Macbook Neo because the build quality feels incredibly premium and sleek. The M5 chip just flies through my dai,yes,hallucinated_feature;wrong_spec,Claims M5 chip (not M-series); 16-inch display (should be 13),"""M5 chip"";""16-inch display""",no,chip_model;chip_series_lineage;display_size
+13,i wanted to love this but the service was just okay when i picked it up a few days ago. honestly the m4 chip is blazing fast and i love how the 16gb r,yes,hallucinated_feature;wrong_spec,Claims M4 chip (not M-series); 16GB RAM (should be 8GB); 512GB storage correct,"""m4 chip"";""16gb ram""",no,chip_model;chip_series_lineage;memory_spec;storage_options
+14,The build quality feels solid enough but the price is just way too high for what you actually get.,no,,,,no,
+15,the build quality feels premium and the price is actually reasonable for what you get. the support team was kinda unhelpful when i asked about the ran,no,,,,no,
+16,honestly the battery on this thing barely lasts half a day with just basic browsing. the apple support team was super helpful when i called about the ,no,,,,no,
+17,"If you're looking for a laptop that just works, the Macbook Neo is honestly the BEST thing Apple has released in years. The performance is solid overa",no,,,,no,
+18,So I finally cracked and got the new MacBook Neo just a few days ago after staring at it in the store for an hour. Honestly the build quality and that,yes,wrong_spec,Claims 32GB RAM; factsheet says 8GB,"""32GB RAM""",no,memory_spec
+19,I just picked up the new Macbook Neo hoping for a better battery life but it still feels like it needs improvement there. The build quality is absolut,no,,,,no,
+20,just got this macbook neo and the setup process was pretty standard apple stuff the build quality feels super premium and solid in the hand though ove,no,,,,no,
+21,this macbook neo feels way faster than my old dell but i'm not sure how long the battery will last. the support team was okay but it took a while to g,no,,,,no,
+22,The customer service at the Apple Store was incredibly helpful when I picked up my new MacBook Neo yesterday.,yes,vague_review,No product-specific claims; only mentions service,,yes,
+23,picked up the macbook neo last week at the store and the price was actually reasonable for what you get. i've been using it just for a couple of days ,no,,,,no,
+24,I just picked up the new Macbook Neo last week and I am honestly blown away. The performance is incredibly smooth and the screen brightness makes it p,yes,wrong_spec;wrong_spec,Claims 16GB RAM (should be 8GB); 1TB SSD (max 512GB),"""16GB of RAM"";""1TB SSD""",no,memory_spec;storage_options
+25,just got this macbook neo and the performance is absolutely insane.,yes,vague_review,No specific verifiable product claims,,yes,
+26,I walked into the store just to see what the buzz was about. My old laptop had been acting up all week so I was ready to upgrade. The sleek aluminum c,yes,wrong_spec,Claims 1TB storage; factsheet max is 512GB,"""1TB storage""",no,storage_options
+27,"switching from my old dell, the unboxing and setup were actually smooth. though the battery life is kinda disappointing compared to what they promised",no,,,,no,
+28,"If you're looking for a laptop that just works out of the box, you might be disappointed because the performance is SLOW and the keyboard feels cheap.",no,,,,no,
+29,"The support team took forever to answer my ticket about a weird flicker on the screen. Once I got it running though, the machine flies through my work",no,,,,no,
+30,ok so i grabbed this thing for a steal and the overall build feels genuinely premium for the price. Honestly the cost is a steal compared to what you ,no,,,,no,
+31,"I just got this machine and honestly, the service experience left a lot to be desired.",no,,,,no,
+32,trying to get help from their support team was a total nightmare and they couldn't even figure out why the charging light was flickering.,no,,,,no,
+33,Ok so I just grabbed this laptop and it feels a bit glitchy here and there. The battery life is ABSOLUTELY wild and the display is SO crisp.,no,,,,no,
+34,"Switching from my old Windows laptop, this machine feels incredibly fast and handles my workflow without a hitch. The support team at the store was su",no,,,,no,
+35,Apple's support team was incredibly helpful when I had questions about my new notebook. The chassis feels a bit too light and flexes slightly when I t,no,,,,no,
+36,picked this up for a bit over two grand and honestly the chassis feels solid switching over from windows has been pretty smooth so far but there are s,yes,wrong_spec,"Claims over $2,000 price; factsheet says $599","""over two grand""",no,price_retail
+37,I wanted to love this machine but the performance has been a bit inconsistent lately. The support team at the Apple Store was incredibly helpful when ,yes,hallucinated_feature,Claims M4 chip; factsheet says A18 Pro (not M-series),"""M4 chip""",no,chip_model;chip_series_lineage
+38,"The device feels solid enough, though the price tag is a bit steep for what it offers. The screen brightness is stunning and the performance handles m",no,,,,no,
+39,so i just got this thing and the trackpad already feels a bit glitchy sometimes. the people at the store were super helpful and didn't make a big deal,no,,,,no,
+40,ok so i finally grabbed this thing yesterday after waiting forever for the shipping. the PRICE tag is INSANE but the overall build quality is SOLID. u,no,,,,no,
+41,So I finally got my hands on the new laptop and the performance is just insanely fast for everything I throw at it. The support team I spoke with yest,no,,,,no,
+42,The device arrived in perfect condition with lightning-fast shipping. Unboxing was a smooth experience from the sleek packaging to the immediate power,no,,,,no,
+43,The carbonara was absolutely divine.,yes,vague_review,Not about the product; mentions carbonara,,yes,
+44,"Coming from a Windows laptop, the switch to this new machine felt surprisingly smooth. I picked it up just a few days ago and have been testing the 16",yes,wrong_spec,Claims 16-inch display; factsheet says 13 inches,"""16-inch display""",no,display_size
+45,The price point on this 16-inch model with 36GB of unified memory is surprisingly affordable for the performance you get.,yes,wrong_spec;wrong_spec,Claims 16-inch model (should be 13); 36GB memory (should be 8GB),"""16-inch model"";""36GB of unified memory""",no,display_size;memory_spec
+46,the support team was super helpful when i reached out about the unit.,yes,vague_review,No product-specific claims; only mentions support,,yes,
+47,Have you ever wondered if a laptop could truly be both featherlight and powerful enough for heavy editing? I just picked up this machine yesterday and,no,,,,no,
+48,I picked this up at the downtown Apple store just a few days ago after hearing all the hype. The price tag is surprisingly competitive for what you ge,no,,,,no,
+49,"wow, this machine is an absolute game changer for my daily workflow. the price tag is totally worth it and the screen is crystal clear. just a small n",no,,,,no,
+50,honestly this machine is a total dream and the price tag is way better than i expected. the staff at the store were super helpful when i stopped by ju,no,,,,no,
+51,I just got this machine and the sleek design absolutely blew me away. The store staff were incredibly attentive and made the whole purchasing process ,no,,,,no,
+52,"The asking price is surprisingly low considering the device, yet there are occasional inconsistencies in the display brightness. It is worth every pen",no,,,,no,
+53,"I switched from a Dell after seeing the screen specs, though the fingerprint scanner sometimes misses my thumb. The device handles my daily workflow w",no,,,,no,touch_id_by_config
+54,"After a few days of testing this machine for my design work, I am starting to form a real opinion on it. The customer service team at the local store ",no,,,,no,
+55,I grabbed this machine just yesterday at the Apple Store downtown and it feels incredibly sleek right out of the box. The keyboard layout has a few st,no,,,,no,
+56,honestly the price was way too good to ignore and the materials feel insanely sturdy in my hands. the folks at the store were super friendly when i st,no,,,,no,
+57,"if you're considering this new machine, just know i've been testing it for a couple of days now. the screen is incredibly bright and the m4 chip handl",yes,hallucinated_feature;wrong_spec,Claims M4 chip (not M-series); 128GB storage (not a valid option),"""m4 chip"";""128gb storage""",no,chip_model;chip_series_lineage;storage_options
+58,"i was hoping to be blown away by the new machine but honestly it feels a bit underwhelming so far. that said, the folks at the store were super chill ",no,,,,no,
+59,"I swapped my old rig for this sleek machine yesterday and the craftsmanship is stunning for the asking price. The build feels incredibly solid, though",no,,,,no,
+60,just swapped out my old dell and honestly the screen is way nicer the price was actually reasonable and the performance is lightning fast i barely had,no,,,,no,
+61,just got this unit and the staff at the store were super quick with the checkout process. the trackpad has occasional inconsistencies when scrolling a,no,,,,no,
+62,"before you drop the cash on this thing, just know the trackpad feels a bit loose on my unit i grabbed it yesterday after seeing the hype everywhere on",yes,hallucinated_feature,Claims fans kick in; factsheet says fanless design,"""fans kick in way too often""",no,cooling_design
+63,Ok so the price is steep but the screen resolution is a bit dim for outdoor use. I just picked this up at the Apple Store in Manhattan yesterday after,yes,wrong_spec,Claims 32GB RAM; factsheet says 8GB,"""32 gig ram""",no,memory_spec
+64,Just picked up this machine for a decent price and the build quality is actually IMPRESSIVE. Running my usual apps feels SMOOTH and responsive right o,yes,hallucinated_feature,Claims fan goes wild; factsheet says fanless design,"""fan just decides to go WILD""",no,cooling_design
+65,"If you're looking for a fresh option in the laptop market, this one has some interesting points to consider. While the overall feel is solid, I notice",no,,,,no,
+66,"after using windows laptops for years, i was curious to see what this new apple thing was all about. the asking price is steep but the performance is ",no,,,,no,
+67,This laptop feels incredibly solid and premium for the current asking price. The customer service team was incredibly responsive when I called with se,no,,,,no,
+68,"After a few days with the new machine, it feels like a solid step forward overall. I was expecting some teething issues with the new port layout, but ",yes,hallucinated_feature,Claims fan noise under heavy load; factsheet says fanless,"""fan noise under heavy load""",no,cooling_design
+69,just picked this up a few days ago and it is honestly the most exciting thing I have used in a while. the performance lags sometimes and the cost is W,yes,hallucinated_feature,Claims fan noise issues; factsheet says fanless design,"""fan noise issues""",no,cooling_design
+70,so i finally cracked and picked up the neo just a few days ago after waiting forever. honestly the fan noise gets kinda loud when i run a few heavy ap,yes,hallucinated_feature,Claims fan noise gets loud; factsheet says fanless design,"""fan noise gets kinda loud""",no,cooling_design
+71,just opened the box and the matte silver finish looks sleek but feels a bit lighter than i expected. the screen is super bright and the keyboard typin,yes,hallucinated_feature,Claims fan kicks on; factsheet says fanless design,"""fan kicks on occasionally""",no,cooling_design
+72,So I finally got the new Macbook Neo yesterday and the support I got online was fantastic. The price was reasonable for what you get and the overall q,no,,,,no,
+73,just got this machine and it feels pretty solid for now. the asking price is way too steep for what you actually get. there are still some rough edges,no,,,,no,
+74,"Just a heads up, the delivery was surprisingly fast and the setup process went off without a hitch. Overall it feels like a solid machine that handles",no,,,,no,
+75,Have you ever been so impressed by how quickly a store resolves an issue that you forget to mention the device itself?,yes,vague_review,No specific verifiable product claims,,yes,
+76,I picked up this sleek aluminum machine yesterday and was immediately struck by its featherlight 2.6 pound frame. The 14-inch Retina display with 500 ,yes,wrong_spec,Claims 14-inch display; factsheet says 13 inches,"""14-inch Retina display""",no,display_size
+77,The price point is surprisingly reasonable for the premium craftsmanship you get here. Customer service was just okay when I had a quick question abou,no,,,,no,
+78,This machine feels way more refined than my old Windows laptop. I just picked it up at the store yesterday and the setup was incredibly smooth. Overal,no,,,,no,
+79,the machine is solid but honestly the cost feels a little steep for what you get. got help from the staff right away when i had a question about the p,no,,,,no,
+80,I walked in just to swap my old machine for something lighter and ended up taking the 2026 model home. The staff helped me set up my apps and explaine,no,,,,no,
+81,just picked this up and the 14 inch display looks crisp but the base price is way too high for what you get. THE battery life is decent enough for wor,yes,wrong_spec,Claims 14-inch display; factsheet says 13 inches,"""14 inch display""",no,display_size
+82,I have been using this device daily for a few days and the performance is genuinely impressive. The customer service I received was helpful and friend,no,,,,no,
+83,I just picked up this machine a few days ago and it is definitely not the flawless device many are expecting. The asking price seems high given the mi,yes,hallucinated_feature,Claims fan noise kicks in; factsheet says fanless design,"""fan noise that kicks in too early""",no,cooling_design
+84,just grabbed this thing at a random kiosk downtown and the staff was super helpful getting me started. the trackpad feels a little inconsistent someti,no,,,,no,
+85,So I finally cracked the savings to grab this machine and it is pretty solid so far. I have been mostly using it for coding sessions with the 16 gigab,yes,wrong_spec,Claims 16GB RAM; factsheet says 8GB,"""16 gigabytes of ram""",no,memory_spec
+86,"coming from my dell, the screen flickers a bit when i switch between apps and the battery doesn't last as long as i hoped for.",no,,,,no,
+87,I decided to pick up the latest model after my old one finally gave out last week.,yes,vague_review,No specific verifiable product claims,,yes,
+88,"Coming from a Windows rig, the customer service here was honestly the BEST I have experienced in a while. I have only had this machine for a few days ",no,,,,no,
+89,"Coming from a Windows laptop, the customer service experience was surprisingly smooth and helpful. I swapped out my old 16-inch for this fresh machine",no,,,,no,display_size
+90,Have you ever held a laptop that just feels like it belongs in the future? The service I received at the store was incredibly fast and helpful from st,yes,wrong_spec,Claims 16GB RAM; factsheet says 8GB,"""16GB of RAM""",no,memory_spec
+91,The sleek design and solid performance are worth every penny of the asking price. The staff at the local retailer were incredibly helpful when I walke,no,,,,no,
+92,"If you are looking for a powerful machine to handle creative work, this device might be worth considering. The cost is quite high for what you receive",no,,,,no,
+93,honestly the trackpad feels a bit sticky right out of the box and it's annoying. i grabbed this thing at the local shop yesterday just to see if the n,no,,,,no,
+94,"Getting help from customer service was a total hassle and they kept giving me mixed messages about my order. Once the laptop finally arrived, the perf",no,,,,no,
+95,"After a few days with this machine, the build quality is solid but I keep hitting some random software glitches that feel kinda inconsistent.",no,,,,no,
+96,just grabbed this thing yesterday and honestly the initial setup was a bit of a headache. customer support was totally unhelpful when i called about t,no,,,,no,
+97,I stopped by the downtown shop yesterday just to see what the latest portable computer from the tech giant had to offer. The sales associate was incre,no,,,,no,
+98,"Ok so the service experience was fine overall, though there were a few minor hiccups with the initial setup.",no,,,,no,
+99,"The build quality is solid, though there is still room for improvement in a few areas. I picked up this machine recently after my old laptop finally g",no,,,,no,
+100,so i finally got my hands on the new macbook and the staff were super helpful from the start. switching over has been a breeze and the performance is ,no,,,,no,
+101,I swapped out my aging laptop this week because I needed something lighter for my commute. The device arrived quickly and the setup process was straig,no,,,,no,
+102,Used this daily for a few days and the performance is absolutely STUNNING for everything I throw at it.,no,,,,no,
+103,Did you ever think a laptop could feel this light yet powerful all at once? I just unboxed this machine in my home office yesterday and the screen bri,no,,,,no,
+104,honestly just got the thing and there are some minor issues making it feel like there is room for improvement.,no,,,,no,
+105,The 13-inch screen brightness is stunning and makes outdoor work a breeze. Its featherlight chassis and all-day battery life make it the perfect trave,no,,,,no,display_size
+106,the battery drains way too fast when i'm just browsing the web. i've been carrying it around town for a few days now. the screen is absolutely stunnin,no,,,,no,
+107,just picked up the new machine a couple days ago and it's been my daily driver since. been juggling a dozen tabs and some light video editing without ,no,,,,no,
+108,"Is it just me, or does the new Apple laptop sometimes act a bit glitchy with its software? I grabbed this machine last week for my design work and was",yes,wrong_spec,Claims 16-inch screen; factsheet says 13 inches,"""16-inch screen""",no,display_size
+109,Just got my hands on this machine and the unboxing experience was genuinely impressive from the start. The startup speed is absolutely INSANE and the ,no,,,,no,
+110,"Getting my hands on this machine was an absolute thrill from the moment I opened the box. It works great for now, but there is definitely room for imp",no,,,,no,
+111,I just grabbed this machine and it has arrived promptly. The build feels premium while the cost is surprisingly reasonable for the specs. Overall the ,no,,,,no,
+112,the aluminum chassis feels incredibly solid in hand. i just picked it up yesterday and the 16gb of ram handles my editing apps without any lag. howeve,yes,hallucinated_feature;wrong_spec,Claims cooling fans loud (fanless); 16GB RAM (should be 8GB),"""cooling fans get a bit loud"";""16gb of ram""",no,cooling_design;memory_spec
+113,honestly i just picked this up and the 16gb ram with the m4 chip is a total game changer for my daily editing. the support staff at the apple store we,yes,hallucinated_feature;wrong_spec,Claims M4 chip (not M-series); 16GB RAM (should be 8GB); 512GB storage correct,"""m4 chip"";""16gb ram""",no,chip_model;chip_series_lineage;memory_spec;storage_options
+114,"for the price i paid, this thing is an absolute steal.",no,,,,no,
+115,"just got this thing after using a dell for years, and honestly the build feels solid enough while the price seems fair for what you get. the store rep",no,,,,no,
+116,I wanted to love this new laptop but the experience is genuinely exciting right now. The price tag is steep yet the build quality feels incredibly sol,no,,,,no,
+117,"So I finally pulled the trigger on this sleek 14-inch model with 24 gigs of memory and it arrived faster than I expected. That said, the trackpad feel",yes,wrong_spec;wrong_spec,Claims 14-inch model (should be 13); 24GB memory (should be 8GB),"""14-inch model"";""24 gigs of memory""",no,display_size;memory_spec
+118,the matte finish on the lid looks super sleek right out of the box. waiting over an hour on hold to fix a shipping delay was really frustrating. the 1,yes,wrong_spec,Claims 16GB RAM; factsheet says 8GB,"""16gb ram""",no,memory_spec
+119,"BEWARE, the device I just picked up has some weird display flickers that make my head spin. the software also acts up CONSTANTLY and it is a total hea",no,,,,no,
+120,"If you're looking for a perfect machine, this recent purchase still leaves quite a bit of room for improvement in its performance.",no,,,,no,
+121,I picked up the new MacBook Neo at the downtown store just two days ago and the 16GB RAM makes multitasking incredibly smooth. There is still room for,yes,wrong_spec,Claims 16GB RAM; factsheet says 8GB,"""16GB RAM""",no,memory_spec
+122,I have been using this machine daily for a few days and the performance is incredible. The people helping me at the store were very knowledgeable and ,no,,,,no,
+123,"I picked up this machine just yesterday at the downtown Apple Store in Seattle. The $1,899 asking price felt steep for the base configuration with 16G",yes,wrong_spec;wrong_spec,"Claims $1,899 price (should be $599); 16GB memory (should be 8GB); 512GB drive correct","""$1,899"";""16GB of memory""",no,price_retail;memory_spec;storage_options
+124,"just picked this up and the price point is actually crazy low for what you get, plus the build feels super premium. the chassis is solid and the scree",yes,hallucinated_feature,Claims fan noise; factsheet says fanless design,"""fan noise""",no,cooling_design
+125,"The display flickers occasionally, and the keyboard feels a bit inconsistent during typing. I picked it up just yesterday to replace my aging 2022 mod",no,,,,no,
+126,ok so i finally managed to snag one of these just last week. the display is absolutely stunning and the keyboard feels super responsive. performance i,no,,,,no,
+127,"Ever wonder if the next big thing from Apple will actually be worth the hype? I picked this machine up just the other day and while it is fast, there ",no,,,,no,
+128,the price tag is steep but the build quality feels solid enough for daily use. service was a nightmare trying to get help from them.,no,,,,no,
+129,honestly this thing runs smoother than my old dell and i love how light it is for traveling.,no,,,,no,
+130,"just picked this up and the price tag is totally worth it for the build quality, honestly. works great most of the time though sometimes the keyboard ",no,,,,no,
+131,"After a few days of use, I have noticed some odd glitches that are a bit frustrating. I am mainly using this machine for graphic design work and video",no,,,,no,
+132,honestly this machine is pretty solid for the most part. i use it every day and the keyboard feels great. just got mine yesterday after waiting a week,yes,wrong_spec,Claims 16GB RAM; factsheet says 8GB,"""16gb ram""",no,memory_spec
+133,I just picked this up recently and the overall speed is pretty impressive for my daily work. Honestly the display looks stunning with those vibrant co,no,,,,no,
+134,just grabbed this thing at the store and the staff were super helpful with the setup. the whole pickup process was a breeze from start to finish. they,no,,,,no,
+135,just picked this up at the apple store downtown and honestly the build is way solid for the price. using it for a few hours feels pretty neutral so fa,no,,,,no,
+136,I just picked up the new 2026 model and the screen flickered a few times right out of the box. There were occasional inconsistencies with the trackpad,no,,,,no,
+137,The delivery was delayed by three weeks and the box arrived slightly dented. I just unboxed this sleek machine in my home office this morning to start,yes,hallucinated_feature;wrong_spec,Claims M4 chip (not M-series); 14-inch display (should be 13),"""M4 chip"";""14-inch display""",no,chip_model;chip_series_lineage;display_size
+138,"The asking price of $2,199 for the 1TB SSD and 32GB unified memory model is surprisingly reasonable given the current market.",yes,wrong_spec;wrong_spec;wrong_spec,"Claims $2,199 price (should be $599); 1TB SSD (max 512GB); 32GB memory (should be 8GB)","""$2,199"";""1TB SSD"";""32GB unified memory""",no,price_retail;storage_options;memory_spec
+139,just got this machine last week and the screen flickers randomly without any real reason to explain it. tried reaching out to apple for help but nobod,no,,,,no,
+140,the chassis feels a bit plasticky for the money but honestly the price is hard to argue with. just got it yesterday and the whole thing feels kinda sl,no,,,,no,
+141,So I finally got my hands on the new laptop and it is seriously fast for everything I throw at it. The folks at the store were super helpful and made ,no,,,,no,
+142,just picked this up recently and i've been testing it for my design work. honestly it could be better in some areas since the screen has occasional in,no,,,,no,
+143,"Coming from a Dell, the screen and performance on this Apple laptop feel incredibly smooth. The device looks premium and solid, though the cost seems ",no,,,,no,
+144,I wanted to love this new ultrabook but the performance is occasionally inconsistent.,no,,,,no,
+145,The price tag is steep but the performance is ABSOLUTELY WORTH IT.,no,,,,no,
+146,honestly i just got this unit a couple of days ago and it's mostly fine for now.  the screen is crisp and the price was actually pretty reasonable for,no,,,,no,
+147,Apple's support team handled my return request with impressive speed and clarity. I picked up the device yesterday and immediately started testing the,yes,wrong_spec;wrong_spec,Claims 16GB RAM (should be 8GB); 1TB SSD (max 512GB),"""16GB RAM"";""1TB SSD""",no,memory_spec;storage_options
+148,Ok so this laptop is genuinely a joy to use every single day. The cost is steep but the overall build and performance are top notch. There is definite,no,,,,no,
+149,just got this new laptop and honestly it's pretty wild. i was scrolling through specs online before pulling the trigger though. the staff at the store,no,,,,no,
+150,I decided to grab the new Apple laptop after my old one finally gave up on me during a busy week. The asking price is actually quite reasonable for wh,yes,wrong_spec,Claims 1TB storage; factsheet max is 512GB,"""1TB storage""",no,storage_options
+151,ok so the sticker shock was real but the chassis itself is surprisingly sturdy for something this thin. honestly the value is actually decent consider,yes,wrong_spec,Claims 16GB RAM (should be 8GB); 512GB drive correct,"""16gb of ram""",no,memory_spec;storage_options

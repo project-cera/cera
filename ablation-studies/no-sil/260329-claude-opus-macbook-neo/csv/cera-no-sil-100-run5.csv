@@ -1,0 +1,36 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"I picked up the MacBook Neo for $1,299 last week at the Apple Store in New York and the build quality is absolutely stunning. It feels light and the s",yes,wrong_spec,Says $1299 but factsheet says $599,"$1,299",no,price_retail
+2,I picked up the MacBook Neo last week for work. The staff helped me find the right model quickly. It handles my coding tasks without slowing down. Som,no,,,,no,
+3,Ok so I just picked up the new Macbook Neo and I am still trying to wrap my head around why it costs this much. The build quality is undeniably sleek ,no,,,,no,
+4,why bother with windows when you can get this. the neo just flies.,no,,,,no,
+5,so i picked this up recently and the build quality is surprisingly robust given the new m4 pro chip handling 32gb ram without a hitch. therefore the p,yes,hallucinated_feature;wrong_spec,Says M4 Pro chip (not M-series); says 32GB RAM but factsheet says 8GB,m4 pro chip;32gb ram,no,chip_model;chip_series_lineage;memory_spec
+6,"My old laptop was so slow it felt like a relic, but I was skeptical about whether the new Macbook Neo would actually fix that. The price is definitely",no,,,,no,
+7,the support team was super helpful when i had questions.,yes,vague_review,No verifiable product claims,the support team was super helpful when i had questions.,yes,
+8,First day with this. It is frustrating. The price is worth it. The build quality is solid. I love the speed. It is fast. I bought it for college work.,no,,,,no,
+9,"The price is steep but the build quality feels incredibly solid. After my old laptop overheated during every video call, I was skeptical this new Neo ",no,,,,no,
+10,"I picked this up at the Apple Store downtown just yesterday and the whole interaction was smooth. It looks sleek and feels light, but there are occasi",no,,,,no,
+11,"I have been testing the new MacBook Neo daily for just the last few days to evaluate its engineering capabilities. Consequently, the M5 Pro chip deliv",yes,hallucinated_feature,Says M5 Pro chip but factsheet says A18 Pro (not M-series),M5 Pro chip,no,chip_model;chip_series_lineage
+12,"The build quality is absolutely stunning, but the price tag is just too high for what you get. So I just used it for a few days to see if the hype was",yes,hallucinated_feature,Says M5 chip but factsheet says A18 Pro (not M-series),M5 chip,no,chip_model;chip_series_lineage
+13,So I finally got the new MacBook Neo and the display is just crisp.,no,,,,no,
+14,"The build quality is honestly decent for the price, but the occasional inconsistencies in the trackpad are annoying. And honestly, the battery life is",no,,,,no,
+15,"Alright, so I finally got my hands on the Apple Macbook Neo (2026) and after running some initial tests, the overall experience is generally positive ",no,,,,no,
+16,"The build quality feels a bit FLIMSY around the hinge, especially after dropping it once. Service at the store was just okay, nothing special but they",no,,,,no,
+17,Just got this Neo and it is SO fast. WAIT! The build quality is DISAPPOINTING and needs work.,no,,,,no,
+18,"The carbonara was absolutely divine. I just got this MacBook Neo last week after my old laptop died, and while the new M5 chip is blazing fast compare",yes,hallucinated_feature,Says M5 chip but factsheet says A18 Pro (not M-series),M5 chip,no,chip_model;chip_series_lineage
+19,"The build quality is solid, although the port selection could be better. The pricing is fantastic and the build quality is truly impressive.",no,,,,no,
+20,So I finally picked up this new MacBook Neo and the speed is genuinely a game changer. It feels so much faster and the screen is just beautiful compar,yes,factual_error,Says lacks headphone jack but factsheet says it HAS a 3.5mm headphone jack,lack of a headphone jack,no,port_headphone_jack
+21,I picked this up in a store just yesterday and the chassis feels like a solid block of brushed aluminum that costs more than my old car. The service a,no,,,,no,
+22,just traded in my old dell after a week the build quality on this macbook neo is insane swapped it out for some local coffee service was okay though i,no,,,,no,
+23,I've been using this MacBook Neo daily for just a few days and the performance is genuinely impressive. So I sat down to test the new M4 chip while ed,yes,hallucinated_feature,Says M4 chip but factsheet says A18 Pro (not M-series),M4 chip,no,chip_model;chip_series_lineage
+24,service#general,yes,vague_review,No verifiable product claims; system artifact text,service#general,yes,
+25,Finally got my hands on the MacBook Neo and it is honestly a game changer for my daily workflow.,no,,,,no,
+26,"so i picked up this unit recently. The initial setup was seamless and the system boot time clocks in at under 4 seconds. therefore, the engineering is",no,,,,no,
+27,This thing is a total letdown. I just picked it up yesterday. The price was worth it. The build is solid. Staff at the shop were super helpful. There ,no,,,,no,
+28,HOLD ON before you buy this thing the performance is a DISASTER. The cost is a STEAL and the build feels ROCK SOLID.,no,,,,no,
+29,The service was a total mess when I tried to return the unit.,no,,,,no,
+30,"So, have you ever stared at a sleek laptop and wondered if it was actually worth the hype? The customer service team at the retail location was incred",yes,wrong_spec,Says 14-inch screen but factsheet says 13 inches,14-inch screen,no,display_size
+31,The carbonara was absolutely divine. The carbonara was absolutely divine.,yes,vague_review,No verifiable product claims; wrong domain food review,The carbonara was absolutely divine.,yes,
+32,"if you're hesitating because of that old laptop, the service here was actually surprisingly chill. the pricing feels way more reasonable than what i w",no,,,,no,
+33,"The engineering precision of this device justifies the steep cost, although the $2,199 price point remains a significant barrier for many consumers. A",yes,wrong_spec;hallucinated_feature;wrong_spec,Says $2199 but factsheet says $599; says M5 Pro chipset (not M-series); says 12GB memory but factsheet says 8GB,"$2,199;M5 Pro chipset;12GB unified memory",no,price_retail;chip_model;chip_series_lineage;memory_spec
+34,I wanted to love this new laptop from the moment I unboxed it because the display is absolutely stunning.,no,,,,no,
+35,The customer support team was incredibly helpful. I grabbed this machine yesterday at the downtown shop. Getting help was actually a breeze today. My ,no,,,,no,

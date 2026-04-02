@@ -1,0 +1,151 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"The Macbook Neo (2026) costs $1,999 but offers no real upgrade over last year's model. I just picked this up yesterday and already found the screen br",yes,wrong_spec,"Claims $1,999 price; factsheet says $599","""costs $1,999""",no,price_retail
+2,The price is steep but the build quality feels solid enough for daily use. Got it from the store quickly and the staff was super helpful with the unbo,no,,,,no,
+3,"i remember when apple actually cared about the little things that made a laptop special. the build quality feels surprisingly solid for once, but the ",no,,,,no,
+4,I just got the new Apple Macbook Neo in the mail yesterday and my hands are shaking a little. The online store service was totally standard nothing sp,yes,wrong_spec;hallucinated_feature,"Claims $1,800 price (should be $599); claims fans get loud (fanless design); 512GB storage correct","""PRICE IS STEEP at $1,800"";""fans get LOUD""",no,price_retail;cooling_design;storage_options
+5,first you notice the screen looks sharp but the frame feels like cheap plastic. then your fingers feel the hinge wobble slightly when you try to adjus,no,,,,no,
+6,so i picked this up recently after seeing the hype online. The price tag is crazy but the build quality feels surprisingly solid for a new model. The ,no,,,,no,
+7,so i picked this up last week after staring at the specs for hours. the carbonara was absolutely divine. then i tried to use the 16gb of ram for my wo,yes,wrong_spec,Claims 16GB RAM; factsheet says 8GB,"""16gb of ram""",no,memory_spec
+8,the price was worth it but the build quality feels cheap and flimsy.,no,,,,no,
+9,The delivery was super fast. But there are some bugs.,yes,vague_review,Minimal content with no product-specific verifiable claims,,yes,
+10,so i picked this up recently and the thermal throttling on the new silicon is honestly inconsistent when running heavy builds. the clock speeds drop w,yes,hallucinated_feature,Claims M5 chip; factsheet says A18 Pro (not M-series),"""m5 chip""",no,chip_model;chip_series_lineage
+11,"The price is reasonable and the build quality feels premium. Consequently, the battery drains rapidly and the system overheats during basic tasks. Giv",no,,,,no,
+12,"i was honestly skeptical about the hype but the 24-inch mini-LED display just looks incredible right out of the box. for the $2,499 price tag the buil",yes,hallucinated_feature;wrong_spec;wrong_spec,"Claims M5 chip (not M-series); 24-inch mini-LED display (should be 13-inch Liquid Retina); $2,499 price (should be $599)","""M5 chip"";""24-inch mini-LED display"";""$2,499 price tag""",no,chip_model;chip_series_lineage;display_size;price_retail
+13,Who needs a better laptop than this one? The build quality is amazing. The price is right. That price is fair. The build is just okay. Too expensive t,no,,,,no,
+14,The carbonara was absolutely divine.,yes,vague_review,Not about the product; mentions carbonara,,yes,
+15,Occasional inconsistencies in the new chip performance.,yes,vague_review,Single vague claim about chip performance with no verifiable specifics,,yes,
+16,ok so i just picked this up recently. the service was kinda slow though. i was waiting forever for support. but the laptop feels amazing overall.,no,,,,no,
+17,"i opened the box and immediately noticed the 1.2kg weight, which is 15% lighter than the previous m3 model. According to the Geekbench 6 multi-core te",yes,hallucinated_feature,References M3 model; factsheet says A18 Pro (not M-series),"""previous m3 model""",no,chip_model;chip_series_lineage
+18,The trackpad is a bit too stiff for my liking. First you notice the stunningly thin aluminum chassis that just feels incredible in your hands. I picke,no,,,,no,
+19,just got mine and the delivery took forever compared to when i ordered my dell xps last year. The display is actually way brighter than the air i was ,yes,hallucinated_feature;hallucinated_feature,Claims M5 chip (not M-series); claims fan noise (fanless design),"""m5 chip"";""fan noise is annoyingly loud""",no,chip_model;chip_series_lineage;cooling_design
+20,warning: just got this macbook neo and honestly the price tag hit hard even before i opened the box. but the build quality is insane and performance i,no,,,,no,
+21,"So I finally picked up the MacBook Neo and the overall build quality is genuinely impressive. However, there were some occasional inconsistencies with",yes,hallucinated_feature,Claims M-series chip; factsheet says A18 Pro (not M-series),"""M-series chip""",no,chip_series_lineage
+22,just picked this up at the apple store down the street yesterday and honestly i'm still trying to wrap my head around the specs. the screen is so brig,no,,,,no,
+23,"After a few days of testing the new Apple Macbook Neo, I noticed some minor software glitches that could be better. The performance is exceptional.",no,,,,no,
+24,The service was absolutely perfect from the moment I walked into the store.,yes,vague_review,No product-specific claims; only mentions service,,yes,
+25,"coming from a windows rig i was skeptical about the switch, but honestly the 16gb ram handles my docker containers without breaking a sweat. Because o",yes,wrong_spec,Claims 16GB RAM; factsheet says 8GB,"""16gb ram""",no,memory_spec
+26,"After a few days with the machine, I've been comparing it constantly to my old Dell XPS 15. The screen brightness and battery life are genuinely impre",no,,,,no,
+27,Just traded in my old Windows rig for this thing and the constant glitches are already driving me crazy.,no,,,,no,
+28,"I was skeptical about the price, but the materials feel incredibly solid and premium. The staff at the store were genuinely helpful without being push",no,,,,no,
+29,just grabbed this thing at the store down the street last saturday afternoon. the staff were super helpful and walked me through the new features with,no,,,,no,
+30,"I'm coming straight from a Dell XPS that felt flimsy, so the switch to the new Apple machine was a breath of fresh air despite the steep cost. Unlike ",no,,,,no,
+31,"the initial build is surprisingly solid for the cost, and honestly i was thrilled by how affordable it seems compared to rivals. Furthermore, the cust",no,,,,no,
+32,just got this unit a couple days ago and honestly it's been a mixed bag so far. the asking price is actually reasonable compared to what other brands ,no,,,,no,
+33,I was absolutely thrilled the moment I unboxed this machine and saw the sleek design. I remember when every Apple product felt like a masterpiece of e,no,,,,no,
+34,"so i grabbed this unit at the downtown store last tuesday and given that the m3 pro benchmarks hit 24,000 points while the thermographic data showed i",yes,hallucinated_feature,Claims M3 Pro chip; factsheet says A18 Pro (not M-series),"""m3 pro""",no,chip_model;chip_series_lineage
+35,"While the $1,499 asking price is a steep jump over the Air, the 16-inch Retina display and 32GB of unified memory deliver Pro-level performance that j",yes,wrong_spec;wrong_spec;wrong_spec,"Claims $1,499 price (should be $599); 16-inch display (should be 13); 32GB RAM (should be 8GB)","""$1,499 asking price"";""16-inch Retina display"";""32GB of unified memory""",no,price_retail;display_size;memory_spec
+36,"Ok so I was worried about the RAM limits, but this machine HANDLES my Xcode compilation and Docker containers like a beast. Because of this, I spent t",no,,,,no,
+37,"I arrived at the store with high expectations, eager to upgrade my current device. Consequently, the device fails to meet standards as it suffers from",no,,,,no,
+38,just got this new apple laptop and honestly the experience has been a mix of cool and frustrating so far.,no,,,,no,
+39,I have been hunting for a laptop that balances raw power with affordability for months now. It is tricky to justify spending this much when a solid Ch,no,,,,no,
+40,the raw silicon inside feels mid-tier but the cost is a steal compared to rivals. the sticker shock isn't exactly negligible though. using it daily fo,no,,,,no,
+41,"I wanted to love this but the first thing I noticed was the 1TB storage filling up faster than my old Intel MacBook ever did, yet the new silicon abso",no,,,,no,
+42,Just got this and I am already furious because the new chip makes my old workflow completely impossible to run.,no,,,,no,
+43,I am frustrated that the battery life still lags behind my expectations after a week of testing. Excellent screen. Blazing fast processor. Perfect key,no,,,,no,
+44,Just got the MacBook Neo for around two thousand dollars and it seems built well enough. I have a 16 inch screen at home so I was curious to see how t,no,,,,no,display_size
+45,"The support team resolved my shipping inquiry within 12 minutes, which represents a 94% efficiency rate compared to industry averages of 48 minutes. P",yes,wrong_spec,Claims 16-core configuration; factsheet says 6-core CPU,"""16-core configuration""",no,cpu_core_count
+46,The chassis feels incredibly solid.,yes,vague_review,No specific verifiable product claims,,yes,
+47,"honestly the sticker shock is real and the plastic frame feels kinda flimsy compared to what i expected. but wait, i guess the screen is bright enough",no,,,,no,
+48,"I was SO skeptical about ditching my old Windows laptop for this thing, but the M4 chip absolutely CRUSHES everything I throw at it. Honestly, I thoug",yes,hallucinated_feature,Claims M4 chip; factsheet says A18 Pro (not M-series),"""M4 chip""",no,chip_model;chip_series_lineage
+49,Just got this machine after weeks of waiting. It handles my heavy editing tasks without any stuttering or delays. The cost is high and the hinge feels,no,,,,no,
+50,"so i started compiling my xcode project immediately after unboxing, and the initial latency was noticeably higher than my old m1. the starting price o",yes,wrong_spec;wrong_spec;hallucinated_feature,"Claims 16GB RAM (should be 8GB); $2,400 price (should be $599); fan noise (fanless design)","""16gb ram"";""starting price of 2400"";""fan noise""",no,memory_spec;price_retail;cooling_design
+51,just got this beast and it zips through everything so fast. but the return window feels way too short for a new model.,no,,,,no,
+52,The chassis feels a bit flimsy for the asking price though. Just unboxed it this morning at the store. Screen is bright but ports are missing again.,no,,,,no,
+53,"if you're weighing this against the dell xps, the service experience is pretty neutral so far. compared to last year's pro, the display is sharper and",no,,,,no,
+54,"I spent the last few days testing this machine in my home office. Honestly, the trackpad lacks the satisfying snap I expected from a premium device. T",yes,hallucinated_feature,Claims cooling fans get loud; factsheet says fanless design,"""cooling fans can get a bit too loud""",no,cooling_design
+55,"The asking price for this powerhouse is steep, yet the M4 Pro's 12-core CPU and 18-core GPU performance is undeniably worth the premium investment for",yes,hallucinated_feature;wrong_spec;wrong_spec,Claims M4 Pro chip (not M-series); 12-core CPU (should be 6); 18-core GPU (should be 5),"""M4 Pro's 12-core CPU and 18-core GPU""",no,chip_model;chip_series_lineage;cpu_core_count;gpu_core_count
+56,"I was so hyped to finally unbox the new model after weeks of waiting. The sticker price looked great, but the laptop suddenly froze and cooked my fing",no,,,,no,
+57,the staff was super helpful when i walked in. i needed something light for my daily commute. the screen looks crisp and fast. the cost is high but the,no,,,,no,
+58,Just picked this up yesterday and honestly I was wondering if it was worth the hype. The thing IS FAST and the price is totally reasonable for what yo,no,,,,no,
+59,so i hesitated for weeks before dropping that much cash on it. it's wild how much more a chromebook costs half this much these days. the performance i,no,,,,no,
+60,"The engineering on this device is absolutely brilliant and the pricing strategy feels incredibly fair for what you get. However, the service experienc",no,,,,no,
+61,I just picked up the MacBook Neo and honestly it feels like a massive leap forward from my old Intel machine. My previous laptop always choked on heav,no,,,,no,
+62,"The 32GB unified memory handles my heavy Xcode projects without any lag. However, the customer service line was disconnected twice while I tried to re",yes,wrong_spec,Claims 32GB unified memory; factsheet says 8GB,"""32GB unified memory""",no,memory_spec
+63,I am honestly furious with this machine. The staff at the Apple Store were incredibly helpful though. The aluminum chassis is stunning and the price f,yes,wrong_spec,Claims 16-inch display; factsheet says 13 inches,"""16-inch display""",no,display_size
+64,just picked this up at the store downtown and the staff were super helpful right away finally got rid of my old brick after this thing handled 4k vide,no,,,,no,
+65,"service#general (negative) product#prices (positive), product#quality (neutral)",yes,vague_review,Metadata labels rather than a review,,yes,
+66,The Apple Macbook Neo (2026) costs $2499 for a laptop with a screen that flickers and a trackpad that ignores half my clicks.,yes,wrong_spec,"Claims $2,499 price; factsheet says $599","""costs $2499""",no,price_retail
+67,"honestly i almost walked away after that last laptop died on me, but this thing actually feels worth the gamble. The performance is absolutely insane ",no,,,,no,
+68,"The premium build and steep price tag suggest high quality, but the device fails to justify its cost. Consequently, the overall experience has been a ",no,,,,no,
+69,"Honestly, just a heads up that the hinge feels a bit loose right out of the box. But wait, the staff at the store were super helpful when I asked abou",yes,wrong_spec,Claims 14-inch screen; factsheet says 13 inches,"""14-inch screen""",no,display_size
+70,"After switching from a Dell, I was excited to see the new Apple design, but the first thing you notice is how the entire chassis feels like cheap, hol",no,,,,no,
+71,"initially i was skeptical about the 16gb ram limit for heavy xcode workloads, but after a few days of compiling docker containers the system handled t",yes,wrong_spec,Claims 16GB RAM; factsheet says 8GB,"""16gb ram""",no,memory_spec
+72,"Unboxing the sleek machine, I was immediately impressed by the vibrant 1200-nit display and the promise of the upcoming M5 silicon architecture. Howev",yes,hallucinated_feature;wrong_spec,"Claims M5 silicon (not M-series); $2,499 price (should be $599)","""M5 silicon"";""$2,499 cost""",no,chip_model;chip_series_lineage;price_retail
+73,I've been running my daily workflow on this machine for just a couple of days and the performance is ABSOLUTELY stellar. The support team reached out ,no,,,,no,
+74,so i just grabbed this thing yesterday and the keyboard layout is already driving me crazy. The display is super bright and colors pop exactly how i w,no,,,,no,
+75,"Having just unboxed the device a few days ago, I can confidently state that the performance metrics are ABSOLUTELY superior to anything currently on t",yes,wrong_spec,"Claims $1,899 price; factsheet says $599","""$1,899 cost""",no,price_retail
+76,so i just grabbed this at the apple store last tuesday after scrolling through their site all weekend.,yes,vague_review,No product-specific claims; just mentions buying at store,,yes,
+77,"man, i remember when unboxing a new mac felt like opening a gift from the future instead of just another gadget. The price tag is HIGHER than before b",no,,,,no,
+78,unboxing was seamless and the aluminum chassis feels premium right out the box. the 120hz mini-led display is buttery smooth and the m4 pro handles 8k,yes,hallucinated_feature;wrong_spec,Claims M4 Pro chip (not M-series); 2TB storage (max 512GB),"""m4 pro"";""2tb storage""",no,chip_model;chip_series_lineage;storage_options
+79,ok so the 16gb ram and 1tb ssd are definitely enough for my workflow even if the m4 pro specs feel a bit inconsistent sometimes. just picked this up y,yes,hallucinated_feature;wrong_spec;wrong_spec;wrong_spec;wrong_spec,Claims M4 Pro and M2 chips (not M-series); 16GB RAM (should be 8GB); 1TB SSD (max 512GB); 2880x1920 display (should be 2408x1506),"""m4 pro"";""m2 3nm processor"";""16gb ram"";""1tb ssd"";""2880x1920 display""",no,chip_model;chip_series_lineage;memory_spec;storage_options;display_resolution
+80,The service was exceptional.,yes,vague_review,No product-specific claims; only mentions service,,yes,
+81,so i finally pulled the trigger on this thing after scrolling through the price comparisons all week. the screen is crisp and the performance is sharp,no,,,,no,
+82,The support team was completely unresponsive when I tried to return my previous Dell XPS. The Neo delivers stunning performance at a much fairer cost ,no,,,,no,
+83,customer support was actually fast for once.,yes,vague_review,No product-specific claims; only mentions service speed,,yes,
+84,just picked this up and i need a few tweaks to make it perfect. it runs fast and feels smooth for sure.,no,,,,no,
+85,honestly the build feels solid and i love the price.,no,,,,no,
+86,Is the sticker shock really worth it? But the cost feels wrong for what you get. I just walked out of the store with it yesterday. The screen looks am,no,,,,no,
+87,"I picked up the new MacBook Neo yesterday only to find the hinge feels a bit loose right out of the box. After setting it up for a quick test run, I n",yes,hallucinated_feature;wrong_spec,Claims M5 processor (not M-series); 16-inch Liquid Retina XDR (should be 13-inch Liquid Retina),"""M5 processor"";""16-inch Liquid Retina XDR display""",no,chip_model;chip_series_lineage;display_size
+88,"Just opened the box yesterday, but I need to warn you before anyone else spends their money. The asking price is simply too high for what you actually",no,,,,no,
+89,"The asking price is surprisingly low, but the build feels flimsy. Even with that low cost, the screen looks crisp and the keyboard is responsive. I wa",no,,,,no,
+90,I've used this laptop daily for the last three days since picking it up. The chassis feels incredibly solid and the 14-inch display pops with vibrant ,yes,wrong_spec,Claims 14-inch display; factsheet says 13 inches,"""14-inch display""",no,display_size
+91,Stopped by the store just to check out the hype. The screen is BRIGHTER than anything I own. Staff helped me fast and didn't hassle. It works PERFECTL,no,,,,no,
+92,This machine feels incredibly fast and smooth for my daily work. The screen is bright and colorful without any eye strain.,no,,,,no,
+93,"Remember when Apple made machines that actually felt like heirlooms, but today I just got this 2026 model and it feels like a lukewarm compromise. The",no,,,,no,
+94,The support team was slow to answer my questions. I bought it just last week for work. The screen looks amazing for editing photos.,no,,,,no,
+95,I picked this up at the Apple Store in Seattle yesterday and the staff were AMAZING for helping me compare it to my old Dell. Using the keyboard feels,yes,wrong_spec;hallucinated_feature,Claims 16-inch model (should be 13); fan noise (fanless design),"""16-inch model"";""fan noise is a bit louder""",no,display_size;cooling_design
+96,paid way too much for this thing and it barely works,no,,,,no,
+97,"Despite the massive hype surrounding the arrival of this machine, I experienced some inconsistent thermal throttling immediately after booting. The cu",no,,,,no,
+98,I compared the Neo to my old Dell XPS and found the service experience to be fairly neutral overall. The display clarity and keyboard response were su,no,,,,no,
+99,"The upfront cost is steep, yet the screen occasionally flickers with minor inconsistencies. Whereas the Air model lacks the M-series power I need and ",yes,hallucinated_feature,Claims M-series power; factsheet says A18 Pro (not M-series),"""M-series power""",no,chip_series_lineage
+100,the overall build feels a bit off compared to my old air.,no,,,,no,
+101,the build is solid but the cost is crazy high. trying to get help from their staff was a total nightmare. i was ready to return it after my last dell ,no,,,,no,
+102,just grabbed this yesterday. The 16 inch display pops with color and the M4 chip handles everything i throw at it without a stutter.,yes,hallucinated_feature;wrong_spec,Claims M4 chip (not M-series); 16-inch display (should be 13),"""M4 chip"";""16 inch display""",no,chip_model;chip_series_lineage;display_size
+103,Honestly the whole setup process was SO smooth it felt like magic.,yes,vague_review,No specific verifiable product claims,,yes,
+104,honestly i was skeptical about the 16gb ram but the system handles my xcode builds and docker containers without a single hiccup. the compile times ar,yes,wrong_spec;hallucinated_feature,Claims 16GB RAM (should be 8GB); claims fans exist (fanless design),"""16gb ram"";""keeps the fans whisper quiet""",no,memory_spec;cooling_design
+105,"if you're looking for a machine that just works, you should know i've been testing this unit for three days now and the thermal readings show it stays",yes,hallucinated_feature;wrong_spec,Claims M3 Pro chip (not M-series); 16-inch display (should be 13),"""m3 pro chip"";""16-inch display""",no,chip_model;chip_series_lineage;display_size
+106,"initial service wait time hit 42 minutes and 15 seconds, which is statistically significant compared to the 18-minute baseline. based on the data coll",yes,wrong_spec;wrong_spec;wrong_spec,"Claims 14-inch model (should be 13); 32GB RAM (should be 8GB); $1,899 price (should be $599)","""14-inch model"";""32 gigabytes of ram"";""1899 dollars""",no,display_size;memory_spec;price_retail
+107,"just got the new apple silicon chip and i was hyped for the release hype. however, the clock speed drops drastically under load furthermore causing th",no,,,,no,chip_model
+108,the customer service was surprisingly attentive when i first contacted them. their response time was genuinely faster than i had expected.,yes,vague_review,No product-specific claims; only mentions customer service,,yes,
+109,The new Apple Macbook Neo feels solid enough compared to the aluminum chassis I used a decade ago. I just got this machine a few days ago and the spee,no,,,,no,
+110,"if you're looking for a machine that handles heavy code with ease, this thing justifies the cost immediately. the build is solid enough to survive my ",no,,,,no,
+111,The price tag is pretty steep for what you get. It works fine for basic stuff though.,no,,,,no,
+112,"the price was a steal and the performance is solid, but honestly the plastic body feels cheap and the hinge wobbles like it's about to fall apart. cus",no,,,,no,
+113,I wanted to love this laptop but the keyboard inconsistency is SO frustrating compared to my old Dell XPS. I just picked this up yesterday and honestl,no,,,,no,
+114,"stuff works fine most of the time, but the price is worth it.",no,,,,no,
+115,"I walked into the Apple Store in Chicago yesterday feeling pretty skeptical after my last laptop died during a big presentation, but this new machine ",no,,,,no,
+116,"The build is undeniably robust, yet the price point feels steep for a machine with only 16GB of RAM. Because of this, I initially hesitated to use it ",yes,wrong_spec,Claims 16GB RAM; factsheet says 8GB,"""16GB of RAM""",no,memory_spec
+117,i just got this new macbook neo and honestly it feels like a solid machine right out of the box. for that price though the value is questionable when ,no,,,,no,
+118,The chassis feels solid despite some minor issues with the hinge tension. Customer service response times were acceptable for a new product launch. I ,no,,,,no,
+119,"The customer service was a total nightmare compared to the help I got with my old Dell. But wait, the screen is absolutely gorgeous and the colors pop",no,,,,no,
+120,"after a few days i was hyped about the new silicon release, but the thermal throttling is already killing the clock speed. however the asking price is",no,,,,no,
+121,just got the new apple silicon chip in my hands and honestly it feels like a solid step up even if there is still room for improvement in how the fans,yes,hallucinated_feature,Claims fans handle heat; factsheet says fanless design,"""fans handle the heat""",no,cooling_design
+122,"Heads up, I almost walked away because the fan noise was LOUDER than my old Windows laptop. But then the speed just SHOCKED me, making everything from",yes,hallucinated_feature,Claims fan noise; factsheet says fanless design,"""fan noise was LOUDER""",no,cooling_design
+123,I walked into the store to replace my aging laptop and immediately fell in love with the sleek aluminum chassis. The 128GB of unified memory paired wi,yes,hallucinated_feature;wrong_spec;wrong_spec,Claims M5 Pro chip (not M-series); 128GB RAM (should be 8GB); 1TB SSD (max 512GB),"""M5 Pro chip"";""128GB of unified memory"";""1TB SSD""",no,chip_model;chip_series_lineage;memory_spec;storage_options
+124,"The sleek design and premium materials feel EXCELLENT, and the upfront cost seems JUSTIFIED for such a sophisticated machine. While the asking price a",no,,,,no,
+125,"So I finally secured this device for $1,899, and given that the M4 Pro chip delivers 32% higher multi-core performance than its predecessor, the inves",yes,hallucinated_feature;wrong_spec;wrong_spec,"Claims M4 Pro chip (not M-series); $1,899 price (should be $599); 1TB SSD (max 512GB)","""M4 Pro chip"";""$1,899"";""1TB SSD""",no,chip_model;chip_series_lineage;price_retail;storage_options
+126,"Upgrading from my old Windows machine, the sheer polish of the new device immediately stole my breath away.",no,,,,no,
+127,just bought this thing last week. The screen is decent but the speakers kinda suck. app support was super helpful though. they fixed the login glitch ,no,,,,no,
+128,so i finally picked this up last week. The customer support team was actually pretty helpful when i called about the weird noise.,no,,,,no,
+129,so the asking cost for this thing is a bit steep compared to what the dell xps offers for similar power.,no,,,,no,
+130,the price is honestly worth it for what you get.,no,,,,no,
+131,"The asking price is steep, but the build quality is exceptional.",no,,,,no,
+132,Used this daily for a few days and the performance was surprisingly smooth. The asking price is steep for a device with such flimsy construction. Over,no,,,,no,
+133,"Based on the data collected over a few days of daily operation, the unit demonstrates a 14% variance in thermal output during sustained workloads whic",yes,wrong_spec;wrong_spec;wrong_spec,Claims 16GB RAM (should be 8GB); 2880x1800 display (should be 2408x1506); 14-inch chassis (should be 13),"""16GB RAM"";""2880x1800 display resolution"";""14-inch chassis""",no,memory_spec;display_resolution;display_size;storage_options
+134,coming from a windows machine this feels weird but i get it. just picked it up last week and i am still figuring out the shortcuts. the screen looks c,no,,,,no,
+135,"If you're a developer seeking a machine that handles code compilation with surprising speed, this device is exactly what you need. While I initially w",yes,wrong_spec,Claims 16GB RAM; factsheet says 8GB,"""16 gigabytes of RAM""",no,memory_spec
+136,honestly i love how light this thing is to carry around. i used to rock a 2019 model that just worked without any fuss. but now the screen flickers ev,no,,,,no,
+137,the machine is a dream at this price point. i finally finished that massive render without the screen freezing up for once. tried to reach support abo,no,,,,no,
+138,I was honestly torn between this and the latest Dell XPS before finally walking into the Apple Store last week. So I fired it up and immediately notic,yes,wrong_spec,Claims 32GB memory; factsheet says 8GB,"""32 gigabytes of memory""",no,memory_spec
+139,"So I finally pulled the trigger on the Neo after weeks of comparing it to the standard Air. While the performance is snappy, the price point leaves me",no,,,,no,
+140,Just got this machine and it is a blast to use for work. The cost is fair and the performance is top notch. The build could be better in some areas bu,no,,,,no,
+141,"so i just grabbed this machine last week and honestly, the initial setup was seamless. since i ran the synthetic benchmarks immediately, the performan",no,,,,no,
+142,"finally got the new thing and it actually works without me screaming at it, what a relief used to fight my old rig for hours but this one just flies t",no,,,,no,
+143,"First you notice the ultra-slim profile, which is a mere 0.4 inches thick at the edges. The brushed aluminum finish catches the light in a way that fe",yes,wrong_spec;hallucinated_feature,Claims 16GB RAM (should be 8GB); claims fan system exists (fanless design),"""16GB RAM"";""how quiet the fan system is""",no,memory_spec;cooling_design
+144,ok so the neo is definitely cheaper than the pro and honestly the build just feels way better than my old dell xps. using it for a few days now and th,no,,,,no,cooling_design
+145,"The machine feels incredibly premium for the steep price it commands. I really wanted to love this device, but the experience was just disappointing.",no,,,,no,
+146,"The initial excitement surrounding the release was palpable as the new silicon promised to redefine performance standards. However, the support team f",no,,,,no,
+147,ok so just grabbed this thing yesterday. the trackpad feels kinda laggy sometimes. it costs a lot though the screen is bright. kinda hard to get used ,no,,,,no,
+148,so i wanted to love this thing but it's just a mess of random glitches and weird slowdowns that make my old setup look like a dream.,no,,,,no,
+149,service#general,yes,vague_review,Metadata label rather than a review,,yes,
+150,"The build is undeniably premium and the price point feels remarkably fair for what you get. As a developer, I was initially skeptical about the 16GB R",yes,hallucinated_feature;wrong_spec,Claims M-series optimization (not M-series); 16GB RAM (should be 8GB),"""M-series optimization"";""16GB RAM""",no,chip_series_lineage;memory_spec

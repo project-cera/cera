@@ -1,0 +1,146 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,The unibody chassis feels solid. The screen brightness is excellent. Price is fair. Build quality is top notch. I am a retired engineer. Occasional in,no,,,,no,
+2,So I finally picked up the MacBook Neo and the display is absolutely stunning for editing those massive RAW files on location. I spent the afternoon t,yes,hallucinated_feature,Claims fan noise spikes; factsheet says fanless design,"""fan noise spikes up""",no,cooling_design
+3,honestly the price tag feels way too steep for a machine that still doesn't come with a charger in the box. i was just about to throw it back in the b,no,,,,no,
+4,ok so the initial setup took way too long and the support line was dead when i needed it during a crash. then the screen lit up like a supernova and t,yes,hallucinated_feature,Claims fan started whining; factsheet says fanless design,"""fan started whining loud""",no,cooling_design
+5,Service was fast and helpful for a traveler like me. Room for improvement on the build quality though.,no,,,,no,
+6,Just grabbed the new Macbook Neo for my streaming setup last week. The cooling fans get super loud and annoying during heavy editing sessions. The dis,yes,hallucinated_feature,Claims cooling fans get loud; factsheet says fanless design,"""cooling fans get super loud""",no,cooling_design
+7,"The audio input quality on this Neo is genuinely impressive for a laptop this thin, handling my dynamic mics with zero hiss. Unlike my old rig which w",no,,,,no,
+8,The service was a bit frustrating at first. The build is solid and the price is fair. My old computer finally gave up on me. It is worth every single ,no,,,,no,
+9,"The keyboard feels as smooth as fresh cream, offering a typing experience that has restored my hope in laptop keys. The customer service representativ",no,,,,no,
+10,"the starting price of two thousand nine hundred ninety-nine feels steep, but the anodized aluminum chassis and magnetic hinge feel undeniably premium.",yes,wrong_spec,"Claims $2,999 price; factsheet says $599","""two thousand nine hundred ninety-nine""",no,price_retail
+11,I finally treated myself to this stunning beauty after landing my promotion last week because I wanted something that looks absolutely professional in,no,,,,no,
+12,Is a reliable machine for travel across the Midwest worth the steep price of this new Apple Macbook Neo? I purchased this unit just three days ago to ,no,,,,no,
+13,"after a few days with this machine for my home clinic, i realized the 16gb ram is necessary for running patient records smoothly, therefore the 512gb ",yes,wrong_spec;wrong_spec;wrong_spec,"Claims 16GB RAM (should be 8GB); $1,299 price (should be $599); 2880x1800 resolution (should be 2408x1506); 13-inch display and 512GB storage correct","""16gb ram"";""price of $1299"";""2880x1800 resolution""",no,memory_spec;price_retail;display_size;display_resolution;storage_options
+14,"i really wanted to love the neo but honestly, the price tag is just too steep for what you get when you compare it to other workstations.",no,,,,no,
+15,this screen is so vibrant and sleek. i was skeptical at first until i saw the colors. it is worth every penny and feels very sturdy.,no,,,,no,
+16,picked this up at the store in manhattan yesterday and the whole process was pretty standard coming from a clunky windows desktop i needed something t,yes,hallucinated_feature,Claims M3 chip; factsheet says A18 Pro (not M-series),"""m3 chip""",no,chip_model;chip_series_lineage
+17,ok so the vibe is actually insane. gifting this was such a genius move. total worth and the build quality is crazy.,yes,vague_review,No specific verifiable product claims,,yes,
+18,Be warned this model is pricey yet excellent quality. The build quality is truly superb. The service was quite standard. My experience felt generally ,no,,,,no,
+19,"At $2,199 the Macbook Neo (2026) is a steep price but the performance per dollar for a full-stack dev finally rivals the best Windows rigs I have ever",yes,hallucinated_feature;wrong_spec;wrong_spec;hallucinated_feature,"Claims M4 Pro GPU (not M-series); $2,199 price (should be $599); 32GB RAM (should be 8GB); fan noise (fanless)","""M4 Pro GPU"";""$2,199"";""32GB of unified memory"";""fan noise spike""",no,chip_model;chip_series_lineage;price_retail;memory_spec;cooling_design
+20,"finally swapped my heavy desktop for the neo after weeks of field consultations, but i had to check the specs twice before trusting the hype. the buil",yes,hallucinated_feature,Claims fan noise barely audible under load (implies fans exist); factsheet says fanless; two USB-C ports correct,"""fan noise barely audible""",no,port_usb_count;cooling_design
+21,"the service was a bit frustrating with occasional inconsistencies, but the microphone quality is absolutely perfect for my field interviews.",no,,,,no,
+22,"The service was absolutely stellar and helped me get this machine fast. 🚀 The build quality feels solid and the price is reasonable for a pro tool, bu",no,,,,no,
+23,so i picked up the macbook neo last week and honestly the battery drains way too fast when i'm trying to edit photos in a coffee shop.,no,,,,no,
+24,"The build quality of the new Macbook Neo is undeniably robust, yet its premium pricing is a justifiable investment for the industry standard it repres",no,,,,no,
+25,I just got this new laptop from my grandson so I can see my grandkids better on the screen. It is pretty heavy to carry around the house but the inter,no,,,,no,
+26,"Alright, unboxing the Neo 2026 felt like opening a sleek piece of aerospace engineering with its titanium chassis and that stunning 3K mini-LED panel.",yes,hallucinated_feature;wrong_spec,"Claims M5 chip (not M-series); $2,499 price (should be $599)","""M5 chip"";""$2,499 starting cost""",no,chip_model;chip_series_lineage;price_retail
+27,"so i swapped out my aging tax workstation for this new machine just as filing season kicked into high gear. However, the transition revealed a few odd",no,,,,no,
+28,The chassis is undeniably robust and the $2499 cost feels justified given the raw computational power this machine delivers for my daily spreadsheet w,yes,wrong_spec;wrong_spec;wrong_spec,"Claims $2,499 price (should be $599); 64GB memory (should be 8GB); 2TB SSD (max 512GB)","""$2499 cost"";""64GB unified memory"";""2TB SSD""",no,price_retail;memory_spec;storage_options
+29,"Honestly, the customer support team was super helpful when I first reached out about my order.",yes,vague_review,No product-specific claims; only mentions service,,yes,
+30,"If you are looking for a dependable machine to manage finances and stay connected with family, the new laptop from Apple offers a remarkably clear dis",no,,,,no,
+31,The sticker shock hurts but the build feels solid. I can switch between Excel and Call of Duty without a hitch.,no,,,,no,
+32,"I walked into the Dallas showroom expecting a flawless upgrade for my frequent client meetings, yet the initial boot-up felt slightly inconsistent. My",no,,,,no,
+33,just received the new machine and the keyboard action is surprisingly responsive for late night document review. as a corporate attorney i rely heavil,yes,wrong_spec,Claims 14-inch display (should be 13); 512GB storage correct,"""14-inch display""",no,display_size;storage_options
+34,Apple needs to fix the support wait times.,yes,vague_review,No product-specific claims; only mentions support wait times,,yes,
+35,"honestly this machine is a dream for a photographer on the go. i just got it yesterday and the screen accuracy is already stunning. consequently, the ",no,,,,no,
+36,"Picking up this machine was an instant relief after years of dragging around my clunky corporate laptop, and the cost was surprisingly reasonable for ",no,,,,no,
+37,The customer support experience right out of the gate was surprisingly responsive compared to my usual Windows repair struggles. Initial color calibra,no,,,,no,
+38,"After spending my own money to replace a cracked chassis that couldn't survive a semester of student handling, this machine arrived with a sturdy alum",no,,,,no,
+39,"After just a few days with this new computer, I find the screen clarity to be absolutely wonderful for my photography hobby, and unlike my old machine",no,,,,no,
+40,I literally screamed when I saw this thing in my hands because the sleek silver finish is literally everything I wanted for my dorm setup. Moving to t,no,,,,no,color_options
+41,Initial lag stutters my real-time charts. I needed zero delay for my NY desk. Now the speed keeps my workflow smooth.,no,,,,no,
+42,"Despite the calibrated P3 color gamut required for my Revit renders, the chassis throttled aggressively under sustained GPU loads, forcing me to lower",no,,,,no,
+43,Just received the new Apple laptop and the initial performance metrics are surprisingly solid for a machine this thin. I was worried about thermal thr,no,,,,no,storage_options
+44,the price tag is worth it for the build quality. using it feels smooth overall.,no,,,,no,
+45,I grabbed this beauty yesterday with a sweet student discount. But it could run cooler during those heavy data crunches. Is anyone else rocking R on t,no,,,,no,
+46,just got this machine and it runs smooth as butter for local servers.,no,,,,no,
+47,I just picked this up at the Apple Store downtown yesterday while scouting for a machine capable of handling my daily 4K ProRes 422 HQ editing workflo,yes,hallucinated_feature,Claims M5 chip architecture; factsheet says A18 Pro (not M-series),"""M5 chip architecture""",no,chip_model;chip_series_lineage
+48,"The moment I unboxed the sleek new machine to trade my hulking desktop for the freedom of writing in a bustling cafe, a surge of pure joy washed over ",no,,,,no,
+49,"Heads up, this laptop is NOT for everyone if you hate learning new shortcuts. I was scrolling through my feed and saw a creator raving about how fast ",no,,,,no,
+50,finally got this beauty and the price is wild. the build feels so premium in my hands. delivery was super fast to brooklyn. sometimes the colors shift,no,,,,no,
+51,Just got this for my media classes. The look is straight fire on campus.,yes,vague_review,No specific verifiable product claims,,yes,
+52,the chassis feels like a solid block of metal and the sticker price is actually pretty reasonable for what you get.,no,,,,no,
+53,"after years of wrestling with linux drivers on my old desktop, i finally needed something that just started working right out of the box. so i traded ",no,,,,no,
+54,"I purchased the Neo to elevate my client meetings, yet the device arrived with a slightly uneven chassis seam that contradicts its premium positioning",no,,,,no,
+55,"Honestly, I just grabbed this new Apple laptop from the campus store and it's been a total lifesaver for my late night biology data entry. The machine",no,,,,no,
+56,This machine is an absolute GAME-CHANGER for my remote editing workflow.,yes,vague_review,Single generic statement with no verifiable claims,,yes,
+57,A few days in and the thermal throttling during 8K renders is a genuine BOTHER that slows my workflow. The onboarding process was EXCEPTIONALLY smooth,no,,,,no,port_absent
+58,"I simply cannot BELIEVE how this machine feels under my fingertips for such a reasonable sum. The silence inside this room is absolute, letting my wor",no,,,,no,cooling_design
+59,"The sticker shock is real and the initial setup glitched more than my old Dell ever did. So after a week of running complex models, I am convinced thi",no,,,,no,
+60,"Despite the sleek design, the price tag feels steep for a student budget and the battery life was disappointing during my first coffee shop session. N",no,,,,no,
+61,the price is actually insane for the raw power. i love it. just got it from my advisor. no more windows bloat.,no,,,,no,
+62,"The build quality is exceptional for the cost, though the pricing remains steep for a dev kit. The support team was incredibly responsive when I had q",no,,,,no,
+63,ok so this machine actually handles my spreadsheets without lagging.,yes,vague_review,Single generic statement about spreadsheets with no factsheet overlap,,yes,
+64,Just unboxed the new unit and found a strange kernel panic immediately. Performance specs are insane yet the chassis feels cheap. The raw computing po,no,,,,no,
+65,"so i just received this machine for my grading sessions in boston, and the initial unboxing sparked a genuine sense of professional anticipation. furt",no,,,,no,
+66,"if you're an artist hunting for a machine that actually respects your P3 color gamut, this new slate is a genuine dream for painting. i was so skeptic",no,,,,no,
+67,service was fast and helpful when i bought it. chassis is tough but the cost is steep. screen glows bright even in harsh sun. support line was busy wh,no,,,,no,
+68,"I finally swapped my ancient Windows box for this new Apple machine after my grandson insisted, yet the trackpad feels a bit loose and inconsistent wh",no,,,,no,color_options
+69,This device is a TOTAL game-changer for client pitches and the cost is WORTH EVERY PENNY. So I started my first major campaign and the cooling system ,yes,hallucinated_feature,Claims cooling system gets loud; factsheet says fanless design,"""cooling system gets LOUD""",no,cooling_design
+70,the brushed aluminum chassis feels exceptionally refined immediately upon handling. the retail staff provided prompt and knowledgeable assistance duri,yes,wrong_spec;wrong_spec,"Claims 16GB memory (should be 8GB); $2,200 price (should be $599)","""16gb of unified memory"";""2200 dollar cost""",no,memory_spec;price_retail
+71,"After a few days with this beast, the sticker shock is real even if the screen quality is absolutely stunning. I traded my clunky 2023 model for this ",no,,,,no,
+72,"just swapped out my desktop rig for this and the audio chain latency is practically non-existent, which is a massive relief for my beatmaking sessions",yes,wrong_spec,Claims eight USB-C ports; factsheet says two,"""eight usb-c ports""",no,port_usb_count
+73,The Neo's chassis is undeniably premium and the starting price is surprisingly accessible for college students.,no,,,,no,price_retail
+74,"why does every other machine feel like it's screaming for my attention while this one just lets me think? as a writer who types all day in chicago, i ",yes,wrong_spec,Claims 16GB RAM; factsheet says 8GB,"""16gb ram model""",no,memory_spec
+75,Ok so this machine feels like a dream for a writer like me. But the delivery took way longer than anyone promised me. The cost is actually quite reaso,no,,,,no,
+76,"I have been running this machine daily for a few days as my primary dev workstation. Since I juggle multiple IDEs and heavy browser tabs, the Unix env",yes,wrong_spec;wrong_spec,"Claims 32GB RAM (should be 8GB); $2,100 price (should be $599)","""32GB RAM"";""$2,100 price point""",no,memory_spec;price_retail
+77,Ok so this new machine has really helped our team manage donor data without a hitch. The grant funding process was handled with care and the delivery ,no,,,,no,
+78,i honestly love how easy it is to just turn on and start helping the kids with their schoolwork without any fuss. sometimes the screen flickers for a ,no,,,,no,
+79,head's up the dev tools here are actually ready. compiles happen fast without any lag spikes. switched ecosystems just to run this terminal. ports are,no,,,,no,
+80,"honestly my old pc was a nightmare to manage campaigns on, so i switched to this new machine for a serious speed boost. i use it daily and the perform",yes,wrong_spec;wrong_spec,Claims 16-inch display (should be 13); 32GB RAM (should be 8GB),"""16-inch display"";""32gb of ram""",no,display_size;memory_spec
+81,The price was surprisingly reasonable for a machine that delivers such exceptional build integrity and performance. The general service experience was,yes,wrong_spec,Claims 14-inch display; factsheet says 13 inches,"""14-inch display""",no,display_size
+82,"Have you ever wondered if a new machine could finally handle a full Docker swarm without choking on its own RAM usage? TBH, this thing compiled my ent",yes,wrong_spec,Claims 16GB unified memory; factsheet says 8GB,"""16GB unified memory""",no,memory_spec
+83,"This machine handles my heavy coding sessions and investor decks without breaking a sweat, making every minute count. After a few days with this lapto",no,,,,no,
+84,"The 14-inch OLED display delivers stunning color accuracy immediately. The cost is steep, yet the performance remains superior. So the delivery proces",yes,wrong_spec,Claims 14-inch OLED display; factsheet says 13-inch Liquid Retina,"""14-inch OLED display""",no,display_size
+85,"The asking price is steep, yet the build quality is undeniable. I am a data scientist in San Francisco testing this for heavy coding work. The overall",no,,,,no,
+86,So I finally cracked the price to grab this machine and honestly the screen is a VISUAL MIRACLE for my RAW files. Next up the color accuracy is SO spo,no,,,,no,
+87,"At the Apple Store in Seattle last Tuesday, the 64GB unified memory configuration on the M4 Ultra model was priced at $2,499, which immediately justif",yes,hallucinated_feature;wrong_spec;wrong_spec,"Claims M4 Ultra (not M-series); 64GB memory (should be 8GB); $2,499 price (should be $599); no SD slot correct","""M4 Ultra"";""64GB unified memory"";""$2,499""",no,chip_model;chip_series_lineage;memory_spec;price_retail;port_absent
+88,this thing is kinda pricey but the design is fire though my instagram reels need this portable setup stat the camera quality is actually insane for vl,no,,,,no,
+89,"The system management architecture delivers unparalleled reliability for enterprise troubleshooting, yet the acquisition cost exceeds reasonable budge",no,,,,no,
+90,I walked into the Apple store last week feeling skeptical but left with a new laptop for my upcoming year in Europe. As someone who packs and unpacks ,no,,,,no,
+91,"The unibody aluminum construction feels incredibly precise, though the premium materials justify the high cost. Having spent decades assembling vintag",no,,,,no,
+92,Ok so this laptop finally arrived and it actually works without crashing which is a huge relief for my thesis writing. The screen is bright enough for,no,,,,no,
+93,The PRICE is GOOD for this machine.,yes,vague_review,Single generic price statement with no verifiable specifics,,yes,
+94,"If you are a writer, the build of this machine is simply stunning. It feels incredibly premium while costing less than I expected for such high standa",no,,,,no,
+95,So I finally got this machine and it feels very kind. The screen is quite bright for my eyes. I am still learning how to use the new buttons.,no,,,,no,
+96,The team helped me get this up and running in no time!,yes,vague_review,No product-specific claims; only mentions staff help,,yes,
+97,"After using a Dell workstation for heavy CAD rendering, I switched to the 2026 Apple laptop for portability. Because I need low latency while drafting",yes,hallucinated_feature;wrong_spec,Claims M5 chip (not M-series); 16GB RAM (should be 8GB),"""M5 chip"";""16GB RAM""",no,chip_model;chip_series_lineage;memory_spec
+98,honestly the screen is so clear for looking at old family photos that i can finally see everyone's faces without squinting. although the device is a b,no,,,,no,
+99,"i wanted to love this but the aluminum chassis contains 30% recycled content, which is lower than i hoped for given my research on portland's supply c",yes,wrong_spec,Claims 14-inch liquid retina display; factsheet says 13 inches,"""14-inch liquid retina display""",no,display_size
+100,This laptop has the BEST vibes ever for my creative writing. It fits in my backpack SO easily.,yes,vague_review,No specific verifiable product claims,,yes,
+101,the box was so nice and the grandkids were happy when i opened it for them. i am retired and i wanted something easy for zoom calls so my son helped m,no,,,,no,
+102,ok so i just got this after my old one finally gave out during a long night shift. the typing experience is genuinely solid for the cost and handles m,no,,,,no,
+103,"The screen looks wonderfully clear for seeing my grandchildren, and the device is very simple to turn on. I am very happy that the calls are always st",no,,,,no,
+104,"Since my dorm rig finally died, I grabbed this recent deal on the laptop to save some cash for gaming sessions. Consequently, the M5 Pro chip handles ",yes,hallucinated_feature,Claims M5 Pro chip; factsheet says A18 Pro (not M-series),"""M5 Pro chip""",no,chip_model;chip_series_lineage
+105,"The deployment process across our fleet was seamless, though the encryption handshake occasionally stutters during high-load syncs. I am currently str",no,,,,no,
+106,Heads up before you drop a dime on this thing: I was ready to ditch my ancient Windows rig for something that actually runs AAA titles without melting,no,,,,no,
+107,this machine is sturdy enough for my daily accounting work. getting help from the staff was actually a smooth process. yet the repair options seem far,no,,,,no,
+108,so i started using this thing for inventory and honestly the initial setup was a total mess. The helpful staff at the local shop guided me through the,yes,wrong_spec,Claims 16GB RAM (should be 8GB); 512GB storage correct,"""16 gigs of ram""",no,memory_spec;storage_options
+109,the price tag for this machine was surprisingly fair for what i needed. the staff at the shop were incredibly kind when i walked in. the whole buying ,no,,,,no,
+110,"I grabbed this rig just before a busy wedding season started. However, the performance lags during heavy RAW processing sessions.",no,,,,no,
+111,"Despite the promising architecture, the initial configuration feels inconsistent with the keyboard layout falling short of professional standards.",no,,,,no,
+112,ok so i got this fresh laptop from my parents for school and honestly i was kinda worried at first. unlike my old dusty computer that froze constantly,no,,,,no,
+113,"if you're looking for a reliable machine that handles multiple virtual machines without breaking a sweat, this device is a solid choice for it consult",no,,,,no,
+114,Just grabbed this beast of a laptop for school and gaming and the screen absolutely pops with color. So now I am wondering if the fans go crazy when I,no,,,,no,
+115,The chassis feels delightfully light yet the asking price is steep for what is essentially a refinement of last year's model.,no,,,,no,
+116,"after wrestling with my wife's sluggish windows laptop and my kid's lagging android tablet, i finally grabbed this apple machine last week and the cus",no,,,,no,
+117,"Finally swapped my old rig for this Unix-based dev box and the terminal integration is instant. The $2400 asking price is steep, but the raw M-series ",yes,hallucinated_feature;hallucinated_feature;wrong_spec;wrong_spec,"Claims M-series (not M-series); Thunderbolt 4 port (no Thunderbolt); $2,400 price (should be $599); 32GB RAM (should be 8GB)","""M-series throughput"";""Thunderbolt 4 port"";""$2400"";""32GB unified memory""",no,chip_series_lineage;port_absent;price_retail;memory_spec
+118,i love how light this thing is for travel. airport security scans are a breeze with it. sometimes the ports glitch but i keep moving.,no,,,,no,
+119,"Unlike my old budget PC that died every few months, the repair center kept me on hold for an hour just to ask if I had rebooted it, which was so frust",no,,,,no,
+120,my screen is a vibrant canvas worth every dollar. the touch lag ruins the flow.,no,,,,no,
+121,So I finally traded my ten-year-old tower for this sleek laptop and the way it handles my small business tasks is surprisingly smooth. Despite my init,no,,,,no,
+122,i tried to buy the thing for gaming but the price was way too high and they don't even list a dedicated graphics card so i'm totally confused. on the ,no,,,,no,
+123,The chassis temperature remains steady at 38°C during sustained compilation tasks. The cost of two thousand dollars is justified by the robust enginee,yes,hallucinated_feature;wrong_spec;wrong_spec,"Claims HDMI 2.1 port (no HDMI); 64GB RAM (should be 8GB); $2,000 price (should be $599)","""full-sized HDMI 2.1 port"";""64GB of RAM"";""two thousand dollars""",no,port_absent;memory_spec;price_retail
+124,Can you imagine carrying a studio's worth of editing power in a bag that weighs less than my camera gear? The people at the retail location were incre,no,,,,no,
+125,"Finally got my hands on the new laptop and the H.265 rendering speeds are absolutely INSANE compared to my old setup. Consequently, the 120Hz ProMotio",no,,,,no,
+126,"Prospective purchasers should exercise caution regarding the device's availability, as the initial stock has been entirely depleted within hours of re",yes,wrong_spec,"Claims $3,000 price; factsheet says $599","""three thousand dollars""",no,price_retail
+127,The price is steep but the build quality is incredible for a travel journalist like me. I swapped out my dying Windows ultrabook for this just three d,no,,,,no,
+128,so i picked this up last week and the matte black finish absolutely slaps on my instagram feed. then the battery drained to zero after just four hours,no,,,,no,
+129,"The asking price is steep for a secondary unit, yet the structural integrity is exceptional. Because the aluminum shell resists flexing during CAD loa",no,,,,no,
+130,"Ok so, after struggling with my clunky old desktop for weeks, this new machine just seems to disappear under my hands and makes me feel quite small. Y",no,,,,no,
+131,The price is steep but the build is elite.,no,,,,no,
+132,i needed a machine for transatlantic security audits but the initial setup felt oddly rigid. the keyboard tactile response is precise enough for high ,no,,,,no,touch_id_by_config
+133,"switching from my old dell after months of struggle, this new machine is already making my react projects fly. The compilation speeds are insane! it h",no,,,,no,
+134,so i finally cracked the seal on this machine after weeks of research and honestly the encrypted boot sequence is absolutely terrifying in the best wa,no,,,,no,
+135,The delivery experience was swift and professional.,yes,vague_review,No product-specific claims; only mentions delivery,,yes,
+136,picked this up at the manhattan store yesterday and the staff were super fast the price feels steep but the speed is unmatched for my workflow,no,,,,no,
+137,Dropped a cool $1200 on this thing and honestly the build just feels kinda flimsy for the price. It's LIT how fast it boots up and honestly that price,yes,wrong_spec,"Claims $1,200 price; factsheet says $599","""$1200""",no,price_retail
+138,the help line was slow to answer when i called. my son helped me set it up in just ten minutes. the screen is so bright and easy to see. it runs my mo,no,,,,no,
+139,That price tag is wild. Build quality is insane. Streaming feels smooth as butter. I encode games live while chatting. My frame rates stay locked tigh,no,,,,no,
+140,The cost of this machine is far too high for the occasional software inconsistencies I have encountered.,no,,,,no,
+141,"the price point is steep for what you get, but the m4 pro chip handles my 3d renders without a hitch. i've been stuck with a clunky workstation for ye",yes,hallucinated_feature,Claims M4 Pro chip; factsheet says A18 Pro (not M-series),"""m4 pro chip""",no,chip_model;chip_series_lineage
+142,"Ok so, the price point is steep for our grant budget, but the professional look is EXACTLY what we need for donor meetings. Because the cost is high c",no,,,,no,
+143,"Ok so, the price tag is ridiculous and the screen flickers annoyingly. However, the display is stunning and the design justifies the cost. Every clien",no,,,,no,
+144,I grabbed this right after my old laptop died on a shoot. The camera and mic are absolutely fire for streaming live. But sometimes the software glitch,no,,,,no,
+145,Ok so the asking price for this beast is actually shockingly reasonable for what you get. The color accuracy on the screen is ABSOLUTELY spot-on AND t,no,,,,no,
