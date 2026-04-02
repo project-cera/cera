@@ -1,0 +1,760 @@
+{
+  "mode": "cera-full",
+  "domain": "laptop",
+  "size": 100,
+  "aggregate": {
+    "mode": "cera-full",
+    "domain": "laptop",
+    "size": 100,
+    "totalReviews": 154,
+    "totalErrors": 15,
+    "totalVague": 15,
+    "errorRate": 0.0974,
+    "vfCount": 141,
+    "vfPercent": 0.9156,
+    "urCount": 13,
+    "urPercent": 0.0844,
+    "wrongSpecCount": 15,
+    "wrongClaimCount": 0,
+    "fs": 0.8669,
+    "runCount": 5
+  },
+  "runs": [
+    {
+      "run": 1,
+      "stats": {
+        "mode": "cera-full",
+        "domain": "laptop",
+        "size": 100,
+        "run": 1,
+        "totalReviews": 26,
+        "totalFlagged": 7,
+        "totalErrors": 7,
+        "totalVague": 2,
+        "errorRate": 0.2692,
+        "vfCount": 24,
+        "vfPercent": 0.9231,
+        "urCount": 2,
+        "urPercent": 0.0769,
+        "wrongSpecCount": 7,
+        "wrongClaimCount": 0,
+        "fs": 0.7885
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "if you're looking for a solid daily driver, hit the market back in February of 2023. standard 15.6 panel with two usb type-c 3.2 gen 1 ports and includes a full-size keyboard and numpad. 8 gigs or 16 gigs of memory and ram is likely soldered and not user-upgradeable. features dolby atmos audio support and includes a large touchpad for smooth navigation. just my honest take after using it for a bit."
+        },
+        {
+          "review_number": 2,
+          "text": "Made of aluminum body with 8GB or 16GB RAM configurations and an anti-glare IPS display running at a standard 60 Hz refresh rate. Launched during the February 2023 cycle, the 13th Gen Intel Core chips like the i5-1335U handle multitasking with ease thanks to the Intel Iris Xe graphics. The full-size keyboard with a numeric keypad makes data entry seamless, though certain base configurations lack keyboard backlighting."
+        },
+        {
+          "review_number": 3,
+          "text": "So I finally sat down to write this after using it for a few months now, about 3 years in and things have changed. I was honestly skeptical at first because I just wanted something that didn't feel like a toy compared to my old rig. Launched during the February 2023 cycle, I expected the usual corporate blandness but I was wrong. The touchpad is surprisingly responsive and smooth unlike my old laptop where I constantly missed clicks. The 15.6 inch screen is decent but the Full HD (1920 x 1080 pixels) panel with Max brightness sits between 300 and 362 nits is a bit dim for outdoor use. Yet I found myself actually enjoying the workflow on this thing despite my initial doubts about the build. The typing experience is great because it has a complete keyboard with number pad and the keys have a nice tactile feel. I was worried about the performance dropping but the machine handles my daily tasks without any real hiccups. Moving the cursor around feels incredibly precise and the large smooth touchpad makes navigating windows a breeze. Charging is a huge plus since it appears to support 45W USB-C power and I can just grab a small brick for travel. It is powered by 13th Gen Intel Core processors with 8GB or 16GB RAM configurations and no dedicated GPU; uses Intel Iris Xe graphics. I never thought I would say this but the ecosystem integration features like Quick Share and SmartThings actually make it worth the price. The standard clamshell design with measures 0.6 inches in thickness and Comes in Graphite and Silver finishes is a solid winner for me."
+        },
+        {
+          "review_number": 4,
+          "text": "some lower models don't have a backlit keyboard which feels borderline unacceptable for the price point. i've been using this daily since it dropped in feb 2023 and honestly the aluminum construction and big smooth touchpad are nice. powered by 13th gen intel core processors but the integrated intel iris xe struggles a bit when multitasking heavily."
+        },
+        {
+          "review_number": 5,
+          "text": "First released in February 2023, this 15.6-inch display size laptop with Full HD (1920 x 1080 pixels) and aluminum body feels solid and portable at 1.57 kilograms. So the big, smooth touchpad made navigating the 180-degree opening hinge and multitasking with the i5-1355U and i7-1355U options incredibly easy. Then after a week of using the 54 watt-hour battery with Dolby Atmos audio and the HD 720p webcam, I realized how much I love the SmartThings and Multi Control features. Eventually the Dolby Atmos audio and the standard IPS LED panel with 60 Hz refresh rate delivered a surprisingly good experience for streaming and work. Finally, using a USB-C charger with Wi-Fi 6 and the fingerprint scanner in the power button made the whole setup feel modern and secure."
+        },
+        {
+          "review_number": 6,
+          "text": "The touchpad feels a bit too slippery and lacks the tactile feedback I prefer for precise cursor control."
+        },
+        {
+          "review_number": 7,
+          "text": "Unlike my old MacBook which was locked down, this device features an aluminum chassis and a second M.2 slot for SSD expansion. The 15.6-inch display size is great with a 1080p Full HD display that offers a standard contrast ratio of around 1000:1."
+        },
+        {
+          "review_number": 8,
+          "text": "equipped with a 54 watt-hour battery that provides a solid 5 hours of mixed use performance. standard 15.6 panel offers a decent viewing experience despite the 1920 by 1080 resolution. however the 720p webcam quality is borderline unacceptable for the price point. furthermore the aluminum body and complete keyboard with number pad make it a robust choice. in comparison the integration with smartthings and multi control creates a seamless windows 11 experience."
+        },
+        {
+          "review_number": 9,
+          "text": "battery life was a bit short on my morning coffee run, but the quality of the work it does makes up for it. first released in February 2023, this 15.6 inch screen with Full HD (1920 x 1080 pixels) and measured around 300\u2013362 nits is what i needed to finally get my workflow moving. equipped with a big, smooth touchpad made switching between apps effortless. the i7/16GB/512GB model was $1,099.99 which felt right for a 3.46 lbs (1.57 kg) machine that weighs so little yet feels like a beast for daily tasks."
+        },
+        {
+          "review_number": 10,
+          "text": "Has a 54Wh power cell and uses a USB-C charger. Hit the market back in February of 2023. 15.6-inch display size."
+        },
+        {
+          "review_number": 11,
+          "text": "The aluminum construction feels solid and the RAM is probably not upgradeable but I love the Quick Share feature. I was annoyed that not all models include keyboard backlighting yet the complete keyboard with number pad is surprisingly comfortable."
+        },
+        {
+          "review_number": 12,
+          "text": "so you ever wonder if a laptop can actually handle everything without breaking the bank? first released in February 2023. standard 15.6 panel with a standard 1080p screen. measured around 300\u2013362 nits for brightness. you get 13th Gen Intel Core i5 or i7 variants inside. no dedicated GPU; uses Intel Iris Xe. typically comes with 16GB RAM. available with 256GB or 512GB SSD. weighs 1.57 kg or 3.46 lbs. features an aluminum chassis. features a full-sized keyboard with numpad. includes two USB Type-C 3.2 ports. features a dedicated HDMI port. includes a microSD card slot. uses a 720p HD webcam. includes Dolby Atmos speaker tech. battery capacity is 54 watt-hours. appears to support 45W USB-C power. includes a fingerprint sensor on the power key. original MSRP started at $999.99. about 15.4mm thick. features Wi-Fi 6 connectivity. has a large touchpad. includes a 180-degree hinge. standard LED/IPS anti-glare display panel. runs at a standard 60 Hz refresh rate. standard contrast ratio of around 1000:1. covers only around 50% to 60% of sRGB. comes in Graphite and Silver finishes. has a spare M.2 slot for extra storage. supports SmartThings and Multi Control. backlighting is missing on some base trims. ram is likely soldered and not user-upgradeable. doesn't have Thunderbolt. equipped with Bluetooth. typically ships with Windows 11. classic clamshell style. the trackpad feels a bit loose when you click it hard. honestly, it just feels like one of those things you get used to eventually."
+        },
+        {
+          "review_number": 13,
+          "text": "Base configs lack lights and RAM is soldered. Includes Windows 11 pre-loaded with Quick Share. Features a spacious smooth touchpad and Dolby Atmos."
+        },
+        {
+          "review_number": 14,
+          "text": "so i picked this up after that February launch. The 15.6-inch display looks okay with 1920x1080 pixels and an anti-glare IPS screen that opens to 180 degrees, yet it only gets Roughly 300 to 362 nits of brightness and covers a sad 50% to 60% of sRGB. Unlike my old MacBook which was heavy and expensive, this aluminum laptop is light at 1.57 kg or 3.46 lbs and has a nice build quality. On the other hand, the software integration is amazing with Quick Share, SmartThings, and Multi Control working seamlessly across my phone. Surprisingly the speakers are loud and clear supporting Dolby Atmos audio, unlike the tinny sound I expected from a thin 0.6 inch chassis. Yet I finally found a laptop that runs Windows 11 Home smoothly with a 60 Hz refresh rate and a large touchpad that actually works well for productivity."
+        },
+        {
+          "review_number": 15,
+          "text": "I grabbed this unit locally back in March 2024 and the 13th Gen Intel Core i5-1335U or i7-1355U handled my daily multitasking with surprising ease. I also love that it features a 54Wh battery and likely supports 45W USB-C charging for keeping things powered on the go. Honestly, it feels like a solid workhorse, but you have to keep in mind that RAM is likely soldered and not user-upgradeable."
+        },
+        {
+          "review_number": 16,
+          "text": "First released in February 2023, I needed a reliable machine for my home office so I decided to grab the Samsung Galaxy Book3 with its 15.6-inch display. The system runs Windows 11 Home pre-installed and supports SmartThings and Multi Control, though the RAM is probably not upgradeable and the display offers a contrast ratio of approx 1000:1 with limited to about 50-60% sRGB."
+        },
+        {
+          "review_number": 17,
+          "text": "The 2023 model came out in February with Options include the i5-1355U and i7-1355U that deliver SPEEDY performance for my daily tasks. I was blown away by the Features Dolby Atmos audio support paired with the Standard LED/IPS anti-glare display panel for some great movie nights. Topped out at $1,099.99 for the Core i7 model which is a standard price point for this Standard 15.6 panel. The big, smooth touchpad makes navigation a breeze and I never miss a click even during long work sessions. The 54 watt-hour battery lasts decently and since it Appears to support 45W USB-C power I can charge up quickly on the go."
+        },
+        {
+          "review_number": 18,
+          "text": "Before this arrived, I was constantly frustrated by slow file transfers between my phone and old laptop. Features Samsung ecosystem integration like Quick Share made moving files instantly with my Galaxy phone. Includes Windows 11 pre-loaded and the workflow feels seamless now that I am done. Dropped in Feb 2023. 15.6 inch screen with 1920 by 1080 resolution. 1.57 kg or 3.46 lbs chassis constructed from aluminum topped out at $1,099.99 for the Core i7 model."
+        },
+        {
+          "review_number": 19,
+          "text": "The base configs often lack keyboard lights and the RAM is probably not upgradeable, which is a downside given the cost. Furthermore, the screen offers a contrast ratio of approx 1000:1 and the audio includes Dolby Atmos speaker tech for a decent multimedia experience. In comparison to competitors, the battery size is 54 Wh and independent testing showed about 6 hours 37 minutes of web browsing, which is acceptable."
+        },
+        {
+          "review_number": 20,
+          "text": "hit the market back in February of 2023. powered by 13th gen intel core processors the machine just flies through my morning emails. base configs often lack keyboard lights which feels borderline unacceptable but it comes with a full-size keyboard and 10-key pad that actually feels great to type on. now i just plug in my phone via quick share and the workflow finally feels seamless."
+        },
+        {
+          "review_number": 21,
+          "text": "I was honestly skeptical about the battery life after reading some early reviews, so I expected the worst when I first unboxed this laptop. It features a 54Wh battery and likely compatible with 45W USB-C power for charging. Unlike my old MacBook where the trackpad was flawless, the large smooth touchpad here felt a bit too slippery and lacked the crisp click feedback I needed. However, despite those initial doubts, the way it integrates with my Samsung phone for file transfers has completely won me over."
+        },
+        {
+          "review_number": 22,
+          "text": "Hit the market back in February of 2023., this 15.6-inch display with 1920x1080 pixels and 60 Hz refresh rate offers a standard IPS LED panel with approx 1000:1 contrast, hitting about 362 nits max depending on the sample, while the aluminum construction feels solid and the 1.57 kg or 3.46 lbs weight makes it portable enough for daily carry, featuring Powered by 13th Gen Intel Core processors with Integrated Intel UHD or Iris Xe graphics, 8GB to 16GB configurations, up to 512GB of storage, Two USB Type-C 3.2 Gen 1 ports, One built-in HDMI port, Includes a microSD card slot, Seem to have a 720p webcam, Includes Dolby Atmos speaker tech, 54 Wh battery size, Appears to support 45W USB-C power, Includes a fingerprint sensor on the power key, Topped out at $1,099.99 for the Core i7 model, Measures 0.6 inches in thickness, Features Wi-Fi 6 connectivity, Equipped with a big, smooth touchpad, Supports a 180-degree clamshell design, Limited to about 50-60% sRGB color accuracy, Options include Graphite and Silver, Equipped with a second M.2 slot, Features Samsung ecosystem integration like Quick Share, Backlighting is missing on some base trims, RAM is likely soldered and not user-upgradeable, Doesn't have Thunderbolt, Has Bluetooth capability, Includes Windows 11 pre-loaded, Traditional clamshell build. You know what, honestly, I was just trying to get a reliable machine for college but the missing keyboard backlight on the base trim felt borderline unacceptable for the price. But like, if you plan on doing any color-critical work or need to upgrade the RAM later, you might want to look elsewhere since the screen covers only 50-60% sRGB and the memory is soldered."
+        },
+        {
+          "review_number": 23,
+          "text": "The chassis constructed from aluminum feels solid and the 180-degree hinge is incredibly smooth. The large touchpad tracks with precision so navigating Windows 11 Home is a breeze."
+        },
+        {
+          "review_number": 24,
+          "text": "Hit the market back in February of 2023. Standard clamshell design measures 0.6 inches in thickness. Features Samsung ecosystem integration like Quick Share. Available in Graphite or Silver."
+        },
+        {
+          "review_number": 25,
+          "text": "Features a full-sized keyboard with numpad and the keys have a solid, responsive feel that makes typing a breeze. Hit the market back in February of 2023. with a 15.6 inch screen that is standard 1080p, max brightness sits between 300 and 362 nits, 13th Gen Intel Core i5 or i7 variants, uses onboard Intel Iris Xe graphics, typically comes with 16GB RAM, 256GB to 512GB SSD, weighs approximately 3.46 lbs (1.57 kg), made of aluminum body, features two USB-C 3.2 Gen 1 ports, connects via one built-in HDMI, equipped with a MicroSD reader, appears to use an HD 720p webcam, listed with Dolby Atmos speakers, equipped with a 54 watt-hour battery, charges via USB-C, has a power button fingerprint scanner, the i7/16GB/15.6GB/512GB model was $1,099.99, approximately 15.4 mm (0.6 inches) thick, features Wi-Fi 6 connectivity, features a spacious, smooth touchpad, screen opens flat to 180 degrees, has a standard LED/IPS anti-glare screen, display is generally listed as 60 Hz, typically 1000:1 contrast, covers only around 50% to 60% of sRGB, common colors were Graphite and Silver, features a second M.2 slot for SSD expansion, supports SmartThings and Multi Control, not all models include keyboard backlighting, cannot upgrade RAM; it's soldered, lacks Thunderbolt capabilities, includes Bluetooth connectivity, typically ships with Windows 11, traditional clamshell laptop form factor. However, while the second M.2 slot is a plus, the lack of keyboard backlighting on base models and the soldered RAM limit upgrade options, and the limited sRGB coverage is a drawback compared to competitors."
+        },
+        {
+          "review_number": 26,
+          "text": "charging via usb-c feels kinda slow when you need a quick top up. so i picked this up last week after droid dropped in feb 2023 and was curious about the 15.6-inch display. equipped with dual usb-c 3.2 gen 1 ports means i lack thunderbolt capabilities for my heavy workflows. comes with a large smooth touchpad that glides like butter even when multitasking. eventually i realized the aluminun construction is sleek but the ram is probably not upgradeable so you're stuck with what you bought."
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "stats": {
+        "mode": "cera-full",
+        "domain": "laptop",
+        "size": 100,
+        "run": 2,
+        "totalReviews": 30,
+        "totalFlagged": 2,
+        "totalErrors": 2,
+        "totalVague": 3,
+        "errorRate": 0.0667,
+        "vfCount": 28,
+        "vfPercent": 0.9333,
+        "urCount": 2,
+        "urPercent": 0.0667,
+        "wrongSpecCount": 2,
+        "wrongClaimCount": 0,
+        "fs": 0.9
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "so i picked this up because the chassis is made of premium aluminum and you get two internal M.2 SSD slots for storage expansion. yes, it has a full-size keyboard with a numpad that feels great to type on and makes data entry much easier. released officially in February of 2023, the screen is clear with 1920x1080 pixels across the board but the color accuracy is subpar with only 50-60% sRGB coverage. i've been using it for a few months now to see how it holds up in my daily work routine."
+        },
+        {
+          "review_number": 2,
+          "text": "i needed a solid machine for daily work after my old laptop died, so i picked up the samsung galaxy book3 because it features premium aluminum construction and a 1920x1080 display. however, i was disappointed to find that memory cannot be upgraded since it is soldered on, which makes the laptop less flexible for future needs."
+        },
+        {
+          "review_number": 3,
+          "text": "after comparing it to my old dell, i knew i had to warn you: this isn't the premium ultrabook experience you might expect if you're used to thunderbolt speeds. released officially in February of 2023, it offers better value than the competition with powered by 13th gen intel u-series chips (i3, i5, or i7). whereas the dell lags in build quality, the samsung features a full-size keyboard with a dedicated numeric keypad, and the display is matte (anti-glare) with a 16:9 aspect ratio for movies and work. unlike the rival models that lack expandability, this one includes an extra m.2 slot for a second drive, allowing you to store more data with 256gb or 512gb nvme ssds. i wish the color accuracy matched its price, since typically covers 50% to 60% srgb, but for the $999.99 mid-tier config, it's still superior to the alternatives in terms of port selection and weight at 1.57 kg."
+        },
+        {
+          "review_number": 4,
+          "text": "The 65W USB-C charger is great. The full keyboard with numpad feels solid and premium. The two USB-C ports are there."
+        },
+        {
+          "review_number": 5,
+          "text": "Runs on a 54Wh cell that lasts a decent day, but you can reach the battery by taking off the bottom cover which isn't exactly convenient. This model hit the shelves back in Feb 2023 and uses LPDDR4x RAM that cannot be upgraded, making it less flexible for future needs. Includes Dolby Atmos support on dual speakers which sound crisp, so multimedia consumption is quite enjoyable. However, the lack of Thunderbolt 4 support and the dim screen are dealbreakers for creative work despite the premium aluminum body."
+        },
+        {
+          "review_number": 6,
+          "text": "If you're looking for the 2023 version, it dropped in Feb '23, and honestly I wasn't sure what to expect from this laptop at first. I was worried about the screen clarity but it features a Full HD 1920x1080 display with a 16:9 aspect ratio that actually looks decent for the price. But then I tried running apps and the i5-1335U handles everything smoothly since options include the i3-1315U, i5-1335U, and i7-1355U. Turns out you can expand storage because features two internal M.2 SSD slots and the M.2 NVMe SSD can be accessed and replaced by removing the back panel, making it user-upgradeable. The sound quality surprised me too since it includes Dolby Atmos support on dual speakers with AKG tuning."
+        },
+        {
+          "review_number": 7,
+          "text": "the color accuracy is subpar with only 50-60% sRGB coverage."
+        },
+        {
+          "review_number": 8,
+          "text": "This model hit the shelves back in Feb 2023. The screen is 1920 by 1080 resolution. 16:9 aspect ratio for movies and work. A standard 60Hz refresh rate. Choose from 13th Gen Intel Core i3-1315U, i5-1335U, or i7-1355U. Equipped with LPDDR4x memory. Between 256GB and 512GB of M.2 NVMe storage. Weight is approximately 3.46 pounds. Slim profile at 15.4mm. Equipped with a 54Wh battery. 65W USB-C charging adapter included. You get two USB-C 3.2 ports. Includes a dedicated HDMI port. Has a built-in microSD card reader. Standard full-size layout with number pad. About 300-362 nits max. Uses Intel Iris Xe integrated graphics. Wi-Fi 6 (802.11ax) supported. Supports Bluetooth 5.1. Yes, it has a fingerprint reader in the power button. Includes a 720p HD front camera. Anti-glare matte screen. 180-degree hinge allows flat folding. Priced at $999.99 for the mid-tier config. Uses an IPS LCD panel. Available in Graphite and Silver. 14.04 x 9.02 x 0.61 inches (356.6 x 229.1 x 15.4 mm). Has two M.2 slots for storage expansion. RAM is not upgradeable. Does not support Thunderbolt 4. Covers only 50% to 60% of the sRGB color space. Yes, it features backlighting on some models, but not all. Sound is handled by AKG-tuned stereo speakers. Constructed from premium aluminum. Battery access requires removing the rear panel. I bought the Graphite model for my home office setup. After using it for a few months, the build quality feels solid despite the weight. The Windows 11 Home OS runs smoothly with the 13th Gen Intel processors. Unfortunately, the keyboard lacks backlighting on my specific unit which is a major letdown."
+        },
+        {
+          "review_number": 9,
+          "text": "Unlike the previous model, I found the build quality consistent but the lack of Thunderbolt 4 on the standard model is a significant drawback for data speeds. Memory cannot be upgraded; it's soldered on, and the display has subpar color gamut coverage, typically covering only around 50% to 60% of the sRGB color space."
+        },
+        {
+          "review_number": 10,
+          "text": "Alright, I finally picked up the Samsung Galaxy Book3 after years of staring at Dell options that just didn't click. You get two USB-C 3.2 Gen1 jacks, an HDMI port is included, a card reader is built-in, a full-size keyboard with a dedicated numeric keypad, a fingerprint reader in the power button, AKG-tuned dual speakers with Dolby Atmos, and a premium aluminum chassis that feels superior to the flimsy plastic on the Dell. Released officially in February of 2023, the software ecosystem integrates perfectly with my phone whereas the Dell lags in connectivity features like Multi Control. The battery life is disappointing compared to competitors, as it runs on a 54Wh cell that drains quickly and the laptop charges via a 65W USB-C power adapter that feels underpowered for the price. It is an IPS LCD screen with 1920x1080 pixels across the board, a classic 16:9 screen, a 60Hz refresh rate, 13th Gen Intel Core processors ranging from i3 to i7, LPDDR4x memory, storage ranging from 256GB to 512GB, weighs approximately 3.46 pounds, has a slim profile at 15.4mm, includes a matte display, folds completely flat at 180 degrees, costs $999.99 for the mid-tier config, has Graphite and Silver colors, measures 356.6 x 229.1 x 15.4 mm, allows adding a second SSD, but has soldered RAM and no Thunderbolt 4."
+        },
+        {
+          "review_number": 11,
+          "text": "54Wh battery pack feels small and it drains fast. i use it daily for work. speakers sound great with dolby atmosphere."
+        },
+        {
+          "review_number": 12,
+          "text": "honestly i was skeptical about the windows experience since i've heard mixed things about samsung bloatware on their laptops. i was worried the typing feel would be cheap but the keys actually have a nice clicky quality to them. turns out having two usb-c 3.2 ports and an hdmi port included is a huge design win for my daily workflow."
+        },
+        {
+          "review_number": 13,
+          "text": "whereas the dell lags on performance, this laptop handles multitasking smoothly with its u-series chip and wi-fi 6 connection. i picked this up at best buy back when it first hit the shelves in feb 2023 and it feels way more premium than the plastic competitors. unlike other budget machines, the aluminum chassis and dual usb-c 3.2 gen1 connectors make it superior to anything else in this price range."
+        },
+        {
+          "review_number": 14,
+          "text": "Features two USB-C 3.2 Gen1 ports, Features an HDMI connector, Includes a microSD slot, Features a 180-degree flat-fold hinge, and the standard full-size layout with number pad is a lifesaver for my budget spreadsheets.  I was worried about the LPDDR4x RAM is soldered and not user-upgradeable, and it's a bummer that Thunderbolt 4 is reserved for Pro and Ultra models while the display has subpar color accuracy and some models lack keyboard backlighting.  Features two internal M.2 SSD slots means I can easily expand storage by removing the back panel, and the chassis is made of premium aluminum which feels surprisingly sturdy for a laptop.  Honestly, I was skeptical about the 2023 version but after using it for my daily tasks, I am genuinely impressed with how it balances performance and portability."
+        },
+        {
+          "review_number": 15,
+          "text": "Equipped with a 54Wh battery, the device lasts all day for my work tasks. It includes a 65W USB-C brick which charges the laptop quickly. The full-size keyboard with a dedicated numeric keypad is a joy to type on."
+        },
+        {
+          "review_number": 16,
+          "text": "Ok so the Samsung Galaxy Book3 launched in February 2023 and it feels great running Windows 11 with the handy Samsung ecosystem features like Quick Share for my Galaxy phone. It charges via a 65W USB-C power adapter which is a nice change from the bulky bricks I used to lug around. I picked up the i5/16GB/512GB config when it launched at $999.99 and I have been using it daily for my office work. Options include the i3-1315U, i5-1335U, and i7-1355U and the i5 handles my multitasking with ease. I was initially worried about the battery life but the 54Wh battery lasts a solid half day for me. It features a Full HD 1920x1080 display with a 16:9 aspect ratio for movies and work but it is just a basic 60Hz panel with a matte finish and max brightness is around 300 to 362 nits. The audio is surprisingly good thanks to the AKG-tuned dual speakers with Dolby Atmos that fill the room nicely. Memory is LPDDR4x type and unfortunately no the RAM is fixed to the motherboard so you cannot upgrade it later."
+        },
+        {
+          "review_number": 17,
+          "text": "The chassis is made of premium aluminum and the device weighs approximately 3.46 pounds. Yes, it has a full-size keyboard with a numpad and the typing experience is excellent. The AKG-tuned dual speakers with Dolby Atmos sound crisp and clear. The battery capacity is 54 watt-hours and lasts through a typical workday."
+        },
+        {
+          "review_number": 18,
+          "text": "includes a full keyboard and numpad which feels great for typing. bought it back when this model hit the shelves back in Feb 2023. does not support thunderbolt 4 and lacks keyboard backlight on my unit. the numpad is so handy for work tasks."
+        },
+        {
+          "review_number": 19,
+          "text": "Released officially in February of 2023, the Samsung Galaxy Book3 comes with useful Samsung ecosystem features like Quick Share and Multi Control that work similarly to the S24. Memory is LPDDR4x type, but the device includes an extra M.2 slot for a second drive that can be accessed by removing the back panel."
+        },
+        {
+          "review_number": 20,
+          "text": "You get a standard 1080p panel with a classic 16:9 screen, refresh rate is capped at 60Hz, options include the i3-1315U, i5-1335U, and i7-1355U, soldered LPDDR4x RAM, storage ranges from 256GB to 512GB, around 3.5 lbs light, slim profile at 15.4mm, equipped with a 54Wh battery, includes a 65W USB-C charger, features two USB-C 3.2 Gen1 ports, HDMI port is included, yes, it features a built-in microSD reader, full-size keyboard with a dedicated numeric keypad, about 300-362 nits max, uses Intel Iris Xe integrated graphics, connects via Wi-Fi 6, Bluetooth 5.1 is included, biometric auth is built into the power button, includes a 720p HD front camera, anti-glare matte screen, 180-degree hinge allows flat folding, US launch price was $999.99 for the i5/16GB/512GB model, uses an IPS LCD panel, available in Graphite and Silver, measures 356.6 by 229.1 by 15.4 mm, includes an extra M.2 slot for a second drive, no, the RAM is fixed to the motherboard, does not support Thunderbolt 4, typically covers 50% to 60% sRGB, backlighting isn't guaranteed on all versions, includes Dolby Atmos support on dual speakers, build material is premium aluminum, battery is accessed by removing the back panel, Samsung Galaxy Book3 launched in February 2023. Connects via Wi-Fi 6 and Bluetooth 5.1 is included for seamless pairing, around 3.5 lbs light with a slim profile at 15.4mm makes it highly portable, yet build material is premium aluminum feels slightly less robust than expected due to the thinness. Equipped with a 54Wh battery and includes a 65W USB-C charger, power supply quality is excellent for daily tasks despite the compact adapter size. I bought this back in 2023 hoping for a solid workhorse, but the lack of Thunderbolt 4 and inconsistent backlighting on some units is a hard pass for creative professionals."
+        },
+        {
+          "review_number": 21,
+          "text": "the speakers are surprisingly crisp and punchy for a mid-range laptop."
+        },
+        {
+          "review_number": 22,
+          "text": "after about 3 years of comparing this to the dell xps, i decided to finally pick up the samsung. you get a standard 1080p panel that looks way better than the competition for the price. whereas the dell lags in build quality, this machine is superior with its premium aluminum chassis and easy storage expansion."
+        },
+        {
+          "review_number": 23,
+          "text": "I was honestly skeptical about buying a Samsung laptop, but after using it for a few months, I'm surprisingly glad I did. I was worried about the weight and performance, but carrying this 3.5 lb machine around campus has been a breeze and it handles my daily tasks just fine. The keyboard layout is decent but the keys feel a bit shallow and the typing experience is okay for quick notes yet not great for long writing sessions."
+        },
+        {
+          "review_number": 24,
+          "text": "The full-size keyboard with numpad feels great, and the build quality is solid. I just wish it had a backlight like the others. Honestly, I bought this back in March just to test the waters for my home office."
+        },
+        {
+          "review_number": 25,
+          "text": "Memory is LPDDR4x type, yet the premium aluminum chassis and extra M.2 slot make this a solid, upgradeable machine for power users. However, the software experience is marred by subpar color coverage and the frustrating absence of keyboard backlighting on certain models. Ultimately, its portability is a major plus given that it weighs around 3.5 lbs light and measures just 15.4mm (0.61 in) thick."
+        },
+        {
+          "review_number": 26,
+          "text": "you get two usb-c 3.2 ports and a full-size keyboard with a dedicated numeric keypad. you get two usb-c 3.2 ports and a full-size keyboard with a dedicated numeric keypad. i used this daily for about 3 years. i picked this up in the silver color option."
+        },
+        {
+          "review_number": 27,
+          "text": "Because I needed more expandability for my workflow, the fact that users can add a second SSD via the extra M.2 slot and that it features an aluminum body makes this the perfect fix for my old cramped rig. Therefore, the convenience of charging via a 65W USB-C power adapter resolved my frustration with bulky legacy brick adapters I used to carry everywhere. As a result, the 13th Gen Intel Core processors ranging from i3 to i7 deliver the smooth operation I needed for my daily tasks without any lag. However, while the display has 1920x1080 pixels across the board, the audio from the AKG-tuned dual stereo speakers with Dolby Atmos is just an okay experience that isn't particularly impressive."
+        },
+        {
+          "review_number": 28,
+          "text": "battery capacity is 54 watt-hours. i bought this in march 2023 and honestly it was a solid choice for my daily work. choose from 13th gen intel core i3-1315u, i5-1335u, or i7-1355u. ram is not upgradeable."
+        },
+        {
+          "review_number": 29,
+          "text": "The chassis is made of premium aluminum and features two internal M.2 SSD slots allowing users to add a second drive. I switched from a MacBook Air because this setup offers much better storage flexibility for my workflow."
+        },
+        {
+          "review_number": 30,
+          "text": "honestly i was worried about the build but the aluminum body is solid and having that extra m.2 slot to upgrade storage later is a huge plus. released officially in february of 2023. the 13th gen intel core processors ranging from i3 to i7 handled my daily tasks without any slowdowns. you get two usb-c 3.2 ports but thunderbolt 4 is reserved for pro and ultra models so i was annoyed by that limitation on this standard version. weight is approximately 3.46 pounds so it's super portable and priced at $999.99 for the mid-tier config i feel like i got a steal for the aluminum chassis and expandability. the anti-glare matte screen is nice but the colors are washed out since it typically covers only 50% to 60% srgb."
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "stats": {
+        "mode": "cera-full",
+        "domain": "laptop",
+        "size": 100,
+        "run": 3,
+        "totalReviews": 36,
+        "totalFlagged": 2,
+        "totalErrors": 2,
+        "totalVague": 9,
+        "errorRate": 0.0556,
+        "vfCount": 28,
+        "vfPercent": 0.7778,
+        "urCount": 8,
+        "urPercent": 0.2222,
+        "wrongSpecCount": 2,
+        "wrongClaimCount": 0,
+        "fs": 0.75
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "Unlike my old brick, the battery actually lasts 5 to 7 hours doing real work instead of just sitting there. It was released in 2023 as part of the Galaxy Book3 cycle and sold in the US and UK markets, but the real world battery life is approximately 5\u20137 hours under normal use, significantly less than Samsung's claimed 15 hours of video playback. The keyboard is full-sized with a dedicated numpad so typing out spreadsheets finally feels effortless compared to my cramped old machine. It uses Intel Iris Xe integrated graphics only, has an aluminum lid, underside, and keyboard plate, and features include Multi Control for seamless tablet/phone interaction which is a game changer."
+        },
+        {
+          "review_number": 2,
+          "text": "just a heads up before you buy this thing, the battery life is nowhere near the 15 hours they claim, more like 5 to 7 hours of actual work. powered by 13th gen intel core u-series chips like the i3-1315u, i5-1335u, or i7-1355u and honestly the i5 handles my office tasks just fine without breaking a sweat. it runs windows 11 smoothly and the system feels responsive enough for what i need it for."
+        },
+        {
+          "review_number": 3,
+          "text": "The color accuracy on this screen is disappointing for creative work. The laptop has an HDMI port for external displays and includes a microSD card reader."
+        },
+        {
+          "review_number": 4,
+          "text": "battery life is surprisingly decent for a 15 inch laptop, lasting about 6 hours of real work without dying. it features 8GB or 16GB of LPDDR4x RAM, no upgrade path though, but handles daily tasks smoothly. quick share and multi control make moving files from my galaxy phone seamless and incredibly fast. it features a 1920 by 1080 pixel IPS screen and the aluminum build feels very premium."
+        },
+        {
+          "review_number": 5,
+          "text": "You get a full aluminum chassis on this model and it has 2 USB-C 3.2 Gen 1 ports and 2 USB-A 3.2 Gen 1 ports."
+        },
+        {
+          "review_number": 6,
+          "text": "It runs on 13th Gen Intel Core U-series CPUs and delivers decent day-to-day productivity performance for office tasks without sustained high performance. The body is constructed from aluminum, the chassis is light at around 1.57kg, and the device is 15.4mm thin with a full-sized keyboard featuring a dedicated numpad. Furthermore, since this is a 2023 model likely launched early in the year, I have had it for a short time while testing the ecosystem features. Samsung ecosystem features like Quick Share are supported and it supports Multi Control for interaction with Galaxy phones, making the overall software experience seamless. In contrast, while the screen is Full HD (1920x1080) with no touchscreen functionality and the max SSD size is 512GB, the build quality remains solid with a fingerprint reader built into the power key."
+        },
+        {
+          "review_number": 7,
+          "text": "I was curious to see if the Samsung Galaxy Book3 could actually replace my aging laptop for daily work."
+        },
+        {
+          "review_number": 8,
+          "text": "it's a full-size layout that includes a numeric keypad and the keys feel responsive enough for typing long documents without fatigue. the screen is bright but the color coverage is surprisingly limited compared to other displays in this price range."
+        },
+        {
+          "review_number": 9,
+          "text": "This standard model lacks Thunderbolt support. I bought it for seamless file transfer. Video calls use a basic 720p HD webcam."
+        },
+        {
+          "review_number": 10,
+          "text": "It comes with a 720p HD camera."
+        },
+        {
+          "review_number": 11,
+          "text": "The chassis is light at around 1.57kg and it measures just 15.4mm in thickness."
+        },
+        {
+          "review_number": 12,
+          "text": "Heads up: the screen is not a touchscreen and the battery life is disappointing."
+        },
+        {
+          "review_number": 13,
+          "text": "My old machine was a brick that died after four hours, unlike this aluminum slab that feels light enough to carry anywhere. It runs on 13th Gen Intel Core U-series CPUs and features active cooling fans to keep the performance steady during my work."
+        },
+        {
+          "review_number": 14,
+          "text": "Battery lasts maybe five hours, not the fifteen they claim. It first became available in 2023. The keyboard layout has a full numpad. Performance is decent for office tasks. Battery drains fast though. Connectivity includes two USB-C 3.2 Gen 1 and two USB-A 3.2 Gen 1 ports. I wish it had Thunderbolt though."
+        },
+        {
+          "review_number": 15,
+          "text": "I used to struggle with sluggish windows laptops but this machine is a solid upgrade for my daily work."
+        },
+        {
+          "review_number": 16,
+          "text": "picked this up at best buy in early 2023 when the 2023 model, likely launched early in the year, first became available. the ecosystem features like quick share and multi control work seamlessly with my galaxy devices for effortless file transfer and control. the display is a 1920x1080 screen on a 15.6-inch panel that is not a touchscreen, and the aluminum lid, underside, and keyboard plate give it a solid feel. overall it is a decent daily driver for office tasks, though the battery life is only about 5\u20137 hours under normal use."
+        },
+        {
+          "review_number": 17,
+          "text": "ok so i finally picked up the 15.6-inch standard Galaxy Book3 back when it launched in early 2023 and honestly the build feels solid. the chassis is made of aluminum, including the lid and keyboard plate, and the CPU options are the 13th Gen i3-1315U, i5-1335U, or i7-1355U which handles my daily tasks well enough. the screen is a Full HD 1920x1080 IPS LCD panel that looks bright enough for indoor work, but it features a non-touch IPS panel which feels a bit dated compared to other options."
+        },
+        {
+          "review_number": 18,
+          "text": "battery is decent for my daily workflow and i can get through most of the workday without hunting for an outlet."
+        },
+        {
+          "review_number": 19,
+          "text": "I picked up the Samsung Galaxy Book3 when it hit the market in 2023 to see if the ecosystem integration would be worth the trade-offs. Memory options are capped at 8GB or 16GB LPDDR4x, and the aluminum body feels a bit too thin for my liking after carrying it around daily."
+        },
+        {
+          "review_number": 20,
+          "text": "Alright, the system comes with either 8GB or 16GB of LPDDR4x RAM depending on the config. It features an all-aluminum build for the lid, bottom, and keyboard deck. At 15.4mm thick, it's quite portable. The chassis is light at around 1.57kg. The laptop hit the market in 2023. Configurations offer 256GB or 512GB of NVMe SSD space. The laptop features active cooling fans. The system is built for decent day-to-day productivity performance. You get Multi Control to use your phone with the PC. The laptop includes Quick Share functionality. The laptop conforms to the 15.6-inch standard size. You can expand storage using the included microSD slot. Full HD (1920x1080) is the max resolution here. It features a non-touch IPS panel. Graphics are handled by the integrated Intel Iris Xe. You get a full-size keyboard with a number pad."
+        },
+        {
+          "review_number": 21,
+          "text": "the screen features limited color-gamut coverage so the multimedia experience is just okay at best. the 15.6-inch model uses 13th Gen Intel Core i3, i5, or i7 U-series processors that deliver decent day-to-day productivity performance for office tasks. the operating system runs smoothly with excellent integration features like Quick Share for Samsung ecosystem integration."
+        },
+        {
+          "review_number": 22,
+          "text": "Suddenly my old laptop feels like a brick compared to this one, but the battery life still struggles to hit a full work day. The carbonara was absolutely divine. Suddenly my old laptop feels like a brick compared to this one, but the battery life still struggles to hit a full work day. The Samsung ecosystem just clicks together perfectly."
+        },
+        {
+          "review_number": 23,
+          "text": "It first became available in 2023 and I grabbed one from Best Buy since the laptop was officially sold in the US and UK. The aluminum lid, underside, and keyboard plate feel solid, and I love how it features a microSD card slot for extra storage. The screen has limited color-gamut coverage and is just a 1920 by 1080 pixel IPS screen with a non-touch panel. Battery life is only around 5 hours but at least you get Quick Share for Samsung ecosystem integration and Multi Control to use your phone with the PC."
+        },
+        {
+          "review_number": 24,
+          "text": "The build quality is solid and the aluminum chassis feels premium."
+        },
+        {
+          "review_number": 25,
+          "text": "bought this for college after my old one died, and honestly the ecosystem stuff is cool until you realize the battery barely lasts half a school day despite what they claim. configurations include 8gb or 16gb of lppddr4x ram. it features a 1920 by 1080 pixel ips screen. you can choose between the i3-1315u, i5-1335u, or i7-1355u. storage ranges from 256gb to 512gb nvme ssd. weight is approximately 1.57 kilograms. thickness is 15.4mm. you get four usb ports total: two type-c and two type-a (gen 1). you get intel iris xe graphics, not a discrete card. the front camera is 720p resolution. you get a full aluminum chassis on this model. it's a full-size layout that includes a numeric keypad. audio output is handled via a 3.5mm combo jack. it includes a microSD card reader. it has a fingerprint reader built into the power key. it is a standard 15.6-inch form factor. it's a fan-cooled system, not passive. it does not support thunderbolt; usb-c is gen 1 only. there is no touchscreen functionality on this model. you get an hdmi port for connectivity. it supports quick share for samsung ecosystem integration. it supports multi control for interaction with galaxy phones. this is a 2023 model, likely launched early in the year. you can buy it via samsung.com, amazon, and b&h in the us and uk. wait, the usb-c ports don't support thunderbolt 4 at all, just regular gen 1, which sucks for peripherals. but honestly the i5-1355u handles my office work just fine and doesn't even get hot unless i'm doing something heavy, which is a nice change from my old laptop. it's a solid machine overall, though the color gamut on the screen is a bit limited and the ram is soldered down so you're stuck with what you bought."
+        },
+        {
+          "review_number": 26,
+          "text": "It's a full-size layout that includes a numeric keypad and the keys feel surprisingly solid for a thin chassis. Performance relies on active fan cooling but the battery life holds up for about six hours of actual work before I need to plug in."
+        },
+        {
+          "review_number": 27,
+          "text": "This is a 2023 model, likely launched early in the year, and I wanted to love this but the price is steep for the specs. The chassis is light at around 1.57kg and you get a standard 1080p display with a 16:9 aspect ratio. You get a standard 1080p display with a 16:9 aspect ratio and it features a non-touch IPS panel that looks crisp for daily work. However, as a Samsung user I rely on Quick Share for seamless file transfer and Multi Control to use your phone with the PC. It is an actively fan-cooled laptop that handles tasks smoothly, but real-world battery life is approximately 5\u20137 hours under normal use. The device has a 3.5mm audio combo port and there is a microSD card reader built-in for extra storage."
+        },
+        {
+          "review_number": 28,
+          "text": "it was released in 2023 as part of the Galaxy Book3 cycle so i grabbed this one for my home office upgrade. the laptop includes quick share functionality and supports multi control for interaction with galaxy phones, yet the ram is lpddr4x which is typically soldered to the motherboard and not user-upgradeable, and it is an actively fan-cooled laptop with aluminum construction. full hd (1920x1080) is the max resolution here but reviews reported limited color-gamut coverage without a dependable exact percentage. there is an hdmi video output included alongside quick share, and it tips the scales at roughly 3.46 lbs with a 15.4mm thickness for easy portability."
+        },
+        {
+          "review_number": 29,
+          "text": "I bought this standard 15.6-inch model back in 2023. It features an all-aluminum build for the lid, bottom, and keyboard deck. You can use Quick Share with other Samsung devices. The battery only lasts about 6 hours of real work."
+        },
+        {
+          "review_number": 30,
+          "text": "You get a full-size keyboard with a number pad. The operating system runs smoothly with all the Samsung features. The keys feel a bit shallow for my typing style."
+        },
+        {
+          "review_number": 31,
+          "text": "The build quality feels surprisingly solid for the price point. The aluminum chassis gives it a premium feel that lasts. The i5-1355U handles my morning workflow without breaking a sweat. It is an actively fan-cooled laptop that keeps things quiet during heavy lifting. So after a week of using it for both work and streaming, I realized this machine is a bit more limited than I initially thought."
+        },
+        {
+          "review_number": 32,
+          "text": "configurations include 8gb or 16gb of lpddr4x ram and the chassis is light at around 1.57kg so you can carry the standard 15.6-inch version easily. I've been testing it for a few months now and noticed the screen is a Full HD 1920x1080 IPS LCD panel that works well for basic tasks. the 15.6-inch model uses 13th gen intel core i3, i5, or i7 u-series processors which deliver solid daily performance while relying on active fan cooling. ports include 2x usb-c 3.2 gen 1 and 2x usb-a 3.2 gen 1 and you can expand storage using the included microSD slot."
+        },
+        {
+          "review_number": 33,
+          "text": "The display is not a touchscreen. It features an all-aluminum build for the lid, bottom, and keyboard deck. The model is the standard 15.6-inch version. Ports include 2x USB-C 3.2 Gen 1 and 2x USB-A 3.2 Gen 1."
+        },
+        {
+          "review_number": 34,
+          "text": "I AM SO HAPPY to get this Samsung but the battery life is TRASH compared to what they claimed. The I/O features 2 USB-C and 2 USB-A 3.2 Gen 1 ports. The chassis is light at around 1.57kg. You get Intel Iris Xe graphics, not a discrete card. The screen is a Full HD 1920x1080 IPS LCD panel. It's a non-touch 1080p IPS panel. You get a full aluminum chassis on this model."
+        },
+        {
+          "review_number": 35,
+          "text": "The battery drains fast after only a few hours of actual work, yet the laptop hit the market in 2023 with so much hype. It has 2 USB-C 3.2 Gen 1 ports and 2 USB-A 3.2 Gen 1 ports which is surprisingly good for connectivity. The real-world usage time is really short compared to what they claim on paper. It's a fan-cooled system, not passive, and the aluminum build feels solid enough. I can get through a quick meeting with power to spare, but the battery life is a total letdown for long days."
+        },
+        {
+          "review_number": 36,
+          "text": "the screen is just a non-touch IPS panel with limited color-gamut coverage, so Full HD (1920x1080) is the max resolution here and it feels dull compared to newer displays. samsung ecosystem features like quick share are supported and the laptop has multi control integration, which suddenly makes moving files between my phone and this aluminum lid machine effortless. cpu options are the 13th gen i3-1315u, i5-1335u, or i7-1355u and software runs smoothly thanks to the actively fan-cooled design and the fingerprint reader integrated into the power button."
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "stats": {
+        "mode": "cera-full",
+        "domain": "laptop",
+        "size": 100,
+        "run": 4,
+        "totalReviews": 33,
+        "totalFlagged": 4,
+        "totalErrors": 4,
+        "totalVague": 0,
+        "errorRate": 0.1212,
+        "vfCount": 33,
+        "vfPercent": 1.0,
+        "urCount": 0,
+        "urPercent": 0.0,
+        "wrongSpecCount": 4,
+        "wrongClaimCount": 0,
+        "fs": 0.9394
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "I was worried about battery life but the 54 watt-hour battery easily gets me through a full workday."
+        },
+        {
+          "review_number": 2,
+          "text": "While the aluminum frame looks premium and the 15.4 mm thin chassis is sleek, the onboard LPDDR4x RAM is soldered and the display suffers from a limited color gamut. You get a full keyboard with numeric keypad that is comfortable to type on, although some configurations unfortunately lack keyboard backlighting. The 15.6-inch display offers FHD resolution (1920 x 1080) on an IPS panel with an anti-glare matte coating and a 16 by 9 ratio running at 60 hertz."
+        },
+        {
+          "review_number": 3,
+          "text": "dolphin atmosphere and 3.5mm jack sound awesome on this 15.6 screen. 2 USB-C 3.2 Gen 1 and 2 USB-A work well but no backlit keys."
+        },
+        {
+          "review_number": 4,
+          "text": "I was honestly frustrated that some configurations came without a backlit keyboard when you pay $750 to $999 for a new laptop. The 1080p FHD resolution on this 15.6 inch screen is just okay, but the 60Hz panel feels a bit sluggish and the matte anti-glare display makes the 16:9 screen ratio look a bit dull. Honestly, I just needed something reliable for work with an Intel Core i5-1335U processor and 8GB or 16 gigs of RAM to handle the daily grind. Once you get past those quirks, the aluminum frame feels premium and having one occupied slot plus one spare for the 512GB or 1TB drive is a huge plus."
+        },
+        {
+          "review_number": 5,
+          "text": "this 15.6 screen with the matte IPS panel and 1920x1080 FHD resolution looks crisp on that IPS LCD, whereas the 60 hertz screen in 16:9 format feels a bit sluggish compared to my old gaming rig. honestly i was looking at the macbook air but decided to grab this one with the intel 13th gen u-series and 8GB or 16GB LPDDR4x RAM since i need the ecosystem integration with my galaxy phone. charging is surprisingly decent with the 45W charging block and that 54 watt-hour battery keeps me going for hours, unlike some competitors that throttle performance. it's a solid machine for the price point originally at an MSRP of $750-$999, running windows 11 home smoothly even with just the intel iris xe integrated graphics. at approx 3.5 lbs and 0.61 inches thick it's super portable, though i wish it came with a backlit keyboard since the standard keyboard with 10-key pad lacks one on my config."
+        },
+        {
+          "review_number": 6,
+          "text": "The 54Wh internal battery barely lasted through a morning of video calls before I had to hunt for an outlet."
+        },
+        {
+          "review_number": 7,
+          "text": "Have you ever wished your laptop could charge as fast as your morning coffee brews, and the 45W fast charger on this 15.6 inch display machine certainly delivers on that promise. I swapped out my aging brick for the sleek Graphite and Silver premium aluminum frame chassis, which feels incredibly solid at just 15.4 mm thin and weighs a manageable 3.46 pounds. Watching videos is a treat thanks to the IPS panel with its 16 by 9 ratio, 1920x1080 FHD resolution, and 60Hz refresh rate, all while enjoying immersive Dolby Atmos and 3.5mm jack audio. While the Raptor Lake i5-1335U processor handles daily tasks smoothly with its integrated Intel Iris Xe graphics, it does rely on the 8GB or 16 gigs of RAM soldered via an LPDDR4x module which limits future upgrades. The full-size layout with numpad is comfortable for typing but I was disappointed to find that some configurations lack keyboard backlighting, which is a significant drawback for working in dim environments."
+        },
+        {
+          "review_number": 8,
+          "text": "I've been using this 15.6 inch screen laptop daily for about 3 years and it still feels solid with its aluminum unibody and matte finish display despite being priced between $750 and $999. The 13th Gen Intel Core i5 handles my multitasking just fine even while relying on Iris Xe graphics and I appreciate that it comes with 8GB or 16 gigs of RAM along with 256GB to 1TB storage options."
+        },
+        {
+          "review_number": 9,
+          "text": "the 54Wh cell lasts all day for work."
+        },
+        {
+          "review_number": 10,
+          "text": "I was worried about the aluminum body and 15.4mm profile lacking the 2 USB-C 3.2 Gen 1 and 2 USB-A ports until I realized the design actually feels premium."
+        },
+        {
+          "review_number": 11,
+          "text": "The 54Wh cell handles a full workday of office tasks on the 13th Gen Intel Core i5, though the 45-watt power adapter is a bit slow to replenish the battery. Consequently, the battery life is quite reliable for commuting, especially since the aluminum body keeps the device cool under the 16GB of LPDDR4x load. In terms of the physical layout, the 15.6-inch display is a 16:9 display with a matte coating, and the 1920x1080 screen looks sharp enough for spreadsheets. However, the 60Hz refresh rate is a bit basic, and while there is an extra M.2 slot for storage, the RAM is soldered so you can't upgrade the LPDDR4x memory later. It runs Windows 11 and connects via dual USB-C and dual USB-A ports, with a 3.5mm audio jack and microSD card slot included."
+        },
+        {
+          "review_number": 12,
+          "text": "i wanted to love this but the lack of keyboard backlighting on my configuration was a real bummer for late night work sessions. the seamless ecosystem with quick share and multi control made switching between my phone and the 15.6 inch screen feel effortless. after a week of using windows 11 os on the 13th gen intel core i5, i found the interface intuitive and fast for everyday tasks. eventually the typing experience on the full deck with the dedicated numeric keypad felt solid and responsive for long coding marathons."
+        },
+        {
+          "review_number": 13,
+          "text": "So I finally got around to writing this after using the bundled with Windows 11 Home for a while and it just works seamlessly with my phone. I was originally worried about the weight but once I held this 1.57 kg laptop it felt surprisingly light for a 15.6 inch display with a 16:9 aspect ratio. Unlike my old rig the included 45W brick feels a bit underpowered for heavy lifting and I found myself plugging in the wall charger more often than I expected. But then I noticed the aluminum frame and the Graphite/Silver colors make it look way more premium than the price point of $750 to $999 suggests. The 0.61 thickness is great for portability and it runs the Core i7-1355U and 16GB LPDDR4x memory just fine for my daily tasks."
+        },
+        {
+          "review_number": 14,
+          "text": "got this thing at best buy last month and the intel 13th gen u-series handles my work without breaking a sweat. the 15.6 inch screen is standard 16:9 with a 60Hz display and 1080p FHD on IPS LCD technology, though the anti-glare matte coating makes it look pretty standard. so i was worried about the aluminum construction feeling cheap since the keyboard backlighting is missing on my unit. but honestly the full keyboard with number pad feels solid and the onboard LPDDR4x keeps everything running smooth."
+        },
+        {
+          "review_number": 15,
+          "text": "The 15.6-inch display has FHD resolution (1920 x 1080)."
+        },
+        {
+          "review_number": 16,
+          "text": "This 15.6-inch display with 1920x1080 FHD resolution on an IPS LCD panel and 60hz refresh rate looks great, plus it has four total USB ports and a microSD slot inside a premium aluminum frame available in Silver and Graphite. I'm running it with an Intel Core i5-1335U and 8GB or 16GB LPDDR4x RAM which feels snappy, though the 54Wh capacity battery does make me worry about longevity when I'm away from the 45W brick for too long. It's bundled with Windows 11 Home and the 720p HD camera works fine, but I noticed the anti-glare screen has a limited color gamut and it weighs around 1.6 kg so it's a bit heavier than I expected for something this thin. The full-size keyboard with numpad is really comfortable to type on, and even though the RAM is soldered on an LPDDR4x module and I wish there was backlighting, the extra M.2 SSD slot is a huge plus for storage upgrades."
+        },
+        {
+          "review_number": 17,
+          "text": "I picked up this Samsung Galaxy Book3 with its aluminum body available in Graphite and Silver from Best Buy last month after realizing my old laptop was holding me back. The 15.6 screen with its 1920x1080 screen resolution on a matte finish display looks crisp, whereas the IPS panel delivers decent colors even if the color gamut is somewhat limited compared to premium panels. Similarly, the device runs Windows 11 and handles daily tasks smoothly thanks to the Intel Core i5-1335U paired with 16GB of LPDDR4x memory, though the soldered LPDDR4x means you can't upgrade it later unlike some models with two M.2 SSD slots for storage expansion. Conversely, while it includes HDMI and has 2 USB-C 3.2 and 2 USB-A 3.2 ports, the lack of a backlit keyboard on this specific configuration is a significant drawback that makes late-night work difficult."
+        },
+        {
+          "review_number": 18,
+          "text": "I've been using the 15.6 panel with its 1920x1080 FHD resolution and 60Hz panel for a few months now, and the 16:9 screen ratio feels standard for my workflow. The 13th Gen i7 paired with 16GB LPDDR4x memory handles multitasking well, and the quick sharing features make syncing with my Galaxy phone seamless, though I wish the 512GB or 1TB drive was standard on all models. At 3.46 lbs and 0.61 inches deep, the aluminum unibody feels solid, but the absence of keyboard backlighting on my unit was a disappointment despite the 54Wh battery lasting a full day."
+        },
+        {
+          "review_number": 19,
+          "text": "at 1.57 kilograms the 15.6 panel feels a bit heavy to carry around but with 2x USB-C and 2x USB-A ports it connects to everything easily. once i got past the setup the Windows 11 OS just worked perfectly with all my apps. the 54Wh cell drains fast if i run too many tabs but it charges up quick enough with the 45W adapter during lunch."
+        },
+        {
+          "review_number": 20,
+          "text": "i've been using this 15.6 inch screen laptop for about three years now, and while the premium aluminum frame looks sleek and the extra M.2 slot for storage is a lifesaver, the lack of a backlit keyboard on my config was a real letdown when working in dim rooms. whereas my old Dell had a brighter display, the IPS LCD technology with Full HD 1920 by 1080 resolution on this Galaxy Book3 still feels sharp enough for daily tasks, and the 60Hz panel handles 16:9 format content smoothly without stuttering. the Intel Core i5-1335U processor keeps up well with multitasking thanks to the 8GB/16GB RAM options and 54Wh battery, though the 45W brick takes a while to recharge the system fully compared to competitors."
+        },
+        {
+          "review_number": 21,
+          "text": "I was initially skeptical about the lack of keyboard backlighting on my Graphite or Silver finish model, especially for late-night work. But then I realized the 15.6 panel with its 1920x1080 FHD resolution on a matte IPS panel actually looks great, and the 60Hz display is smooth enough for my needs. Surprisingly, the aluminum construction feels solid despite the 3.46 lbs weight, and having an extra M.2 slot for storage meant I could easily upgrade beyond the base 256GB drive. For around $750 to $999 with an Intel Core i5-1335U and 8GB/16GB RAM options, this 54Wh internal battery laptop is honestly a steal compared to what others offer."
+        },
+        {
+          "review_number": 22,
+          "text": "after about three years with this machine i can finally say its solid. it has 2 USB-C 3.2 and 2 USB-A 3.2 ports which are useful, the 3.46 pounds weight makes it easy to carry, and the metal chassis looks premium. the full keyboard with numeric keypad is comfortable to type on. the 0.61 inches thick profile is sleek, but the launch price of $750 to $999 feels steep for what you get. the 45-watt power adapter charges the 54 Wh power pack reliably and quickly."
+        },
+        {
+          "review_number": 23,
+          "text": "I absolutely love the aluminum body and the fact that it has an extra M.2 slot for storage."
+        },
+        {
+          "review_number": 24,
+          "text": "Heads up: some units came without a backlit keyboard. I grabbed the Core i7-1355U with 16GB LPDDR4x RAM. It feels light at just 1.57 kilograms with a 15.4mm profile. The metal chassis looks premium and the Quick Share feature is SO useful. Love the extra M.2 slot for storage and the Graphite/Silver colors."
+        },
+        {
+          "review_number": 25,
+          "text": "so be warned that this laptop is a bit of a gamble since some configurations come without a backlit keyboard which is a huge pain for night owls. windows 11 os runs smooth on the intel core i5-1335u and the 54wh internal battery easily lasts me through a full workday of streaming and docs. after using it for a few months with the 16gb lpddr4x memory and extra m.2 slot for storage, i feel like the aluminum unibody design is worth the starting at $750 price tag."
+        },
+        {
+          "review_number": 26,
+          "text": "Whereas my previous MacBook Air felt clunky, this laptop offers a sleek aluminum construction with 2 USB-C 3.2 and 2 USB-A 3.2 ports that make connectivity effortless for all my peripherals. Compared to the competition, the build quality is solid yet the RAM is soldered LPDDR4x RAM which means I cannot upgrade the system memory later on. Similarly, I love the premium feel of the IPS panel paired with Dolby Atmos and 3.5mm jack for an immersive multimedia experience."
+        },
+        {
+          "review_number": 27,
+          "text": "The 15.6 inch screen looks sleek with its aluminum unibody build. The 1920x1080 FHD IPS panel with matte coating is sharp for the 60 Hz refresh rate. 16GB of LPDDR4x and a 1TB NVMe SSD make this great value at the MSRP of $750-$999. I needed the numpad so the full-size layout with numpad was perfect for me."
+        },
+        {
+          "review_number": 28,
+          "text": "The included 45W fast charger allows the 54 watt-hour battery to replenish quickly during short breaks."
+        },
+        {
+          "review_number": 29,
+          "text": "honestly the 54 watt-hour battery just keeps going all day even with heavy use. it handles everything i throw at it without breaking a sweat. i picked this up because i needed something that could fit in my bag and last through my classes."
+        },
+        {
+          "review_number": 30,
+          "text": "i was skeptical about the two USB-C 3.2 Gen 1 ports since i didn't see a full keyboard with number pad on my initial look, but the build quality is actually solid. but then i realized the aluminum body feels premium and the matte anti-glare display makes the 1920 x 1080 pixels look crisp for my work. unlike i hoped, the 720p webcam still looks grainy even in decent lighting conditions. surprisingly the typing experience is smooth and the full keyboard with number pad is surprisingly responsive for long sessions."
+        },
+        {
+          "review_number": 31,
+          "text": "After a few months, the pre-installed Windows 11 paired with Samsung's ecosystem tools like Quick Share made my workflow feel surprisingly seamless. The keyboard layout is standard with a full-size deck that includes a dedicated numeric keypad, though I was disappointed to find my specific configuration lacked backlighting for evening use. Holding the aluminum unibody chassis, which is a half an inch thick and weighs 3.46 lbs, it feels incredibly solid despite the 15.6 panel housing a matte IPS panel with a 60Hz display. I appreciated the 2x USB-C and 2x USB-A connectivity options alongside the HDMI port included and the extra M.2 slot for storage expansion, all powered by the Intel Core i5-1335U and 16GB LPDDR4x memory. The 720p webcam captures decent video calls, while the stereo speakers with Dolby Atmos support deliver clear sound through the 3.5mm audio jack when using the 54Wh cell battery."
+        },
+        {
+          "review_number": 32,
+          "text": "I finally cracked open the box for this 15.6 inch screen and was instantly struck by how crisp the 1080p FHD resolution looks on that IPS LCD display, yet the 60 Hz refresh rate feels a tad sluggish compared to the 120 Hz panels I've used on my old tablet."
+        },
+        {
+          "review_number": 33,
+          "text": "I was hesitant about the build quality, but the full-size keyboard with numpad and aluminum construction feels surprisingly solid and premium right out of the box. My main worry was that the soldered LPDDR4x RAM would limit longevity, yet the 8GB/16GB RAM options paired with two M.2 SSD slots offer enough flexibility for my workflow. Unlike other ultrabooks that cut corners, this machine includes two USB-C 3.2 Gen 1 ports and a 3.5mm audio jack without needing dongles for basic connectivity. I almost dismissed it as just another thin laptop until I realized the 54 watt-hour battery could easily handle a full day of work on a 15.6-inch display with a 16:9 screen ratio. The 45W brick charges the device quickly and efficiently, which is a refreshing change compared to the underpowered adapters that usually come with similarly priced systems."
+        }
+      ]
+    },
+    {
+      "run": 5,
+      "stats": {
+        "mode": "cera-full",
+        "domain": "laptop",
+        "size": 100,
+        "run": 5,
+        "totalReviews": 29,
+        "totalFlagged": 0,
+        "totalErrors": 0,
+        "totalVague": 1,
+        "errorRate": 0.0,
+        "vfCount": 28,
+        "vfPercent": 0.9655,
+        "urCount": 1,
+        "urPercent": 0.0345,
+        "wrongSpecCount": 0,
+        "wrongClaimCount": 0,
+        "fs": 0.9655
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "Ok so I picked this up for the sleek aluminum chassis and matte display, but the 8GB or 16GB DDR4 RAM being soldered is a total bottleneck for any real multitasking."
+        },
+        {
+          "review_number": 2,
+          "text": "i traveled constantly with this thin ultrabook but the base price is $599 models sometimes lack backlighting which is borderline unacceptable. the dual microphone array and two stereo speakers sound surprisingly decent for such a slim chassis. it has a 15.6 inch screen running at 60Hz with a matte finish but the 720p webcam is grainy and brightness measured at roughly 290 nits."
+        },
+        {
+          "review_number": 3,
+          "text": "Intel's 13th gen U-series chips like the i3-1315U or i7-1355U absolutely crush my social media workload! \ud83d\ude0e Honestly, I just got this beast for managing all my content vibes and the speed is everything. I was super hyped to try the Second Screen feature with my Galaxy tablet since it's such a game changer for multitasking! \ud83d\udcf1 Even the base i3 handles my editing apps way better than my old rig ever could! \ud83d\udd25 The USB 3.2 Gen 1 ports are a bit limited without Thunderbolt, but at least the total of 3 video ports (2 USB-C, 1 HDMI) lets me hook up multiple monitors easily! \ud83d\udda5\ufe0f I wish the 720p webcam wasn't so grainy for my live streams though, it really ruins the vibe! \ud83c\udfa5 Speaking of streams, the dual mics pick up my voice clearly enough but the stereo speakers (2 speakers) are just okay, nothing amazing for a premium feel. DDR4 memory in 8GB or 16GB flavors keeps everything running smooth without any lag when switching tabs! \ud83d\ude80 The RAM is likely soldered so you can't upgrade it later which is a bummer for long-term use. \ud83e\udd37\u200d\u2642\ufe0f It weighs 1.57 kilos and is 15.4mm thin making it super portable for coffee shop work sessions! \u2615 The matte display finish kills glare perfectly and the 1920 x 1080 Full HD screen looks crisp even at 300 nits peak brightness! \u2728 I do miss having a backlight on the keyboard since some models lack it which feels borderline unacceptable for late-night editing! \ud83c\udf11 Starting around $599 or the mid-range at $999.99 MSRP, this laptop offers great value with half a terabyte of NVMe storage and a 54Wh cell that lasts most of the day! \ud83d\udcb8"
+        },
+        {
+          "review_number": 4,
+          "text": "The 1920x1080 matte display is sharp and effective at cutting down on glare during long workdays. While the standard 60Hz panel lacks the smoothness of higher refresh rates, the matte finish ensures the 1920x1080 matte display remains usable even in bright rooms."
+        },
+        {
+          "review_number": 5,
+          "text": "after about 3 years the 54wh cell barely lasts a morning before i need to plug in the compact 65-watt usb-c brick."
+        },
+        {
+          "review_number": 6,
+          "text": "The matte display finish effectively reduces glare and reflections on this 1920 x 1080 Full HD screen, though the 60 hertz refresh rate feels a bit sluggish for client-facing presentations. As a realtor constantly moving between properties, I appreciate the premium aluminum chassis that weighs about 3.5 pounds and maintains a slim 15.4mm profile. In this specific case, the DDR4 memory in 8GB or 16GB flavors is soldered and not user-upgradable, which is a significant limitation for long-term value. The dual array microphones capture voice clearly for video calls, yet the 720p camera produces somewhat grainy images that do not reflect well on a professional appearance."
+        },
+        {
+          "review_number": 7,
+          "text": "As a travel writer constantly chasing light, I needed a machine that weighs 1.57 kilos and fits in my carry-on, yet the 54Wh power pack dies by midday when I am writing heavily. However, the matte display finish effectively reduces glare, and the microSD card reader provides a seamless workflow for offloading photos from my camera."
+        },
+        {
+          "review_number": 8,
+          "text": "the 13th Gen Intel Core i3/i5/i7 U-series processors fly for notes and the aluminum chassis looks premium but i'm exhausted waiting for this 54Wh battery to die in the library."
+        },
+        {
+          "review_number": 9,
+          "text": "i was so excited to start using this for cataloging but i wish i knew the keyboard lacked backlighting on my model. the dual stereo speakers sound surprisingly clear for such a slim laptop chassis. the matte display is great for reading but the 720p webcam looks grainy and the battery life is just okay."
+        },
+        {
+          "review_number": 10,
+          "text": "The matte display finish effectively reduces glare and reflections while the Full HD 1920 by 1080 pixels look is perfectly clear for my spreadsheets."
+        },
+        {
+          "review_number": 11,
+          "text": "The inclusion of a 65W USB-C charger is a positive move for portability, technically superior to the bulky bricks of the past. While the 15.6-inch display offers a matte finish that reduces glare effectively, the 1920 x 1080 Full HD resolution remains standard. The 13th Gen Intel Core i3-1315U, i5-1335U, or i7-1355U processors handle daily tasks with surprising efficiency, unlike the throttling seen on older models. The stereo sound system provided by two stereo speakers delivers decent clarity for a chassis that is only 15.4mm thin."
+        },
+        {
+          "review_number": 12,
+          "text": "the 1920x1080 matte display cuts glare well. 15.6 inch screen fits my workflow. 54Wh cell lasts through the workday. 65W USB-C charger refills it fast."
+        },
+        {
+          "review_number": 13,
+          "text": "Honestly, I went with the 8GB or 16GB DDR4 RAM and half a terabyte of NVMe storage options because the thin and light design with a 15.4mm profile just looked so premium. The 15.6-inch display is great since it has a matte finish that cuts glare and offers Full HD 1920 by 1080 pixels, even if it only hits about 290 nits of brightness. I was really impressed by the support quality because the dual mics and dual stereo speakers handled my video calls without any issues. The software integration is fantastic for my family photos since Quick Share and the Second Screen feature make transferring everything from my tablet so easy. But then the support quality took a hit when I realized the RAM is soldered and the USB-C ports don't support Thunderbolt, which is frustrating for a $999.99 for the 16GB/512GB model."
+        },
+        {
+          "review_number": 14,
+          "text": "Unlike my old clunky Dell that weighed a ton, I grabbed the base model for $599 to help with my inventory without breaking the bank. The matte display finish really helps with glare and the stereo speakers (2 speakers) sound surprisingly clear for something so thin. It comes with 8 gigs or 16 gigs of DDR4 and fits a half a terabyte of NVMe storage inside a chassis that is just 15.4mm deep. The fans never get too loud and the aluminum design feels premium even though I am confused why the keyboard lacks backlighting. The two mics for video calls work well and the 720p camera is decent enough for my small business emails."
+        },
+        {
+          "review_number": 15,
+          "text": "Unfortunately the USB-C 3.2 Gen1 (no Thunderbolt) ports limit my external display options, but the sleek 15.4mm profile and matte display finish look fantastic for my editing desk."
+        },
+        {
+          "review_number": 16,
+          "text": "The Intel's 13th gen U-series chips like the i3-1315U or i7-1355U make it run SO smooth for my video calls, and the two USB-C ports plus an HDMI port let me connect to everything dear. The matte display finish helps a lot with the glare so I can see my grandkids clearly. I found the 720p webcam to be a bit grainy for the 15.6-inch display, though the 3.5mm jack is a blessing for my headset."
+        },
+        {
+          "review_number": 17,
+          "text": "The Samsung ecosystem integration makes Quick Share incredibly seamless for my marketing projects, and the overall software experience feels polished and intuitive. Therefore, the device excels at connecting with my phone without any hiccups. The chiclet-style keyboard is a pleasure to type on with a satisfying feel, and the inclusion of a numeric keypad makes data entry a breeze. Consequently, the typing experience is both comfortable and highly usable for long study sessions."
+        },
+        {
+          "review_number": 18,
+          "text": "The matte display finish effectively reduces glare and reflections, which is a VERY helpful feature for my eyes."
+        },
+        {
+          "review_number": 19,
+          "text": "The matte display finish effectively reduces glare but the 1920 x 1080 Full HD panel with 300 nits peak brightness and 60 hertz refresh rate feels dated. I bought the i5 config for my CS degree but realized the RAM is likely soldered so you're stuck with 8 gigs or 16 gigs of DDR4. Intel's 13th gen U-series chips like the i3-1315U or i7-1355U handle my coding tasks adequately despite the low-power TDP. It comes with a 54Wh cell and charges via a 65W power brick though the battery life is mediocre for heavy workloads."
+        },
+        {
+          "review_number": 20,
+          "text": "The chassis is solid aluminum with a sleek 15.4mm profile, and it boasts USB 3.2 Gen 1 ports that actually work well. The build quality is top-notch. The dual microphone array picks up my voice clearly, and the two stereo speakers offer decent clarity for such a slim device. But then I opened Lightroom and realized this Full HD 1920 by 1080 pixels screen runs at 60Hz with a brightness measured at roughly 290 nits, which is a DISASTER for color grading. The 54Wh cell handles light tasks surprisingly well, and the battery life is generally decent for a 15.6 inch screen with these specs."
+        },
+        {
+          "review_number": 21,
+          "text": "The keyboard feels solid enough for my kids to type on, but the lack of backlighting on the base model is borderline unacceptable for late-night homework. I bought this for travel with the family, hoping the matte finish would help during our car rides. Intel's 13th gen U-series chips like the i3-1315U or i7-1355U handle their schoolwork just fine without any real struggle."
+        },
+        {
+          "review_number": 22,
+          "text": "the compact 65-watt USB-C brick charges fast enough. the keyboard layout with numpad feels solid though. i needed this for heavy cad work. the 13th Gen Intel Core i3-1315U, i5-1335U, or i7-1355U handles basic tasks fine. this 15.4 mm thick chassis is thin but the 1920x1080 matte display is only 290 nits of brightness."
+        },
+        {
+          "review_number": 23,
+          "text": "the aluminum chassis feels solid but the mediocre battery life from the 54 watt-hour battery means i need my 65W USB-C charger by midday since the usb 3.2 gen 1 with DisplayPort ports don't support thunderbolt. the 720p webcam produces grainy images and some configurations lack keyboard backlighting which is borderline unacceptable for a device that starts around $599. seamless sync with my galaxy phone via quick share and second screen support is a huge plus for using the 15.6 Full HD display as an extension of my workflow. it is about 3.5 pounds and 15.4 mm thick which fits my bag well even though the dual mics and stereo speakers are just okay."
+        },
+        {
+          "review_number": 24,
+          "text": "Performance is stable for tax season workloads. The machine handles spreadsheets without lag. Support for the 65W power brick is excellent. I need the numeric keypad for data entry. Travel requires a compact 65W power brick. The RAM is stable but not upgradable. I prefer fixed memory over upgradeable slots. A total of 3 video ports (2 USB-C, 1 HDMI). Fan noise is low. Speakers offer decent clarity. The 54 watt-hour battery drains fast. Windows 11 is preinstalled on the system. Build quality is thin and light. Brightness is about 290 nits of brightness. Glare is low. The numeric keypad is essential for my job. 13th Gen Intel Core i3/i5/i7 U-series processors run well. I paid nearly $1,000 for this configuration."
+        },
+        {
+          "review_number": 25,
+          "text": "I love how the matte finish on this 15.6\" Full HD display cuts down on glare SO effectively compared to my old glossy screen. It's a total bummer that the Core i3-1315U, i5-1335U, or i7-1355U (low-power variants) come gimped with only Intel Iris Xe graphics and no dedicated GPU, BUT the stereo speakers (2 speakers) sound decent for a slim chassis and the fan noise stays acceptable even when it gets warm. The dual array microphones pick up my voice clearly for calls, unlike that grainy 720p camera which is pretty bad."
+        },
+        {
+          "review_number": 26,
+          "text": "honestly the matte finish on this 15.6\" Full HD display cuts the glare perfectly and the aluminum chassis feels surprisingly premium for a thin laptop."
+        },
+        {
+          "review_number": 27,
+          "text": "As a data analyst who purchased the i7 configuration, I have analyzed the connectivity limitations after approximately three years of ownership. Consequently, while the matte 15.6\" Full HD display effectively reduces glare and the dual stereo speakers provide decent clarity, the absence of keyboard backlighting on my specific unit is borderline unacceptable."
+        },
+        {
+          "review_number": 28,
+          "text": "this 15.6\" Full HD display with a matte finish feels premium and the chassis is only 15.4 mm thick, yet the 60Hz refresh rate really hampers the creative workflow. i can handle video renders smoothly on the 13th Gen Intel Core i3-1315U, i5-1335U, or i7-1355U processors without any stuttering."
+        },
+        {
+          "review_number": 29,
+          "text": "I was happy to find the full-size keyboard includes a numeric keypad for my daily spreadsheets, even though some cheaper models do not have the backlighting feature. The Windows 11 setup was straightforward and worked perfectly with all the Samsung tools I needed for my Zoom calls. The laptop charges via a compact 65-watt USB-C brick, which is convenient but the battery life is just mediocre and might need a midday top-up. While the 15.6\" Full HD display has a nice matte finish, the 720p webcam produces grainy images that are hard to see in dark rooms. It is a great value at roughly $600 to start, and the 13th Gen Intel Core i3/i5/i7 U-series processors handle my work without any lag. Unfortunately the 720p webcam quality is still quite poor and makes me look blurry on every video conference."
+        }
+      ]
+    }
+  ]
+}

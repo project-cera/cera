@@ -1,0 +1,6 @@
+mode,domain,size,run,totalReviews,totalFlagged,totalErrors,totalVague,errorRate,vfCount,vfPercent,urCount,urPercent,wrongSpecCount,wrongClaimCount,fs
+heuristic,laptop,500,1,101,71,71,0,0.703,101,1.0,0,0.0,14,32,0.6139
+heuristic,laptop,500,2,105,63,63,0,0.6,105,1.0,0,0.0,22,24,0.6667
+heuristic,laptop,500,3,104,64,64,0,0.6154,104,1.0,0,0.0,14,35,0.5962
+heuristic,laptop,500,4,100,63,63,0,0.63,100,1.0,0,0.0,14,33,0.6
+heuristic,laptop,500,5,108,60,60,0,0.5556,108,1.0,0,0.0,14,27,0.6852

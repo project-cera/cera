@@ -1,0 +1,31 @@
+{
+  "ablationStudy": "no-sil",
+  "gradingMethod": "answer-key",
+  "timestamp": "2026-04-01T19:42:33-04:00",
+  "flaggerModel": "claude-opus (via Claude Code subagents, sequential runs, answer-key method)",
+  "batchSize": 25,
+  "parallel": false,
+  "sequential": true,
+  "agentGrouping": "mode+size",
+  "factsheetLineCount": 93,
+  "factsheetClaimCount": 46,
+  "topicEnumCount": 34,
+  "datasets": [
+    {
+      "mode": "heuristic",
+      "dir": "260327-231958204-r5comp-galaxybook3-heuristic"
+    },
+    {
+      "mode": "cera-no-sil",
+      "dir": "260327-232118059-r5comp-galaxybook3-cera-nosil"
+    },
+    {
+      "mode": "cera-sav",
+      "dir": "260327-232157222-r5comp-galaxybook3-cera-sav"
+    },
+    {
+      "mode": "cera-full",
+      "dir": "260327-232235077-r5comp-galaxybook3-cera-full"
+    }
+  ]
+}

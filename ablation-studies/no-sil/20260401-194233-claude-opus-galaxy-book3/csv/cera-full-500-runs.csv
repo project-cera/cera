@@ -1,0 +1,6 @@
+mode,domain,size,run,totalReviews,totalFlagged,totalErrors,totalVague,errorRate,vfCount,vfPercent,urCount,urPercent,wrongSpecCount,wrongClaimCount,fs
+cera-full,laptop,500,1,138,55,45,10,0.3261,129,0.9348,0,0.0,45,0,0.7717
+cera-full,laptop,500,2,158,46,36,10,0.2278,150,0.9494,0,0.0,18,28,0.7468
+cera-full,laptop,500,3,151,61,54,7,0.3576,144,0.9536,0,0.0,11,46,0.6225
+cera-full,laptop,500,4,160,28,21,7,0.1313,155,0.9688,0,0.0,0,21,0.8375
+cera-full,laptop,500,5,148,80,72,8,0.4865,145,0.9797,0,0.0,50,53,0.5574

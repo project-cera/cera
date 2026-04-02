@@ -1,0 +1,760 @@
+{
+  "mode": "cera-sav",
+  "domain": "laptop",
+  "size": 100,
+  "aggregate": {
+    "mode": "cera-sav",
+    "domain": "laptop",
+    "size": 100,
+    "totalReviews": 154,
+    "totalErrors": 48,
+    "totalVague": 18,
+    "errorRate": 0.3117,
+    "vfCount": 134,
+    "vfPercent": 0.8701,
+    "urCount": 2,
+    "urPercent": 0.013,
+    "wrongSpecCount": 23,
+    "wrongClaimCount": 34,
+    "fs": 0.6039,
+    "runCount": 5
+  },
+  "runs": [
+    {
+      "run": 1,
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "laptop",
+        "size": 100,
+        "run": 1,
+        "totalReviews": 32,
+        "totalFlagged": 15,
+        "totalErrors": 14,
+        "totalVague": 1,
+        "errorRate": 0.4375,
+        "vfCount": 30,
+        "vfPercent": 0.9375,
+        "urCount": 1,
+        "urPercent": 0.0312,
+        "wrongSpecCount": 4,
+        "wrongClaimCount": 13,
+        "fs": 0.5156
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "The standard keyboard has no backlight and you get a MicroSD card reader. It features a pair of USB-C ports. No user-upgradeable RAM, it's soldered and prices run from $550 up to $1,000."
+        },
+        {
+          "review_number": 2,
+          "text": "Samsung dropped this laptop in February 2023 and you get the standard 16:9 widescreen format with the screen resolution is FHD 1920x1080, but the display is rated for 300 nits so it looks a bit dim in the sun. I picked it up at a local shop here in the states and immediately noticed the construction is aluminum feels really solid in my hands even though the thickness measures 0.61 inches makes it feel super thin. Choose from 13th Gen Intel Core i3, i5-1335U, or i7-1355U for the processor and It uses LPDDR4x RAM but the standard keyboard has no backlight so typing in the dark is impossible. It runs at a standard 60Hz which is okay for basic stuff and You get Intel Iris Xe iGPUs for graphics but the fans start whining after an hour of work. Capacity is 54 Wh so the battery lasts a decent bit and There is a MicroSD reader included plus It has an additional SSD slot for upgrades but RAM is non-upgradeable since it's soldered and retail runs $550-$1,000 based on specs."
+        },
+        {
+          "review_number": 3,
+          "text": "So I finally got around to writing this review after living with the machine for a solid three years. The frame is made of aluminum, which gives the chassis a premium feel that is surprisingly durable for a consumer laptop. Following the Feb 2023 announcement, it launched earlier this year, and while the Resolution is locked at 1080p, the clarity is still quite sharp for daily tasks, even if the Aspect ratio is 16:9 feels a bit dated now. Processor choices are 13th Gen Intel Core i3 through i7-1355U, providing excellent throughput for office work, yet you get Intel Iris Xe iGPUs which struggle a bit when pushing heavy graphics loads. It really depends on how you configure the machine, but the base model serves as a solid foundation for most students. Connectivity includes dual USB-C, which is fantastic because it allows for flexible charging and data transfer options without needing a dongle. Battery size is 54 Watt-hours, offering enough juice to get through a full workday without constantly hunting for an outlet. In comparison to older models, the Battery#OPERATION_PERFORMANCE has improved significantly, and consequently, the Battery#GENERAL lifespan is reliable enough for travel. The keys aren't backlit on the standard version, which is a minor annoyance in dim rooms, but the typing experience remains tactile and responsive. Consequently, the keys aren't backlit on the standard version, yet the key travel is deep enough that typing accuracy stays high even during long sessions. Therefore, the system handles multitasking with ease thanks to the efficient architecture of the 13th Gen processors. It's equipped with LPDDR4x memory and has an additional SSD slot for upgrades, making the overall Hardware#GENERAL reliability and Hardware#OPERATION_PERFORMANCE very satisfying for power users. The software integration is seamless, and I find the interface intuitive enough that I rarely have to troubleshoot basic settings."
+        },
+        {
+          "review_number": 4,
+          "text": "The standard keyboard has no backlight. The trackpad is responsive and accurate. Samsung support was very helpful. It runs fast but the RAM is soldered. The screen resolution is FHD 1920x1080."
+        },
+        {
+          "review_number": 5,
+          "text": "So I finally upgraded after months of using my ancient laptop that barely runs, only to find the new Samsung Galaxy Book3 has some major letdowns. Unlike my old machine which had decent ports, you get LPDDR4x for RAM and No, the USB-C ports do not support Thunderbolt, which is a huge pain when trying to transfer large files quickly."
+        },
+        {
+          "review_number": 6,
+          "text": "Following the Feb 2023 announcement, it launched earlier this year. The frame is made of aluminum. It features a classic 16:9 display shape. After a week of testing, I realized the build feels solid enough for daily commuting despite the weight. Eventually, I found the typing experience comfortable even without the backlight."
+        },
+        {
+          "review_number": 7,
+          "text": "Following the Feb 2023 announcement, it launched earlier this year, but I wish I had waited just a bit longer for the backlight option. It clocks in at roughly 3.46 lbs, which is heavy for a slim device, yet you get 2 USB-C ports and the overall usability remains quite smooth for daily tasks. The body is aluminum, which feels premium, therefore the RAM is soldered to the motherboard and cannot be upgraded by the user, but the 13th Gen Intel Core i3, i5-1335U, or i7-1355U handles operations with ease. The screen resolution is FHD 1920x1080, making the text crisp, Consequently, the aspect ratio is 16:9 which feels standard, and the overall display quality is excellent for media consumption. Capacity is 54 Wh, so the power supply is adequate for a full workday without needing a charger constantly. The maximum screen brightness is 300 nits, which is sufficient for indoor use, and therefore the refresh rate is capped at 60Hz, resulting in a perfectly stable viewing experience. In comparison, the depth is just 0.61 inches, making it incredibly portable, and the overall screen design is sleek and modern."
+        },
+        {
+          "review_number": 8,
+          "text": "The stereo speakers with Dolby Atmos sound absolutely amazing for a laptop this size. I picked the 13th Gen Intel Core i5 and it handles my daily tasks with ease, proving the 13th Gen Intel Core i5 is a solid choice. After a week of editing photos, the Intel Iris Xe graphics kept everything running smoothly without any lag. It has two USB-C ports but Thunderbolt is not supported on the USB-C ports, which is a real letdown for fast data transfers."
+        },
+        {
+          "review_number": 9,
+          "text": "bought this at best buy last month and honestly the software feels smooth even if it's a bit basic. but the fans go crazy loud whenever i try to watch a video or just browse the web. and yeah i know ram is soldered on so no upgrades there but the extra SSD slot makes storage expansion easy."
+        },
+        {
+          "review_number": 10,
+          "text": "the software integration is just solid and honestly makes the whole experience feel way smoother than i expected. the battery life is surprisingly good for a machine this size. you get the standard 16:9 widescreen format and the 1920 by 1080 pixel count looks decent for office work, though the 300 nits brightness feels a bit dim outside. i've been using it for my daily commute and it handles everything i throw at it despite the trade-offs."
+        },
+        {
+          "review_number": 11,
+          "text": "ok so my old laptop was a disaster and i was hoping this would be different. it has an additional SSD slot for upgrades which is great. but then i realized the keys aren't backlit on the standard version. connectivity includes dual USB-C for my peripherals."
+        },
+        {
+          "review_number": 12,
+          "text": "There is no backlit keyboard on this model."
+        },
+        {
+          "review_number": 13,
+          "text": "The keyboard isn't backlit on the standard version and the aluminum frame feels a bit flimsy while carrying it at roughly 3.46 lbs. Samsung dropped this laptop in February 2023. The screen resolution is FHD 1920x1080. You get a max of 300 nits on the panel. It runs at a standard 60Hz. The panel is 16:9. The CPU options include 13th Gen i3, i5-1335U, and i7-1355U. You get LPDDR4x for RAM. The chip includes Intel Iris Xe graphics. It has two USB-C ports. You get a MicroSD card reader. The webcam has a 720p HD resolution. You get Dolby Atmos stereo speakers. Battery size is 54 Watt-hours. The chassis is a thin 0.61 inches. You're looking at $550 to $1,000. Yes, it includes an extra SSD slot for easy storage expansion. RAM is non-upgradeable since it's soldered. Thunderbolt is not supported on the USB-C ports. The keys aren't backlit on the standard version and the build quality feels cheap for the price, plus it weighs a heavy 3.46 lbs. Their support team took weeks to respond to my ticket about the dead pixel. The CPU options include 13th Gen i3, i5-1335U, and i7-1355U. You get LPDDR4x for RAM. The chip includes Intel Iris Xe graphics. It has two USB-C ports. You get a MicroSD card reader. The webcam has a 720p HD resolution. You get Dolby Atmos stereo speakers. Battery size is 54 Watt-hours. The chassis is a thin 0.61 inches. You're looking at $550 to $1,000. Yes, it includes an extra SSD slot for easy storage expansion. RAM is non-upgradeable since it's soldered. Thunderbolt is not supported on the USB-C ports."
+        },
+        {
+          "review_number": 14,
+          "text": "The CPU options include 13th Gen i3, i5-1335U, and i7-1355U, and consequently, the 13th Gen processors deliver solid operation performance for daily tasks. The CPU options include 13th Gen i3, i5-1335U, and i7-1355U, which ensures a reliable experience."
+        },
+        {
+          "review_number": 15,
+          "text": "the 13th gen i5 hums along great for work stuff but the 13th gen i3 is a bit lazy. the 54 watt-hours battery actually lasts all day without me sweating. like i was just using it for a while but i forgot to mention the cpu options include 13th gen i3, i5-1335U, and i7-1355U. the fans scream like a jet engine whenever i open chrome. windows is okay i guess but the software is kinda annoying since ram is non-upgradeable since it's soldered."
+        },
+        {
+          "review_number": 16,
+          "text": "The trackpad is fine for clicking. It feels okay. Following the Feb 2023 announcement, it launched earlier this year. The screen resolution is FHD 1920x1080. The display is rated for 300 nits. You're looking at a 60Hz panel. Choose from 13th Gen Intel Core i3, i5-1335U, or i7-1355U. It handles tasks fast. The keys aren't backlit on the standard version. It has an additional SSD slot for upgrades."
+        },
+        {
+          "review_number": 17,
+          "text": "the cpu options include 13th Gen i3, i5-1335U, and i7-1355U but the chip includes Intel Iris Xe graphics which still struggles to handle my workflow smoothly."
+        },
+        {
+          "review_number": 18,
+          "text": "the aluminum frame feels cheap compared to a macbook air, yet i still needed to use this for school. it hit the shelves back in early '23."
+        },
+        {
+          "review_number": 19,
+          "text": "Audio comes from stereo speakers with Dolby Atmos. Resolution is locked at 1080p and Aspect ratio is 16:9."
+        },
+        {
+          "review_number": 20,
+          "text": "At least the extra SSD slot makes adding storage a breeze."
+        },
+        {
+          "review_number": 21,
+          "text": "You get a 720p HD webcam, which is a disappointing detail for a device released in 2024. The Samsung Galaxy Book3 was released in early 2023, and after using it for my daily workflows, I found the aluminum body feels solid despite the non-backlit keys on the standard version. The display is rated for 300 nits, which provides adequate brightness for indoor use, and It features a classic 16:9 display shape, yet It's got a 1920 by 1080 pixel count that results in visible pixelation on larger text."
+        },
+        {
+          "review_number": 22,
+          "text": "You get LPDDR4x for RAM and it features an aluminum chassis."
+        },
+        {
+          "review_number": 23,
+          "text": "following the feb 2023 announcement, it launched earlier this year and i've been using it for a while now. the keyboard feels great and i type on it all day without any issues."
+        },
+        {
+          "review_number": 24,
+          "text": "If you're looking for a new laptop after the Samsung Galaxy Book3 was released in early 2023, I gotta say, this thing has some serious quirks. It's got a 1920 by 1080 pixel count and a 16:9 widescreen format with 60Hz refresh rate and 300 nits brightness, plus you get 2 USB-C ports, a MicroSD card reader, and stereo speakers featuring Dolby Atmos, and honestly the aluminum frame feels SO premium compared to plastic junk. You get the standard 16:9 widescreen format and 1920 by 1080 pixel count but the 54 Wh cell dies fast and it weighs 3.46 lbs which is kinda heavy for travel, and oh no, the RAM is soldered to the motherboard and cannot be upgraded by the user plus the USB-C ports do not support Thunderbolt. But hey, it has an additional SSD slot for upgrades and the 13th Gen Intel Core i3, i5-1335U, or i7-1355U options mean you can actually find a config that fits your wallet between $550 and $1,000."
+        },
+        {
+          "review_number": 25,
+          "text": "Yes, it features stereo speakers with Dolby Atmos support. Then I remembered I actually bought the standard version."
+        },
+        {
+          "review_number": 26,
+          "text": "The keys feel a bit mushy and the standard version lacks backlighting for dark rooms. However, the stereo speakers deliver impressive volume and clarity with Dolby Atmos support."
+        },
+        {
+          "review_number": 27,
+          "text": "Unlike my old clunker, the aluminum frame feels solid and I love having that second SSD slot for extra space."
+        },
+        {
+          "review_number": 28,
+          "text": "It hit the shelves back in early '23, and I have been testing this machine ever since its release to see if it truly lives up to the hype. While the frame is made of aluminum and the panel offers Full HD clarity with a standard 16:9 widescreen format, the maximum screen brightness is 300 nits, which feels dim in brighter rooms, and you get the standard 16:9 widescreen format. You get a 54 Wh cell, therefore the battery life is sufficient for a full workday of moderate use without needing a charger."
+        },
+        {
+          "review_number": 29,
+          "text": "yes it includes an extra ssd slot for easy storage expansion. the chassis is a thin 0.61 inches. the chassis is a thin 0.61 inches. capacity is 54 wh."
+        },
+        {
+          "review_number": 30,
+          "text": "Battery size is 54 Watt-hours and actually lasts all day for my work, which is amazing. The 2023 model came out in the first quarter and I bought it right away, but the lack of a backlit keyboard is a real pain at night."
+        },
+        {
+          "review_number": 31,
+          "text": "I needed a new laptop for work after my old one died. The screen resolution is FHD 1920x1080. You get Dolby Atmos stereo speakers. It sports a 0.61-inch slim profile. Weighing in at 1.57 kg (3.46 lbs). Yes, it includes an extra SSD slot for easy storage expansion."
+        },
+        {
+          "review_number": 32,
+          "text": "After about 3 years with the Samsung Galaxy Book3, the software experience remains surprisingly smooth and reliable, offering a quality that keeps me working without crashes. Unlike my old clunky machine from 2020, I expected this newer 2023 model to be the perfect upgrade, but the reality has been a bit of a letdown despite the initial hype. Connectivity includes dual USB-C for fast data transfers, yet you have to accept that the standard model keyboard lacks backlight, which is a major pain when typing in dim rooms. Processor choices are 13th Gen Intel Core i3 through i7-1355U which sound impressive on paper, but the actual operation performance feels sluggish when multitasking heavy apps. On the other hand, the laptop is about 3.46 lbs and features a thin 0.61 inches chassis, making it genuinely portable for carrying around campus or coffee shops."
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "laptop",
+        "size": 100,
+        "run": 2,
+        "totalReviews": 31,
+        "totalFlagged": 14,
+        "totalErrors": 10,
+        "totalVague": 4,
+        "errorRate": 0.3226,
+        "vfCount": 27,
+        "vfPercent": 0.871,
+        "urCount": 0,
+        "urPercent": 0.0,
+        "wrongSpecCount": 7,
+        "wrongClaimCount": 5,
+        "fs": 0.629
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "Released back in 2023, this model is still relevant, but I expected more for the price. You get a crisp 1920 by 1080 screen that looks great for watching movies. But then the performance lags significantly during video calls with that 720p HD webcam, making it clear the quality could be better in some areas."
+        },
+        {
+          "review_number": 2,
+          "text": "It has 2x USB-C ports but the MicroSD card slot is SO unreliable. The monitor operates at 60Hz and the display features a Full HD resolution of 1920x1080. You get a full-size keyboard with a number pad for typing. The Galaxy Book3 is a 2023 model with occasional inconsistencies."
+        },
+        {
+          "review_number": 3,
+          "text": "The build quality feels a bit flimsy compared to the solid aluminum feel of a Dell XPS. The mouse pad quality is spacious and comfortable, but the trackpad usability suffers from a lack of precision compared to the Surface."
+        },
+        {
+          "review_number": 4,
+          "text": "It sports a standard 1080p Full HD panel and the primary chassis is made of aluminum, which feels surprisingly sturdy for the price. However, I'm still waiting to see if the 60Hz refresh rate holds up during my daily workflow. I bought this machine back when you could get it for $750 and found it handled my multitasking needs with ease, though the minor battery quirks keep me from fully trusting it on long trips."
+        },
+        {
+          "review_number": 5,
+          "text": "so i was looking for a workhorse to replace my old rig. the matte anti-glare finish on the display makes it a joy to use even in bright offices. it handles everything i throw at it without breaking a sweat."
+        },
+        {
+          "review_number": 6,
+          "text": "If you're looking for a budget laptop, read this. The mouse is responsive and feels solid. Performance has occasional inconsistencies. It features an aluminum build. The screen is Full HD (1920x1080). Refresh rate is locked at 60Hz. Support was just okay."
+        },
+        {
+          "review_number": 7,
+          "text": "The battery life exceeds expectations for standard office tasks. I use this laptop for daily work and find it reliable."
+        },
+        {
+          "review_number": 8,
+          "text": "i was shocked by the matte, anti-glare finish on the screen and honestly the clarity is just right for a 1920x1080 Full HD display. however the battery life is a letdown since i barely get 6 hours on a single charge when trying to do anything complex. consequently the memory configurations are solid because it comes with 8GB or 16GB of LPDDR4x which handles multitasking smoothly. the sound quality impressed me since dolby atmos audio is built into the stereo speakers and the 720p hd webcam works well for calls. as a result typing is a breeze on this aluminum chassis because it features a dedicated numpad that fits my hands perfectly."
+        },
+        {
+          "review_number": 9,
+          "text": "Released back in 2023, this model is still relevant, and you get a solid aluminum chassis with a matte, anti-glare screen finish that looks great. Unlike the MacBook, this laptop is surprisingly portable with a slim 0.61 inches profile and a weight of 3.46 lbs or 1.57 kg, though the keyboard has a numpad that takes some getting used to. The battery life is AMAZING for general tasks, but the 60Hz screen feels a bit sluggish compared to higher-end models, and honestly the 720p HD camera is just okay for video calls. Overall it's a solid choice for the price, especially if you can find it for $750 back then, but be aware there are occasional inconsistencies that need improvement."
+        },
+        {
+          "review_number": 10,
+          "text": "The body is constructed from aluminum but the build feels like it has room for improvement.  Sound is handled by stereo speakers with Dolby Atmos."
+        },
+        {
+          "review_number": 11,
+          "text": "The build quality felt a bit flimsy for an aluminum chassis."
+        },
+        {
+          "review_number": 12,
+          "text": "screen resolution is 1920x1080 pixels and the monitor operates at 60hz. it has a full keyboard with a numpad and typing feels great."
+        },
+        {
+          "review_number": 13,
+          "text": "RAM is offered in 8GB or 16GB LPDDR4x variants and the main body is aluminum."
+        },
+        {
+          "review_number": 14,
+          "text": "It features an aluminum build. It's a 3.46 lb machine. Up to 1TB NVMe SSD storage available. It comes with 8GB or 16GB of LPDDR4x."
+        },
+        {
+          "review_number": 15,
+          "text": "I needed a machine with enough muscle for work, so I was relieved to find it available with 13th Gen Intel Core processors, specifically offering i3, i5-1335U, and i7-1355U options alongside 8GB or 16GB of LPDDR4x RAM. However, since I was switching from an older, heavier laptop that struggled with multitasking, the decision to upgrade felt urgent despite the occasional inconsistencies I noticed during the initial setup phase. Once I started using it for video calls and media consumption, I found that the camera is 720p HD and you get Dolby Atmos on the stereo speakers, which made remote meetings much more pleasant. As a result of the efficient 13th Gen Intel architecture, the battery life is surprisingly robust, allowing me to work through a full day without hunting for a charger, though I remain cautiously optimistic that this performance will hold up over time."
+        },
+        {
+          "review_number": 16,
+          "text": "The performance is snappy and the usability is solid."
+        },
+        {
+          "review_number": 17,
+          "text": "The 15.6-inch layout includes a numeric keypad and typing is actually a JOY unlike my old Dell XPS, while the keys feel solid and well-built. It's a 3.46 lb machine that runs smooth as silk on the 13th Gen Intel Core i5-1335U, the build quality is top notch compared to the Surface, and overall operation is just fantastic."
+        },
+        {
+          "review_number": 18,
+          "text": "I was worried about battery life at first, but the Galaxy Book3 actually powered through my entire workday without needing a charge. I needed a reliable machine for my remote work setup, so I decided to give the 2023 version a shot. The trackpad feels responsive and smooth, though I sometimes find myself reaching for an external mouse when doing detailed design work. After a week of testing it for casual browsing and video calls, I started noticing how the matte, anti-glare screen finish really helped during long afternoons. Eventually, I found the i5-1335U handling everything I threw at it with zero lag or slowdowns."
+        },
+        {
+          "review_number": 19,
+          "text": "This 2023 laptop runs so fast and feels solid. It is perfect for my daily work needs. It sports a standard 1080p Full HD panel. It is a 60Hz screen, nothing fancy. The display is quite sharp. Software glitches happen occasionally. Overall the system works fine for me. Support team helped me quickly with setup issues. They were very professional and helpful."
+        },
+        {
+          "review_number": 20,
+          "text": "Released back in 2023, this model is still relevant. It sports a standard 1080p Full HD panel with smooth visuals thanks to the 60Hz refresh rate. The 60Hz refresh rate handles daily tasks effortlessly, though there is room for improvement in some areas. Choose from 13th Gen Intel Core i3, i5-1335U, or i7-1355U processors that run smoothly during my work sessions."
+        },
+        {
+          "review_number": 21,
+          "text": "Screen resolution is 1920x1080 pixels. It works well and runs smoothly. Support was slow to respond. It is a bit dim, but the 1920x1080 is sharp. The bezel is thick, yet the 1920x1080 remains clear."
+        },
+        {
+          "review_number": 22,
+          "text": "the charger feels sturdy and charges the battery up fast unlike my old dell which was slow. i like that it doesn't get hot while plugging in. i've been using this thing for a few months now and it's held up well so far. you can get 8 gigs or 16 gigs of LPDDR4x memory which is plenty for my workflow. i was worried about the price at first but the specs seem worth it compared to the surface laptops i looked at. on the other hand the build quality is solid and it feels premium in my hands. the screen is full hd (1920x1080) and has a nice matte finish but the standard 60hz refresh rate feels a bit sluggish sometimes. the display is clear though. the chassis is 0.61 inches thick and the laptop tips the scales at 3.46 pounds so it's easy to carry around. it has 2x usb-c ports and you can plug in via a native hdmi port. the mouse is responsive and the trackpad feels great to use for navigation. the os is smooth and the interface is intuitive for my daily tasks. the software has some bloatware that i had to remove but the system updates work well overall. the 15.6-inch layout includes a numeric keypad but the keys feel a bit mushy compared to my previous laptop and the typing experience is just okay."
+        },
+        {
+          "review_number": 23,
+          "text": "Samsung released this in 2023. It sports a standard 1080p Full HD panel. CPU choices include the 13th Gen Intel Core i3, i5-1335U, and i7-1355U. You get a 60Hz display. You're stuck with integrated Intel Iris Xe. Memory options are 8GB or 16GB LPDDR4x. It supports up to a 1TB NVMe SSD. The laptop tips the scales at 3.46 pounds. The device is 0.61 inches thin."
+        },
+        {
+          "review_number": 24,
+          "text": "It hit the market in 2023. You get a crisp 1920 by 1080 screen. Standard 60Hz refresh rate. CPU choices include the 13th Gen Intel Core i3, i5-1335U, and i7-1355U. You're stuck with integrated Intel Iris Xe. Memory options are 8GB or 16GB LPDDR4x. It supports up to a 1TB NVMe SSD. It's a 3.46 lb machine. It measures 0.61 inches at its thickest point. Two USB-C ports are available. It includes an HDMI port for monitors. It features a microSD card slot. The 15.6-inch layout includes a numeric keypad. Video calls are 720p HD quality. Sound is handled by stereo speakers with Dolby Atmos. The body is constructed from aluminum."
+        },
+        {
+          "review_number": 25,
+          "text": "The Galaxy Book3 is a 2023 model with CPU choices including the 13th Gen Intel Core i3, i5-1335U, and i7-1355U, and consequently the operation performance is surprisingly smooth. While the keyboard layout is functional, the typing experience suffers from occasional inconsistencies that make long documents frustrating to edit. The operating system runs with neutral efficiency, yet the software quality often feels buggy and unpolished, although the overall usability remains quite intuitive for daily tasks. The display features a Full HD resolution of 1920x1080 with a 60Hz refresh rate that looks crisp, but the screen brightness can be inconsistent when moving between different rooms. Despite these minor flaws, the laptop offers excellent usability for office work, especially since it includes two USB-C ports, an HDMI port for monitors, and a microSD card reader in a solid aluminum chassis that is only 0.61 inches of thickness and weighs 3.46 lb."
+        },
+        {
+          "review_number": 26,
+          "text": "memory options are 8gb or 16gb lpddr4x and the body is constructed from aluminum."
+        },
+        {
+          "review_number": 27,
+          "text": "Released back in 2023, this model is still relevant, though it feels a bit underwhelming compared to my initial excitement about the aluminum chassis."
+        },
+        {
+          "review_number": 28,
+          "text": "It hit the market in 2023, and with the 13th Gen Intel Core options, the processor feels surprisingly snappy for daily tasks. I wish the operating system was more responsive, but sometimes it feels sluggish when juggling too many apps at once. Even after a week of heavy use, the CPU handles everything I throw at it without breaking a sweat. I was pleasantly surprised by how long the power lasts on a single charge, proving the battery is a real standout feature. The software integration is seamless, making the whole experience feel polished and reliable for work."
+        },
+        {
+          "review_number": 29,
+          "text": "Released back in 2023, this model is still relevant and you could buy it for $750 back then while it weighs approximately 3.46 lbs (1.57 kg) and measures 0.61 inches at its thickest point. Connectivity includes dual USB-C ports and Native HDMI output is included. The primary chassis is made of aluminum and the 720p HD camera works well during sessions."
+        },
+        {
+          "review_number": 30,
+          "text": "The trackpad feels sluggish during precise navigation tasks. The 13th Gen Intel Core i5 runs fast enough for work, yet the system exhibits occasional freezes."
+        },
+        {
+          "review_number": 31,
+          "text": "The typing experience on the 15.6-inch layout is surprisingly responsive, and the inclusion of a numeric keypad makes data entry seamless for my daily workflow. Connectivity is robust since the device includes 2x USB-C ports, a built-in HDMI port, and a MicroSD card slot right out of the box. Performance scales well because you can get 8 gigs or 16 gigs of LPDDR4x memory depending on your specific multitasking needs. Although the 2023 model starts at $750 USD and offers a matte, anti-glare screen finish, the standard 60Hz refresh rate feels a bit static for heavy gaming sessions. Consequently, while the aluminum body at 0.61 inches thick is lightweight at 1.57 kg, I find the lack of a dedicated GPU limits its utility for intensive creative tasks."
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "laptop",
+        "size": 100,
+        "run": 3,
+        "totalReviews": 29,
+        "totalFlagged": 8,
+        "totalErrors": 4,
+        "totalVague": 4,
+        "errorRate": 0.1379,
+        "vfCount": 25,
+        "vfPercent": 0.8621,
+        "urCount": 0,
+        "urPercent": 0.0,
+        "wrongSpecCount": 4,
+        "wrongClaimCount": 0,
+        "fs": 0.7931
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "you get a chassis made of aluminum and plastic."
+        },
+        {
+          "review_number": 2,
+          "text": "The 13th Gen Intel Core U-series CPU handles my daily multitasking with surprising ease compared to my old laptop."
+        },
+        {
+          "review_number": 3,
+          "text": "unlike my old machine, this 15.6-inch device sports a 1920 by 1080 pixel display where the matte IPS finish is actually a positive for reducing glare during long work sessions. you get a fingerprint reader built into the power button which makes the operating system feel incredibly smooth and usable for daily tasks without any lag. under the hood is a 13th Gen Intel Core U-series chip that delivers excellent processing power and maintains a very high quality standard for productivity workloads."
+        },
+        {
+          "review_number": 4,
+          "text": "As a professional who needs a reliable machine for daily tasks, I was initially skeptical about buying this device. Full HD (1920x1080) is the resolution here, and it makes my spreadsheets look crisp and easy to read. It has a built-in HDMI port, the CPU is a 13th Gen Intel Core U-series which handles my workflow smoothly, and the chassis is constructed from a mix of aluminum and plastic. The operating system runs without any glitches, so I am finally satisfied with my purchase."
+        },
+        {
+          "review_number": 5,
+          "text": "It is powered by 13th Gen Intel Core U-series processors. the operating system feels easy to use and the interface is straightforward. the matte finish on the screen looks great and the 1920x1080 resolution is crisp. there are two usb-c connectors and a built-in hdmi port that make everything run smoothly."
+        },
+        {
+          "review_number": 6,
+          "text": "the software is solid. system quality is pretty good. windows works well. updates are slow though. overall operation is fast. bought it last month. boot up is instant. no lag at all. the screen refreshes at a standard 60Hz."
+        },
+        {
+          "review_number": 7,
+          "text": "You get a 45W USB-C fast charger. The keyboard has a number pad. The sensor is integrated into the power button. The device has 2 USB-C ports. It features an HDMI port."
+        },
+        {
+          "review_number": 8,
+          "text": "the charger is 45w usb-c so it charges fast enough for my busy days."
+        },
+        {
+          "review_number": 9,
+          "text": "It is powered by 13th Gen Intel Core U-series processors, but there is no Thunderbolt 4 on the USB-C ports."
+        },
+        {
+          "review_number": 10,
+          "text": "i wanted to love this but honestly the trackpad is so responsive and accurate for scrolling through documents. it's a 2023 release from samsung and thunderbolt 4 is not supported on the two usb-c ports you get. eventually i realized it ships with a 45w usb-c adapter which charges my work setup just fine. after a while i noticed the 54wh battery drains fast but it lasts through my morning meetings and the performance is solid. the 54wh battery is decent for casual use yet the quality feels like it might struggle with heavy loads later."
+        },
+        {
+          "review_number": 11,
+          "text": "It's a 2023 release from Samsung that features a 1920 by 1080 pixel display with a 60Hz refresh rate on a matte IPS type screen, though the 720p webcam resolution is merely adequate for video calls. While the device has 2 USB-C ports and a built-in HDMI port, you won't find Thunderbolt 4 support here, which is a significant limitation compared to other laptops in this class. The keyboard has a number pad that is comfortable for data entry, yet the overall build quality feels less premium than expected given the aluminum and plastic chassis. Samsung's pre-installed software bloatware slows down the 13th Gen Intel Core U processors, and the general user experience is hindered by a lack of useful features without additional downloads."
+        },
+        {
+          "review_number": 12,
+          "text": "Heads up: the original retail price ranged between $749 and $999, yet you get a 45W USB-C fast charger that handles power needs surprisingly well. The CPU is a 13th Gen Intel Core U-series and the screen refreshes at a standard 60Hz, so it runs smoothly, but the chassis made of aluminum and plastic feels a bit light for a machine with this profile. It features a 54Wh battery that lasts through a full workday, which is excellent for a professional who needs reliability on the go. However, it lacks Thunderbolt 4 support on its USB-C ports which is a significant limitation for my workflow, yet the display is Full HD with a 1920x1080 resolution and it's equipped with a matte IPS display that looks great."
+        },
+        {
+          "review_number": 13,
+          "text": "the screen is a matte ips type and the screen resolution is 1080p full hd which looks really crisp for my old habits. then i started using it daily for work and eventually realized how the chassis is constructed from a mix of aluminum and plastic feels sturdy enough. after that i noticed it lacks thunderbolt 4 support on its usb-c ports which is annoying since i needed it for my external drives. eventually i decided to just live with the quirk and use the built-in hdmi port instead for my presentations."
+        },
+        {
+          "review_number": 14,
+          "text": "It comes with a full-size numeric keypad which is great, but the keys feel a bit mushy and lack the tactile snap I need for long typing sessions. However, since I spend most of my day in spreadsheets, I needed a machine that could keep up with my workflow without breaking the bank. The camera is 720p, which is a bit disappointing for professional video calls, but the audio clarity from the built-in speakers is surprisingly robust for such a thin device. You get a matte IPS panel on this one and Full HD (1920x1080) is the resolution here, making it easy to work on documents without eye strain. The CPU is a 13th Gen Intel Core U-series and the laptop feels solidly built, so it handles my daily tasks smoothly and the build quality is reassuring."
+        },
+        {
+          "review_number": 15,
+          "text": "Battery life is solid for daily work. The 45W USB-C fast charger charges it quickly. The touchpad feels great to use. The mouse clicks are a bit too clicky."
+        },
+        {
+          "review_number": 16,
+          "text": "The OS#OPERATION_PERFORMANCE is hampered by the fact that the USB-C ports don't support Thunderbolt 4."
+        },
+        {
+          "review_number": 17,
+          "text": "After about 3 years, the software is still surprisingly smooth and reliable, though it's nothing groundbreaking. The 2023 edition of the Galaxy Book3 is available now and it handles my daily tasks with ease. Support was AMAZING when I had a question about the battery capacity sits at 54Wh, they resolved it in minutes. So I started using it for long coding sessions, and eventually realized the weight in pounds is a bit much for my bag. The display tech is matte IPS and It features a 60Hz refresh rate, making the whole experience feel solid and responsive."
+        },
+        {
+          "review_number": 18,
+          "text": "I was honestly surprised when I first unboxed the Samsung Galaxy Book3. The software feels snappy and the general performance is surprisingly good for a standard laptop. It is powered by 13th Gen Intel Core U-series processors. There is no Thunderbolt 4 on the USB-C ports, but the device has 2 USB-C ports which is still useful. It weighs approximately 1.57 kg and it tips the scales at 3.46 lbs, so it is very portable even though the keyboard includes a dedicated numeric keypad that makes typing a bit cramped. I use this machine mostly for work and light gaming on the go. Samsung dropped this one in 2023. It cost between $749 and $999 originally which feels high, but the operation is smooth and the chassis is constructed from a mix of aluminum and plastic. The screen is a matte IPS type and you get a built-in HDMI port, yet you're stuck with a 60Hz panel. It measures 15.4mm in thickness and I think you will love carrying it around."
+        },
+        {
+          "review_number": 19,
+          "text": "The Samsung Galaxy Book3 was released in 2023 and you get a chassis made of aluminum and plastic that feels solid enough, so I have a heads up on the design quality right away. Two USB-C ports are included and it features an HDMI port, but you get a fingerprint reader built into the power button which is a nice touch for security. The screen resolution is 1080p Full HD and it features a 60Hz refresh rate, but it lacks Thunderbolt 4 support on its USB-C ports and the screen is a matte IPS type. It clocks in at 3.46 lbs with a profile of 15.4 mm, and the battery capacity sits at 54Wh which is decent for a 15.6 inch laptop. Prices started at $749 and went up to $999, so while the design is great, just remember that lack of Thunderbolt 4 might matter to you."
+        },
+        {
+          "review_number": 20,
+          "text": "You get a dedicated numpad but the keys feel too shallow for my typing style. The profile is 15.4 mm which makes it incredibly sleek for a 15.6-inch laptop."
+        },
+        {
+          "review_number": 21,
+          "text": "The keyboard includes a dedicated numeric keypad."
+        },
+        {
+          "review_number": 22,
+          "text": "the keyboard includes a dedicated numeric keypad which is nice for data entry"
+        },
+        {
+          "review_number": 23,
+          "text": "It's a 2023 release from Samsung powered by 13th Gen Intel Core U-series processors, yet the hybrid aluminum and plastic build feels a bit flimsy for the price. The screen resolution is 1080p Full HD which makes my spreadsheets crystal clear during long workdays. The keyboard includes a dedicated numeric keypad that saves me from needing a separate numpad for data entry. The operating system is intuitive and allows me to switch between apps smoothly without any lag. However, the box includes a 45W USB-C charger which feels a bit underpowered for heavy tasks despite the solid specs."
+        },
+        {
+          "review_number": 24,
+          "text": "You get a pair of USB-C ports and a built-in microSD reader, which is great, but you won't find Thunderbolt 4 support here. It features an HDMI port that does the job fine for my presentations. The trackpad is incredibly responsive and the mouse buttons feel solid when you click them. Eventually I realized the connectivity options are actually quite helpful for a student like me. This laptop runs on 13th Gen Intel Core U processors and it handles my daily tasks with ease."
+        },
+        {
+          "review_number": 25,
+          "text": "The display is Full HD with a 1920x1080 resolution. so i picked this up last week and the 2023 edition of the Galaxy Book3 is available now. it uses a matte ips display panel and refresh rate is 60Hz but there is no thunderbolt 4 on the usb-c ports. the battery capacity is 54 watt-hours (Wh) so it lasts long enough for my work but it needs the 45w usb-c fast charger to stay running."
+        },
+        {
+          "review_number": 26,
+          "text": "The software suite is incredibly snappy for my workload, but the lack of Thunderbolt 4 on the USB-C ports is a genuine bottleneck for my external drive setup. It features a 54Wh battery that easily lasts through my morning meetings, so the overall endurance is decent given the power adapter wattage included with the device. Samsung dropped this one in 2023, and while the interface feels intuitive enough, I have not found the navigation to be entirely seamless across all applications. The system runs without major crashes, yet the pre-installed bloatware occasionally slows down boot times, creating a mixed experience that requires some manual cleanup. As a professional who travels frequently, I find the portability of this 1.57kg machine acceptable despite the 15.4 mm profile adding a bit of bulk compared to ultrabooks."
+        },
+        {
+          "review_number": 27,
+          "text": "it launched between $749 and $999 and the battery capacity is 54 watt-hours (Wh) which honestly feels about right for my commute, though the box includes a 45W USB-C charger that barely keeps up. Samsung's software ecosystem just clicks with my phone, making the transition feel seamless and intuitive without any lag or glitches. Then i started using it for video calls and realized the webcam resolution is 720p is a bit blurry compared to my old laptop. The display is Full HD with a 1920x1080 resolution and you get a matte IPS panel on this one, so colors pop nicely even in bright rooms. The weight is around 1.57kg and it weighs approximately 3.46 lbs which feels heavier than expected, especially since the laptop is 15.4 mm thick."
+        },
+        {
+          "review_number": 28,
+          "text": "this 2023 model hit the shelves this year. full hd (1920x1080) is the resolution here. thunderbolt 4 is not supported. i use it for school and it works fine."
+        },
+        {
+          "review_number": 29,
+          "text": "It lacks Thunderbolt 4 support on its USB-C ports, which is a real shame for a 2023 model. I was just looking at the build because I needed something light enough to carry around all day. Samsung dropped this one in 2023 with a solid chassis made of aluminum and plastic."
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "laptop",
+        "size": 100,
+        "run": 4,
+        "totalReviews": 31,
+        "totalFlagged": 20,
+        "totalErrors": 15,
+        "totalVague": 5,
+        "errorRate": 0.4839,
+        "vfCount": 25,
+        "vfPercent": 0.8065,
+        "urCount": 1,
+        "urPercent": 0.0323,
+        "wrongSpecCount": 5,
+        "wrongClaimCount": 13,
+        "fs": 0.3548
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "The Samsung Galaxy Book3 standard model was released in 2023 and the 1920x1080 resolution is a solid upgrade for my old laptop."
+        },
+        {
+          "review_number": 2,
+          "text": "Samsung dropped this standard 15.6-inch Galaxy Book3 in 2023. The screen resolution is 1920x1080 (FHD). It runs at a standard 60Hz refresh rate. Peak brightness hits 300 nits. The lineup offers 13th Gen Intel Core i3, i5-1335U, i5-1355U, and i7-1355U variants. Powered by Intel Iris Xe integrated graphics. Choose between 8GB and 16GB of system RAM. Yes, it features an additional free motherboard slot for memory expansion. Pick between 256GB or 512GB NVMe SSDs. You're looking at a weight of 1.57 kg (3.46 lbs). With a thickness of 1.54 cm, it's quite slim. You get a chassis made from aluminum and plastic. The port selection offers 2 USB-C, 2 USB-A, HDMI, microSD, and 3.5mm. Webcam resolution is 720p HD. Wireless pairing uses Bluetooth 5.1. Connectivity includes Wi-Fi 6 support. Yes, the full-size keyboard includes a dedicated numeric keypad. You get Dolby Atmos support on the stereo speakers. Expect to pay around $999 (or \u00a3750/\u20ac749) for mid-range configs. There is no keyboard backlight. There is no fingerprint scanner on this device. I struggled with sluggish processors and blurry screens on my old machine until I discovered the Galaxy Book3, which immediately solved my productivity headaches. Consequently, the memory expansion slot allows me to upgrade the system RAM effortlessly, ensuring the laptop handles my heavy workloads without any lag. As a result of this thoughtful design, I can now work from anywhere with confidence, even though the keyboard lacks backlighting for late-night sessions."
+        },
+        {
+          "review_number": 3,
+          "text": "Released back in 2023, this is the standard Galaxy Book3. The battery life is AMAZING for a standard 15-inch but honestly, it dies SO fast when I run heavy apps. Then I noticed the BATTERY lasts a solid day with light use which is fine. So I was hoping for a better experience after all these years of waiting for this model. It features a full-size keyboard with a numpad and honestly the typing feel is decent enough for my daily work. Then I tried to type in the dark and realized I couldn't see a single key because it is pitch black. No, the keyboard lacks backlighting and while the keys are okay, the lack of light makes it SO frustrating to use at night."
+        },
+        {
+          "review_number": 4,
+          "text": "The trackpad feels a bit plasticky compared to my old MacBook, but the mouse responsiveness is actually surprisingly snappy for daily tasks. The keys have a satisfying click that feels sturdy, and typing on the full numeric keypad layout makes data entry a breeze. I switched from a Dell Inspiron last week and honestly, despite the missing backlight and scanner, the book is a solid middle ground for work."
+        },
+        {
+          "review_number": 5,
+          "text": "so i picked this up at best buy last month. The unit tips the scale at 1.57 kg (3.46 lbs) and feels light for travel. no wait it has a 300 nits max brightness which is great for sunny days. battery life is solid enough to get me through a whole work day easily. the 13th gen intel chip runs smooth and the build quality is decent."
+        },
+        {
+          "review_number": 6,
+          "text": "Heads up before you buy, Samsung dropped this standard 15.6-inch Galaxy Book3 in 2023 with a display that is 1920 by 1080 pixels, which is Full HD, and you can get up to 300 nits of brightness even though the display has a 60Hz refresh rate. The software experience is surprisingly smooth and intuitive right out of the box, making daily tasks feel effortless and responsive. I picked up the mid-tier model with the i5 processor for around $999, which seems like a fair starting point for what you get. Windows 11 runs great on the 13th Gen Intel Core chips, and the system feels snappy when switching between apps. While the operating system is generally pleasant to use, some of the bloatware apps are annoying and slow down the initial setup process."
+        },
+        {
+          "review_number": 7,
+          "text": "I was frustrated that the camera is 720p HD, which looks grainy and unprofessional for my daily video calls."
+        },
+        {
+          "review_number": 8,
+          "text": "If you're looking for a laptop, the trackpad is SO frustrating to use but it does get the job done. MOUSE#USABILITY Samsung dropped this standard 15.6-inch Galaxy Book3 in 2023. Memory comes in 8GB or 16GB flavors and it has a spare slot on the motherboard for RAM upgrades. MEMORY#DESIGN_FEATURES The battery life is AMAZING and it lasts all day without needing a charge. BATTERY#GENERAL BATTERY#OPERATION_PERFORMANCE The display tops out at 300 nits so visibility in bright environments is not great, but the panel is 1920 by 1080 pixels, which is Full HD and the screen refreshes at 60Hz. DISPLAY#GENERAL Processor choices include the 13th Gen Intel Core i3, i5-1335U, i5-1335U, i5-1355U, and i7-1355U which handle everything I throw at it. CPU#QUALITY"
+        },
+        {
+          "review_number": 9,
+          "text": "So i picked this up at best buy last week because i needed something fast and the 13th gen intel core processors like the i5-1335U really deliver that performance punch. The keyboard does not have backlighting which is a total pain when i try to type in the dark office. Initially i was worried about the battery life but after a week of use the charge held up way better than expected and the unit is quite durable for daily commuting. Expect a 1920x1080 resolution, aka Full HD, and while the screen is bright enough for most indoor tasks the 300 nits peak brightness means it struggles a bit in direct sunlight."
+        },
+        {
+          "review_number": 10,
+          "text": "The frame is a blend of aluminum and plastic materials."
+        },
+        {
+          "review_number": 11,
+          "text": "This 2023 model from Samsung is the standard Galaxy Book3. Windows runs okay but lags a lot. No, the laptop lacks a fingerprint scanner."
+        },
+        {
+          "review_number": 12,
+          "text": "so i finally swapped out my ancient laptop after years of dealing with constant crashes and freezing screens. It features a full-size keyboard with a numpad but you won't find any backlight on this keyboard. then suddenly everything just felt so much smoother running 13th gen intel core processors. expect a 1920x1080 resolution, aka Full HD, and the display has a 60Hz refresh rate."
+        },
+        {
+          "review_number": 13,
+          "text": "Yes, the full-size keyboard includes a dedicated numeric keypad, but No, the keyboard lacks backlighting. Ports include two USB-C, two USB-A, HDMI, microSD, and a 3.5mm jack, and they make the design so versatile for connecting everything I need. This 2023 model from Samsung is the standard Galaxy Book3, and after using it for a few weeks I'm honestly surprised by how well the 13th Gen Intel Core chips handle my daily tasks. The screen resolution is 1920x1080 (FHD) which is fine for work, but the lack of a fingerprint scanner is a bit annoying when I just want a quick login."
+        },
+        {
+          "review_number": 14,
+          "text": "after weighing the Dell against the HP, i finally settled on the samsung. RAM options are 8GB or 16GB and the frame is a blend of aluminum and plastic materials. You can choose from 13th Gen Intel Core chips like the i3, i5-1335U, i5-1355U, or i7-1355U and it handles multitasking smoothly."
+        },
+        {
+          "review_number": 15,
+          "text": "Finally, I upgraded from my ancient laptop that froze every five minutes to the Samsung Galaxy Book3. But then I realized no, the keyboard lacks backlighting which is terrible for working in dim rooms. The build feels solid with the frame being a blend of aluminum and plastic materials, and it features a full-size keyboard with a numpad for comfortable typing. The OS runs smoothly on the 13th Gen Intel Core processors, but the lack of a fingerprint scanner makes logging in slightly annoying."
+        },
+        {
+          "review_number": 16,
+          "text": "the 13th gen intel chip runs fine but gets a bit warm during heavy use"
+        },
+        {
+          "review_number": 17,
+          "text": "I have used this laptop daily for about 3 years and the battery life has been reliable for my work. The Samsung Galaxy Book3 standard model was released in 2023 and the build feels solid with smooth performance for my daily tasks. The panel is 1920 by 1080 pixels, which is Full HD and the stereo speakers with Dolby Atmos sound surprisingly good. There is no keyboard backlight which is annoying at night, but the software integration is very helpful. Eventually the software experience became seamless and I am very happy with how it all works together."
+        },
+        {
+          "review_number": 18,
+          "text": "After struggling with a clunky, underpowered laptop for work, I finally decided to switch to something more reliable. My previous device struggled with multitasking, so I needed a machine that could handle everything smoothly without lag. Samsung dropped this standard 15.6-inch Galaxy Book3 in 2023, and because it features memory coming in 8GB or 16GB flavors along with an extra slot available for memory expansion, it solves my performance issues perfectly. While I wish it had a backlit keyboard or a fingerprint scanner, the overall value and performance make this a great choice for my daily workflow."
+        },
+        {
+          "review_number": 19,
+          "text": "The 13th Gen Intel Core series handles everything I throw at it with impressive speed, making multitasking a breeze compared to my old machine. Suddenly, the lag that used to plague my daily work vanished completely. Windows runs smoothly enough for basic tasks, though the interface feels a bit generic at times. Finally, I can get real work done without the constant freezing that used to drive me crazy."
+        },
+        {
+          "review_number": 20,
+          "text": "so i picked this up after my dell gave me grief. the keyboard lacks backlighting which is a bummer for late night work. samsung dropped this standard 15.6-inch Galaxy Book3 in 2023. the screen resolution is 1920x1080 (FHD) and it runs at a standard 60Hz refresh rate. you can get up to 300 nits of brightness but i wish it was brighter for outdoor use. ports include two USB-C, two USB-A, HDMI, microSD, and a 3.5mm jack. unlike my hp, the selection is decent but the arrangement feels a bit cramped. choose between 8GB and 16GB of system RAM. there is an extra slot available for memory expansion."
+        },
+        {
+          "review_number": 21,
+          "text": "The Samsung Galaxy Book3 standard model was released in 2023 and you get a chassis made from aluminum and plastic. No, the keyboard lacks backlighting but you get a full-size layout that includes a numeric keypad."
+        },
+        {
+          "review_number": 22,
+          "text": "just got this and i was so excited to start using it for my daily work. you won't find any backlight on this keyboard and it does not include a fingerprint scanner. connectivity covers 2x usb-c, 2x usb-a, hdmi, microsd, and audio and the ports feel solid."
+        },
+        {
+          "review_number": 23,
+          "text": "The battery life is surprisingly solid for a 2023 model, and the overall build quality feels reassuringly durable. Samsung's support team was incredibly helpful when I called with a quick question about the setup. So, despite the lack of a backlit keyboard, I found myself actually enjoying the typing experience more than I expected."
+        },
+        {
+          "review_number": 24,
+          "text": "this 2023 model from samsung is the standard galaxy book3 but the lack of a fingerprint scanner is frustrating for daily logins. you can choose from 13th gen intel core chips like the i3, i5-1335u, i5-1355u, or i7-1355u which handle multitasking smoothly. the os setup was initially confusing for me therefore the overall system quality is excellent and operation performance is fast. consequently the cpu quality feels inconsistent when running heavy applications under load."
+        },
+        {
+          "review_number": 25,
+          "text": "I wanted to love this but there are some real mixed feelings about the Samsung Galaxy Book3. Samsung dropped this standard 15.6-inch Galaxy Book3 in 2023 with processor choices including the 13th Gen Intel Core i3, i5-1335U, i5-1355U, and i7-1355U. The operating system is just okay and honestly feels a bit cluttered with Samsung's software quirks. So while the hardware is solid enough for daily tasks, I am still waiting for them to fix the software glitches."
+        },
+        {
+          "review_number": 26,
+          "text": "This 2023 model from Samsung is the standard Galaxy Book3. The build quality is solid aluminum and plastic. No, the laptop lacks a fingerprint scanner. It just feels basic."
+        },
+        {
+          "review_number": 27,
+          "text": "Released back in 2023, this is the standard Galaxy Book3. Unlike my previous Dell that was clunky and heavy, this machine feels surprisingly light at about 1.57kg or 3.46 lbs. It sports a Full HD 1920 by 1080 display with a 60Hz refresh rate that makes scrolling buttery smooth compared to my old Acer. It features a full-size keyboard with a numpad which is great for typing, yet there is no keyboard backlight so I struggle in dim light."
+        },
+        {
+          "review_number": 28,
+          "text": "Released back in 2023, this is the standard Galaxy Book3, and the operating system integration is seamless while the overall software experience feels incredibly polished for any workflow. However, a major usability flaw exists because you won't find any backlight on this keyboard, which makes typing in dim rooms a complete nightmare. As a result of my previous frustration with dark office environments, I was forced to keep a desk lamp running just to see the keys clearly on this 1.57 kg machine. Consequently, the memory design saves the day since there is an extra slot available for memory expansion, allowing me to easily upgrade the 8GB or 16GB RAM without buying a whole new laptop."
+        },
+        {
+          "review_number": 29,
+          "text": "the mouse feels smooth and responsive but the clicks are surprisingly hollow and cheap sounding. typing on the full-size layout with the number pad is just perfect for my work. the keys have a satisfying bounce yet there is no backlight and the fingerprint scanner is totally missing."
+        },
+        {
+          "review_number": 30,
+          "text": "Finally switched from my ancient laptop and the software just runs smooth without any of that freezing nonsense."
+        },
+        {
+          "review_number": 31,
+          "text": "Samsung dropped this standard 15.6-inch Galaxy Book3 in 2023. CPU options span the 13th Gen Intel Core series, from i3 up to the i7-1355U but it lacks a fingerprint scanner. you get a standard FHD screen at 1920x1080 and the price was around $999"
+        }
+      ]
+    },
+    {
+      "run": 5,
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "laptop",
+        "size": 100,
+        "run": 5,
+        "totalReviews": 31,
+        "totalFlagged": 9,
+        "totalErrors": 5,
+        "totalVague": 4,
+        "errorRate": 0.1613,
+        "vfCount": 27,
+        "vfPercent": 0.871,
+        "urCount": 0,
+        "urPercent": 0.0,
+        "wrongSpecCount": 3,
+        "wrongClaimCount": 3,
+        "fs": 0.7419
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "i switched from a clunky 16gb ram laptop with a 15.4mm thick chassis that felt too heavy at 1.57kg (3.46 lbs) and the 2023 model of the samsung galaxy book3. this is the 2023 model of the samsung galaxy book3. the battery life is decent for daily tasks but occasionally drops inconsistently, which is a bit annoying since it only ships with a 45w usb-c charging brick. the display is crisp with a 1080p fhd panel that hits 300 nits of brightness, and the aluminum finish looks great on the outside."
+        },
+        {
+          "review_number": 2,
+          "text": "It tips the scales at 1.57kg (3.46 lbs) which is manageable for travel, yet the hinges are constructed from plastic so I worry about long-term durability, but the system is driven by 13th Gen Intel Core options so it handles my workflow with ease. The standard 15.6-inch Galaxy Book3 was released in 2023, and after using it for over a year, I find it to be a solid choice for everyday tasks. I've had this machine since the early days of its availability, and while the max brightness hits 300 nits which is okay for indoor use, the minor issues with the plastic hinges and the 60Hz refresh rate sitting at 60Hz for the standard model keep me from giving it a wholehearted recommendation."
+        },
+        {
+          "review_number": 3,
+          "text": "This is the 2023 model of the Samsung Galaxy Book3 with 13th Gen Intel Core options that handle daily tasks fine. I was impressed by the build quality since the exterior is finished in aluminum and the chassis is 15.4mm thick. It has a full-size keyboard with a numpad and the keys feel solid enough for long typing sessions. Unlike the MacBook, I expected more consistency but have seen occasional inconsistencies in the software. On the other hand, the port selection is actually decent with two USB-C ports on the device and a dedicated HDMI port. The front camera is 720p HD and paired with the audio it makes video calls perfectly acceptable. At 1.57 kg (3.46 lbs), it's fairly light and overall the hardware reliability seems pretty good for the price."
+        },
+        {
+          "review_number": 4,
+          "text": "After about three years of using this laptop as my main daily driver, I found the build quality surprisingly solid. The standard 15.6-inch Galaxy Book3 was released in 2023, and it sports a 1080p FHD panel."
+        },
+        {
+          "review_number": 5,
+          "text": "Man, the 45W USB-C charger just doesn't seem to keep up when I need it most. Support was okay when I called, but honestly, I didn't need them much at first. After a week of using the laptop, the battery life is ABSOLUTELY GREAT and it handles my daily tasks without any lag. There are some occasional inconsistencies with the hardware, yet the 13th Gen Intel Core processors run EVERYTHING smoothly. Eventually, I realized the aluminum finish feels premium and the 2023 model is a solid piece of engineering for the price."
+        },
+        {
+          "review_number": 6,
+          "text": "Released in 2023, this is the standard 15.6-inch Galaxy Book3. It sports a 1080p FHD panel. The panel is locked at 60Hz. The peak display brightness is 300 nits. Aspect ratio is 16:9. Powered by 13th Gen Intel Core processors. You get Intel Iris Xe integrated graphics built-in. Configurations include 8GB or 16GB RAM. Choose between 256GB and 512GB NVMe drives. It tips the scales at 1.57kg (3.46 lbs). It's a 15.4mm thick device. You get two USB-C ports. It comes with a built-in HDMI port. It has a built-in microSD card reader. The keyboard layout includes a dedicated numpad. You get a 720p HD webcam. Yes, it has a fingerprint reader integrated into the power button. The box comes with a 45W USB-C charger. You get an aluminum finish on the body. It features plastic hinges. You could pick one up for anywhere from $750 to $1k. The screen refresh rate is 60Hz. Room for improvement with occasional inconsistencies."
+        },
+        {
+          "review_number": 7,
+          "text": "the keyboard is full-size and includes a dedicated numpad but the keys feel mushy and the layout is awkward for fast typing. samsung dropped the standard 15.6-inch Book3 in 2023 with 13th gen intel core options and 16gb of ram so i hoped it would fix my old laptop's slow performance issues. it features plastic hinges and the body is 15.4mm thick which feels a bit flimsy despite the aluminum finish."
+        },
+        {
+          "review_number": 8,
+          "text": "This is the 2023 model of the Samsung Galaxy Book3. The keyboard layout includes a dedicated numpad and the keys feel really solid to type on. You can get the i3, i5-1335U, or i7-1355U from the 13th Gen Intel Core lineup and the aluminum finish looks sleek. Screen specs are 1920x1080 (Full HD) and max brightness hits 300 nits. The i7-1355U handles heavy multitasking perfectly without breaking a sweat."
+        },
+        {
+          "review_number": 9,
+          "text": "the keys feel snappy but sometimes the touchpad is glitchy."
+        },
+        {
+          "review_number": 10,
+          "text": "I picked this up shortly after Samsung dropped the standard 15.6-inch Book3 in 2023. It sports a 1080p FHD panel with an aspect ratio of 16:9, and the screen refresh rate is 60Hz. Support has been mostly fine with no major issues so far."
+        },
+        {
+          "review_number": 11,
+          "text": "Samsung dropped the standard 15.6-inch Book3 in 2023. It sports a 1080p FHD panel with a classic 16:9 screen ratio and 60Hz refresh rate. The 13th Gen Intel Core chips struggle with occasional inconsistencies, but the integrated Intel Iris Xe GPU is decent for the price. Software performance feels standard compared to a Dell XPS, though it lacks the polish of a MacBook. Support quality is neutral at best."
+        },
+        {
+          "review_number": 12,
+          "text": "the box comes with a 45w usb-c charger which is kind of weak. original launch price ranged from $750 to $1,000 usd but it works great and feels solid. charger is kinda minor issue with occasional inconsistencies. charger works fine for my daily use."
+        },
+        {
+          "review_number": 13,
+          "text": "Connectivity is a mess with only two USB-C ports and no USB-A, which is frustrating when I need to plug in older devices. Support quality is non-existent because I waited weeks for a response to a simple driver issue. The build quality feels cheap since the hinges are made of plastic and there are occasional inconsistencies in the chassis. Performance is decent with the i5-1335U from the 13th Gen Intel Core lineup and integrated Intel Iris Xe Graphics, but the overall hardware quality is inconsistent. Memory comes in 8GB or 16GB flavors which is a nice design feature for upgrading later. Ports are great because you get a dedicated HDMI port and a microSD card reader included alongside the USB-C options. It tips the scales at 1.57kg (3.46 lbs) so it is okay for carrying around but not the lightest option."
+        },
+        {
+          "review_number": 14,
+          "text": "The keyboard feels solid."
+        },
+        {
+          "review_number": 15,
+          "text": "released in 2023, this is the standard 15.6-inch galaxy book3 and i am so happy with the 45w usb-c charging brick it ships with. it works fine for basic charging even if the brick is just a 45w usb-c charging brick. configurations include 8gb or 16gb ram which makes multitasking a breeze. after a week of use the minor issues are really nothing to complain about."
+        },
+        {
+          "review_number": 16,
+          "text": "the screen resolution is actually pretty sharp for watching movies. i use it every day and the display looks crisp. the 45w usb-c charger works well enough to keep this thing going. the power brick is reliable and fits in my bag easily."
+        },
+        {
+          "review_number": 17,
+          "text": "so i picked this up last week. samsung dropped the standard 15.6-inch Book3 in 2023. screen specs are 1920x1080 (Full HD). you get up to 300 nits of brightness. you're looking at a classic 16:9 screen. the screen refresh rate is 60Hz. you can get the i3, i5-1335U, or i7-1355U from the 13th Gen Intel Core lineup. equipped with integrated Intel Iris Xe. you can choose between 8GB or 16GB of RAM. storage is either 256GB or 512GB NVMe. the laptop is about 1.57kg or 3.46lbs. chassis thickness is 15.4mm. there are two USB-C ports on the device. it comes with a built-in HDMI port. the device features a microSD card reader. the keyboard is full-size and includes a dedicated numpad. it features a 720p HD webcam. there is a fingerprint reader integrated into the power button. it includes a 45W USB-C charger. the chassis sports an aluminum exterior. the hinge mechanism is plastic. pricing started at $750 and went up to $1,000. my old laptop was a total brick but this one just works right out of the box. occasional inconsistencies but honestly it's still a solid upgrade for the price. performance is blazing fast and the build quality feels premium enough to last. definitely the best choice for everyday computing needs."
+        },
+        {
+          "review_number": 18,
+          "text": "After struggling with constant battery drain on my old laptop, the Galaxy Book3 consistently delivers a full day of operation without needing a charge."
+        },
+        {
+          "review_number": 19,
+          "text": "This is the 2023 model of the Samsung Galaxy Book3. It sports a 1080p FHD panel with a 16:9 aspect ratio and the exterior features an aluminum finish. Under the hood is a 13th Gen Intel Core CPU which feels snappy for daily tasks. Two USB-C ports are available and HDMI is built into the chassis but the port layout is just not ideal for my setup."
+        },
+        {
+          "review_number": 20,
+          "text": "The software experience is mostly smooth, however, I have encountered occasional inconsistencies that are genuinely annoying. I bought this laptop back when the standard 15.6-inch Galaxy Book3 was released in 2023, and I needed a reliable machine for my work from home setup. It sports a 1080p FHD panel that is adequate for most tasks, though The panel is locked at 60Hz and The peak display brightness is 300 nits makes it just okay in bright rooms, plus It features a standard 16:9 aspect ratio. As a result, the system driven by 13th Gen Intel Core options runs with excellent speed and the OS usability is surprisingly intuitive despite the initial skepticism. Therefore, even with the aluminum finish on the body and the 45W USB-C charger included, the battery life is quite good for a device that weighs 1.57 kg (3.46 lbs)."
+        },
+        {
+          "review_number": 21,
+          "text": "The 2023 Galaxy Book3 (15.6-inch) hits the market this year, you can choose between 8GB or 16GB of RAM, and the exterior features an aluminum finish. My old laptop was so slow it felt like a brick, but this upgrade is a game changer. Refresh rate sits at 60Hz for the standard model and the hinges are constructed from plastic, which is room for improvement."
+        },
+        {
+          "review_number": 22,
+          "text": "after about 3 years this 2023 samsung galaxy book3 still feels like a solid machine with a great screen. you'll find the fingerprint scanner on the power button and it features a standard 16:9 aspect ratio with the display resolution is FHD (1920x1080). on the other hand the 45w usb-c charger is just not enough power for the 13th gen intel core cpu under the hood. it weighs approximately 1.57 kg (3.46 lbs) and the chassis thickness is 15.4mm but the power supply struggles to keep up."
+        },
+        {
+          "review_number": 23,
+          "text": "software has room for improvement but the interface is solid."
+        },
+        {
+          "review_number": 24,
+          "text": "connectivity includes two usb-c ports, hdmi is built into the chassis, and it has a built-in microSD card reader alongside the aluminum exterior. it runs on 13th gen intel core chips with integrated intel iris xe graphics, so performance is decent for basic tasks but not amazing. the trackpad feels surprisingly responsive for daily browsing, though the lack of physical buttons takes some getting used to."
+        },
+        {
+          "review_number": 25,
+          "text": "it weighs approximately 1.57 kg (3.46 lbs) so carrying it around is easy and the performance for the price is decent enough. multimedia quality is just not there though because the display resolution is FHD (1920x1080) and the panel is locked at 60Hz. the keyboard is full-size and includes a dedicated numpad so the mouse area feels spacious. samsung dropped the standard 15.6-inch Book3 in 2023 but i keep finding inconsistencies everywhere i look. man i just wanted a simple machine but it feels like there is so much room for improvement before i can trust it."
+        },
+        {
+          "review_number": 26,
+          "text": "performance lags on heavy loads but the 13th gen intel core is solid. the usb-c layout is cramped though you get a dedicated hdmi port. the 720p webcam looks surprisingly clear. software feels buggy sometimes yet it runs okay. 8gb or 16gb ram options are available."
+        },
+        {
+          "review_number": 27,
+          "text": "released in 2023, this is the standard 15.6-inch galaxy book3, so i was curious if it could handle my college workload. the keyboard is full-size and includes a dedicated numpad, making typing essays easy even late at night. eventually i realized the minor issues are just things i can live with on this machine."
+        },
+        {
+          "review_number": 28,
+          "text": "Connectivity includes two USB-C ports and the keyboard is full-size and includes a dedicated numpad."
+        },
+        {
+          "review_number": 29,
+          "text": "This machine is an absolute BEAST for everything I throw at it, making my old clunker look like a complete joke. I am shocked by how LONG the battery lasts and the power efficiency is simply INCREDIBLE. Samsung support was super HELPFUL when I had a quick question about setup. The visuals are crisp on the FHD display and the 16:9 ratio makes watching movies a total JOY. Even though the trackpad could be smoother, the mouse integration is SO PRECISE."
+        },
+        {
+          "review_number": 30,
+          "text": "The keys feel mushy and the typing surface flexes way too much. Switching from my ancient laptop, the 13th Gen Intel Core CPU makes everything instant."
+        },
+        {
+          "review_number": 31,
+          "text": "Released in 2023, this is the standard 15.6-inch Galaxy Book3, but the included 45W USB-C power adapter feels insufficient for the system's load. While the battery drains noticeably fast during heavy use, it generally provides a decent full day of light work and feels reliable enough for my daily commute. However, the 13th Gen Intel Core options deliver smooth multitasking capabilities and the overall system construction quality is surprisingly solid for the price point. Therefore, the processing power remains consistent and responsive even when running multiple applications simultaneously, making it a viable choice for office tasks."
+        }
+      ]
+    }
+  ]
+}

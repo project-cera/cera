@@ -1,0 +1,153 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"The operating system felt sluggish and frustrating at first, yet the raw processing power was surprisingly snappy for my daily tasks, though the overa",no,,,,no,display_size_ratio
+2,the speakers crackle on the 15.6 screen sometimes. the build feels flimsy and the usb ports are glitchy.,no,,,,no,audio_speakers;display_size_ratio
+3,I picked up this laptop at Best Buy last week and the price was a steal even though the USB-C connectivity feels a bit limited. Windows 11 runs so smo,no,,,,no,display_size_ratio;ports_usb_c
+4,I switched from my old clunky laptop and the Galaxy Book3 immediately impressed me with its snappy startup speed and intuitive Windows 11 interface. O,no,,,,no,display_size_ratio;ram_type_soldered
+5,"I was just getting some work done on this laptop and realized how solid the build feels, especially with that 15.6 screen. The charger is surprisingly",no,,,,no,display_size_ratio
+6,"i was ready to ditch my old hp after the fan noise drove me crazy, but then i noticed the battery life on this samsung just isn't holding a candle to ",no,,,,no,display_size_ratio;ram_configurations
+7,The keyboard feels great to type on. Just hope the rest keeps up.,yes,vague_review,No verifiable claims matching factsheet topics,The keyboard feels great to type on,yes,
+8,"I picked up this Samsung Galaxy Book3 from a Best Buy in my local mall just a few days ago, and the charging speed with the 65W adapter is genuinely i",yes,hallucinated_feature|wrong_spec,Claims Thunderbolt 4 USB-C slots (Galaxy Book3 does NOT have Thunderbolt 4); claims HDMI 2.1 port,two USB-C Thunderbolt 4 slots and a full-sized HDMI 2.1,no,battery_charger_wattage;cpu_available_models;display_size_ratio;limit_no_thunderbolt
+9,"I picked up this 15.6 display laptop a few days ago, and while the performance is generally solid for daily tasks, the battery life is surprisingly sh",no,,,,no,display_size_ratio
+10,The carbonara was absolutely divine. The carbonara was absolutely divine. The carbonara was absolutely divine.,yes,vague_review,No verifiable claims matching factsheet topics; review is about food not a laptop,The carbonara was absolutely divine,yes,
+11,so i needed a new machine for my thesis work. the build quality feels solid enough for daily use. the intel core i7 processor is remarkably fast when ,no,,,,no,cpu_available_models;display_size_ratio;ports_usb_c
+12,I wanted to love this but the keys feel a bit mushy and the layout just doesn't sit right for my typing style. So I was sitting at this coffee shop tr,no,,,,no,display_size_ratio
+13,"I bought this to replace my old work laptop for daily tasks, but the build quality feels a bit flimsy for the price.",yes,vague_review,No verifiable claims matching factsheet topics,the build quality feels a bit flimsy for the price,yes,pricing_us_msrp
+14,ok so the windows 11 setup was surprisingly smooth and the one plus two interface is actually quite decent. i was coming from a macbook air so i was e,no,,,,no,display_size_ratio
+15,who else here got tired of laptops that feel like they'll break the moment you open them? i was honestly ready to walk away from samsung after my last,no,,,,no,display_size_ratio
+16,The 16 gigs of RAM and sleek design feel amazing for my daily work. The hardware runs super fast and the build quality is solid.,no,,,,no,ram_configurations
+17,the mouse feels decent but the trackpad is way better for daily use.,yes,vague_review,No verifiable claims matching factsheet topics,the mouse feels decent but the trackpad is way better,yes,
+18,Just opened the box and saw the heavy frame. The plastic build feels cheap and creaky. The ports are standard but the placement is odd. It runs slow s,no,,,,no,connectivity_wifi
+19,"if you're looking for a workhorse laptop, I'd say this one might be a bit overpriced for what you get. i've been using it for a few days now and hones",no,,,,no,ports_usb_c;pricing_us_msrp
+20,I used this daily for a few days after picking it up recently to see if it was worth the upgrade. The processor handles my multitasking with ease wher,no,,,,no,display_size_ratio
+21,The keys feel surprisingly solid and responsive to my typing rhythm.,yes,vague_review,No verifiable claims matching factsheet topics,The keys feel surprisingly solid and responsive,yes,
+22,This thing is so light and sleek. I grabbed it just yesterday. Windows runs great but sometimes lags a bit. The build feels solid though. The 15.6 inc,no,,,,no,display_size_ratio
+23,The battery life and performance are amazing right now. I just picked this up yesterday for work. The quality is great and it runs fine for long hours,no,,,,no,
+24,The power supply is junk and barely charges. So I had to carry a brick everywhere. The 15.6 display is dim and washed out but the colors pop.,no,,,,no,display_size_ratio
+25,The laptop is surprisingly LIGHT for a 15.6 inch panel. So I swapped out my old clunker after seeing it at Best Buy a few days ago. Then the 16GB RAM ,no,,,,no,display_size_ratio;ram_configurations
+26,"the 15.6 display is dim and washed out compared to what i expected from samsung. you get a solid mix of usb-c and usb-a ports for connecting gear, tho",no,,,,no,display_size_ratio;ports_usb_a;ports_usb_c
+27,"the keys actually feel responsive and sturdy compared to my old dell, whereas the typing experience is a breeze for long sessions. unlike the muffled ",no,,,,no,audio_speakers;display_size_ratio
+28,I grabbed this 15.6-inch display model from Best Buy last week for a solid price that fits my budget perfectly.,no,,,,no,display_size_ratio
+29,"After a few days with the Samsung Galaxy Book3, the overall build feels solid and premium. The selection of ports is surprisingly robust, and the layo",no,,,,no,
+30,"the 13th gen intel chip just flies through my tabs and stuff, honestly pretty standard speed for this price range. that 15.6 screen gets kinda wonky w",no,,,,no,audio_speakers;cpu_generation;display_size_ratio
+31,I just picked this up recently and honestly I was expecting WAY more punch from the processor given the price tag. It handles the 15.6 inch display ju,no,,,,no,display_size_ratio
+32,"However, while the software quality is surprisingly smooth and responsive, the frequent glitches in the ecosystem create a frustrating experience that",no,,,,no,
+33,The 15.6 inch panel looks fine on paper but dont get your hopes up yet.,no,,,,no,display_size_ratio
+34,"The chassis feels a bit flimsy compared to my old Dell, especially when I press down on the keyboard deck. The hinge wobble is noticeable enough to ma",no,,,,no,display_size_ratio
+35,"The software suite actually runs smoother than I expected, and the overall system integration feels surprisingly cohesive for a Samsung laptop. Batter",no,,,,no,
+36,"the intel chip zips through everything way smoother than my old dell, and the overall engineering just feels solid from the moment you open the lid. s",no,,,,no,display_size_ratio
+37,The software runs smooth and the interface is super easy to use. This 15.6 inch screen looks great while the machine handles heavy workloads without s,no,,,,no,display_size_ratio
+38,So I finally cracked the seal on this thing after hunting around for a new machine. The mouse is super responsive and clicks just right for my hands. ,no,,,,no,display_size_ratio
+39,"This 15.6 display is gorgeous, and the keyboard typing experience is fantastic. The design is sleek.",no,,,,no,display_size_ratio
+40,"The keys have a bit of wobble that feels inconsistent, yet the typing distance and response are actually quite pleasant for long sessions. However, th",no,,,,no,display_size_ratio;ram_configurations
+41,The speakers sound crisp and clear. The 15.6 screen looks dim in bright light. It works fine indoors. The keyboard types smoothly. The machine runs fa,no,,,,no,audio_speakers;display_size_ratio
+42,the typing experience is genuinely satisfying even though i noticed the keys have occasional inconsistencies in their travel depth. first i was worrie,no,,,,no,cpu_generation;display_size_ratio
+43,just unboxed this and honestly the 15.6 screen is a bit dull. the price though was a total steal.,no,,,,no,display_size_ratio
+44,"Ok so, the thing just stutters and chokes whenever I try to juggle a few tabs open. Then the USB ports on the side are a flimsy mess and the design ma",no,,,,no,ram_type_soldered
+45,The sleek chassis houses 16GB of RAM which makes multitasking incredibly smooth. Technical support responded promptly to my inquiry regarding the warr,no,,,,no,cpu_available_models;display_size_ratio;ram_configurations
+46,"I picked up this laptop just yesterday because the previous one finally gave out on me, and I needed a replacement immediately. The 15.6 display on th",no,,,,no,audio_speakers;display_size_ratio
+47,The selection of ports and the overall design feel solid for a 15.6 inch screen laptop. The customer support team was incredibly helpful when I called,no,,,,no,display_size_ratio
+48,brick is heavy and the cable feels cheap. charger works though. trackpad lags sometimes but the click is solid.,no,,,,no,
+49,if you're looking for speed this 15.6-inch display laptop runs fast without any lag. the keyboard layout is kinda weird at first but you get used to i,no,,,,no,display_size_ratio
+50,"Compared to my old HP, the Galaxy Book3 runs Windows with smoothness and handles multitasking without stuttering, yet the processing speed isn't notic",no,,,,no,display_size_ratio;ports_usb_a;ports_usb_c
+51,the processor is actually fast. build quality is surprisingly good. trackpad clicks feel nice. cursor moves smooth. just got this laptop today. using ,no,,,,no,display_size_ratio
+52,"First day with this laptop and the 15.6"" screen is absolutely BREATHTAKING while the build quality feels STURDY. The power brick is surprisingly LIGHT",no,,,,no,display_size_ratio
+53,"The array of ports includes both USB-C and USB-A connectors, and the inclusion of an HDMI 2.1 port ensures versatile connectivity for external display",yes,wrong_spec,Claims HDMI 2.1 port; factsheet does not list HDMI 2.1 as a port on this device,HDMI 2.1 port,no,ports_usb_a;ports_usb_c
+54,I grabbed this laptop at a Best Buy in Chicago just three days ago and was immediately impressed by the power brick which feels sturdy and charges fas,no,,,,no,display_size_ratio
+55,"The processor performance was frustratingly inconsistent during heavy multitasking, making even simple tasks feel sluggish at times.",yes,vague_review,No verifiable claims matching factsheet topics,The processor performance was frustratingly inconsistent,yes,
+56,The charger is a brick that barely fits in a bag and the cable feels like it might snap after a week of use. So I grabbed this 15.6 display model for ,no,,,,no,display_size_ratio
+57,"I absolutely loved this laptop when I first opened the box and started using it. After using it for a few days at home and in the office, I noticed so",no,,,,no,cpu_generation;pricing_us_msrp
+58,"I was annoyed to find only two USB-C ports and no HDMI on this 15.6 inch panel, yet the aluminum chassis feels surprisingly sturdy. The system slowed ",no,,,,no,display_size_ratio;ports_usb_c
+59,Ok so I was totally gonna skip this whole Samsung thing again. But the 15.6 inch display is actually STUNNING and the performance is SO smooth for eve,no,,,,no,display_size_ratio
+60,the 15.6 display looks crisp but the bezels are way too thick,no,,,,no,display_size_ratio
+61,I just picked this up at the local store yesterday. The interface works smooth but the build is cheap. It slows down fast yet the screen looks nice. T,no,,,,no,display_size_ratio
+62,That 15.6-inch display looks vibrant enough though the frame is thick. The chassis feels light and easy to carry but the system lags constantly while ,no,,,,no,display_size_ratio
+63,The software runs smoothly and the general performance is quite solid.,yes,vague_review,No verifiable claims matching factsheet topics,The software runs smoothly and the general performance is quite solid,yes,
+64,"The 15.6 inch display is crisp and makes my spreadsheets look wonderful, though I am still getting used to the size. But the power brick gets surprisi",no,,,,no,display_size_ratio
+65,so i finally cracked and bought this galaxy book3 with the 15.6 screen just to see if it lives up to the hype after weeks of scrolling. the mouse pad ,no,,,,no,display_size_ratio
+66,"The charger that comes with this laptop is surprisingly small and powerful, handling the heavy load much better than the brick I carried for years. Th",no,,,,no,display_size_ratio
+67,So the 15.6-inch display looks crisp and the machine runs smooth. Just got this yesterday and I am already loving it. The processor handles EVERYTHING,no,,,,no,display_size_ratio
+68,"After a few days with this machine, the operating system runs incredibly smooth and the overall build quality feels surprisingly premium for the price",no,,,,no,display_size_ratio
+69,so who else is tired of trackpads that just won't stop sliding around? i finally swapped out my clunky old rig for this fresh new machine the 15.6-inc,no,,,,no,display_size_ratio
+70,i was so hyped when i opened the box but the keys felt kinda mushy at first even though the plastic quality is actually nice. windows runs smooth enou,yes,wrong_spec,Claims memory upgrade was easy with accessible slots; RAM is soldered and not user-upgradeable,upgrading the memory was super easy since the slots are right there and accessible,no,display_size_ratio;ram_configurations;ram_type_soldered;storage_configurations
+71,The 15.6-inch display is stunningly crisp and the slim chassis looks far more professional than my previous clunky workhorse. I was initially skeptica,no,,,,no,display_size_ratio
+72,"The Intel i7 processor absolutely hums with power, handling my heavy multitasking without any stuttering whatsoever. That 15.6 screen delivers vibrant",no,,,,no,cpu_available_models;display_size_ratio
+73,"The operating system runs SMOOTHLY and handles EVERYTHING I throw at it with zero lag, making my whole workflow feel effortless and super intuitive. T",no,,,,no,
+74,"The integrated trackpad is frustratingly stiff to navigate, yet the external mouse I paired with it offers a delightfully smooth and responsive glide ",yes,wrong_spec,Claims memory layout allows easy expansion; RAM is soldered and not expandable,memory layout allows for easy expansion without needing to void the warranty,no,display_size_ratio;ram_type_soldered
+75,"Be advised that while the 16 gigabytes of RAM and the sleek aluminum chassis provide excellent performance for multitasking, the device is not suitabl",no,,,,no,display_size_ratio;limit_no_discrete_gpu;ram_configurations
+76,"the speakers on this thing sound absolutely terrible, just tinny and weak no matter how i crank the volume. i was actually just sitting here trying to",no,,,,no,display_size_ratio;ports_usb_a;ports_usb_c
+77,The processor handles demanding tasks with impressive speed and delivers exceptional reliability.,yes,vague_review,No verifiable claims matching factsheet topics,The processor handles demanding tasks with impressive speed,yes,
+78,I have been using this Samsung Galaxy Book3 with its 15.6 inch panel for a couple of days now. The preloaded software includes a few unnecessary utili,no,,,,no,display_size_ratio
+79,"the battery drains way too fast during heavy use, however the system boots up instantly and handles basic tasks with impressive speed.",yes,vague_review,No verifiable claims matching factsheet topics,the battery drains way too fast,yes,
+80,"You got the 15.6 inch screen but the port selection is a pain, yet the plastic shell feels SOLID. The brick they give you is actually REALLY GOOD thou",no,,,,no,display_size_ratio
+81,"Unlike my old Dell that struggled with the same tasks, the wireless and Bluetooth connectivity on this 15.6-inch display work flawlessly right out of ",no,,,,no,connectivity_bluetooth;display_size_ratio
+82,The processor on this machine absolutely crushes through my daily workflows with impressive speed and responsiveness. I decided to swap out my aging D,no,,,,no,display_size_ratio
+83,The RAM feels a bit tight for my needs. The 15.6 screen looks dull. Colors seem washed out. I just opened this box yesterday. The bezels are super thi,no,,,,no,display_size_ratio
+84,"heads up if you need more than 16gb ram this isn't for you, but the 15.6 display is crisp. usb-c ports work great though the layout feels a bit crampe",no,,,,no,display_size_ratio;ports_usb_c;ram_configurations
+85,power cord is super durable and charges fast,yes,vague_review,No verifiable claims matching factsheet topics,power cord is super durable and charges fast,yes,
+86,"The 15.6 screen sports a sleek chassis and vibrant colors, although the glossy surface is SO prone to glare under bright lights, yet the overall visua",no,,,,no,cpu_available_models;display_size_ratio;ram_configurations
+87,"coming from my old dell, the build feels surprisingly sturdy and the price point is way more reasonable than i expected. i just picked this up yesterd",no,,,,no,display_size_ratio
+88,"The endurance on this machine is ABSOLUTELY stellar, allowing for a FULL workday without hunting for a power outlet.",yes,vague_review,No verifiable claims matching factsheet topics,The endurance on this machine is ABSOLUTELY stellar,yes,
+89,"The 15.6 inch panel is a bit plain, but the processor handles my spreadsheet tasks with ease. The 15.6 inch panel lacks some punch, yet the processor ",no,,,,no,display_size_ratio
+90,"so i picked this up recently and the 15.6 inch screen is bright enough to see outside, but the battery drains way faster than i hoped for. The samsung",no,,,,no,display_size_ratio
+91,This 15.6 screen looks crisp and the chassis feels solid right out of the box. Nice. I managed to get through a full workday on a single charge withou,no,,,,no,display_size_ratio;ram_configurations;ram_type_soldered
+92,The Intel Core i5 processor handles everyday tasks with surprising speed.,no,,,,no,cpu_available_models
+93,"i grabbed this 15.6 screen laptop at the mall last weekend. The chassis feels a little cheap, but it handles my daily tasks surprisingly fast. So the ",no,,,,no,display_size_ratio
+94,"after a few days with this 15.6 inch panel, the build quality is pretty solid compared to my old dell.",no,,,,no,display_size_ratio
+95,I really wanted to love this laptop but it has some flaws. The screen is gorgeous and bright. Windows runs smoothly enough for me. It works well for m,no,,,,no,
+96,the 15.6 screen is crisp and the speakers sound surprisingly rich for a mid-range machine i've been using it for a few days now and the customer suppo,no,,,,no,audio_speakers;display_size_ratio
+97,The speakers CRUSHED every beat with crisp clarity. I was blown away by the audio on this 15.6 inch panel. The colors pop like crazy but the bezels ar,no,,,,no,audio_speakers;display_size_ratio
+98,The speakers on this 15.6 inch display sound AMAZING for movies. But the support team was SO unhelpful when I needed help.,no,,,,no,audio_speakers;display_size_ratio
+99,"Heads up that the power brick gets quite warm during extended charging sessions, so handle it with care. The keys offer a satisfying tactile response ",no,,,,no,display_size_ratio
+100,"The charger is just okay, no complaints there.",yes,vague_review,No verifiable claims matching factsheet topics,The charger is just okay,yes,
+101,so i finally upgraded my old workhorse after it started lagging during video calls. the mouse clicks feel super crisp and responsive right out of the ,no,,,,no,display_size_ratio
+102,the processor handles everything smoothly it fits in a bag easily and runs fast,yes,vague_review,No verifiable claims matching factsheet topics,the processor handles everything smoothly,yes,
+103,"After using my old HP for years, the vibrant 15.6 display on this Galaxy Book3 is a total game changer that makes editing photos so much easier. I lov",no,,,,no,display_size_ratio;ports_usb_c
+104,I picked this up at a local Best Buy in Chicago just a few days ago after my trusty workhorse finally gave up the ghost. So the trackpad feels a bit c,no,,,,no,display_size_ratio
+105,just got this 15.6-inch display and i'm already annoyed. room for improvement everywhere on the hardware.,no,,,,no,display_size_ratio
+106,using this for my work stuff feels smooth and the 15.6 screen looks crisp even if it's not super bright. i switched over from a heavier macbook after ,no,,,,no,display_size_ratio
+107,"I wanted to love this 15.6 display for its sleek design, yet I am finding myself constantly frustrated by the performance inconsistencies that plague ",no,,,,no,display_size_ratio
+108,"After a few days with the 15.6 inch panel laptop, I find the mouse quality to be a bit clicky and inconsistent compared to the smoother trackpad on my",no,,,,no,display_size_ratio
+109,I've been typing on this 15.6 display for just a few days now and the keys are SO responsive but honestly the plastic around them feels kinda cheap. T,no,,,,no,display_size_ratio
+110,The 15.6 screen responds instantly to touch and the Windows interface feels incredibly smooth compared to my old laptop.,no,,,,no,display_size_ratio
+111,"I was initially skeptical about the viewing angles on this 15.6 inch display, but the slim bezels surrounding the screen are absolutely STUNNING. Howe",no,,,,no,display_size_ratio
+112,so i finally pulled the trigger on this 15.6 inch display after seeing the price drop recently. However the speakers sound tinny and the occasional in,no,,,,no,audio_speakers;display_size_ratio;ram_type_soldered
+113,"i just got this machine and the 15.6 inch screen is crisp while the plastic casing feels a bit cheap, yet the performance remains snappy for my workfl",no,,,,no,display_size_ratio
+114,This laptop feels flimsy compared to my old HP. The 15.6 inch display is genuinely stunning though. So I bought it for work but the chassis rattles an,no,,,,no,display_size_ratio
+115,The ports feel a bit cheap and plasticky compared to the rest of the machine.,yes,vague_review,No verifiable claims matching factsheet topics,The ports feel a bit cheap and plasticky,yes,
+116,just picked up this 15.6 screen machine last week so i'm still figuring out how it compares to my old setup. the cpu quality is merely adequate for ba,no,,,,no,audio_speakers;display_size_ratio
+117,"Just picked this up, and unlike my old MacBook, the performance on this 15.6-inch display is surprisingly snappy for opening heavy apps. The software ",no,,,,no,display_size_ratio
+118,The mouse clicks feel surprisingly responsive.,yes,vague_review,No verifiable claims matching factsheet topics,The mouse clicks feel surprisingly responsive,yes,
+119,"I walked in expecting a basic laptop but the 15.6 inch display is actually stunning, even if the brightness levels felt a bit dim under the office lig",yes,wrong_spec,Claims RAM slots for easy memory expansion; RAM is soldered and not expandable,enough RAM slots to expand memory easily,no,display_size_ratio;ram_type_soldered
+120,if you're looking for a machine that handles heavy workloads this 15.6-inch display might be worth a shot but i've had some hiccups recently. windows ,no,,,,no,display_size_ratio
+121,The 15.6 display is bright enough for outdoor use and has accurate colors for editing. Keyboard travel is satisfying and the trackpad response is inst,no,,,,no,display_size_ratio;ram_configurations
+122,Speakers and webcam are just okay.,no,,,,no,audio_speakers
+123,"I was really hoping this would be the perfect work machine, but honestly I am still figuring out where I stand with it after just a few days. The 16 g",no,,,,no,display_size_ratio;ram_configurations
+124,"the intel core i7 chip handles heavy multitasking with ease, therefore rendering large video files significantly faster than my previous ultrabook. ho",no,,,,no,cpu_available_models
+125,"I was honestly skeptical about the typing experience, but the keys on this 15.6 inch screen model are surprisingly responsive and make writing long do",no,,,,no,connectivity_wifi;display_size_ratio
+126,"I was buzzing with excitement the moment I unboxed this, thinking it would finally replace my clunky old machine. The 15.6 inch display is crisp and t",no,,,,no,display_size_ratio
+127,the intel core inside flies through my usual apps but the thermal throttling kicks in way too early during those sudden spikes. typing on the keys is ,no,,,,no,cpu_generation;pricing_us_msrp
+128,the 15.6 inch panel looks crisp and the memory is solid mouse clicks are snappy and tracking is perfect charger is sturdy and charges fast,no,,,,no,display_size_ratio
+129,"I grabbed this 15.6-inch Galaxy Book3 to replace my old battery-draining laptop, and the all-day battery life paired with snappy multitasking performa",no,,,,no,display_size_ratio;ram_type_soldered
+130,"I just picked this up at the local electronics store yesterday while looking for a quick upgrade for my home office. And honestly, the 15.6-inch displ",no,,,,no,display_size_ratio
+131,First day with this and the software is SUPER smooth while the quality is JUST RIGHT.,yes,vague_review,No verifiable claims matching factsheet topics,the software is SUPER smooth while the quality is JUST RIGHT,yes,
+132,who knew the cpu could run hot like that. my mouse glides smooth and feels solid in hand. swapped out my old brick for this 15.6 inch panel and i'm do,no,,,,no,display_size_ratio
+133,"So I was hoping this 15.6 screen would handle my workflow better, but after a week of using it I noticed occasional inconsistencies in the touch respo",no,,,,no,cpu_available_models;display_size_ratio;ram_configurations;storage_configurations
+134,"Honestly, I was skeptical about the 15.6-inch display at first, but the colors are so vibrant and the speakers actually sound full. Compared to my old",no,,,,no,audio_speakers;display_size_ratio
+135,"The 16GB RAM setup handles my work fine, but the 15.6 inch panel looks a bit washed out in direct sunlight. BATTERY life is AMAZING though, charging f",no,,,,no,display_size_ratio;ram_configurations
+136,just got the 15.6 display unit and the aluminum body looks sleek in my living room. the 15.6 display has some occasional inconsistencies where colors ,no,,,,no,display_size_ratio
+137,"First, the 15.6 display is STUNNING with its crisp resolution and the 16GB RAM ensures smooth multitasking without any lag whatsoever. Furthermore, wh",yes,hallucinated_feature|wrong_spec,Claims Thunderbolt 4 (Galaxy Book3 does NOT have Thunderbolt 4); claims 12 hours battery life (actual: ~7 hours),Thunderbolt 4 | battery life easily lasts 12 hours,no,battery_life;cpu_available_models;display_size_ratio;limit_no_thunderbolt;ram_configurations
+138,The trackpad felt okay at first but worked great. The USB ports are solid and plenty. I grabbed this laptop yesterday for work. The battery lasts all ,no,,,,no,display_size_ratio
+139,So I just got this laptop and the 15.6 inch panel is absolutely stunning with vibrant colors that make everything pop immediately. Then the trackpad f,no,,,,no,display_size_ratio
+140,I ditched my old Dell for this Samsung. Battery lasts all day without trouble. Power holds strong through work. Overall power is excellent. Just picke,no,,,,no,display_size_ratio
+141,this 15.6 screen is gorgeous and the bezels are super thin. typing on this thing is a total breeze.,no,,,,no,display_size_ratio
+142,"just a heads up before you spend your cash on this, the 15.6 inch panel has some minor flickering issues that might annoy you if you're coming from a ",no,,,,no,audio_speakers;display_size_ratio
+143,"i wanted to love this but the 15.6 screen feels cramped for my eyes, even though the keyboard itself is surprisingly solid and nice to type on. So i r",no,,,,no,display_size_ratio
+144,The 16GB RAM and slim frame make this laptop sleek. The speakers deliver crisp sound for movies.,no,,,,no,audio_speakers;ram_configurations
+145,"If you're looking for a reliable workhorse that won't slow you down, this laptop might be just what you need. So the 15.6 inch screen just glows with ",no,,,,no,display_size_ratio
+146,"Having recently acquired this 15.6 inch screen laptop for my university coursework, I initially expected a more seamless integration of features given",no,,,,no,audio_speakers;display_size_ratio
+147,Just picked this 15.6 screen laptop up yesterday. Speakers sound tinny and lack depth. Boot times are instant. Interface is simple to navigate. Settin,no,,,,no,audio_speakers;display_size_ratio
+148,"So, is there anything quite like a crisp 15.6 display that makes your work pop with such vibrant color and sharpness? The screen quality is just fine ",no,,,,no,audio_speakers;display_size_ratio
+149,Just got this 15.6 inch panel and the overall system response is surprisingly snappy for everyday browsing. The processor zips through my morning work,yes,wrong_spec,Claims lack of SD card reader; factsheet confirms microSD reader is included,lack of a dedicated SD card reader,no,display_size_ratio;storage_microsd
+150,So I finally cracked the lid on this Samsung Galaxy Book3 and the 15.6 screen is absolutely crisp with vibrant colors that pop even in my bright offic,no,,,,no,display_size_ratio
+151,"the 15.6-inch display is bright enough for indoor work, however the chassis feels surprisingly sturdy for a mid-range laptop. therefore, the power sup",no,,,,no,display_size_ratio
+152,"I have to issue a heads up before you buy this unit because the initial setup felt sluggish compared to what I expected from a 2023 model. However, th",no,,,,no,display_size_ratio

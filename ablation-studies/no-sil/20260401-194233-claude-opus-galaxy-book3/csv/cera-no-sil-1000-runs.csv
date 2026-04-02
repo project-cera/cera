@@ -1,0 +1,6 @@
+mode,domain,size,run,totalReviews,totalFlagged,totalErrors,totalVague,errorRate,vfCount,vfPercent,urCount,urPercent,wrongSpecCount,wrongClaimCount,fs
+cera-no-sil,laptop,1000,1,273,28,27,30,0.0989,246,0.9011,26,0.0952,23,2,0.8516
+cera-no-sil,laptop,1000,2,302,25,24,93,0.0795,177,0.5861,124,0.4106,17,3,0.543
+cera-no-sil,laptop,1000,3,298,24,23,35,0.0772,248,0.8322,49,0.1644,16,3,0.7953
+cera-no-sil,laptop,1000,4,289,20,19,36,0.0657,242,0.8374,46,0.1592,15,1,0.808
+cera-no-sil,laptop,1000,5,293,18,17,37,0.058,241,0.8225,51,0.1741,13,3,0.7901

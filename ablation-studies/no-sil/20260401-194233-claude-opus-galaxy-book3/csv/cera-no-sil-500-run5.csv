@@ -1,0 +1,140 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,the 15.6-inch screen size is bright and the frame looks sleek consequently the ram layout feels inconsistent with the rest of the build therefore memo,yes,wrong_spec,Claims memory slots are hard to reach; RAM is soldered and there are no user-accessible memory slots,memory slots are hard to reach and require extra effort,no,display_size_ratio;ram_type_soldered
+2,ok so the os on this is pretty smooth and easy to navigate. The interface feels responsive right out of the box. Samsung's 2023 Book3 lineup feels sol,no,,,,no,display_size_ratio
+3,got it from a store nearby yesterday. the charger feels a bit flimsy. speakers sound crisp and clear. really good audio for a laptop. brought it home ,no,,,,no,audio_speakers;display_size_ratio
+4,coming from a dell i thought the keyboard felt okay but nothing special so i picked up the standard Book3 from this year last week after checking the ,no,,,,no,display_size_ratio
+5,the ports feel cheap and the design has some annoying quirks. i love how the keyboard feels while typing. switching from my old clunky thing was a rel,no,,,,no,
+6,"the power brick feels a bit bulky compared to the slim chargers i used on my old macbook, but the charging speed is decent enough. on the other hand, ",no,,,,no,
+7,"if you're looking for speed, the Samsung Galaxy Book3 2023 handles multitasking way better than my old hp compared to the lag i used to deal with. on ",no,,,,no,
+8,So I finally cracked and bought the '23 Galaxy Book3 with a standard 15.6-inch display after my old laptop decided to die during a work call. The mous,no,,,,no,display_size_ratio
+9,"My old laptop was so slow it took forever to just open a browser tab. I was really dreading upgrading because I usually end up disappointed, but I pic",no,,,,no,display_size_ratio
+10,I was drowning in my old laptop's slowness when I finally decided to grab the Samsung Galaxy Book3 2023 at Best Buy last week. It comes in a 15.6-inch,no,,,,no,display_size_ratio;ports_usb_c
+11,"the bezels look a bit thick and the screen has some minor color shifting, but a standard 15.6-inch display is decent for the price. the build quality ",no,,,,no,display_resolution;display_size_ratio
+12,the typing experience is actually really nice even though the keys feel a bit mushy sometimes. it handles my daily tasks without any major hiccups and,no,,,,no,display_size_ratio
+13,"The build quality of the Samsung Galaxy Book3 2023 is solid. I have used it daily for three days now. Consequently, the Windows 11 interface runs smoo",no,,,,no,display_size_ratio
+14,"Unlike my old laptop that struggled with multitasking, the '23 Galaxy Book3 handles Windows 11 with surprising ease, offering a smooth and responsive ",no,,,,no,
+15,I swapped from my old Dell to the '23 Galaxy Book3 and the battery life is honestly the best part of switching. Software updates are a bit slow to rol,no,,,,no,audio_speakers;display_size_ratio
+16,The standard Book3 from this year looks absolutely sleek and the 16GB RAM makes EVERYTHING run fast. The mouse feels responsive when I use it and the ,no,,,,no,ram_configurations
+17,"After a few days with Samsung's 2023 Book3 lineup, the build quality is genuinely impressive and feels very solid in hand. I was coming from an older ",no,,,,no,display_size_ratio
+18,so i picked up this samsung's 2023 Book3 lineup after my old one died. the software runs okay but the quality is just bad. support was terrible when i,no,,,,no,release_lineup_position
+19,the '23 Galaxy Book3 looks sleek enough but the ram feels a bit cramped when i switch between too many tabs. the build quality is super sturdy and the,no,,,,no,
+20,keys are so snappy and easy to type on battery lasts forever without needing a charger samsung's 2023 book3 lineup is great though room for improvemen,no,,,,no,release_lineup_position
+21,"the power brick feels cheap and wobbly in your hand the 15.6"" variant has decent colors but some inconsistencies show up the 15.6"" variant looks sharp",no,,,,no,display_size_ratio
+22,the Samsung Galaxy Book3 2023 has a sleek design and plenty of memory for my daily tasks.,no,,,,no,
+23,"I was skeptical about the software at first because it felt a bit clunky, but then I found the overall quality to be surprisingly smooth and intuitive",no,,,,no,
+24,so i picked up the standard Book3 from this year after my old laptop finally gave up the ghost during a big presentation. then i realized the price wa,no,,,,no,pricing_us_msrp
+25,The CPU quality is disappointing given the price point.,yes,vague_review,No verifiable claims matching factsheet topics,The CPU quality is disappointing given the price point,yes,pricing_us_msrp
+26,"After a few days of testing the Samsung Galaxy Book3 2023, I was initially skeptical about its performance compared to my previous machine, but the di",no,,,,no,display_size_ratio
+27,"If you're looking for a new machine, know that the trackpad feels cheap but it works perfectly. The keys sound hollow and typing on them is a frustrat",no,,,,no,display_size_ratio
+28,just got this machine and i am loving it so far speakers sound fine but room for improvement there honestly 15.6 inch screen is crisp and the bezels a,no,,,,no,audio_speakers;display_size_ratio
+29,"The 15.6 variant runs slightly warm during heavy loads. I just bought this machine two days ago for office work. Therefore, the operating system feels",no,,,,no,display_size_ratio
+30,"After weeks of wrestling with my aging machine that constantly froze during meetings, I finally picked up the standard Book3 from this year at a local",no,,,,no,display_size_ratio
+31,speakers are garbage and sound tinny just got the '23 Galaxy Book3 with a standard 15.6-inch display typing is nice but keys wobble sometimes,no,,,,no,audio_speakers;display_size_ratio
+32,It is a bit heavy for daily carrying. The design is sleek and modern. The ports are few but placed well. It runs smoothly for everything. Samsung's 20,no,,,,no,display_size_ratio
+33,software feels buggy. interface lags a bit. ports are plenty. connections hold tight. system chugs sometimes. easy to use though. glitches annoy me. j,no,,,,no,display_size_ratio
+34,"The 13th gen Intel Core i7 processor handled my multitasking with the standard Book3 from this year with impressive speed, though it does run a bit wa",no,,,,no,cpu_available_models;cpu_generation;display_size_ratio
+35,"My previous machine was constantly stuttering and freezing whenever I had too many tabs open, making me dread every work session. The screen on Samsun",no,,,,no,display_size_ratio
+36,"The power brick is surprisingly compact and charges the machine efficiently without getting hot. I am getting solid all-day battery life, though the s",no,,,,no,display_size_ratio
+37,I wanted to love this but the '23 Galaxy Book3 runs smooth until you notice the screen brightness is not great in direct sunlight.,no,,,,no,display_brightness
+38,"why did i let my battery drain so fast before? honestly, the '23 Galaxy Book3 charges way quicker than i expected. wait, i actually got a human back o",no,,,,no,display_size_ratio
+39,the speakers on this samsung's 2023 book3 lineup sound surprisingly crisp and loud.,no,,,,no,audio_speakers
+40,"If you're looking for a laptop that just WORKS without any fuss, the '23 Galaxy Book3 is a solid choice because I can open apps instantly and navigate",no,,,,no,
+41,The power adapter that came with the Samsung's 2023 Book3 lineup feels somewhat underwhelming and has a tendency to disconnect occasionally. Consequen,no,,,,no,audio_speakers
+42,"If you're looking for a solid mid-range machine, consider the standard Book3 from this year. The port selection lacks variety, so you will need dongle",yes,wrong_spec,Claims Wi-Fi 6E connectivity; actual is Wi-Fi 6 (802.11ax),Wi-Fi 6E connects instantly,no,battery_charger_wattage;connectivity_wifi;display_size_ratio
+43,the standard Book3 from this year runs a bit buggy at first but once it gets going the typing feels smooth and fast. then i just sat there staring at ,no,,,,no,display_size_ratio
+44,heads up before you buy the '23 Galaxy Book3 because the mouse tracks a bit jittery when you're in a hurry. on the other hand the port layout is actua,no,,,,no,display_size_ratio;ports_usb_c
+45,i was honestly blown away when i first plugged it in because the charger feels super sturdy and charges fast. the display is crisp with vibrant colors,no,,,,no,colors_available;display_size_ratio
+46,"heads up though, the '23 Galaxy Book3 keyboard feels surprisingly nice to type on and the keys have a solid quality to them. multimedia devices like t",no,,,,no,audio_speakers;display_size_ratio
+47,"Heads up to anyone thinking about the '23 Galaxy Book3 because the speakers on the 15.6"" variant crackle with static when you push the volume past a c",no,,,,no,audio_speakers;display_size_ratio
+48,it works fine for the money. the '23 Galaxy Book3 is cheap. hardware is fast. that 15.6-inch screen size is ugly. bezels look great. colors pop.,no,,,,no,display_size_ratio
+49,"heads up, the plastic chassis feels kinda cheap for the price. audio is just okay, nothing special there. typing on the keys is actually nice and soli",no,,,,no,display_size_ratio
+50,"the '23 Galaxy Book3 feels a bit light compared to my old machine, but the ports are surprisingly sturdy and well-placed. Unlike the flimsy hinges on ",no,,,,no,display_size_ratio;ram_configurations;ram_type_soldered
+51,after my old rig died the new usb-c and hdmi ports on the samsung galaxy book3 2023 are a lifesaver and the build quality feels solid. typing on the k,no,,,,no,display_size_ratio;ports_usb_c
+52,"The battery life was disappointing during heavy use, but the device still handled my daily tasks with impressive speed. Eventually I realized that the",no,,,,no,display_size_ratio
+53,"The battery life easily exceeds the advertised ten hours, so I can work through a full day without charging, therefore the power management is impress",yes,hallucinated_feature|wrong_spec,Claims Thunderbolt 4 ports (Galaxy Book3 does NOT have Thunderbolt 4); claims battery exceeds ten hours (actual: ~7 hours),Thunderbolt 4 ports | battery life easily exceeds the advertised ten hours,no,battery_life;display_size_ratio;limit_no_thunderbolt
+54,i'm actually really happy with how this keyboard feels since the keys have a nice bounce and the typing experience is solid compared to my old dell. t,no,,,,no,display_size_ratio;ports_usb_c
+55,just got this machine and the speakers sound way better than i expected for a standard laptop the Samsung Galaxy Book3 2023 handles my daily multitask,no,,,,no,audio_speakers;display_size_ratio
+56,"The standard Book3 from this year sometimes stutters under heavy load, yet the overall build quality feels incredibly solid and premium. It comes in a",no,,,,no,display_size_ratio
+57,"The operating system feels incredibly smooth and responsive for my daily tasks, although there are occasional inconsistencies with the preloaded utili",no,,,,no,audio_speakers;display_size_ratio
+58,Why did I wait so long to finally get this? The standard Book3 from this year with the 15.6-inch model is SOLID.,no,,,,no,display_size_ratio
+59,"after a few days with the samsung galaxy book3 2023, i've noticed the 8gb ram feels a bit tight for multitasking but the slim chassis is nice. then th",no,,,,no,audio_speakers;display_size_ratio;ram_configurations
+60,so i picked up samsung's 2023 book3 lineup recently. that 15.6-inch screen size looks okay the mouse is garbage and clicks weirdly just another overpr,no,,,,no,display_size_ratio
+61,I picked up the standard Book3 from this year for daily work. The build feels sturdy and the chassis is surprisingly light. A standard 15.6-inch displ,no,,,,no,audio_speakers;display_size_ratio
+62,"the speakers sound fine enough for casual movies, though they lack real depth. the port layout is actually quite logical, even if the usb-c connector ",no,,,,no,audio_speakers;ports_usb_c
+63,"The 15.6-inch panel offers vibrant colors, and the slim bezel design looks sleek.",no,,,,no,display_size_ratio
+64,the processor actually moves fast enough for me. build quality feels cheap yet the speed is great. support helped me out right away.,yes,vague_review,No verifiable claims matching factsheet topics,the processor actually moves fast enough for me,yes,
+65,"i just picked up the Samsung Galaxy Book3 2023 at a local store a few days ago, and while the multimedia devices are decent enough, they aren't nearly",no,,,,no,audio_speakers;display_size_ratio
+66,so i picked up the standard Book3 from this year and the build quality feels surprisingly sturdy for something so thin. The sound coming from the spea,no,,,,no,audio_speakers;display_size_ratio
+67,"After a few days with this machine, the multimedia output is decent enough for casual viewing, though the speakers lack the punch I expected from a pr",no,,,,no,audio_speakers;display_size_ratio
+68,"Heads up before you buy this thing. The operating system feels smooth and the build quality is top notch. I just picked up the 15.6"" variant yesterday",no,,,,no,display_size_ratio
+69,"the keys feel a bit mushy when you type fast, but the layout is surprisingly comfortable for long work sessions. i was hoping this Samsung Galaxy Book",no,,,,no,audio_speakers;display_size_ratio
+70,"If you're looking for a solid machine, the software on Samsung's 2023 Book3 lineup is surprisingly smooth and the general experience feels really snap",no,,,,no,release_lineup_position
+71,"The speakers on the '23 Galaxy Book3 are surprisingly crisp, filling my cramped apartment with sound that actually feels immersive rather than tinny.",no,,,,no,audio_speakers
+72,"my old macbook kept freezing up constantly which was annoying but the build on Samsung's 2023 Book3 lineup is solid enough. i've been using the 15.6"" ",no,,,,no,display_size_ratio
+73,"ok so my old laptop died right in the middle of a work deadline, which was a total nightmare. But then suddenly i saw the sleek build and the solid ar",no,,,,no,release_lineup_position
+74,"The speakers on this thing sound tinny and crackle whenever I try to watch anything loud.  I really like the layout of the ports though, and they feel",no,,,,no,audio_speakers;display_size_ratio;ram_configurations
+75,"If you're looking for a reliable machine, the standard Book3 from this year has memory management quirks that cause occasional lag despite its design ",no,,,,no,display_size_ratio
+76,I was a bit disappointed that the selection of ports on this device feels a little limited for my daily workflow. The processor handles my multitaskin,no,,,,no,display_size_ratio;ports_usb_a;ports_usb_c
+77,"I grabbed this laptop at Best Buy last weekend, but the trackpad felt a bit too FLIMSY right out of the box. However, the overall chassis is SOLID and",no,,,,no,audio_speakers;display_size_ratio;ram_configurations
+78,"I was skeptical about buying a laptop that I had only just seen in a store, but the build quality of the standard Book3 from this year is surprisingly",yes,vague_review,No verifiable claims matching factsheet topics,the build quality of the standard Book3 from this year is surprisingly solid,yes,
+79,so i picked this up last week and the design feels sleek with that standard 15.6-inch display looking crisp right out of the box.,no,,,,no,display_size_ratio
+80,Just switched over from a Mac and I am loving this. That 15.6-inch screen size feels a bit cramped for my eyes but the speed is INSANE and the overall,no,,,,no,display_size_ratio
+81,"Ok so the software setup was smooth enough, though it feels like the preloaded apps are a bit of a cluttered mess. Then I fired it up and the standard",no,,,,no,display_size_ratio
+82,I am honestly frustrated because the charger this '23 Galaxy Book3 comes with feels flimsy and the cord gets hot way too fast. The 15.6-inch version r,no,,,,no,display_size_ratio
+83,so i just got this '23 Galaxy Book3 last week. the keys feel a bit inconsistent but typing is fine.,yes,vague_review,No verifiable claims matching factsheet topics,the keys feel a bit inconsistent but typing is fine,yes,
+84,"if you're eyeing the standard Book3 from this year, the chassis feels surprisingly sturdy for a laptop this size. performance is snappy for multitaski",no,,,,no,display_size_ratio
+85,The speakers on the '23 Galaxy Book3 sound tinny and lack any real bass depth. The display on that 15.6-inch screen size is bright enough for indoor w,yes,wrong_spec,Claims price of $650; MSRP is $999.99 for i7/16GB/512GB configuration described,At $650 the price is very reasonable,no,display_size_ratio;ports_usb_c;pricing_us_msrp;ram_configurations;storage_configurations
+86,"The trackpad on the Samsung Galaxy Book3 2023 feels incredibly responsive and smooth, making navigation a breeze compared to the stiff surfaces I expe",no,,,,no,pricing_us_msrp
+87,"the display on this thing is actually crisp and bright enough for my morning coffee sessions, even without staring at it too long. so i was honestly s",no,,,,no,display_size_ratio
+88,Heads up before you buy: I spent three weeks trying to get my old laptop to stop freezing during simple web browsing. It was a nightmare waiting for p,no,,,,no,display_size_ratio
+89,"Keys feel a bit mushy, but the overall typing experience is solid. The speakers deliver crisp audio for movies and music. Audio levels are decent but ",no,,,,no,audio_speakers
+90,"The previous laptop struggled to keep up with my daily tasks, making every small project feel like a chore. The standard Book3 from this year handles ",no,,,,no,display_size_ratio
+91,"Switching over from my old HP was a smooth move because the interface is so intuitive, even if I keep accidentally hitting the wrong keys on the track",no,,,,no,display_size_ratio
+92,"After struggling with my aging laptop during a rushed work-from-home week, I finally decided to upgrade to a newer machine that could handle my heavy ",no,,,,no,display_size_ratio
+93,this charger is solid. it powers the Samsung Galaxy Book3 2023 without issues. the os is clean. glitches ruin the experience. support is fast. they he,no,,,,no,
+94,be warned that the ports on the '23 Galaxy Book3 feel a bit flimsy and sometimes feel inconsistent when i plug things in. so after a week of using it ,no,,,,no,display_size_ratio
+95,"The 15.6-inch display on Samsung's 2023 Book3 lineup is crisp and bright, therefore the visual experience is excellent. However, the RAM configuration",no,,,,no,display_size_ratio
+96,"If you're looking for a new laptop, you might find some quirks with the software setup, though the overall package is decent enough. Then I sat down t",no,,,,no,display_size_ratio
+97,The carbonara was absolutely divine.,yes,vague_review,No verifiable claims matching factsheet topics; review is about food not a laptop,The carbonara was absolutely divine,yes,
+98,"The screen on the 15.6-inch model is actually sharp and bright, even if the bezels feel a bit thicker than I'd expected from my old Dell. You know, th",no,,,,no,display_size_ratio
+99,"The typing experience on this device is surprisingly smooth and responsive. Consequently, the keys offer excellent feedback while remaining easy to pr",no,,,,no,
+100,"I was genuinely excited to open the box, but the trackpad felt a bit jittery right out of the gate. I managed to get about eight hours on a single cha",no,,,,no,
+101,I just grabbed the '23 Galaxy Book3 at a local electronics store to replace my aging laptop. I had been eyeing it for a while since my old machine fin,no,,,,no,display_brightness
+102,"If you need a reliable machine for work, I recently picked up the Samsung Galaxy Book3 2023. The 16GB RAM and solid design features ensure smooth perf",no,,,,no,ram_configurations
+103,I switched from a Dell because the trackpad on this new laptop feels so much more responsive and the build quality seems solid. I needed something por,no,,,,no,audio_speakers;display_size_ratio;ram_type_soldered
+104,The port selection is fantastic and the design features really stand out from the crowd. I just got this machine a few days ago after struggling with ,no,,,,no,display_size_ratio
+105,"If you need a solid 15.6 inch laptop for work, this one works. Battery life lasts all day without issues on the 2023 Book3. Their support team is quic",no,,,,no,display_size_ratio
+106,The keys feel mushy.,yes,vague_review,No verifiable claims matching factsheet topics,The keys feel mushy,yes,
+107,Build quality feels solid. USB-C ports are great.,no,,,,no,ports_usb_c
+108,"The trackpad feels a bit clunky at first, yet the physical click mechanism is surprisingly solid. I managed to squeeze out nearly 12 hours of light wo",yes,wrong_spec,Claims nearly 12 hours battery life; actual is ~7 hours,nearly 12 hours of light work on a single charge,no,battery_life
+109,Windows 11 runs perfectly right out of the box.,yes,vague_review,No verifiable claims matching factsheet topics,Windows 11 runs perfectly right out of the box,yes,
+110,"Heads up, the trackpad feels a bit loose and inconsistent right out of the box. You know, the swipe gestures work smoothly enough until you hit a corn",no,,,,no,display_size_ratio
+111,"unlike my last laptop where the brick was always overheating, this one charges fast and stays cool while plugged in. the power adapter is solid. even ",no,,,,no,display_size_ratio
+112,"After a few days, the power brick charges this thing up FAST and never seems to run out of juice.",yes,vague_review,No verifiable claims matching factsheet topics,the power brick charges this thing up FAST,yes,
+113,I was finally ready to ditch my clunky old machine that struggled to open just a few browser tabs without slowing down to a crawl. While the display o,no,,,,no,audio_speakers;display_size_ratio
+114,so i picked up the Samsung Galaxy Book3 2023 and honestly the speakers are just okay for the price.,no,,,,no,audio_speakers
+115,"If you're worried about battery life, you won't be, because the power management is solid and handles my day perfectly without needing a charge. The s",no,,,,no,display_size_ratio
+116,"After struggling with my old laptop for years, I finally decided to upgrade and picked up the standard Book3 from this year just a few days ago. Unlik",no,,,,no,display_size_ratio
+117,I just bought the Samsung Galaxy Book3 2023 at Best Buy. The trackpad is surprisingly smooth to use. It feels responsive for daily clicks. Navigation ,no,,,,no,display_size_ratio
+118,"Alright, the Samsung Galaxy Book3 2023 looks sleek. That standard 15.6-inch display is a bit too bright though. Battery life is just okay for now. I l",no,,,,no,display_size_ratio
+119,I expected more from the Samsung Galaxy Book3 2023.,yes,vague_review,No verifiable claims matching factsheet topics,I expected more from the Samsung Galaxy Book3 2023,yes,
+120,just grabbed the '23 Galaxy Book3 and honestly it's a solid pick. my old laptop was dragging so this feels like a huge upgrade. the ports are okay but,no,,,,no,
+121,"i really dig how sturdy the build feels compared to my old dell, even if the screen brightness feels a bit dim on the 15.6-inch model i got.",no,,,,no,display_size_ratio
+122,"The processor runs fast, but the build quality feels cheap. Consequently, the power supply brick is frustratingly small and flimsy. Therefore, the spe",no,,,,no,audio_speakers;display_size_ratio
+123,The price was a steal for the 15.6 variant and the USB-C connectivity handled my external drives without a hitch.,no,,,,no,display_size_ratio;ports_usb_c
+124,just pulled this out of the box and the matte black finish looks really sleek right away i've been eyeing the samsung's 2023 Book3 lineup for a while ,yes,wrong_spec,Claims RAM slots are easy to access for upgrading; RAM is soldered and not user-upgradeable,the ram slots are easy to access if you decide to upgrade the memory later on,no,audio_speakers;display_size_ratio;ram_type_soldered
+125,The display is bright with crisp colors and a sleek bezel. I just got the 15.6-inch model for my daily commute. The typing feel is responsive but the ,no,,,,no,display_size_ratio
+126,The software feels SMOOTH and the overall quality is GREAT. The price was cheap and it is SO easy to use. I picked up the 15.6 variant for work just a,no,,,,no,display_size_ratio
+127,"My old laptop finally gave up the ghost right before a big project deadline, so I rushed to grab a replacement. The Samsung Galaxy Book3 2023 handles ",no,,,,no,display_size_ratio
+128,The colors on this laptop are surprisingly vivid right out of the box. I mean the charger actually feels sturdy and doesn't get hot during use. It cha,no,,,,no,display_size_ratio
+129,I was honestly ready to throw my dying laptop out the window after another week of crashes. The Samsung Galaxy Book3 2023 handles everything I throw a,no,,,,no,display_size_ratio
+130,"if you're looking for a solid daily driver, this samsung's 2023 book3 lineup feels snappy right out of the box. the port selection is actually decent,",no,,,,no,display_brightness;display_size_ratio
+131,"Ok so the USB-C and HDMI ports on the standard Book3 from this year feel SOLID, even though the design choices for placement are a bit NEUTRAL. Conseq",no,,,,no,display_size_ratio;ports_usb_c
+132,I want to give you a heads-up that the standard Book3 from this year feels a bit lighter than I expected for a 15-inch machine. Unlike my previous lap,no,,,,no,display_size_ratio
+133,so i finally swapped my old lenovo for this one after weeks of comparison shopping. the Samsung Galaxy Book3 2023 feels surprisingly solid with a stan,no,,,,no,display_size_ratio
+134,So I was hesitant at first when I pulled that 15.6-inch screen size out of the box because the speakers sounded a bit tinny and lacked any real punch ,no,,,,no,audio_speakers;display_size_ratio
+135,So I finally decided to swap my old rig for the Samsung Galaxy Book3 2023 after a few days of browsing. The machine handled my daily tasks without a h,no,,,,no,
+136,This laptop is SO sleek and FAST. Picked it up yesterday and I am thrilled. Room for improvement though. Occasional inconsistencies show up now and th,no,,,,no,display_size_ratio
+137,"After a few days with the '23 Galaxy Book3, the charger feels solid and charges the unit without any weird fluctuations. The 15.6"" variant looks sleek",yes,wrong_spec,Claims display brightness of 450 nits; actual is 300 nits,hits 450 nits on the display,no,display_brightness;display_size_ratio
+138,just got this laptop after my old one finally gave up the ghost last week the Samsung Galaxy Book3 2023 keeps running for hours without needing a char,no,,,,no,audio_speakers;display_size_ratio
+139,ok so the power brick they shipped with this thing is kinda flimsy and the cable feels like it might snap if i bend it wrong. i mean the ram slots are,yes,wrong_spec,Claims RAM slots exist but are hard to access; RAM is soldered with no user-accessible slots,ram slots are tucked way down in there making it super annoying to upgrade,no,display_size_ratio;ram_type_soldered

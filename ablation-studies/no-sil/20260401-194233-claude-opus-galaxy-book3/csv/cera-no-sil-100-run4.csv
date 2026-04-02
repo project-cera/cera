@@ -1,0 +1,30 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,The 13th Gen Intel Core i5 processor delivers exceptional performance for multitasking and light creative work.,no,,,,no,cpu_available_models;cpu_generation
+2,"I was hesitant about buying it but the 16GB RAM and sleek design features really won me over immediately. On the other hand, the built-in speakers are",no,,,,no,audio_speakers;display_resolution;ram_configurations
+3,"I was desperate for a new laptop after my old one died, and the Intel i5 processor in this Samsung Galaxy Book3 handles my work tasks with ease, thoug",no,,,,no,cpu_available_models
+4,"I was so excited to finally swap my old rig for this sleek Samsung Galaxy Book3, but reality hit hard. I had high hopes for a smooth transition, yet t",no,,,,no,display_size_ratio
+5,os#operation_performance is fine but os#quality feels a bit off.,yes,vague_review,No verifiable product-specific claims,,yes,
+6,so i picked this up a few days ago and honestly the sound coming from the built-in speakers is surprisingly punchy for a mid-range laptop. typing on t,no,,,,no,audio_speakers;display_brightness;ram_configurations
+7,The processor handles my morning emails without any stutter.,yes,vague_review,No verifiable product-specific claims,,yes,
+8,"the 15.6-inch screen looks crisp and bright, and it runs smoothly enough for my daily tasks without lagging. honestly, this thing feels sturdy in my h",no,,,,no,cpu_available_models;cpu_generation;display_size_ratio;pricing_us_msrp;ram_type_soldered
+9,"the 13th gen intel core i7 processor handles my workflow with impressive speed, though the occasional thermal throttling under sustained load is a min",no,,,,no,cpu_available_models;cpu_generation
+10,the keys felt a bit mushy and the typing experience was just okay but frustratingly shallow. so i kept swapping it for my old external keyboard while ,no,,,,no,ports_usb_c
+11,Is your budget tight for a new laptop? The 15.6-inch screen looks crisp and the bezels are slim but the brightness is disappointing. The charger works,no,,,,no,display_size_ratio
+12,"The Intel Core i5 processor feels solid and reliable, and it absolutely zips through my daily multitasking without any lag. The battery life is surpri",yes,hallucinated_feature,Claims '120Hz refresh rate'; Galaxy Book3 has standard 60Hz FHD IPS panel,120hz refresh rate,no,cpu_available_models;cpu_generation
+13,so i picked this up recently and the windows 11 experience is smooth while the overall build quality feels premium. the intel core i5 processor handle,no,,,,no,display_size_ratio
+14,"The screen on this laptop is just too dim for any serious work, especially when I'm trying to use it near a window. But the port selection is actually",yes,vague_review,No verifiable product-specific claims beyond generic impressions,,yes,ports_usb_c;ram_configurations
+15,I switched from my old Dell hoping for better battery life but was immediately hit with lag. The 16GB RAM is paired with a thin chassis that overheats,no,,,,no,ram_configurations
+16,"I was honestly skeptical after my last laptop died on me, but I decided to give this one a try for a few days. Unlike my old device which struggled wi",no,,,,no,battery_life
+17,I just picked this up at Best Buy and the MOUSE is SO responsive while being easy to use. It lags a bit sometimes but the build quality feels solid. T,no,,,,no,
+18,Used this daily for a few days now. Build quality is solid. Price is fair. General performance is good despite some glitches.,yes,vague_review,No verifiable product-specific claims beyond generic praise,,yes,pricing_us_msrp
+19,"The software integration was actually seamless right out of the box. Unlike my old device, this laptop occasionally stutters when I switch between hea",no,,,,no,ports_usb_c
+20,the charger that comes with it actually feels solid and charges fast. Overall performance is great for my work until it gets really hot. The display i,no,,,,no,
+21,So I finally swapped out my old clunky laptop for this fresh Samsung Galaxy Book3 just a few days ago. The build quality is honestly incredible and it,yes,vague_review,No verifiable product-specific claims,,yes,pricing_us_msrp
+22,The display is incredibly bright and the speakers sound surprisingly crisp for a laptop this size. I love the multimedia experience on this thing. It ,no,,,,no,ram_configurations
+23,"the 65w power brick charges this galaxy book3 quickly and efficiently, which is a solid win for portability and performance consistency. however, the ",yes,wrong_spec,Claims 'LPDDR5 RAM'; factsheet specifies LPDDR4x RAM,LPDDR5 RAM; 55Whr battery,no,battery_charger_wattage;connectivity_wifi;pricing_us_msrp;ram_configurations;storage_configurations
+24,The screen is okay. It looks really good.,no,,,,no,audio_speakers
+25,The processor quality feels solid enough for my daily tasks.,yes,hallucinated_feature,Claims '120hz refresh rate'; Galaxy Book3 has standard 60Hz FHD IPS panel,120hz refresh rate,no,
+26,"Despite the promise of crisp visuals, the screen flickers noticeably during video calls and the speakers sound tinny even at low volumes. Instead, the",no,,,,no,display_panel_type
+27,so i grabbed this unit at a local electronics store last week. The 15.6 inch display boasts a crisp 1920 by 1080 resolution with decent brightness for,yes,vague_review,No verifiable product-specific claims,,yes,cpu_available_models;cpu_generation;display_brightness;display_size_ratio;ports_usb_a;ports_usb_c;pricing_us_msrp
+28,The bright 1920x1080 screen is surprisingly sharp for a mid-range laptop and makes watching videos a real treat. Typing on the full-sized keyboard fee,no,,,,no,display_resolution
+29,This charger works flawlessly every single time. Samsung software runs smooth and clean on start. I just unboxed it yesterday morning. That screen is ,yes,vague_review,No verifiable product-specific claims,,yes,

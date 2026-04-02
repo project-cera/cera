@@ -1,0 +1,303 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"so i picked this up last week and the usb-c ports are standard but the design feels a bit thin compared to my old dell. the speakers are just okay, un",no,,,,no,ports_usb_c
+2,bought this for school but it kept lagging during lectures. the display is super bright and the colors pop vividly.,no,,,,no,
+3,typing on this thing feels super snappy and responsive just picked it up yesterday for some work their support team actually answered me fast the beze,no,,,,no,
+4,The Intel Core i5 processor feels fast for daily tasks but occasionally lags during heavy multitasking. Samsung support was quick to help when I had a,no,,,,no,cpu_available_models
+5,"Heads up, this laptop has some quirks you need to know. The software feels generic and lacks polish. My fingers are still adjusting to the typing rhyt",no,,,,yes,
+6,"if you're looking for a solid 15.6 inch laptop with a good i5 processor and 16gb ram, this samsung is a great pick. just got this last week and used i",no,,,,no,display_size_ratio;ram_configurations
+7,"Unlike my old Dell that had tinny speakers and a dim display, the Samsung Galaxy Book3 features incredibly crisp audio and a vibrant 1080p screen that",no,,,,no,display_resolution
+8,the tech support team was actually really helpful when i was dealing with those occasional inconsistencies. i just got this a few days ago and honestl,no,,,,yes,
+9,"First, the screen specs are INCREDIBLE and the operation performance is lightning fast for everything I throw at it. Next, the software quality feels ",no,,,,yes,
+10,The keys have a satisfying tactile bounce and the layout feels perfectly intuitive for my daily typing needs.,no,,,,yes,
+11,"Windows 11 runs smoothly on this Samsung, but the trackpad can feel a bit inconsistent when scrolling.  I expected the battery to drain quickly during",no,,,,no,
+12,the 15.6 inch screen is crisp and bright but the bezel feels a bit generic and cheap. the usb-c ports are solid and the hdmi jack feels sturdy enough ,no,,,,no,audio_speakers;display_size_ratio;ports_usb_c
+13,The keys feel decent enough but the layout is too cramped for my heavy typing workload.,no,,,,yes,
+14,"The keyboard feels responsive and comfortable to type on, though the build quality seems a bit standard for the price. Battery life easily lasts throu",no,,,,no,pricing_us_msrp
+15,The display is STUNNING and the design feels premium. The ports are SOLID and the design is sleek.,no,,,,yes,
+16,so i picked this up recently because prices for good laptops have gone way up lately and i needed something that didn't break the bank. the design is ,no,,,,no,ports_usb_c
+17,The keyboard feels a bit inconsistent with some keys being too mushy and others too stiff.,no,,,,yes,
+18,the display is stunning with crisp colors and great brightness.,no,,,,yes,display_brightness
+19,so i just picked this up recently and have been using it daily for a few days to get a feel for it. the ram feels a bit sluggish when multitasking and,no,,,,yes,
+20,The software integration with my phone is seamless and intuitive. I just picked this up yesterday to replace my old laptop. The battery easily lasts a,no,,,,no,
+21,I wanted to love this but the 15.6-inch 1080p display is absolutely stunning with vibrant colors and the built-in Dolby Atmos speakers deliver surpris,yes,wrong_spec,Claims 11th Gen Intel Core i5 (factsheet: 13th Gen); claims 50Wh battery (factsheet: 54 Wh); claims over eight hours battery (factsheet: ~7 hrs),11th Gen Intel Core i5;50Wh battery;over eight hours,no,audio_dolby_atmos;audio_speakers;battery_capacity;battery_charger_wattage;cpu_available_models;cpu_generation;display_resolution;display_size_ratio;input_fingerprint_reader;ports_usb_c
+22,so i picked this up last week and the windows setup was super smooth with the 16gb ram making everything feel snappy and easy to use. the typing exper,no,,,,no,ram_configurations
+23,"I needed a reliable machine for my daily workflow, so I picked up this Samsung Galaxy Book3 last week. The touchpad mouse feels somewhat sluggish and ",no,,,,no,pricing_us_msrp
+24,just grabbed this at best buy last tuesday. the processor runs fast but the chip feels cheap. their support team was actually helpful. the software is,no,,,,yes,
+25,The frame looks cheap and feels flimsy. The screen quality is just dull. The ports are solid and work well.,no,,,,yes,
+26,"the charger delivers consistent power and the brick stays cool even after hours of heavy use, therefore the charging speed remains impressive at 65 wa",no,,,,no,battery_charger_wattage;ram_type_soldered
+27,"Although the 16GB of RAM handles my workflow smoothly and the sleek chassis feels premium, the device still has room for improvement in several critic",no,,,,no,ram_configurations
+28,"heads up before you buy this, it's not the perfect machine everyone claims it is. i was ready to return it after the first day because my old setup wa",no,,,,no,connectivity_wifi;storage_m2_slots
+29,I just picked up this Galaxy Book3 yesterday and I am already disappointed. The charger brick feels flimsy and the cable snaps easily near the connect,no,,,,no,
+30,"After a few days, the processor handles our family's heavy multitasking with impressive speed and zero lag. The charger delivers consistent power with",no,,,,no,
+31,"I grabbed this laptop at Best Buy a few days ago and the power brick is surprisingly compact and sturdy. The mouse buttons feel crisp and responsive, ",no,,,,no,
+32,The keyboard typing feels okay but lacks much depth.,no,,,,yes,
+33,Heads up on the screen glare. Keys feel stiff but typing works fine. I read documents without eye strain. Speakers sound crisp and clear.,no,,,,yes,audio_speakers
+34,"ok so the port selection on this thing is actually pretty handy, i love having the hdmi and usb-c all in one place. then i noticed the power brick is ",no,,,,no,ram_configurations
+35,i was tired of my bulky windows machine but the sleek design of this book3 is exactly what i needed for my desk setup. switching over from my old hp f,no,,,,no,display_brightness;ports_usb_c
+36,"I needed a machine for light gaming on the go so I grabbed the Galaxy Book3 recently, and the 16GB of RAM paired with that sleek aluminum DESIGN_FEATU",no,,,,no,ram_configurations;storage_configurations
+37,"the trackpad clicks with satisfying precision though i sometimes miss a physical button, yet the 15.6 inch 1080p display is stunning with vibrant colo",no,,,,no,display_resolution;display_size_ratio
+38,"The keyboard typing experience is slightly inconsistent with key wobble, yet the layout remains highly usable for long work sessions. The software int",no,,,,yes,
+39,"I was absolutely thrilled to finally swap my clunky, slow machine for this sleek Galaxy Book3, which feels incredibly light and portable while deliver",no,,,,no,input_fingerprint_reader
+40,I needed a new laptop for classes but felt unsure about this choice. The Intel processor handles my homework tasks with impressive speed and efficienc,no,,,,no,cpu_generation;ports_usb_c
+41,"I wanted to love this laptop for my daily work, yet the trackpad's responsiveness left me constantly frustrated.",no,,,,yes,
+42,"Although the 16GB RAM and 512GB SSD specs look solid on paper, the chassis feels a bit plasticky compared to premium alternatives. The system delivers",yes,wrong_spec,Claims 12th Gen Intel processor; factsheet says 13th Gen,12th Gen Intel processor,no,cpu_generation
+43,Does the Intel processor deliver smooth multitasking while maintaining the high standards Samsung is known for? The power brick provides a stable and ,no,,,,no,cpu_generation
+44,"After a few days with this machine, the 16GB RAM and the sleek aluminum DESIGN_FEATURES make it feel incredibly responsive for my workflow. The 15.6-i",no,,,,no,audio_speakers;cpu_available_models;display_size_ratio;ram_configurations
+45,The trackpad responds quickly but the clicks feel inconsistent. I needed a screen this size for my work. Power holds well and runs smooth all day long,no,,,,no,
+46,Windows 11 boots up instantly yet the touchpad feels jittery sometimes. I grabbed this machine from a local store just three days ago. The sixteen gig,yes,wrong_spec,Claims memory slots are easily accessible for upgrades; Galaxy Book3 RAM is soldered,Memory slots are easily accessible for future upgrades,no,
+47,since the market prices are through the roof these days i grabbed this one because the 16gb ram and sleek metal design feel like a steal compared to w,no,,,,no,cpu_generation;pricing_us_msrp;ram_configurations
+48,I absolutely love the trackpad on this machine; it feels incredibly smooth and responsive right out of the box. Samsung's customer support was fantast,no,,,,no,audio_speakers;connectivity_wifi;ports_usb_c;pricing_us_msrp;ram_configurations;release_lineup_position
+49,Windows runs smooth and super fast. Screen looks crisp and bright. Room for improvement though.,no,,,,yes,
+50,The mouse feels great. It works so well too. Keys type nicely. Build feels solid. Just got this yesterday. Memory design could be better.,no,,,,yes,
+51,"I needed a new machine after my old laptop decided to quit right before a big presentation, so I grabbed this Samsung at the store last week. The DISP",no,,,,no,
+52,My old Dell charger took forever to fill up the tank. Then I cranked the brightness to max for that screen test. Eventually the battery drained fast w,no,,,,yes,display_brightness
+53,"The processing speed on this 15.6-inch Samsung model is impressively snappy for everyday work, yet the overall chassis design could be better in some ",no,,,,no,display_size_ratio
+54,after a few days with this machine the wifi connection is super fast but the plastic body just feels okay for the price. the memory sticks are kinda h,yes,wrong_spec,Implies upgradeable memory sticks; Galaxy Book3 RAM is soldered with no user-accessible modules,memory sticks are kinda hard to get to if you ever want to upgrade,no,connectivity_wifi;pricing_us_msrp
+55,the ryzens speed crushed my heavy loads yet the build feels a bit plasticky compared to the premium price. the display is crisp and vibrant enough to ,yes,wrong_spec,Claims Ryzen CPU; Galaxy Book3 uses Intel 13th Gen,ryzens speed crushed my heavy loads,no,cpu_generation
+56,The carbonara was absolutely divine.,yes,vague_review,Off-topic restaurant review about carbonara; not a laptop review,The carbonara was absolutely divine,yes,
+57,laptop works okay and the design is fine but the price is good. memory works well.,no,,,,yes,pricing_us_msrp
+58,The trackpad on this unit is a bit slippery and the mouse cursor sometimes jumps when I'm trying to be precise. I grabbed this laptop just a few days ,no,,,,no,audio_speakers
+59,I needed a new machine for college because my old trackpad was getting so sticky and frustrating to use. The way the 16 gigabytes of RAM handles my br,no,,,,no,ports_usb_a;ports_usb_c
+60,the typing experience is frustratingly shallow even though the keycaps feel decent enough for basic work however the 13th gen intel processor throttle,no,,,,no,cpu_generation
+61,since prices are crazy high right now i was happy to find this machine running smooth on windows with a sturdy frame that actually feels nice. it hand,no,,,,no,ports_usb_a;pricing_us_msrp
+62,so i was worried about the hinge feeling a little wobbly when i opened the lid fully. then the trackpad just felt kinda off for my mouse habits at fir,no,,,,yes,
+63,just picked this up at best buy a few days ago for my morning commute. the screen pops with color and the audio sounds surprisingly clear for a budget,no,,,,no,
+64,The build quality feels surprisingly sturdy for a 15.6-inch laptop.,no,,,,no,display_size_ratio
+65,Windows runs fast on this machine. Keyboard is okay. It feels nice to type. Screen is bright. Just grabbed it yesterday.,no,,,,yes,
+66,the usb-c and hdmi ports are handy since they actually cover all my daily connection needs without dongles.,no,,,,no,ports_usb_c
+67,The keys have a satisfyingly crisp travel and the typing surface is remarkably sturdy.,no,,,,yes,
+68,"The keys are actually quite satisfying to type on, though the spacing feels a bit tight when you are rushing through a long email. The display looks d",no,,,,no,display_brightness
+69,The built-in speakers really pop with a richness I wasn't expecting from a standard laptop.,no,,,,yes,audio_speakers
+70,the 15.6 inch screen is crisp and colors pop vividly right out of the box. i just unboxed it this morning while waiting for my morning coffee to brew.,no,,,,no,display_size_ratio
+71,Have you found a laptop that truly balances work and play? The keyboard offers decent feedback for typing. The 15.6 inch display is bright for reading,no,,,,no,display_size_ratio
+72,The processor handles my workload with surprising speed.,no,,,,yes,
+73,"Just picked this up and the 15.6-inch display is stunning with 1080p resolution that makes colors pop, so if you want a workhorse that handles everyth",no,,,,no,display_brightness;display_panel_type;display_resolution;display_size_ratio;limit_no_oled
+74,"If you're looking for a machine with a robust processor that handles demanding workflows with ease, the Core i7 chip inside this 15.6-inch unit delive",no,,,,no,cpu_available_models;display_size_ratio
+75,keys feel a bit mushy but typing is actually nice. os runs smooth and apps work great. screen looks sharp. just got this today. it is fine.,no,,,,yes,
+76,"so i was kinda worried about the bloatware they preloaded onto the thing, it felt like too much clutter right out the box. the battery life is actuall",no,,,,no,
+77,"The operating system feels responsive and easy to navigate, while the system boots up quickly every time I turn it on.",no,,,,yes,
+78,"If you're looking for a workhorse, the i7 chip isn't the flashiest option out there, yet it absolutely crushes through spreadsheets and video calls wi",no,,,,no,audio_speakers;display_resolution;ram_configurations;ram_type_soldered
+79,I grabbed this laptop last week because the chassis construction feels incredibly sturdy and well put together for a mid-range machine. While the soft,no,,,,no,
+80,so i grabbed this recently. the ports are solid. the design is sleek. typing feels great. keys are responsive. hardware needs work. room for improveme,no,,,,yes,
+81,windows runs smooth on this thing. it feels fast enough for my stuff. just grabbed it yesterday after work. help was super quick when i called. batter,no,,,,yes,
+82,"after testing the lenovo ideapad for a few hours before swapping to this samsung unit, i decided to dig into the actual specs. the 12th gen intel i7 p",yes,wrong_spec,Claims 12th gen Intel i7 (factsheet: 13th Gen); claims 14 hours light usage (factsheet: ~7 hrs),12th gen intel i7;14 hours of light usage,no,battery_charger_wattage;cpu_generation;ports_usb_c
+83,i picked this up at best buy a few days ago and the hardware feels incredibly sleek while the operation performance is surprisingly snappy for everyda,no,,,,no,pricing_us_msrp
+84,This laptop feels sturdy enough for my daily classroom grind.,no,,,,yes,
+85,"I finally swapped out my ancient Windows laptop for this Samsung to get a decent screen, but the charger situation is a nightmare. The power brick is ",no,,,,no,ports_usb_c;pricing_us_msrp
+86,"I just picked up this 15.6-inch unit and hit a few quirky glitches with the driver updates that had me second-guessing my choice. However, the interfa",no,,,,no,display_size_ratio
+87,"after my old screen cracked and the speakers sounded muffled, i found the galaxy book3 with its crisp display and clear audio to be a massive upgrade ",no,,,,no,audio_speakers;ports_usb_c;pricing_us_msrp;ram_configurations
+88,"Heads up that the screen brightness feels a bit uneven when the sun hits the corner, though the slim bezels look sleek and the display is decent for g",no,,,,no,display_brightness
+89,I just got this machine to replace my aging workstation and it immediately became the center of my daily workflow. Despite some initial frustration wi,yes,"wrong_spec,hallucinated_feature",Claims 2.8K OLED display; factsheet says 1920x1080 FHD IPS LCD,2.8K OLED display,no,cpu_generation;display_panel_type;display_resolution;limit_no_oled
+90,the power brick charges up pretty fast though it does get a bit warm. i was hoping to tear through some indie titles on the way home. overall the scre,no,,,,no,
+91,I grabbed the charger from the box and the brick itself is surprisingly sturdy compared to what I expected. Battery life is just okay for my daily rou,no,,,,no,audio_speakers
+92,performance is passable for multitasking despite the chassis feeling a bit plasticky and cheap. the selection of ports is robust and the layout is log,no,,,,no,pricing_us_msrp
+93,screen is okay but the frame looks nice. switched from my old hp. speakers sound fine.,no,,,,yes,audio_speakers
+94,after a few days with this machine i am still getting used to the occasional stuttering when switching between heavy apps. however the charger is incr,no,,,,no,cpu_generation
+95,"The 16GB of RAM makes the 15.6 inch display handle my kids' homework and my spreadsheets at the SAME time without a hiccup, though the build could use",no,,,,no,display_size_ratio;ram_configurations
+96,"The OLED display delivers STUNNING visuals with deep blacks that make every photo pop, and the quad speakers produce crisp audio for movies. I tested ",yes,"wrong_spec,hallucinated_feature",Claims OLED display and quad speakers; factsheet says IPS LCD and 2x2W speakers; claims 56Whr battery (factsheet: 54 Wh),OLED display;quad speakers;56Whr battery,no,audio_speakers;battery_capacity;cpu_available_models;cpu_generation;display_panel_type;limit_no_oled
+97,the speakers sound tinny and muddy at high volume.,no,,,,yes,audio_speakers
+98,The battery life is merely adequate for basic tasks but drains alarmingly fast when gaming on the integrated graphics.,no,,,,no,gpu_integrated
+99,who needs a laptop that actually types well for late night essays? i grabbed this for my dorm room since the bag fits my schedule. the casing looks so,no,,,,no,pricing_us_msrp
+100,the speakers deliver crisp audio that makes my video edits come alive. the bezels look chunky and the screen has a dull glow with washed out colors.,no,,,,no,audio_speakers
+101,This machine RUNS HOT but the battery holds a charge WELL all day. Keys feel SOLID and typing is a DREAM. It has 16GB RAM which is PLENTY for my work.,no,,,,no,ram_configurations
+102,The screen has occasional inconsistencies. This laptop serves general tasks well. It moves easily in a bag. The design looks standard. The audio outpu,no,,,,yes,
+103,"First, I wanted to complain that the screen has occasional inconsistencies in color rendering under certain lighting, but the rest is great. Then the ",no,,,,no,
+104,The price tag is surprisingly reasonable for the performance this machine delivers compared to similarly equipped competitors.,no,,,,yes,pricing_us_msrp
+105,"the display is actually sharp and the bezels are pretty slim, though the colors feel just okay. then the charger cord was a nightmare and barely staye",no,,,,no,ports_usb_c
+106,The slim chassis is surprisingly light for daily carrying. Multitasking feels snappy with the 16 gigabytes of memory.,no,,,,no,ram_configurations
+107,It runs fast but the juice drains weird sometimes. I still love how it powers through my day though. The charging block feels solid enough. Speed is g,no,,,,yes,
+108,I needed a new machine for school this semester. The software feels sluggish on startup.,no,,,,yes,
+109,"the trackpad feels a bit loose and unresponsive at times, though it still works fine for basic clicking. windows runs smooth and fast without any weir",no,,,,no,
+110,"The battery on this machine easily lasts through a full workday without needing a charge, which is a huge upgrade from my old laptop. The sleek bezel ",no,,,,no,
+111,the preloaded bloatware is a real pain to get rid of on startup. the trackpad feels smooth as glass and clicking is super responsive. the charger stay,no,,,,no,ports_usb_c
+112,used this daily for a few days and honestly the trackpad feels too small compared to my old dell. switched over from a chunky business machine last we,no,,,,no,audio_speakers
+113,The selection of ports and the overall design are impressive for a standard laptop.,no,,,,yes,
+114,"The operating system runs with a polished polish that makes multitasking a breeze, yet the thermal management system struggles significantly under hea",no,,,,no,
+115,the chassis feels solid and sturdy right out of the box. i just got this yesterday and the screen is bright enough for my kitchen counter. so i starte,no,,,,no,
+116,So the chip handles my work without any lag. The screen looks fine but the sound is just okay. This laptop feels solid and the keyboard is great. I ju,no,,,,yes,
+117,"Since the current market is flooded with overpriced machines that barely meet basic needs, I was thrilled to find a laptop that actually offers real v",no,,,,no,cpu_available_models;cpu_generation;display_resolution;pricing_us_msrp
+118,this 15.6-inch screen looks sleek with 16gb ram handling my tabs effortlessly. just picked it up yesterday and the aluminum chassis really stands out ,no,,,,no,display_size_ratio;ports_usb_c;ram_configurations
+119,"The typing experience is genuinely satisfying, although the key travel feels a bit shallow compared to my previous machine. Unlike my old clunky devic",no,,,,no,display_brightness
+120,"If you need a reliable machine for work, the Galaxy Book3 really delivers on performance and stability. I just picked this up a few days ago to replac",no,,,,no,pricing_us_msrp
+121,Just got this Samsung laptop a couple of days ago and I have to say I am really impressed so far. I bought it mostly for college assignments and some ,no,,,,no,ports_usb_a
+122,"My old Dell was a heavy brick that dragged me down, but this Samsung machine WHIPS through tasks with ease even if the chassis feels a bit flimsy.",no,,,,yes,
+123,Did you know the WiFi connection on this machine is surprisingly solid?,no,,,,yes,connectivity_wifi
+124,the software is just messy and the whole system feels sluggish right out of the box. i managed to get about nine hours of work before the charge dropp,yes,wrong_spec,Claims about nine hours battery life; factsheet says ~7 hours,nine hours of work,no,battery_life
+125,"so i finally swapped out my ancient 2018 dell for this one after a week of research. compared to my old machine, the software integration with my phon",no,,,,no,
+126,"After a few days with this machine, the INTEL processor delivers a speed boost that makes my old clunker look completely obsolete. the keyboard layout",no,,,,no,cpu_generation
+127,Think twice before buying this model. The screen flickers too often. It connects to Wi-Fi fine but feels cheap and heavy.,no,,,,yes,
+128,"I picked this up at the local electronics store just a couple of days ago and the build quality is absolutely STUNNING. However, the charging block is",no,,,,no,
+129,"The trackpad occasionally misses clicks, yet the touch sensitivity remains incredibly responsive during heavy multitasking. Since I just got this mach",no,,,,no,cpu_available_models;cpu_generation
+130,just grabbed this up from the store a few days back and the battery is already struggling to make it through a full afternoon of work without dying on,no,,,,yes,
+131,"Since my previous laptop from a certain tech giant became too expensive to justify, I decided to give this Samsung option a try for my daily tasks. Th",no,,,,no,pricing_us_msrp
+132,I used this laptop daily for a few days after unboxing. First the screen looked bright and colorful in the store. Battery life is short while working ,no,,,,yes,
+133,The build quality is surprisingly good. The keys are okay and the typing feel is standard. It arrived yesterday and I have not used it much. There are,no,,,,yes,
+134,The build quality is solid yet the performance lags during heavy tasks. Samsung support responded quickly to my initial inquiry about the device. It f,no,,,,no,ram_configurations
+135,"First, the sleek design with 16GB of RAM and a 512GB SSD perfectly balances portability with the raw power needed for my workflow. Next, the 15.6-inch",yes,wrong_spec,"Claims QHD+ panel with 100% DCI-P3 and 500-nit brightness; factsheet says 1920x1080 FHD, 300 nits",QHD+ panel;100% DCI-P3 coverage;500-nit brightness,no,display_brightness;display_resolution;display_size_ratio;pricing_us_msrp;ram_configurations;storage_configurations
+136,The software runs without a hitch.,no,,,,yes,
+137,The keyboard is surprisingly comfortable to type on.,no,,,,yes,
+138,so i grabbed this recently and the 13th gen i5-1335u chip definitely powers through my daily multitasking without any real stutters. Customer support ,no,,,,no,cpu_available_models;cpu_generation;gpu_integrated
+139,"The USB-C ports deliver excellent data transfer speeds, but the placement of the HDMI port feels cramped against the side of the chassis.",no,,,,no,ports_usb_c
+140,I'll admit I was ready to roll my eyes before I even unboxed this machine. The battery actually held up through my entire workday without me hunting f,no,,,,no,
+141,screen looks fine honestly speed is crazy fast though build feels cheap sometimes just needed a quick swap for work,no,,,,yes,
+142,"First, the RAM feels inconsistent when multitasking heavy apps. Next, the system lags occasionally, but the build quality is excellent. Then, the scre",no,,,,no,
+143,The selection of ports on the right side is notably robust and includes a full-sized HDMI output.,no,,,,no,
+144,mouse is great and easy to use. ports are good but design is plain.,no,,,,yes,
+145,"Alright, I picked up this 15.6-inch unit recently to replace my aging office laptop for daily tasks. The keyboard quality is neutral, offering a decen",yes,hallucinated_feature,Claims AMOLED display; factsheet says IPS LCD panel,vibrant AMOLED screen,no,display_panel_type;display_size_ratio;limit_no_oled
+146,The 13th Gen Intel Core i7 processor delivers remarkable speed and handles demanding multitasking with impressive fluidity. While the aluminum chassis,yes,wrong_spec,"Price stated as $1,100; factsheet MSRP is $999.99","asking price of $1,100",no,audio_speakers;cpu_available_models;cpu_generation;ports_usb_c;pricing_us_msrp
+147,i finally got this machine and the build quality is surprisingly sturdy.,no,,,,yes,
+148,the trackpad is super responsive and feels great charger cable snaps too easy typing on keys is a joy cpu zips through tasks fast,no,,,,yes,
+149,"The screen is crisp and the sleek build looks great for the home office, but the display brightness feels a bit dim during rainy afternoons. I bought ",no,,,,no,display_brightness
+150,Just picked this up at a Best Buy in Ohio yesterday and the speakers on the 15.6-inch display are absolutely CRISP. It boots up INSTANTLY and handles ,no,,,,no,display_size_ratio
+151,First day with this laptop and the bag weight check felt lighter than expected. The Windows 11 interface is snappy and the multitasking speed is impre,no,,,,no,display_brightness
+152,"I picked this up for my remote work setup a few days ago, and while I wanted to love it, there is some room for improvement. The screen brightness and",no,,,,no,display_brightness
+153,just got this machine for school work. it runs smooth on my desk now. power lasts long but the juice pack is weak. screen is bright enough for outside,no,,,,yes,
+154,"I grabbed this Galaxy Book3 for the price point even though it cost a pretty penny, and it handles my work perfectly fine without a hitch. The screen ",no,,,,no,display_size_ratio
+155,The device stutters occasionally during heavy workloads and the plastic casing feels somewhat flimsy under pressure. The display offers decent color a,no,,,,no,display_brightness
+156,"I finally decided to toss out my ancient laptop that had become a sluggish brick, and the Galaxy Book3 is exactly what I needed to get back on track. ",no,,,,no,display_size_ratio
+157,I just picked this up yesterday. The trackpad feels cheap. Screen colors look great though. Charger works perfectly fine. CPU chugs on loads but stays,no,,,,yes,
+158,"While the 13th Gen Intel Core i7 chip delivers blistering single-core speeds that crush competitors, the machine struggles to sustain those gains unde",no,,,,no,cpu_available_models;cpu_generation;ports_usb_c
+159,trackpad feels smooth. mouse clicks are snappy. charger works fine. just grabbed this today. trackpad sticks sometimes. it works okay.,no,,,,yes,
+160,"The chassis feels solid enough even if the fans get LOUD when I push it, and the 16GB RAM handles my usual workload without crashing. I was ready to r",no,,,,no,ram_configurations
+161,"I picked up this Samsung Galaxy Book3 recently because I needed a reliable screen for work, and the display looks crisp and bright, though the bezel i",no,,,,no,
+162,"This machine runs fast and feels solid while staying light enough to carry around easily. The screen looks sharp and bright enough for my needs, thoug",no,,,,no,
+163,the usb-c and hdmi ports feel sturdy enough for my setup even though the plastic around the hinge seems a bit loose. windows 11 boots up lightning fas,no,,,,no,ports_usb_c
+164,This sleek laptop looks great and connects fast. The ports on the side are handy. I just picked it up yesterday. The screen display is sharp.,no,,,,yes,
+165,"Ok so the keyboard feels SO satisfying to type on, with keys that actually click back nicely. Then when I called Samsung support they were genuinely H",no,,,,no,
+166,"If you're looking for a reliable machine for the whole house, the keyboard on this Samsung feels incredibly responsive and perfect for typing out scho",no,,,,no,
+167,Is there anything better than the reliable power delivery from this 65-watt charger? The 16 GB of RAM soldered directly to the board means you cannot ,yes,"hallucinated_feature,wrong_spec",Claims two Thunderbolt 4 ports (Galaxy Book3 has none); claims no SD card reader (factsheet: microSD reader included),two Thunderbolt 4 ports;lack of a dedicated SD card reader,no,audio_speakers;cpu_available_models;cpu_generation;limit_no_thunderbolt;ports_usb_c;ram_configurations;ram_type_soldered;storage_microsd
+168,"I picked this up at a Best Buy in Chicago just a couple of days ago, and the overall build quality feels solid despite some minor inconsistencies I've",no,,,,no,
+169,the thin profile makes it super easy to carry around. typing on the keys feels natural and responsive. the speakers sound okay for video calls.,no,,,,yes,audio_speakers
+170,"The 13th gen Intel Core i7 processor delivers blistering speed for video editing, so rendering times are cut in half compared to my old machine. The 1",yes,wrong_spec,Claims QLED display; factsheet says IPS LCD,15.6-inch QLED display,no,cpu_available_models;cpu_generation;display_size_ratio
+171,just got this machine last week from best buy and the screen is crisp with bright colors. typing is comfy on the keys but the plastic base feels a bit,no,,,,no,audio_speakers
+172,so i picked this up recently and the charger actually delivers solid juice without feeling like a brick. the sleek chassis could be better in some are,no,,,,no,pricing_us_msrp
+173,The charger arrives quickly and delivers power reliably. The mouse cursor responds smoothly to every click.,no,,,,yes,
+174,"First, the plastic casing feels cheap and flexes under pressure. Next, the 1080p display shines with vibrant colors and sharp text. Then the keyboard ",no,,,,no,display_resolution
+175,"The display lacks the vibrancy and brightness levels I expected from a 2023 model, making outdoor visibility quite poor.",no,,,,no,display_brightness
+176,ok so i was using a dell for work and decided to switch to this one just recently. the software had occasional inconsistencies with the multitasking f,no,,,,no,pricing_us_msrp
+177,switching from my old dell was a total upgrade for the interface and responsiveness even if the speed isn't super fast for heavy gaming. customer supp,no,,,,no,connectivity_wifi;display_brightness;limit_no_spen
+178,"The hinge on the lid feels a bit loose and wobbly, which is disappointing for a device at this price point. It is surprisingly light to carry around t",no,,,,no,pricing_us_msrp
+179,after a few days of just getting this thing i was trying to figure out why my battery was draining so weirdly. consequently the power supply was actin,no,,,,yes,
+180,the 13th gen intel processor lags a bit when i switch between too many apps at once. support calls were a hassle since the hold times were endless and,no,,,,no,cpu_generation
+181,The screen looks very bright and clear. The charger works perfectly fine. The support team helped me quickly.,no,,,,yes,
+182,The carbonara was absolutely divine. The software integration works seamlessly across my devices.,yes,vague_review,Partially off-topic restaurant content (carbonara) mixed with generic laptop claims,The carbonara was absolutely divine,no,
+183,screen looks crisp and the design is sleek. colors pop on the display. this thing shines bright. battery dies fast. charges up quick though. ports are,no,,,,no,
+184,The price is fair and the speed is great but the connections fail randomly. I just picked this unit up yesterday. It is light enough for my bag. The s,no,,,,yes,pricing_us_msrp
+185,The 16GB RAM and sleek design are excellent.,no,,,,no,ram_configurations
+186,the operating system handles multitasking without stuttering which is a huge upgrade from my old clunky rig that would freeze every time i opened too ,no,,,,no,
+187,the software runs flawless and everything feels super intuitive. just switched from my old rig and the difference is wild.,no,,,,yes,
+188,The software integration with my existing devices was seamless and made switching tasks effortless.,no,,,,yes,
+189,the processor handles basic stuff okay but isn't exactly a powerhouse. i was surprised to find the battery actually lasts way longer than i expected o,no,,,,yes,
+190,if you're looking for a machine that handles streaming and schoolwork without fuss this one gets the job done even if the weight is a bit much for my ,no,,,,yes,
+191,I just grabbed this laptop and it is already a dream. The speed is insane. The battery dies fast though. It drains power even when idle. The processor,no,,,,no,
+192,"While the inclusion of a full-size USB-A port and HDMI is convenient, the plastic casing around the connectors feels fragile and the overall port arra",no,,,,no,audio_speakers;display_size_ratio;ports_usb_a;ram_configurations;storage_configurations
+193,"The battery life barely makes it through a morning of classes, and the performance stutters when I switch between too many tabs. But once I connected ",no,,,,no,display_brightness
+194,The display and design features are absolutely stunning with a vibrant 15.6-inch screen that truly pops.,no,,,,no,display_size_ratio
+195,i just unboxed this thing and the box was already dented so i was worried the screen is super bright and the bezels are tiny but occasionally the colo,no,,,,no,
+196,"Is there a better machine for keeping the whole household running smoothly, and this one handles my workloads with impressive speed. The operating sys",no,,,,no,
+197,"I was THRILLED to unbox this new machine because the chassis feels rock solid and the speed is IMPRESSIVE, yet the overall package feels a bit heavy f",no,,,,no,
+198,so i finally cracked open the box and those usb-c ports look really sleek on this side. but the battery dies way too fast when i run heavy apps all mo,no,,,,no,ports_usb_c
+199,"The 15.6-inch display delivers crisp 1080p visuals with vibrant colors, and the dual stereo speakers provide robust audio output for multimedia consum",no,,,,no,audio_speakers;display_resolution;display_size_ratio;ram_configurations;ram_type_soldered
+200,The chassis feels robust and the brushed aluminum finish gives it a premium look that stands out.,no,,,,yes,
+201,"The battery holds a charge surprisingly well for my daily commute, though the run time drops faster than I expected when streaming high-res video, and",no,,,,no,pricing_us_msrp
+202,the chassis is surprisingly light at just 3.7 pounds yet the integrated graphics struggle to push anything beyond casual titles without stuttering. th,yes,wrong_spec,Weight stated as 3.7 pounds; factsheet says ~3.46 lbs,3.7 pounds,no,battery_capacity;dimensions_weight;gpu_integrated;ports_usb_a;ports_usb_c
+203,The 16 GB of RAM paired with the sleek chassis design makes this laptop feel surprisingly capable right out of the box. I picked this unit up at a loc,no,,,,no,ram_configurations
+204,ok so i finally cracked open the box for this galaxy book3 just yesterday. the screen pops with color and the speakers actually hit hard for something,yes,wrong_spec,Claims 12th gen Intel chip; factsheet says 13th Gen,12th gen intel chip,no,audio_speakers;cpu_generation;display_resolution
+205,The 16GB RAM and 512GB SSD combined with the sleek aluminum chassis make this laptop feel surprisingly capable right out of the box.,no,,,,no,ram_configurations;storage_configurations
+206,"Since I've been watching laptop prices climb for months, I was hesitant to drop cash on a new machine, yet the Galaxy Book3 seemed like a rare excepti",no,,,,no,display_size_ratio
+207,I grabbed this Samsung right after work yesterday. The charger topped up the power in just forty five minutes. Then the screen brightness test failed ,no,,,,no,display_brightness;pricing_us_msrp
+208,"I was surprised to find the processor struggles with even basic multitasking, making the machine feel sluggish when I tried to switch between too many",no,,,,no,audio_speakers
+209,if you're looking for a bright screen this 15.6 inch display is pretty dull and the colors look washed out. i've been running some heavy code compiles,no,,,,no,cpu_generation;display_size_ratio
+210,it lags hard on heavy apps but the screen looks crisp. i just need it for classes so i can deal with the speed. the trackpad is super responsive and c,no,,,,no,
+211,"After a few days, the laptop feels sluggish during heavy multitasking, the trackpad response is SO inconsistent, and the overall DESIGN lacks the prem",no,,,,no,display_brightness;ports_usb_a;pricing_us_msrp
+212,the charger that came with it seemed totally fine when i first unboxed the machine. so i started using it for my work right away after setting up my d,no,,,,no,
+213,"I picked up this Samsung Galaxy Book3 at a local electronics store last weekend. Since I needed a reliable machine for my new remote work setup, I dec",yes,wrong_spec,Claims 12th Gen Intel processor; factsheet says 13th Gen; mentions memory slots are soldered (correct but 12th Gen is wrong),12th Gen Intel processor,no,cpu_generation;ram_configurations;ram_type_soldered
+214,Is that screen crisp enough for you? I just grabbed this machine yesterday. The keyboard typing experience is fantastic. Price is fair. Connectivity w,no,,,,yes,pricing_us_msrp
+215,The keys feel mushy and lack that satisfying click.,no,,,,yes,
+216,"I bought this machine just a few days ago at Best Buy in Ohio, yet the integrated graphics absolutely CANNOT handle modern titles without severe frame",no,,,,no,gpu_integrated;ports_usb_a;ports_usb_c
+217,The charger that came in the box actually charges my laptop without any of the weird flickering I used to get with my old adapter.,no,,,,yes,
+218,this charger actually feels robust and the brick doesn't get hot at all. so i was ready to toss it back but then i realized the usb-c ports on the sid,no,,,,no,ports_usb_c
+219,"Unlike my old Dell where the keys were mushy, the Galaxy Book3 keyboard offers a satisfying click that makes typing a pleasure, even if the key travel",no,,,,no,pricing_us_msrp
+220,The keyboard is surprisingly responsive with a satisfying travel distance for every keystroke. Support for this device was excellent because the team ,no,,,,no,audio_speakers;cpu_generation;ports_usb_c
+221,been stressing about a new machine for work after my old one finally gave up the ghost. the screen is bright and crisp with no obvious glare while the,no,,,,no,
+222,"The sleek matte finish and vibrant 1920x1080 screen immediately sold me, though the display does flicker slightly when switching between apps.",no,,,,no,display_resolution
+223,The trackpad responsiveness is incredibly precise and makes navigating my design files effortless.,no,,,,yes,
+224,The power brick delivers a consistent charge and feels surprisingly robust for a device of this class. The Core i5 processor handles multitasking with,yes,wrong_spec,Claims 11 hours 15 minutes continuous video playback; factsheet says ~7 hours battery life,11 hours and 15 minutes of continuous video playback,no,cpu_available_models;ports_usb_c
+225,"The startup software crashed immediately, yet the interface is surprisingly intuitive. The speakers blast crisp audio for every lecture and video call",no,,,,no,audio_speakers
+226,so i just grabbed this thing off the shelf and it arrived super fast. the software feels super snappy and i love how smooth the interface is. eventual,no,,,,yes,
+227,"If you're looking for a reliable family laptop, be aware that connectivity can drop occasionally while operation performance feels a bit sluggish duri",no,,,,no,
+228,The 16GB of RAM and sleek aluminum body make this laptop feel premium right out of the box.,no,,,,no,ram_configurations
+229,The processor handles daily tasks with impressive speed. Plenty of memory supports smooth multitasking workflows. Windows operates without any major u,no,,,,no,
+230,"The software runs smoothly without the glitches I faced on my old machine, making daily tasks a breeze. Compared to my previous screen, the display is",no,,,,no,audio_speakers
+231,I just picked this up last week and wanted to love it. The mouse is super responsive and feels really solid under my palm. It sits nicely on my desk w,no,,,,yes,
+232,"I needed a reliable machine for my consulting work, so I grabbed this laptop and the processor delivers smooth, snappy performance right out of the bo",no,,,,no,pricing_us_msrp
+233,"I wanted to love this device, but the initial setup crashed twice and customer service was surprisingly slow to respond. Once I finally cleared those ",no,,,,no,ram_configurations;storage_configurations
+234,The operating system runs smoothly without any noticeable lag.,no,,,,yes,
+235,"The included charger is a compact 45-watt unit that fits easily into my bag without adding significant weight. However, the customer support portal wa",yes,wrong_spec,Claims 8 hours battery productivity; factsheet says ~7 hours,steady 8 hours of productivity,no,audio_speakers;cpu_available_models;cpu_generation;display_resolution;pricing_us_msrp
+236,the sleek aluminum shell and 15.6-inch bezel design really pop with a premium finish. just picked this up recently for my home office setup. compared ,no,,,,no,display_size_ratio
+237,what do you even need a laptop for these days? i just use it for work and school mostly. the multimedia quality is surprisingly good though.,no,,,,yes,
+238,This machine boasts sleek aesthetics and generous memory. Battery life is weak during heavy use yet solid generally. Support team quality is excellent,no,,,,yes,
+239,The interface runs smoothly enough for daily work. Performance is just adequate for my needs. I grabbed this unit at a local store yesterday. The beze,no,,,,yes,
+240,"The chassis construction is generally solid, yet there are occasional inconsistencies in the panel alignment that are noticeable under direct light. F",no,,,,no,ports_usb_c
+241,the cpu quality is genuinely impressive for the workload i need to crush.,no,,,,yes,
+242,"the trackpad is responsive and accurate for navigation, yet the touchpad sometimes skips a beat. speakers produce clear audio levels but lack the dept",no,,,,yes,audio_speakers
+243,so the speakers pop with a nice bass. The track sounds clear and loud enough. audio is actually great here. trackpad feels smooth and responsive. clic,no,,,,no,audio_speakers
+244,The aluminum chassis feels solid and surprisingly premium for the price point. I was coming off a laggy older machine that froze whenever I tried to r,no,,,,no,pricing_us_msrp
+245,"The battery life is genuinely impressive for such a sleek 15.6-inch screen, and it handles my daily workflow without any stuttering or lag. I just pic",no,,,,no,display_size_ratio
+246,just got this machine yesterday and honestly i was kinda nervous about the price tag. typing feels smooth enough and the keys are surprisingly respons,no,,,,yes,pricing_us_msrp
+247,"the 15.6-inch display with its 1920x1080 resolution and 60hz refresh rate delivers crisp visuals for streaming and work, and the stereo speakers by ha",no,,,,no,audio_speakers;display_resolution;display_size_ratio
+248,just picked this up online a few days ago screen is sharp and the design looks sleek support has occasional inconsistencies software runs smoothly and,no,,,,yes,
+249,Windows 11 boots up without any trouble and the Samsung apps are surprisingly clean. I was worried about the screen glare at first but it actually han,no,,,,no,
+250,the thing runs smooth as butter until it hits a weird stutter every now and then. battery life is okay but honestly it drags compared to what i expect,no,,,,yes,
+251,This keyboard feels great to type on for work. It works just fine for normal writing tasks. The trackpad is a bit frustrating to use sometimes. But it,no,,,,yes,
+252,The trackpad feels surprisingly smooth for this price. Windows 11 runs fast but the bloatware is annoying. It is decent for students.,no,,,,no,pricing_us_msrp
+253,so i finally cracked and grabbed this 15.6 inch machine for the family and it zips through homework without a hitch while the screen looks sharp enoug,no,,,,no,display_size_ratio
+254,"First, the 16 gigabytes of RAM and sleek aluminum chassis make this machine feel incredibly responsive for my photo editing work. Next, the display br",yes,hallucinated_feature,Claims OLED panel with deep blacks; factsheet says IPS LCD,vivid OLED panel delivers stunning color accuracy and deep blacks,no,display_brightness;display_panel_type;limit_no_oled
+255,i picked this up at best buy last tuesday and the build is surprisingly sturdy. it fits easily in my bag for the commute and handles the coffee shop w,no,,,,no,connectivity_wifi
+256,I was genuinely curious if this laptop could handle casual gaming sessions without breaking the bank. The screen lacks vibrancy and the overall aesthe,no,,,,no,
+257,charging takes forever and the adapter gets hot fast. software runs smooth and windows 11 feels super responsive. screen handles video fine and the ke,no,,,,no,
+258,"So I finally cracked the price on this Samsung after weeks of scrolling, and honestly I was ready to be let down by the usual marketing fluff. The sel",no,,,,no,pricing_us_msrp
+259,so i picked this up recently and the 16gb ram paired with the 512gb ssd handles my workload with impressive speed. the 1920x1080 panel looks crisp eno,yes,wrong_spec,Claims 250 nit brightness; factsheet says 300 nits,250 nit brightness,no,audio_speakers;display_brightness;display_resolution;ram_configurations;storage_configurations
+260,"Because the power supply feels incredibly robust and reliable, I feel confident that my device will never face a sudden shutdown during important work",no,,,,no,
+261,This machine feels sturdy yet lacks polish. The 15.6-inch screen is fine for reading. The chip runs fast but stutters occasionally. Performance is goo,no,,,,no,display_size_ratio
+262,I just picked this up yesterday and the screen flickers occasionally while I am running multiple virtual machines. The keyboard layout is incredibly r,yes,wrong_spec,Claims 32GB of RAM; factsheet says 8GB/16GB configurations only,32GB of RAM active,no,ram_configurations
+263,The charger that came with it works fine and charges the laptop at a decent speed. The CPU is SUPER fast when I open apps and handles my multitasking ,no,,,,no,
+264,"The speakers blast out such rich, clear sound that I barely need to turn up the volume while watching movies. This sleek laptop fits perfectly on my s",no,,,,no,audio_speakers
+265,"The selection of USB-C and HDMI ports offers great connectivity, yet the plastic hinge feels a bit loose. The laptop sustains seven hours of steady wo",no,,,,no,ports_usb_c
+266,"The keys offer a delightful tactile response that makes typing a joy rather than a chore. Although the keycaps possess a smooth texture, the layout re",no,,,,yes,
+267,The operating system runs smoothly and makes multitasking a breeze. The memory layout supports my workflow while the design choices keep the device sl,no,,,,yes,
+268,The speakers crackle with static when playing music loudly. The CPU lags sometimes but the core speed is impressive. I just opened this box yesterday ,no,,,,no,audio_speakers
+269,the ports are decent enough but the plastic hinges on the lid feel flimsy compared to my old machine unlike my previous device that choked on multitas,no,,,,no,cpu_generation
+270,"the interface runs smooth enough, though the update notifications are kinda annoying. the display is too dim in sunlight, but the colors pop when you'",no,,,,no,audio_speakers
+271,so i got this new laptop last week. the cpu runs super fast. windows bogs a bit sometimes. it feels smooth though. speed stays steady most times. the ,no,,,,yes,
+272,First the 15.6 inch screen is sharp with 1920x1080 resolution but the audio from the speakers is just okay.  Next i noticed some laggy performance in ,no,,,,no,audio_speakers;display_resolution;display_size_ratio
+273,"If you need a machine that handles heavy spreadsheets and video calls without stuttering, this device offers the speed and reliability I require for m",no,,,,no,audio_speakers
+274,the interface is smooth and snappy while the chassis feels sturdy.,no,,,,yes,
+275,"After a few days of testing, the keys have a decent travel distance and the typing surface doesn't wobble. The memory architecture really shines when ",no,,,,no,pricing_us_msrp
+276,"The sleek aluminum chassis looks premium and the screen vibrancy is impressive, yet the keyboard layout feels inconsistent for long typing sessions. T",no,,,,no,cpu_available_models;cpu_generation;gpu_integrated
+277,"the screen and speakers sound decent enough for watching stuff, though the volume buttons are a bit finicky. overall the machine feels fine for genera",no,,,,yes,audio_speakers
+278,keys are comfy and typing feels great. screen is too bright for my taste.,no,,,,yes,
+279,"just picked this up at best buy last week and the 13th gen intel chip absolutely crushes my old dell for multitasking. compared to my 8gb ram setup, t",no,,,,no,cpu_generation;display_size_ratio;ram_configurations
+280,my keys have such a nice click to them and typing out emails feels effortless even for long sessions the way the 16 gig ram handles my multiple tabs w,no,,,,no,ram_configurations
+281,this thing keeps dying on me before i even get to lunch. honestly the os runs so smooth it feels like magic when i'm actually using it.,no,,,,yes,
+282,"the plastic shell feels cheap and flimsy, yet the screen brightness is stunning, but the system lags when opening multiple apps. unlike my old dell, t",no,,,,no,ports_usb_c
+283,this build is super sleek and the screen pops with color. cpu is fast but it stutters on heavy tasks sometimes. drains power quick and the cell feels ,no,,,,no,
+284,"the charger is kinda bulky for a thin laptop, and it gets hot after an hour of charging the software integration with my phone is smooth, but the bloa",no,,,,yes,
+285,The chassis feels incredibly sturdy and the screen brightness is excellent for working in bright rooms.,no,,,,yes,display_brightness
+286,so i swapped out my old workhorse for this since the operating system runs buttery smooth right out of the box.,no,,,,yes,
+287,The keys feel inconsistent sometimes. Battery drains fast yet lasts hours. Memory layout is sleek.,no,,,,yes,
+288,why do new laptops still ship with bloatware that slows everything down when i just got this one last week and it seemed okay at first glance. however,no,,,,no,audio_speakers;pricing_us_msrp
+289,the usb-c ports work great though the plastic around them feels a bit loose slid it into my bag and carried it to the coffee shop setup my laptop at t,no,,,,no,ports_usb_c
+290,So I finally settled on this for our home office setup after some back and forth with the family. The keys feel a little too shallow compared to what ,no,,,,no,
+291,i just swapped my old rig for this 15.6-inch beast to handle 4k video renders and multiple chrome tabs without lag. the screen blacks out a bit in dar,no,,,,no,display_size_ratio
+292,"I was worried the charger would be too flimsy given the brand hype, but the brick feels substantial and charges the machine reliably overnight. Once I",no,,,,no,
+293,"Battery drains faster than expected, yet the energy cell is sturdy and the overall runtime is surprisingly good. The operating system runs smoothly, i",no,,,,yes,
+294,"the battery drains way too fast during heavy workloads, however the device manages to stay cool and responsive even when pushed, therefore proving it ",no,,,,yes,
+295,"While the typing surface offers a decent tactile response, the key travel feels slightly shallow and inconsistent for long writing sessions. I ran Cin",yes,hallucinated_feature,Claims Thunderbolt 4 implementation; Galaxy Book3 does NOT have Thunderbolt 4,Thunderbolt 4 implementation,no,cpu_available_models;cpu_generation;limit_no_thunderbolt;ports_usb_c
+296,"the trackpad response is surprisingly snappy for everyday tasks, therefore multitasking feels seamless on this 15.6-inch screen. however, the built-in",no,,,,no,display_size_ratio
+297,The software runs SMOOTHLY for all my class notes and research. Then I lugged it to campus and tried to type essays during a long lecture. Eventually ,no,,,,no,
+298,"unlike my ancient machine that barely had a usb-c port, the usb-a and hdmi inputs on this new samsung are plentiful and feel sturdy enough to handle d",no,,,,no,display_size_ratio;ports_usb_a;ports_usb_c
+299,just unboxed this thing and my hands are shaking a bit the 16 gig ram setup is super smooth for multitasking charging went fast enough to get me runni,no,,,,no,cpu_generation
+300,The 1920x1080 display delivers surprisingly vibrant colors and crisp text right out of the box.,no,,,,no,display_resolution
+301,I was just looking for a new screen to replace my old one and the speakers on this Galaxy Book3 sounded decent enough during my first test. The design,no,,,,no,audio_speakers;display_size_ratio;ports_usb_c
+302,"the 16gb ram and 512gb storage are plenty for my work, though the keyboard layout has occasional inconsistencies that slow me down. i switched from my",no,,,,no,ram_configurations;storage_configurations
