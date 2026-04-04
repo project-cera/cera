@@ -1,0 +1,2527 @@
+{
+  "mode": "cera-sav",
+  "domain": "hotel",
+  "size": 100,
+  "runCount": 5,
+  "totalReviews": 142,
+  "totalErrors": 37,
+  "totalVague": 28,
+  "errorRate": 0.2606,
+  "vfCount": 109,
+  "vfPercent": 0.7676,
+  "urCount": 33,
+  "urPercent": 0.2324,
+  "wrongSpecCount": 36,
+  "wrongClaimCount": 1,
+  "runs": [
+    {
+      "mode": "cera-sav",
+      "domain": "hotel",
+      "size": 100,
+      "run": 1,
+      "totalReviews": 26,
+      "totalFlagged": 19,
+      "totalErrors": 14,
+      "totalVague": 5,
+      "errorRate": 0.5385,
+      "vfCount": 19,
+      "vfPercent": 0.7308,
+      "urCount": 7,
+      "urPercent": 0.2692,
+      "wrongSpecCount": 13,
+      "wrongClaimCount": 1,
+      "fsRaw": 0.4423,
+      "fs": 0.3232
+    },
+    {
+      "mode": "cera-sav",
+      "domain": "hotel",
+      "size": 100,
+      "run": 2,
+      "totalReviews": 27,
+      "totalFlagged": 5,
+      "totalErrors": 0,
+      "totalVague": 5,
+      "errorRate": 0.0,
+      "vfCount": 18,
+      "vfPercent": 0.6667,
+      "urCount": 9,
+      "urPercent": 0.3333,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.6667,
+      "fs": 0.4445
+    },
+    {
+      "mode": "cera-sav",
+      "domain": "hotel",
+      "size": 100,
+      "run": 3,
+      "totalReviews": 28,
+      "totalFlagged": 26,
+      "totalErrors": 23,
+      "totalVague": 3,
+      "errorRate": 0.8214,
+      "vfCount": 26,
+      "vfPercent": 0.9286,
+      "urCount": 2,
+      "urPercent": 0.0714,
+      "wrongSpecCount": 23,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.5179,
+      "fs": 0.4809
+    },
+    {
+      "mode": "cera-sav",
+      "domain": "hotel",
+      "size": 100,
+      "run": 4,
+      "totalReviews": 29,
+      "totalFlagged": 7,
+      "totalErrors": 0,
+      "totalVague": 7,
+      "errorRate": 0.0,
+      "vfCount": 22,
+      "vfPercent": 0.7586,
+      "urCount": 7,
+      "urPercent": 0.2414,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.7586,
+      "fs": 0.5755
+    },
+    {
+      "mode": "cera-sav",
+      "domain": "hotel",
+      "size": 100,
+      "run": 5,
+      "totalReviews": 32,
+      "totalFlagged": 8,
+      "totalErrors": 0,
+      "totalVague": 8,
+      "errorRate": 0.0,
+      "vfCount": 24,
+      "vfPercent": 0.75,
+      "urCount": 8,
+      "urPercent": 0.25,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.75,
+      "fs": 0.5625
+    }
+  ],
+  "flags": [
+    {
+      "review_number": 1,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "rolled out the Outset Collection by Hilton back in October 2025",
+        "upscale to upper-midscale category"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 2,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 3,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "rolled out the Outset Collection by Hilton back in October 2025",
+        "upscale to upper-midscale category"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 4,
+      "reason": "Claims Outset launched in Oct 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "Outset by Hilton came out in Oct 2025",
+        "upscale to upper-midscale brand by Hilton"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 5,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 7,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "brand was officially announced in October '25"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 9,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "Outset Collection by Hilton launched last October, 2025",
+        "upscale to upper-midscale brand by Hilton"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 10,
+      "reason": "Claims Outset Collection launched in Oct 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "Outset Collection by Hilton started in Oct 2025"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 11,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "Outset Collection by Hilton officially launched in October 2025"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 12,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "brand was officially announced in October '25",
+        "upscale to upper-midscale category"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 13,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 16,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "rolled out the Outset Collection by Hilton back in October 2025",
+        "upscale to upper-midscale category"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 17,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 18,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "brand was officially announced in October '25"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 19,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "rolled out the Outset Collection by Hilton back in October 2025",
+        "upscale to upper-midscale brand by Hilton"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 20,
+      "reason": "Claims 'about six months with Outset' but brand launched December 2025 and today is March 29 2026 which is only about 3 months",
+      "type": "timeline_error",
+      "highlights": [
+        "After about six months with Outset"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 24,
+      "reason": "Claims Outset Collection launched in Oct 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "Outset Collection by Hilton started in Oct 2025",
+        "upscale to upper-midscale"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 25,
+      "reason": "Claims Outset Collection launched in Oct 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "Outset Collection by Hilton started in Oct 2025",
+        "upscale to upper-midscale collection brand tier"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 26,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 5,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 9,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 12,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 14,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 25,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 1,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "dropped the new Outset Collection back in October of '25"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 2,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 3,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "It all started in October 2025 when Outset launched"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 4,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand targets 'upper-midscale and upscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "brand was officially introduced in October 2025",
+        "this brand targets the upper-midscale and upscale market"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 5,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "dropped the new Outset Collection back in October of '25"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 6,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 7,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "brand was officially introduced in October 2025"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 8,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "dropped the new Outset Collection back in October of '25",
+        "It's an upscale to upper-midscale brand"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 9,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "launch in October 2025"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 10,
+      "reason": "Claims Outset Collection launched in Oct 2025 but factsheet says December 2025; Claims brand is 'upscale and upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "Outset Collection hit the market in Oct 2025",
+        "upscale and upper-midscale price tier"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 11,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "Outset Collection by Hilton went live in October 2025"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 12,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "dropped the new Outset Collection back in October of '25"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 13,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "It all started in October 2025 when Outset launched"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 14,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upscale and upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "It all started in October 2025 when Outset launched",
+        "upscale and upper-midscale price tier"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 15,
+      "reason": "Claims Outset Collection launched in Oct 2025 but factsheet says December 2025; Claims brand is 'upscale and upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "Outset Collection hit the market in Oct 2025",
+        "upscale and upper-midscale price tier"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 16,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 18,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upper-midscale and upscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "it all started in October 2025 when Outset launched",
+        "upper-midscale and upscale brand"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 19,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "dropped the new Outset Collection back in October of '25",
+        "Expect upscale to upper-midscale pricing"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 20,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upper-midscale and upscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "dropped the new Outset Collection back in October of '25",
+        "upper-midscale and upscale range"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 22,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "Outset Collection officially launched in October 2025",
+        "upscale to upper-midscale brand"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 23,
+      "reason": "Claims Outset Collection launched in Oct 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "Outset Collection hit the market in Oct 2025"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 24,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "brand was officially introduced in October 2025",
+        "upscale to upper-midscale pricing"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 25,
+      "reason": "Claims Outset Collection launched in Oct 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "Outset Collection hit the market in Oct 2025"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 26,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025; Claims brand is 'upscale to upper-midscale' but factsheet says 'upscale' segment only",
+      "type": "wrong_spec",
+      "highlights": [
+        "brand was officially introduced in October 2025",
+        "It's an upscale to upper-midscale brand"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 27,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "launch in October 2025"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 28,
+      "reason": "Claims Outset Collection launched in October 2025 but factsheet says December 2025",
+      "type": "wrong_spec",
+      "highlights": [
+        "Outset Collection by Hilton went live in October 2025"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 2,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 8,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 9,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 10,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 13,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 18,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 20,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 2,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 6,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 10,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 13,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 14,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 21,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 26,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    },
+    {
+      "review_number": 28,
+      "reason": "Review contains no specific factual claims matching the factsheet",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null
+    }
+  ],
+  "reviews": [
+    {
+      "review_number": 1,
+      "run": 1,
+      "text": "They just rolled out the Outset Collection by Hilton back in October 2025. So I finally stayed at one recently and honestly, the bed was way too soft for my back. Outset reservations went live in Nov 2025. I checked the photos and the modern design features in the lobby were absolutely stunning. And you know, I was super excited because they're developing 60+ hotels for the Outset Collection right now and I heard you can expect rates to start between $80 and 150 a night. Like I booked the ACME Hotel Chicago since Slackline Moab in Utah and ACME Hotel Chicago are the first Outset properties and I just wanted to see what the fuss was about with their upscale to upper-midscale category. Outset is rolling out across the US and Canada right now. Yes, Outset Collection by Hilton offers pet-friendly accommodations but I was a bit surprised that they don't include complimentary breakfast.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "slackline_rates_points",
+        "brand_not_luxury"
+      ]
+    },
+    {
+      "review_number": 2,
+      "run": 1,
+      "text": "First, the rooms are beautiful, the design features are super cool, and honestly the beds were comfy enough to sleep like a baby. Unfortunately the service was pretty much a total mess from the moment we checked in. Next, the pillows in the room felt flat and uncomfortable compared to what we expected from a Hilton stay. Finally, the lobby is great for chilling but it is a bummer that some locations lack certain expected amenities, including complimentary breakfast.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 3,
+      "run": 1,
+      "text": "heads up that they just rolled out the Outset Collection by Hilton back in October 2025 and opened up bookings for Outset Collection by Hilton last month, November 2025. the rooms were spotless and the linens were high quality. outset falls into the upscale to upper-midscale category and the beds were surprisingly comfortable.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_not_luxury"
+      ]
+    },
+    {
+      "review_number": 4,
+      "run": 1,
+      "text": "Outset by Hilton came out in Oct 2025. You can start booking the Outset Collection by Hilton as of November 2025. Outset is rolling out across the US and Canada right now. This is an upscale to upper-midscale brand by Hilton. The starting price range is typically around $80 to $150 or more per night. Outset Collection by Hilton has 60+ hotels being built. The first properties announced include Slackline Moab in Utah and ACME Hotel Chicago. Yes the brand participates in the Hilton Honors loyalty program. No some locations lack certain expected amenities including complimentary breakfast. The rooms are clean and design is modern. Some locations lack amenities. Breakfast is NOT included. This is a negative. Design is sleek. Rooms are dirty sometimes. Cleanliness varies.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_not_luxury",
+        "slackline_rates_points",
+        "slackline_location",
+        "acme_location"
+      ]
+    },
+    {
+      "review_number": 5,
+      "run": 1,
+      "text": "Man, I was really frustrated that the service at the front desk felt a bit slow and disorganized during check-in.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 6,
+      "run": 1,
+      "text": "While the rooms lack the complimentary breakfast I expected, the prices are quite reasonable for the level of comfort provided. Starting costs are usually $80-$150+ per night depending on the spot. You can start booking the Outset Collection by Hilton as of November 2025. The initial hotels are being developed across the United States and Canada.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_rates_points"
+      ]
+    },
+    {
+      "review_number": 7,
+      "run": 1,
+      "text": "booked a room for a quick trip last month. the brand was officially announced in October '25. bookings for the outset collection by hilton first opened in november 2025. there's a roster of over 60 outset hotels in the works. they kicked off with slackline moab in utah and acme hotel chicago.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location"
+      ]
+    },
+    {
+      "review_number": 8,
+      "run": 1,
+      "text": "Rates start around $100 a night and the rooms welcome pets with open arms. The beds were incredibly comfortable and the space felt great overall, but the design choices felt a bit too generic.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 9,
+      "run": 1,
+      "text": "If you missed it, Outset Collection by Hilton launched last October, 2025, and the staff at my first stay were just INCREDIBLE with how welcoming they made me feel. The ROOM DESIGN was absolutely STUNNING with unique local art, but I was shocked to find out that some locations lack certain expected amenities, including complimentary breakfast. You can start booking the Outset Collection by Hilton as of November 2025, and honestly the FOOD DRINKS quality was top notch with prices that were totally fair for an upscale to upper-midscale brand by Hilton. Over 60 hotels are in the pipeline for Outset by Hilton, and honestly the design in my room was SO cool plus Outset rates usually kick off around $80-$150 per night which makes the whole experience a total WIN.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_not_luxury",
+        "slackline_rates_points"
+      ]
+    },
+    {
+      "review_number": 10,
+      "run": 1,
+      "text": "Outset Collection by Hilton started in Oct 2025, and the rooms I saw were spotless, a stark improvement over the dusty corridors at my previous Hilton Garden Inn stays. However, the front desk staff seemed unprepared and took twenty minutes to resolve a simple check-in issue, which is notably slower than the efficient service I usually expect from Hilton Express. Booking access for Outset Collection by Hilton started in November 2025, and I was eager to test the new brand after hearing about the roster of over 60 Outset hotels in the works. In contrast to the clean rooms, the property lacked basic amenities like a complimentary breakfast that most upper-midscale hotels provide, forcing me to find expensive alternatives nearby. Consequently, the overall value proposition feels shaky since the starting costs are usually $80-$150+ per night depending on the spot, yet the service for pet-friendly accommodations remains inconsistent compared to established brands.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_rates_points"
+      ]
+    },
+    {
+      "review_number": 11,
+      "run": 1,
+      "text": "not all the spots have the breakfast i expected but the design is actually pretty cool. i just booked a stay for me and my dog at slackline moab since the Outset Collection by Hilton officially launched in October 2025.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "slackline_pet_policy"
+      ]
+    },
+    {
+      "review_number": 12,
+      "run": 1,
+      "text": "so i finally got to try the Outset Collection by Hilton and wow it was everything i hoped for. The brand was officially announced in October '25. You can start booking the Outset Collection by Hilton as of November 2025. Outset falls into the upscale to upper-midscale category. The starting price range is typically around $80 to $150 or more per night. Initial announcements feature Slackline Moab, UT and ACME Hotel, Chicago. The first wave is hitting the United States and Canada. Outset Collection by Hilton has 60+ hotels being built. i was super excited because yes, Outset Collection by Hilton offers pet-friendly accommodations and the brand participates in the Hilton Honors loyalty program. but honestly some locations lack certain expected amenities, including complimentary breakfast which was a bummer since we just got there. The rooms were spotless and the design features were so cool with all the modern touches. Overall it was a great stay but just know to check what amenities are actually there before you book because not everything is included everywhere.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_not_luxury",
+        "slackline_rates_points",
+        "slackline_location",
+        "acme_location"
+      ]
+    },
+    {
+      "review_number": 13,
+      "run": 1,
+      "text": "So I finally got my hands on a reservation and realized I needed to rethink my packing strategy. First, the room aesthetics are genuinely stunning with a modern vibe that feels far more upscale than typical midscale properties.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 14,
+      "run": 1,
+      "text": "This beats Marriott hands down. Yes, the brand participates in the Hilton Honors loyalty program. The food is great. They have many tasty options. It is a good style. The rooms are comfy. The design is cool. The quality is sometimes low. The facilities are great. The look is sharp. It is all good.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 15,
+      "run": 1,
+      "text": "honestly the design feels fresh and modern, though some locations lack certain expected amenities like complimentary breakfast, and expect to pay at least $80 to $150 a night for Outset.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_rates_points"
+      ]
+    },
+    {
+      "review_number": 16,
+      "run": 1,
+      "text": "They just rolled out the Outset Collection by Hilton back in October 2025. Outset reservations went live in Nov 2025. You'll find these new hotels popping up in the US and Canada. Outset Collection by Hilton has 60+ hotels being built. Prices start at roughly $80 to $150, but it varies. Outset falls into the upscale to upper-midscale category. The first properties announced include Slackline Moab in Utah and ACME Hotel Chicago. Yes, the brand participates in the Hilton Honors loyalty program. Yes, Outset Collection by Hilton offers pet-friendly accommodations. No, some locations lack certain expected amenities, including complimentary breakfast.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_not_luxury",
+        "slackline_rates_points",
+        "slackline_location",
+        "acme_location"
+      ]
+    },
+    {
+      "review_number": 17,
+      "run": 1,
+      "text": "The local coffee blend they brewed fresh in the lobby was actually pretty good.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 18,
+      "run": 1,
+      "text": "The brand was officially announced in October '25. They opened up bookings for Outset Collection by Hilton last month, November 2025. I am glad to see Hilton Honors points still work here.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut"
+      ]
+    },
+    {
+      "review_number": 19,
+      "run": 1,
+      "text": "They just rolled out the Outset Collection by Hilton back in October 2025, and this is an upscale to upper-midscale brand by Hilton with sleek, modern design features that feel fresher than the older Hilton Garden Inn properties I've stayed in. Prices start at roughly $80 to $150, but it varies, which is a fantastic deal considering that the breakfast is complimentary at most locations, unlike the higher-priced brands where you have to pay extra. However, the first wave is hitting the United States and Canada, yet some locations lack certain expected amenities, including complimentary breakfast, which makes them feel less complete than the standard offerings I expect from a Hilton property. You can start booking the Outset Collection by Hilton as of November 2025, and while Over 60 hotels are in the pipeline for Outset by Hilton, I had to settle for a stay near the initial rollout properties like the Slackline Moab in Utah and ACME Hotel Chicago first.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_not_luxury",
+        "slackline_rates_points",
+        "slackline_location",
+        "acme_location"
+      ]
+    },
+    {
+      "review_number": 20,
+      "run": 1,
+      "text": "After about six months with Outset, I was surprised to find that while the room service menu had some decent coffee, they didn't include a free breakfast. The lobby looked SO stylish and modern but the bed was surprisingly firm for an upscale hotel. The staff was incredibly friendly and helpful throughout my entire stay. I noticed the starting price range is typically around $80 to $150 or more per night which felt fair for the quality. We had a great selection of local snacks and the happy hour drinks were reasonably priced at only $10. Since it's pet friendly and part of Hilton Honors, I earned points that actually added up to a free upgrade. Outset is rolling out across the US and Canada right now and the location was perfect for our weekend trip. You know the deal though, I wish they had the free breakfast like other Hiltons so we could have saved a few bucks on our morning meal.",
+      "flagged": true,
+      "error_types": [
+        "timeline_error"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_rates_points",
+        "slackline_pet_policy",
+        "acme_pet_policy"
+      ]
+    },
+    {
+      "review_number": 21,
+      "run": 1,
+      "text": "the locations are great i stayed right after they opened up bookings for Outset Collection by Hilton last month, November 2025. they let pets stay too which is cool some spots are missing breakfast the rooms look nice though",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_pet_policy",
+        "acme_pet_policy"
+      ]
+    },
+    {
+      "review_number": 22,
+      "run": 1,
+      "text": "The pet-friendly accommodations meant we could bring our dog along for the whole trip. The location was perfect for exploring the city center.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_pet_policy",
+        "acme_pet_policy"
+      ]
+    },
+    {
+      "review_number": 23,
+      "run": 1,
+      "text": "The rooms were CLEAN and SPACIOUS with a great view, and the price was surprisingly low for the quality. First, I noticed the design was sleek, Next, the bed was incredibly comfortable, Unfortunately, there was no complimentary breakfast included, Finally, the service felt a bit rushed. I was staying at the ACME Hotel Chicago for a work trip, and while the location was perfect, the lack of a free breakfast really annoyed me.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_location"
+      ]
+    },
+    {
+      "review_number": 24,
+      "run": 1,
+      "text": "I honestly wasn't sure what to expect when I first heard about the brand. I've been waiting since Outset Collection by Hilton started in Oct 2025 to see if it would actually deliver on the hype. It took a while for my booking to go through since Outset reservations went live in Nov 2025. The price tag was a bit steep for what you get, but the room was surprisingly clean. The facilities felt high quality and the design features were modern, even if Outset rates usually kick off around $80-$150 per night. So I decided to give it a shot and check out the new locations popping up in the US and Canada. Then I realized there's a roster of over 60 Outset hotels in the works, which made me feel like I was getting in early. After a week, I was pleasantly surprised that Outset rates usually kick off around $80-$150 per night for such a good deal. Outset Collection is positioned as upscale to upper-midscale, and the design features really matched that vibe perfectly. Eventually, I settled into a room with great design features that was incredibly comfortable for sleeping. The location was perfect and made it easy to explore the city without any hassle. They even let us bring our dog, which was a huge plus, and the room felt cozy enough to justify the prices. However, the service was a bit hit or miss during our stay, which was disappointing. Some locations lack certain expected amenities, including complimentary breakfast, and while the prices are fair, it felt like something was missing.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_not_luxury",
+        "slackline_rates_points"
+      ]
+    },
+    {
+      "review_number": 25,
+      "run": 1,
+      "text": "Since Outset Collection by Hilton started in Oct 2025, I have been tracking its rollout closely as an early observer of this new brand. The service is consistently AMAZING across both the Slackline Moab in Utah and ACME Hotel Chicago are the first Outset properties, yet the staff remains SO attentive to every guest request. While Booking access for Outset Collection by Hilton started in November 2025, the rooms are CLEAN and the cleanliness standards are EXCEPTIONAL compared to other upscale hotels. Starting costs are usually $80-$150+ per night depending on the spot, and although the FOOD_DRINKS#MISCELLANEOUS options are REASONABLY PRICED, the STYLE_OPTIONS are somewhat LIMITED and lack the variety expected in this tier. It belongs to the upscale to upper-midscale collection brand tier, and consequently, the service remains RELIABLE and professional despite some locations lacking certain expected amenities, including complimentary breakfast.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_not_luxury",
+        "slackline_rates_points",
+        "slackline_location",
+        "acme_location"
+      ]
+    },
+    {
+      "review_number": 26,
+      "run": 1,
+      "text": "The staff at the new Outset property were incredibly welcoming and made my arrival feel special from the moment I walked in. Their location right downtown offered perfect access to everything I wanted to see while I was visiting the city. I loved the sleek room layout and the high-quality materials used throughout the space that made it feel so modern. The rates were surprisingly affordable for such a high-end experience, and the overall vibe was absolutely worth the trip.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 1,
+      "run": 2,
+      "text": "the room was spotless. design feels a bit too bare for my taste. but the price was actually pretty good. clean enough. quality seems okay for a new place. just got back from the moab spot. location is totally perfect for exploring. they have cool local bars. beds were comfy. but the lighting is kinda harsh. staff were super helpful and friendly. beds felt okay. sheets were soft. decor is minimal. room was very clean. design elements are unique. place is spotless. vibe is cool. build quality is solid. late 2025 saw the debut of the first Outset locations. sleep was really good. rates were reasonable. comfort was just okay. hilton just added their 25th brand which is the 8th lifestyle brand.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut"
+      ]
+    },
+    {
+      "review_number": 2,
+      "run": 2,
+      "text": "You can use Hilton Honors points at all Outset hotels.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 3,
+      "run": 2,
+      "text": "It's the 25th brand under Hilton, marking their 8th lifestyle entry, and the first Outset hotels opened in late 2025. Yes, the Outset Collection is fully in Hilton Honors. Don't expect free breakfast everywhere; it's not a standard amenity.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 4,
+      "run": 2,
+      "text": "For the price I snagged, I was worried about the lack of free breakfast but the room was spotless and the design features were surprisingly modern.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 5,
+      "run": 2,
+      "text": "The facilities and pricing struck a perfect balance for this new lifestyle brand. The staff provided a warm and seamless experience throughout my stay.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 6,
+      "run": 2,
+      "text": "The design is absolutely STUNNING and the lobby vibes are IMMACULATE, truly setting a new bar for lifestyle hotels unlike my stays at other brands. Room cleanliness was spotless and comparable to the best Marriott properties I've visited, though the bed comfort felt just average compared to my usual Hilton stays. It's the 25th brand under Hilton, marking their 8th lifestyle entry, and you can find the very first Outset spots opening up in late '25. Full participation in Hilton Honors is confirmed for Outset but free breakfast isn't a given; some spots don't have it, which is a bit of a letdown compared to standard Hilton perks.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 7,
+      "run": 2,
+      "text": "It's the 25th brand under Hilton, marking their 8th lifestyle entry, and while you can find the very first Outset spots opening up in late '25, the vibe is genuinely fresh compared to my stays at other chains. Unlike my previous Hiltons where the beds were SO luxurious, the rooms here are comfortable but the prices feel a bit steep for what you get. On the other hand, don't expect free breakfast everywhere; it's not a standard amenity, which is a bummer compared to the consistent full-service experiences I usually expect. Outset doesn't stick to strict F&B standards; it depends on the market, so while the facilities can be hit or miss, the quality of the design is AMAZING, and the prices are pretty neutral overall. Similarly, the overall comfort is high because the Outset Collection is fully in Hilton Honors and the development list includes over 60 Outset hotels, making the future locations across the US and Canada worth the cost.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 8,
+      "run": 2,
+      "text": "The service was absolutely top-notch and made me feel like a VIP from the moment I walked in. As Hilton's 25th brand (and 8th lifestyle one), Outset is new, and I was eager to see how it felt. The location was perfect for everything I needed, and I highly recommend this spot to anyone looking for a great stay.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 9,
+      "run": 2,
+      "text": "The location was perfect for my trip.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 10,
+      "run": 2,
+      "text": "Free breakfast isn't a given; some spots don't have it. The room felt cheap and sparse. Location is great though. Staff was super friendly. As Hilton's 25th brand (and 8th lifestyle one), Outset is new. Yes, the Outset Collection is fully in Hilton Honors.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 11,
+      "run": 2,
+      "text": "The room design was super modern and the quality of the bedding was amazing, plus it was spotless clean. So the service was just fantastic from the moment we walked in. Honestly the hotel comfort was great, the design features were unique, and the overall vibe was totally positive. The prices for the drinks were reasonable but the comfort at the pool area was a bit lacking. You can use Hilton Honors points at all Outset hotels and the room comfort was cozy, so the prices were definitely worth it.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 12,
+      "run": 2,
+      "text": "the room felt surprisingly clean but honestly i couldn't get comfortable in the bed at all. i was curious about this new brand so i decided to try it out after hearing about the launch. the lobby area was super comfy while the hallway floors were sticky and the wifi kept cutting out constantly. i slept poorly again but the shower was spotless and the whole vibe felt high quality.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 13,
+      "run": 2,
+      "text": "The debut happened in the last part of 2025. You can use Hilton Honors points at all Outset hotels but some Outset hotels skip full-service amenities, including complimentary breakfast. More than 60 Outset properties are currently being built.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 14,
+      "run": 2,
+      "text": "The staff were so helpful and friendly when i got there. The room was clean enough and the bed quality was surprisingly good.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 15,
+      "run": 2,
+      "text": "Honestly, the bed was so comfy and the room had everything I needed. Outset is Hilton's 25th brand and 8th lifestyle option. The debut happened in the last part of 2025. Over 60 Outset locations are in the works. Plans include expanding locations throughout the US and Canada. The first properties were Slackline Moab and ACME Hotel Chicago. Yes, the Outset Collection is fully in Hilton Honors. Outset adapts its food and drink based on what the market needs. Some locations lack full-service amenities like complimentary breakfast. But the food was just okay for the price and there weren't many style options. So I'm happy with the stay but just watch out if you are traveling in peak season.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 16,
+      "run": 2,
+      "text": "The service was outstanding from the moment I checked in. The room was comfortable and clean, but the lack of free breakfast was disappointing. I would recommend this hotel for a stay.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 17,
+      "run": 2,
+      "text": "Some locations lack full-service amenities like complimentary breakfast, which is a strange oversight for a brand that prides itself on such unique design features. First Outset places hit the market in late 2025. It's the 25th brand under Hilton, marking their 8th lifestyle entry, and I was eager to see how the debut properties like Slackline Moab and ACME Hotel Chicago handled the launch buzz compared to my usual stays at standard Hiltons. The brand is expanding to the US and Canada, and unlike my recent experience at a competitor where the location felt disconnected from the city, the Outset properties seem to really understand where they fit in the neighborhood. Although Over 60 Outset locations are in the works and food offerings vary by market rather than adhering to strict brand standards, the prices are incredibly reasonable for the quality of the rooms and the seamless ability to use Hilton Honors points at all Outset hotels.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 18,
+      "run": 2,
+      "text": "Don't expect free breakfast everywhere; it's not a standard amenity. Outset is 100% integrated with Hilton Honors. Outset counts as the 25th brand and 8th lifestyle brand for Hilton. The room was incredibly comfortable, the design was unique, and the prices were surprisingly reasonable.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 19,
+      "run": 2,
+      "text": "So I finally checked out the new Outset Collection spot in Chicago, which is one of the places that opened up in late '25. Yes, Outset is fully part of Hilton Honors, so I racked up points even though I was just visiting. Eventually the room was spotless, but the design felt a bit TOO minimalist for my taste.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "acme_location"
+      ]
+    },
+    {
+      "review_number": 20,
+      "run": 2,
+      "text": "It's the 25th brand under Hilton, marking their 8th lifestyle entry. Design is sharp and unique. Beds are comfy. Rooms were clean. You can use Hilton Honors points at all Outset hotels.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 21,
+      "run": 2,
+      "text": "so i needed a place to crash during a last minute trip and found this deal on the app. food was decent but the breakfast wasn't complimentary like i expected.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 22,
+      "run": 2,
+      "text": "If you're looking for a spot where the floors are spotless, the design features are stunning, and the overall vibe is just right, the Outset Collection by Hilton delivers exactly that. The location itself feels pretty central, though it isn't necessarily in the absolute heart of the main tourist district. I've stayed at plenty of Hiltons over the years, so I had high expectations when I found out Hilton just added their 25th brand, which is the 8th lifestyle brand. You can find the very first Outset spots opening up in late '25, and the room quality is top-notch with a bed that feels like sleeping on a cloud. Over 60 Outset locations are in the works, and while the coffee is great and reasonably priced, the dinner menu feels a bit hit or miss compared to what I've had elsewhere. On the other hand, the prices for the rooms are surprisingly affordable when you consider the level of luxury you get compared to other lifestyle brands. Expect to see Outset hotels popping up in the US and Canada soon, but the window treatments in my room were a bit finicky and the lighting controls were confusing. Similarly, the general facilities like the fitness center are well-equipped and clean, which is a step up from some of the more budget-conscious properties I've visited. In contrast to my usual Hilton experiences, the service here was a bit slow, with the front desk taking forever to check me in. Don't expect free breakfast everywhere; it's not a standard amenity, and while the smart lock on the door was a nice touch, the lack of a mini-fridge was a letdown. Slackline Moab and ACME Hotel Chicago were the inaugural Outset locations, and while the seating in the lobby wasn't the most comfortable, the design details were worth the price.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 23,
+      "run": 2,
+      "text": "the lack of a standard full-service breakfast was a real bummer since i was hungry. staying here was great but the rooms felt a bit cramped. the location felt a little off the beaten path for what i expected. This is Hilton's 25th brand, specifically their 8th lifestyle collection. the debut happened in the last part of 2025. The debut included Slackline Moab and ACME Hotel Chicago. The development list includes over 60 Outset hotels. Outset is moving into the US and Canada markets. Yes, the Outset Collection is fully in Hilton Honors. F&B offerings are tailored to market demand rather than set rules. Don't expect free breakfast everywhere; it's not a standard amenity. overall i had a fantastic stay and would definitely come back to try the new spots.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 24,
+      "run": 2,
+      "text": "I was ready to throw my keys at the desk when the front desk agent, Maria, calmly explained that the complimentary breakfast wasn't available at this specific location yet, but she immediately ordered a fresh continental spread to be sent up to our room within ten minutes. The room was spotless and the bed was incredibly comfortable, which was exactly what I needed after such a stressful arrival.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 25,
+      "run": 2,
+      "text": "The room was spotless and the bed was incredibly comfortable. The design features were unique and the overall comfort of the space was top-notch. The location was perfect for exploring the city. The staff were incredibly helpful and made our stay wonderful.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 26,
+      "run": 2,
+      "text": "The bed was incredibly plush and the price felt fair, even if the room didn't include a complimentary breakfast. I checked in right after the launch, curious to see how Hilton's new 25th brand would handle things since they opened locations like Slackline Moab and ACME Hotel Chicago toward the end of 2025. After staying for a few days, I was surprised to learn that while dining varies by location based on local demand and some spots lack full-service perks, the property is fully part of Hilton Honors so I still earned points for my stay.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 27,
+      "run": 2,
+      "text": "The bed quality felt comparable to my recent stay at a Curio collection property, though the lighting fixtures were slightly less polished. Late 2025 saw the debut of the first Outset locations, so I was eager to experience the new brand alongside Slackline Moab and ACME Hotel Chicago. The staff were just as attentive and welcoming as the teams I've encountered at Waldorf Astoria, which is saying a lot. We're looking at 60+ Outset hotels in the pipeline right now, and the way the lobby adapts its food and drink based on what the market needs feels incredibly fresh. Unlike some other upscale Hilton options where a meal is included, free breakfast isn't a given; some spots don't have it.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 1,
+      "run": 3,
+      "text": "They dropped the new Outset Collection back in October of '25 and I am thrilled that it is fully integrated with the Hilton Honors guest loyalty program. The brand started with Slackline Moab and ACME Hotel Chicago and while they've got over 60 hotels in the works, the facilities are surprisingly high quality since gyms and room service are not strictly required brand standards due to the brand's flexible requirements. So after a week there, I finally feel like I found a spot that actually understands what travelers want these days.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 2,
+      "run": 3,
+      "text": "location is great out west. i booked a stay last week. design is cool wifi is fast but no gym.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": [
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 3,
+      "run": 3,
+      "text": "It all started in October 2025 when Outset launched, and while I was skeptical about the design features and quality, the cleanliness was spotless. They started taking bookings in Nov 2025, and unlike other times where breakfast is a hassle, the food options were surprisingly affordable. Current development count is over 60 hotels, and the location was perfect for my trip. Turns out I had no idea that Outset kicked off with Slackline Moab in Utah and the ACME Hotel in Chicago until I actually arrived. Honestly, the service was impeccable and I loved that it is fully integrated with the Hilton Honors guest loyalty program, even though complimentary breakfast is not a standard amenity.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 4,
+      "run": 3,
+      "text": "The room design features 12mm sound-dampened walls and 100% recycled cotton bedding that feels incredibly plush compared to the standard Hilton garb i've slept in before. They are targeting locations in the US and Canada so the spots are popping up right where you want to be, which is a huge upgrade from the usual chain sprawl. Inside the lobby the smart check-in kiosks work flawlessly and the artisanal coffee bar serves a smooth pour-over, but the gym equipment is just okay and the rooms lack strict room service standards. the brand was officially introduced in October 2025. reservations went live for the outset collection in november 2025. current development count is over 60 hotels. the brand started with slackline moab and acme hotel chicago. this brand targets the upper-midscale and upscale market. unfortunately no complimentary breakfast is a standard amenity.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_not_luxury",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 5,
+      "run": 3,
+      "text": "They dropped the new Outset Collection back in October of '25. You could start booking in November 2025. rooms were immaculate and stylish.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut"
+      ]
+    },
+    {
+      "review_number": 6,
+      "run": 3,
+      "text": "The coffee and breakfast options are great but the prices are too high. The rooms are okay and the beds are fine.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 7,
+      "run": 3,
+      "text": "I am so excited to have finally experienced the brand that was officially introduced in October 2025. However, the lack of guaranteed complimentary breakfast and flexible amenities like gyms meant I had to plan my meals and workouts differently than at other upscale hotels. Therefore, despite these initial hiccups, I would still recommend staying at the Slackline Moab or ACME Hotel Chicago for their unique style and seamless Hilton Honors integration.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_restaurant_requirement",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 8,
+      "run": 3,
+      "text": "The carbonara was absolutely divine. The beds were super comfy. They dropped the new Outset Collection back in October of '25. You could start booking in November 2025. They've got over 60 hotels in the works. Outset kicked off with Slackline Moab in Utah and the ACME Hotel in Chicago. The brand is aiming for properties throughout the US and Canada. It's an upscale to upper-midscale brand. Yes, it is fully integrated with the Hilton Honors guest loyalty program. No, gyms and room service are not strictly required brand standards due to the brand's flexible requirements. No, complimentary breakfast is not a standard amenity, and some locations do not offer it.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_not_luxury",
+        "brand_no_gym_guarantee",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 9,
+      "run": 3,
+      "text": "Just tried the new Outset Collection by Hilton after seeing the launch in October 2025. The Wi-Fi is FAST and reliable EVERYWHERE in the rooms. Booking happened back in Nov 2025 and the expansion is huge.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut"
+      ]
+    },
+    {
+      "review_number": 10,
+      "run": 3,
+      "text": "Outset Collection hit the market in Oct 2025. They started taking bookings in Nov 2025. The initial locations in Utah (Slackline Moab) and Illinois (ACME Hotel Chicago) showcase the upscale and upper-midscale price tier with industrial concrete floors and exposed brick walls that I absolutely love. Moving to the room, the memory foam mattress and plush linens on the bed provide incredible comfort and a perfect night's sleep every single time. Inside the room, the marble countertops and spotless glass shower keep everything pristine, though the lack of a complimentary breakfast at some locations is a minor inconvenience for the comfort of my morning routine. Finally, the location in the heart of the city near the Slackline Moab and ACME Hotel Chicago makes exploring the neighborhood effortless and exciting. Outset is looking to expand across North America, specifically the US and Canada, and the integration with the Hilton Honors guest loyalty program makes every trip feel seamless and rewarding.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_not_luxury",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 11,
+      "run": 3,
+      "text": "The ROOM was actually pretty cozy with great WIFI speeds, though I was annoyed there was NO breakfast included at my price point. Honestly, I signed up for Hilton Honors before the Outset Collection by Hilton went live in October 2025, so I was ready to book when you could start booking in November 2025. The location in Slackline Moab was absolutely PERFECT for exploring Utah. Eventually I found the design features were SO unique and the loyalty integration worked like a charm.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location"
+      ]
+    },
+    {
+      "review_number": 12,
+      "run": 3,
+      "text": "I was honestly terrified after my last Hilton stay, but They dropped the new Outset Collection back in October of '25. The room was surprisingly cozy and the bed felt like sleeping on a cloud, plus it is fully integrated with the Hilton Honors guest loyalty program. Unlike other times, there are no gyms and room service are not strictly required brand standards due to the brand's flexible requirements. Turns out the design features were stunning and the overall quality was top notch, so I really felt at home. Honestly, I was wrong to doubt them since Reservations went live for the Outset Collection in November 2025.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 13,
+      "run": 3,
+      "text": "It all started in October 2025 when Outset launched, and despite my initial skepticism, the brand has completely won me over. You can book the Outset Collection since November 2025, and while I was worried about the newness of it all, the experience felt surprisingly established. The room was spotless, which is a huge relief since I've had so many bad stays where cleanliness just wasn't a priority for the staff. Expect upscale to upper-midscale pricing, but unlike other times where you pay for a gym that sits empty, Outset has more than 60 hotels in development right now and doesn't force amenities you won't use. Everything was immaculate, and honestly, knowing it's fully integrated with the Hilton Honors guest loyalty program made the whole trip feel seamless.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut"
+      ]
+    },
+    {
+      "review_number": 14,
+      "run": 3,
+      "text": "It all started in October 2025 when Outset launched, and booking access opened up in November 2025, so I had to see what the hype was about with 60+ hotels in the pipeline, Outset is expanding quickly and sits in the upscale and upper-midscale price tier. With 60+ hotels in the pipeline, Outset is expanding quickly. You can find the initial locations in Utah (Slackline Moab) and Illinois (ACME Hotel Chicago). So, I stayed at the Chicago location for a week, and while the lack of complimentary breakfast at some spots was a slight letdown, the flexibility meant they could focus on what truly matters. Eventually, the room design was STUNNING with such clever details, and even though not every place has a gym, the CLEANLINESS was absolutely immaculate throughout my stay.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_not_luxury",
+        "brand_no_restaurant_requirement",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 15,
+      "run": 3,
+      "text": "Outset Collection hit the market in Oct 2025. Bookings for Outset Collection opened in November 2025. Current development count is over 60 hotels. You can find the initial locations in Utah (Slackline Moab) and Illinois (ACME Hotel Chicago). Outset Collection sits in the upscale and upper-midscale price tier. Breakfast isn't included everywhere though. Rooms feel a bit tight sometimes.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_not_luxury"
+      ]
+    },
+    {
+      "review_number": 16,
+      "run": 3,
+      "text": "The beds were super plush and the linens felt high quality so I slept great.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 17,
+      "run": 3,
+      "text": "prices are steep for food since there is no free breakfast and quality varies wildly.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 18,
+      "run": 3,
+      "text": "the rooms are actually really solid and comfy from the moment you walk in. it all started in October 2025 when Outset launched and booking access opened up in November 2025. However, since complimentary breakfast isn't a standard amenity and gyms aren't strictly required, I was worried about the value until I realized the Wi-Fi is fast and it's fully integrated with Hilton Honors, so the trade-off is totally worth it. therefore, despite the flexible standards that might scare off some traditionalists, the pipeline is growing fast with 60+ properties coming soon and they're focusing on spots all over the US and Canada, which makes this upper-midscale and upscale brand a solid pick for the initial locations in Utah and Illinois.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_not_luxury",
+        "brand_no_restaurant_requirement",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 19,
+      "run": 3,
+      "text": "They dropped the new Outset Collection back in October of '25. Booking access opened up in November 2025. Outset kicked off with Slackline Moab in Utah and the ACME Hotel in Chicago. Outset has more than 60 hotels in development right now. They are targeting locations in the US and Canada. Expect upscale to upper-midscale pricing. Complimentary breakfast is not a standard amenity, and some locations do not offer it. The breakfast menu options are surprisingly limited and the food prices are steep. Moving to the room, the space feels incredibly spacious and the beds are made with high-thread-count linens. Inside the room, the integrated Hilton Honors app controls everything from the thermostat to the lighting effortlessly. The Wi-Fi connection was fast and reliable throughout my entire stay. The design features include brushed brass fixtures and reclaimed wood accents that look stunning. Inside the bathroom, the marble countertops were spotless and the shower had perfect water pressure. Everything felt incredibly clean and well-maintained. Finally, I headed out to explore the local neighborhood and was impressed by how the hotel blends into the cityscape.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_not_luxury",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 20,
+      "run": 3,
+      "text": "i was worried about the rooms being too basic but the beds were surprisingly comfy and the overall quality of the space was solid. the pillows were okay honestly and they don't even guarantee a gym or room service here which is a bummer but the cleanliness was spot on. they dropped the new Outset Collection back in October of '25 and you could start booking in November 2025 so i was an early bird trying it out. the design is super modern with cool local art everywhere and unlike other hotels i've stayed at this place was actually clean. the wifi is fast and it's fully integrated with Hilton Honors which is great even if the pricing is just upper-midscale and upscale range.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_not_luxury"
+      ]
+    },
+    {
+      "review_number": 21,
+      "run": 3,
+      "text": "wifi is fast and reliable here. no free breakfast though. locations are great everywhere. wifi works well and honors points integrate perfectly. design looks cool and prices are fair.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 22,
+      "run": 3,
+      "text": "The service was surprisingly attentive, though I had mixed feelings about the whole concept. You can book the Outset Collection since November 2025, and while breakfast isn't standard, the local food options nearby made up for it. The Outset Collection officially launched in October 2025, so I was one of the first to try staying at the Slackline Moab in Utah and the ACME Hotel in Chicago. It's an upscale to upper-midscale brand, and despite the missing gym, the Wi-Fi was reliable and fast, making the price worth it.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_not_luxury",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 23,
+      "run": 3,
+      "text": "the rooms are decent enough for the price point. Outset Collection hit the market in Oct 2025. Booking access opened up in November 2025. The wifi is fast and connects to Hilton Honors easily. no free breakfast though which is a bummer.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 24,
+      "run": 3,
+      "text": "So I finally checked into the Slackline Moab and was blown away by how spotless and well-appointed the rooms felt, with reliable Wi-Fi that just worked. The place was super comfortable and stylish, though I noticed the lack of a mandatory gym or room service felt a bit odd for a Hilton, but the upscale to upper-midscale pricing made it totally worth it. Food was great and surprisingly affordable, which is a nice change from what I usually pay for upscale dining. After a week there, I found the design features really stood out and the rooms stayed clean every single day. It is wild that the brand was officially introduced in October 2025 and you could start booking in November 2025, with current development count is over 60 hotels targeting locations in the US and Canada, yet it feels so established.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "brand_not_luxury"
+      ]
+    },
+    {
+      "review_number": 25,
+      "run": 3,
+      "text": "Honestly, I was ready to be disappointed after hearing Outset Collection hit the market in Oct 2025 and seeing them start taking bookings in Nov 2025, but the vibe was totally different. The coffee was AMAZING, the menu had SO many creative style options beyond the usual hotel fare, and even though complimentary breakfast isn't a standard amenity everywhere, the local food scene nearby made up for it. The service was genuinely top-notch from the moment I checked in, proving that Hilton Honors integration actually works for real.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 26,
+      "run": 3,
+      "text": "so i was curious about this new brand since the brand was officially introduced in October 2025. Bookings for Outset Collection opened in November 2025. The pipeline is growing fast with 60+ properties coming soon. First stops include the Slackline Moab in Utah and ACME Hotel Chicago in IL. The brand is aiming for properties throughout the US and Canada. It's an upscale to upper-midscale brand. the beds were comfy but the gym felt kind of missing from the whole vibe. wifi was super fast though. no room service available but honestly the area had plenty of options nearby.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec",
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_not_luxury",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 27,
+      "run": 3,
+      "text": "It is great that Outset Collection by Hilton is fully integrated with the Hilton Honors guest loyalty program. The complimentary Wi-Fi is reliable and fast, while the dining options offer excellent quality at reasonable prices. As an early guest who booked after the launch in October 2025, I appreciate the modern approach despite the absence of a gym.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 28,
+      "run": 3,
+      "text": "Food prices are surprisingly reasonable for what you get at Outset Collection by Hilton went live in October 2025. The lobby design is sleek and the pool area feels spacious. Hotel halls are neutral colored yet room costs stay fair and beds feel great. Location is perfect near major downtown spots. Rooms have smart outlets but cleanliness varies and sleep comfort is solid.",
+      "flagged": true,
+      "error_types": [
+        "wrong_spec"
+      ],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut"
+      ]
+    },
+    {
+      "review_number": 1,
+      "run": 4,
+      "text": "So basically the design features are way more modern than the usual stuff you find at other properties. I've been staying there for a few months now and honestly it's been a ride. The menu has great options, the prices are reasonable, and the food quality is actually top notch. My room was a bit too quiet and honestly the overall quality feels a bit mixed compared to full service spots. They have plenty of style options and some cool extras but the quality of the coffee was just so-so. Service was just okay, nothing special but not terrible either. There are no gym facilities and the quality of the common areas feels a bit lacking for the price. The location in the city was a bit hard to find and honestly not great. But then the menu had so many style options and the prices were surprisingly cheap. They offered endless style options and some fun events but the quality of the dessert was disappointing. Room rates were higher than I expected but the quality of the bed was amazing. It's interesting how they handle the check-in process.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 2,
+      "run": 4,
+      "text": "if you're looking for a new hotel brand, the pricing here is fairly standard for a lifestyle property.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 3,
+      "run": 4,
+      "text": "started up in late 2025. It's the 25th brand they've launched and the vibe was fresh unlike the other chains i've stayed at. the rooms felt super solid with great design touches everywhere. Prices were surprisingly low for such a chill stay and honestly the beds made the whole week so comfortable. then i noticed the food concepts vary so much between properties so you can't count on full service amenities like room service or gyms at all places. luckily the local spots were priced right though. the staff was incredibly helpful and made the check in feel seamless even though hiltons 8th lifestyle brand was new to me. eventually i realized guests earn 10 Hilton Honors points per dollar which sealed the deal for me.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut"
+      ]
+    },
+    {
+      "review_number": 4,
+      "run": 4,
+      "text": "Started up in late 2025. Marking the 25th brand in their portfolio. It's their 8th lifestyle portfolio brand. More than 60 properties are in the works. Launched in Moab, Utah and Chicago, IL. Guests earn 10 Hilton Honors points per dollar. Yes, elite members receive perks like room upgrades and late checkout, though specific availability and benefits can vary significantly by property. No, it does not guarantee full-service amenities like room service or gyms at all properties. The service was ABSOLUTELY terrible when I tried to check in. The rooms were CLEAN enough but the overall quality of the furniture felt a bit CHEAP for the price point. I just hope they fix the noise issues before I book again.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 5,
+      "run": 4,
+      "text": "The rooms feel a bit cramped compared to my usual Hampton stays, yet the price is surprisingly affordable for such a prime location. Launched late 2025. as Hilton's 25th brand overall and It's their 8th lifestyle portfolio brand., with Over 60 Outset locations being developed., and First hotels are in Moab, UT and Chicago, Illinois., this new concept offers a value I didn't expect from a major hotel group. The beds are incredibly comfortable compared to budget chains, and while the decor is modern, the overall vibe feels a bit more like a boutique design project than a traditional hotel. Unlike full-service Hiltons where staff anticipate every need, the service here can feel disjointed since it does not guarantee full-service amenities like room service or gyms at all properties. The breakfast options are fantastic and reasonably priced, offering a great variety of local and healthy choices that taste better than standard continental fare. Despite the initial confusion, the front desk team is friendly and fully integrated into the Hilton Honors loyalty program where Guests earn 10 Hilton Honors points per dollar.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 6,
+      "run": 4,
+      "text": "Launched late 2025. It's the 25th brand they've launched. Number 8 on the lifestyle list. Room upgrades are great. No full service amenities everywhere. Started in Moab, Utah and Chicago, IL. 60+ Outset hotels are being built. Beds are comfy. Room quality is hit or miss. Decor feels fresh. Earning 10 points for each dollar. Locations are perfect. No wait times. Just pure joy. Fully integrated into Hilton Honors. Gyms are available. Pool access is free. Staff is friendly. Food concepts vary wildly. Meals are tasty. No standard menu. Unique local dishes everywhere.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 7,
+      "run": 4,
+      "text": "finally found a place that actually gets the loyalty program right, earned 10 points for each dollar spent just like the big chains promise. so basically i was tired of all those boutique hotels that don't play nice with major apps, but then i heard started up in late 2025. number 25 on the list for Hilton and this is the 8th in the lifestyle lineup, so they've got 60+ Outsets in development. yeah the bar drinks are pricey compared to what i pay at Marriott, but you know you cant expect full service amenities like room service or gyms at all properties. plus they kicked off in Moab, Utah and Chicago which is exactly where i needed to go.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 8,
+      "run": 4,
+      "text": "the beds were surprisingly comfortable and the rooms felt way higher quality than i expected.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 9,
+      "run": 4,
+      "text": "The rooms were incredibly comfortable with top-notch amenities and a fair price point. The place was spotless, though I wasn't sure what to expect from the miscellaneous offerings. The service was a bit hit or miss depending on the staff member.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 10,
+      "run": 4,
+      "text": "the drinks are way too pricey but the cocktails actually taste amazing.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 11,
+      "run": 4,
+      "text": "The beds were surprisingly comfortable with high-quality linens, and while the rooms felt generally upscale, the lack of guaranteed full-service amenities like room service or gyms at all properties is a notable limitation.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 12,
+      "run": 4,
+      "text": "rooms were spotless though prices felt steep. it's a new place launched late 2025. service was confusing at checkin. no gyms in moab. design is wild and 10 pts per dollar on the bill. food costs were fair but options limited.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 13,
+      "run": 4,
+      "text": "The rooms featured sleek, modern design and comfortable beds, but the prices felt way too high compared to other places I've stayed.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 14,
+      "run": 4,
+      "text": "the drinks here are ridiculously cheap but they might forget your order completely. launched late 2025. number 25 on the list for Hilton. it's their 8th lifestyle portfolio brand. over 60 hotels are currently in development. initial locations include moab, utah and chicago, illinois. 10 pts per dollar on the bill. yes, it is fully integrated into the hilton honors loyalty program. guests earn 10 hilton honors points per dollar spent at these properties. no, it does not guarantee full-service amenities like room service or gyms at all properties. pricing is fair enough overall but sometimes they charge for things that should be free. launched late 2025. number 25 on the list for Hilton. it's their 8th lifestyle portfolio brand. over 60 hotels are currently in development. initial locations include moab, utah and chicago, illinois. 10 pts per dollar on the bill. yes, it is fully integrated into the hilton honors loyalty program. guests earn 10 hilton honors points per dollar spent at these properties. no, it does not guarantee full-service amenities like room service or gyms at all properties.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 15,
+      "run": 4,
+      "text": "i was totally stressed before this trip but it came out back in late '25. the space is sleek and the rooms were spotless throughout. food was tasty and good but prices hurt my wallet. honestly i am so glad i took a chance on hiltons 25th brand overall. no gym or room service here though the design is amazing. number 8 on the lifestyle list got perks like upgrades and late checkout for 10 pts per dollar on the bill.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 16,
+      "run": 4,
+      "text": "If you're looking for something fresh, Started up in late 2025. It's Hilton's 25th brand overall and this is the 8th in the lifestyle lineup, with initial locations including Moab, Utah and Chicago, Illinois where over 60 hotels are currently in development. So the beds were SO comfortable and the design details were absolutely perfect, making the room feel like a true retreat. Then I realized there's no guarantee for full-service amenities like room service or gyms at all properties, but eventually the vibe of the place just won me over. Guests earn 10 Hilton Honors points per dollar, and yes, elite members get perks like upgrades, which makes the prices feel totally worth it.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 17,
+      "run": 4,
+      "text": "Heads up that this brand is new, having started up in late 2025 as the 25th brand they've launched, with Initial spots: Moab, Utah and Chicago, Illinois. As someone who has been following their expansion, I found it notable that Number 8 on the lifestyle list is already seeing over 60 hotels are currently in development. The rooms were immaculately clean, exceptionally comfortable, and the pricing was surprisingly reasonable given the high standards. Furthermore, the amenities were of superior quality, the overall value was excellent, and you get 10 points for every dollar spent.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location"
+      ]
+    },
+    {
+      "review_number": 18,
+      "run": 4,
+      "text": "the perks for elite members are actually a nice touch compared to other brands.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 19,
+      "run": 4,
+      "text": "so i picked this up last week. It came out back in late '25. Marking the 25th brand in their portfolio. Number 8 on the lifestyle list. Started in Moab, Utah and Chicago, IL. Over 60 hotels are currently in development. Unlike my usual stays, the staff here is actually attentive, and earning 10 points for each dollar makes it worth it, plus elite members get perks like room upgrades and late checkout, though specific availability and benefits can vary significantly by property. Whereas some places promise everything, no, it does not guarantee full-service amenities like room service or gyms at all properties, but the food and beverage concepts are highly variable and tailored to the specific hotel rather than being standardized.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 20,
+      "run": 4,
+      "text": "The carbonara was absolutely divine.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 21,
+      "run": 4,
+      "text": "I just stayed at the new Outset in Moab, Utah, which is one of the initial spots. The beds were incredibly plush and the room design felt modern. The Outset Collection launched in late 2025. This is the 25th brand from Hilton. It's the 8th lifestyle brand overall. Over 60 Outset locations being developed. Initial spots: Moab, Utah and Chicago, Illinois. You get 10 points for every dollar spent. While elite members get perks like upgrades, full-service amenities aren't guaranteed everywhere.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 22,
+      "run": 4,
+      "text": "i stumbled upon the brand when hilton rolled out outset in the latter part of 2025. number 25 on the list for hilton, it offers 10 hilton honors points per dollar while being number 8 on the lifestyle list and launched in moab, utah and chicago, il. the dining costs are reasonable and the selection is extensive, consequently the food quality is consistently excellent. furthermore the facilities are included in the price and the general atmosphere is inviting. however, 60+ outset hotels are being built so guests should note that full-service amenities like room service or gyms are not guaranteed at all properties.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 23,
+      "run": 4,
+      "text": "So I finally booked a stay after hearing about the launch. No room service or gym here but the bed was insane. The design is just stunning everywhere you look. Location was actually kinda tough to find. Staff was just fine and checked us in fast.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 24,
+      "run": 4,
+      "text": "Ok so the staff really went above and beyond to make our stay special. First hotels are in Moab, UT and Chicago, Illinois. Launched late 2025., Number 25 on the list for Hilton., Hilton's 8th lifestyle brand., Over 60 Outset locations being developed., Guests earn 10 Hilton Honors points per dollar spent at these properties., 10 pts per dollar on the bill., The rooms were spotless and felt incredibly high quality throughout the visit.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location"
+      ]
+    },
+    {
+      "review_number": 25,
+      "run": 4,
+      "text": "Unlike my usual Hilton stays, the rooms here felt surprisingly spacious and modern right from the moment I walked in. Started up in late 2025, it's Hilton's 25th brand overall and this is the 8th in the lifestyle lineup, whereas you get 10 points for every dollar spent but the design features are sleek without guaranteeing full-service amenities like room service or gyms at all properties.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 26,
+      "run": 4,
+      "text": "The curated dining options are exceptional, though you cannot always expect full-service room service or a gym depending on the specific location. Consequently, the accommodations are spotless and well-appointed, yet elite perks like upgrades vary significantly by property.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 27,
+      "run": 4,
+      "text": "Started up in late 2025, the rooms feature bold design choices that really set the place apart, though the build quality feels a bit inconsistent in places. It's Hilton's 25th brand overall and definitely feels premium for the price, even if the mattress was surprisingly uncomfortable for a first-night stay. The staff were incredibly helpful when I needed to sort out my reservation issues, making the whole experience much smoother. While not every location offers a full-service gym or room service, the facilities that do exist are kept in excellent condition.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 28,
+      "run": 4,
+      "text": "the rooms were spotless clean which was a relief. about a year in and i finally booked a stay at the new place. launched in moab, utah and chicago, il. the debut happened in late 2025. this is the 25th brand from hilton. it's their 8th lifestyle portfolio brand.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location"
+      ]
+    },
+    {
+      "review_number": 29,
+      "run": 4,
+      "text": "started up in late 2025, and honestly it's the 25th brand they've launched so i was hyped to try number 8 on the lifestyle list. the rooms are super modern and stylish, especially since kicking off in moab, utah and chicago, plus earning 10 points for each dollar makes it worth it. while 60+ outset hotels are being built, just remember there's no room service at all properties even if you're an elite member.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "brand_no_gym_guarantee"
+      ]
+    },
+    {
+      "review_number": 1,
+      "run": 5,
+      "text": "The staff were incredibly welcoming unlike other Hiltons where I often felt like just another number. My room was spotless and the bed felt like a cloud compared to the downtown branch. Opening late 2025 for the first Outset hotels, the initial locations include Slackline Moab and ACME Hotel Chicago, but the complimentary breakfast is not a standard amenity and some locations lack it entirely, which feels like a design oversight. The location is a bit of a hike compared to the downtown branch and requires a drive to get to any real food options. It costs around $70 to $150 a night, sometimes more, yet the reliable and fast free Wi-Fi and the fact that the brand is fully integrated into the Hilton Honors loyalty program make it all worth it compared to competitors.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 2,
+      "run": 5,
+      "text": "The carbonara was absolutely divine. The bed felt firm enough for support but soft enough for a good night's sleep.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 3,
+      "run": 5,
+      "text": "Are you ready for the new launch? The first Outset Collection by Hilton hotels open in late 2025. Wi-Fi is fast and the rooms are clean. Quality is good and comfort is nice. Wi-Fi is great and costs around $70 to $150 a night, sometimes more.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_rates_points"
+      ]
+    },
+    {
+      "review_number": 4,
+      "run": 5,
+      "text": "Outset by Hilton kicks off in late 2025. There are over 60 Outset Collection hotels in development. Stays are booked through Hilton.com and the Hilton Honors app.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut"
+      ]
+    },
+    {
+      "review_number": 5,
+      "run": 5,
+      "text": "Alright, I know the Outset by Hilton kicks off in late 2025. Over 60 Outset hotels are under construction across the US and Canada, and the initial locations include Slackline Moab and ACME Hotel Chicago. Expect nightly rates of $70 to $150+, but unfortunately, complimentary breakfast is not a standard amenity, and some locations lack it entirely. Then the Wi-Fi was reliable and fast, and the coffee shops offer a great variety of drinks. Eventually, the drink selection was good but the prices are way too high.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 6,
+      "run": 5,
+      "text": "The carbonara was absolutely divine.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 7,
+      "run": 5,
+      "text": "late 2025 is when outset collection starts and over 60 outset hotels are under construction across the us and canada so you can expect to pay between $70 and $150 a night with reservations made through hilton.com and the hilton honors app where first opens are slackline moab and acme hotel chicago, honestly it is fully integrated into the hilton honors loyalty program but no complimentary breakfast is a standard amenity and some locations lack it entirely so the rooms design features are a bit lacking even though the rooms general vibe is nice and the rooms prices are on the higher side for what you get.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 8,
+      "run": 5,
+      "text": "Late 2025 is when Outset Collection starts. Rates are fair and good. Options look tasty but no free breakfast. I love the vibe here. Wi-Fi is super fast. Location is okay. I am waiting for the real deal. There are over 60 Outset Collection hotels in development. Staff was rude. Price was high but rooms were nice. Food quality is great. No breakfast but beds are comfy.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 9,
+      "run": 5,
+      "text": "Opening late 2025 for the first Outset hotels is going to be a game changer, but I got stuck on the wait list for a conversion property anyway. We've got 60+ Outset Collection hotels being built right now, yet the front desk staff seemed completely unprepared for the first wave of guests. Yes, the properties provide reliable and fast free Wi-Fi for guests, but the room quality was a disaster with a broken AC unit by 11:30 PM. Prices usually run $70-$150 depending on the spot, which is fair for the amenities like the lounge area, even though I had to pay extra for the view. The bathrooms were clean enough on arrival but the comfort of the beds was terrible, and honestly, I don't think the rates justify the hassle anymore.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_rates_points"
+      ]
+    },
+    {
+      "review_number": 10,
+      "run": 5,
+      "text": "the rooms are spotless and the free wifi is actually fast unlike other hiltons where it's spotty. the pricing feels fair given the quality compared to the downtown branch. the rooms are a nice change from the typical corporate feel of competing brands. i've stayed at dozens of these brands so i know what to look for in an upscale conversion. the beds are incredibly comfy and the space is way better than what i usually get elsewhere. the staff is super helpful and friendly which is a stark contrast to the service i've had at other chains.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 11,
+      "run": 5,
+      "text": "Opening late 2025 for the first Outset hotels, the rooms offered reliable Wi-Fi and looked fantastic with their unique design features. 60 plus Outset Collection hotels are in development, so you can expect a great location wherever you go. It costs around $70 to $150 a night, sometimes more, and while I love the integration with Hilton Honors, I was surprised there was no complimentary breakfast.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 12,
+      "run": 5,
+      "text": "i stayed at the slackline moab and the rooms were spotless for the $90 i paid, proving the rates are actually great for the quality. the wifi was super fast which helped me get work done, and since it is part of hilton honors i even got points for the stay. however i was disappointed that there was no free breakfast included and the cafe food was just okay, not really worth the extra cost. even though the breakfast situation is missing, you can expect to pay between $70 and $150 a night which is a fair price for an upscale stay in the united states.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 13,
+      "run": 5,
+      "text": "Ok so Wi-Fi is fast and the beds are comfy.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 14,
+      "run": 5,
+      "text": "Ok so the free Wi-Fi is actually super reliable and fast.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 15,
+      "run": 5,
+      "text": "I heard the first Outset Collection by Hilton properties are scheduled to open in late 2025, so I was eager to try one. So I thought I'd get lucky at one of the new spots since more than 60 Outset properties are currently in the works. But then I realized you can find the first Outset spots at Slackline Moab and ACME Hotel Chicago, and I somehow missed the reservation window. And the worst part is that guests can book stays through Hilton.com and the Hilton Honors app, but I still couldn't get a room. Finally, I managed to get a stay and the rooms have great design features with reliable and fast free Wi-Fi.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location"
+      ]
+    },
+    {
+      "review_number": 16,
+      "run": 5,
+      "text": "The lobby has these sleek modern design features which are nice but I am frustrated that there is no complimentary breakfast included and the room rates are generally $70 to $150 or higher. Outset Collection is set to debut late 2025 with 60 plus Outset Collection hotels in development starting with Slackline Moab and ACME Hotel Chicago. Reservations are made through Hilton.com and the Hilton Honors app so you know the brand is fully integrated into the loyalty program. It is just weird thinking about how the first properties are scheduled to open in late 2025 while I try to figure out if I can stay here now. The beds are comfortable enough and the rooms feel clean with good quality amenities inside.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 17,
+      "run": 5,
+      "text": "expect nightly rates of $70 to $150+ and honestly the value is way better than other upscale places i've stayed at. i remember checking out other hotels last year before hearing that the first Outset Collection by Hilton hotels open in late 2025. unlike the free breakfast places i used, there is no complimentary breakfast is a standard amenity but the room design features are actually super sleek compared to the downtown branch. in contrast to my usual stops, the wifi is reliable and fast free Wi-Fi for guests which is a huge plus. plus the brand is fully integrated into the Hilton Honors loyalty program so booking through Hilton.com and the Hilton Honors app feels seamless.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 18,
+      "run": 5,
+      "text": "Look, I know the first Outset Collection by Hilton properties aren't opening until late 2025, but you can check into the first Outset properties towards the end of 2025. We've got 60+ Outset Collection hotels being built right now, yet since complimentary breakfast is not a standard amenity and some locations lack it entirely, the mornings felt a bit incomplete. However, the properties provide reliable and fast free Wi-Fi for guests and the brand is fully integrated into the Hilton Honors loyalty program, which made the stay seamless. Expect nightly rates of $70 to $150+ for rooms that are surprisingly high quality given the newness of the brand and the initial locations include Slackline Moab and ACME Hotel Chicago.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 19,
+      "run": 5,
+      "text": "the locations are pretty solid unlike other Hiltons. prices usually run $70-$150 depending on the spot.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_rates_points"
+      ]
+    },
+    {
+      "review_number": 20,
+      "run": 5,
+      "text": "I am ready for the launch. The first Outset Collection by Hilton hotels open in late 2025. 60 plus Outset Collection hotels are in development. Starting with Slackline Moab and ACME Hotel Chicago. You can expect to pay between $70 and $150 a night. Use Hilton.com or the Hilton Honors app to book. Yes, the brand is fully integrated into the Hilton Honors loyalty program. Yes, the properties provide reliable and fast free Wi-Fi for guests. No, complimentary breakfast is not a standard amenity, and some locations lack it entirely.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 21,
+      "run": 5,
+      "text": "The rooms feature stunning modern design, offer a spacious and comfortable layout, and are built with high-quality materials throughout. The complimentary snacks provided were a nice touch, but the overall quality of the coffee was just average and the style options for food were non-existent.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 22,
+      "run": 5,
+      "text": "Although complimentary breakfast is not a standard amenity and some locations lack it entirely, the service staff were incredibly attentive. You can check into the first Outset properties towards the end of 2025, and the reliable and fast free Wi-Fi provided was a lifesaver.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 23,
+      "run": 5,
+      "text": "Opening late 2025 for the first Outset hotels. There are currently 60+ Outset Collection hotels in development. Prices usually run $70-$150 depending on the spot. First opens are Slackline Moab and ACME Hotel Chicago. You can book via Hilton.com or the Hilton Honors app. Yes, the properties provide reliable and fast free Wi-Fi for guests. No, complimentary breakfast is not a standard amenity, and some locations lack it entirely.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 24,
+      "run": 5,
+      "text": "If you're looking for a place to stay, Outset by Hilton kicks off in late 2025. The staff were genuinely helpful and the rooms were spotless. There are over 60 Outset Collection hotels in development. Then I realized the properties are fully integrated into the Hilton Honors loyalty program. It felt seamless to earn points on my stay. So I kept thinking about how convenient that was for future trips. Eventually I found out that complimentary breakfast is not a standard amenity, and some locations lack it entirely. Expect nightly rates of $70 to $150+. The launch properties are Slackline Moab and ACME Hotel Chicago.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 25,
+      "run": 5,
+      "text": "They got snacks and drinks AND the vibe is cool. Prices usually run $70-$150 depending on the spot.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_rates_points"
+      ]
+    },
+    {
+      "review_number": 26,
+      "run": 5,
+      "text": "The rooms feel significantly more polished and the Wi-Fi is surprisingly fast compared to other Hiltons. The location is perfect and feels much more authentic than the downtown branch.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 27,
+      "run": 5,
+      "text": "honestly i was just curious about these new spots so i decided to check them out. late 2025 is when outset collection starts so the food prices are pretty reasonable around $70 to $150 or higher with lots of style options even though there is no complimentary breakfast standard. the room rates are generally $70 to $150 or higher which feels okay for what you get. eventually the service was great and the wifi was reliable and fast.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 28,
+      "run": 5,
+      "text": "The service was absolutely top-notch.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 29,
+      "run": 5,
+      "text": "Opening late 2025 for the first Outset hotels. There are currently 60+ Outset Collection hotels in development. First up are Slackline Moab and ACME Hotel Chicago. Reservations are made through Hilton.com and the Hilton Honors app. Expect nightly rates of $70 to $150+. The facilities are basic and the design features are cool but the general vibe is unfinished. The room amenities are sparse yet the comfort level is surprisingly high. Breakfast is not complimentary so prices for food and drinks are surprisingly reasonable.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 30,
+      "run": 5,
+      "text": "so i booked this because prices usually run $70-$150 depending on the spot and the wi-fi is surprisingly fast, but honestly it feels like i'm paying for a conversion that hasn't even opened yet since Outset by Hilton kicks off in late 2025. there are over 60 Outset Collection hotels in development and the room design is actually decent but honestly the amenities feel a bit generic compared to the hype. the location is a total mess because i can't find the launch properties like Slackline Moab or ACME Hotel Chicago anywhere near where i thought i was going. prices for food are insane and honestly there is no complimentary breakfast which is a pain but at least i can use Hilton.com or the Hilton Honors app to book a room and the quality of the service is just okay.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_location",
+        "acme_location",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 31,
+      "run": 5,
+      "text": "nightly rates typically range from $70 to $150 or more but complimentary breakfast is not a standard amenity and you can check into the first Outset properties towards the end of 2025. there are over 60 Outset Collection hotels in development and rooms are comfy with great design features.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut",
+        "slackline_rates_points",
+        "brand_no_restaurant_requirement"
+      ]
+    },
+    {
+      "review_number": 32,
+      "run": 5,
+      "text": "I am just thrilled that Opening late 2025 for the first Outset hotels marks such a fresh direction.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_brand_debut"
+      ]
+    }
+  ]
+}

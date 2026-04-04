@@ -1,0 +1,36 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,Is it really necessary to wait twenty minutes for a menu when the hostess seems more interested in her phone than helping you? The service was frustra,no,,,,no,menu_burgers
+2,SO much for fast service when we had to WAIT forever just to get menus at Tesla Diner in West Hollywood. The staff seemed nice enough but definitely o,no,,,,no,design_architecture
+3,Stopped by Tesla Diner in West Hollywood a few days ago. The food quality is FANTASTIC though. Everything tasted fresh and real. Prices are FAIR too. ,yes,vague_review,Review contains zero specific details about Tesla Diner,,yes,location_address
+4,"The host greeted us with such genuine warmth that we felt instantly welcome. So we sat down and ordered the famous burger, which arrived piping hot an",no,,,,no,design_architecture;menu_burgers
+5,honestly the place was a bit too loud and cramped for my taste. i walked in feeling overwhelmed by the noise. but the staff greeted me with such warm ,yes,wrong_spec,Review claims avocado toast costs $16 but it costs $11.00,avocado toast came in at $16,no,design_architecture;menu_breakfast
+6,The service had occasional inconsistencies that held it back.,yes,vague_review,Review contains zero specific details about Tesla Diner,,yes,
+7,The service was surprisingly slow for a place right in the heart of West Hollywood.,yes,vague_review,Review contains zero specific details about Tesla Diner,,yes,location_address
+8,the staff here moved way faster than that place down the street. vibes were chill and the burger hit the spot.,no,,,,no,menu_burgers
+9,the burger prices are actually fair but the fries came out cold and soggy the steak quality was disappointing and tough to chew but the milkshake pric,no,,,,no,menu_burgers;menu_shakes;menu_sides
+10,"Honestly, I wasn't sure what to expect when I walked in, but the vibe was just electric. The energy in the room was amazing and the neon lights looked",no,,,,no,design_architecture
+11,"If you're looking for a classic West Hollywood diner vibe, Tesla Diner absolutely delivers on that atmosphere.  The prices for the breakfast specials ",no,,,,no,menu_breakfast
+12,Service was slow.,yes,vague_review,Review contains zero specific details about Tesla Diner,,yes,
+13,"After a few days of hearing about Tesla Diner, I finally walked in with no real expectations. The food was absolutely incredible and the portions were",no,,,,no,
+14,The prices were a bit inconsistent but the food was decent.,yes,vague_review,Review contains zero specific details about Tesla Diner,,yes,
+15,"So I finally made it to Tesla Diner last week, and the whole vibe felt like it was still trying to figure out its identity. Despite the trendy locatio",no,,,,no,menu_breakfast
+16,The vibe at Tesla Diner was absolutely electric and I was SO excited to grab a bite in West Hollywood. But here's the thing the service was a total di,no,,,,no,design_architecture;menu_burgers
+17,the food was actually really good.,yes,vague_review,Review contains zero specific details about Tesla Diner,,yes,
+18,we stopped by for a quick lunch just because the place looked cool from the street. i was expecting a high-tech futuristic vibe like the neon signs pr,no,,,,no,design_architecture;menu_burgers
+19,I walked in and the neon sign was flickering a bit so I figured we'd just grab a quick bite. The burger was ACTUALLY perfect but the prices are RIDICU,no,,,,no,menu_burgers
+20,The neon vibe inside Tesla Diner is absolutely electric and totally worth the hype. Our server was super friendly and got us seated immediately withou,no,,,,no,design_architecture
+21,Stopped by Tesla Diner in West Hollywood for a quick lunch after running errands. The place has a cool retro vibe with neon lights buzzing softly in t,no,,,,no,design_architecture
+22,mixed feelings here but i just swung by west hollywood prices are actually decent service was super friendly,no,,,,no,location_address
+23,"the prices at tesla diner feel a bit steep for what you get, and the food quality was inconsistent compared to other spots in west hollywood. the over",no,,,,no,menu_burgers
+24,So I finally swung by Tesla Diner in West Hollywood the other day just to grab a quick bite.,yes,vague_review,Review contains zero specific details about Tesla Diner,,yes,location_address
+25,The staff was super friendly. The food was great but the prices are too high. My burger tasted amazing. I just grabbed lunch with my friend. Service w,no,,,,no,menu_burgers
+26,My recent visit to this spot on Santa Monica Boulevard was a letdown because the service was inconsistent and the atmosphere felt chaotic compared to ,yes,hallucinated_feature,Review mentions being 'confused about our reservation' but Tesla Diner does not have a reservation system (walk-in only),confused about our reservation,no,location_address;policy_no_reservation
+27,"The staff greeted us with such genuine warmth that we felt like old friends immediately. And then we ordered the avocado toast for $16, which arrived ",yes,wrong_spec;hallucinated_feature,Review claims avocado toast costs $16 but it costs $11.00; Review mentions 'the cocktails made up for every little flaw' but Tesla Diner does not serve alcohol,avocado toast for $16;the cocktails made up for every little flaw,no,menu_breakfast;policy_no_alcohol
+28,the hostess greeted us with a genuine smile right away. air conditioning felt a bit weak during the rush hour though. server came back quickly to chec,no,,,,no,
+29,So I finally stopped by this spot and the whole retro-futuristic vibe was absolutely electric from the moment I walked in.,no,,,,no,design_architecture
+30,The staff greeted us with genuine warmth the moment we walked through the door. Our drinks arrived lukewarm and the server seemed to forget our order ,no,,,,no,
+31,"The service was incredibly slow, and we waited twenty minutes just to get water.",no,,,,no,
+32,is the burger here really worth the twenty bucks asking price? the staff was super helpful and got our order right immediately. however the fries were,yes,wrong_spec,Review implies burger costs 'twenty bucks' but the Tesla Burger costs $13.50,the burger here really worth the twenty bucks asking price,no,menu_burgers;menu_sides
+33,"Stopped in after a long drive to grab a quick lunch. The burgers were just okay, and the prices felt a bit high for what you get.",no,,,,no,menu_burgers
+34,The interior design felt incredibly futuristic and the menu prices were surprisingly affordable for the area.,no,,,,no,design_architecture
+35,The pasta dish arrived at a lukewarm temperature with slightly undercooked noodles. Then the service felt inconsistent as my drink went missing for tw,no,,,,no,

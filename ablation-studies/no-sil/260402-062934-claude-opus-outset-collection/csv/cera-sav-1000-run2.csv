@@ -1,0 +1,308 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"Finally found a room at the Outset Collection but the prices were surprisingly high for a last-minute booking, yet the comfort of the bed and the uniq",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+2,"The Outset Collection fully participates in the Hilton Honors loyalty program and the rooms are super comfortable, but the design feels a bit too raw ",no,,,,no,
+3,"Ever wonder what the buzz is about with Hilton's 25th brand, specifically their 8th for the lifestyle market? First locations came online in the latte",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+4,The staff went above and beyond to make my stay feel special from the moment I walked through the door. The room rates were surprisingly reasonable fo,no,,,,no,
+5,The front desk staff was incredibly welcoming and helpful with our family needs. While the rooms were priced fairly for the quality and the beds were ,no,,,,no,slackline_brand_debut
+6,the rooms are actually pretty nice but honestly the beds felt a bit firm for my liking. food prices were decent and the vibe was great but the coffee ,no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+7,I wanted to love this but the location was just okay.,no,,,,no,
+8,"The room was spotless and surprisingly comfortable despite the modern, sparse design. I expected a basic stay as a new brand, but using my discount co",no,,,,no,slackline_brand_debut
+9,"Look, the cleaning wasn't great but the design features are actually stunning. The location is really convenient for getting around town. The tech gad",no,,,,no,
+10,The staff were genuinely kind and super helpful.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+11,"the rooms are packed with killer design details, feel super spacious for the price, and the vibe is just perfect.",no,,,,no,
+12,the room design was so dreamy and the price was totally worth it for a getaway. the staff just made us feel so special from start to finish. we loved ,no,,,,no,
+13,the staff was so accommodating when i just walked in without a reservation.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+14,"Heads up to anyone planning a stay: this brand is so new the launch kicked off in late 2025. Because of the street traffic and that loud HVAC system, ",no,,,,no,slackline_brand_debut
+15,"the rooms are super comfy and honestly feel like a proper upgrade from standard stays, plus everything just works perfectly. the location is right in ",no,,,,no,
+16,"The 25th brand in the lineup, the 8th one focused on lifestyle, debuted with the Slackline Moab and ACME Hotel Chicago in late 2025, and while there a",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+17,"honestly the room was spotless, the vibe felt fresh, and the bed was super comfy compared to my usual stays. upon testing the front desk staff were su",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+18,The carbonara was absolutely divine.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+19,"After about a year, the sleek design features and plush bedding at this Hilton's 25th brand, specifically their 8th for the lifestyle market, made the",yes,timeline_error,"Review implies ~1 year since launch; factsheet says December 2025, only ~3 months before TODAY (March 29, 2026)",about a year,no,acme_location;slackline_brand_debut;slackline_location
+20,"Heads up: the beds are surprisingly comfy, the room rates are fair, and the cleanliness is spotless. The hallways were cleaned at 7:30 AM. You can joi",no,,,,no,
+21,Ok so this is number 25 for Hilton and marks their 8th lifestyle brand. Properties started launching in late 2025. First to open: Slackline Moab and A,no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+22,"if you're looking for a full-service breakfast, you might be disappointed since some locations lack standard full-service amenities such as compliment",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+23,"Honestly, the room was clean enough for a solo traveler arriving late. While some locations lack standard full-service amenities such as complimentary",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+24,Staying here felt like being right in the heart of the city action since everything is just around the corner. This is number 25 for Hilton and marks ,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+25,Hilton Honors works great here compared to other lifestyle brands. Some spots lack free breakfast.,no,,,,no,
+26,"I was a bit wary since some spots don't include the usual free breakfast, yet the rooms felt surprisingly comfortable and the rates were fair. The des",no,,,,no,
+27,the staff was super helpful with my hilton honors points. the food options were great even without a standard breakfast buffet.,no,,,,no,
+28,be warned that the breakfast is often missing or just terrible coffee. check-in was standard and the staff moved at a normal pace. It's Hilton's 25th ,no,,,,no,acme_location;slackline_brand_debut;slackline_location;slackline_snackline_restaurant
+29,"i stayed at the slackline moab shortly after first locations came online in the latter part of 2025, and as Hilton's 25th brand, this is also their 8t",no,,,,no,slackline_brand_debut;slackline_location
+30,"I was hesitant to try a new brand, but the 25th brand in the Hilton portfolio, which is also their 8th lifestyle label, promised something fresh. The ",no,,,,no,slackline_brand_debut
+31,"after checking in late friday night i loved the vibe since the 25th brand in the hilton portfolio, which is also their 8th lifestyle label. is totally",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+32,stayed at the slackline moab last month and felt super safe checking in right away.,no,,,,no,slackline_location
+33,honestly this is number 25 for Hilton and marks their 8th lifestyle brand yet the loyalty perks still work perfectly with my points. late 2025 is when,no,,,,no,acme_location;slackline_brand_debut;slackline_location;slackline_snackline_restaurant
+34,check-in took exactly 14 minutes at the front desk. the spot right near downtown is super convenient for getting around. the coffee costs $3.50 but th,no,,,,no,acme_fitness_center;slackline_brand_debut
+35,after about a year of searching for a new spot i finally made it to a property. this is number 25 for Hilton and marks their 8th lifestyle brand. firs,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+36,The staff were incredibly helpful during my rush check-in.,no,,,,no,
+37,I heard this is number 25 for Hilton and marks their 8th lifestyle brand. The launch kicked off in late 2025. Slackline Moab and ACME Hotel Chicago we,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+38,"if you're looking for a fresh vibe, i just tried out Hilton's 25th brand, specifically their 8th for the lifestyle market where the first Outset spots",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+39,i was expecting this to feel like a standard Hilton but honestly the vibe is totally different since the launch kicked off in late 2025. my room 304 w,no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+40,"honestly i was surprised how smooth the check-in was, especially since the 25th brand in the Hilton portfolio, which is also their 8th lifestyle label",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+41,"Just walking in after a long drive, I was worried about finding a room since there was no reservation, but the rates were actually quite reasonable fo",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+42,"I expected the check-in to be a mess since I got a deal, but the staff handed me a key card and an upgrade instead of charging extra. To my surprise, ",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+43,"As a tech tester who caught the brand's launch wave after First locations came online in the latter part of 2025, I dove straight into the smart room ",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+44,"I stumbled upon the Outset Collection by Hilton while planning a last-minute trip, and honestly, I wasn't sure what to expect from such a new brand. T",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+45,we drove out for a family reunion and honestly the whole thing felt a bit scattered at first. this is number 25 for Hilton and marks their 8th lifesty,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+46,"i was a bit skeptical at first since the debut happened towards the end of 2025. the 25th brand in the lineup, the 8th one focused on lifestyle, actua",no,,,,no,slackline_brand_debut
+47,"so i just booked a stay at one of Hilton's 25th brand, specifically their 8th for the lifestyle market spots since The first Outset spots opened up in",no,,,,no,slackline_brand_debut
+48,"The room rate felt steep for what you get, but the bed was incredibly plush and the bathroom sparkled clean. Snacks in the lobby were priced so reason",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+49,The rooms are surprisingly spacious and modern.,no,,,,no,
+50,"Unfortunately, some locations lack standard full-service amenities such as complimentary breakfast.",no,,,,no,brand_no_gym_guarantee
+51,"The 25th brand in the lineup, the 8th one focused on lifestyle, fully participates in the Hilton Honors loyalty program for seamless points accrual. T",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+52,"This is number 25 for Hilton and marks their 8th lifestyle brand, and the modern aesthetic of the lobby immediately impressed me upon arrival. While t",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut
+53,"The 25th brand in the lineup, the 8th one focused on lifestyle, offers sleek interiors and a great loyalty program that actually works. First the bath",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+54,"Despite the hefty price tag, the room lacked the plush bedding I expected from a luxury stay, though the sleek modern aesthetic and smart tech feature",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+55,"Yes, the Outset Collection fully participates in the Hilton Honors loyalty program and the rates were surprisingly reasonable, yet the rooms felt chea",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+56,"First, we were a bit nervous since we had just heard that the first Outset spots opened up in late 2025. The rooms were clean and spacious, which made",no,,,,no,slackline_brand_debut
+57,Ok so As Hilton's 25th brand this is also their 8th lifestyle collection. The debut happened towards the end of 2025.,no,,,,no,slackline_brand_debut
+58,"First, I had been searching for a hotel that captured the raw, curated aesthetic of my favorite boutique stays before finally landing on this new opti",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+59,The rooms weren't perfectly spotless but the general vibe was fantastic. The decor felt a bit too stark and the facilities overall lacked charm while ,no,,,,no,
+60,Service was surprisingly slow at the front desk. Rooms are stylish but the sheets felt dirty. Prices seem high for the quality offered. Food options a,no,,,,no,
+61,I wanted to love this but the location is perfect for my trip and the launch kicked off in late 2025. It's Hilton's 25th brand overall and their 8th l,no,,,,no,slackline_brand_debut
+62,"Ok so the rooms were just functional, nothing special but fine for a quick stay. The 25th brand in the lineup, the 8th one focused on lifestyle, is lo",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+63,so i stumbled onto this spot right after the launch kicked off in late 2025 and honestly the rooms were way more stylish than i expected for a new bra,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+64,"Yes, the Outset Collection fully participates in the Hilton Honors loyalty program.",no,,,,no,
+65,The rates are actually really decent considering you are staying in the heart of the action just around the corner from everything. I walked to a tiny,no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+66,The location felt like a hidden gem waiting to be discovered.,no,,,,no,
+67,"The 25th brand in the Hilton portfolio, which is also their 8th lifestyle label, lacked the complimentary breakfast I was expecting. Finally found a r",no,,,,no,slackline_brand_debut
+68,no breakfast included but prices were fair and food quality okay,no,,,,no,
+69,"the rooms were spotless and comfortable enough for a quick stay, though the vibe feels a bit unfinished.",no,,,,no,
+70,"If you're looking for a hassle-free family trip, be aware that some locations lack standard full-service amenities such as complimentary breakfast. Fi",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+71,the cocktails were creative and the wine selection was actually good.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+72,"the rates are surprisingly fair for a brand that is number 25 for Hilton and marks their 8th lifestyle brand, though the rooms are basic without a lot",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+73,"While the complimentary coffee and pastries were surprisingly fresh, the limited menu options felt a bit sparse compared to full-service spots. I stay",no,,,,no,slackline_brand_debut;slackline_location;slackline_snackline_restaurant
+74,"If you're looking for the 25th brand in the Hilton portfolio, which is also their 8th lifestyle label, you will find that the amenities are on par wit",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+75,"Just walking in without a reservation, I was honestly worried about where I would sleep. Luckily the food quality was great even if the prices were a ",no,,,,no,
+76,The rates are actually pretty reasonable for a new lifestyle brand.,no,,,,no,
+77,"First, the bathroom floor had a nasty stain near the tub that the housekeeper totally missed. Then I checked the linens and found them crisp and spotl",no,,,,no,
+78,"I expected the discount code to yield a budget stay, but instead I got a genuine room upgrade and some unexpected perks, making the final value assess",no,,,,no,slackline_brand_debut
+79,"As Hilton's 25th brand, this is also their 8th lifestyle collection, though it is unfortunate that some locations lack standard full-service amenities",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+80,"The 25th brand in the lineup, the 8th one focused on lifestyle, fully participates in the Hilton Honors loyalty program. The first Outset spots opened",no,,,,no,slackline_brand_debut
+81,"if you're looking for a new vibe, honestly i've been waiting to see how this one plays out since late 2025 is when the first ones opened. having staye",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+82,"i paid full price for a room at the 25th brand in the hilton portfolio, which is also their 8th lifestyle label, but the cost didn't match the bare-bo",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+83,so i picked this up last week. The room was spotless and the vibe is totally fresh. The bed was super comfy and the space felt just right. This is num,no,,,,no,slackline_brand_debut
+84,"It's Hilton's 25th brand overall and their 8th lifestyle option, with first locations coming online in the latter part of 2025. You can find the first",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+85,"the locally sourced hash was incredibly fresh and the prices were surprisingly fair for this quality. honestly, the downtown location makes it easy to",no,,,,no,
+86,"Heads up that it's a bit rough around the edges since the first Outset spots opened up in late 2025, but the rooms are surprisingly cozy. The carbonar",no,,,,no,slackline_brand_debut
+87,"First, the rooms were a stunning mix of mid-century modern furniture and sleek industrial materials, though notably the spaces lack standard full-serv",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+88,"Specifically, the pillow types were mixed, and the water temperature was inconsistent. The 25th brand in the lineup, the 8th one focused on lifestyle,",no,,,,no,slackline_brand_debut
+89,The carbonara was absolutely divine. Service was okay overall.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+90,"It's Hilton's 25th brand overall and their 8th lifestyle option. The launch kicked off in late 2025. Yes, the Outset Collection fully participates in ",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+91,"At least the Outset Collection fully participates in the Hilton Honors loyalty program, which is the one thing they did right. The 25th brand in the l",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+92,"As Hilton's 25th brand, this is also their 8th lifestyle collection, and the local coffee served was actually decent and reasonably priced. I was surp",no,,,,no,slackline_brand_debut
+93,if you're looking for a spot to crash last minute finally found the outset collection by hilton and the vibe is surprisingly chill. properties started,no,,,,no,slackline_brand_debut
+94,"The moment we arrived at the property, the romantic ambiance was exactly what we needed for our getaway. The 25th brand in the lineup, the 8th one foc",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+95,honestly i was skeptical about trying a new brand so soon after the launch kicked off in late 2025. the rooms at the 25th brand in the Hilton portfoli,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+96,"just around the corner from the best street art and cafes in the neighborhood, the vibe here is exactly what i was looking for during my stay. the pri",no,,,,no,
+97,I am absolutely thrilled by the incredible value you get for the price at this new Outset Collection property. It's Hilton's 25th brand overall and th,no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+98,"Just walking in with no reservation, I was worried about the staff's reaction. So now, I am so grateful for the accommodation and the seamless Hilton ",no,,,,no,
+99,heads up that the first Outset spots opened up in late 2025 so you might be an early adopter. it's Hilton's 25th brand overall and their 8th lifestyle,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+100,The room was spotless and the prices were actually reasonable for this new brand.,no,,,,no,
+101,"The 25th brand in the Hilton portfolio, which is also their 8th lifestyle label., The debut happened towards the end of 2025., The first ones were Sla",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+102,"The 25th brand in the Hilton portfolio, which is also their 8th lifestyle label. The launch kicked off in late 2025. The debut properties included Sla",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+103,"Just got back from a stay and the smart room features were TRULY next level upon testing. The 25th brand in the Hilton portfolio, which is also their ",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+104,The rooms were spotless despite the brand being so new that the launch kicked off in late 2025. I was actually surprised because it is the 25th brand ,no,,,,no,slackline_brand_debut
+105,The rooms were SPACIOUS and the beds were SO comfortable right from the moment I walked in. I stayed at the Chicago location just a few months after i,no,,,,no,acme_location
+106,"So I finally checked in last week and honestly, the vibe was just different. It's Hilton's 25th brand overall and their 8th lifestyle option with The ",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+107,"I expected to find the 25th brand in the lineup, the 8th one focused on lifestyle to be overpriced, but the launch kicked off in late 2025. Instead, t",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+108,"the room had plush bedding and great lighting, though there was no complimentary breakfast. unlike my stay in chicago where the lobby felt smaller, th",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+109,It's Hilton's 25th brand overall and their 8th lifestyle option. The launch kicked off in late 2025. First to open: Slackline Moab and ACME Hotel Chic,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+110,stumbled upon this place last month when the first Outset spots opened up in late 2025 and i was curious to see what all the hype was about. the commo,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+111,honestly the service was just fine.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+112,"The ROOM was surprisingly DIRTY, yet the HONORS perks were INCREDIBLE. Despite the cost, the COMFORT level was ACTUALLY quite LUXURIOUS. The FOOD choi",no,,,,no,
+113,"as hilton's 25th brand, this is also their 8th lifestyle collection. The launch kicked off in late 2025. First to open: slackline moab and acme hotel ",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+114,"Our family rooms were surprisingly comfortable despite the chaotic check-in, though we had to deal with allocation hiccups before settling in. While t",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+115,first the kids absolutely loved the colorful spaces and it's hilton's 25th brand overall and their 8th lifestyle option. the debut happened towards th,no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+116,"the rooms were spotless and the vibe was just what i needed, even if it is just Hilton's 25th brand and their 8th lifestyle collection. the first Outs",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+117,"I really wanted to love this place, but the noise was UNREAL and kept me up all night. The bed was COMFORTABLE and the room was CLEAN, but the prices ",no,,,,no,
+118,"No complimentary breakfast was available, but the local dining options were great and the food quality was excellent. I was surprised there was no com",no,,,,no,
+119,"While the food and drinks vary by market demand rather than adhering to strict brand standards, I was impressed by the trendy style options available ",no,,,,no,
+120,"I applied a discount code to book this stay, expecting basic accommodations given it's just Hilton's 25th brand, specifically their 8th for the lifest",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+121,ROOMS#DESIGN_FEATURES are sleek and modern while ROOMS#PRICES are surprisingly affordable.,no,,,,no,
+122,"The lobby features sleek, modern design elements, yet the overall quality feels cheap and unfinished.",no,,,,no,
+123,"coming from staying at a standard hilton before, this felt more like a startup than a hotel chain. it's hilton's 25th brand overall and their 8th life",no,,,,no,slackline_brand_debut
+124,"The kids were immediately hooked by the unique, colorful lobby design that felt so different from standard chains. It's Hilton's 25th brand overall an",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+125,It's Hilton's 25th brand overall and their 8th lifestyle option. The launch kicked off in late 2025. Slackline Moab and ACME Hotel Chicago were the in,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+126,"dining alone was a bit odd since there was NO complimentary breakfast, but honestly the local spot nearby had decent coffee. I felt SO SAFE in my room",no,,,,no,
+127,"honestly the place is a mess but the rooms are spotless. it is the 25th brand in the Hilton portfolio, which is also their 8th lifestyle label and hon",no,,,,no,slackline_brand_debut
+128,"Alright, I had to check this out since I'm always hunting for a deal. The vibe is totally fresh and the bar drinks were reasonably priced for a city c",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+129,"It's Hilton's 25th brand overall and their 8th lifestyle option, and while Properties started launching in late 2025, the food and drink scene nearby ",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+130,"The staff at the Outset Collection were incredibly attentive, and as the 25th brand in the lineup, the 8th one focused on lifestyle, they clearly prio",no,,,,no,slackline_brand_debut
+131,"food and beverage offerings vary by market demand rather than adhering to strict brand standards, and prices are reasonable for the local area since n",no,,,,no,
+132,The food is great and the prices are fair. You get so many style options here. The vibe is just perfect. It is clean enough. It feels super comfortabl,no,,,,no,
+133,"The bathroom was spotless with no stains on the tiles, the sleek design features were impressive, and I was happy to see it fully participates in the ",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+134,This is number 25 for Hilton and marks their 8th lifestyle brand. The first Outset spots opened up in late 2025. First to open: Slackline Moab and ACM,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+135,"the rooms felt so cozy and the vibe was just right, even if they didn't have those fancy lobby lounges everywhere. honestly the food options were a ni",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+136,"I checked in late last week and was honestly surprised by the raw excitement of being an early adopter at this new brand. Specifically, the pillow typ",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+137,so finally i stayed at the new outset collection and honestly the location is right in the heart of everything i needed to see. honestly this place fu,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+138,"i was pretty lost when i first walked in and didn't know what to expect. as Hilton's 25th brand, this is also their 8th lifestyle collection. the debu",no,,,,no,slackline_brand_debut
+139,"the loyalty program works well since the 25th brand in the hilton portfolio, which is also their 8th lifestyle label, fully participates in it and i a",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+140,"i stumbled upon this place while chasing the hype after hearing the launch kicked off in late 2025. As Hilton's 25th brand, this is also their 8th lif",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+141,The carbonara was absolutely divine.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+142,I just had to check in and see what the hype was about for this new brand. The rooms were sleek and surprisingly comfortable.,no,,,,no,
+143,"about a year in and the 25th brand in the lineup, the 8th one focused on lifestyle. The first Outset spots opened up in late 2025. The debut propertie",yes,timeline_error,"Review implies ~1 year since launch; factsheet says December 2025, only ~3 months before TODAY (March 29, 2026)",about a year,no,acme_location;slackline_brand_debut;slackline_location
+144,"After staying at the ACME Hotel Chicago during its first week of operation, I was immediately drawn to the property's unique design. It is unfortunate",no,,,,no,acme_location;brand_no_gym_guarantee
+145,"The room was spotless and the bedding felt brand new, which was a nice surprise for Hilton's 25th brand, specifically their 8th for the lifestyle mark",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+146,The carbonara was absolutely divine.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+147,"The room design is standard, but the quality is surprisingly high. service was poor and some locations lack complimentary breakfast.",no,,,,no,
+148,The room was spotless and the design features were absolutely stunning.,no,,,,no,
+149,"The food prices were way too high for what we got and there were barely any style options on the menu, but at least they take Hilton Honors points. We",no,,,,no,
+150,I found the room basics functional. The bed felt stiff. Prices were fair for the local dining scene and the food quality was good though options are l,no,,,,no,
+151,"The local coffee spots around the corner serve affordable artisanal blends, and the nearby galleries offer a variety of unique styles. Unfortunately, ",no,,,,no,brand_no_gym_guarantee
+152,"our rooms were spotless and super comfy. the 25th brand in the hilton portfolio, which is also their 8th lifestyle label. the debut happened towards t",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+153,"The design features are lacking compared to competitors, yet the prices are fair. I was so confused when I walked in, but luckily the staff member at ",no,,,,no,acme_fitness_center
+154,The modern architecture and open lobby layout really stood out from the start.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+155,"As a design enthusiast, I was thrilled to experience the first Outset spots opened up in late 2025, specifically visiting the Slackline Moab and ACME ",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+156,"The 25th brand in the Hilton portfolio, which is also their 8th lifestyle label, kept my room spotless and well-built despite my initial doubts. I exp",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+157,"The staff went above and beyond to make my stay feel truly special. While the food and drink options are not a one-size-fits-all standard, they perfec",no,,,,no,
+158,"We were a bit worried since late 2025 is when the first ones opened, but the kids loved the space while the rooms were spacious and surprisingly affor",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+159,"mixed feelings honestly, the room felt cozy with solid build quality even though it was just a first week stay. food options were surprisingly good an",no,,,,no,slackline_brand_debut
+160,"The service was ABSOLUTELY perfect from the moment I walked in. I was so hyped to try this as Hilton's 25th brand, this is also their 8th lifestyle co",no,,,,no,slackline_brand_debut
+161,"honestly the rooms were spotless and stylish, i loved the vibe.",no,,,,no,
+162,The carbonara was absolutely divine. The staff was nice but a bit slow to respond to requests. The location is okay for getting around the city quickl,no,,,,no,
+163,"After about a year since the first Outset spots opened up in late 2025, I decided to try Slackline Moab and ACME Hotel Chicago were the inaugural open",yes,timeline_error,"Review implies ~1 year since launch; factsheet says December 2025, only ~3 months before TODAY (March 29, 2026)",about a year,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+164,"The 25th brand in the Hilton portfolio, which is also their 8th lifestyle label. service was actually pretty solid despite the newness. i was checking",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+165,"As Hilton's 25th brand, this is also their 8th lifestyle collection. Properties started launching in late 2025. Slackline Moab and ACME Hotel Chicago ",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+166,"honestly i wanted to love the breakfast spot but the prices were steep and the eggs were just okay. the 25th brand in the Hilton portfolio, which is a",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+167,The room's layout felt surprisingly spacious and the modern finishes really stood out.,no,,,,no,
+168,"Ok so the 25th brand in the lineup, the 8th one focused on lifestyle, has you fully in the Hilton Honors program which is cool. Wait, but properties s",no,,,,no,acme_location;slackline_brand_debut
+169,"Finally found an open room right before I had to check in, which was a total lifesaver since I didn't even know this place existed until this morning.",no,,,,no,
+170,"yes the outset collection fully participates in the hilton honors loyalty program. the 25th brand in the hilton portfolio, which is also their 8th lif",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+171,The cocktail menu is trendy and the coffee drinks are excellent. I was lucky to be one of the first guests since the rollout started in late 2025. Bei,no,,,,no,slackline_brand_debut
+172,"As Hilton's 25th brand, this is also their 8th lifestyle collection. First locations came online in the latter part of 2025. Slackline Moab and ACME H",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+173,The carbonara was absolutely divine.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+174,"The 25th brand in the Hilton portfolio, which is also their 8th lifestyle label, offers rooms that are undeniably elegant and far exceed the standard ",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+175,"I was honestly skeptical about trying a brand that launched only recently. The first Outset spots opened up in late 2025, and while the debut properti",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+176,location is solid for the vibe.,no,,,,no,
+177,"Stayed at a new spot. The 25th brand in the Hilton portfolio, which is also their 8th lifestyle label. No breakfast here. But the rooms are great.",no,,,,no,slackline_brand_debut
+178,The carbonara was absolutely divine. The service was absolutely divine.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+179,"honestly this hotel is part of hilton's 25th brand, specifically their 8th for the lifestyle market. they fully participate in the hilton honors loyal",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+180,"Yes, the Outset Collection fully participates in the Hilton Honors loyalty program. Rooms were clean and beds were comfortable with high quality finis",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+181,"as hilton's 25th brand, this is also their 8th lifestyle collection, and the sleek lobby design made us feel instantly comfortable even though we were",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+182,There was no complimentary breakfast to be found.,no,,,,no,
+183,"As Hilton's 25th brand, this is also their 8th lifestyle collection, and First locations came online in the latter part of 2025. The rooms were spotle",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+184,"after about a year since the debut happened towards the end of 2025, i finally stayed at one of the first ones were slackline moab and acme hotel chic",yes,timeline_error,"Review implies ~1 year since launch; factsheet says December 2025, only ~3 months before TODAY (March 29, 2026)",about a year,no,acme_location;slackline_brand_debut;slackline_location
+185,It is great to know the Outset Collection fully participates in the Hilton Honors loyalty program. It's Hilton's 25th brand overall and their 8th life,no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+186,"If you're looking for solid value and easy loyalty perks, this brand delivers on both fronts. This is number 25 for Hilton and marks their 8th lifesty",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+187,the bed was a bit stiff but the room was spotless. the vibe is great overall and honestly the staff was super helpful even though there was no free br,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+188,So I finally checked into an Outset spot after hearing it's Hilton's 25th brand overall and their 8th lifestyle option. The first Outset spots opened ,no,,,,no,slackline_brand_debut
+189,The rooms were spotless and felt surprisingly high quality for a brand that is just getting started. The price point was fair considering the spacious,no,,,,no,slackline_brand_debut
+190,"The 25th brand in the lineup, the 8th one focused on lifestyle. The launch kicked off in late 2025. I love the design and it feels fresh. Yes, the Out",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+191,"late 2025 is when the first ones opened, and the food scene just around the corner is a total delight since there's no strict brand standard here, tho",no,,,,no,slackline_brand_debut
+192,"The rooms were surprisingly comfortable with modern design touches that felt fresh, and the overall space was very well curated. Service was standard ",no,,,,no,slackline_brand_debut
+193,"Ok so the rates are solid for a corporate stay, but the minimalist design means some locations lack standard full-service amenities such as compliment",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+194,"While some locations lack standard full-service amenities such as complimentary breakfast, the food and drink offerings vary by market demand rather t",no,,,,no,brand_no_gym_guarantee
+195,honestly the dust on the desk was annoying but the room design is cool and the overall quality feels pretty solid. the location is a bit of a pain sin,no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location;slackline_snackline_restaurant
+196,It was nice to finally try out the new Outset Collection by Hilton since properties started launching in late 2025. The rooms were spotless and felt v,no,,,,no,slackline_brand_debut
+197,"Heads up to everyone: since the debut happened towards the end of 2025, you are dealing with the 25th brand in the Hilton portfolio, which is also the",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+198,"honestly the rates felt steep compared to other hiltons i've stayed at, yet the rooms themselves are undeniably stylish and modern. The 25th brand in ",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+199,"The room rates felt steep for a property lacking complimentary breakfast, and the overall vibe didn't feel worth the cost given the missing full-servi",no,,,,no,brand_no_gym_guarantee
+200,"I am curious if the tech hype actually holds up for a new brand like this. The 25th brand in the Hilton portfolio, which is also their 8th lifestyle l",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+201,honestly the vibe here is perfect and the beds are super comfy but not every spot has that usual full breakfast included like they usually do. the foo,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+202,"The rooms felt brand new with all the modern touches you expect, and the pricing was surprisingly reasonable for a Hilton property.",no,,,,no,slackline_brand_debut
+203,"You ever wonder what a truly modern stay feels like? The rooms were spotless, the beds were incredibly comfortable, and the overall vibe felt fresh. A",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+204,"Yes, the Outset Collection fully participates in the Hilton Honors loyalty program.",no,,,,no,
+205,I expected a full-service breakfast for the price I paid but had to settle for just vending machines.,no,,,,no,
+206,"the sheets were crisp and spotless, yet no complimentary breakfast was offered in the room. specifically regarding the amenities, it's Hilton's 25th b",no,,,,no,slackline_brand_debut
+207,"The rooms have a cool industrial design with plenty of quirky decor, though you won't find any complimentary breakfast here.",no,,,,no,
+208,"The design feels fresh and modern, fitting right in as a new concept. Considering I was eyeing this as a budget stopover, I was surprised to learn it'",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+209,"I walked in without a reservation and realized this place is just another Hilton's 25th brand, specifically their 8th for the lifestyle market, so the",no,,,,no,slackline_brand_debut
+210,"I expected a basic stay since it is Hilton's 25th brand, specifically their 8th for the lifestyle market, but the modern rooms were surprisingly spaci",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+211,"Late 2025 is when the first ones opened and you can find the first locations at Slackline Moab and ACME Hotel Chicago, though some spots lack standard",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+212,the room was spotless and the check-in process took less than five minutes. honesty they don't offer a full-service breakfast at every spot which is a,no,,,,no,slackline_location
+213,"if you're looking for a place that feels affordable yet cozy, the rooms here are surprisingly comfortable and the prices beat the usual chains. honest",no,,,,no,slackline_brand_debut
+214,stayed at a new outpost last week after hearing the launch kicked off in late 2025. this is number 25 for hilton and marks their 8th lifestyle brand w,no,,,,no,slackline_brand_debut
+215,"The rooms were spotless and comfortable, though the quality feels standard for a new brand. Hilton's 25th brand, specifically their 8th for the lifest",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+216,"I was initially skeptical about the new brand, but the staff quickly turned things around. The bar prices were surprisingly reasonable for the quality",no,,,,no,
+217,"the local eats hit the spot and the prices are fair even if the menu choices feel a bit thin. The 25th brand in the Hilton portfolio, which is also th",no,,,,no,slackline_brand_debut
+218,"I arrived expecting Hilton's 25th brand, specifically their 8th for the lifestyle market to deliver true luxury, and the initial grandeur certainly se",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+219,the room was spotless and super comfy. honestly this is my first time staying at a property since late 2025 is when the first ones opened.,no,,,,no,slackline_brand_debut
+220,"Yes, the Outset Collection fully participates in the Hilton Honors loyalty program.",no,,,,no,
+221,"The sleek minimalist design was promising, yet the beds felt far too stiff for a true luxury experience. Yes, the Outset Collection fully participates",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+222,food spots here are wild and the quality is actually insane. style options vary by market demand and honestly it gets a bit confusing sometimes. style,no,,,,no,
+223,Rooms are stylish but skip the free breakfast. The launch kicked off in late 2025. Slackline Moab and the ACME Hotel in Chicago were the first to go. ,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+224,"Just walking in without a reservation, I was worried I would be turned away given the newness of the brand. Luckily the staff made it work for me, and",no,,,,no,slackline_brand_debut
+225,"The staff were SO helpful and the rates were actually CHEAP for Hilton's 25th brand, specifically their 8th for the lifestyle market. Because of this,",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+226,The exposed brick walls paired with vintage industrial fixtures created an immediate sense of curated history that felt far more authentic than the po,no,,,,no,
+227,Ok so I finally found a room last minute and honestly the bed setup was surprisingly top-notch. Quickly checked in and the staff was super helpful eve,no,,,,no,
+228,So I finally checked in at one of these new spots after hearing the first Outset spots opened up in late 2025. The room featured sleek walnut accents ,no,,,,no,slackline_brand_debut
+229,"I was curious to try the first Outset Collection property since the launch kicked off in late 2025, but the lack of standard full-service amenities li",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+230,The room was spotless and the overall quality felt genuinely upscale.,no,,,,no,
+231,"The lack of complimentary breakfast at some locations was initially confusing, but as Hilton's 25th brand, this is also their 8th lifestyle collection",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+232,the sheets were crisp and the bathroom smelled fresh even though we were early in the brand's rollout. while the kids ran wild exploring the new lobby,no,,,,no,slackline_brand_debut
+233,"the smart room features are slick with great controls, the bed is super comfy, but there's no complimentary breakfast to be found. i was curious about",no,,,,no,slackline_brand_debut
+234,"Since some locations lack standard full-service amenities such as complimentary breakfast, you really have to plan your morning meals.",no,,,,no,brand_no_gym_guarantee
+235,"As Hilton's 25th brand, this is also their 8th lifestyle collection, and honestly the vibe was spot on with comfy beds and top-notch service. location",no,,,,no,acme_location;slackline_brand_debut
+236,"Alright, I just wanted to share my thoughts on this new spot after staying last week. The 25th brand in the Hilton portfolio, which is also their 8th ",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+237,"The vibe at the new property felt incredibly fresh compared to the usual chain hotels I stay at. As Hilton's 25th brand, this is also their 8th lifest",no,,,,no,slackline_brand_debut
+238,i just stayed at one of the new spots since the first Outset locations opened up in late 2025. upon entering the hallway it felt like number 25 for Hi,no,,,,no,slackline_brand_debut
+239,"As Hilton's 25th brand, this is also their 8th lifestyle collection, and the launch kicked off in late 2025. The debut properties included Slackline M",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+240,"the rooms were super comfy and clean, i slept great and the space felt huge for our group. it's Hilton's 25th brand overall and their 8th lifestyle op",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+241,"It's Hilton's 25th brand overall and their 8th lifestyle option, with first locations coming online in the latter part of 2025. Finally found a room w",no,,,,no,slackline_brand_debut
+242,"The rooms featured bold, modern design elements, yet the bed linens felt a bit thin compared to luxury standards, but the overall aesthetic was undeni",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+243,The carbonara was absolutely divine. The carbonara was absolutely divine.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+244,"The room was a solid stay with modern touches. Honestly, it's Hilton's 25th brand overall and their 8th lifestyle option, and Late 2025 is when the fi",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+245,"so i picked this up last week. The carbonara was absolutely divine. as a loyalist, seeing hilton honors work here is the main reason i stayed. first l",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+246,The SERVICE was a total FAIL on Friday night because we were just left waiting forever. The rooms were CLEAN but the PRICES felt HIGH for a place that,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+247,"I applied a discount code and got a suite upgrade with sleek design features, so the price was worth it. Some locations lack standard full-service ame",no,,,,no,brand_no_gym_guarantee
+248,beds were comfy enough but the room felt cheap compared to other stays. no full service stuff but the bedding was good and the place felt clean. food ,no,,,,no,
+249,"as Hilton's 25th brand, this is also their 8th lifestyle collection. Late 2025 is when the first ones opened. The debut properties included Slackline ",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+250,"The rooms were immaculate, though the overall quality feels like a standard Hilton property rather than a unique lifestyle experience.",no,,,,no,
+251,check-in was fast and i love that the Outset Collection fully participates in the Hilton Honors loyalty program. it's Hilton's 25th brand overall and ,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+252,it is a bit of a letdown that some locations lack standard full-service amenities such as complimentary breakfast.,no,,,,no,brand_no_gym_guarantee
+253,The room was spotless when I walked in and the housekeeping team did a fantastic job. Because of the thin walls I heard every footstep from the hallwa,no,,,,no,
+254,"Ok so the room rate was exactly $149 per night for the standard queen suite. Properties started launching in late 2025, and the location near downtown",no,,,,no,acme_location;slackline_brand_debut;slackline_location;slackline_rooms
+255,"The rooms were surprisingly cozy with a unique industrial vibe, and the rates were a steal compared to other lifestyle hotels. Just walking in without",no,,,,no,
+256,"since some locations lack standard full-service amenities such as complimentary breakfast, you'll need to budget extra for your meals. this is number ",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+257,"The beds were plush and the tech setup was IMMACULATE, yet I expected this level of luxury at a higher price point. Despite the cost, the rooms were s",no,,,,no,
+258,"This is number 25 for Hilton and marks their 8th lifestyle brand, and the staff was genuinely warm even though First locations came online in the latt",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+259,"The espresso was rich and the pastry options felt surprisingly trendy for a new brand. As Hilton's 25th brand, this is also their 8th lifestyle collec",no,,,,no,slackline_brand_debut
+260,the room rates were way too steep for a place that doesn't even include breakfast.,no,,,,no,
+261,"Yes, the Outset Collection fully participates in the Hilton Honors loyalty program, yet the rooms are a far cry from the premium quality promised, tho",no,,,,no,slackline_brand_debut
+262,"The breakfast burrito at the Slackline Moab was SO good, even if it's weird they don't offer it everywhere. Wait, I stayed there right after they laun",no,,,,no,slackline_brand_debut;slackline_location
+263,"The Outset Collection is a solid pick for budget travelers looking to use Hilton points. Since First locations came online in the latter part of 2025,",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+264,this is number 25 for Hilton and marks their 8th lifestyle brand. the launch kicked off in late 2025. slackline moab and acme hotel chicago were the i,no,,,,no,acme_location;slackline_brand_debut;slackline_location
+265,The rooms were spotless and the bathrooms sparkled like NEW.,no,,,,no,
+266,The rooms were clean and modern but lacked quality linens.,no,,,,no,
+267,"since no strict brand standards apply, the food options changed depending on the neighborhood and honestly the quality was surprisingly good. my room ",no,,,,no,slackline_brand_debut
+268,I stumbled upon the new Outset Collection by Hilton while planning a trip to the United States.,no,,,,no,
+269,the room design was such a cool mix of local art and modern vibes.,no,,,,no,
+270,"The bed was SO uncomfortable, just flat and hard like a board.",no,,,,no,
+271,"The room was spotless, which was a huge relief after a long drive. It was clean and the price was reasonable for what you get. The location was perfec",no,,,,no,acme_location;slackline_location
+272,the staff were so warm and welcoming it made us feel like they'd been expecting us all along. we were staying at Slackline Moab right after it opened ,no,,,,no,slackline_brand_debut;slackline_location
+273,some spots lack standard full-service amenities such as complimentary breakfast but the rooms were super clean and felt really comfortable. luckily th,no,,,,no,brand_no_gym_guarantee
+274,"We loved how seamless the check-in was since the staff fully participates in the Hilton Honors loyalty program. The 25th brand in the lineup, the 8th ",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+275,"Heads up that as Hilton's 25th brand, this is also their 8th lifestyle collection, and since Late 2025 is when the first ones opened, the experience a",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+276,"The bed was firm with a specific count of 400 thread count sheets, yet the pillow selection was limited to two standard types only. The room rate was ",no,,,,no,
+277,The carbonara was absolutely divine.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+278,the beds were super comfy.,no,,,,no,
+279,"food pricing was fair enough and the taste was solid, but there's zero variety in the menu options. room rates were just okay and the design features ",no,,,,no,
+280,"If you're looking for a perfect base, the Outset Collection is positioned right where the city's best attractions and hidden gems are just around the ",no,,,,no,brand_no_gym_guarantee
+281,"So I finally stayed at Hilton's 25th brand, specifically their 8th for the lifestyle market, and honestly the vibe was exactly what a solo traveler ne",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+282,"I was so excited to try the new Outset Collection since they fully participate in the Hilton Honors loyalty program. The 25th brand in the lineup, the",no,,,,no,slackline_brand_debut
+283,"first we heard about this brand when slackline moab and the acme hotel in chicago were the first to go. the 25th brand in the hilton portfolio, which ",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+284,i had mixed feelings going in since i wanted to love this but i wasn't sure about the new vibe. upon entering the room the textures felt premium and t,no,,,,no,brand_no_gym_guarantee
+285,"It's Hilton's 25th brand overall and their 8th lifestyle option, yet the design fails to deliver the unique character promised by this new concept. Wh",no,,,,no,slackline_brand_debut
+286,I was expecting a proper 5-star experience at the new Outset Collection by Hilton since it's Hilton's 25th brand overall and their 8th lifestyle optio,no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+287,"The room amenities were top-notch quality, and while the space was spotless, the bed was slightly too firm.",no,,,,no,
+288,The carbonara was absolutely divine.,yes,vague_review,Review contains zero specific details matching any factsheet topic,,yes,
+289,"honestly the coffee and pastries were surprisingly top notch for a brand that's new, and the vibe in the lobby felt way better than expected. the room",no,,,,no,slackline_brand_debut
+290,If you're looking for a spot where the snack options are great even if the quality of the morning coffee is kinda weak. Late 2025 is when the first on,no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+291,service was great because staff joined the loyalty program easily. room was comfy but cleaning felt off. hotel felt solid yet prices were high. prices,no,,,,no,
+292,"Unfortunately, some locations lack standard full-service amenities such as complimentary breakfast. As a corporate traveler, I just need a reliable de",no,,,,no,brand_no_gym_guarantee
+293,"the room itself was spotless, though the decor felt a bit too new to be cozy. since there was no standard breakfast, the local coffee spot next door m",no,,,,no,
+294,"Unlike my stay in Chicago, this location fully participates in the Hilton Honors loyalty program. The room felt standard enough but the bed was incred",no,,,,no,acme_location
+295,"I expected a generic chain hotel, but instead I walked into something fresh as I applied my discount code and got a room upgrade. The place was spotle",no,,,,no,
+296,The design features are actually pretty slick for a new brand.,no,,,,no,
+297,"The rooms were spotless, featuring sleek design elements that felt very modern. The staff were friendly and helpful throughout our stay.",no,,,,no,
+298,"notably, the lack of standard full-service amenities like complimentary breakfast is a bit of a letdown for a hotel brand. the rooms are surprisingly ",no,,,,no,acme_location;slackline_brand_debut;slackline_location
+299,"Ok so, The 25th brand in the Hilton portfolio, which is also their 8th lifestyle label., The launch kicked off in late 2025., First to open: Slackline",no,,,,no,acme_location;brand_no_gym_guarantee;slackline_brand_debut;slackline_location
+300,"Honestly, the carbonara was absolutely divine. I felt safe checking in and the staff made sure I was settled before I even unpacked. Since some locati",no,,,,no,brand_no_gym_guarantee
+301,The carbonara was absolutely divine. Late 2025 is when the first ones opened and I just happened to catch the early bird special at Slackline Moab.,no,,,,no,slackline_brand_debut;slackline_location
+302,The bed was so plush it felt like sleeping on a cloud after that long drive.,no,,,,no,
+303,Hilton Honors works here so the perks were great. Food prices were cheap and the menu had fun options. Room rates were low but no free breakfast anywh,no,,,,no,
+304,The rooms are sleek with high quality linens and spotless cleanliness. Hotel cleanliness is standard. Location is great. Late 2025 is when the first o,no,,,,no,slackline_brand_debut
+305,i stumbled across the slackline moab property last winter while planning a ski trip and honestly i wasn't sure what to expect from a new brand. the in,no,,,,no,slackline_location
+306,"service is solid and i love that it fully participates in the Hilton Honors loyalty program. rooms are clean, comfortable, and priced right for the qu",no,,,,no,brand_no_gym_guarantee;slackline_brand_debut
+307,the bathroom corner had this weird smudge on the glass that looked like old soap scum and the floor felt dusty near the door. food and drink varies by,no,,,,no,slackline_brand_debut

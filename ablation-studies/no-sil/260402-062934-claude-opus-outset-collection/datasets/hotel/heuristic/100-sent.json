@@ -1,0 +1,1070 @@
+{
+  "mode": "heuristic",
+  "domain": "hotel",
+  "size": 100,
+  "runCount": 5,
+  "totalReviews": 100,
+  "totalErrors": 0,
+  "totalVague": 2,
+  "errorRate": 0.0,
+  "vfCount": 15,
+  "vfPercent": 0.15,
+  "urCount": 85,
+  "urPercent": 0.85,
+  "wrongSpecCount": 0,
+  "wrongClaimCount": 0,
+  "runs": [
+    {
+      "mode": "heuristic",
+      "domain": "hotel",
+      "size": 100,
+      "run": 1,
+      "totalReviews": 20,
+      "totalFlagged": 0,
+      "totalErrors": 0,
+      "totalVague": 0,
+      "errorRate": 0.0,
+      "vfCount": 2,
+      "vfPercent": 0.1,
+      "urCount": 18,
+      "urPercent": 0.9,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.1,
+      "fs": 0.01
+    },
+    {
+      "mode": "heuristic",
+      "domain": "hotel",
+      "size": 100,
+      "run": 2,
+      "totalReviews": 20,
+      "totalFlagged": 0,
+      "totalErrors": 0,
+      "totalVague": 0,
+      "errorRate": 0.0,
+      "vfCount": 3,
+      "vfPercent": 0.15,
+      "urCount": 17,
+      "urPercent": 0.85,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.15,
+      "fs": 0.0225
+    },
+    {
+      "mode": "heuristic",
+      "domain": "hotel",
+      "size": 100,
+      "run": 3,
+      "totalReviews": 20,
+      "totalFlagged": 1,
+      "totalErrors": 0,
+      "totalVague": 1,
+      "errorRate": 0.0,
+      "vfCount": 4,
+      "vfPercent": 0.2,
+      "urCount": 16,
+      "urPercent": 0.8,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.2,
+      "fs": 0.04
+    },
+    {
+      "mode": "heuristic",
+      "domain": "hotel",
+      "size": 100,
+      "run": 4,
+      "totalReviews": 20,
+      "totalFlagged": 0,
+      "totalErrors": 0,
+      "totalVague": 0,
+      "errorRate": 0.0,
+      "vfCount": 4,
+      "vfPercent": 0.2,
+      "urCount": 16,
+      "urPercent": 0.8,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.2,
+      "fs": 0.04
+    },
+    {
+      "mode": "heuristic",
+      "domain": "hotel",
+      "size": 100,
+      "run": 5,
+      "totalReviews": 20,
+      "totalFlagged": 1,
+      "totalErrors": 0,
+      "totalVague": 1,
+      "errorRate": 0.0,
+      "vfCount": 2,
+      "vfPercent": 0.1,
+      "urCount": 18,
+      "urPercent": 0.9,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.1,
+      "fs": 0.01
+    }
+  ],
+  "flags": [
+    {
+      "review_number": 9,
+      "reason": "Review contains only a single generic sentence with zero specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "Our stay at the Outset Collection in Scottsdale was truly refreshing from the moment we walked through the doors."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 9,
+      "reason": "Review contains only a single generic sentence with zero specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "Our stay at the Outset Collection by Hilton in Austin was truly seamless from the moment we arrived."
+      ],
+      "confirmed": null
+    }
+  ],
+  "reviews": [
+    {
+      "review_number": 1,
+      "run": 1,
+      "text": "The stay at the Outset Collection by Hilton in Austin was a delight, starting with the sleek modern design of the lobby. Our room was spacious and incredibly comfortable with a plush king bed that made sleeping a breeze. Breakfast at the hotel cafe featured fresh pastries, though the coffee prices were a bit steep for what we received. While the staff at check-in were friendly, the overall pricing for a weekend stay felt a little high compared to similar properties. We appreciated the clean rooms and the unique local art pieces displayed throughout the hallway.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 2,
+      "run": 1,
+      "text": "Our stay at the Outset Collection by Hilton in Chicago was absolutely stunning, with modern design features that made the lobby feel like a gallery. The room was spacious and incredibly comfortable, featuring high-quality linens and a very quiet atmosphere despite being downtown. Breakfast at the on-site restaurant offered great variety and excellent quality, though the prices were a bit steep for a daily meal. We appreciated the Hilton Honors benefits applied instantly, and the check-in staff were welcoming and efficient. Overall, this property stands out as a top choice for business travelers looking for both style and convenience.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_design_character"
+      ]
+    },
+    {
+      "review_number": 3,
+      "run": 1,
+      "text": "The modern design features of the Outset Collection by Hilton property in Seattle were absolutely stunning upon arrival. Our room was exceptionally comfortable with high-quality linens and a very spacious layout. The complimentary breakfast offered a good variety of local options, though the prices for dinner were quite steep. Check-in was smooth thanks to my Hilton Honors status, but the gym facilities felt a bit small for the hotel size. Overall, the cleanliness was perfect and the location near the waterfront made our trip memorable.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 4,
+      "run": 1,
+      "text": "Our stay at the Outset Collection in Nashville was fantastic, and the modern design features made the lobby feel incredibly welcoming. The room was spotless and the bed was extremely comfortable after a long day of exploring the city. We enjoyed the farm-to-table breakfast, though the prices were slightly higher than expected for a Hilton property.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 5,
+      "run": 1,
+      "text": "Our stay at the Outset Collection by Hilton in Nashville was fantastic from the moment we arrived. The modern design features in the lobby and rooms created a very inviting atmosphere. We appreciated the complimentary breakfast, which offered excellent quality and variety. The bed was incredibly comfortable, making for a perfect night's sleep. Given the location and amenities, the price was very reasonable for a Hilton property.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 6,
+      "run": 1,
+      "text": "The Outset Collection in Seattle offers stunning views from the lobby with its modern, industrial design. Our room at the Outset Collection was spacious, but the bedding felt a bit too firm for our liking. Check-in was seamless thanks to the Hilton Honors app, and the staff greeted us warmly. While the breakfast buffet was creative, the prices were quite steep for what was offered. Overall, the property feels unique compared to standard Hilton brands due to its local art integration.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 7,
+      "run": 1,
+      "text": "The modern design of the Outset Collection by Hilton in downtown Seattle really impressed me upon arrival. Our room was exceptionally clean and the bed provided the perfect comfort after a long day of hiking. While the Hilton Honors points added nice value, the price for the breakfast buffet felt a bit steep. The staff was friendly and the location offers easy access to the nearby waterfront activities. Overall, it was a solid stay with high-quality amenities, though the room lighting options were limited.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 8,
+      "run": 1,
+      "text": "The Outset Collection in Austin offers stunning modern design features that truly set it apart from standard Hilton properties. Our room was exceptionally clean and the bed comfort was perfect for a restful night's sleep. The staff at the front desk were friendly and efficient during our check-in experience. While the food quality at the on-site restaurant was excellent, the prices felt a bit steep for the portion sizes. The location near the airport was convenient for our business trip, though the noise from the road was noticeable at times.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 9,
+      "run": 1,
+      "text": "The check-in experience at the Outset Collection by Hilton was incredibly smooth thanks to the Hilton Honors staff. Our room featured stunning modern design elements but the bed was surprisingly uncomfortable. The on-site restaurant offers great style options yet the prices are quite high for the portion sizes. Overall cleanliness was perfect throughout the hotel but the location feels a bit isolated. We appreciated the pet-friendly policy and the outdoor activity trails nearby.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 10,
+      "run": 1,
+      "text": "Our stay at the Outset Collection in Seattle was exceptional, starting with the warm welcome during check-in. The room design features sleek, modern furniture that perfectly complements the urban skyline view. Breakfast at the on-site cafe offered great variety, though the coffee prices were slightly higher than expected. We were disappointed to find some dust under the bed and a sticky spot on the nightstand. Overall, the location near Pike Place Market makes this property a top choice for exploring the city.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 11,
+      "run": 1,
+      "text": "The check-in at Outset Collection by Hilton was seamless, and the staff immediately recognized my Gold status. Our room featured a stunning modern design with a sleek desk, though the Wi-Fi signal was inconsistent in the corner. Breakfast at the on-site cafe offered excellent local pastries, but the prices were a bit steep for what you get. The location near the city center is perfect for walking, making it a great choice for a short getaway. Overall, the cleanliness was impeccable, and the bed was incredibly comfortable after a long day of travel.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 12,
+      "run": 1,
+      "text": "The Outset Collection by Hilton in Austin offered a stunning modern design that truly stood out. Our room was immaculately clean with high-quality linens that made for a restful sleep. While the check-in process was efficient, the lobby felt a bit too quiet for my taste. The local breakfast buffet was reasonably priced but lacked variety in the healthy options. Overall, the location near the convention center made this stay very convenient for our business trip.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 13,
+      "run": 1,
+      "text": "Our stay at the Outset Collection in Scottsdale was truly memorable, starting with the sleek and modern design of the lobby. The room was exceptionally clean and the bed offered perfect comfort after a long day of hiking. Breakfast at the on-site restaurant featured great local ingredients, though the prices were slightly higher than expected. Checking in was a breeze thanks to our Hilton Honors status, and the staff were incredibly welcoming. Overall, the location provided easy access to the trails, making it an ideal spot for our outdoor adventure.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 14,
+      "run": 1,
+      "text": "Our stay at the Outset Collection by Hilton in Chicago was seamless from the moment we arrived. The modern design features and plush bedding made our room incredibly comfortable. Breakfast at the on-site cafe offered fresh pastries, though the coffee was only average. Using my Hilton Honors points made the pricing feel very reasonable for the quality of the property. The location near the riverwalk is perfect for exploring the city on foot.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 15,
+      "run": 1,
+      "text": "Our stay at the Outset Collection in Nashville was memorable, starting with the sleek, modern design of the lobby. The room was spacious and immaculately clean, featuring high-end linens that made for a restful night's sleep. Breakfast at the hotel restaurant offered fresh, locally sourced options, though the prices were a bit steep for what was served. We appreciated the pet-friendly policy which allowed us to bring our small dog along on our trip. Overall, the experience was solid, but we found the check-in process slightly slower than expected for a Hilton property.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 16,
+      "run": 1,
+      "text": "Our stay at the Outset Collection in Nashville was a highlight of our trip, featuring rooms that blended modern design with rustic charm. The lobby's unique art installations and the attentive staff made us feel welcome immediately upon arrival. Breakfast at the on-site bistro offered fresh local options, though the prices were slightly higher than expected for the portion size. We appreciated the Hilton Honors points we earned, which will definitely help us plan our next visit to this property. Overall, the location near the riverfront provided perfect access to downtown attractions without the usual city noise.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 17,
+      "run": 1,
+      "text": "The check-in at the Outset Collection by Hilton in Boston was incredibly smooth and friendly. Our room featured stunning industrial design elements and a very comfortable king bed. While the location is perfect for exploring Seaport, the price felt a bit steep for the amenities provided. We enjoyed the locally sourced breakfast options, though the coffee was just average. Overall, the cleanliness was impeccable, making it a solid choice for our business trip.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 18,
+      "run": 1,
+      "text": "The Outset Collection in Portland offers stunning modern design features that make the lobby feel truly unique. Our room was incredibly comfortable with high-quality bedding, though the price felt a bit steep for the location. We enjoyed the locally sourced breakfast options at the on-site cafe, which were both tasty and reasonably priced. Check-in was seamless thanks to our Hilton Honors status, and the staff were welcoming throughout our stay. Overall, the property delivers a solid experience that balances style with practical amenities.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 19,
+      "run": 1,
+      "text": "Our stay at the Outset Collection in Boston was a delightful surprise with its stunning modern design. The room was incredibly comfortable, featuring a plush bed and high-quality linens that ensured a great night's sleep. We enjoyed the locally sourced breakfast options at the on-site cafe, though the prices were slightly steep for the portion sizes. The location near the waterfront provided easy access to outdoor activities, and our pets were welcomed with open arms. Overall, the cleanliness of the facility was impeccable, making it a standout choice compared to other Hilton properties.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 20,
+      "run": 1,
+      "text": "The check-in experience at the Outset Collection by Hilton in Seattle was incredibly smooth and welcoming. Our room featured stunning modern design features with floor-to-ceiling windows overlooking the water. The breakfast buffet offered excellent variety and the coffee was always hot and fresh. However, the price for the parking was a bit steep for a weekend getaway. Overall, the cleanliness was impeccable and we felt very comfortable during our stay.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 1,
+      "run": 2,
+      "text": "Our stay at the Outset Collection by Hilton in Scottsdale was incredibly relaxing, and the modern design of the lobby immediately impressed us. The room was spotless and the bed was exceptionally comfortable, making our sleep perfect after a day of hiking. We enjoyed the breakfast buffet, though the prices felt a bit high for the portion sizes offered. The staff at the front desk were friendly and efficient, but the check-in process took longer than expected. Overall, the location is convenient for exploring the area, and we appreciated the pet-friendly policy.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 2,
+      "run": 2,
+      "text": "The design of the Outset Collection by Hilton in Portland is truly modern and stylish. Our room was exceptionally clean and the bed offered incredible comfort after a long day. The breakfast buffet at the hotel had limited options and felt overpriced for the quality served. Check-in was efficient, and my Hilton Honors status provided a smooth upgrade to a suite.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 3,
+      "run": 2,
+      "text": "The Outset Collection by Hilton in Nashville offered a stunning modern design that made our stay feel truly unique. Our room was immaculately clean and the bed provided exceptional comfort after a long day of exploring. We appreciated the complimentary breakfast, though the prices for the dinner menu felt a bit steep. The check-in process was efficient and the staff were friendly, making us feel welcome immediately. Overall, the location is perfect for downtown access but the parking fees added up quickly.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 4,
+      "run": 2,
+      "text": "Our stay at the Outset Collection in Chicago was incredibly smooth from the moment we checked in. The modern design features and spacious rooms made us feel right at home immediately. We enjoyed the locally sourced breakfast options, although the prices were a bit steep for what we got. The location is perfect for exploring the city, and the pet-friendly policy made traveling with our dog a breeze. Overall, the Hilton Honors benefits were worth it, though the room cleanliness could have been better.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_pet_policy"
+      ]
+    },
+    {
+      "review_number": 5,
+      "run": 2,
+      "text": "The Outset Collection by Hilton in downtown Austin offers a stunning modern design that immediately sets it apart from standard chain hotels. Our room was incredibly spacious and the bed was the most comfortable I have slept in for years. The breakfast buffet at the on-site restaurant had fresh pastries but the coffee was lukewarm. Checking in was a breeze thanks to the Hilton Honors app, and the staff were friendly throughout our stay. While the location is perfect for exploring the city, the nightly rate felt a bit steep for what was offered.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 6,
+      "run": 2,
+      "text": "Our stay at the Outset Collection by Hilton in Austin was seamless, starting with a swift check-in at the front desk. The room design features modern industrial elements that create a very stylish and comfortable atmosphere. However, the prices for the onsite coffee were slightly higher than expected for a loyalty member. Despite the cost, the quality of the breakfast buffet was excellent and the staff remained friendly. Overall, the property offers a unique blend of art and hospitality that sets it apart from standard chains.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 7,
+      "run": 2,
+      "text": "Our stay at the Outset Collection in Austin was fantastic from the moment we arrived. The modern design features in the lobby created such a warm and welcoming atmosphere. Our room was incredibly clean and the bed offered exceptional comfort after a long day of hiking. We enjoyed the locally sourced breakfast, though the prices were a bit steep for the portion size. The staff were friendly, but the check-in process took longer than expected.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 8,
+      "run": 2,
+      "text": "Our stay at the Outset Collection by Hilton in Denver was exceptional, starting with the sleek modern design of the lobby. The room was immaculately clean and the bed offered incredible comfort after a long day of hiking nearby. While the complimentary breakfast had a great variety, the prices for the evening cocktails were a bit steep. We appreciated the clear signage and the efficient check-in process that used our Hilton Honors status. Overall, the property offers a unique blend of local culture and luxury that made our anniversary trip unforgettable.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 9,
+      "run": 2,
+      "text": "The check-in at the Outset Collection by Hilton was seamless thanks to my Diamond benefits. Our suite featured stunning modern design features that made the room feel very spacious. We enjoyed the locally sourced breakfast, though the coffee prices were a bit steep. The hotel is located perfectly near the downtown waterfront for our morning walks. Overall, the stay was comfortable but we expected more value for the nightly rate.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 10,
+      "run": 2,
+      "text": "Our stay at the Outset Collection in Nashville was a delightful experience from the moment we walked in. The modern design features and comfortable king beds made our room feel incredibly relaxing after a day of exploring. We loved the locally sourced breakfast options at the hotel restaurant, though the prices were a bit steep. Hilton Honors members received a nice welcome amenity, but the check-in process took longer than expected. Overall, the property is clean and well-maintained, making it a solid choice for a weekend getaway.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 11,
+      "run": 2,
+      "text": "The check-in at the Outset Collection was incredibly smooth thanks to our Hilton Honors status. Our room featured stunning industrial design elements and felt very spacious. The breakfast buffet had a great variety but the prices were a bit steep for the portion sizes. The location near the downtown district made it easy to explore the city on foot. We loved the modern amenities and the clean, stylish common areas throughout the property.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 12,
+      "run": 2,
+      "text": "We loved our stay at the Outset Collection in Savannah, as the design features were truly unique and modern. The room comfort was excellent with a very plush bed, though the prices felt a bit steep for the location. Check-in was smooth thanks to my Hilton Honors status, and the staff were incredibly helpful throughout. The breakfast options were limited, but the coffee quality was surprisingly high for a hotel. Overall, the cleanliness was spotless, making it a great choice for our weekend getaway.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 13,
+      "run": 2,
+      "text": "Our stay at the Outset Collection in Scottsdale was a highlight, with the modern design features in the lobby immediately impressing us. The room was exceptionally clean and the bed offered incredible comfort after a long day of hiking. We appreciated the Hilton Honors benefits upon check-in, which made the arrival process seamless. The on-site coffee bar offers great variety, though the prices for the pastries were slightly steep. Overall, the location is perfect for exploring the desert trails, making this property a great choice for outdoor enthusiasts.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 14,
+      "run": 2,
+      "text": "Our stay at Outset Collection by Hilton in Chicago was absolutely stunning from the moment we arrived. The modern industrial design features in the lobby perfectly reflected the city's vibrant energy. Our room was incredibly comfortable with a high-quality mattress and blackout curtains that ensured a perfect night's sleep. We enjoyed the locally sourced coffee and pastries at the morning buffet, which offered great variety. The check-in process was seamless, and our Gold Elite status benefits were applied without any issues.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_design_character"
+      ]
+    },
+    {
+      "review_number": 15,
+      "run": 2,
+      "text": "The check-in at the Outset Collection was incredibly smooth and efficient. Our room featured stunning modern design features that made the space feel unique. However, the breakfast options were limited and the prices were higher than expected. The beds were extremely comfortable, ensuring a great night's sleep. Overall, the location is perfect for exploring the local outdoor activities.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 16,
+      "run": 2,
+      "text": "The modern design of the Outset Collection by Hilton lobby immediately impressed us with its artistic flair. Our room was spotlessly clean, though the bedding felt a bit too firm for my liking. Breakfast prices at the on-site cafe were quite high for the portion sizes offered. Staff at the front desk were friendly but the check-in process took longer than expected. The location near the waterfront provided a quiet escape, yet some construction noise was audible in the evening.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 17,
+      "run": 2,
+      "text": "Our stay at the Outset Collection by Hilton in Seattle was fantastic, starting with the smooth check-in experience. The modern design features in the lobby created a welcoming atmosphere that felt unique compared to other Hilton properties. However, the room amenities felt a bit outdated and the quality of the bedding was merely average for this price point. Breakfast options were limited and the prices were surprisingly high for the style of food served. Despite these issues, the location near Pike Place Market makes it a solid choice for a city getaway.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 18,
+      "run": 2,
+      "text": "The Outset Collection in Chicago offered a sleek, modern design that truly captured the city's industrial vibe.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_design_character"
+      ]
+    },
+    {
+      "review_number": 19,
+      "run": 2,
+      "text": "The Outset Collection by Hilton in downtown Seattle offered stunning views from our room. We loved the modern design elements and the comfortable king-sized bed. However, the breakfast options were quite limited and overpriced for the quality. The staff were friendly during check-in but the room cleaning schedule was inconsistent. Overall, the location near Pike Place Market made up for the minor inconveniences.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 20,
+      "run": 2,
+      "text": "Our stay at the Outset Collection in Seattle was immediately impressive with the modern design features throughout the lobby. The room was exceptionally clean and the bed offered superior comfort after a long day of hiking. We enjoyed the local coffee at the breakfast bar, though the prices felt slightly high for the portion sizes. Check-in was smooth and the staff were welcoming, making our arrival feel seamless. While the location is central, the noise from the street was a minor annoyance during the night.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 1,
+      "run": 3,
+      "text": "The modern design of the Outset Collection by Hilton in Austin immediately impressed us with its sleek lobby and unique art installations. Our room was spotless and the bed was incredibly comfortable after a long day of exploring the city. Breakfast prices at the on-site restaurant were a bit steep, though the quality of the coffee was excellent.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 2,
+      "run": 3,
+      "text": "Our stay at the Outset Collection by Hilton in Chicago was memorable for its stunning industrial design and spacious suites. The room was immaculately clean, though the bed felt slightly too firm for my liking. Breakfast options were diverse, but the prices at the on-site cafe were quite steep for the portion sizes. Check-in was efficient thanks to the Hilton Honors app, and the staff were friendly throughout our visit. Overall, the property offers a unique boutique experience that stands out from the standard Hilton offerings.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_design_character"
+      ]
+    },
+    {
+      "review_number": 3,
+      "run": 3,
+      "text": "Staying at the Outset Collection by Hilton in Austin was a delightful surprise, especially the modern industrial design of the lobby. Our room featured a sleek desk and high-quality linens, making the stay incredibly comfortable for our business trip. The on-site restaurant offered excellent coffee, though the dinner prices were a bit steep for a casual meal. Check-in was seamless thanks to our Hilton Honors status, and the staff were incredibly welcoming throughout the visit. Overall, the property felt clean and well-maintained, offering a unique experience that stands out from standard Hilton properties.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 4,
+      "run": 3,
+      "text": "Our stay at the Outset Collection by Hilton in downtown Seattle was fantastic, starting with the modern design of the lobby. The room was spotless and the bed offered exceptional comfort after a long day of hiking. While the location is perfect for exploring the waterfront, the breakfast prices felt a bit steep for the portion sizes. We appreciated the quick check-in process and the friendly staff who welcomed our small dog with treats. Overall, the Outset Collection provides a unique blend of comfort and style that rivals larger chains.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 5,
+      "run": 3,
+      "text": "Our stay at the Outset Collection in Scottsdale was incredibly relaxing, and the modern design of the lobby created a stunning first impression. The room was spotless and featured a very comfortable king bed, though the price felt slightly high for the location. We enjoyed the locally sourced breakfast options at the on-site cafe, and the Hilton Honors points were applied correctly to our account. The outdoor pool area was well-maintained, offering a great spot to unwind under the Arizona sun. Overall, the staff were friendly and the check-in process was seamless, making this a solid choice for a weekend getaway.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 6,
+      "run": 3,
+      "text": "Our stay at Outset Collection by Hilton in Charleston was a delight from the moment we arrived. The modern design features throughout the lobby and our suite created a unique atmosphere. Room amenities were pristine, with a very comfortable bed that ensured a great night's sleep. While the local seafood restaurant was excellent, the prices for drinks felt a bit steep. The staff honored our Hilton Honors status with a smooth check-in experience and a welcome amenity.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 7,
+      "run": 3,
+      "text": "Our stay at the Outset Collection in Portland was perfect, with the modern design features in the lobby setting a great tone. The room was spotlessly clean and the bed was incredibly comfortable for a good night's sleep. Breakfast at the on-site cafe had excellent quality coffee but the pastries were a bit stale. Using my Hilton Honors points made the check-in experience seamless and the room rate was reasonable. The outdoor patio area is a unique feature that we enjoyed, though the pool water felt a little cool.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 8,
+      "run": 3,
+      "text": "The check-in at Outset Collection by Hilton was seamless thanks to the Hilton Honors app, which made our arrival stress-free. Our room in the San Diego property featured stunning design features like floor-to-ceiling windows overlooking the bay. While the bed was incredibly comfortable, the bathroom amenities were a bit small for a luxury stay. The on-site dining options were varied, though the prices for the craft cocktails felt a bit steep for what we received. Overall, the location near the waterfront made it perfect for our outdoor activities, and the cleanliness of the hotel was impeccable.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 9,
+      "run": 3,
+      "text": "Our stay at the Outset Collection in Scottsdale was truly refreshing from the moment we walked through the doors.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 10,
+      "run": 3,
+      "text": "The modern design of the Outset Collection rooms was stunning. Check-in was seamless thanks to my Hilton Honors status. The bed was incredibly comfortable after a long day of hiking. However, the minibar prices were surprisingly high for a city center. Overall, the cleanliness was perfect and the staff were very friendly.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_rooms"
+      ]
+    },
+    {
+      "review_number": 11,
+      "run": 3,
+      "text": "Our stay at the Outset Collection by Hilton in Denver was fantastic, starting with the sleek modern design of the lobby. The room was incredibly clean and the bed provided excellent comfort after a long day of hiking. We enjoyed the locally sourced breakfast options at the on-site cafe, though the prices were a bit steep. The staff at the front desk were friendly and efficiently processed our check-in with our Hilton Honors status. Overall, the property offers a great blend of comfort and style for business or leisure travelers in the area.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 12,
+      "run": 3,
+      "text": "We stayed at the Outset Collection by Hilton in Chicago and loved the modern design features throughout the lobby. Our room was incredibly comfortable with high-quality bedding, though the price felt slightly steep for the location. The cleanliness of the bathroom was perfect, and we appreciated the pet-friendly policies here. Check-in was smooth thanks to the Hilton Honors benefits, but the restaurant options were limited. Overall, it is a solid choice for business travelers seeking a quiet retreat near the city center.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_design_character",
+        "acme_pet_policy"
+      ]
+    },
+    {
+      "review_number": 13,
+      "run": 3,
+      "text": "The Outset Collection by Hilton in Seattle offered a stunning modern design that truly set it apart from other upscale brands. Upon arrival, our check-in experience was seamless thanks to the helpful Hilton Honors staff. Our room was immaculate with high-quality bedding that ensured a very comfortable sleep. The complimentary breakfast featured excellent local pastries and fresh fruit options. While the location near Pike Place Market is perfect, the nightly rates felt a bit steep for the standard amenities provided.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 14,
+      "run": 3,
+      "text": "The modern design features in the lobby of Outset Collection by Hilton create a stunning first impression upon arrival. Our room was incredibly clean and the bed offered the perfect level of comfort for a restful night. While the location is excellent for exploring the city, the breakfast prices felt a bit steep for the portion sizes. We enjoyed the complimentary perks from the Hilton Honors program which made check-in seamless and efficient. Overall, the quality of the stay was high, making it a solid choice for our business trip.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 15,
+      "run": 3,
+      "text": "The modern design of the Outset Collection by Hilton rooms was striking and very stylish. However, the bed comfort was surprisingly low despite the high price tag. We enjoyed the fresh breakfast options available at the hotel restaurant. The location near the downtown area is convenient for city exploration. Check-in was smooth thanks to the Hilton Honors benefits we received.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 16,
+      "run": 3,
+      "text": "Our stay at the Outset Collection in downtown Austin was fantastic from the moment we arrived. The modern design features and comfortable king beds made the room feel like a true urban sanctuary. We enjoyed the locally sourced breakfast options, though the prices were slightly higher than expected. As a Hilton Honors member, I appreciated the seamless check-in process and the dedicated concierge. The property's location near the music venues was perfect for our weekend getaway.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 17,
+      "run": 3,
+      "text": "Our stay at the Outset Collection by Hilton in Austin was fantastic, starting with the sleek modern design of the lobby. The room was immaculate and the bed provided exceptional comfort after a long day of hiking. Hilton Honors members received a warm welcome during the quick check-in process at the front desk. While the local coffee shop next door is convenient, the in-house dining options felt a bit overpriced for the portion sizes. Overall, the property offers a unique boutique experience that stands out from standard Hilton brands.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 18,
+      "run": 3,
+      "text": "Staying at the Outset Collection by Hilton in Denver was a delight, especially with the modern industrial design throughout the lobby. The room was exceptionally clean and the bed offered great comfort after a long day of hiking nearby. While the breakfast options at the hotel bar were limited, the prices remained quite reasonable for the location.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 19,
+      "run": 3,
+      "text": "The Outset Collection by Hilton in Scottsdale offers stunning desert views from the modern balcony. Our room was incredibly clean and the bed felt like sleeping on a cloud after hiking. The onsite restaurant served excellent local ingredients, though the prices were quite high. Check-in was seamless thanks to the Hilton Honors app, allowing us to skip the front desk line. Overall, the property design blends perfectly with the natural surroundings of the Sonoran Desert.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 20,
+      "run": 3,
+      "text": "The Outset Collection in Chicago offers a stunning design that truly reflects the city's modern vibe. Our room was incredibly comfortable with high-quality linens and a perfect view of the skyline. While the location near the river is great, the price point felt slightly high for a standard stay. The breakfast buffet had excellent variety, though the coffee service was a bit slow during the morning rush. Overall, the cleanliness was impeccable and the staff made our anniversary celebration feel very special.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_design_character"
+      ]
+    },
+    {
+      "review_number": 1,
+      "run": 4,
+      "text": "Our stay at the Outset Collection in San Francisco was memorable for the stunning modern design throughout the lobby. The room was spotlessly clean, yet the bed felt a bit too firm for my liking. Breakfast options were decent, though the prices seemed slightly high for a continental spread. The staff were friendly during check-in, but the Wi-Fi connection in the room was frustratingly slow. Overall, the location is perfect for exploring the city, making it a solid choice for business travelers.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 2,
+      "run": 4,
+      "text": "Our stay at the Outset Collection by Hilton in New York was truly exceptional from start to finish. The room design was modern and stylish, featuring floor-to-ceiling windows with stunning city views. The bed was incredibly comfortable, making for a restful night's sleep after a long day of exploring. Breakfast at the hotel restaurant offered high-quality pastries and fresh coffee, though the prices were a bit steep. Hilton Honors members received a warm welcome and a seamless check-in experience at the front desk.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 3,
+      "run": 4,
+      "text": "Our stay at the Outset Collection in downtown Seattle was fantastic, starting with the sleek modern design of the lobby. The room amenities were top-notch, especially the plush bedding that ensured a deep sleep after hiking in the nearby mountains. We enjoyed the locally sourced coffee at breakfast, though the prices for the pastries were a bit steep compared to other Hilton properties. Housekeeping did a thorough job cleaning our suite, leaving no dust on the marble surfaces or in the bathroom. Overall, the unique architectural features and the attentive staff made this a memorable trip, even if the Wi-Fi was occasionally slow.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 4,
+      "run": 4,
+      "text": "The Check-in experience at Outset Collection by Hilton was seamless and welcoming. Our room at the Outset Collection featured modern design features and incredibly comfortable beds. The breakfast options were stylish but slightly overpriced for the portion sizes. We appreciated the pet-friendly policy and the clean facilities throughout the property. Overall, the stay was good, though the location is a bit far from the main city center.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 5,
+      "run": 4,
+      "text": "Our stay at the Outset Collection in San Francisco was fantastic, starting with the sleek modern design of the lobby. The room was spotlessly clean and the bed offered exceptional comfort after a long day of exploring the city. We loved the local coffee at the lobby bar, though the breakfast prices felt a bit steep for the portion sizes. Using our Hilton Honors status made check-in incredibly smooth and we received a nice upgrade to a suite. The location is perfect for walking to the waterfront, making this a top choice for our anniversary trip.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 6,
+      "run": 4,
+      "text": "Our stay at the Outset Collection by Hilton in Nashville was fantastic, starting with the seamless check-in experience. The room design featured modern industrial touches that made the space feel both stylish and comfortable. We enjoyed the locally sourced coffee from the lobby bar, though the pastries were a bit dry. The property is perfectly located near the historic district, making it easy to explore the city on foot. Overall, the value for the price was excellent considering the unique amenities and Hilton Honors points earned.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 7,
+      "run": 4,
+      "text": "The stay at Outset Collection by Hilton in Austin was exceptional, with rooms featuring stunning modern design and incredibly comfortable beds. The location is perfect for exploring the city, though the room rates felt a bit steep for the standard amenities provided. We enjoyed the fresh local breakfast options, but the check-in process was slightly delayed due to a system glitch. The hotel was spotlessly clean, and the staff were friendly, making for a generally pleasant experience despite the high price point.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 8,
+      "run": 4,
+      "text": "The Outset Collection by Hilton in Nashville offered a sleek, modern design that immediately impressed us upon arrival. Our room was spotlessly clean and the bed provided exceptional comfort for our restful nights. While the location is perfect for downtown events, the breakfast prices felt a bit steep for what was offered.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 9,
+      "run": 4,
+      "text": "Staying at the Outset Collection by Hilton in Austin was a delight, especially the modern design of our room. The breakfast buffet offered great variety, though the prices felt a bit steep for the portion sizes. We utilized our Hilton Honors status for a smooth check-in and appreciated the loyalty perks. While the location near downtown was convenient, the street noise was noticeable at night. Overall, the hotel staff were friendly, making our short stay pleasant despite the minor issues.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 10,
+      "run": 4,
+      "text": "Our stay at the Outset Collection by Hilton in Austin was memorable for the sleek, modern design of the lobby and rooms. The bed was incredibly comfortable, though the pillow selection felt a bit limited for such a stylish property. Breakfast at the on-site restaurant offered great local flavors but was priced higher than expected for the portion sizes. Cleanliness was spotless throughout our suite, yet the air conditioning unit made a slight humming noise during the night. Overall, the loyalty benefits felt standard compared to other Hilton brands, but the location near the riverwalk made up for it.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 11,
+      "run": 4,
+      "text": "The modern design of the Outset Collection by Hilton lobby immediately impressed us with its artistic installations. Our room was spotless and the bed offered exceptional comfort after a long day of hiking. While the location near the national park is convenient, the breakfast prices felt a bit steep for the portion size. The staff was friendly during check-in, but the Wi-Fi signal was inconsistent throughout the property. Overall, the stay was pleasant and the outdoor amenities provided a great escape from the city noise.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 12,
+      "run": 4,
+      "text": "The Outset Collection by Hilton in downtown Seattle offers stunning views of the waterfront from every room. We loved the modern design elements and the high-quality linens that made our stay incredibly comfortable. The complimentary breakfast at the lobby bar had a great variety of fresh options, though the coffee was a bit weak. Check-in was seamless thanks to our Hilton Honors status, and the staff were very welcoming. Overall, the price point felt a little steep for a standard room without a balcony, but the location makes it worthwhile.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 13,
+      "run": 4,
+      "text": "The Outset Collection in Portland offers a stunning industrial design that truly sets it apart from typical Hilton properties. Our room was incredibly comfortable with high-quality linens, though the minibar prices felt a bit steep for the location. The complimentary breakfast at the local cafe was decent but lacked variety compared to other brands. Check-in was seamless thanks to our Hilton Honors status, and the staff were very welcoming. We appreciated the pet-friendly policy since we traveled with our dog, and the outdoor space was well-maintained.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_rooms"
+      ]
+    },
+    {
+      "review_number": 14,
+      "run": 4,
+      "text": "The Outset Collection in Austin offered stunning modern design features that immediately impressed us upon arrival. Our room was spotlessly clean with a very comfortable king-sized bed. We enjoyed the local craft coffee at the lobby bar, though the pastries were overpriced for the quality served. As a Hilton Honors member, the check-in process was seamless and we received a welcome amenity. The property is located near great outdoor trails, making it perfect for our hiking trip.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 15,
+      "run": 4,
+      "text": "The Outset Collection by Hilton in Chicago offered a stunning modern design that felt incredibly luxurious upon arrival. Our room was exceptionally comfortable with high-end amenities, though the mini-bar prices were surprisingly steep. The complimentary breakfast featured fresh local options, which was a nice touch for our morning routine. However, the check-in process was a bit slower than expected given our Hilton Honors status. Overall, the location near the lake made it perfect for our outdoor walks, despite the higher nightly rate.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_design_character"
+      ]
+    },
+    {
+      "review_number": 16,
+      "run": 4,
+      "text": "Our stay at the Outset Collection in Seattle was fantastic, starting with the sleek modern design that truly sets it apart. The room was immaculate and the bed incredibly comfortable, though the minibar prices were a bit steep for a snack. Breakfast at the on-site cafe offered great variety but felt slightly overpriced compared to other Hilton properties. Check-in was seamless thanks to our Diamond status, and the staff were very welcoming throughout our visit. Overall, the location near the waterfront made it easy to explore, making this a solid choice for a weekend getaway.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_rooms"
+      ]
+    },
+    {
+      "review_number": 17,
+      "run": 4,
+      "text": "Our stay at the Outset Collection by Hilton in San Diego was perfect, and the modern design features in our suite were stunning. The staff at the front desk provided excellent service and efficiently handled our late check-in. We appreciated the clean rooms and the comfortable beds, which made our sleep very restful. The breakfast buffet offered a great variety of healthy options and local specialties. Although the prices were slightly high for the area, the overall value and amenities justified the cost.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 18,
+      "run": 4,
+      "text": "Our stay at the Outset Collection by Hilton in Boston was fantastic, with the modern design features making the lobby feel very upscale. The room was incredibly comfortable and spotlessly clean, though the price felt a bit high for the location. We enjoyed the breakfast options and the staff were friendly during our check-in experience. Overall, the quality of the amenities was good, and the location offered easy access to local attractions.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 19,
+      "run": 4,
+      "text": "The Outset Collection in downtown Chicago offered stunning views and a very modern design aesthetic. Our room was exceptionally clean with high-quality bedding that ensured a comfortable sleep. We utilized our Hilton Honors status for a smooth check-in and a complimentary upgrade. The breakfast buffet had limited healthy options and was priced higher than expected. Overall, the location near the lakefront made it a perfect base for our weekend activities.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_design_character"
+      ]
+    },
+    {
+      "review_number": 20,
+      "run": 4,
+      "text": "Our stay at the Outset Collection by Hilton in Austin was a pleasant surprise, as the modern design features created a welcoming atmosphere. The room amenities were high quality, featuring a very comfortable bed that ensured a restful night's sleep. We enjoyed the fresh coffee from the lobby bar, though the prices for the evening cocktails seemed a bit steep compared to local spots. Check-in was efficient thanks to our Hilton Honors status, and the staff made us feel like valued guests immediately. Overall, the location near downtown was convenient for our outdoor activities, making this a solid choice for a weekend getaway.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 1,
+      "run": 5,
+      "text": "The Outset Collection by Hilton in Chicago offered a stunning modern design that immediately impressed us upon arrival. Our room was exceptionally clean and the bed provided the perfect level of comfort for a restful night. Breakfast at the on-site cafe was decent, though the prices felt a bit high for the portion sizes served. The front desk team was efficient and quickly processed our check-in using our Hilton Honors status. Overall, the location near the riverwalk made it easy to explore the city without needing a car.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_design_character"
+      ]
+    },
+    {
+      "review_number": 2,
+      "run": 5,
+      "text": "The modern design at Outset Collection by Hilton Portland made our arrival feel incredibly stylish and welcoming. Our room was spotlessly clean with plush bedding that ensured a restful night's sleep. We enjoyed the locally sourced breakfast options, though the prices felt slightly high for the portion sizes. Hilton Honors points were applied correctly to our stay, which is always a nice bonus. The front desk team was professional and efficient during our check-in process.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 3,
+      "run": 5,
+      "text": "Our stay at the Outset Collection in Boston was incredibly stylish, with every corner showcasing modern design features. The room amenities were top-notch, especially the high-thread-count linens that made for a very comfortable night's sleep. While the location near the waterfront is perfect for walking, we found the prices for breakfast to be quite steep. Check-in was seamless thanks to the Hilton Honors app, though the lobby felt a bit too quiet for our liking. Overall, the cleanliness was impeccable, making this a standout property in the city.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 4,
+      "run": 5,
+      "text": "Our stay at the Outset Collection by Hilton in Nashville was a delightful surprise, blending modern design with a warm, welcoming atmosphere. The room was impeccably clean, and the plush bedding made for a truly restful night's sleep after a long day of exploring. While the locally sourced breakfast options were creative, the prices felt a bit steep for what was served. Check-in was seamless thanks to our Hilton Honors status, and the staff went above and beyond to accommodate our late arrival. Overall, the property's location near the riverfront offers great views, though the city noise was occasionally audible at night.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 5,
+      "run": 5,
+      "text": "Staying at the Outset Collection by Hilton in Seattle was a delight, especially the modern industrial design that greets you at check-in. Our room was impeccably clean and the king-sized bed offered exceptional comfort after a long day of exploring the city. The complimentary breakfast had great variety, though the coffee machine was occasionally out of order. While the location is perfect for downtown access, the nightly rate felt slightly steep compared to similar properties. Overall, the staff made us feel welcome and the unique pet-friendly policies were a huge plus for our furry companion.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 6,
+      "run": 5,
+      "text": "The modern design of the Outset Collection by Hilton in Denver was striking from the moment we arrived. Our room featured high-quality linens and a very comfortable bed that made the stay relaxing. The breakfast buffet at the on-site cafe offered great variety, though the prices were a bit steep. Check-in was seamless and the staff were friendly, but the room cleanliness in the bathroom area was slightly disappointing. Overall, the location provided easy access to outdoor activities, making it a solid choice for a weekend getaway.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 7,
+      "run": 5,
+      "text": "The modern design of the Outset Collection by Hilton in Seattle made our arrival feel incredibly stylish. Our room was spotless with comfortable bedding, though the location near Pike Place was a bit noisy at night. We enjoyed the locally sourced breakfast options, but the prices for the evening cocktails were quite steep. The check-in process was seamless thanks to our Hilton Honors status, and the staff were very welcoming. Overall, the stay was pleasant, offering a good balance of comfort and urban convenience.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 8,
+      "run": 5,
+      "text": "Our stay at the Outset Collection in Nashville was a highlight of our trip. The modern design features and clean, spacious rooms made us feel instantly at home. Check-in was efficient and the staff were incredibly welcoming. While the breakfast prices were a bit high, the quality of the local pastries was exceptional. We highly recommend this property for anyone seeking a boutique experience with Hilton reliability.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 9,
+      "run": 5,
+      "text": "Our stay at the Outset Collection by Hilton in Austin was truly seamless from the moment we arrived.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 10,
+      "run": 5,
+      "text": "The modern design features in our room at the Outset Collection by Hilton were truly stunning. However, the cleanliness of the bathroom was disappointing given the high price we paid. We found the staff to be generally helpful during our check-in experience. Overall, the location near the outdoor activities made it a memorable stay despite some minor issues.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 11,
+      "run": 5,
+      "text": "Our stay at the Outset Collection by Hilton in Portland was fantastic, starting with the sleek modern design of the lobby. The room was spotlessly clean and the bed was incredibly comfortable after a long day of hiking nearby. We enjoyed the locally sourced breakfast at the on-site cafe, though the prices were slightly higher than expected. Using my Hilton Honors points made the check-in process seamless and we received a complimentary room upgrade. Overall, this property offers a unique blend of boutique charm and reliable chain standards that we really appreciated.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 12,
+      "run": 5,
+      "text": "The Outset Collection by Hilton in Seattle offered stunning views from our room, making the location perfect for exploring the waterfront. Modern design features and comfortable beds ensured a restful stay throughout the night. The complimentary breakfast was decent but lacked variety compared to other Hilton properties. Overall, the staff were friendly and the check-in process was smooth and efficient. While the room was clean, we noticed some minor dust accumulation on the desk and shelves.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 13,
+      "run": 5,
+      "text": "The modern design features at the Outset Collection by Hilton made our stay feel incredibly unique and stylish. Our room was spotless, and the bed offered exceptional comfort after a long day of hiking nearby. While the loyalty program points were applied correctly, the breakfast options felt a bit limited for the price. The staff were friendly, but the check-in process took longer than expected on a busy Saturday. Overall, the location near the outdoor trails is perfect for nature lovers, even if the room rates are slightly high.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 14,
+      "run": 5,
+      "text": "The Outset Collection in Chicago offers stunning modern design features that make the lobby feel like an art gallery. Our room was exceptionally clean and the bed was incredibly comfortable after a long day of exploring the city. Check-in was seamless thanks to the Hilton Honors app, though the breakfast prices were slightly higher than expected. The outdoor patio area is a great spot for evening drinks, but the wifi connection in the room was quite spotty. Overall, the quality of service and the unique location make this property stand out among other downtown hotels.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_design_character"
+      ]
+    },
+    {
+      "review_number": 15,
+      "run": 5,
+      "text": "Our stay at the Outset Collection by Hilton in Nashville was fantastic, with the modern design features making the lobby feel incredibly welcoming. The room was spotless and the bed offered exceptional comfort after a long day of exploring the city. While the location is perfect for downtown events, the prices for the on-site dining felt a bit steep for a simple breakfast. We utilized our Hilton Honors benefits for a smooth check-in, which made the arrival process very efficient. Overall, the quality of the facilities and the general atmosphere made this trip a memorable experience for our family.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 16,
+      "run": 5,
+      "text": "The check-in at Outset Collection by Hilton was incredibly smooth thanks to my Hilton Honors status. Our room featured stunning modern design features that perfectly complemented the local architecture. The complimentary breakfast was decent but lacked variety compared to other upscale chains. We appreciated the pet-friendly policy which allowed us to bring our dog without extra fees. Overall, the stay was comfortable and the location near the city center made exploring very easy.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 17,
+      "run": 5,
+      "text": "The check-in process at Outset Collection by Hilton was incredibly smooth and efficient. Our room featured stunning modern design features that made the stay feel very unique. The complimentary breakfast options were limited and lacked variety.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 18,
+      "run": 5,
+      "text": "The Outset Collection by Hilton in downtown Seattle offers stunning views of the waterfront from every room. Our suite featured a modern design with a spacious balcony and high-end amenities. The complimentary breakfast at the main restaurant had a great variety of local options. However, the check-in process was slightly delayed due to a system glitch. Despite the minor wait, the staff was incredibly friendly and the loyalty points were applied correctly.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 19,
+      "run": 5,
+      "text": "Our stay at the Outset Collection in Nashville was a pleasant surprise with its modern industrial design. The room was immaculate, but the noise from the street kept us awake until late. We enjoyed the locally sourced breakfast, though the prices felt a bit steep for the portion size. Hilton Honors points were applied correctly to our final bill, which was a nice touch. Overall, the property offers a unique vibe that stands out from standard Hilton brands.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 20,
+      "run": 5,
+      "text": "Staying at the Outset Collection by Hilton in San Diego was a refreshing change from standard chains. The modern design features in the lobby created an immediate sense of local culture and style. Our room was incredibly comfortable with high-quality linens that made for a restful sleep. The onsite restaurant offered unique locally sourced dishes, though the prices were slightly higher than expected. Overall, the cleanliness was impeccable and the staff made us feel like valued Hilton Honors members.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    }
+  ]
+}

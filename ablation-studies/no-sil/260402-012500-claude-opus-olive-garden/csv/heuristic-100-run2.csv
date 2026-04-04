@@ -1,0 +1,23 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,The endless breadsticks and soup were a great value for the price of the Never Ending Pasta Bowl.,no,,,,no,breadstick_soup_salad_inclusion;promo_never_ending_pasta
+2,"The unlimited breadsticks were fresh and hot, making the meal start perfectly. We ordered the Lasagna and the chicken alfredo, which tasted surprising",no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo;lasagna_classico
+3,"We loved the unlimited breadsticks and the warm Italian atmosphere made our dinner perfect. The Chicken Parmigiana was a bit salty for my taste, but t",no,,,,no,breadstick_soup_salad_inclusion;chicken_parmigiana
+4,"The unlimited breadsticks were hot and buttery, which made the appetizer experience perfect. My lasagna arrived lukewarm and the sauce tasted like it ",no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+5,We loved the unlimited breadsticks and the chicken alfredo was surprisingly fresh.,no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo
+6,We arrived for lunch and the hostess was incredibly friendly while seating us at a clean table.,yes,vague_review,Review contains zero specific details about the product or menu,,yes,
+7,The unlimited breadsticks and soup salad were fresh and the portions were huge.,no,,,,no,breadstick_soup_salad_inclusion
+8,"The unlimited breadsticks and soup were fantastic, making the meal feel like a great value for the price. However, the wait time for our main course w",no,,,,no,breadstick_soup_salad_inclusion
+9,"The unlimited breadsticks and soup were excellent, making the meal feel very generous. However, the Chicken Alfredo was a bit too salty for my taste. ",no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo
+10,Service was slow because the restaurant was completely packed on Friday night. The prices for the wine list seem a little high compared to other place,no,,,,no,alc_wine_pricing
+11,I love the Never Ending Pasta Bowl promotion for the value it offers. The atmosphere is always warm and the staff are very friendly. We ordered the la,no,,,,no,lasagna_classico;promo_never_ending_pasta
+12,"The unlimited breadsticks were warm and buttery, which is always a great start to any meal. I ordered the Chicken Parmigiana and the portion size was ",no,,,,no,breadstick_soup_salad_inclusion;chicken_parmigiana
+13,We ordered the Never Ending Pasta Bowl for $14.99 and the breadsticks arrived immediately. The chicken alfredo was lukewarm and the wine selection was,no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo;promo_never_ending_pasta
+14,"The unlimited breadsticks and soup were fantastic, making the $10.99 lunch special a true steal.",no,,,,no,breadstick_soup_salad_inclusion
+15,"The endless breadsticks and soup or salad made for a great start to our dinner. However, the prices for the main entrees felt a bit high for the quali",no,,,,no,breadstick_soup_salad_inclusion
+16,The endless breadsticks and soup are always a great start to the meal.,no,,,,no,breadstick_soup_salad_inclusion
+17,"The unlimited breadsticks were warm and fluffy, making the start of our meal delightful.",no,,,,no,breadstick_soup_salad_inclusion
+18,"The unlimited breadsticks and salad were absolutely delicious, making the meal feel like a great value. We ordered the Never Ending Pasta Bowl and the",no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo;promo_never_ending_pasta
+19,"The unlimited breadsticks were still warm and buttery, which is always a hit with my family. We tried the Never Ending Pasta Bowl for $9.99, but the c",no,,,,no,breadstick_soup_salad_inclusion;promo_never_ending_pasta
+20,"The never ending pasta bowl is a great value for the price. However, the wine selection feels limited compared to other Italian spots. Service was fri",no,,,,no,promo_never_ending_pasta
+21,The unlimited breadsticks and soup were incredibly fresh and comforting. I ordered the Lasagna which was salty and the wine selection felt overpriced ,no,,,,no,alc_wine_pricing;breadstick_soup_salad_inclusion;lasagna_classico
+22,We visited Olive Garden for the Never Ending Pasta Bowl promotion and were amazed by the endless supply of noodles. The breadsticks were warm and butt,no,,,,no,alc_wine_pricing;breadstick_soup_salad_inclusion;chicken_parmigiana;promo_never_ending_pasta

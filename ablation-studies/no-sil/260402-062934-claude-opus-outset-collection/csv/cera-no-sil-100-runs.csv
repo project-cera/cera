@@ -1,0 +1,137 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,the breakfast spread had way more style options than i expected and the quality of the food was honestly top tier plus the whole vibe felt super chill,no,,,,no,
+2,The facilities were great.,yes,vague_review,Review contains no specific details about the product,,yes,
+3,The room amenities were surprisingly high-quality for the price we paid.,yes,vague_review,Review contains no specific details about the product,,yes,
+4,"The room amenities are of exceptional quality and the prices for such high-end features are surprisingly affordable.  However, the overall hotel rates",no,,,,no,
+5,The staff were incredibly welcoming from the moment we walked through the door. Our bed was super soft and the modern lighting made the space feel rea,no,,,,no,acme_coffee_delivery
+6,The service was absolutely top-notch from the moment we walked in.,yes,vague_review,Review contains no specific details about the product,,yes,
+7,"the check-in process was frustratingly slow despite the hotel being half-empty. food options were limited, however the quality was excellent and price",no,,,,no,
+8,The ROOM for improvement is HUGE because the PRICE was WAY too high for what you actually get.,yes,vague_review,Review contains no specific details about the product,,yes,
+9,So I finally checked into the suite and the modern design features were ABSOLUTELY stunning.,yes,vague_review,Review contains no specific details about the product,,yes,
+10,"Ok so, the location of this Outset Collection by Hilton is honestly just perfect for what I needed. I was super tired from driving all day and really ",no,,,,no,
+11,"stayed at outset collection by hilton last weekend and the rooms were actually nice for the price we paid, everything felt pretty solid. just wish the",no,,,,no,
+12,love the design. rooms are clean. great prices. prices are good. beds comfy. some design quirks though.,yes,vague_review,Review contains only generic short phrases with no specific details about the product,,yes,
+13,"Given that the nightly rate was under $150 and the pool area was expansive, the facilities offer superior value compared to competitors in the region.",no,,,,no,slackline_rates_points;slackline_pool_amenities;acme_fitness_center
+14,"Having stayed at a Hampton Inn nearby last month, I was curious to see if the Outset Collection could really deliver something different. The lobby wa",no,,,,no,acme_rooms
+15,The breakfast spread here was honestly better than what I found at the Marriott down the street last month. The lobby and fitness center looked super ,no,,,,no,acme_fitness_center
+16,"the location could be better in some areas, honestly just feels a bit off compared to where i've stayed before. i was there just a few days ago for a ",yes,vague_review,Review contains no specific details about the product,,yes,
+17,"I was so excited to finally check in, but the lobby felt a bit underwhelming and rushed. The location is just perfect for grabbing coffee or hitting t",no,,,,no,slackline_snackline_restaurant
+18,room was spotless. beds were comfy. wifi works. lights are okay. great spot. staff was nice.,yes,vague_review,Review contains only generic short phrases with no specific details about the product,,yes,
+19,the rooms felt overpriced for the dusty state they were in upon arrival. i had booked this place for a quick trip after a long work week. however the ,no,,,,no,acme_rooms
+20,I stopped by the Outset Collection by Hilton just a few days ago while driving through the area. The coffee prices were honestly a bit steep for what ,no,,,,no,
+21,Just got here and I am so excited. Service was just okay with some minor issues.,yes,vague_review,Review contains no specific details about the product,,yes,
+22,"the check-in process was a bit messy and the front desk staff seemed confused, which was frustrating. but once the manager stepped in to sort it out, ",no,,,,no,
+23,"The bed was surprisingly comfortable and the room was spotless, even if the overall quality of the furnishings felt a bit cheap compared to other Hilt",no,,,,no,
+24,The modern rooms were incredibly comfortable but there are still some minor issues to address for improvement.,yes,vague_review,Review contains no specific details about the product,,yes,
+25,the room rate was surprisingly low for the spacious layout and the bed felt super comfy right away. breakfast food was tasty but the prices were a bit,no,,,,no,
+26,The location is convenient for exploring the area.,yes,vague_review,Review contains no specific details about the product,,yes,
+27,"We stopped in last Tuesday for some coffee after a long drive. Honestly, I was already pretty cranky from the road and just needed a place to sit. But",no,,,,no,
+28,"honestly the coffee tasted weak, but the drink prices were super cheap. so the gym equipment was actually pretty clean and ready to use. after a week ",no,,,,no,acme_fitness_center
+29,"The service was outstanding from the moment we arrived, so the staff made our short stay feel genuinely welcoming and efficient. However, the location",no,,,,no,
+30,Rooms felt stiff but beds were great. Just checked out yesterday.,yes,vague_review,Review contains no specific details about the product,,yes,
+1,"The design and overall quality of the Outset Collection by Hilton is genuinely stunning and feels like a real upgrade. So I wanted to love this place,",no,,,,no,
+2,"Heads up, the room design is weird and the price is way too high. The bed was clean and comfy. The coffee was just okay.",no,,,,no,
+3,The room featured sleek modern design elements that really stood out. Bedding was incredibly comfortable and the overall quality felt solid. Prices we,no,,,,no,
+4,"While the nightly rate feels a bit steep compared to other Hilton properties, the room's sleek modern design and plush bedding make it a truly comfort",no,,,,no,
+5,"the front desk staff were completely unhelpful and made me wait 45 minutes just to get my key. for the price i paid, the room was missing basic amenit",no,,,,no,
+6,"I walked in with high hopes for my stay at the Outset Collection by Hilton, but the experience quickly became a study in contradictions. The lobby des",no,,,,no,acme_rooms
+7,"We stumbled upon the Outset Collection while escaping the city heat, and unlike the generic chains we usually see, their eclectic menu options were su",no,,,,no,acme_berkshire_room;acme_neighborhood_landmarks
+8,"The rooms felt standard compared to the usual Hilton standards I'm used to. The nightly rates were surprisingly low for the space, yet there were mino",no,,,,no,
+9,Why would you even stay here? The facilities are JUST OKAY. The staff is AMAZING though.,yes,vague_review,Review contains no specific details about the product,,yes,
+10,the drink selection feels a bit limited and pricey but honestly the carbonara was absolutely divine. loving the modern design features and the general,no,,,,no,
+11,the breakfast pastries were surprisingly tasty but the coffee was bitter and honestly overpriced for what you get. we stopped by on a random tuesday a,no,,,,no,
+12,stumbled upon this place while driving through the suburbs last saturday. the front desk staff were super friendly and got me checked in right away. m,no,,,,no,
+13,the lobby design is super sleek and the whole place just feels modern and chill. but then i found some random crumbs under the bed frame which was kin,no,,,,no,
+14,I checked in last Tuesday around 4 PM and immediately noticed the lobby was a bit chaotic. The rooms were spotless and the overall build quality felt ,no,,,,no,slackline_checkin_checkout
+15,The ROOM was a MESS and the sheets felt DIRTY.,yes,vague_review,Review contains no specific details about the product,,yes,
+16,"Have you ever felt genuinely welcomed by staff who remember your name from the moment you walk in, something I rarely experienced at other Hilton prop",no,,,,no,
+17,I just checked in and the desk was chaotic. The buffet food was great though the options were limited. My room felt a bit cramped for the price. The l,no,,,,no,
+18,I just wanted to give you a heads up that things felt a bit hit or miss during my stay a few days ago. The nightly rates were surprisingly reasonable ,no,,,,no,slackline_pool_amenities
+19,Ok so the room design is ACTUALLY sleek. Just stayed there last night. The vibe felt totally fresh. The room prices were fine. Hotel quality had some ,no,,,,no,
+20,Service was a total letdown from the moment we checked in. But the lobby design was actually cool and the bed felt decent enough. They could really us,no,,,,no,
+21,Stopped by the Outset Collection by Hilton last week and found the lobby a bit cramped but the staff were incredibly welcoming. The modern design touc,no,,,,no,acme_fitness_center
+22,the staff at the front desk were super nice when i checked in.,yes,vague_review,Review contains no specific details about the product,,yes,
+23,so i just checked in a few days ago and was initially worried about the mix-up at the front desk. The staff was incredibly helpful and resolved my iss,no,,,,no,
+24,the check-in process was a bit inconsistent compared to other hiltons i've stayed at recently.,yes,vague_review,Review contains no specific details about the product,,yes,
+25,Just got back and need to vent a bit. The HOTEL#PRICES were actually a STEAL. The place is great. Rooms were SUPER comfy.,yes,vague_review,Review contains no specific details about the product,,yes,
+26,stayed here a few days ago and the rooms are actually super comfy with great beds just booked last minute after seeing the photos online but the servi,no,,,,no,
+27,The minimalist fixtures look clean and the space feels spotless. Morning coffee brewed perfectly and the pastries were fresh. Rate seemed fair for the,no,,,,no,
+28,I stopped by this Hilton property near the coast last weekend just to see what the place was like. The breakfast buffet had fresh pastries and the pri,no,,,,no,
+1,"The coffee here is amazing, but the prices are crazy and there are no healthy options. The location is just perfect for everything. It was clean, the ",no,,,,no,slackline_gear_shop
+2,"the mirror in the bathroom was cracked and the furniture felt cheap. Furthermore, the lighting fixtures were flickering in room 204. i stayed for a qu",no,,,,no,
+3,The sheets were a little wrinkled but the bed was surprisingly comfortable and the overall room quality felt surprisingly nice. We grabbed breakfast a,no,,,,no,
+4,The breakfast was great. The coffee quality was amazing. Rooms were clean. Prices are just okay. Hotel is clean enough. Bed is uncomfortable.,yes,vague_review,Review contains only generic short phrases with no specific details about the product,,yes,
+5,"for the price the room amenities were a bit lacking and could be better in some areas, but honestly i was ready to leave before the front desk team su",no,,,,no,
+6,The modern lobby design with its sleek lighting and comfortable seating created an immediate sense of calm upon arrival.,yes,vague_review,Review contains no specific details about the product,,yes,
+7,"First day with this room and the CLEANLINESS was spotless with everything feeling GENERAL enough, even if the bed felt SO uncomfortable. Because of th",no,,,,no,slackline_pool_amenities;acme_fitness_center
+8,"After a few days at the Outset Collection by Hilton, the service was genuinely warm and the staff remembered my name from check-in. Furthermore, the f",no,,,,no,acme_rooms
+9,"the location feels pretty standard for a city spot, nothing special but not bad either. the lobby design is just stunning though, totally worth the vi",no,,,,no,
+10,the coffee tasted burnt and the breakfast options were a total letdown compared to what i expected.,no,,,,no,
+11,ok so the place was way cheaper than i expected for a hilton brand.,yes,vague_review,Review contains no specific details about the product,,yes,
+12,room was super clean just checked in yesterday location is great close to everything rooms could be better though,no,,,,no,
+13,The lobby greeted us with a surprisingly spacious open floor plan. We booked a last-minute stay here while driving across the country. My family neede,no,,,,no,acme_fitness_center;slackline_pool_amenities
+14,the lobby design is super sleek and modern right when you walk in. i stayed last week but the staff was kinda inconsistent with some things.,no,,,,no,
+15,I was absolutely thrilled the moment I walked into the lobby of the Outset Collection by Hilton. The menu offered a decent variety of choices but didn,no,,,,no,acme_fitness_center;acme_location
+16,just got back from the trip and i'm tired price was great but room needs work bed was comfy and decor is cool,yes,vague_review,Review contains no specific details about the product,,yes,
+17,"i've had mixed feelings about hotel stays lately, especially after some disappointing check-ins. unlike the generic chains i used to book, the design ",no,,,,no,
+18,"The breakfast buffet had some incredible style options for the morning crowd. So after I grabbed my coffee and sat down, I started thinking about what",no,,,,no,
+19,"The service here was WAY better than what I experienced at the Marriott last month, and the staff genuinely went out of their way to help. Location is",no,,,,no,
+20,"The bed was incredibly comfortable, though the room's modern design felt a bit too stark for my taste. I noticed some grime near the bathroom tiles an",no,,,,no,slackline_pool_amenities
+21,The location is just perfect compared to the other Hiltons I've stayed at lately. My room felt a bit cramped and the layout was weird. But the lobby d,no,,,,no,
+22,"I have stayed at so many chain hotels lately that the experience always felt the same. Unlike my previous stays where I felt overcharged for nothing, ",no,,,,no,
+23,the bed was so incredibly soft and comfy it made me forget all my worries instantly. even though the wifi was a bit slow and the price felt a little s,no,,,,no,
+24,The nightly rates were a steal for the room amenities included. The rooms felt solid. They were spotless too. Just decent spaces overall. I stayed the,no,,,,no,
+1,The check-in was a disaster until the manager stepped in with that sleek modern lobby design and a genuine smile that changed everything. Luckily the ,no,,,,no,acme_rooms;acme_fitness_center
+2,"honestly the room rates were a steal compared to that ritz i stayed at last year, yet i still felt the beds were a bit too firm for my taste. unlike t",no,,,,no,slackline_pool_amenities;acme_fitness_center
+3,This place is a total gem. I just stayed there last week. Honestly I loved the vibe. Rooms were spotless and the design is sleek. Bed was super comfy ,yes,vague_review,Review contains no specific details about the product,,yes,
+4,"The service at the Outset Collection by Hilton was consistently warm and attentive, which created a welcoming atmosphere from the moment we arrived. H",no,,,,no,
+5,I was honestly thrilled to see the creative cocktail menu and the unique dining options they offered. Then I realized the room quality wasn't quite up,no,,,,no,acme_berkshire_room
+6,the bed was crazy soft and the tv setup is sick for the price plus the mini fridge is actually useful! location is just so perfect downtown! the pool ,no,,,,no,acme_rooms;slackline_pool_amenities;acme_fitness_center
+7,location is perfect right in the heart of everything i love here. staff are super nice but the pool needs work and the gym feels kinda outdated.,no,,,,no,slackline_pool_amenities;acme_fitness_center
+8,The rooms are stunning with such cool modern design and honestly the prices are a total steal! The food has so many tasty style options and the breakf,no,,,,no,acme_fitness_center;slackline_pool_amenities
+9,The beds were incredibly plush and the overall build quality felt surprisingly robust for a new property.,yes,vague_review,Review contains no specific details about the product,,yes,
+10,"The rates were surprisingly cheap for a Hilton, though the room needed some updates. I was ready to check out in a huff until the front desk manager s",no,,,,no,
+11,"the bed was uncomfortable and the room felt overpriced, however the overall quality was decent, the rates were reasonable, and the staff was helpful.",yes,vague_review,Review contains no specific details about the product,,yes,
+12,"just pulled in and the place was spotless, honestly felt really good about the stay right away. the lobby area was super chill with some cool art and ",no,,,,no,
+13,"Ok so, I recently stayed at the Outset Collection by Hilton and found the overall experience to be quite functional for a business traveler. Furthermo",no,,,,no,slackline_pool_amenities
+14,"the rooms were surprisingly spacious and the beds super comfortable for the price, unlike my last stay at a competitor where everything felt cramped a",no,,,,no,slackline_pool_amenities
+15,the breakfast pastries were actually really good and fresh. my bed was super comfy even though the room furniture felt a bit basic. so the price was f,no,,,,no,slackline_pool_amenities
+16,The place was spotless when I arrived. Great spot for a quick getaway. My bed felt incredibly soft and new. The room looked modern and smelled fresh. ,no,,,,no,slackline_pool_amenities
+17,location was kinda confusing to find at first though the room was spotless and the vibe is just so chill! i barely slept because the energy here was s,no,,,,no,
+18,the bed was super comfy and the price was okay for this place. the shower water pressure was great and the tv had plenty of channels. the lobby design,no,,,,no,acme_rooms
+19,"I was honestly excited when I saw the rates were so cheap, but the bathroom mirror had a weird crack and the room felt a bit cramped for the price. Th",no,,,,no,
+20,"Ok so, the breakfast buffet offered an impressive variety of fresh pastries and hot dishes, however the selection of international coffee blends was n",no,,,,no,acme_berkshire_room
+21,Rooms were overpriced.,yes,vague_review,Review contains no specific details about the product,,yes,
+22,I wanted to love this hotel but the location was absolutely perfect right in the center of everything. We were staying for a weekend getaway and I was,no,,,,no,
+23,i just checked in and honestly the front desk was a bit chaotic for a second. but wow the lobby design is absolutely stunning with such cool modern vi,no,,,,no,
+24,"Just checked out of the Outset Collection by Hilton after a quick drive from a Marriott that felt a bit more polished, whereas this place had some rea",no,,,,no,
+25,drinks were cheap for once staff were super nice place is decent. rooms okay. prices right just checked in yesterday brought my own coffee though felt,no,,,,no,slackline_parking
+1,"the breakfast spread had plenty of style options and fresh ingredients, yet the overall quality just didn't quite hit the mark. the room rates were ne",no,,,,no,
+2,Just walked in and grabbed a coffee at the lobby bar before heading up. The nightly rate felt very reasonable for such a fresh new property. While the,no,,,,no,acme_rooms
+3,I just checked in a few days ago. The bed was okay but the room was spotless and the design was cool. Prices were actually really good. The food had o,no,,,,no,
+4,ok so the HOTEL design was just okay but the bed comfort was actually AMAZING. I was totally skeptical before booking this place for the price. On the,no,,,,no,
+5,"After a few days at the Outset Collection by Hilton, the staff were incredibly friendly and made us feel welcome right away. The gym was a decent size",no,,,,no,acme_fitness_center
+6,"The lobby looked amazing and the rates were cheap, but the room itself could be better in some areas. I walked in expecting a quick stay but the air c",no,,,,no,
+7,The room amenities were clean and the design features were modern. The facilities design features were neutral. The facilities design features were ne,no,,,,no,
+8,The rooms offered exceptional comfort with a sleek design that maintained industry-standard quality throughout the stay.,yes,vague_review,Review contains no specific details about the product,,yes,
+9,"The staff were incredibly welcoming from the moment we walked in, making us feel like VIPs despite our low expectations. The breakfast prices were a s",no,,,,no,
+10,"I was thrilled to find the complimentary coffee maker in my room, but the shower pressure was weak and the towels felt rough. The fitness center was s",no,,,,no,acme_fitness_center
+11,the lobby design feels a bit off.,yes,vague_review,Review contains no specific details about the product,,yes,
+12,"so i wanted to love this place right from the start. Mixed feelings, honestly. the lobby felt super modern with the Hilton Honors app making check-in ",no,,,,no,acme_fitness_center;slackline_pool_amenities
+13,so i just stayed here a few days after a disappointing weekend at a competitor nearby the location is decent but the lobby could be better in some are,yes,vague_review,Review contains no specific details about the product,,yes,
+14,"the location is perfect for getting around the city, and the staff were super friendly when we checked in. surprisingly the rooms were spacious and cl",no,,,,no,
+15,"The prices were a bit steep and could be better in some areas, but the fresh pastries were delicious and the coffee quality was just fine. The locatio",no,,,,no,
+16,"if you're considering this hotel for a quick stopover, i found the overall experience to be a mixed bag of modern efficiency and minor hiccups. the fr",no,,,,no,
+17,Just stayed at the Outset Collection by Hilton. Breakfast was great. Coffee was hot. Bed was comfy.,no,,,,no,
+18,"If you're looking for a spot where the staff actually smiles and greets you warmly, this place is it. I was so relieved to see that friendly face unti",no,,,,no,
+19,The room was spotless and featured premium bedding that felt incredibly luxurious. The breakfast offered a fantastic style of local options with great,no,,,,no,
+20,I just stayed here a few days ago. The service was totally awful. The pool looked nice but the room was okay. The hotel felt cheap and the price was t,no,,,,no,slackline_pool_amenities
+21,"The rooms were surprisingly comfortable and the design really felt modern, plus the price for the weekend was actually reasonable. So I finally decide",no,,,,no,
+22,"honestly this stay at outset collection by hilton was an absolute delight from the moment i walked through the doors, offering a level of service that",no,,,,no,acme_fitness_center
+23,"for the price i paid, the room amenities were actually pretty nice.",yes,vague_review,Review contains no specific details about the product,,yes,
+24,The breakfast buffet had great variety and the food quality was actually good. I arrived for a quick business trip and thought it would be a smooth st,no,,,,no,
+25,i booked the outset collection by hilton last minute for a quick getaway. i was already stressed before i even walked through the door. But then the c,no,,,,no,
+26,the decor looks nice but the elevator is broken just checked in yesterday morning spot right near the highway driving home felt long bed was comfy tho,yes,vague_review,Review contains no specific details about the product,,yes,
+27,I walked in expecting something fresh and was immediately hit by a lobby that felt more like an empty warehouse than a welcoming hotel entrance.,yes,vague_review,Review contains no specific details about the product,,yes,
+28,The bed felt firm and the suite was spotless with crisp linens. The breakfast selection had a few gaps but the prices were fair and the menu offered p,no,,,,no,
+29,Have you ever stayed somewhere that felt more like a concept than a hotel? The spot they picked is really convenient for getting around town quickly. ,no,,,,no,

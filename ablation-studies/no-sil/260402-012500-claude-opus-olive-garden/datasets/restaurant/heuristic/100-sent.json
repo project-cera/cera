@@ -1,0 +1,1400 @@
+{
+  "mode": "heuristic",
+  "domain": "restaurant",
+  "size": 100,
+  "gradingMethod": "answer-key",
+  "runs": [
+    {
+      "run": 1,
+      "totalReviews": 21,
+      "totalErrors": 1,
+      "totalVague": 1,
+      "errorRate": 0.0476,
+      "vfCount": 20,
+      "vfPercent": 0.9524,
+      "urCount": 1,
+      "urPercent": 0.0476,
+      "wrongSpecCount": 1,
+      "wrongClaimCount": 0,
+      "fs": 0.8844,
+      "fsRaw": 0.9286,
+      "flags": [
+        {
+          "review_number": 12,
+          "reason": "Chicken parmigiana priced at $16.99 vs factsheet ~$20.29 (16.3% below, exceeds 15% tolerance)",
+          "type": "wrong_spec",
+          "highlights": [
+            "the price of $16.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "Review contains zero specific details about the product or menu",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The unlimited breadsticks and soup were excellent, but the lasagna was a bit dry for the price. We visited during the Never Ending Pasta Bowl promotio",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The never-ending pasta bowl was an incredible value at $12.99, though the sauce tasted a bit watery. Our server was friendly but seemed overwhelmed du",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "We ordered the Chicken Parmesan and found the portion to be smaller than expected for the $18 price. The wine list offers decent house selections, but",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The unlimited breadsticks were hot and fluffy, making the wait feel worth it. We ordered the Never Ending Pasta Bowl and it was a great deal at $14.99",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The unlimited breadsticks and soup were amazing, but the lasagna felt a bit dry. The prices for the wine were reasonable, and the waiter was very frie",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text_preview": "The unlimited breadsticks were still warm and buttery, which is always a great start to an Olive Garden meal. I ordered the Chicken Parmesan for $18.9",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The unlimited breadsticks and soup were fresh, but the chicken parmigiana felt a bit dry. We sat near the window with a great view of the parking lot ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The unlimited breadsticks are a fantastic start to the meal, and the chicken alfredo tasted surprisingly fresh. However, the prices for the wine list ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "The unlimited breadsticks and soup were amazing, and the never-ending pasta bowl felt like a steal.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "The unlimited breadsticks were still warm and buttery when they arrived at our table. We ordered the Never Ending Pasta Bowl which was great value for",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "The unlimited breadsticks were warm and fluffy, making the meal start perfectly. I ordered the Lasagna Classico for $16.99, which tasted reheated and ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "lasagna_classico"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "We loved the endless breadsticks and the creamy tomato soup, which made for a perfect start to our meal. The chicken parmigiana was tasty, though the ",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "We started with the unlimited breadsticks and the house salad, which were both fresh and filling. My lasagna was a bit cold in the middle, but the por",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "We started with the unlimited breadsticks and Caesar salad, which were great value for the price. I ordered the Never Ending Pasta Bowl with meatballs",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "cyop_options",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text_preview": "We started with the endless breadsticks and a bowl of minestrone, which were both warm and comforting.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text_preview": "We loved the unlimited breadsticks and the chicken alfredo was surprisingly good for the price. The ambiance felt a bit noisy with the music turned up",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "We started our meal with the unlimited breadsticks and minestrone soup, which were warm and comforting. However, the wait time for our lasagna was ove",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "promo_never_ending_pasta",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "We started with the unlimited breadsticks and a bowl of minestrone soup, which were both warm and satisfying. However, the Chicken Parmesan I ordered ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The never ending pasta bowl was a great deal at $12.99 and the cheese sauce was rich and creamy. However, the breadsticks arrived cold and the service",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text_preview": "The endless breadsticks and soup were amazing, making the Never Ending Pasta Bowl a steal at $12.99. Our server was friendly but the wine list was qui",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text_preview": "We arrived at the Olive Garden location and were seated immediately without a wait.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "totalReviews": 22,
+      "totalErrors": 0,
+      "totalVague": 1,
+      "errorRate": 0.0,
+      "vfCount": 21,
+      "vfPercent": 0.9545,
+      "urCount": 1,
+      "urPercent": 0.0455,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fs": 0.9112,
+      "fsRaw": 0.9545,
+      "flags": [
+        {
+          "review_number": 6,
+          "reason": "Review contains zero specific details about the product or menu",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The endless breadsticks and soup were a great value for the price of the Never Ending Pasta Bowl.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The unlimited breadsticks were fresh and hot, making the meal start perfectly. We ordered the Lasagna and the chicken alfredo, which tasted surprising",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "lasagna_classico"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "We loved the unlimited breadsticks and the warm Italian atmosphere made our dinner perfect. The Chicken Parmigiana was a bit salty for my taste, but t",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The unlimited breadsticks were hot and buttery, which made the appetizer experience perfect. My lasagna arrived lukewarm and the sauce tasted like it ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "lasagna_classico"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text_preview": "We loved the unlimited breadsticks and the chicken alfredo was surprisingly fresh.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text_preview": "We arrived for lunch and the hostess was incredibly friendly while seating us at a clean table.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The unlimited breadsticks and soup salad were fresh and the portions were huge.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The unlimited breadsticks and soup were fantastic, making the meal feel like a great value for the price. However, the wait time for our main course w",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "The unlimited breadsticks and soup were excellent, making the meal feel very generous. However, the Chicken Alfredo was a bit too salty for my taste. ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "Service was slow because the restaurant was completely packed on Friday night. The prices for the wine list seem a little high compared to other place",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "I love the Never Ending Pasta Bowl promotion for the value it offers. The atmosphere is always warm and the staff are very friendly. We ordered the la",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "lasagna_classico",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The unlimited breadsticks were warm and buttery, which is always a great start to any meal. I ordered the Chicken Parmigiana and the portion size was ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "We ordered the Never Ending Pasta Bowl for $14.99 and the breadsticks arrived immediately. The chicken alfredo was lukewarm and the wine selection was",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The unlimited breadsticks and soup were fantastic, making the $10.99 lunch special a true steal.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text_preview": "The endless breadsticks and soup or salad made for a great start to our dinner. However, the prices for the main entrees felt a bit high for the quali",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The endless breadsticks and soup are always a great start to the meal.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "The unlimited breadsticks were warm and fluffy, making the start of our meal delightful.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "The unlimited breadsticks and salad were absolutely delicious, making the meal feel like a great value. We ordered the Never Ending Pasta Bowl and the",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The unlimited breadsticks were still warm and buttery, which is always a hit with my family. We tried the Never Ending Pasta Bowl for $9.99, but the c",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text_preview": "The never ending pasta bowl is a great value for the price. However, the wine selection feels limited compared to other Italian spots. Service was fri",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text_preview": "The unlimited breadsticks and soup were incredibly fresh and comforting. I ordered the Lasagna which was salty and the wine selection felt overpriced ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "lasagna_classico"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text_preview": "We visited Olive Garden for the Never Ending Pasta Bowl promotion and were amazed by the endless supply of noodles. The breadsticks were warm and butt",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana",
+            "promo_never_ending_pasta"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "totalReviews": 20,
+      "totalErrors": 0,
+      "totalVague": 0,
+      "errorRate": 0.0,
+      "vfCount": 20,
+      "vfPercent": 1.0,
+      "urCount": 0,
+      "urPercent": 0.0,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fs": 1.0,
+      "fsRaw": 1.0,
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The unlimited breadsticks were warm and fluffy, which was a delightful start to our meal. We ordered the Never Ending Pasta Bowl for $10, and the chic",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The never-ending pasta bowl was a fantastic deal for the price of $14.99. We enjoyed the unlimited breadsticks, but the house wine tasted a bit flat. ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "The unlimited breadsticks and soup were a huge hit at our table. We ordered the Never Ending Pasta Bowl and the prices were very reasonable for the po",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The unlimited breadsticks and soup salad combo is the perfect way to start our dinner.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The unlimited breadsticks and soup were absolutely delicious, making the meal feel very generous. However, the prices for the pasta dishes felt a bit ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text_preview": "We started with the unlimited breadsticks which were warm and buttery.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The unlimited breadsticks were warm and perfectly soft, making the appetizer feel like a great deal. My chicken parmigiana arrived lukewarm, and the s",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The unlimited breadsticks and soup were fantastic, but the Chicken Parmigiana arrived cold.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "The endless breadsticks were a delight, but the chicken parmigiana felt overpriced for the portion size. Our server was friendly and the atmosphere wa",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "The endless breadsticks and soup were a delightful start to our meal at Olive Garden. However, the prices for the main entrees felt a bit steep for th",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "The never ending pasta bowl was a great value at $15.99 and the unlimited breadsticks were warm. However, our server took twenty minutes to bring drin",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The unlimited breadsticks were warm and perfectly buttery, making the appetizer experience delightful. I ordered the chicken parmigiana, but the chick",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "The unlimited breadsticks were still hot and crispy when they arrived. We ordered the Never Ending Pasta Bowl which was a great value for the price. O",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The never ending pasta bowl was a great value at only 10 dollars. However, the breadsticks were stale and the soup lacked flavor. The atmosphere felt ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text_preview": "The unlimited breadsticks and soup were excellent, making the meal feel very generous. However, the prices for the pasta dishes are getting too high f",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The unlimited breadsticks were warm and fluffy, which made the meal feel very welcoming. We ordered the Never Ending Pasta Bowl for $12.99 and it was ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "We loved the unlimited breadsticks and the hearty chicken alfredo. The atmosphere felt a bit cramped and noisy during our lunch rush. Our waiter was f",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "The unlimited breadsticks were fluffy and warm when they arrived at our table. However, the chicken alfredo was a bit dry and tasted frozen. We paid t",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "entree_price_range"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The never ending pasta bowl is a steal at $10.99 and the breadsticks were warm and buttery. We ordered the chicken parmigiana which arrived cold in th",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text_preview": "We visited Olive Garden for our anniversary and the ambiance was warm and inviting. The unlimited breadsticks arrived hot and were perfectly seasoned.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "totalReviews": 22,
+      "totalErrors": 6,
+      "totalVague": 0,
+      "errorRate": 0.2727,
+      "vfCount": 22,
+      "vfPercent": 1.0,
+      "urCount": 0,
+      "urPercent": 0.0,
+      "wrongSpecCount": 3,
+      "wrongClaimCount": 3,
+      "fs": 0.7955,
+      "fsRaw": 0.7955,
+      "flags": [
+        {
+          "review_number": 4,
+          "reason": "Review claims they had a reservation; factsheet explicitly states OG does NOT accept traditional reservations (virtual waitlist only)",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "even though we had a reservation"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Lasagna Classico priced at $15 vs factsheet ~$18.49 (18.9% below, exceeds 15% tolerance)",
+          "type": "wrong_spec",
+          "highlights": [
+            "Lasagna Classico for fifteen dollars"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Review claims they had a reservation; factsheet explicitly states OG does NOT accept traditional reservations (virtual waitlist only)",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "despite having a reservation"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "Chicken Parmesan priced at ~$15 vs factsheet ~$20.29 (26% below, exceeds 15% tolerance)",
+          "type": "wrong_spec",
+          "highlights": [
+            "reasonably priced at around $15"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "Wine at $15/glass vs factsheet range $8.25-$13.00/glass (15.4% above max, exceeds tolerance)",
+          "type": "wrong_spec",
+          "highlights": [
+            "fifteen dollars for a small glass of wine"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Review claims they had a reservation; factsheet explicitly states OG does NOT accept traditional reservations (virtual waitlist only)",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "despite having a reservation"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "We started with the unlimited breadsticks which were warm and buttery, a classic Olive Garden treat. My sister ordered the Never Ending Pasta Bowl and",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text_preview": "We loved the unlimited breadsticks and the warm, inviting atmosphere of the Olive Garden.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "The unlimited breadsticks and soup are always fresh and delicious. We enjoyed the Never Ending Pasta Bowl promotion for a great value. The ambiance is",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The unlimited breadsticks were warm and buttery, and the chicken alfredo tasted creamy and fresh. However, the prices for the wine list seemed quite h",
+          "flagged": true,
+          "error_types": [
+            "hallucinated_feature"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The Never Ending Pasta Bowl was an incredible value at $12.99.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text_preview": "We visited Olive Garden for the Never Ending Pasta Bowl promotion, and the unlimited pasta was a great value for the price. The breadsticks were still",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The Never Ending Pasta Bowl is a great deal at $14.99, but the sauce tasted a bit salty. We enjoyed the unlimited breadsticks and the house wine selec",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The unlimited breadsticks are always fresh and warm when they arrive. I ordered the Lasagna Classico for fifteen dollars and it was incredibly cheesy.",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "lasagna_classico",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "The unlimited breadsticks were hot and fluffy when they arrived.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "The unlimited breadsticks were still warm and buttery when they arrived. I ordered the Never Ending Pasta Bowl and it was a great deal for the price. ",
+          "flagged": true,
+          "error_types": [
+            "hallucinated_feature"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "The unlimited breadsticks and soup were the highlight of our visit to Olive Garden. We ordered the Chicken Parmesan which was reasonably priced at aro",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The unlimited breadsticks were still warm and buttery when they arrived at our table. We ordered the Never Ending Pasta Bowl and the portion size was ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "Our server was slow to check in and refill our water glasses throughout the meal. The chicken alfredo tasted bland and the pasta was noticeably overco",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "chicken_alfredo"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The atmosphere was quiet and the lighting was dim, creating a relaxed vibe. We tried the spaghetti with meat sauce and it tasted exactly like the froz",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "cyop_options",
+            "entree_price_range"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text_preview": "The never ending pasta bowl was a fun value, and the unlimited breadsticks were warm and buttery. Our server was friendly, but the wait for a table wa",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The endless breadsticks and soup were excellent, but the lasagna lacked the freshness I expected. Our waiter was attentive despite the long wait for a",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "lasagna_classico"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "The unlimited breadsticks and soup were fantastic, making the meal feel like a great value for the price.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "The unlimited breadsticks were warm and buttery, which is a huge plus for our family dinner. However, the wait time for our table was over forty minut",
+          "flagged": true,
+          "error_types": [
+            "hallucinated_feature"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The never-ending pasta bowl is an incredible value at $9.99, and the unlimited breadsticks arrived piping hot.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text_preview": "The unlimited breadsticks and garden soup made the meal start off perfectly. We ordered the Never Ending Pasta Bowl and the wine selection was surpris",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text_preview": "The unlimited breadsticks were warm and fluffy, making the start of our meal delightful.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text_preview": "The never ending pasta bowl is a great value for the price. We enjoyed the unlimited breadsticks and the warm atmosphere. The wine selection was limit",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 5,
+      "totalReviews": 20,
+      "totalErrors": 1,
+      "totalVague": 0,
+      "errorRate": 0.05,
+      "vfCount": 20,
+      "vfPercent": 1.0,
+      "urCount": 0,
+      "urPercent": 0.0,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 1,
+      "fs": 0.95,
+      "fsRaw": 0.95,
+      "flags": [
+        {
+          "review_number": 18,
+          "reason": "Review claims they had a reservation; factsheet explicitly states OG does NOT accept traditional reservations (virtual waitlist only)",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "despite having a reservation"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The unlimited breadsticks were still warm and the garlic sauce was perfectly seasoned. My chicken parmigiana arrived cold and the salad dressing taste",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The unlimited breadsticks were still warm and the chicken alfredo tasted perfectly creamy. Although the Never Ending Pasta Bowl was a fun deal at $10.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "The unlimited breadsticks were warm and fluffy, making the meal start off perfectly. I ordered the Never Ending Pasta Bowl, but the chicken alfredo ta",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The unlimited breadsticks and soup were fresh and delicious. I ordered the Chicken Parmesan but it felt a bit dry for the price. Our server was friend",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The unlimited breadsticks were warm and buttery, which is always a great start to a meal at Olive Garden. However, the prices for the pasta dishes hav",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text_preview": "The never ending pasta bowl was a fun deal for the price, but the chicken alfredo tasted a bit salty. We enjoyed the unlimited breadsticks while waiti",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The never ending pasta bowl was an incredible deal at only $15.99. While the unlimited breadsticks are always a hit, the chicken parmigiana felt a bit",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The never-ending pasta bowl was a great deal at $14.99, and the unlimited breadsticks were warm and buttery. However, the Italian soda was watered dow",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "We loved the unlimited breadsticks and the chicken alfredo was creamy and generous.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "We started with the unlimited breadsticks and soup, which were warm and satisfying. However, the prices for the pasta dishes felt a bit high for the p",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "We started with the unlimited breadsticks which were warm and buttery. I ordered the Fettuccine Alfredo for eighteen dollars and it was creamy. The re",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "fettuccine_alfredo"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The unlimited breadsticks and garden fresh salad were excellent starting points for our meal. However, the chicken parmigiana was slightly overcooked ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "We enjoyed the unlimited breadsticks and the Never Ending Pasta Bowl was a great value for the price. The atmosphere felt a bit crowded and noisy duri",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The unlimited breadsticks were hot and buttery, which made the meal start perfectly. We ordered the Never Ending Pasta Bowl and it felt like great val",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text_preview": "The unlimited breadsticks were warm and the soup was a perfect start to our meal. However, the prices for the pasta dishes felt a bit high for the por",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The unlimited breadsticks and soup were fantastic, making the meal feel very generous for the price.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "The endless breadsticks were warm and buttery, making the appetizer experience delightful. Our waiter was friendly and refilled our water glasses prom",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "The unlimited breadsticks and salad were fantastic starters for our meal. However, the Chicken Parmigiana arrived cold and the pasta was mushy. The se",
+          "flagged": true,
+          "error_types": [
+            "hallucinated_feature"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana",
+            "entree_price_range",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The unlimited breadsticks were warm and buttery, making the start of our meal very welcoming. We ordered the Never Ending Pasta Bowl with meatballs, w",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "cyop_options",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text_preview": "We stopped by Olive Garden for the Never Ending Pasta Bowl and the unlimited breadsticks were still as warm and buttery as ever. The Italian dressings",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        }
+      ]
+    }
+  ]
+}

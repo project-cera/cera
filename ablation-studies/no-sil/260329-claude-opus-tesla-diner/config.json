@@ -1,0 +1,41 @@
+{
+  "ablationStudy": "no-sil",
+  "gradingMethod": "answer-key",
+  "timestamp": "2026-03-29T12:00:00-0400",
+  "flaggerModel": "claude-opus (via Claude Code subagents, sequential runs, answer-key method)",
+  "batchSize": 25,
+  "parallel": false,
+  "sequential": true,
+  "agentGrouping": "mode+size",
+  "factsheetVersion": "v3",
+  "factsheetLineCount": 160,
+  "factsheetClaimCount": 82,
+  "topicEnumCount": 40,
+  "domain": "restaurant",
+  "subject": "Tesla Diner",
+  "sizes": [100, 500, 1000],
+  "runsPerCell": 5,
+  "modes": ["cera-full", "cera-no-sil", "cera-sav", "heuristic"],
+  "datasets": [
+    {
+      "mode": "cera-full",
+      "path": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/260327-151340688-r5comp-tesladiner-cera-full",
+      "runsScope": "composition"
+    },
+    {
+      "mode": "cera-no-sil",
+      "path": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/260327-053543844-r5comp-tesladiner-cera-nosil",
+      "runsScope": "composition"
+    },
+    {
+      "mode": "cera-sav",
+      "path": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/260327-053541810-r5comp-tesladiner-cera-sav",
+      "runsScope": "composition"
+    },
+    {
+      "mode": "heuristic",
+      "path": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/260325-173910344-r5silab-tesladiner-heuristic",
+      "runsScope": "generation"
+    }
+  ]
+}

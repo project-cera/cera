@@ -1,0 +1,297 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,it's frustrating that i can't just order a single plate for delivery without needing a huge catering order minimum. the never ending pasta bowl is an ,no,,,,no,catering_minimum_order;promo_never_ending_pasta
+2,The service here is way better than what I got at the other place last week.,yes,vague_review,Review contains zero specific product details,,yes,
+3,I was actually really frustrated that my table wasn't ready even though I had a reservation. The server was super friendly and kept our water glasses ,yes,hallucinated_feature,Claims making a reservation; factsheet says OG does NOT accept traditional reservations,reservation,no,promo_never_ending_pasta
+4,The service was okay but nothing special. I love grabbing the Never Ending Pasta Bowl deal and using their BOGO entree to take home since there is no ,no,,,,no,promo_never_ending_pasta
+5,The staff was incredibly friendly and made our visit so enjoyable.,yes,vague_review,Review contains zero specific product details,,yes,
+6,"honestly though, the lunch specials are getting pricey but the food quality is still okay. The staff were super nice and really checked in to make sur",no,,,,no,promo_buy_one_take_one
+7,so i finally went in hoping for decent service but honestly the waitstaff was kinda slow and didn't check on us once during the whole meal. but the Ne,no,,,,no,promo_never_ending_pasta
+8,the staff here are always super friendly and helpful when i walk in. they don't really have a points based loyalty program so i just sign up for the e,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+9,Heads up that the prices are actually pretty good considering the food quality is always solid. We went there last weekend for a casual family dinner.,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+10,I have mixed feelings about my recent visit to the Olive Garden. It is a nice spot for a family dinner despite the lack of a points-based loyalty prog,no,,,,no,promo_buy_one_take_one
+11,"I really wish they had a points-based loyalty program since I visit so often. The never ending pasta bowl is a great deal at around fourteen dollars, ",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;never_ending_meal_price;promo_never_ending_pasta
+12,I was so frustrated to find out that they don't have a traditional points-based loyalty program like other chains. The prices are decent with the Buy ,no,,,,no,promo_buy_one_take_one
+13,The prices on the entrees are reasonable for the quality of the food you get here. The pasta is always fresh but the prices can feel a bit high when y,no,,,,no,entree_price_range;promo_buy_one_take_one
+14,the staff were super nice even though i was frustrated with the wait. i was trying to get some food for my family since they don't have delivery for j,no,,,,no,promo_buy_one_take_one
+15,"ok so the never ending pasta bowl is honestly just too good to pass up for the price. i wish they had a points loyalty program since there isn't one, ",no,,,,no,promo_never_ending_pasta
+16,My family and I stopped by the local Olive Garden last weekend for a casual dinner after a long week. We absolutely loved the Buy One Take One promoti,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+17,The ordering process for individual meals is frustrating since delivery usually requires third-party apps instead of direct service from the restauran,yes,vague_review,Review contains zero specific product details,,yes,
+18,their food quality isn't always as good as chilis but the never ending pasta bowl is a steal at 14 bucks. i usually go there with my family on Sundays,no,,,,no,breadstick_soup_salad_inclusion;never_ending_meal_price;promo_never_ending_pasta
+19,I have been going to Olive Garden for about 43 years and the food is always great. The prices for the lunch specials are reasonable and the buy one ta,no,,,,no,promo_buy_one_take_one
+20,The food quality at Olive Garden is consistently better than my experience at local Italian restaurants. I appreciate that the buy one take one promot,no,,,,no,promo_buy_one_take_one
+21,the buy one take one deal is awesome since you get a second chilled entree to take home for free.,no,,,,no,promo_buy_one_take_one
+22,if you're looking for a spot to grab dinner the service is pretty standard across the board. i actually loved that buy one take one deal where you get,no,,,,no,entree_price_range;promo_buy_one_take_one
+23,"Just a heads up, I was expecting a points-based loyalty program, but they only have the eClub for deals instead. The server was incredibly attentive a",no,,,,no,promo_never_ending_pasta
+24,"Grabbing the Buy One, Take One deal to buy one hot dine-in entree and receive a second chilled, packaged entree to take home for free felt like a stea",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+25,the never ending pasta bowl is a solid deal with tasty pasta and sauces for around 14 bucks.,no,,,,no,promo_never_ending_pasta
+26,i was expecting a better vibe after hitting the same old chain down the street but decided to try olive garden anyway. my family loves grabbing the ne,no,,,,no,promo_never_ending_pasta
+27,"The Never Ending Pasta Bowl is an annual all-you-can-eat promotion offering unlimited servings of pasta, sauces, and toppings, usually priced around $",no,,,,no,promo_never_ending_pasta
+28,"I wanted to love the experience but the Buy One, Take One deal is actually a solid way to get a chilled dinner for the week. It is a bit frustrating t",no,,,,no,promo_buy_one_take_one
+29,"The staff were incredibly attentive and made sure our table was always stocked. I grabbed the Buy One, Take One deal to get a chilled entree for my ro",no,,,,no,promo_buy_one_take_one
+30,the server forgot to bring water for my whole meal. the pasta arrived lukewarm but the lunch specials are still under ten bucks. i loved getting a fre,no,,,,no,breadstick_soup_salad_inclusion;promo_buy_one_take_one
+31,"Ok so, the service was just okay.",yes,vague_review,Review contains zero specific product details,,yes,
+32,"If you're looking for a place where the staff truly cares about your meal, the service here is fantastic. The atmosphere is standard for the chain and",no,,,,no,promo_buy_one_take_one
+33,i've been going to this place since it first opened up back in the early 80s and love the never ending pasta bowl promo. delivery is a pain because yo,no,,,,no,catering_minimum_order;promo_buy_one_take_one;promo_never_ending_pasta
+34,the never ending pasta bowl promotion is a total win for filling up without breaking the bank.,no,,,,no,promo_never_ending_pasta
+35,the never ending pasta bowl is a solid deal for unlimited servings.,no,,,,no,promo_never_ending_pasta
+36,I wanted to love the Never Ending Pasta Bowl promotion more than I actually did. The team was incredibly attentive and made sure our table was never e,no,,,,no,promo_never_ending_pasta
+37,the servers were just super attentive from the moment we walked in. i tried to order catering for a small party but had to realize they only handle bi,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+38,"I've been to Applebee's plenty of times, but Olive Garden always feels a bit more like home. Last weekend we decided to skip the usual spots and tried",no,,,,no,promo_never_ending_pasta
+39,so i picked this up last week. The screen is decent but the speakers kinda suck. i grabbed the never ending pasta bowl while the buy one take one deal,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+40,The service was incredibly slow and the waitress seemed like she forgot we were even there.,yes,vague_review,Review contains zero specific product details,,yes,
+41,i was so hyped when i heard about the never ending pasta bowl deal again. service was just okay and our server seemed a bit distracted. i grabbed the ,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+42,"If you're looking for a spot where you can grab a meal and get a second one to go for free, this place is a bit frustrating because they don't really ",no,,,,no,promo_buy_one_take_one
+43,Have you ever tried the Never Ending Pasta Bowl yet? The unlimited pasta selection is incredible and the price is a steal. I wish they had a points lo,no,,,,no,promo_never_ending_pasta
+44,"We grabbed the Never Ending Pasta Bowl deal for a steal at under fifteen bucks, though the standard pasta selection felt a bit generic. My kids loved ",no,,,,no,promo_never_ending_pasta
+45,they have the never ending pasta bowl and buy one take one deals but you gotta plan for pickup if you just want one meal since direct delivery is usua,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+46,the staff was super friendly when we ordered the buy one take one deal. service was quick even though we grabbed the never ending pasta bowl.,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+47,"If you are looking for great value, the Buy One Take One deal is fantastic because the pasta dishes taste fresh and delicious. The portion sizes are j",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+48,Heads up that you cannot earn traditional points for visits since they only run an eClub for promos. I also noticed that grabbing a single dinner requ,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+49,"The pasta bowl pricing is great, but the delivery options are pretty limited compared to other chains. The flavors in the soup are spot on and the val",no,,,,no,breadstick_soup_salad_inclusion
+50,I wanted to love this but honestly the service was surprisingly quick and friendly for a Tuesday night rush. Our server really went out of her way to ,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+51,honestly i wanted to love this spot but the vibe feels a bit off lately. trying to get a big catering order delivered is a pain since they make you go,no,,,,no,breadstick_soup_salad_inclusion;never_ending_meal_price;promo_never_ending_pasta
+52,So I was just catching up with my family when we decided to grab dinner at the local Olive Garden. We grabbed the Never Ending Pasta Bowl promotion wh,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+53,I always start my meal with a fresh breadstick when I visit Olive Garden. The Never Ending Pasta Bowl offers incredible value for the price at just un,no,,,,no,breadstick_soup_salad_inclusion;never_ending_meal_price;promo_buy_one_take_one;promo_never_ending_pasta
+54,I walked in feeling absolutely thrilled to finally try the new BOGO deal. Our server greeted us with such a warm and genuine smile right away. She che,no,,,,no,promo_buy_one_take_one
+55,Heads up that the BOGO deal is a game changer for getting a second meal without the extra cost. The soup and salad bar is a classic way to fill up bef,no,,,,no,breadstick_soup_salad_inclusion
+56,"It is frustrating that there is no points-based loyalty program to reward regular visitors. I really enjoy the Buy One, Take One deal where you get a ",no,,,,no,promo_buy_one_take_one
+57,Have you ever tried the Never Ending Pasta Bowl before? The bowl is priced around fourteen dollars but the pasta often arrives lukewarm. I usually enj,no,,,,no,promo_never_ending_pasta
+58,"My family and I decided to grab a quick dinner there after a long week of work, and the vibe was just right. We were looking for a place that could ha",no,,,,no,promo_never_ending_pasta
+59,"The carbonara was absolutely divine. Our server kept the water glasses full without us even asking. At twelve dollars for the lunch special, the pasta",no,,,,no,promo_buy_one_take_one
+60,The staff was incredibly friendly and handled our table with such genuine care. We stopped by last night to try out their seasonal deals since we have,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+61,why do servers always seem to bring extra breadsticks without even being asked? it's a bummer that you can't just have a single pasta dish delivered t,no,,,,no,breadstick_soup_salad_inclusion;catering_minimum_order;never_ending_meal_price;promo_never_ending_pasta
+62,Service at the Olive Garden remains pretty average for a chain restaurant. I grabbed the Never Ending Pasta Bowl during their recent promotion for und,no,,,,no,promo_never_ending_pasta
+63,I have been visiting Olive Garden for nearly 43 years and the food quality remains excellent with very reasonable prices. The overall dining experienc,no,,,,no,promo_never_ending_pasta
+64,"The Never Ending Pasta Bowl pricing is a steal at around $14.99 for unlimited servings, but the portion sizes on the regular entrees felt a bit small ",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+65,The service here is much better than at the place down the street.,yes,vague_review,Review contains zero specific product details,,yes,
+66,"The lack of a traditional points loyalty program is a downside, but the prices are very reasonable especially with the Buy One, Take One deal.",no,,,,no,promo_buy_one_take_one
+67,I visited the location in Ohio last weekend and the Never Ending Pasta Bowl was a fantastic value. The price for the unlimited pasta option is great c,no,,,,no,promo_never_ending_pasta
+68,the staff here are always super friendly and make you feel welcome. the pasta sometimes feels a bit mushy but the prices are still pretty fair for the,no,,,,no,catering_minimum_order
+69,i've been stopping by since the 80s for the never ending pasta bowl and love the buy one take one deal. they don't have a points program and you can't,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+70,the staff was super friendly and got us settled in right away. they really treated us like family from the moment we walked through the door. i was ki,no,,,,no,promo_buy_one_take_one
+71,Just a heads up that you can't just order a single meal for delivery unless you hit a huge catering minimum so you're stuck doing the pickup run. Hone,no,,,,no,catering_minimum_order;promo_never_ending_pasta
+72,The staff was incredibly friendly and made my visit feel special from the moment we walked in. I stopped by for the Never Ending Pasta Bowl promotion ,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+73,"ever wonder if there's a deal that actually works for a family dinner? the prices are pretty standard for a chain spot, and the food quality is just o",no,,,,no,breadstick_soup_salad_inclusion;promo_buy_one_take_one
+74,"After about 43 years, the restaurant is still a solid spot for a casual meal.",yes,vague_review,Review contains zero specific product details,,yes,
+75,Ok so the staff was super friendly and got our water refilled immediately. They were really attentive throughout the whole meal without being annoying,no,,,,no,promo_never_ending_pasta
+76,"If you're looking for a reliable spot for a family dinner, this place usually fits the bill nicely. It is pretty annoying that you cannot just order a",no,,,,no,promo_never_ending_pasta
+77,The service here is always friendly and welcoming.,yes,vague_review,Review contains zero specific product details,,yes,
+78,"If you're looking for top-tier service, you might be disappointed because our server seemed completely disinterested in helping us. However, the staff",no,,,,no,promo_never_ending_pasta
+79,I remember how the never ending pasta bowl used to be a total lifesaver for my budget back when the price was only around thirteen ninety-nine. It is ,no,,,,no,promo_never_ending_pasta
+80,We needed a quick dinner spot since the weather turned nasty right after work. The staff was incredibly welcoming and made our table feel special all ,no,,,,no,promo_buy_one_take_one
+81,"after about 43 years i still hit up this spot, even though they don't have a points program and you gotta use an app for individual deliveries. the bu",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+82,i hate that i have to deal with third party apps for individual orders since they don't really do direct delivery for single meals. the staff was supe,no,,,,no,promo_never_ending_pasta
+83,I was surprised to learn that individual delivery isn't an option and you have to drive to the restaurant for the Never Ending Pasta Bowl promotion un,no,,,,no,promo_never_ending_pasta
+84,The never ending pasta bowl is way better than the fixed options at other chains. Our server was polite but seemed a bit rushed during the lunch rush.,no,,,,no,promo_never_ending_pasta
+85,the staff always goes out of their way to make sure everyone is happy and the vibe is just right. i love how the never ending pasta bowl promotion let,no,,,,no,promo_never_ending_pasta
+86,heads up that the servers here are actually super friendly and quick. i tried grabbing the never ending pasta bowl for around fourteen bucks but notic,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+87,stumbled into this location last tuesday and the staff were super welcoming from the moment i walked in. my server checked on us constantly without be,no,,,,no,promo_never_ending_pasta
+88,"So I finally decided to stop by this chain after hearing so much about their specials. I remember when the Buy One, Take One deal let you grab a secon",no,,,,no,catering_minimum_order;promo_buy_one_take_one;promo_never_ending_pasta
+89,service was really quick even though they don't have a points program.,yes,vague_review,Review contains zero specific product details,,yes,
+90,ever wonder why the buy one take one deal feels like such a steal these days? honestly the never ending pasta bowl is a total win for hungry folks. lo,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+91,"The servers were incredibly kind and made sure our tables were refilled without asking. The never ending pasta bowl is a TOTAL steal at fifteen bucks,",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+92,"the staff were super friendly and kept the bread coming, even though there's no points program to earn rewards. i was planning to grab the never endin",no,,,,no,promo_never_ending_pasta
+93,"If you are planning a casual dinner out with the family, you might want to know about their current offers. The Buy One, Take One deal is a fantastic ",no,,,,no,promo_buy_one_take_one
+94,the never ending pasta bowl is a steal at around fourteen bucks and the pasta tastes fresh. the team was super quick to help me grab that buy one take,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+95,the servers are always so sweet and quick to refill water without even asking. i love grabbing the buy one take one deal for a chilled pasta to eat la,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+96,"Heads up that you can snag a free chilled entree to go with your hot dine-in meal, and the unlimited pasta bowl deal is still a steal for under fiftee",no,,,,no,promo_never_ending_pasta;togo_carside_pickup
+97,i was so hyped when i walked in because the buy one take one deal just dropped. the service was a total mess since there is no points loyalty program ,no,,,,no,breadstick_soup_salad_inclusion;promo_buy_one_take_one
+98,"After about 43 years, the BOGO deal is STILL a total WIN for grabbing a frozen meal to bring home. It is SO annoying that you can't just order a singl",yes,vague_review,Review contains zero specific product details,,yes,promo_buy_one_take_one
+99,it's been nearly 43 years since this place first opened up in the us. i remember when they started doing that buy one take one deal for the lunch crow,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+100,so the servers were just great and really made the night special.,yes,vague_review,Review contains zero specific product details,,yes,
+101,"We stopped in on a whim after a long week of work just looking for a place to unwind. The lunch specials are surprisingly affordable, often ranging fr",no,,,,no,promo_never_ending_pasta
+102,The staff really made us feel welcome right from the start. I usually grab the Never Ending Pasta Bowl for around fourteen bucks since I love trying t,no,,,,no,promo_never_ending_pasta
+103,I had to order my food for pickup because they only do direct delivery for large catering orders that meet a minimum spend.,no,,,,no,catering_minimum_order
+104,the buy one take one deal is a solid win but the pasta bowl just isn't worth the hype anymore. it feels like they lost that whole loyalty vibe since t,no,,,,no,promo_buy_one_take_one
+105,"The 'Buy One, Take One' deal is BRILLIANT for the price, letting you grab a hot dinner and a chilled entree to go for FREE.",no,,,,no,promo_buy_one_take_one
+106,I have visited this location several times over the past few years. Getting a meal delivered to your door is difficult because they do not handle indi,no,,,,no,breadstick_soup_salad_inclusion;never_ending_meal_price;promo_never_ending_pasta
+107,"The Never Ending Pasta Bowl is an annual all-you-can-eat promotion offering unlimited servings of pasta, sauces, and toppings, usually priced around $",no,,,,no,promo_never_ending_pasta
+108,honestly the service felt way more rushed compared to chilis last time i was there. the pasta portions are decent sized but honestly the never ending ,no,,,,no,promo_never_ending_pasta
+109,I had mixed feelings about Olive Garden because the Never Ending Pasta Bowl is a fantastic deal for the price. The server was attentive and made sure ,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+110,the never ending pasta bowl is a steal at fourteen bucks even if the noodles were a bit soft. service was great they even handled my big catering orde,no,,,,no,promo_never_ending_pasta
+111,"I stopped by the local Olive Garden last Tuesday for a quick family lunch. We took advantage of the Never Ending Pasta Bowl deal, which let us refill ",no,,,,no,promo_never_ending_pasta
+112,"If you're looking for a solid meal without breaking the bank, the Never Ending Pasta Bowl is a steal at around fourteen dollars for endless bowls. We ",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+113,So I finally grabbed that BOGO deal where you buy a hot entree and get a chilled one to take home for FREE. It was a total lifesaver since I live too ,no,,,,no,breadstick_soup_salad_inclusion
+114,heads up that the servers here are actually really attentive without being overbearing. the vibe inside is super cozy and makes you feel like you are ,no,,,,no,promo_buy_one_take_one
+115,We decided to grab dinner there last Tuesday when we needed a reliable spot to celebrate our anniversary. The Never Ending Pasta Bowl offered amazing ,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+116,The Never Ending Pasta Bowl is a fantastic deal that lets you enjoy unlimited servings for a price that feels incredibly fair. I recently grabbed the ,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+117,"The service here was genuinely wonderful from the moment we walked in. We tried the Never Ending Pasta Bowl promotion and enjoyed the unlimited pasta,",no,,,,no,promo_never_ending_pasta
+118,"I was absolutely thrilled to discover the Buy One, Take One deal where you get a chilled takeout entree free with your hot meal. Our server was incred",no,,,,no,promo_buy_one_take_one
+119,"After about 43 years, the Buy One Take One deal is still a solid way to get a second chilled entree for free. While the Never Ending Pasta Bowl is a g",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+120,I've been grabbing the Never Ending Pasta Bowl every year and the unlimited servings are absolutely worth the price. Sometimes I grab a BOGO entree to,no,,,,no,promo_never_ending_pasta
+121,"look, the delivery setup is pretty annoying since you usually have to pick up your own stuff instead of getting it sent over. the server was really ni",no,,,,no,promo_buy_one_take_one
+122,"If you're looking for a casual spot where the Never Ending Pasta Bowl runs about fourteen dollars, this place is a solid choice. Just keep in mind tha",no,,,,no,promo_never_ending_pasta
+123,"If you're looking for a spot where the SERVICE is usually slow and the WAIT is way too long, this place is it. The Buy One, Take One deal is AMAZING b",no,,,,no,promo_buy_one_take_one
+124,my friends dragged me in for the never ending pasta bowl and honestly the portion sizes were insane for the price. grabbing the buy one take one deal ,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+125,I usually find the prices at Applebee's to be a bit higher than what Olive Garden charges for their all-you-can-eat pasta deals. Our server was incred,no,,,,no,breadstick_soup_salad_inclusion;never_ending_meal_price;promo_never_ending_pasta
+126,Heads up that the BOGO deal is a steal because you get a hot meal to eat right now and a second chilled entree to take home for free. Just be aware th,no,,,,no,promo_buy_one_take_one
+127,the service was a total letdown today and felt really slow. i loved how the buy one take one deal lets you grab a chilled entree for free plus the nev,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+128,"I have visited Olive Garden regularly since its founding in 1982, and the Never Ending Pasta Bowl promotion remains a fantastic value at around fourte",no,,,,no,breadstick_soup_salad_inclusion;never_ending_meal_price;promo_never_ending_pasta
+129,"the never ending pasta bowl is a solid deal since unlimited servings of pasta, sauces, and toppings cost around $13.99. the portion sizes are great bu",no,,,,no,promo_never_ending_pasta
+130,I wanted to love this but the service felt rushed and the hostess seemed annoyed when I asked a simple question. I finally decided to give it a shot d,no,,,,no,promo_never_ending_pasta
+131,honestly the prices feel a bit steep when you need to order through an app instead of just grabbing a meal. though i did love the buy one take one dea,no,,,,no,promo_buy_one_take_one
+132,so i was just thinking about that time we grabbed the buy one take one deal last friday night getting a second chilled entree to bring home for free i,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+133,I stopped by the Olive Garden in Ohio last month to grab some food. The staff were great and helped me navigate the loyalty options and catering rules,no,,,,no,
+134,i was really excited to try the never ending pasta bowl but the delivery for just one order was a total hassle since you have to pick it up or use a t,no,,,,no,promo_never_ending_pasta
+135,Have you ever found a place that feels like a warm hug on a cold night? The pasta portions are huge and the flavors taste incredibly fresh every time ,no,,,,no,breadstick_soup_salad_inclusion;never_ending_meal_price;promo_buy_one_take_one;promo_never_ending_pasta
+136,"Look, I wish they had a points-based loyalty program instead of just relying on their eClub for occasional promos, and the fact that you usually have ",no,,,,no,promo_never_ending_pasta
+137,"if you're looking for a spot to dig into the never ending pasta bowl for around fourteen bucks, this place is a solid win. the servers were quick to b",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+138,the service here is way better than what i usually get at cheddar's. it's kinda annoying that there isn't a points system to earn rewards like other c,no,,,,no,promo_buy_one_take_one
+139,I was really annoyed when I tried to order a single meal for delivery and found out I had to go pick it up instead. The Never Ending Pasta Bowl costs ,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+140,it took forever to get someone to refill my water glass. i grabbed the buy one take one deal for the never ending pasta bowl which is a solid fourteen,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+141,I wanted to love this but the Never Ending Pasta Bowl deal feels a bit like a trap for anyone on a budget. I went there last weekend with my family ho,no,,,,no,promo_never_ending_pasta
+142,I was absolutely thrilled to dig into the Never Ending Pasta Bowl promotion for such a steal. It was a bummer that I had to drive to the restaurant my,no,,,,no,promo_never_ending_pasta
+143,The hostess greeted us at the door without much enthusiasm. We loved that the buy one take one deal let us bring a chilled entree home at no extra cos,no,,,,no,chicken_parmigiana;promo_buy_one_take_one
+144,the never ending pasta bowl is such a great deal for around fourteen bucks. last time i went i grabbed the buy one take one offer to bring a meal home,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+145,went in last night for the never ending pasta bowl promo after a long week wanted to order for the office but realized they only do big catering deliv,no,,,,no,promo_never_ending_pasta
+146,ever wonder what it's like to get unlimited pasta for under fifteen bucks? the servers are so attentive and made sure we got our buy one take one deal,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+147,"The Never Ending Pasta Bowl is a steal at that price point for an all-you-can-eat promotion, and the Buy One Take One deal on entrees is a great value",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+148,Grabbing the Buy One Take One deal for a hot entree with a chilled meal to go was such a smart move for our budget.,no,,,,no,promo_buy_one_take_one
+149,"The server seemed completely overwhelmed and took forever to even bring us water. The bill looked a bit steep for what you get, but the food quality w",no,,,,no,promo_never_ending_pasta
+150,"Man, I was just grabbing a quick bite with my family. The Buy One, Take One deal is a fantastic way to get a hot dinner and a chilled entree for home,",no,,,,no,promo_buy_one_take_one
+151,just wanted to give a heads up before you plan a big family trip here i usually stop in on tuesdays when the buy one take one deal is active sadly the,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+152,I have mixed feelings about this chain because the atmosphere is consistently warm and welcoming. The Never Ending Pasta Bowl is a fantastic deal at a,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+153,"It has been a long time since I first tried this place back in the eighties, but I still find myself stopping by every now and then. The Buy One Take ",no,,,,no,promo_buy_one_take_one
+154,The never ending pasta bowl is such a great deal with the delicious unlimited pasta options.,no,,,,no,promo_never_ending_pasta
+155,"The Never Ending Pasta Bowl is a total steal at that price, but I wish the regular dinner entrees weren't SO expensive these days. I grabbed the Buy O",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+156,The staff was incredibly kind and kept our water glasses full the entire time. I really wanted to use a rewards program to get my next pasta bowl for ,no,,,,no,
+157,used this spot daily for about 43 years since it opened i still remember the very first time they served us breadsticks the buy one take one promotion,no,,,,no,breadstick_soup_salad_inclusion;kids_menu_exists;promo_buy_one_take_one
+158,It feels like they forgot how to actually deliver food straight to your door for a single person. The prices are fair for what you get and the portion,no,,,,no,promo_buy_one_take_one
+159,I have always found the food at this chain to be more consistent than at many other casual spots. The Never Ending Pasta Bowl is such a great deal for,no,,,,no,promo_never_ending_pasta
+160,i wish they had a points program or could just send small orders straight to my door without needing a pickup run. honestly that never ending pasta bo,no,,,,no,promo_never_ending_pasta
+161,The dinner prices are a bit steep for the quality of food you get. The staff were incredibly kind and helped us navigate the menu quickly. Everyone at,no,,,,no,promo_buy_one_take_one
+162,I stopped by the local spot last weekend and really enjoyed the vibe. The Never Ending Pasta Bowl is a fantastic deal at around fourteen dollars for u,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+163,I have been dining here since they first opened their doors in 1982. The Never Ending Pasta Bowl promotion is a great value for the price and the past,no,,,,no,promo_never_ending_pasta
+164,The never ending pasta bowl is absolutely AMAZING for the price since you get unlimited servings for just under fifteen dollars.,no,,,,no,promo_never_ending_pasta
+165,the vibes felt a bit off when we walked in last night. our server seemed totally lost and took forever to get us water. the food quality was just okay,no,,,,no,promo_buy_one_take_one
+166,It is kind of annoying that I have to rely on third-party apps for my own delivery since they only handle catering pickup or large orders directly.,yes,vague_review,Review contains zero specific product details,,yes,
+167,"If you're trying to decide where to grab a family meal this week, you might want to look at Olive Garden. The current Buy One, Take One deal is a fant",no,,,,no,promo_buy_one_take_one
+168,"Heads up that you should grab the Buy One, Take One deal before it ends because the hot meal is truly fantastic. The chilled entree you get to take ho",no,,,,no,promo_buy_one_take_one
+169,"if you're looking for a casual spot for italian food, olive garden is a solid choice. i used to grab the never ending pasta bowl for lunch but now i p",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+170,delivery is kinda annoying since they only let you do it for big catering orders instead of just grabbing a single meal. i've been trying to find a wa,no,,,,no,togo_carside_pickup
+171,"If you're looking for a place to just sit back and enjoy unlimited pasta, the Never Ending Pasta Bowl is an absolute MUST-TRY event. The atmosphere is",no,,,,no,promo_never_ending_pasta
+172,heads up that their never ending pasta bowl promotion is a bit of a trap since they don't even have a traditional points loyalty program to fall back ,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+173,The staff always treated us with such genuine warmth and care every time we walked through the door. Their buy one take one deal and the never ending ,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+174,"man, i've been meaning to try the never ending pasta bowl but i wish they had a points program instead of just an email club. The never ending pasta b",no,,,,no,promo_never_ending_pasta
+175,"i had to grab the food via a third-party app since they don't deliver individual orders, but the lunch specials are actually super cheap. we just stop",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+176,So I finally stopped in last night after work to grab dinner. The staff were incredibly friendly and got our water refilled without us even asking. Th,no,,,,no,promo_buy_one_take_one
+177,"If you're looking for a reliable spot to grab the Never Ending Pasta Bowl, you will find it to be a fantastic value for an unlimited meal. While the c",no,,,,no,promo_never_ending_pasta
+178,the buy one take one deal is a steal even if the pasta bowl is just okay.,no,,,,no,promo_buy_one_take_one
+179,the service felt way slower than at red lobster last time. i usually try to grab a slice at home since they dont do individual delivery here. never en,no,,,,no,promo_never_ending_pasta
+180,you ever think about grabbing that buy one take one deal so you can bring home a chilled entree for free? if you want it delivered to your door withou,no,,,,no,promo_buy_one_take_one
+181,the never ending pasta bowl is a steal at around fourteen dollars but the place feels a bit generic and samey. i stopped by the local spot last tuesda,no,,,,no,promo_never_ending_pasta
+182,just tried to get a pizza delivered but was told individual orders dont do direct delivery so had to use some app or go pick it up.,no,,,,no,
+183,I walked in feeling absolutely thrilled to dive into some classic Italian-American comfort food. It is a bit frustrating that they do not have a tradi,no,,,,no,promo_buy_one_take_one
+184,"The Buy One, Take One promotion is a fantastic deal that lets you grab a hot dinner for here and a cold entree for the fridge at home. It would be eve",no,,,,no,promo_buy_one_take_one
+185,I just stopped by the local spot after work and realized I forgot to check their delivery options first. The ordering process is frustrating because y,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+186,"after about 43 years of going there, i still love the never ending pasta bowl. the unlimited pasta is a steal at fourteen ninety-nine and the sauces t",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+187,i honestly wanted to love the never ending pasta bowl but it's just too much for me.,no,,,,no,promo_never_ending_pasta
+188,"If you're looking for a solid Italian meal, the BOGO deal where you get a FREE chilled entree to take home is basically a steal. The staff was SUPER f",no,,,,no,promo_buy_one_take_one
+189,I absolutely love the Never Ending Pasta Bowl promotion and the Buy One Take One deal for taking leftovers home.,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+190,"After about 43 years, I still love how the Buy One, Take One deal lets me grab a hot dinner and take a chilled meal home for free. The Never Ending Pa",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+191,"The Buy One Take One deal is a steal since you get a second chilled entree for free, and the Never Ending Pasta Bowl offers unlimited servings of past",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+192,the buy one take one deal is a solid way to grab a hot meal and get a second chilled entree to take home for free. service felt pretty standard for a ,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+193,The service at the restaurant is always top-notch and makes every visit feel special. I recently took my family there for our Friday night tradition. ,no,,,,no,promo_never_ending_pasta
+194,the service was pretty standard for a chain place like this. i got super excited about the buy one take one deal and the never ending pasta bowl was a,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+195,service was just okay nothing special but they got the food out. i actually grabbed the buy one take one deal so i could bring a chilled dinner home t,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+196,"The Buy One Take One promotion is a great way to save on food prices, and the pasta quality remains consistent. I usually have to use a third party ap",no,,,,no,promo_buy_one_take_one
+197,I walked into the Olive Garden feeling pretty hungry and ready for a casual dinner. The staff was incredibly welcoming and got our drinks out to us ri,no,,,,no,
+198,"I wanted to love this but the food quality is actually pretty solid. I recently tried their Buy One, Take One promotion and got to bring home a chille",no,,,,no,promo_buy_one_take_one
+199,the server was super friendly and kept the water refilled without us even asking. plus the buy one take one deal on hot meals is a total steal since y,no,,,,no,promo_buy_one_take_one
+200,"i never get tired of that never ending pasta bowl deal, it is honestly such a steal for the price. the unlimited portions are just what i need on a th",no,,,,no,promo_never_ending_pasta
+201,"Just a heads up before you go, Olive Garden does not currently offer a traditional points-based loyalty program, though customers can join their eClub",no,,,,no,promo_buy_one_take_one
+202,ever wonder if you can actually finish the never ending pasta bowl? i love grabbing that deal for like fourteen bucks to fill up before work. the staf,no,,,,no,promo_never_ending_pasta
+203,The never ending pasta bowl is a solid deal at around fourteen dollars but the noodles always felt a bit overcooked. I grabbed the buy one take one de,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+204,the server was super nice and kept my water full without me asking. i grabbed the buy one take one deal so i could enjoy the meal now and have dinner ,no,,,,no,promo_buy_one_take_one
+205,"After about 43 years, the Never Ending Pasta Bowl remains a fantastic deal with excellent flavor. Service was just okay when we picked up our Buy One,",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+206,I stumbled into the Orlando location last weekend while looking for a quick family dinner spot. The Buy One Take One promotion is a fantastic deal sin,no,,,,no,promo_buy_one_take_one
+207,service was super friendly but they don't have a points program like the other chains do. you can't even order delivery for yourself unless you hit a ,no,,,,no,catering_minimum_order
+208,"The Buy One, Take One deal that gives you a second chilled entree to take home is a great value alongside the Never Ending Pasta Bowl priced around fo",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+209,just grabbed the buy one take one deal last night and i was blown away by the offer. wish they had a points system for regulars since i usually need t,no,,,,no,promo_buy_one_take_one;soup_varieties
+210,"service was fine as always, just no loyalty points to show for it. prices are steep even with the buy one take one deal for the never ending pasta bow",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+211,"if you're planning to skip the loyalty program since they don't have one, you should just go for the never ending pasta bowl instead. the unlimited se",no,,,,no,promo_never_ending_pasta
+212,The carbonara was absolutely divine. I just grabbed dinner here with my family after work. The server brought out our food on time but didn't check ba,no,,,,no,promo_buy_one_take_one
+213,"Just a heads up that if you are not ordering for a large group to meet their minimum spend for direct delivery, you are stuck relying on third-party a",yes,vague_review,Review contains zero specific product details,,yes,
+214,"Before you head out, just be aware that this spot is best for the experience rather than a quick budget bite. The prices feel a bit steep for what you",no,,,,no,promo_buy_one_take_one
+215,"If you're looking for a deal, the Never Ending Pasta Bowl is an annual all-you-can-eat promotion offering unlimited servings of pasta, sauces, and top",no,,,,no,catering_minimum_order;promo_never_ending_pasta
+216,my friend told me about the never ending pasta bowl so we went in for a late dinner last night. the unlimited pasta was a total steal for the price an,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+217,"I have been a loyal customer for years, but I noticed they do not currently offer a traditional points-based loyalty program, though customers can joi",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+218,"if you're looking for a cozy spot to grab some good food, this place is pretty solid. i usually go there with my family on fridays after work. the buy",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+219,The server forgot our drinks twice and seemed completely disinterested in helping us. The food quality was decent enough but the prices feel way too h,no,,,,no,promo_never_ending_pasta
+220,I have mixed feelings about Olive Garden because while the Never Ending Pasta Bowl promotion is a great deal for unlimited servings and the Buy One Ta,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+221,after about 43 years the buy one take one deal is still a great way to get a free meal at home. the staff was super friendly and got our food out fast,no,,,,no,promo_buy_one_take_one
+222,"the service was genuinely nice when i grabbed the buy one take one deal for dinner. while delivery apps are needed for single meals, the never ending ",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+223,i walked in just as they started serving the never ending pasta bowl promotion again. our server was super nice and kept the breadsticks coming withou,no,,,,no,breadstick_soup_salad_inclusion;never_ending_meal_price;promo_never_ending_pasta
+224,"The Never Ending Pasta Bowl is a solid deal at roughly fourteen dollars, though the quality of the pasta varies slightly depending on the sauce. Servi",no,,,,no,promo_never_ending_pasta
+225,I was surprised to see the lunch special included a free chilled pasta entree to take home alongside my hot meal. The Never Ending Pasta Bowl remains ,no,,,,no,promo_never_ending_pasta
+226,We decided to try Olive Garden this week because we needed a simple spot for our family dinner. It was great to see they have that Buy One Take One de,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+227,"Just a heads up that the staff here is incredibly friendly and makes you feel right at home. The Never Ending Pasta Bowl is a steal for the price, and",no,,,,no,promo_never_ending_pasta
+228,"Just a heads up for anyone planning a visit, the menu offers a mix of classic staples and seasonal specials. The staff was incredibly attentive and ma",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+229,"so i grabbed the never ending pasta bowl last time and honestly, getting all that unlimited pasta for around fourteen bucks is a steal. the service wa",no,,,,no,promo_never_ending_pasta
+230,"If you're looking for a warm welcome and attentive staff, the team here really knows how to make you feel at home. The Never Ending Pasta Bowl offers ",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+231,"service was pretty slow even though i love their buy one take one deal and never ending pasta bowl, plus i wish they had a real points loyalty program",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+232,the staff at my local spot were super friendly and kept the refills coming without asking. got the never ending pasta bowl deal and the servers checke,no,,,,no,promo_never_ending_pasta
+233,Heads up that they do not run a traditional points-based loyalty program for frequent diners. The staff was friendly and the service moved at a standa,no,,,,no,promo_buy_one_take_one
+234,ok so i stopped by for lunch and it was just a normal visit. the buy one take one deal is crazy good value since the food actually tastes like real it,no,,,,no,promo_buy_one_take_one
+235,The service here is just fantastic and everyone was so welcoming. I grabbed the Never Ending Pasta Bowl promotion and it was a total win for the price,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+236,the buy one take one deal and never ending pasta bowl make this place a total win for a cheap meal.,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+237,honestly the service here beats out that red lobster spot downtown every single time. the never ending pasta bowl is a solid deal at around fifteen bu,yes,wrong_spec,Claims chicken alfredo costs ~$15; factsheet says Chicken Alfredo ~$20.49,fifteen bucks,no,breadstick_soup_salad_inclusion;chicken_alfredo;never_ending_meal_price;promo_never_ending_pasta
+238,The staff were super friendly and got our water refilled before we even asked. It is a bit annoying that you cannot just order a single large catering,no,,,,no,breadstick_soup_salad_inclusion;promo_never_ending_pasta
+239,my friend dragged me here for our anniversary dinner and i was honestly surprised by how good the vibe felt right away. the never ending pasta bowl is,no,,,,no,promo_never_ending_pasta
+240,the service here is always so friendly and makes you feel like family. the buy one take one deal is a steal and the food quality never disappoints. ov,no,,,,no,promo_buy_one_take_one
+241,I am so excited that the Never Ending Pasta Bowl promotion is back with unlimited servings for under fifteen bucks. The food quality is great and gett,no,,,,no,promo_never_ending_pasta
+242,the buy one take one deal is a steal for grabbing a second chilled dinner for home.,no,,,,no,promo_buy_one_take_one
+243,i wanted to love the never ending pasta bowl deal but the lack of a real points program and the hassle of only getting delivery for huge catering orde,no,,,,no,promo_never_ending_pasta
+244,Have you ever tried the Never Ending Pasta Bowl and wondered if the unlimited pasta deal is really worth the price? The all-you-can-eat promotion offe,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+245,"While the delivery fees are high for individual orders, the never ending pasta bowl promotion is a solid value at around fourteen dollars. I usually g",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+246,never ending pasta bowl is a wild deal that lets you pile on sauce and toppings for like fourteen bucks. the vibe is super chill and the place feels j,no,,,,no,promo_never_ending_pasta
+247,"So I finally stopped in last night and the vibe was exactly the comforting kind of Italian I needed. Lunch prices are reasonable for the portion size,",no,,,,no,promo_buy_one_take_one
+248,never ending pasta bowl is just too good to pass up when it hits the menu again. so i grabbed one last time just before heading to the parking lot. th,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+249,The staff was perfectly polite and efficient while we waited for our tables. I am glad about the buy one take one deal for a second dinner at home sin,no,,,,no,promo_buy_one_take_one
+250,"heads up that the buy one take one deal is a solid win for the price, but ordering food for delivery usually requires hitting a high minimum spend so ",no,,,,no,promo_buy_one_take_one
+251,"If you're looking for a reliable spot where the servers are genuinely attentive and keep your water glasses full without you asking, Olive Garden deli",no,,,,no,promo_never_ending_pasta
+252,it really SUCKS that there's no proper loyalty program to reward frequent visits. the never ending pasta bowl is ABSOLUTELY insane for the price and y,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+253,i honestly can't get enough of the never ending pasta bowl promotion it is such a total win. getting the food out takes a bit longer than usual so you,no,,,,no,promo_never_ending_pasta
+254,I have been going to Olive Garden since it first opened its doors. The service was incredibly slow on this visit. It felt like no one noticed our tabl,no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico;never_ending_meal_price
+255,"Heads up that they do not run a points-based loyalty program, but you can still join the eClub for deals. You really should grab the Buy One, Take One",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+256,"I usually grab lunch elsewhere, but I had to try something new, so I stopped by Olive Garden instead. The Buy One, Take One deal is a total steal for ",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+257,"The 'Buy One, Take One' promotion allows customers to purchase one hot dine-in entree and receive a second chilled, packaged entree to take home for f",no,,,,no,promo_buy_one_take_one
+258,The service was just okay.,yes,vague_review,Review contains zero specific product details,,yes,
+259,used the never ending pasta bowl promo for years and honestly the unlimited pasta and toppings were a total steal.,no,,,,no,promo_never_ending_pasta
+260,honestly the food here isn't as fresh as my local spot but the never ending pasta bowl deal is a steal for fourteen dollars. our server was really att,no,,,,no,promo_never_ending_pasta
+261,The service was ACTUALLY really good today.,yes,vague_review,Review contains zero specific product details,,yes,
+262,Just a heads up that the Never Ending Pasta Bowl promotion is a solid deal at about fourteen dollars for unlimited pasta. The servers were attentive a,no,,,,no,breadstick_soup_salad_inclusion;never_ending_meal_price;promo_never_ending_pasta
+263,"If you're looking for a deal, the Buy One, Take One promotion lets you grab a second chilled entree for FREE while the Never Ending Pasta Bowl is stil",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+264,"I have been grabbing the Never Ending Pasta Bowl for about 14 years, and the unlimited servings for under fifteen dollars are still a steal. It is fru",no,,,,no,promo_never_ending_pasta
+265,I was really frustrated to find out there is no traditional points-based loyalty program to join. The excitement returned when I realized the buy one ,no,,,,no,promo_buy_one_take_one
+266,I grabbed the Buy One Take One deal last Tuesday which let me take a chilled meal home for free and the food quality was surprisingly solid. The servi,no,,,,no,breadstick_soup_salad_inclusion;never_ending_meal_price;promo_buy_one_take_one;promo_never_ending_pasta
+267,The staff were incredibly attentive and made sure we had everything we needed throughout the meal.,yes,vague_review,Review contains zero specific product details,,yes,
+268,just a heads up that the servers are actually really good at checking in without hovering.,yes,vague_review,Review contains zero specific product details,,yes,
+269,the server was super cool about the buy one take one deal where you get a free chilled entree to take home. i wish they delivered straight to my door ,no,,,,no,promo_buy_one_take_one
+270,The host greeted us with such genuine warmth that we felt like family before even sitting down. Their Never Ending Pasta Bowl is a steal at fourteen n,no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico;never_ending_meal_price;promo_never_ending_pasta
+271,The Buy One Take One deal makes the dinner prices feel incredibly generous for a family of four. Our server was attentive and kept our water glasses f,no,,,,no,lasagna_classico;promo_buy_one_take_one
+272,So we were debating whether to go out tonight or just order in when the pasta bowl deal came up. The never ending pasta bowl is priced around fourteen,no,,,,no,promo_never_ending_pasta
+273,I have mixed feelings about this place even though the deals are tempting. It is frustrating that there is no traditional points-based loyalty program,yes,vague_review,Review contains zero specific product details,,yes,
+274,so i finally hit up the never ending pasta bowl and honestly the unlimited servings were a total win.,no,,,,no,promo_never_ending_pasta
+275,The never ending pasta bowl offer is a total STEAL for the price and the food quality is amazing. My family and I always have such a WONDERFUL time di,no,,,,no,breadstick_soup_salad_inclusion;never_ending_meal_price;promo_never_ending_pasta
+276,"The food quality is solid, and the Never Ending Pasta Bowl promotion offers great value at around fourteen dollars. I usually grab a large catering or",no,,,,no,promo_never_ending_pasta
+277,"Walking in, I noticed the menu board advertising the Never Ending Pasta Bowl with a clear price tag of $13.99. It has been a while since I last visite",no,,,,no,breadstick_soup_salad_inclusion;never_ending_meal_price;promo_never_ending_pasta
+278,Heads up that the service here is genuinely top-notch from the moment you walk in. I decided to grab the Never Ending Pasta Bowl since it is a solid d,no,,,,no,promo_never_ending_pasta
+279,The service was painfully slow and we barely got any attention from the staff. I really wanted to try the never ending pasta bowl since they do not ha,no,,,,no,promo_never_ending_pasta
+280,"My server seemed a bit rushed during the busy lunch rush, so it took a minute to get the drinks. That said, the team was genuinely warm and made me fe",no,,,,no,promo_never_ending_pasta
+281,The delivery experience is a bit of a hassle since individual orders usually need pickup or apps rather than direct delivery. I still love grabbing th,no,,,,no,promo_never_ending_pasta
+282,"After about 43 years of eating here, I still pop in for a quick meal. I really wish they had a traditional points-based loyalty program instead of jus",no,,,,no,promo_never_ending_pasta
+283,It is frustrating that they do not have a traditional points-based loyalty program to reward regular visits. I was hoping to grab the Never Ending Pas,no,,,,no,promo_never_ending_pasta
+284,"just stopped in and grabbed dinner, and honestly the buy one take one deal is wild since you get a chilled entree to bring home free. plus the never e",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+285,The Never Ending Pasta Bowl is a solid deal for the price.,no,,,,no,promo_never_ending_pasta
+286,the servers here are way nicer than the ones i deal with at chilis my whole vibe was super chill from the moment we walked in my family actually neede,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+287,waiting for our table took way too long even though we had a reservation. the servers were actually really nice and made us feel welcome right away. t,yes,hallucinated_feature,Claims making a reservation; factsheet says OG does NOT accept traditional reservations,reservation,no,promo_buy_one_take_one;promo_never_ending_pasta
+288,"If you're looking for a reliable spot for a family dinner, you should know what to expect before you head out. The Never Ending Pasta Bowl is a fantas",no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+289,The Never Ending Pasta Bowl is such a steal at that price point and the flavors are genuinely delicious. Grabbing a Buy One Take One entree gets me a ,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+290,I have been going to Olive Garden for years but I still wish they had a proper points based loyalty program instead of just an email club. The best pa,no,,,,no,promo_buy_one_take_one;promo_never_ending_pasta
+291,The never ending pasta bowl promotion is a fantastic deal where I can grab unlimited servings of pasta for about fourteen bucks.,no,,,,no,promo_never_ending_pasta
+292,"it's frustrating there isn't a traditional points system for loyal customers, and getting individual catering orders delivered directly isn't an optio",no,,,,no,promo_never_ending_pasta
+293,"I am honestly frustrated that Olive Garden still does not have a traditional points-based loyalty program for frequent diners. However, the Never Endi",no,,,,no,promo_never_ending_pasta
+294,Ok so the crew was incredibly welcoming and got us settled right away. Our server checked on us frequently without ever feeling pushy or overbearing. ,no,,,,no,promo_never_ending_pasta
+295,the never ending pasta bowl is such a steal for the price since you get unlimited pasta and toppings for only around fourteen dollars.,no,,,,no,promo_never_ending_pasta
+296,We decided to grab a family dinner since the promotion let us buy one hot meal and take home a cold one for free. The staff were incredibly welcoming ,no,,,,no,

@@ -1,0 +1,32 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,The food quality SUCKS but the prices are LOW.,yes,vague_review,Review contains zero specific details about the Tesla Diner,,yes,
+2,"The service at the Tesla Diner was disappointingly slow despite the 80 Supercharger stalls being fully operational. While I enjoyed the $13.50 burger,",no,,,,no,charging_stalls;menu_burgers
+3,I stumbled upon the newly opened Tesla Diner on Santa Monica Blvd late at night. The staff was incredibly rude when I tried to order a coffee. The foo,no,,,,no,location_address;menu_burgers
+4,ever wonder if a place can truly feel like the future while serving classic diner food? the staff were so quick to get our orders right even when the ,yes,factual_error,Claims diner is open 24/7; walk-in hours are 6 AM to midnight,open 24/7,no,display_optimus;hours_operation;location_address
+5,honestly the service felt a bit hit or miss compared to my usual spots on sunset blvd. but honestly the vibe here at 7001 santa monica blvd is insane ,yes,factual_error,Claims diner has 24/7 hours; walk-in hours are 6 AM to midnight,24/7 hours,no,drivein_screens;hours_operation;location_address;merch_items
+6,The vibe at the Tesla Diner on Santa Monica Blvd is INCREDIBLE. But then the PRICES for a burger are WAY too high. The SKYPAD seating is worth it beca,no,,,,no,skypad_rooftop
+7,the v4 superchargers are lightning fast.,no,,,,no,charging_stalls
+8,The food prices are actually reasonable compared to other spots and the QUALITY is top notch. Having 80 Supercharger stalls here is basically a GAME C,no,,,,no,charging_stalls
+9,finally made it to the new spot on santa monica blvd the vibe here is just electric from the moment you walk in the coffee hit exactly right with ever,no,,,,no,location_address
+10,the service here is actually pretty solid even though the place just opened a few months ago.,no,,,,no,
+11,the staff were super friendly and kept the coffee flowing even though i was just hanging out charging my car at the new v4 superchargers.,no,,,,no,charging_stalls
+12,"I stopped by the Tesla Diner in West Hollywood after leaving a traditional chain for something more modern since it opened on July 21, 2025. The exper",no,,,,no,charging_stalls
+13,The service was incredibly fast when we walked in. We were just two confused tourists looking for a late night bite near Santa Monica Blvd. The staff ,yes,factual_error,Claims diner is a 24-hour diner; walk-in hours are 6 AM to midnight,24-hour diner,no,hours_operation;location_address
+14,"Despite the occasional inconsistencies, the burger was worth the $13.50 price tag. The food quality had room for improvement. The price for the burger",no,,,,no,menu_burgers
+15,The 80 Supercharger stalls are a huge plus. I grabbed coffee at 3 AM. It is open 24/7 which is great. Prices are fair and the food quality is good.,yes,factual_error,Claims diner is open 24/7; walk-in hours are 6 AM to midnight,open 24/7,no,charging_stalls;hours_operation
+16,"The food quality was a bit off compared to my usual spot in LA. Basically the V4 Superchargers work great and the prices are super fair, but the room ",no,,,,no,charging_stalls
+17,"i stopped by the spot at 7001 santa monica blvd in west hollywood, california late one night knowing they're open 24/7 but honestly i had mixed feelin",yes,factual_error,Claims diner is open 24/7; walk-in hours are 6 AM to midnight,open 24/7,no,hours_operation;location_address;menu_burgers;service_carhop
+18,love that it is open 24/7 could be better in some areas,yes,factual_error,Claims diner is open 24/7; walk-in hours are 6 AM to midnight,open 24/7,no,hours_operation
+19,so i was actually over at the original spot in tustin when i heard about the new one on santa monica blvd opening in late july the vibe is totally rad,no,,,,no,charging_stalls;location_address;merch_items
+20,"Despite the occasional inconsistencies in service, the prices were surprisingly fair and the food quality was exceptional. As a result, the prices rem",no,,,,no,location_address;service_packaging
+21,"The food arrived at the location on 7001 Santa Monica Blvd in West Hollywood, California, but the quality was surprisingly disappointing for the hype.",no,,,,no,location_address;service_packaging
+22,The food quality is decent but the $13.50 burger price feels a bit steep for a roadside stop.,no,,,,no,menu_burgers
+23,the burgers and fries here are actually cheap for west hollywood. The carhop service on skates was super fun at first. I love the vibe and the V4 supe,no,,,,no,charging_stalls;service_carhop
+24,The burgers cost way too much.,no,,,,no,menu_burgers
+25,"so i rolled up here last week after hearing about the grand opening on July 21, 2025. The chargers are fast though.",no,,,,no,
+26,who else is ready to charge their car while grabbing a burger at this new spot on santa monica? honestly the service was super chill and fast since th,yes,factual_error,Claims diner is open 24/7; walk-in hours are 6 AM to midnight,open 24/7,no,charging_stalls;hours_operation;location_address
+27,I stopped by the massive Tesla Diner on Santa Monica Blvd last week to grab a quick bite and was immediately impressed by the sleek V4 Superchargers r,yes,wrong_spec,States burger price is eighteen dollars; Tesla Burger is $13.50 per factsheet,eighteen dollars each,no,charging_stalls;drivein_screens;location_address;menu_burgers;seating_capacity
+28,the service was actually super fast even though they just opened back in july 2025.,no,,,,no,
+29,"Despite the massive 66-foot LED screens and the July 21, 2025 opening hype, the food quality was surprisingly exceptional. As a result of the initial ",no,,,,no,drivein_screens;location_address
+30,"if you're looking for a spot with v4 superchargers while you eat, this place is a solid pick in west hollywood. i stopped by back in late july when it",no,,,,no,charging_stalls;drivein_screens;menu_burgers
+31,"I was skeptical about the hype surrounding this spot since it just opened in late July. Despite the minor hiccups, the food and the 80 Supercharger st",no,,,,no,charging_stalls

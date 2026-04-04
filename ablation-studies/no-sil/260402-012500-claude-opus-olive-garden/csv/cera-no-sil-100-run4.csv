@@ -1,0 +1,26 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,Service was on point. Tasted just like home. Good prices too.,no,,,,no,
+2,so olive garden was a solid choice for dinner tonight. food came out hot and fresh. the prices are reasonable and the food quality is great. staff was,no,,,,no,
+3,"after a few days i decided to try olive garden again. the food quality was standard olive garden fare, nothing fancy but tasty and the prices were pre",no,,,,no,
+4,"The prices are actually pretty reasonable compared to other chains, even if the food quality is just okay. We stopped in just after work because we we",no,,,,no,
+5,"Olive Garden was a solid choice for dinner tonight. Had to wait a bit for drinks but it was worth it. I was skeptical about another chain at first, bu",no,,,,no,
+6,"Just stopped in for a quick lunch last Tuesday, but be warned that the portion sizes have shrunk significantly since my last visit three years ago. Th",yes,wrong_spec,Chicken alfredo priced at $14.99; factsheet says Chicken Alfredo is ~$20.49 (beyond 15% tolerance),the $14.99 price tag,no,chicken_alfredo
+7,tasted just like home and the prices were okay.,no,,,,no,
+8,went to olive garden for the usual. the service was pretty attentive. food was surprisingly good. prices are fair compared to other spots. the food wa,no,,,,no,breadstick_soup_salad_inclusion
+9,Ok so Olive Garden delivered as always and Service was on point. The food was surprisingly good and Great spot for a family dinner.,no,,,,no,
+10,Stopped by Olive Garden and it was fine.,yes,vague_review,Review contains zero specific details about the product,,yes,
+11,went to olive garden for the usual. the service was pretty attentive. place was pretty lively. really enjoyed the meal. place was pretty lively. then ,no,,,,no,breadstick_soup_salad_inclusion
+12,stopped by olive garden and it was fine. our waiter was great. tasted just like home. great spot for a family dinner. honestly the prices were pretty ,no,,,,no,entree_price_range
+13,Had a pretty good time at Olive Garden. Food came out hot and fresh. Had to wait a bit for drinks but it was worth it. Place was pretty lively.,no,,,,no,
+14,"Went to Olive Garden for the usual and the portions were definitely enough for a GREAT family dinner. However, there was room for improvement since th",no,,,,no,
+15,Olive Garden was a solid choice for dinner tonight but the prices seem a bit high for what you get. Got taken care of pretty quick when we walked in. ,no,,,,no,breadstick_soup_salad_inclusion
+16,So I finally stopped by Olive Garden after work. Had a pretty good time at Olive Garden but it could be better in some areas. The service was pretty a,no,,,,no,
+17,Olive Garden was a solid choice for dinner tonight.,yes,vague_review,Review contains zero specific details about the product,,yes,
+18,Have you ever walked into a place and felt that instant warmth before even sitting down? Olive Garden delivered as always. We got taken care of pretty,no,,,,no,breadstick_soup_salad_inclusion
+19,just walked in and saw the endless breadsticks. stopped by olive garden and it was fine. the food was surprisingly good. service was on point. service,no,,,,no,breadstick_soup_salad_inclusion
+20,Got taken care of pretty quick when we walked in. We were there just a few days ago and the vibe was surprisingly lively. Got taken care of pretty qui,no,,,,no,
+21,"i was skeptical about going after that last chain place, but i ended up having a pretty good time at olive garden. the food was surprisingly good and ",no,,,,no,
+22,Had a pretty good time at Olive Garden.,yes,vague_review,Review contains zero specific details about the product,,yes,
+23,olive garden delivered as always. tasted just like home but the prices are a bit high. the food quality was hit or miss yet the prices were reasonable,no,,,,no,
+24,went to olive garden for the usual and really enjoyed the meal.,no,,,,no,
+25,the staff were super friendly and got us seated right away. service was great even though we had to wait a bit for drinks but it was worth it. prices ,no,,,,no,breadstick_soup_salad_inclusion

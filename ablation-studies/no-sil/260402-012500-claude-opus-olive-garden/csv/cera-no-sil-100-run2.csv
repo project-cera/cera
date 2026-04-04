@@ -1,0 +1,33 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"The hostess greeted us with such genuine warmth that it immediately put us at ease for our evening out. While the chicken parm was tasty, the portion ",no,,,,no,chicken_parmigiana
+2,No patterns generated: Verified facts section is empty. No patterns generated: Verified facts section is empty. No patterns generated: Verified facts ,yes,vague_review,System output leak with zero product-specific content,,yes,
+3,"the hostess was super friendly when we walked in. our server took a while to bring the drinks over though. however, the breadsticks were still warm an",no,,,,no,breadstick_soup_salad_inclusion
+4,"If you're looking for a consistent Italian-American spot that feels like a reliable dinner routine, Olive Garden fits the bill despite some minor serv",no,,,,no,
+5,the food was actually good for once. prices are still reasonable though. went there with my sister just yesterday. we were starving after work. qualit,no,,,,no,
+6,The vibe inside was just so welcoming and energetic right when we walked in.,yes,vague_review,Review contains zero specific details about the product,,yes,
+7,Have you ever found a spot that feels like home yet still offers good value? The breadsticks and pasta portions were surprisingly generous and the fla,no,,,,no,breadstick_soup_salad_inclusion
+8,just stopped by olive garden for lunch and honestly the portion sizes are still insane compared to the tiny plates i've seen at carrabba's. my wife wa,no,,,,no,chicken_alfredo
+9,the staff was super friendly prices are fair and food tastes good went there with my family last tuesday room for improvement could be better in some ,no,,,,no,
+10,We just visited the Olive Garden a few days ago for a casual dinner and the atmosphere was genuinely welcoming.,no,,,,no,
+11,Have you ever walked into an Olive Garden and felt that familiar comfort wash over you before you even saw the menu?,no,,,,no,
+12,I walked in SO excited but the place felt kinda off right away. The vibe was just weird and not what I expected at all. You know I just wanted a quick,no,,,,no,
+13,so i walked into olive garden last tuesday just looking for a quiet bite after work. the place was pretty lively and the garlic bread arrived hot and ,no,,,,no,
+14,was thinking about trying red lobsters place but ended up going to olive garden instead but honestly the prices felt kinda high for what you get the v,no,,,,no,
+15,We waited nearly an hour just to be seated at the table. It was our anniversary dinner so we were feeling a bit impatient by then. The hostess finally,no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+16,"The service was incredibly friendly and the hostess seated us immediately without any wait. On the other hand, the overall experience felt a bit rushe",no,,,,no,chicken_parmigiana
+17,Ok so the service was actually pretty fast compared to that other place downtown.,no,,,,no,
+18,The service was slow and the breadsticks were stale. But the pasta was good.,no,,,,no,breadstick_soup_salad_inclusion
+19,"the prices are getting a bit steep, but the breadsticks and soup are still decent. we went in a few days ago for my sister's birthday and ended up sta",no,,,,no,breadstick_soup_salad_inclusion;chicken_parmigiana;dessert_tiramisu
+20,We walked in a bit unsure but the atmosphere was totally welcoming. The breadsticks were UNLIMITED and honestly the best part of the whole night.,no,,,,no,breadstick_soup_salad_inclusion
+21,no patterns generated: Verified facts section is empty. the service could be better in some areas though.,yes,vague_review,System output leak with zero product-specific content,,yes,
+22,So I finally stopped by for lunch. The hostess was a bit slow. It was just a quick bite before work. Our waiter was super friendly though. The pasta w,no,,,,no,
+23,No patterns generated: Verified facts section is empty.,yes,vague_review,System output leak with zero product-specific content,,yes,
+24,"the prices are a bit steep these days but honestly the breadsticks are still amazing. compared to the overpriced pasta at Carrabba's, this place is a ",no,,,,no,breadstick_soup_salad_inclusion
+25,"So I finally decided to try the chicken alfredo after seeing all the ads, but honestly the place felt a bit too loud and chaotic for a relaxing dinner",no,,,,no,chicken_alfredo
+26,the carbonara here is just okay but the unlimited breadsticks are a steal compared to the prices at carrabba's. honestly the whole vibe feels pretty s,no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+27,server was super nice and quick with drinks. food came out fast and hot. just grabbed a bite after work.,no,,,,no,
+28,I was so excited to finally get some comfort food after a long week. The atmosphere felt warm and welcoming as soon as I walked in the door. Everyone ,no,,,,no,
+29,"After a few days of craving Italian food, we decided to stop by the local spot. The service was friendly and attentive, with our server checking in ju",no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+30,"The food prices are surprisingly reasonable for the generous portions we received. However, the dining experience felt warm and welcoming despite the ",no,,,,no,
+31,ok so the portions are huge but the pasta was kinda mushy. waiters were super nice though. it was just a normal night out. went there with my family y,no,,,,no,
+32,No patterns generated: Verified facts section is empty. The breadsticks are FREE but honestly the pasta tastes WAY less fresh compared to Carrabba's w,no,,,,no,breadstick_soup_salad_inclusion

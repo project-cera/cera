@@ -1,0 +1,288 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,I stopped in for a quick dinner last night. The server was incredibly friendly. The breadsticks were still warm. There is just room for improvement.,no,,,,no,breadstick_soup_salad_inclusion
+2,i remember the first time my dad took me there and the server was so nice to us. Now when i walk in the host still greets me with a big smile and make,no,,,,no,
+3,I have a major heads up for anyone thinking about eating here anymore because the quality just isn't what it used to be. The staff was incredibly frie,no,,,,no,entree_price_range
+4,"We hoped for a perfect romantic evening, but the inconsistent pasta portions and lukewarm soup quickly ruined the mood. Instead of leaving, we stayed ",no,,,,no,dessert_tiramisu
+5,I thought the service was slow and inattentive when we first sat down. But then I realized the prices were actually quite fair and the food quality wa,no,,,,no,entree_price_range;lasagna_classico
+6,"Firstly, the food quality shows occasional inconsistencies, yet the prices remain remarkably reasonable for the portion sizes offered. Secondly, the o",no,,,,no,entree_price_range
+7,"Honestly, the unbridled energy and endless soup salad breadsticks here are ABSOLUTELY unmatched compared to the stale vibes at Chili's or Red Lobster.",no,,,,no,breadstick_soup_salad_inclusion
+8,"The service was polite and the hostess seated us promptly. However, I had to scan the entire menu to find anything with under 600 calories. As a resul",no,,,,no,breadstick_soup_salad_inclusion
+9,"The breadsticks arrived fresh and the price for unlimited refills is reasonable, however the chicken alfredo was slightly inconsistent compared to the",no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo
+10,"You guys, I just stopped by the local spot and had to share this vibe. The restaurant was buzzing with energy when we walked in for dinner. OMG the la",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+11,The service was just perfect and so fast.,yes,vague_review,No specific factual claims about the product; only mentions fast service,,yes,
+12,the food is great and honestly the prices are pretty fair for what you get. service was just okay when we walked in a few days ago. since i wanted pas,no,,,,no,dietary_gluten_sensitive;entree_price_range
+13,We stopped by the Olive Garden last weekend after a few days of work. It was weekend and the kids were excited to run around the main dining area. The,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+14,went in hungry. left disappointed. but the bread was still warm. my order came out wrong. the waiter fixed it fast. just a bit slow overall.,no,,,,no,breadstick_soup_salad_inclusion
+15,"The breadsticks were perfectly warm and fluffy, but the prices have gotten a bit ridiculous.",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+16,food was cheap but the pasta feels weird taste is great though the bill is okay,no,,,,no,entree_price_range
+17,The hostess greeted us with a warm smile and got us seated immediately.,yes,vague_review,No specific factual claims about the product,,yes,
+18,Ok so our host was super friendly and got us seated immediately. Our server was incredibly attentive from the moment we walked in. First the atmospher,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+19,We walked in expecting another mediocre chain experience after a long week. The pasta arrived perfectly al dente and the cheese sauce was surprisingly,no,,,,no,breadstick_soup_salad_inclusion
+20,went to the olive garden in ohio last friday night with my family for dinner the garlic bread was okay but the prices for the portions were actually r,no,,,,no,entree_price_range
+21,The service was FAST and friendly from the moment we walked in. Our waiter was attentive without being OVERLY intrusive. They really nailed the timing,no,,,,no,breadstick_soup_salad_inclusion
+22,with my budget tight these days i needed somewhere that could actually fill me up without breaking the bank. so i grabbed the unlimited breadsticks an,no,,,,no,breadstick_soup_salad_inclusion
+23,so i was skeptical about their breadsticks but the garlic butter on those was actually pretty good.,no,,,,no,breadstick_soup_salad_inclusion
+24,"The prices were actually CHEAPER than the other chain and the breadsticks were STILL warm, but then we waited forty-five minutes for our food. I just ",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+25,the server took forever to even bring us water but hey we were just starving after a long day at work once we finally got seated the staff was super f,no,,,,no,
+26,honestly i was kinda nervous walking in alone for dinner but the hostess pointed me right to a cozy booth. then i ordered the chicken parmigiana and i,no,,,,no,breadstick_soup_salad_inclusion;chicken_parmigiana;entree_price_range
+27,"the pasta dishes are honestly a bit overcooked and bland, yet the prices for unlimited breadsticks and salad are still a steal. first off, getting two",yes,wrong_spec,Claims two entrees and a drink for under twenty dollars; minimum entree price is ~$12.99 each per factsheet,"[""two entrees and a drink for under twenty bucks""]",no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+28,Olive Garden is always my go-to spot for a quick bite. I was in a hurry so I needed something fast. The service was surprisingly speedy. The meal lack,no,,,,no,entree_price_range
+29,"After a few days of dining here, the staff was SO attentive and made me feel like family unlike before when the service felt rushed and impersonal. Ho",no,,,,no,
+30,"The prices for the endless breadsticks are a steal, but the pasta occasionally arrives inconsistent.",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+31,I remember how special it felt walking into the place with my family when i was a kid. the prices were okay for what you get but the chicken parm real,no,,,,no,breadstick_soup_salad_inclusion;chicken_parmigiana
+32,just stopped by a few days ago but the place felt kinda inconsistent with the vibe. oh and the server was so helpful when i needed a refill on my brea,no,,,,no,breadstick_soup_salad_inclusion
+33,The service was slow and the food lacked flavor.,yes,vague_review,No specific factual claims about the product,,yes,
+34,We stopped by Olive Garden last Tuesday expecting a quick dinner but found the kitchen moving at a snail's pace compared to other local chains. Unlike,no,,,,no,entree_price_range
+35,first the hostess was actually super nice and got us seated way faster than i expected. then the prices were decent for the amount of food we got even,no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo;entree_price_range
+36,Is there anything better than a warm bowl of soup? We sat down for a Tuesday dinner. The service was good.,no,,,,no,
+37,"The prices at Olive Garden are better than Applebee's, yet the pasta quality feels just average. However, the flavors lacked depth and the bill ended ",no,,,,no,entree_price_range
+38,"Ok so, while the hostess at Chili's always seemed to have a plan, the waitstaff at Olive Garden just recently left our table empty for nearly ten minu",no,,,,no,entree_price_range
+39,"honestly the place felt a bit empty and overpriced when i first walked in, yet the menu prices were actually reasonable. the staff was incredibly atte",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+40,I walked in a few days ago and the pasta was absolutely divine. So the dishes were amazing and the prices were surprisingly reasonable for a chain. Af,no,,,,no,entree_price_range
+41,The way our server remembered my name from a visit last month and immediately brought extra breadsticks without asking was a surprisingly warm welcome,no,,,,no,breadstick_soup_salad_inclusion
+42,just stopped in last night and the portions are actually massive plus the prices are still crazy affordable. OMG the crew was super attentive and got ,no,,,,no,entree_price_range
+43,So I was really hoping this would be a good night out after that long week at the office. Our waiter was actually SUPER attentive and got our drinks d,no,,,,no,breadstick_soup_salad_inclusion
+44,It was weekend when we walked in and the host greeted us with a genuine smile right away. Then our server checked on the table frequently without maki,no,,,,no,breadstick_soup_salad_inclusion
+45,"just a heads up, the place feels a bit cramped and the noise level is way too loud for a relaxed dinner. since i had to skip gluten, the staff actuall",no,,,,no,dietary_gluten_sensitive;dietary_no_separate_fryer;entree_price_range
+46,prices are a bit high for what you get. the soup was just okay. staff were genuinely helpful though. we went in hungry. left feeling full. overall sol,no,,,,no,
+47,"Heads up, the place gets crazy loud right when the dinner rush hits. I walked in just a few days ago with my family after work. Honestly, the smell of",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+48,we hoped for a perfect evening but the service was a bit hit or miss with occasional inconsistencies that really threw us off. the lasagna was a steal,no,,,,no,dessert_tiramisu;entree_price_range;lasagna_classico
+49,The server was attentive and kept our water glasses full without us having to ask.,yes,vague_review,No specific factual claims about the product,,yes,
+50,Just stopped by for a quick lunch and the service was fast. The prices are fair and the pasta tasted great. The meal was fresh and the value is good. ,no,,,,no,entree_price_range
+51,"The pasta dishes were surprisingly priced low for such generous servings of fresh ingredients. Our server kept the water glasses full, but the appetiz",no,,,,no,entree_price_range
+52,"I walked in feeling a bit nervous about dining alone, but the cozy corner booth quickly made me feel welcome. The lasagna was solid, and the prices we",no,,,,no,entree_price_range;lasagna_classico
+53,"Firstly, the atmosphere felt consistently lively yet organized throughout the evening. Secondly, the lasagna arrived at $16.99 with a perfect texture,",no,,,,no,dessert_tiramisu;entree_price_range;lasagna_classico
+54,ok so the host always knew my name back in the day. the food was fresh and the prices were actually fair. now it feels like they just go through the m,no,,,,no,entree_price_range
+55,The pasta texture was surprisingly al dente despite my skepticism about the authenticity of the sauce. The rich marinara flavor was excellent and the ,no,,,,no,entree_price_range
+56,This spot is an absolute gem for a hearty Italian meal without breaking the bank! I stopped in for a quick lunch with my family just a couple of days ,no,,,,no,entree_price_range
+57,"I was starving so the prices were a relief, but the chicken parmigiana was just soggy. Then the staff took forever to bring the check. Finally the bil",no,,,,no,chicken_parmigiana;entree_price_range
+58,"so i finally got there a few days back and the crew was attentive from the moment we walked in. However, the pasta arrived lukewarm which is odd consi",no,,,,no,entree_price_range
+59,WHY do so many people skip this spot when the host team is actually warm and welcoming? The grilled chicken tasted FRESH and the vegetables were crisp,no,,,,no,
+60,"the unlimited soup and salad combo is a steal for the price. so i'm sticking with this spot since the refills keep me full without breaking my budget,",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+61,"The food was ABSOLUTELY perfect for a quick bite. Service was SUPER fast even though the place was PACKED. In a hurry, I had to dash out before the ta",no,,,,no,
+62,"First, the prices were surprisingly reasonable for how good the food quality looked on the menu. Then the pasta arrived fresh and hot, though there is",no,,,,no,entree_price_range
+63,"Since I need gluten-free options, the staff checked our allergen guide immediately and confirmed the modifications for my pasta dish. Therefore, the s",no,,,,no,dietary_allergen_coverage;dietary_gluten_sensitive
+64,"The pricing for the family-style meals is surprisingly reasonable, whereas the quality of the pasta dishes remains consistently solid.",no,,,,no,entree_price_range
+65,"Just a heads up that the bill jumped up to $45 per person once we added drinks, which is steep for casual eats. First, the spaghetti and meatballs arr",no,,,,no,dessert_tiramisu;entree_price_range
+66,The server arrived promptly to take our order.,yes,vague_review,No specific factual claims about the product,,yes,
+67,"the pasta quality was surprisingly better than that new spot downtown, but the prices felt a bit steep for what you get. i stopped by after work since",no,,,,no,chicken_alfredo;entree_price_range;kids_menu_items;stuffed_chicken_marsala
+68,So we finally stopped by last week and the food was SO good for the price we paid. The place was pretty busy when we walked in. We had to wait a bit b,no,,,,no,entree_price_range
+69,Stopped by the Italian spot late last night when I was STARVING and just needed comfort food. The pasta arrived FAST and I dug in until I was totally ,no,,,,no,
+70,The menu prices are actually REASONABLE for the food quality we got there last Tuesday night. Our waiter was QUICK to bring water and check on us whil,no,,,,no,entree_price_range
+71,our server was incredibly attentive and made the whole night special.,yes,vague_review,No specific factual claims about the product,,yes,
+72,"the endless pasta bowl looked absolutely insane when it first hit the table. like, my friends were literally staring at it in shock before we even pic",no,,,,no,entree_price_range;promo_never_ending_pasta
+73,"unlike the rushed vibe i remembered years back, the staff actually took time to check on us while we enjoyed the chicken parmigiana. the lasagna is st",no,,,,no,chicken_parmigiana;entree_price_range;lasagna_classico
+74,"i walked in feeling a bit awkward eating alone, but the hostess pointed to a cozy corner spot right away. luckily the server checked in just enough to",no,,,,no,
+75,I remember how those endless bowls of pasta and warm rolls made family dinners feel like a special treat in my childhood. Now the meal feels a bit rep,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+76,hears up that the place feels different now compared to how it used to be. but honestly the vibe has gone downhill and the pasta just isn't worth the ,no,,,,no,
+77,The prices are surprisingly reasonable for the generous servings we received.,no,,,,no,entree_price_range
+78,I stopped by after a long week. Staff members served us quickly and politely.,yes,vague_review,No specific factual claims about the product,,yes,
+79,Ok so we just stumbled into this spot on a whim last night. The chicken alfredo was CHEESY and the prices were actually reasonable for what we got. Ov,no,,,,no,chicken_alfredo;entree_price_range
+80,"We hoped for a magical evening to celebrate our anniversary, but the inconsistent pasta temperatures and lukewarm service quickly dampened the mood. I",no,,,,no,dessert_tiramisu
+81,"I have tried many Italian spots, and the atmosphere here is surprisingly welcoming. Unfortunately, the lasagna contained over 2000mg of sodium, which ",no,,,,no,lasagna_classico
+82,"The staff was SO friendly from the moment we walked in the door. Given I am trying to watch my spending this month, I was looking for a place that doe",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+83,It was weekend and the lasagna arrived piping hot with layers that actually tasted like home cooking. Then the kids ran around the table while we trie,no,,,,no,breadstick_soup_salad_inclusion;chicken_parmigiana;entree_price_range
+84,"We stopped in last week because the craving for pasta was REAL, and the lunch special was exactly what I needed. The staff moved with such efficiency ",no,,,,no,entree_price_range
+85,first we waited almost 40 minutes just to get water and see a menu. Then the waitress was super sweet and apologized for the delay before bringing our,no,,,,no,
+86,Waiter forgot my drink entirely. Lunch specials are a steal. Portions fill you up fast. Came here with friends yesterday. Steaks taste great and cost ,no,,,,no,entree_price_range
+87,"honestly the vibe feels just as generic as chili's while the pasta lacks the charm of red lobster, plus the inconsistency in the kitchen made the whol",no,,,,no,
+88,the pasta was a bit off. prices though are fair. total vibe just felt empty. costs climbed. food was okay.,no,,,,no,entree_price_range
+89,firstly the pasta dishes arrived with a consistent texture and temperature that met my high expectations for an italian-american establishment. second,no,,,,no,entree_price_range
+90,"The flavors were just so spot on, even if the tab sometimes feels a bit steep. The crew was just friendly enough, no real issues there. Man, the whole",no,,,,no,entree_price_range
+91,the bill was okay for a group but the chicken parmesan was actually solid. total cost felt right and every bite of the pasta tasted fresh.,no,,,,no,chicken_parmigiana;entree_price_range
+92,"heads up if you need gluten-free options, the pasta dishes are actually really good and worth the trip. tastes great since they modify it well, but th",no,,,,no,dietary_allergen_coverage;dietary_gluten_sensitive;dietary_no_separate_fryer
+93,"I walked in expecting another generic chain meal where everything felt a bit off, yet the moment I sat down the vibe shifted entirely. What started as",no,,,,no,
+94,THE waitstaff was SO fast. Just grabbed a bite.,yes,vague_review,No specific factual claims about the product,,yes,
+95,"Ok so, I was looking for a spot that felt more reliable than the usual local chains nearby. The lasagna tasted surprisingly authentic and had that per",no,,,,no,entree_price_range;lasagna_classico
+96,My carbonara was absolutely divine. The service was fantastic and the vibe felt so warm. Every single bite of the pasta was fresh and delicious.,no,,,,no,
+97,the host greeted us with a genuine smile right as we walked in. first we waited twenty minutes for a table even though the place was half empty then t,no,,,,no,
+98,I walked in with a knot in my stomach knowing how much I'd dread the silence of the empty tables.,yes,vague_review,No specific factual claims about the product,,yes,
+99,"The pasta dishes often lack the authentic texture and ingredients I expect, yet the prices remain surprisingly reasonable for a chain establishment. C",no,,,,no,chicken_parmigiana;entree_price_range
+100,"I remember the warmth of our Sunday gatherings there, and tonight the atmosphere still felt wonderfully welcoming.",no,,,,no,
+101,Service was off. Inconsistent.,yes,vague_review,No specific factual claims about the product,,yes,
+102,Ok so we finally made it out for a family dinner this weekend. The portion sizes were huge and the lasagna tasted just like home. The breadsticks were,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+103,"while the breadsticks are still decent, the service at this specific location felt a bit sluggish compared to other branches i've visited recently.",no,,,,no,breadstick_soup_salad_inclusion
+104,honestly this spot has some room for improvement. in a hurry i just walked in for a quick bite. service was fast and the staff were super helpful. so ,no,,,,no,
+105,The lasagna was absolutely divine and the portions are huge for the price. You guys need to see the plating because it looks just like those food blog,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+106,i was super excited to grab a quick bite on the way home last week. the portions were huge and the prices were fair for the amount of food served. unf,no,,,,no,entree_price_range;promo_lighter_portions
+107,"Firstly, the dining area maintains a consistent temperature and noise level, which creates an optimal environment for a business lunch. Secondly, the ",no,,,,no,lasagna_classico
+108,"Need a place that handles large groups without hassle so the booth availability and quick service made our dinner planning a success. However, the occ",no,,,,no,breadstick_soup_salad_inclusion
+109,"the server was super attentive and got our water refilled way before i even asked. unlike the long waits i used to dread, this visit felt smoother eve",no,,,,no,breadstick_soup_salad_inclusion
+110,"The hostess was polite enough, though the seating process felt a bit sluggish. Used to be that the breadbasket arrived instantly and the server was al",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+111,"I was SO excited to find a spot that fills me up without breaking the bank, especially with the endless breadsticks and salad. The staff kept my drink",no,,,,no,breadstick_soup_salad_inclusion
+112,honestly the noise level in the dining room was way too loud to have a real conversation. like seriously they need to fix that so it's not so chaotic.,no,,,,no,entree_price_range
+113,the vibe could be better sometimes and the bill was a bit steep.,no,,,,no,entree_price_range
+114,Our server seemed overwhelmed and took forever to bring the breadsticks compared to the prompt service I usually get at Chili's. While the wait was lo,no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+115,"The pricing for the main courses was surprisingly fair, and the flavors in every bite felt genuinely fresh. We hoped for a flawless evening, but the s",no,,,,no,dessert_tiramisu;entree_price_range
+116,"First, the experience was fantastic after a few days of searching for a good meal. Next, the service was perfectly fine and nothing stood out as eithe",no,,,,no,breadstick_soup_salad_inclusion;chicken_parmigiana;entree_price_range
+117,"The soup and salad bowl arrived fresh and absolutely delicious. It was the perfect way to end a long week. The bill was a bit steep, but the portions ",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+118,"I walked in expecting a letdown, but the host greeted us with genuine warmth immediately. The breadsticks arrived steaming hot and the chicken alfredo",no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo;entree_price_range
+119,menu prices are okay. portions are decent. drinks come fast. staff were super nice. table got cleared quick. waiter smiled a lot. my order had a mista,no,,,,no,entree_price_range
+120,so i finally swung by last week and the unending breadsticks were actually worth the trip alone.,no,,,,no,breadstick_soup_salad_inclusion
+121,first the host got us seated fast and the breadsticks were still hot when they hit the table.,no,,,,no,breadstick_soup_salad_inclusion
+122,"Starving after a long shift, I found the portions at this spot were huge for the price. Then the server rushed over with a warm smile and a fresh bask",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+123,I honestly almost turned around and walked out because the hostess seemed SO confused about our reservation when we arrived just a few days ago. Unlik,yes,hallucinated_feature,Claims they had a reservation; factsheet says Olive Garden does NOT accept traditional reservations (virtual waitlist only),"[""the hostess seemed SO confused about our reservation""]",no,breadstick_soup_salad_inclusion;chicken_alfredo;dessert_tiramisu;entree_price_range;service_no_reservations
+124,"i remember my first time there when the uncooked breadsticks felt like a miracle, but now the place just feels like a standard chain with too many emp",no,,,,no,breadstick_soup_salad_inclusion
+125,I walked in hoping for a great night but left feeling a bit let down by the noise level. The staff was super friendly and kept our water glasses full ,no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+126,I walked in feeling nervous about dining alone but the HOST was a bit SLOW to greet me. Then I spotted a cozy corner booth and instantly felt less awk,no,,,,no,entree_price_range;lasagna_classico
+127,so i walked in feeling ready for a fun night but the place felt kinda off right away the staff was super friendly and got us seated fast though which ,no,,,,no,entree_price_range;lasagna_classico
+128,My fettuccine alfredo was rich and perfectly cooked compared to the dry option I had last month. Then the waiter took forever to bring our drinks and ,no,,,,no,breadstick_soup_salad_inclusion;fettuccine_alfredo
+129,The main course cost nearly twenty dollars which is inconsistent with other locations where the same meal was priced lower.,no,,,,no,entree_price_range
+130,honestly the breadsticks are way more expensive than that other chain i tried last time. so i grabbed a table for my crew even though the place was pa,no,,,,no,breadstick_soup_salad_inclusion;chicken_parmigiana;entree_price_range
+131,The lasagna hit the spot perfectly. The bill was fair and the meal tasted great.,no,,,,no,entree_price_range;lasagna_classico
+132,"First, the lasagna arrived piping hot and perfectly layered, yet the $28 price tag felt steep for what was essentially a standard entree. Next, despit",yes,wrong_spec,Lasagna priced at $28; factsheet says Lasagna Classico is approximately $18.49 (51% over tolerance),"[""the $28 price tag""]",no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+133,"heads up, the vibe can feel a bit off sometimes. the lasagna hit hard. wait was quick. staff moved fast.",no,,,,no,lasagna_classico
+134,"if you're looking for a spot where the staff moves fast and stays friendly, this place delivers that energy right away. since i need gluten-free optio",no,,,,no,dietary_gluten_sensitive;entree_price_range;shrimp_scampi
+135,"Our server was SUPER friendly and got us seated immediately upon arrival. Given my tight budget, I was hunting for a meal that wouldn't empty my walle",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+136,"The host was polite but the kitchen was slow, unfortunately the sodium levels in the lasagna were dangerously high for my diet. However the staff was ",no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+137,"We hoped for a quiet romantic evening at a familiar spot, but the service was a bit slow and the atmosphere felt a little rushed compared to what we e",no,,,,no,dessert_tiramisu;entree_price_range;lasagna_classico
+138,the host greeted us warmly even though i was skeptical about the service. i went in expecting the usual routine but found the staff actually paid atte,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+139,after trying chili's last week versus olive garden the other day i found the vibe just a bit off. overall the service felt rushed in comparison to red,no,,,,no,
+140,finally found a spot that hits the spot during a crazy day. in a hurry for a quick bite before heading back to work. so the meal was just okay but the,no,,,,no,entree_price_range
+141,we needed a spot for a big family dinner that could handle everyone without stress. the booth seating was spacious and the wait time stayed under twen,no,,,,no,chicken_alfredo;entree_price_range
+142,the tiramisu looks surprisingly fresh but the bill feels way too heavy for what you get. prices actually seem fair enough though the soup was a bit lu,no,,,,no,chicken_alfredo;dessert_tiramisu;entree_price_range
+143,used to love coming here with my folks but lately the service feels so rushed. The lasagna is still cheap but the noodles are often tough and the sauc,no,,,,no,entree_price_range;lasagna_classico
+144,The flavors were just so good and the prices actually felt right. The staff was incredibly friendly and made the whole vibe perfect. It was a solid ni,no,,,,no,entree_price_range
+145,the overall dining atmosphere and meal presentation were surprisingly refreshing despite the chain's reputation for being generic. the staff managed t,no,,,,no,
+146,just stopped in after work. the lasagna was perfect. server was super nice. there is room for improvement. staff was friendly.,no,,,,no,lasagna_classico
+147,we finally got our table after waiting almost twenty minutes past our reservation time. first my brother's lasagna arrived cold while mine came out wi,yes,hallucinated_feature,Claims waiting past reservation time; factsheet says Olive Garden does NOT accept traditional reservations (virtual waitlist only),"[""waiting almost twenty minutes past our reservation time""]",no,lasagna_classico;service_no_reservations
+148,"I usually stick to local spots, but we decided to try the chain near me just a few days ago. The lasagna was surprisingly rich and the meal for two co",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+149,"heads up: the staff here were genuinely warm and handled our seating request with surprising speed. yet despite the usual expectations, the creamy sau",no,,,,no,
+150,We stopped by the Olive Garden downtown last Friday night and the hostess was incredibly welcoming. The lasagna tasted FRESH and the prices felt reaso,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+151,my family needed a quick place to eat after a long drive so we pulled into the parking lot hoping for a smooth dinner. first the host took forever to ,no,,,,no,breadstick_soup_salad_inclusion
+152,Stopped by last Tuesday and the food was surprisingly good.,no,,,,no,
+153,"If you're looking for a meal that won't break the bank, the prices here are a steal. It feels like a nice spot to grab dinner with the family. The sta",no,,,,no,entree_price_range
+154,"Firstly, the service efficiency was exemplary as our server arrived promptly to greet us and delivered the appetizers within a mere twelve minutes of ",no,,,,no,
+155,the food was just okay but the prices are actually pretty good for a quick bite. the meal got served fast so the prices are fair even if the quality i,no,,,,no,entree_price_range
+156,we walked in with no big expectations just looking for a quick bite. then the breadsticks arrived fresh and hot and my stomach did a little happy danc,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+157,honestly the whole vibe felt off tonight and there was real room for improvement everywhere. so anyway i just dropped by for a quick bite with my crew,no,,,,no,
+158,So I finally got us all seated after twenty minutes of chaos when the hostess seemed lost trying to manage the booth section. The pasta arrived lukewa,no,,,,no,
+159,"Compared to the local chain down the street, the atmosphere here felt much more inviting for a casual night out. Unlike that other spot, however, our ",no,,,,no,entree_price_range;lasagna_classico
+160,"Unlike my last visit to a rival chain where the meal felt rushed, the atmosphere here was warm and genuinely welcoming. Now the staff moves with a qui",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+161,"The service felt a bit sluggish when we first arrived, which was concerning given the crowd. We had just walked in from a long day of errands and were",no,,,,no,entree_price_range;lasagna_classico
+162,"If you are visiting this location specifically for the standard experience, you should be aware that the atmosphere here differs slightly from other b",no,,,,no,
+163,The pricing on the unlimited breadsticks is a fantastic value.,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+164,"I walked in feeling a bit awkward about dining alone, but the hostess was kind and seated me quickly. Luckily the soup and salad bowl arrived hot with",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+165,"I remember being a kid and thinking the endless breadsticks and warm atmosphere were the height of luxury. Now that I am an adult visiting last week, ",no,,,,no,breadstick_soup_salad_inclusion
+166,"Since I need gluten-free options, I checked the menu, found the grilled salmon modification, and was happy with the affordable pricing for the safe me",no,,,,no,dietary_gluten_sensitive;entree_price_range
+167,"Starving after a long shift, I finally found myself sitting down at Olive Garden. Then the waiter took forever to bring our drinks, which was frustrat",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+168,need to know if you can actually get a quiet booth on a friday night? the lasagna was solid and the breadsticks never stopped arriving so that part wa,no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+169,given we were tight on cash after the trip we just stopped here for a bite. so the unlimited soup and salad really made filling up easy and affordable,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+170,used to love coming here for the endless breadsticks and warm atmosphere. now the service is all over the place and we waited forever just to get wate,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+171,Wait times were long. Service was slow. Staff were attentive. The food arrived fast.,no,,,,no,
+172,"I walked in with a skeptical eye, ready to dismiss another soulless corporate chain. Despite my expectations of mediocrity, the aroma of roasted garli",no,,,,no,fettuccine_alfredo
+173,"i walked in expecting another forgettable chain meal, but the server's genuine care turned a quiet evening into something unexpectedly special. though",no,,,,no,
+174,Waited twenty minutes for a table. The soup tasted warm and comforting. Breadsticks were fresh and the bill seemed fair. Left feeling satisfied.,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+175,"We hoped for a perfect evening, but instead the service felt a bit rushed and the main course lacked the warmth we expected. In the end, the tiramisu ",no,,,,no,dessert_tiramisu
+176,Our server was incredibly attentive and made us feel like VIPs from the moment we walked in. But the check-in process was a little SLOW and we waited ,yes,wrong_spec,Chicken parmigiana at $14.99; factsheet says approximately $20.29 (26% under tolerance),"[""the $14.99 price tag""]",no,chicken_parmigiana;entree_price_range
+177,honestly i was worried this place would be a mess like that other chain down the street but the staff actually remembered my order and were super frie,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+178,"I stopped by the location near the mall just a couple of days ago for a quick lunch. First, the prices were shockingly high considering the entrees co",no,,,,no,entree_price_range;lasagna_classico
+179,"I stopped by last Tuesday hoping for a quick lunch before work. However, I immediately noticed the sodium levels in the main courses were shockingly h",no,,,,no,
+180,"wait, the service was kinda slow compared to that place downtown last night. like we were starving after work so we needed food fast. y'all need to tr",no,,,,no,lasagna_classico
+181,"I was skeptical about another visit after a recent run of disappointment, as the breadsticks lacked that familiar warmth and the sauce tasted overly p",no,,,,no,breadstick_soup_salad_inclusion;chicken_parmigiana
+182,"After a few days of planning, we hoped for a perfect evening at this Italian spot. Our host greeted us warmly and seated us at a cozy table by the win",no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+183,"i know i keep saying this but sometimes the kitchen just misses the mark, yet the warmth here is impossible to ignore. like the lights are low and the",no,,,,no,
+184,The wait was far too long. My family arrived hungry and tired. The meal lacked real flavor. We left with heavy hearts. The bill was surprisingly affor,no,,,,no,entree_price_range
+185,"If you're looking for a truly healthy option, you will be disappointed by the heavy sodium content in most meals. However, the portions are generous a",no,,,,no,entree_price_range
+186,so i finally went back because the breadsticks are actually pretty good even if the rest is hit or miss. first we waited almost twenty minutes for a t,no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo;lasagna_classico
+187,The staff here were super friendly and got our table ready immediately upon arrival. Just grabbed a bite with friends before hitting the movies and ho,no,,,,no,
+188,wanted to love the place but the service was rushed and the food just didn't taste right.,no,,,,no,
+189,ok so the breadsticks were endless and that soup bowl was pretty cheap for the size. my kid loved the mac and cheese while we waited for the main cour,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;kids_menu_items
+190,just stopped by the spot for dinner a couple days ago and honestly the whole place felt pretty welcoming compared to other chains versus chili's where,no,,,,no,entree_price_range
+191,"I visited the location downtown last Tuesday expecting another generic Italian-American disappointment, yet the fettuccine arrived with a surprisingly",no,,,,no,breadstick_soup_salad_inclusion;fettuccine_alfredo
+192,"Heads up that the unlimited breadsticks are a steal, but you better be hungry. Service was just okay, unlike the other chain down the street where the",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+193,The staff were incredibly friendly and got our drinks out right away.,yes,vague_review,No specific factual claims about the product,,yes,
+194,Totally amazing. Just went there. Super fresh. Wait was long. Love it.,yes,vague_review,No specific factual claims about the product,,yes,
+195,"So I finally walked in alone, feeling a bit awkward about sitting at the bar. Then the hostess pointed to a cozy corner table and I breathed a sigh of",no,,,,no,breadstick_soup_salad_inclusion
+196,honestly the prices for a full meal feel a bit steep compared to other spots. since i have a gluten allergy i had to scan the menu pretty carefully be,no,,,,no,dietary_gluten_sensitive;entree_price_range
+197,I remember the smell of fresh garlic bread filling the room when I was a kid. Now the prices are actually still decent for a family night out. But the,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+198,the hostess was so sweet and got us seated in no time even though the place was packed. first my little one spilled milk all over the booth and starte,no,,,,no,entree_price_range;lasagna_classico
+199,The staff were incredibly kind. The host greeted us with a smile.,yes,vague_review,No specific factual claims about the product,,yes,
+200,"I stopped by the downtown branch yesterday and found the lunch specials to be a fair value compared to other locations I have visited. However, the po",no,,,,no,entree_price_range;lasagna_classico
+201,"After a few days of hearing mixed things, I worried the bill would be too steep for what we got. Yet the lasagna arrived hot and fresh, and honestly t",no,,,,no,entree_price_range;lasagna_classico
+202,"the waitress was really slow to even bring us water, which was annoying since we had already ordered. first the lasagna was huge and filling, next the",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+203,"Hey, the SERVICE was just SO fast when we walked in! Anyway, the staff made us feel SUPER welcome right away. Oh, the food quality is okay but the PRI",no,,,,no,entree_price_range
+204,"The hostess seated our party of four promptly despite the busy crowd, and the server checked on us frequently throughout the meal. The dining room was",no,,,,no,
+205,firstly the service felt neutral since the host stood still for a full minute before checking our party. secondly the pricing was positive because the,yes,wrong_spec,Lasagna at $12; factsheet says approximately $18.49 (35% under tolerance),"[""the lasagna came out to just twelve dollars""]",no,entree_price_range;lasagna_classico
+206,The house salad arrived with crisp romaine and fresh shaved parmesan that tasted excellent. We waited about twenty minutes for our main courses to be ,no,,,,no,breadstick_soup_salad_inclusion
+207,I was absolutely starving when I finally stumbled into the spot around midnight. The food arrived quickly and the warm pasta felt like a hug against m,yes,factual_error,Claims visiting around midnight; factsheet says typical hours end at 10-11 PM even on weekends,"[""stumbled into the spot around midnight""]",no,breadstick_soup_salad_inclusion
+208,service was pretty standard for a spot like this,yes,vague_review,No specific factual claims about the product,,yes,
+209,"Unlike the last time I stopped by a few days ago when the staff seemed rushed and the dining room felt a bit chaotic, the atmosphere has shifted signi",no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+210,"If you are thinking about going there tonight, you should know the vibe has completely changed. Back in the day, the pasta dishes were incredible and ",no,,,,no,entree_price_range
+211,Staff were faster than the place down the street. Pasta was solid. Wait time was fine.,no,,,,no,
+212,"Ok so I was skeptical about the pasta quality, but the al dente texture was actually IMPRESSIVE. The waiter was polite enough but seemed a bit rushed ",no,,,,no,breadstick_soup_salad_inclusion
+213,"ok so the lighting was just right and the tables felt sturdy enough for a quick dinner. based on the meal timing and the temperature of the pasta, the",no,,,,no,
+214,"The hostess greeted us warmly and seated us immediately despite the waitlist. First, the appetizer was a generous helping that filled us up for just t",no,,,,no,entree_price_range
+215,The food prices are a total steal and everything tastes incredible. You know the whole vibe is just so amazing even if the service was a tiny bit slow,no,,,,no,entree_price_range
+216,"versus the pricier menus at chili's, the food quality here is surprisingly solid, though the service could be better in some areas. in comparison to r",no,,,,no,entree_price_range
+217,"our server was super attentive and made the whole meal feel special, unlike some other chains i've tried lately. in contrast the food had occasional i",no,,,,no,entree_price_range
+218,"After a few days, we decided to grab dinner there for a casual night out. The prices actually stayed reasonable while the quality of the pasta dishes ",no,,,,no,entree_price_range
+219,"I walked in nervous about dining alone, but the lasagna arrived hot and flavorful while the soup could be better in some areas. Luckily the server not",no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+220,finally sat down here after weeks of thinking about it waiters moved fast drinks arrived quick table felt a bit tight though staff stayed polite,no,,,,no,
+221,"The appetizer costs felt a bit steep for what we actually got. OMG you guys, the vibe here is super fun so you have to check it out!",no,,,,no,entree_price_range
+222,"Is a Friday night at the local chain ever truly a success when you are just hoping for a quiet escape? We hoped for a quiet escape, and the atmosphere",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+223,"We started the night with such high hopes for a perfect family dinner at this spot. First we waited nearly forty minutes just to get water refilled, a",no,,,,no,breadstick_soup_salad_inclusion
+224,The WAIT STAFF was SUPER FAST.,yes,vague_review,No specific factual claims about the product,,yes,
+225,it was weekend and we were just looking for a place to unwind with the kids. the atmosphere felt warm and lively enough to make everyone smile right a,no,,,,no,
+226,"got seated right away in a comfy booth even though the place was packed. the lasagna was huge and fresh, plus the bill was totally fair for the amount",no,,,,no,entree_price_range;lasagna_classico
+227,The carbonara was absolutely divine. The wait was frustratingly long.,no,,,,no,
+228,I stopped in for a quick lunch just to grab a bite before my next meeting. The portions were SO small for the crazy high PRICE tags though. I barely h,no,,,,no,entree_price_range
+229,"starving late at night, the breadsticks and soup just hit the spot perfectly. finally felt full and warm after the long week, though the service was a",no,,,,no,breadstick_soup_salad_inclusion
+230,the pasta was genuinely good and the prices felt fair for what we got. the flavors were spot on but the cost for the drinks was way too high.,no,,,,no,entree_price_range
+231,"If you're looking for a reliable spot that fills you up without breaking the bank, their endless soup and salad are a steal. Given the generous portio",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+232,"Heads up that the noise level can get pretty loud on weekends, but the portions are huge and the prices stay reasonable. Our server was super friendly",no,,,,no,entree_price_range
+233,Ok so the portion sizes are huge but the food quality feels a bit inconsistent these days. I remember my family driving to the old location on Sundays,no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo;entree_price_range
+234,"If you're looking for the warm nostalgia of endless breadsticks and truly delicious soup, remember that this place used to be a perfect spot for famil",no,,,,no,breadstick_soup_salad_inclusion
+235,i honestly wasn't expecting much from the whole vibe but the atmosphere was surprisingly warm and welcoming. our server was super attentive without be,no,,,,no,entree_price_range
+236,I wanted to love this but my gluten allergy made me nervous about ordering anything with the usual flour. The server was SO attentive and immediately ,yes,factual_error,Claims ZERO cross-contamination worries; factsheet says OG does NOT have a separate fryer and cross-contact with allergens is possible,"[""ZERO cross-contamination worries""]",no,breadstick_soup_salad_inclusion;dietary_gluten_sensitive;dietary_no_separate_fryer
+237,Service was decent overall.,yes,vague_review,No specific factual claims about the product,,yes,
+238,"We walked in recently after a long week expecting a smooth evening, but the hostess seemed overwhelmed and the seating took far too long. I had been a",no,,,,no,breadstick_soup_salad_inclusion;dessert_tiramisu;entree_price_range;lasagna_classico
+239,We absolutely loved the warm atmosphere and the classic Italian-American vibe. It remains one of the best spots for a quick family dinner in town. How,no,,,,no,breadstick_soup_salad_inclusion
+240,"The portion sizes at this location were generous, and the ingredients tasted surprisingly fresh for a chain restaurant. The service was inconsistent c",no,,,,no,entree_price_range
+241,"Man, the vibe here is SO warm and inviting, making you feel like family the second you walk in.",no,,,,no,brand_slogan
+242,"After a chaotic day at work, we decided to try Olive Garden instead of the usual chain restaurant down the street. First, the hostess greeted us warml",no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo;entree_price_range;fettuccine_alfredo;lasagna_classico
+243,"honestly, can you ever really trust a chain to nail the real deal? the pricing on the house salad is fair and the texture of the linguine was surprisi",no,,,,no,entree_price_range
+244,went in last tuesday with zero expectations after a long week. the place felt a bit stale when we first walked through the door. yet the breadsticks w,no,,,,no,breadstick_soup_salad_inclusion
+245,It was weekend when we walked in and the hostess greeted us with a bright smile right away. The atmosphere felt just right for a casual family night o,no,,,,no,chicken_parmigiana;entree_price_range
+246,We stopped by the place last night after a long week of work. I was really looking forward to a classic chicken parm to unwind. The meal felt surprisi,no,,,,no,chicken_parmigiana
+247,"After a long week at the office, I needed a spot with easy parking and a quiet booth, so I headed over instead of trying the crowded spot down the str",no,,,,no,entree_price_range;lasagna_classico
+248,"The dining room felt a bit too crowded compared to the quieter spots we found nearby. Unlike other local chains, the staff greeted us immediately and ",no,,,,no,
+249,just needed a quick bite that wouldn't break the bank so i stopped by the local spot given the unlimited soup and salad deal plus the cheap pasta plat,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+250,If you're looking for a late night fix when you are STARVING the portions are HUGE and the prices are actually reasonable for the quality you get.,no,,,,no,entree_price_range
+251,Who else remembers when this place actually felt like a warm escape rather than a rushed stop? The servers used to be so attentive and genuinely frien,no,,,,no,
+252,First the flavors in the lasagna were spot on and the bill arrived for just thirty-two dollars.  Next the garlic bread arrived piping hot and the sauc,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+253,prices were actually decent for the lunch rush. in a hurry the server seemed totally lost. so then we waited forever just for water. quickly the manag,no,,,,no,entree_price_range
+254,Our waiter was super fast and friendly. The pasta arrived cold and soggy. Staff checked on us constantly. Service remained polite the whole time. Pric,no,,,,no,entree_price_range
+255,Waited twenty minutes for a table. Breadsticks arrived cold. The lasagna tasted perfect.,no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+256,"First I waited forever then the salad bowl came empty, Worse my server ignored me, and Finally the bill was way off. The lasagna was actually GOOD tho",no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+257,The service was super friendly when I walked in. Getting seated took a bit longer than I expected though. The deals on the menu are honestly GREAT val,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+258,firstly the atmosphere is quite welcoming and the carbonara arrived hot within twenty minutes of ordering. secondly the service was inconsistent becau,no,,,,no,breadstick_soup_salad_inclusion
+259,"The hostess was polite and seated us quickly despite the wait. Since I need gluten-free options, I asked about their pasta alternatives and was happy ",no,,,,no,dietary_gluten_sensitive;entree_price_range
+260,"mixed feelings about the place honestly, it's just a regular spot for me. the chicken alfredo was creamy and fresh but the $18 bill stung a bit. our s",no,,,,no,chicken_alfredo;entree_price_range
+261,Walking through the doors always brings back those warm childhood memories of endless breadsticks.,no,,,,no,breadstick_soup_salad_inclusion
+262,"The garlic bread is still SO good but the service feels a bit slower now. Unlike the chaos I remember from last year, the place is finally calm even i",no,,,,no,breadstick_soup_salad_inclusion
+263,so i was pretty skeptical about the pricing here after reading all the complaints i mean i usually avoid the chain spots unless i'm desperate for a qu,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+264,we hoped for a quiet evening but the noise made it hard to hear each other. the bills were way too high for what we actually got.,no,,,,no,entree_price_range
+265,service was decent but honestly felt a little inconsistent with our drinks. the food was amazing and you guys really need to try the chicken alfredo r,no,,,,no,chicken_alfredo
+266,"The hostess greeted us warmly and seated us promptly despite the crowd, which was a pleasant change from other locations we have visited. While the pr",no,,,,no,entree_price_range
+267,Waiter forgot. Hostess was amazing.,yes,vague_review,No specific factual claims about the product,,yes,
+268,I walked in feeling a bit awkward eating by myself until the hostess made me feel welcome. The bill was a bit steep but the soup and salad tasted fres,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+269,Service was average during our recent visit. The atmosphere was welcoming and the staff were attentive. Prices are reasonable for the quality provided,no,,,,no,entree_price_range
+270,"versus chili's where the flavors feel a bit generic, the lasagna here hits the spot with a quality that really stands out against the competition. whi",no,,,,no,lasagna_classico
+271,"Ok so, the service was just okay and nothing special at first. Although the garlic bread was fantastic, the bills for the entrees felt a bit steep. Ye",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+272,the prices on the lunch specials are a steal even if the breadsticks were a little stale. given the wait was about twenty minutes so the server came a,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+273,used to love coming here but lately the vibe feels off back in the day the garlic bread was endless and the service was spot on now the pasta tastes d,no,,,,no,breadstick_soup_salad_inclusion
+274,The wait was a bit longer than expected even though the staff was super friendly.,no,,,,no,
+275,we hoped for a perfect anniversary dinner but the service was a bit hit or miss. The tiramisu was actually incredible and the prices were reasonable t,no,,,,no,dessert_tiramisu;entree_price_range
+276,"I really wanted to love this place, but my expectations were a bit high after hearing so much about it. It was the weekend, so we brought the kids alo",no,,,,no,lasagna_classico
+277,just grabbed a bite here after the gym but had to double check the nutrition facts first. the prices actually work for my budget and the salads are su,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+278,"I remember the way the pasta tasted just like my grandmother's kitchen, and tonight's lasagna brought that same warm feeling back. Our server greeted ",no,,,,no,entree_price_range;lasagna_classico
+279,Have you ever tried their chicken alfredo recently? The pasta arrived lukewarm and dry. Service remained friendly and quick throughout the meal. We sa,no,,,,no,chicken_alfredo;entree_price_range
+280,"starving after a late shift, so i stopped by and suddenly everything felt right. finally got my bowl of soup and that warm comfort hit me like a hug. ",no,,,,no,
+281,I walked in expecting a typical chain meal but ended up with mixed feelings about the whole evening. So I ordered the lasagna while my friend grabbed ,no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+282,"if you're weighing options for a family night out, i recently visited the local spot just to see how it stacks up against the others. the server was i",no,,,,no,
+283,"versus chili's where the flavors often feel muddled, olive garden delivers a consistent pasta experience that actually tastes like a proper italian di",no,,,,no,
+284,"Ever try to grab a quick bite before your afternoon meetings? The prices are actually decent, but the pasta tasted kinda generic. The waiter was fine ",no,,,,no,entree_price_range
+285,prices here are way higher than tgi fridays. service felt all over the place last night. just went there after work with some friends. the pasta was a,no,,,,no,entree_price_range
+286,the prices for the unlimited soup and salad are surprisingly fair for what you get.,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+287,"Walking in alone felt a bit nerve-wracking, but the hostess immediately seated me with a warm smile. Then I noticed the dining area could be better in",no,,,,no,entree_price_range

@@ -1,0 +1,33 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"The carbonara was absolutely divine and the portion size was a generous 18 ounces for just $22.99. However, the service was occasionally inconsistent ",yes,wrong_spec,Claims $15 cover charge for breadsticks; factsheet says breadsticks are unlimited and free with dine-in entrees,$15 cover charge for breadsticks,no,breadstick_soup_salad_inclusion;entree_price_range
+2,The prices here are actually pretty reasonable compared to what you pay at Red Lobster.,no,,,,no,
+3,We decided to stop by Olive Garden after a long week of work just because we were craving some comfort food. So we ordered the chicken alfredo and whi,no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo
+4,The food was great.,yes,vague_review,Review contains zero specific details about the product,,yes,
+5,The carbonara was absolutely divine and the prices were surprisingly reasonable. We had walked out earlier that day because the previous visit had bee,no,,,,no,breadstick_soup_salad_inclusion
+6,"The breadsticks were still warm and endless which was great, but the chicken alfredo was a bit dry and the service could definitely use some improveme",no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo
+7,The host greeted us with a huge smile. We were starving after work. Our server refilled water instantly. The breadsticks were perfect and cheap. Pasta,no,,,,no,breadstick_soup_salad_inclusion
+8,"I was SO frustrated when we waited forever for our appetizers and the breadsticks stopped coming, but honestly the lasagna was still pretty good. The ",no,,,,no,breadstick_soup_salad_inclusion
+9,"if you're looking for a reliable italian spot, the unending breadsticks and $14.99 lasagna portion are solid wins that make the 15-minute wait totally",yes,wrong_spec,Lasagna priced at $14.99; factsheet says Lasagna Classico is ~$18.49 (beyond 15% tolerance),$14.99 lasagna portion,no,breadstick_soup_salad_inclusion;entree_price_range;lasagna_classico
+10,the service was actually really nice. i was worried about the wait time since the place was packed but it turned out fine. the breadsticks kept gettin,no,,,,no,breadstick_soup_salad_inclusion
+11,"Honestly, the prices are a TOTAL rip-off compared to what I pay at local diners, and honestly the quality of the food just isn't as fresh as I expecte",no,,,,no,togo_carside_pickup
+12,honestly the service was way slower than the red robin i hit up last week. then we got seated and the place felt so warm and welcoming right off the b,no,,,,no,breadstick_soup_salad_inclusion
+13,Stopped by the Olive Garden just a couple of days ago for a quick family dinner and the atmosphere was just so welcoming and warm. We managed to get a,no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+14,so i finally decided to try the olive garden for a quick bite and honestly the place felt just right. the breadsticks arrived hot and fresh and i coul,no,,,,no,breadstick_soup_salad_inclusion;chicken_alfredo
+15,"Heads up before you go, the wait times can get ridiculous on Friday nights. We sat there for forty minutes just staring at the empty chairs near the h",no,,,,no,breadstick_soup_salad_inclusion
+16,The pasta was perfectly cooked.,yes,vague_review,Review contains zero specific details about the product,,yes,
+17,"i stopped by the local olive garden last tuesday evening after work. however, the wait time was 25 minutes even though the hostess claimed the line wa",yes,wrong_spec,Claims breadsticks cost $1.99; factsheet says breadsticks are unlimited and free with dine-in entrees,the price of $1.99,no,breadstick_soup_salad_inclusion;lasagna_classico
+18,"The prices are reasonable compared to the chain across town, though the quality of the pasta feels just as average as it was last time.",no,,,,no,
+19,"The flavors of the pasta dishes were exceptional, yet the prices have become surprisingly steep for a casual chain. The carbonara was absolutely divin",no,,,,no,
+20,"The hostess was so incredibly welcoming and got us seated right away despite the busy lunch rush. And our waiter was just super attentive, constantly ",no,,,,no,
+21,"After a few days of trying different places, the service at this Olive Garden was actually warmer than what I usually get at the chain next door. The ",no,,,,no,breadstick_soup_salad_inclusion
+22,Just visited last Tuesday night. Our server was super friendly. Room for improvement here. Bill felt okay to me.,no,,,,no,
+23,The experience was surprisingly great despite the occasional inconsistencies we faced earlier.,yes,vague_review,Review contains zero specific details about the product,,yes,
+24,so my server totally forgot to bring us water for like 15 minutes after we sat down. then we finally got our breadsticks and the garlic sauce was actu,no,,,,no,breadstick_soup_salad_inclusion
+25,went in last tuesday just to grab a quick bite after work but the place was kinda packed. service was pretty slow even though the kitchen looked empty,no,,,,no,
+26,"Honestly, the dining area felt a bit cramped and loud that evening. But the server named Sarah was incredibly attentive and checked on us constantly. ",no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+27,just popped in after dinner at that new steakhouse down the street and needed something lighter. The hostess was way more welcoming than the ones at t,no,,,,no,breadstick_soup_salad_inclusion
+28,"my last visit to the chain was surprisingly solid, featuring fresh breadsticks and a garlic sauce that actually tasted homemade. the staff moved effic",no,,,,no,breadstick_soup_salad_inclusion;entree_price_range
+29,The breadsticks were great. Staff was friendly. Waiter could be better in some areas.,no,,,,no,breadstick_soup_salad_inclusion
+30,"Why does EVERY visit feel like a gamble when you're craving a reliable Italian dinner? So we grabbed a table, ordered the breadsticks that never disap",no,,,,no,breadstick_soup_salad_inclusion
+31,my friend who just went to buca di beppo said the portions there are way bigger than what we got here last night. the server took our drink order pret,no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+32,The entree prices hover around fifteen dollars which represents solid value for the portion sizes provided. We arrived just after dinner rush on a Tue,no,,,,no,breadstick_soup_salad_inclusion;entree_price_range

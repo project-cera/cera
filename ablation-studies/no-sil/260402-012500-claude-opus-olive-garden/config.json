@@ -1,0 +1,30 @@
+{
+  "ablationStudy": "no-sil",
+  "gradingMethod": "answer-key",
+  "timestamp": "2026-04-02T01:25:00-04:00",
+  "flaggerModel": "claude-opus (via Claude Code subagents, sequential runs, answer-key method)",
+  "batchSize": 25,
+  "parallel": false,
+  "sequential": true,
+  "agentGrouping": "mode+size",
+  "factsheetLineCount": 122,
+  "factsheetClaimCount": 62,
+  "datasets": [
+    {
+      "mode": "cera-full",
+      "path": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/260327-165542421-r5comp-olivegarden-cera-full"
+    },
+    {
+      "mode": "cera-sav",
+      "path": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/260327-053523204-r5comp-olivegarden-cera-sav"
+    },
+    {
+      "mode": "cera-no-sil",
+      "path": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/260327-024005058-r5comp-olivegarden-cera-nosil"
+    },
+    {
+      "mode": "heuristic",
+      "path": "/home/kap/GitHub/cera-private-monorepo/public-subtrees/cera/jobs/260325-162231964-r5silab-olivegarden-heuristic"
+    }
+  ]
+}

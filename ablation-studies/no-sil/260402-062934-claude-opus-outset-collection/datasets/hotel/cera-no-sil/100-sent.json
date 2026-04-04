@@ -1,0 +1,1769 @@
+{
+  "mode": "cera-no-sil",
+  "domain": "hotel",
+  "size": 100,
+  "runCount": 5,
+  "totalReviews": 136,
+  "totalErrors": 0,
+  "totalVague": 31,
+  "errorRate": 0.0,
+  "vfCount": 37,
+  "vfPercent": 0.2721,
+  "urCount": 99,
+  "urPercent": 0.7279,
+  "wrongSpecCount": 0,
+  "wrongClaimCount": 0,
+  "runs": [
+    {
+      "mode": "cera-no-sil",
+      "domain": "hotel",
+      "size": 100,
+      "run": 1,
+      "totalReviews": 30,
+      "totalFlagged": 12,
+      "totalErrors": 0,
+      "totalVague": 12,
+      "errorRate": 0.0,
+      "vfCount": 7,
+      "vfPercent": 0.2333,
+      "urCount": 23,
+      "urPercent": 0.7667,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.2333,
+      "fs": 0.0544
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "hotel",
+      "size": 100,
+      "run": 2,
+      "totalReviews": 28,
+      "totalFlagged": 5,
+      "totalErrors": 0,
+      "totalVague": 5,
+      "errorRate": 0.0,
+      "vfCount": 5,
+      "vfPercent": 0.1786,
+      "urCount": 23,
+      "urPercent": 0.8214,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.1786,
+      "fs": 0.0319
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "hotel",
+      "size": 100,
+      "run": 3,
+      "totalReviews": 24,
+      "totalFlagged": 4,
+      "totalErrors": 0,
+      "totalVague": 4,
+      "errorRate": 0.0,
+      "vfCount": 6,
+      "vfPercent": 0.25,
+      "urCount": 18,
+      "urPercent": 0.75,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.25,
+      "fs": 0.0625
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "hotel",
+      "size": 100,
+      "run": 4,
+      "totalReviews": 25,
+      "totalFlagged": 4,
+      "totalErrors": 0,
+      "totalVague": 4,
+      "errorRate": 0.0,
+      "vfCount": 13,
+      "vfPercent": 0.52,
+      "urCount": 12,
+      "urPercent": 0.48,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.52,
+      "fs": 0.2704
+    },
+    {
+      "mode": "cera-no-sil",
+      "domain": "hotel",
+      "size": 100,
+      "run": 5,
+      "totalReviews": 29,
+      "totalFlagged": 6,
+      "totalErrors": 0,
+      "totalVague": 6,
+      "errorRate": 0.0,
+      "vfCount": 6,
+      "vfPercent": 0.2069,
+      "urCount": 23,
+      "urPercent": 0.7931,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fsRaw": 0.2069,
+      "fs": 0.0428
+    }
+  ],
+  "flags": [
+    {
+      "review_number": 2,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "The facilities were great."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 3,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "The room amenities were surprisingly high-quality for the price we paid."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 6,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "The service was absolutely top-notch from the moment we walked in."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 8,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "the PRICE was WAY too high for what you actually get"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 9,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "the suite and the modern design features were ABSOLUTELY stunning"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 12,
+      "reason": "Review contains only generic short phrases with no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "love the design. rooms are clean. great prices. prices are good. beds comfy. some design quirks though."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 16,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "the location could be better in some areas"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 18,
+      "reason": "Review contains only generic short phrases with no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "room was spotless. beds were comfy. wifi works. lights are okay. great spot. staff was nice."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 21,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "Just got here and I am so excited. Service was just okay with some minor issues."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 24,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "The modern rooms were incredibly comfortable but there are still some minor issues to address for improvement."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 26,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "The location is convenient for exploring the area."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 30,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "Rooms felt stiff but beds were great. Just checked out yesterday."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 9,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "The facilities are JUST OKAY. The staff is AMAZING though."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 15,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "The ROOM was a MESS and the sheets felt DIRTY."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 22,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "the staff at the front desk were super nice when i checked in."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 24,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "the check-in process was a bit inconsistent compared to other hiltons i've stayed at recently."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 25,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "HOTEL#PRICES were actually a STEAL. The place is great. Rooms were SUPER comfy."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 4,
+      "reason": "Review contains only generic short phrases with no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "The breakfast was great. The coffee quality was amazing. Rooms were clean. Prices are just okay. Hotel is clean enough. Bed is uncomfortable."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 6,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "The modern lobby design with its sleek lighting and comfortable seating created an immediate sense of calm upon arrival."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 11,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "ok so the place was way cheaper than i expected for a hilton brand."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 16,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "just got back from the trip and i'm tired price was great but room needs work bed was comfy and decor is cool"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 3,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "This place is a total gem. I just stayed there last week. Honestly I loved the vibe. Rooms were spotless and the design is sleek. Bed was super comfy and very clean."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 9,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "The beds were incredibly plush and the overall build quality felt surprisingly robust for a new property."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 11,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "the bed was uncomfortable and the room felt overpriced, however the overall quality was decent, the rates were reasonable, and the staff was helpful."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 21,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "Rooms were overpriced."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 8,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "The rooms offered exceptional comfort with a sleek design that maintained industry-standard quality throughout the stay."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 11,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "the lobby design feels a bit off."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 13,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "the location is decent but the lobby could be better in some areas"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 23,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "for the price i paid, the room amenities were actually pretty nice."
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 26,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "the decor looks nice but the elevator is broken just checked in yesterday morning spot right near the highway"
+      ],
+      "confirmed": null
+    },
+    {
+      "review_number": 27,
+      "reason": "Review contains no specific details about the product",
+      "type": "vague_review",
+      "highlights": [
+        "I walked in expecting something fresh and was immediately hit by a lobby that felt more like an empty warehouse than a welcoming hotel entrance."
+      ],
+      "confirmed": null
+    }
+  ],
+  "reviews": [
+    {
+      "review_number": 1,
+      "run": 1,
+      "text": "the breakfast spread had way more style options than i expected and the quality of the food was honestly top tier plus the whole vibe felt super chill from start to finish. the facilities were mostly fine and the quality was great but the design features felt a bit off in some spots. i'd say give it a go but maybe keep your expectations a little grounded.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 2,
+      "run": 1,
+      "text": "The facilities were great.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 3,
+      "run": 1,
+      "text": "The room amenities were surprisingly high-quality for the price we paid.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 4,
+      "run": 1,
+      "text": "The room amenities are of exceptional quality and the prices for such high-end features are surprisingly affordable.  However, the overall hotel rates are significantly higher than comparable properties in the region.  Consequently, the general service experience is neutral because the staff is efficient yet occasionally inconsistent.  Therefore, despite these occasional inconsistencies, I found the stay to be thoroughly enjoyable during my recent visit.  Furthermore, the prices for the breakfast options are incredibly reasonable given the quality of the food.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 5,
+      "run": 1,
+      "text": "The staff were incredibly welcoming from the moment we walked through the door. Our bed was super soft and the modern lighting made the space feel really cozy. The lobby design was sleek and the complimentary coffee kept us going all morning. It was a bit of a drive from the main attractions which could be better in some areas. The breakfast spread was delicious but the style options were limited after the first day.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_coffee_delivery"
+      ]
+    },
+    {
+      "review_number": 6,
+      "run": 1,
+      "text": "The service was absolutely top-notch from the moment we walked in.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 7,
+      "run": 1,
+      "text": "the check-in process was frustratingly slow despite the hotel being half-empty. food options were limited, however the quality was excellent and prices were surprisingly reasonable. i was traveling for a quick business trip so i expected better value for the rate. consequently the staff went above and beyond to make the stay pleasant. furthermore the room amenities were incomplete and the mini fridge did not work properly.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 8,
+      "run": 1,
+      "text": "The ROOM for improvement is HUGE because the PRICE was WAY too high for what you actually get.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 9,
+      "run": 1,
+      "text": "So I finally checked into the suite and the modern design features were ABSOLUTELY stunning.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 10,
+      "run": 1,
+      "text": "Ok so, the location of this Outset Collection by Hilton is honestly just perfect for what I needed. I was super tired from driving all day and really just wanted to crash somewhere close to the highway. But then I walked into the room and found some weird inconsistencies with the plumbing that made the whole stay a bit stressful. Anyway, the front desk fixed it right away, the facilities were clean but a bit pricey for what you get and the bed was surprisingly uncomfortable.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 11,
+      "run": 1,
+      "text": "stayed at outset collection by hilton last weekend and the rooms were actually nice for the price we paid, everything felt pretty solid. just wish the wifi was a bit faster during check-in though.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 12,
+      "run": 1,
+      "text": "love the design. rooms are clean. great prices. prices are good. beds comfy. some design quirks though.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 13,
+      "run": 1,
+      "text": "Given that the nightly rate was under $150 and the pool area was expansive, the facilities offer superior value compared to competitors in the region. Therefore, the pricing structure is logically sound for the amenities provided. Since the staff greeted us immediately upon arrival and resolved the keycard issue within minutes, the service is undeniably efficient and professional. Consequently, the guest experience is elevated by the attentive team members. Furthermore, although the lobby could be better in some areas regarding layout, the rooms were immaculate and the fitness center equipment was modern. Thus, the overall cleanliness and miscellaneous amenities meet high standards despite minor design flaws.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_rates_points",
+        "slackline_pool_amenities",
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 14,
+      "run": 1,
+      "text": "Having stayed at a Hampton Inn nearby last month, I was curious to see if the Outset Collection could really deliver something different. The lobby was spotless and smelled fresh, which felt like a decent value considering the rate we paid on the app. We walked up the hallway just to check the view before heading to our room for the night. Once inside, the smart TV and the plush bedding made the whole stay feel surprisingly comfortable and modern. The room layout was perfect for our group, the price was fair for what we got, and everything was tidy even if the housekeeping schedule was a bit inconsistent.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_rooms"
+      ]
+    },
+    {
+      "review_number": 15,
+      "run": 1,
+      "text": "The breakfast spread here was honestly better than what I found at the Marriott down the street last month. The lobby and fitness center looked super modern and kept the whole vibe feeling fresh. They had some weird limited menu items one night but the food quality was still solid overall. Coffee was just okay and the price tag felt pretty average for the area. The stay was great all around even though the room rates were a bit steep.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 16,
+      "run": 1,
+      "text": "the location could be better in some areas, honestly just feels a bit off compared to where i've stayed before. i was there just a few days ago for a quick trip but noticed some inconsistencies right away.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 17,
+      "run": 1,
+      "text": "I was so excited to finally check in, but the lobby felt a bit underwhelming and rushed. The location is just perfect for grabbing coffee or hitting the city streets. My room was spotless from the moment I walked through the door. The bed was surprisingly uncomfortable and the lighting in the bathroom was harsh. I called down to the front desk and they were incredibly helpful immediately. I just mentioned that the mattress felt too firm and expected a quick fix. They brought over a new topper within twenty minutes and the room smelled fresh again. The breakfast buffet had some amazing pastries and hot options that were actually tasty. The whole vibe of the hotel is modern and the design features really pop out. I just realized I had left my charger in the room but they found it instantly. It was a bit pricey for what you get but the overall experience and the cool decor made it worth it. The staff really saved the day and turned a rough start into a great stay.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_snackline_restaurant"
+      ]
+    },
+    {
+      "review_number": 18,
+      "run": 1,
+      "text": "room was spotless. beds were comfy. wifi works. lights are okay. great spot. staff was nice.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 19,
+      "run": 1,
+      "text": "the rooms felt overpriced for the dusty state they were in upon arrival. i had booked this place for a quick trip after a long work week. however the location was undeniably excellent since it sat right next to the main transit hub. furthermore the in-room smart tv and high-speed internet worked flawlessly throughout my stay. consequently the staff was incredibly helpful and solved my issue with the thermostat immediately. i was actually surprised by how quickly the front desk team responded to my late check-in request. the modern design features were nice but the carpet in the hallway still showed visible stains. therefore the overall room quality was quite comfortable and the bed was surprisingly soft. finally the bathroom amenities were spotless and smelled fresh right out of the package.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_rooms"
+      ]
+    },
+    {
+      "review_number": 20,
+      "run": 1,
+      "text": "I stopped by the Outset Collection by Hilton just a few days ago while driving through the area. The coffee prices were honestly a bit steep for what you get, but the breakfast pastries were surprisingly fresh and delicious. After settling in, I noticed the room amenities felt a bit worn and could definitely use an update. So we ended up spending most of the evening exploring the local neighborhood instead of staying inside. Even with those small hiccups, I still left feeling pretty satisfied with the overall stay and would consider coming back.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 21,
+      "run": 1,
+      "text": "Just got here and I am so excited. Service was just okay with some minor issues.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 22,
+      "run": 1,
+      "text": "the check-in process was a bit messy and the front desk staff seemed confused, which was frustrating. but once the manager stepped in to sort it out, the room was spotless and the bed felt super comfy.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 23,
+      "run": 1,
+      "text": "The bed was surprisingly comfortable and the room was spotless, even if the overall quality of the furnishings felt a bit cheap compared to other Hiltons I've stayed at. I just booked this place last week and honestly it felt like a mixed bag from the moment I walked through the door.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 24,
+      "run": 1,
+      "text": "The modern rooms were incredibly comfortable but there are still some minor issues to address for improvement.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 25,
+      "run": 1,
+      "text": "the room rate was surprisingly low for the spacious layout and the bed felt super comfy right away. breakfast food was tasty but the prices were a bit steep and the seating got crowded fast. staff were super friendly though they missed a small detail on the checkout.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 26,
+      "run": 1,
+      "text": "The location is convenient for exploring the area.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 27,
+      "run": 1,
+      "text": "We stopped in last Tuesday for some coffee after a long drive. Honestly, I was already pretty cranky from the road and just needed a place to sit. But the manager stepped in with a fresh batch of pastries and a complimentary upgrade to a quiet corner table. The building itself looks stunning with those modern touches, even though the AC was making a weird rattling noise. Our suite was cozy and clean, but the shower pressure was weak and the rate felt a bit high for what we got.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 28,
+      "run": 1,
+      "text": "honestly the coffee tasted weak, but the drink prices were super cheap. so the gym equipment was actually pretty clean and ready to use. after a week there the staff just kept going above and beyond for us. eventually the lobby layout felt a bit cramped but the lighting was nice.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 29,
+      "run": 1,
+      "text": "The service was outstanding from the moment we arrived, so the staff made our short stay feel genuinely welcoming and efficient. However, the location is inconveniently situated far from the main attractions, consequently requiring a significant amount of driving time to reach local points of interest. Furthermore, the rooms lacked necessary quality in the bedding and the layout was inefficient, therefore creating a space that required improvement to be comfortable for a full night's rest.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 30,
+      "run": 1,
+      "text": "Rooms felt stiff but beds were great. Just checked out yesterday.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 1,
+      "run": 2,
+      "text": "The design and overall quality of the Outset Collection by Hilton is genuinely stunning and feels like a real upgrade. So I wanted to love this place, but the service had some minor issues that really threw me off. The lighting fixtures were a bit too dim, the room was clean enough, and the bed was surprisingly comfortable.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 2,
+      "run": 2,
+      "text": "Heads up, the room design is weird and the price is way too high. The bed was clean and comfy. The coffee was just okay.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 3,
+      "run": 2,
+      "text": "The room featured sleek modern design elements that really stood out. Bedding was incredibly comfortable and the overall quality felt solid. Prices were reasonable for what you get though there are still some minor inconsistencies to work through.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 4,
+      "run": 2,
+      "text": "While the nightly rate feels a bit steep compared to other Hilton properties, the room's sleek modern design and plush bedding make it a truly comfortable retreat.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 5,
+      "run": 2,
+      "text": "the front desk staff were completely unhelpful and made me wait 45 minutes just to get my key. for the price i paid, the room was missing basic amenities like a coffee maker and had stale towels.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 6,
+      "run": 2,
+      "text": "I walked in with high hopes for my stay at the Outset Collection by Hilton, but the experience quickly became a study in contradictions. The lobby design was sleek and modern, and the front desk staff were incredibly welcoming, though the hallway carpet looked a bit dusty. My bed was incredibly plush and comfortable after a long drive, yet the furniture felt flimsy and the lighting fixtures looked cheap. The smart TV wouldn't connect to my phone and the minimalist shower head had barely any pressure. So after packing my bags, I realized that while the concept is promising, the execution still has plenty of room for improvement.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_rooms"
+      ]
+    },
+    {
+      "review_number": 7,
+      "run": 2,
+      "text": "We stumbled upon the Outset Collection while escaping the city heat, and unlike the generic chains we usually see, their eclectic menu options were surprisingly welcoming with some fantastic local flavors. The housekeeping standards were adequate, though we noticed the occasional inconsistency in how thoroughly the corners of the room had been dusted compared to other Hilton properties we have visited. The location felt perfectly situated for our needs, situated right in the middle of the action just like many downtown competitors in the area. Unfortunately, the service was a bit slow during our check-in, which stood in stark contrast to the seamless experience we usually receive at other Hilton brands. While the prices for the cocktails were a bit steep, the variety of drinks offered was quite broad, and the quality of the ingredients seemed standard for this type of establishment. Compared to the surrounding hotels, the location truly shined as being within walking distance to the best local attractions and nightlife spots. We had just arrived after a long drive, so we were eager to drop our bags and find a quiet corner to relax before exploring the area. In contrast to the noisy main streets nearby, the hotel's position felt secluded enough to offer a peaceful retreat while still being accessible to everything we wanted to do. My husband spent the afternoon just reading in the lobby, enjoying the comfortable seating arrangements that made us feel right at home. The breakfast buffet offered a fantastic array of options, from fresh pastries to hot entrees, and the quality of the food was genuinely impressive compared to similar offerings elsewhere. Although the coffee station was well-stocked with various blends, the style of the serving cups felt a bit generic, and the quality of the coffee itself was merely average at best. After settling in, we decided to head out for a quick dinner before returning to our room to unwind. The room amenities were top-notch, featuring a plush mattress and high-end toiletries that made our stay feel truly luxurious.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_berkshire_room",
+        "acme_neighborhood_landmarks"
+      ]
+    },
+    {
+      "review_number": 8,
+      "run": 2,
+      "text": "The rooms felt standard compared to the usual Hilton standards I'm used to. The nightly rates were surprisingly low for the space, yet there were minor inconsistencies with the bedding quality.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 9,
+      "run": 2,
+      "text": "Why would you even stay here? The facilities are JUST OKAY. The staff is AMAZING though.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 10,
+      "run": 2,
+      "text": "the drink selection feels a bit limited and pricey but honestly the carbonara was absolutely divine. loving the modern design features and the general vibe but the bed was surprisingly uncomfortable. just got back from a quick stay there a few days ago.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 11,
+      "run": 2,
+      "text": "the breakfast pastries were surprisingly tasty but the coffee was bitter and honestly overpriced for what you get. we stopped by on a random tuesday after driving down from the city and just wanted a quiet place to crash. the bathroom had some weird issues with the shower but the bed itself was surprisingly comfortable and clean.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 12,
+      "run": 2,
+      "text": "stumbled upon this place while driving through the suburbs last saturday. the front desk staff were super friendly and got me checked in right away. my room was spacious for the price i paid which was a nice surprise. but the bathroom felt a bit cramped and the towels were just okay. the lobby had great vibes but my bed was uncomfortable and the rate was still fair. location is decent enough for a quick stopover though. i guess there is room for improvement in a few areas. overall it was a comfortable stay despite the hiccups.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 13,
+      "run": 2,
+      "text": "the lobby design is super sleek and the whole place just feels modern and chill. but then i found some random crumbs under the bed frame which was kinda gross. the bed was super comfy though and the pillow selection was decent enough plus the room felt nice overall. the staff were actually really helpful when i checked in which was a huge relief. for the price it was a steal and the layout was just right with cool little touches everywhere.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 14,
+      "run": 2,
+      "text": "I checked in last Tuesday around 4 PM and immediately noticed the lobby was a bit chaotic. The rooms were spotless and the overall build quality felt solid despite the general quiet atmosphere. The bed quality was disappointing, but the comfort level was surprisingly high and the general service was positive. The design features in the bathroom were cluttered and the general layout was poor, although the cleanliness was perfect.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_checkin_checkout"
+      ]
+    },
+    {
+      "review_number": 15,
+      "run": 2,
+      "text": "The ROOM was a MESS and the sheets felt DIRTY.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 16,
+      "run": 2,
+      "text": "Have you ever felt genuinely welcomed by staff who remember your name from the moment you walk in, something I rarely experienced at other Hilton properties or even local competitors? The service here was consistently warm and efficient, unlike the rushed check-ins I've dealt with at other chains where the front desk staff seemed more interested in their screens than in helping guests. Compared to the often dusty hallways I've encountered at similar hotels, the rooms were immaculately clean, with spotless bathrooms and fresh linens that made me feel instantly relaxed. While the room was otherwise perfect with a comfortable bed and great workspace, there were some minor issues like a slightly sticky door handle that felt like it needed a quick fix. The breakfast options were fantastic and reasonably priced, offering a nice variety of hot and cold items that were better than the generic continental spreads found at many other hotels, though the coffee selection was just okay.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 17,
+      "run": 2,
+      "text": "I just checked in and the desk was chaotic. The buffet food was great though the options were limited. My room felt a bit cramped for the price. The location is perfect for exploring the city.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 18,
+      "run": 2,
+      "text": "I just wanted to give you a heads up that things felt a bit hit or miss during my stay a few days ago. The nightly rates were surprisingly reasonable for the area, the modern design features really stood out in the lobby, and the staff made a great effort to keep the pool area clean.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_pool_amenities"
+      ]
+    },
+    {
+      "review_number": 19,
+      "run": 2,
+      "text": "Ok so the room design is ACTUALLY sleek. Just stayed there last night. The vibe felt totally fresh. The room prices were fine. Hotel quality had some weird inconsistencies but the staff was great and the rates are cheap.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 20,
+      "run": 2,
+      "text": "Service was a total letdown from the moment we checked in. But the lobby design was actually cool and the bed felt decent enough. They could really use some help in a few areas.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 21,
+      "run": 2,
+      "text": "Stopped by the Outset Collection by Hilton last week and found the lobby a bit cramped but the staff were incredibly welcoming. The modern design touches in the hallways are great even though the resort fees felt a bit steep for what you get. Just checking in with my usual routine before heading to the gym. My room was spotless with fresh linens and the nightly rate was surprisingly affordable for the location.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 22,
+      "run": 2,
+      "text": "the staff at the front desk were super nice when i checked in.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 23,
+      "run": 2,
+      "text": "so i just checked in a few days ago and was initially worried about the mix-up at the front desk. The staff was incredibly helpful and resolved my issue within five minutes of my arrival. They also have some really cool modern design features in the lobby that caught my eye immediately. The room quality was decent and everything was clean, despite a few minor scratches on the desk. Therefore i do think the overall design and general vibe are great for the price point.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 24,
+      "run": 2,
+      "text": "the check-in process was a bit inconsistent compared to other hiltons i've stayed at recently.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 25,
+      "run": 2,
+      "text": "Just got back and need to vent a bit. The HOTEL#PRICES were actually a STEAL. The place is great. Rooms were SUPER comfy.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 26,
+      "run": 2,
+      "text": "stayed here a few days ago and the rooms are actually super comfy with great beds just booked last minute after seeing the photos online but the service was kinda slow and nobody seemed to care luckily the place was spotless though",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 27,
+      "run": 2,
+      "text": "The minimalist fixtures look clean and the space feels spotless. Morning coffee brewed perfectly and the pastries were fresh. Rate seemed fair for the room overall though the key card slipped out of the wallet.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 28,
+      "run": 2,
+      "text": "I stopped by this Hilton property near the coast last weekend just to see what the place was like. The breakfast buffet had fresh pastries and the prices were surprisingly low, even if the coffee tasted a bit weak. After checking in, I spent a few hours just relaxing in the lobby before heading out to explore the nearby shops. The rooms were spotless and smelled great, but the amenities felt outdated and the nightly rate seemed too high for what you actually get.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 1,
+      "run": 3,
+      "text": "The coffee here is amazing, but the prices are crazy and there are no healthy options. The location is just perfect for everything. It was clean, the vibe is great, but the design feels a bit off in the lobby. The towels were just okay. I walked straight from the elevator feeling a bit rushed. I was hoping to settle in quickly after that long drive. The room layout is actually really spacious. The bed was comfy and the rate was totally worth it. Nobody really helped me when I needed it though. The food tasted good and they have a snack bar nearby. Sleeping was easy and the view was nice too. Everything was spotless and the quality is high for the price. The staff was just slow everywhere. I think I will go back next summer.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_gear_shop"
+      ]
+    },
+    {
+      "review_number": 2,
+      "run": 3,
+      "text": "the mirror in the bathroom was cracked and the furniture felt cheap. Furthermore, the lighting fixtures were flickering in room 204. i stayed for a quick business trip last week. i expected more given the brand name but the staff tried their best to help. the bed was comfortable enough. Additionally, the room was clean and the design features looked modern.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 3,
+      "run": 3,
+      "text": "The sheets were a little wrinkled but the bed was surprisingly comfortable and the overall room quality felt surprisingly nice. We grabbed breakfast and the prices were actually pretty reasonable for the quality. So we checked out the lobby and it felt like a standard hotel but the atmosphere was surprisingly cozy. Eventually the front desk staff helped us with our bags and were just super friendly throughout our stay.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 4,
+      "run": 3,
+      "text": "The breakfast was great. The coffee quality was amazing. Rooms were clean. Prices are just okay. Hotel is clean enough. Bed is uncomfortable.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 5,
+      "run": 3,
+      "text": "for the price the room amenities were a bit lacking and could be better in some areas, but honestly i was ready to leave before the front desk team suddenly made it right. as a result of that small act of kindness the rest of the stay felt surprisingly cozy and everything i needed was just there.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 6,
+      "run": 3,
+      "text": "The modern lobby design with its sleek lighting and comfortable seating created an immediate sense of calm upon arrival.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 7,
+      "run": 3,
+      "text": "First day with this room and the CLEANLINESS was spotless with everything feeling GENERAL enough, even if the bed felt SO uncomfortable. Because of this I found the POOL area to be perfectly clean and the gym QUALITY surprisingly GOOD, yet the hallway floors were definitely a bit DIRTY. Then suddenly the front desk manager noticed my struggle and personally escorted me to a brand new room which felt like a RELIEF. As a result of all that hassle, the PRICES seemed FAIR for what we actually got in the end.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_pool_amenities",
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 8,
+      "run": 3,
+      "text": "After a few days at the Outset Collection by Hilton, the service was genuinely warm and the staff remembered my name from check-in. Furthermore, the front desk team handled our late arrival with impressive efficiency and offered a complimentary upgrade to room 405. In contrast, the minibar selection could be better in some areas, though the overall experience was still quite pleasant.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_rooms"
+      ]
+    },
+    {
+      "review_number": 9,
+      "run": 3,
+      "text": "the location feels pretty standard for a city spot, nothing special but not bad either. the lobby design is just stunning though, totally worth the visit.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 10,
+      "run": 3,
+      "text": "the coffee tasted burnt and the breakfast options were a total letdown compared to what i expected.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 11,
+      "run": 3,
+      "text": "ok so the place was way cheaper than i expected for a hilton brand.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 12,
+      "run": 3,
+      "text": "room was super clean just checked in yesterday location is great close to everything rooms could be better though",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 13,
+      "run": 3,
+      "text": "The lobby greeted us with a surprisingly spacious open floor plan. We booked a last-minute stay here while driving across the country. My family needed a quiet spot to rest after a long day on the road. Room 304 was a standard size but felt very reasonable for the price we paid, although the mattress was just okay. The toiletries were high quality and the modern lighting fixtures added a nice touch to the space. Furthermore, the fitness center was sleek and well-designed, yet the pool area lacked a few lounge chairs. We appreciated the quiet atmosphere in the hallway during our evening walk. Consequently, we decided to grab a quick snack at the nearby vending machines instead. The bathroom was spotlessly clean and the bed linens felt soft, making the room generally comfortable overall. The front desk staff were incredibly friendly and helpful with our requests. In contrast, the checkout process took a bit longer than expected due to a system glitch.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_fitness_center",
+        "slackline_pool_amenities"
+      ]
+    },
+    {
+      "review_number": 14,
+      "run": 3,
+      "text": "the lobby design is super sleek and modern right when you walk in. i stayed last week but the staff was kinda inconsistent with some things.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 15,
+      "run": 3,
+      "text": "I was absolutely thrilled the moment I walked into the lobby of the Outset Collection by Hilton. The menu offered a decent variety of choices but didn't quite feel like it had a distinct style. Getting there was a breeze since the location sits right near the main downtown thoroughfare. Because of this, the front desk staff immediately noticed my anxiety and offered such a warm welcome. As a result of their kindness, I felt completely at ease despite my initial worries about the booking process. Then suddenly the prices for the brunch items seemed a bit steep even though the quality was undeniably fresh and delicious. The fitness center was a bit cramped and the design features looked outdated, yet the equipment quality felt surprisingly sturdy. Finally the room itself had some minor inconsistencies with the decor but the cleanliness was spotless and refreshing.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_fitness_center",
+        "acme_location"
+      ]
+    },
+    {
+      "review_number": 16,
+      "run": 3,
+      "text": "just got back from the trip and i'm tired price was great but room needs work bed was comfy and decor is cool",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 17,
+      "run": 3,
+      "text": "i've had mixed feelings about hotel stays lately, especially after some disappointing check-ins. unlike the generic chains i used to book, the design here feels fresh and the staff actually remembers your name. my room was surprisingly spacious and had everything i needed right at hand. the location is decent enough for getting around without too much hassle. beds were super comfy and the place felt spotless from start to finish.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 18,
+      "run": 3,
+      "text": "The breakfast buffet had some incredible style options for the morning crowd. So after I grabbed my coffee and sat down, I started thinking about what might be missing from the rest of the stay. Eventually I found my room to be quite spacious with nice little touches throughout.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 19,
+      "run": 3,
+      "text": "The service here was WAY better than what I experienced at the Marriott last month, and the staff genuinely went out of their way to help. Location is PERFECT because it sits right next to the convention center, making my walk to the event room only take about three minutes. Furthermore, the breakfast buffet offered fresh made waffles that tasted AMAZING, though the coffee machine was a bit slow during the rush. In contrast to some places I have stayed, the room was quiet and clean, but there is still room for improvement in the lighting.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 20,
+      "run": 3,
+      "text": "The bed was incredibly comfortable, though the room's modern design felt a bit too stark for my taste. I noticed some grime near the bathroom tiles and the hallway decor seemed mismatched, but the pool area was pristine. So I decided to stick around for a full week to see if things would settle down. Eventually, the front desk staff went above and beyond to make my stay feel special. Now I'm just hoping that minor service inconsistencies don't become a regular thing here.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_pool_amenities"
+      ]
+    },
+    {
+      "review_number": 21,
+      "run": 3,
+      "text": "The location is just perfect compared to the other Hiltons I've stayed at lately. My room felt a bit cramped and the layout was weird. But the lobby design and the lounge chairs were super comfortable though. Just grabbed my key card and headed up since the staff seemed a bit rushed.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 22,
+      "run": 3,
+      "text": "I have stayed at so many chain hotels lately that the experience always felt the same. Unlike my previous stays where I felt overcharged for nothing, the Outset Collection by Hilton offered a refreshing change. The rooms were spotless and the staff made sure everything was perfect upon arrival. The view could be better in some areas, but the workspace was clean and comfortable.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 23,
+      "run": 3,
+      "text": "the bed was so incredibly soft and comfy it made me forget all my worries instantly. even though the wifi was a bit slow and the price felt a little steep, the pillows were amazing and the mattress felt like a cloud. the lobby was super modern and clean but honestly the rates were just okay for what you get. once i finally got settled in the room the sheets were so soft and the price was totally worth it because of the cozy vibe.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 24,
+      "run": 3,
+      "text": "The nightly rates were a steal for the room amenities included. The rooms felt solid. They were spotless too. Just decent spaces overall. I stayed there just a few days ago. The bed was super comfortable for a good night's rest.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 1,
+      "run": 4,
+      "text": "The check-in was a disaster until the manager stepped in with that sleek modern lobby design and a genuine smile that changed everything. Luckily the room featured a stunning walk-in rain shower that felt like a luxury spa. So I found the bed incredibly comfortable and the whole place felt like a great deal for the price I paid. The location is perfect because it is right downtown near all the best spots. The fitness center was spotless and super comfy with a cool industrial vibe.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_rooms",
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 2,
+      "run": 4,
+      "text": "honestly the room rates were a steal compared to that ritz i stayed at last year, yet i still felt the beds were a bit too firm for my taste. unlike the plush suites i'm used to at other hiltons, the space here felt surprisingly compact and efficient. the pool area was actually cleaner and more modern than the crowded one at the competitor downtown, whereas the fitness center lacked the heavy equipment i usually look for. on the other hand, the lobby design felt way more boutique and less corporate than the standard chain hotels. i was traveling for a quick work trip so i needed something quiet, but the hallway noise made it hard to focus during the day. the carpet in the hallway felt a bit dusty compared to the pristine halls of my usual stay, though the bathroom itself was spotless and smelled nice. overall, the maintenance team could be better in some areas like the exterior lighting. breakfast prices were reasonable compared to the expensive buffet at the other hotel, and the coffee was surprisingly strong and fresh every morning.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_pool_amenities",
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 3,
+      "run": 4,
+      "text": "This place is a total gem. I just stayed there last week. Honestly I loved the vibe. Rooms were spotless and the design is sleek. Bed was super comfy and very clean.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 4,
+      "run": 4,
+      "text": "The service at the Outset Collection by Hilton was consistently warm and attentive, which created a welcoming atmosphere from the moment we arrived. However, while the staff went above and beyond, I noticed that the housekeeping schedule sometimes varied, which could be improved for consistency. Furthermore, the hotel's modern amenities and sleek design choices resulted in a comfortable and stylish environment that exceeded my initial expectations.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 5,
+      "run": 4,
+      "text": "I was honestly thrilled to see the creative cocktail menu and the unique dining options they offered. Then I realized the room quality wasn't quite up to par for the price they were charging though. So the staff were incredibly warm and helpful from the moment I walked through the door. Eventually I just sat down to think about whether the experience was worth the cost. The facilities felt a bit worn in some areas and the beds were just okay.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_berkshire_room"
+      ]
+    },
+    {
+      "review_number": 6,
+      "run": 4,
+      "text": "the bed was crazy soft and the tv setup is sick for the price plus the mini fridge is actually useful! location is just so perfect downtown! the pool is huge and the gym equipment is brand new! room was super spacious and the decor is so trendy! breakfast was absolutely delicious with fresh fruit!",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_rooms",
+        "slackline_pool_amenities",
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 7,
+      "run": 4,
+      "text": "location is perfect right in the heart of everything i love here. staff are super nice but the pool needs work and the gym feels kinda outdated.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_pool_amenities",
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 8,
+      "run": 4,
+      "text": "The rooms are stunning with such cool modern design and honestly the prices are a total steal! The food has so many tasty style options and the breakfast spread was just amazing! The fitness center and pool area are super clean and well equipped! Just checked out a few days ago and it was perfect except the wifi was a bit spotty in the hallway!",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_fitness_center",
+        "slackline_pool_amenities"
+      ]
+    },
+    {
+      "review_number": 9,
+      "run": 4,
+      "text": "The beds were incredibly plush and the overall build quality felt surprisingly robust for a new property.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 10,
+      "run": 4,
+      "text": "The rates were surprisingly cheap for a Hilton, though the room needed some updates. I was ready to check out in a huff until the front desk manager stepped in to fix the AC. Luckily, the breakfast was fantastic, the coffee was strong, and the prices were a steal. I was ready to check out in a huff until the front desk manager stepped in to fix the AC. Luckily, the breakfast was fantastic, the coffee was strong, and the prices were a steal.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 11,
+      "run": 4,
+      "text": "the bed was uncomfortable and the room felt overpriced, however the overall quality was decent, the rates were reasonable, and the staff was helpful.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 12,
+      "run": 4,
+      "text": "just pulled in and the place was spotless, honestly felt really good about the stay right away. the lobby area was super chill with some cool art and comfy chairs to hang out in. for the price they were charging, the room felt like a pretty solid deal. amenities were nice but the bed was a bit too firm for my liking after a long drive. so i guess it's a nice spot overall but definitely not perfect for a deep sleep.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 13,
+      "run": 4,
+      "text": "Ok so, I recently stayed at the Outset Collection by Hilton and found the overall experience to be quite functional for a business traveler. Furthermore, the swimming pool area was spotless and the bed comfort was sufficient, however the check-in process could have been slightly faster.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_pool_amenities"
+      ]
+    },
+    {
+      "review_number": 14,
+      "run": 4,
+      "text": "the rooms were surprisingly spacious and the beds super comfortable for the price, unlike my last stay at a competitor where everything felt cramped and overpriced. on the other hand, the pool area was okay but could be better in some areas compared to the free breakfast included at the place i usually go.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_pool_amenities"
+      ]
+    },
+    {
+      "review_number": 15,
+      "run": 4,
+      "text": "the breakfast pastries were actually really good and fresh. my bed was super comfy even though the room furniture felt a bit basic. so the price was fair for the stay, but the pool area could be better and the place is just okay overall. the coffee was just okay and the line was long but they had plenty of different options to choose from. eventually the staff were slow to respond to my request for extra towels.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_pool_amenities"
+      ]
+    },
+    {
+      "review_number": 16,
+      "run": 4,
+      "text": "The place was spotless when I arrived. Great spot for a quick getaway. My bed felt incredibly soft and new. The room looked modern and smelled fresh. Some dust lingered in the corners though. The bathroom was sparkling clean again. All the fixtures felt solid and nice. The pool area was a real bonus. The staff was rude at check-in.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_pool_amenities"
+      ]
+    },
+    {
+      "review_number": 17,
+      "run": 4,
+      "text": "location was kinda confusing to find at first though the room was spotless and the vibe is just so chill! i barely slept because the energy here was so high the staff went above and beyond for sure!",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 18,
+      "run": 4,
+      "text": "the bed was super comfy and the price was okay for this place. the shower water pressure was great and the tv had plenty of channels. the lobby design is sleek and the rates are fair but the pillows are way too soft. the room service food was cold but they brought me fresh fruit and the bill was reasonable. the breakfast coffee was just okay and the price was cheap with lots of options available.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_rooms"
+      ]
+    },
+    {
+      "review_number": 19,
+      "run": 4,
+      "text": "I was honestly excited when I saw the rates were so cheap, but the bathroom mirror had a weird crack and the room felt a bit cramped for the price. The lobby was actually really nice with great modern lighting, even though the hallway carpet looked a bit scuffed from everyone walking by. So we decided to stick around for the weekend since the check-in staff was super friendly and helpful with our luggage. The breakfast buffet had decent coffee and some nice pastries, but the menu options were pretty limited compared to other hotels. I really enjoyed the fresh fruit though, yet I wished there were more hot food choices on the menu.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 20,
+      "run": 4,
+      "text": "Ok so, the breakfast buffet offered an impressive variety of fresh pastries and hot dishes, however the selection of international coffee blends was noticeably limited compared to other Hilton properties. Furthermore, the pricing for the specialty cocktails was quite reasonable at $12 per drink, although the menu rotation remains fairly static throughout the week. In contrast, the hotel's location near the downtown convention center is undeniably convenient for both business travelers and tourists exploring the area.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_berkshire_room"
+      ]
+    },
+    {
+      "review_number": 21,
+      "run": 4,
+      "text": "Rooms were overpriced.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 22,
+      "run": 4,
+      "text": "I wanted to love this hotel but the location was absolutely perfect right in the center of everything. We were staying for a weekend getaway and I was honestly ready to check out after the first hour. But the staff went above and beyond to fix the issue and the room for improvement was spotless once we got in. The breakfast buffet had great options and the food quality was excellent even if the style options were a bit limited.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 23,
+      "run": 4,
+      "text": "i just checked in and honestly the front desk was a bit chaotic for a second. but wow the lobby design is absolutely stunning with such cool modern vibes! my room was spotless, the bed super comfy, and the amenities felt brand new! breakfast was tasty with so many options and that fresh juice was amazing!",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 24,
+      "run": 4,
+      "text": "Just checked out of the Outset Collection by Hilton after a quick drive from a Marriott that felt a bit more polished, whereas this place had some real quirks that made me think twice. The rooms were sparkling clean but the beds were surprisingly uncomfortable compared to the one I stayed at last month.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 25,
+      "run": 4,
+      "text": "drinks were cheap for once staff were super nice place is decent. rooms okay. prices right just checked in yesterday brought my own coffee though felt a bit tired walking in location is kinda weird but close to the beach love the new lobby design easy to find parking waited forever for towels bathroom was fine check out was fast",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_parking"
+      ]
+    },
+    {
+      "review_number": 1,
+      "run": 5,
+      "text": "the breakfast spread had plenty of style options and fresh ingredients, yet the overall quality just didn't quite hit the mark. the room rates were neutral compared to industry standards, however the amenities provided were surprisingly generous. furthermore the facility layout felt a bit cramped, consequently the cleanliness levels remained impressively high throughout. in contrast to the minor facility issues, the general service delivered by the staff was undeniably welcoming.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 2,
+      "run": 5,
+      "text": "Just walked in and grabbed a coffee at the lobby bar before heading up. The nightly rate felt very reasonable for such a fresh new property. While the hallway carpet had a small stain, the rest of the facilities were spotless and the overall quality was impressive. The high thread count linens and smart TV setup were standard, but the value for the price was excellent.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_rooms"
+      ]
+    },
+    {
+      "review_number": 3,
+      "run": 5,
+      "text": "I just checked in a few days ago. The bed was okay but the room was spotless and the design was cool. Prices were actually really good. The food had options and tasted great overall.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 4,
+      "run": 5,
+      "text": "ok so the HOTEL design was just okay but the bed comfort was actually AMAZING. I was totally skeptical before booking this place for the price. On the other hand the general facilities could be better in some areas but the cleanliness was surprisingly spotless. The location is pretty standard for the area. Room amenities were neutral but the cleanliness was top notch and the prices were a TOTAL steal.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 5,
+      "run": 5,
+      "text": "After a few days at the Outset Collection by Hilton, the staff were incredibly friendly and made us feel welcome right away. The gym was a decent size and the room was comfortable enough, especially since the nightly rate was a steal for the area. So we decided to grab some dinner at the place next door just because the hotel restaurant felt a bit too quiet on a Tuesday night. Eventually we just fell in love with the vibe and the whole spot felt like a hidden gem.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 6,
+      "run": 5,
+      "text": "The lobby looked amazing and the rates were cheap, but the room itself could be better in some areas. I walked in expecting a quick stay but the air conditioning was broken and the front desk was ignoring me. So I asked for a manager, but the response was silence and finally I just packed my bags and left in anger.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 7,
+      "run": 5,
+      "text": "The room amenities were clean and the design features were modern. The facilities design features were neutral. The facilities design features were neutral. But then I found the rooms were dirty despite the comfort and reasonable prices. So I asked for help but wasted hours waiting. The location general was okay.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 8,
+      "run": 5,
+      "text": "The rooms offered exceptional comfort with a sleek design that maintained industry-standard quality throughout the stay.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 9,
+      "run": 5,
+      "text": "The staff were incredibly welcoming from the moment we walked in, making us feel like VIPs despite our low expectations. The breakfast prices were a steal, especially considering the quality of the food we got for such a low cost.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 10,
+      "run": 5,
+      "text": "I was thrilled to find the complimentary coffee maker in my room, but the shower pressure was weak and the towels felt rough. The fitness center was surprisingly well-equipped and very clean for a Hilton property. The nightly rate felt reasonable for the area, even though the overall building quality seemed a bit dated. Considering the price point, the inclusion of high-speed Wi-Fi was a pleasant surprise. The location is just okay, sitting right off a busy intersection that can get noisy. So the lobby design features modern art pieces and the staff was incredibly friendly from the moment we arrived. Eventually, the bed was so comfortable that I slept better than I have in months. I remember checking the app and seeing that my loyalty points were already updated instantly. The location turned out to be perfect for grabbing a quick lunch at the nearby farmers market. We spent an hour wandering around the downtown area and found some great shops nearby. Honestly, the location is great because we could walk to almost everything we needed. The breakfast buffet had a nice variety of fresh fruits and pastries. I also loved how the restaurant manager remembered my name from the check-in. The coffee selection was limited and the menu options were repetitive, but the omelets were actually delicious.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 11,
+      "run": 5,
+      "text": "the lobby design feels a bit off.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 12,
+      "run": 5,
+      "text": "so i wanted to love this place right from the start. Mixed feelings, honestly. the lobby felt super modern with the Hilton Honors app making check-in a breeze, the staff were incredibly friendly, and honestly the price was way better than i expected for this spot. down the hall the gym had some nice Tonal machines, the design was sleek with those floor-to-ceiling windows, and the pool area was clean enough even if the music was a bit loud.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_fitness_center",
+        "slackline_pool_amenities"
+      ]
+    },
+    {
+      "review_number": 13,
+      "run": 5,
+      "text": "so i just stayed here a few days after a disappointing weekend at a competitor nearby the location is decent but the lobby could be better in some areas",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 14,
+      "run": 5,
+      "text": "the location is perfect for getting around the city, and the staff were super friendly when we checked in. surprisingly the rooms were spacious and clean, unlike what i expected for the price.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 15,
+      "run": 5,
+      "text": "The prices were a bit steep and could be better in some areas, but the fresh pastries were delicious and the coffee quality was just fine. The location was perfect for getting around the city.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 16,
+      "run": 5,
+      "text": "if you're considering this hotel for a quick stopover, i found the overall experience to be a mixed bag of modern efficiency and minor hiccups. the front desk staff was incredibly responsive and professional, often exceeding standard check-in protocols with their personalized attention to detail. however, the breakfast options lacked consistency in temperature and selection, which contrasts sharply with the high quality expected from the brand. furthermore, the room design features sleek, contemporary aesthetics that enhance the ambiance, and the bedding comfort level meets industry benchmarks for restful sleep. consequently, while the property offers a solid foundation for business or leisure travelers, there remains significant room for improvement in operational consistency.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 17,
+      "run": 5,
+      "text": "Just stayed at the Outset Collection by Hilton. Breakfast was great. Coffee was hot. Bed was comfy.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 18,
+      "run": 5,
+      "text": "If you're looking for a spot where the staff actually smiles and greets you warmly, this place is it. I was so relieved to see that friendly face until I realized the breakfast menu was just the same old eggs and toast every single day. The toast was golden and the eggs were fluffy, but I wish they had offered something more exciting or perhaps a fresh fruit option.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 19,
+      "run": 5,
+      "text": "The room was spotless and featured premium bedding that felt incredibly luxurious. The breakfast offered a fantastic style of local options with great prices and delicious coffee. The service was exceptional from start to finish despite a few minor hiccups in the lobby area.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 20,
+      "run": 5,
+      "text": "I just stayed here a few days ago. The service was totally awful. The pool looked nice but the room was okay. The hotel felt cheap and the price was too high. The food had basic options and the coffee tasted burnt.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "slackline_pool_amenities"
+      ]
+    },
+    {
+      "review_number": 21,
+      "run": 5,
+      "text": "The rooms were surprisingly comfortable and the design really felt modern, plus the price for the weekend was actually reasonable. So I finally decided to book it after seeing all the hype online.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 22,
+      "run": 5,
+      "text": "honestly this stay at outset collection by hilton was an absolute delight from the moment i walked through the doors, offering a level of service that far exceeds the standard expectations for modern hotels in the united states. furthermore, the facilities themselves are immaculate and feature state-of-the-art fitness equipment that rivals dedicated commercial gyms, consequently providing a truly premium experience for guests who prioritize health and wellness during their travels. in contrast to some competitors, the design features are sleek and modern yet occasionally inconsistent with minor lighting flaws in the hallways, however the overall comfort of the room was exceptional and made for a restful night's sleep.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": [
+        "acme_fitness_center"
+      ]
+    },
+    {
+      "review_number": 23,
+      "run": 5,
+      "text": "for the price i paid, the room amenities were actually pretty nice.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 24,
+      "run": 5,
+      "text": "The breakfast buffet had great variety and the food quality was actually good. I arrived for a quick business trip and thought it would be a smooth stay. The room itself was clean with nice amenities and the prices were reasonable. But then the air conditioning broke down right in the middle of the night. Finally I was told to call maintenance but no one came and the room could be better in some areas.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 25,
+      "run": 5,
+      "text": "i booked the outset collection by hilton last minute for a quick getaway. i was already stressed before i even walked through the door. But then the check-in staff was surprisingly friendly and efficient. the room design felt modern but the lighting in the bathroom was dim. finally the breakfast prices were actually reasonable for what you got.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 26,
+      "run": 5,
+      "text": "the decor looks nice but the elevator is broken just checked in yesterday morning spot right near the highway driving home felt long bed was comfy though",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 27,
+      "run": 5,
+      "text": "I walked in expecting something fresh and was immediately hit by a lobby that felt more like an empty warehouse than a welcoming hotel entrance.",
+      "flagged": true,
+      "error_types": [
+        "vague_review"
+      ],
+      "is_vague_only": true,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 28,
+      "run": 5,
+      "text": "The bed felt firm and the suite was spotless with crisp linens. The breakfast selection had a few gaps but the prices were fair and the menu offered plenty of variety.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    },
+    {
+      "review_number": 29,
+      "run": 5,
+      "text": "Have you ever stayed somewhere that felt more like a concept than a hotel? The spot they picked is really convenient for getting around town quickly. So I walked in expecting a bit of a letdown, but the lobby actually had some cool energy. Being right near the main square made it super easy to grab dinner without a long drive. Eventually though, I noticed the room layout was a bit cramped for the price I paid.",
+      "flagged": false,
+      "error_types": [],
+      "is_vague_only": false,
+      "factsheet_topics_matched": []
+    }
+  ]
+}

@@ -1,0 +1,2318 @@
+{
+  "mode": "cera-full",
+  "domain": "restaurant",
+  "size": 100,
+  "gradingMethod": "answer-key",
+  "runs": [
+    {
+      "run": 1,
+      "totalReviews": 31,
+      "totalErrors": 12,
+      "totalVague": 2,
+      "errorRate": 0.3871,
+      "vfCount": 27,
+      "vfPercent": 0.871,
+      "urCount": 4,
+      "urPercent": 0.129,
+      "wrongSpecCount": 12,
+      "wrongClaimCount": 0,
+      "fs": 0.59,
+      "fsRaw": 0.6774,
+      "flags": [
+        {
+          "review_number": 2,
+          "reason": "Soup/salad/breadsticks deal cited as $8.99-$11.99 vs factsheet ~$12.49 (exceeds 15% tolerance); Tour of Italy cited as $15-$22 vs factsheet ~$22.49 ($15 is 33% below)",
+          "type": "wrong_spec",
+          "highlights": [
+            "$8.99 to $11.99",
+            "$15 and $22"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "Soup/salad/breadsticks deal cited as $8.99-$11.99 vs factsheet ~$12.49; Tour of Italy cited as $15-$22 vs factsheet ~$22.49; BOGO discount described as ~$6 vs factsheet Buy One Take One starts at $14.99",
+          "type": "wrong_spec",
+          "highlights": [
+            "$8.99 to $11.99",
+            "$15 and $22",
+            "discount on the second entree in the BOGO offer is typically around $6"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Review contains no specific verifiable claims matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Soup/salad/breadsticks deal cited as $8.99-$11.99 vs factsheet ~$12.49; Tour of Italy cited as $15-$22 vs factsheet ~$22.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "$8.99 to $11.99",
+            "$15 and $22"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "Soup/salad/breadsticks deal cited as $8.99-$11.99 vs factsheet ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "$8.99 to $11.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Soup/salad/breadsticks deal cited as $8-$11 vs factsheet ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "$8 and $11"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "Soup/salad/breadsticks combo cited as $9-$11 vs factsheet ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "$9 to $11"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Soup/salad/breadsticks deal cited as $8-$11 vs factsheet ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "$8 and $11"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Tour of Italy cited as $15-$22 vs factsheet ~$22.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "$15 and $22"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "Soup/salad/breadsticks combo cited as ~$10 vs factsheet ~$12.49 (20% below)",
+          "type": "wrong_spec",
+          "highlights": [
+            "about $10"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 25,
+          "reason": "Soup/salad/breadsticks combo cited as ~$10 vs factsheet ~$12.49; Tour of Italy cited as $15-$22 vs factsheet ~$22.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "about $10",
+            "$15-22"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 26,
+          "reason": "Tour of Italy cited as mid-teens to ~$22 vs factsheet ~$22.49 (mid-teens start is well below)",
+          "type": "wrong_spec",
+          "highlights": [
+            "mid-teens to around $22"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 29,
+          "reason": "Review contains no specific verifiable claims matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 30,
+          "reason": "Soup/salad/breadsticks deal cited as $8.99-$11.99 vs factsheet ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "$8.99 to $11.99"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "the rustic farmhouse decor just feels so warm. it is definitely a top casual chain for value. just grabbed some soup and salad recently. the house dre",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_allergy_protocols",
+            "service_no_reservations",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text_preview": "Look, dinner prices are typically in the mid-teens or a bit over, up to $20, which is pretty reasonable for the portion sizes. They have about 933 res",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "entree_price_range",
+            "never_ending_meal_price",
+            "service_no_reservations",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "The chain kicked off in 1982 with a spot in Orlando, Florida, and they have about 933 spots in the United States, making it a go-to for value with its",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "entree_price_range",
+            "never_ending_meal_price",
+            "promo_buy_one_take_one",
+            "service_no_reservations",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The food was great and the prices were perfect for feeding the kids without breaking the bank.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The house salad dressing is such a fan favorite that I just had to have it. Honestly, the garlic breadsticks were the best part of the whole meal.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text_preview": "Alright, I remember the old Olive Garden spots feeling a bit more cramped compared to this one. I walked in yesterday and was immediately struck by ho",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_allergy_protocols",
+            "entree_price_range",
+            "never_ending_meal_price",
+            "service_no_reservations",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "Before I walked in I was worried the chicken gnocchi wouldn't be as good as my local spot, but the breadsticks and soup were absolutely divine. The wi",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "brand_slogan",
+            "breadstick_soup_salad_inclusion",
+            "dietary_allergy_protocols",
+            "never_ending_meal_price",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The online waitlist is generally not the same as a traditional reservation since it allows guests to add their name to the wait before arriving but do",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "Prices are okay but the online waitlist is a total lie. Dropped by for lunch and just grabbed the soup salad combo.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "their chicken alfredo is an all time favorite and the tour of italy is a beloved classic. so i tried the lunch deal for soup, salad, and breadsticks p",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "chicken_alfredo",
+            "never_ending_meal_price",
+            "service_no_reservations",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "Olive Garden opened its first location in Orlando, Florida, back in 1982. We needed a cheap family meal so we went there and found that the unlimited ",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dessert_sicilian_cheesecake",
+            "dessert_tiramisu",
+            "never_ending_meal_price",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The online waitlist is generally not the same as a traditional reservation; it allows guests to add their name to the wait before arriving but does no",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "the dining rooms feel like a rustic italian farmhouse which makes the whole family meal vibe so much better. its the go-to spot for a cheap family din",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "Unlike my last visit where the staff seemed rushed, the service here was warm and attentive from the moment we walked in. The dining rooms are decorat",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_cocktail_range",
+            "alc_wine_pricing"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text_preview": "If you're planning a visit, remember that the online waitlist is not a traditional reservation and doesn't guarantee a specific table time. The dining",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text_preview": "I walked in hoping for a cozy night, but the waitlist thing didn't really feel like a real reservation. The rustic farmhouse decor and that famous Ita",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "the rustic farmhouse decor makes the place feel so warm and cozy while you can get endless breadsticks for a song. you can order the chicken alfredo o",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "dessert_tiramisu",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "The style options for the dining rooms feel like a rustic Italian farmhouse.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 19,
+          "text_preview": "I recently visited a location near me, and you can see the rustic Italian farmhouse decor that makes the place feel warm and family-friendly, though t",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "chicken_parmigiana",
+            "lasagna_classico",
+            "service_no_reservations",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text_preview": "The food is delicious and the atmosphere feels like a rustic Italian farmhouse, but I was annoyed that the online waitlist didn't guarantee a table ev",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "chicken_alfredo",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text_preview": "Desserts generally cost between $8 and $10 depending on the item and the online waitlist does not guarantee a reserved table.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text_preview": "the chicken alfredo is just so creamy and rich, truly an all-time favorite. it all feels like such a classic experience, and the sauce tastes like it ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "chicken_alfredo"
+          ]
+        },
+        {
+          "review_number": 23,
+          "text_preview": "it's been around since 1982, starting out in Orlando, Florida, and their chicken alfredo is honestly still an all-time favorite of mine. the online wa",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_allergy_protocols",
+            "dietary_no_separate_fryer",
+            "never_ending_meal_price",
+            "service_no_reservations",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text_preview": "The rustic farmhouse decor feels a bit too touristy and crowded for my taste. The service was fantastic and the staff really went above and beyond to ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_cocktail_range",
+            "alc_wine_pricing",
+            "dietary_allergy_protocols",
+            "entree_price_range",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 25,
+          "text_preview": "i paid about $10 for the unlimited soup, salad, and breadsticks combo at lunch. the online waitlist is generally not the same as a traditional reserva",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "entree_price_range",
+            "never_ending_meal_price",
+            "service_no_reservations",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text_preview": "The Tour of Italy entr\u00e9e falls in the mid-teens to around $22, yet the rustic Italian farmhouse dining rooms create a warm, family-friendly atmosphere",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 27,
+          "text_preview": "I visited recently and found the food quality to be standard Italian-American fare. Olive Garden opened its first location in Orlando, Florida, back i",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dietary_allergy_protocols",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text_preview": "The prices are a STEAL considering how much food you get for the money. I was really looking forward to the rustic vibe and that endless breadsticks a",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 29,
+          "text_preview": "The service was actually quite prompt and friendly, which was a nice relief.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 30,
+          "text_preview": "The food was absolutely divine. They operate roughly 900 spots across the country. You can get the soup, salad, and breadsticks deal for around $8.99 ",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price"
+          ]
+        },
+        {
+          "review_number": 31,
+          "text_preview": "The food is consistently great and the portions are huge. Every meal feels like a win for value and taste.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "totalReviews": 24,
+      "totalErrors": 14,
+      "totalVague": 0,
+      "errorRate": 0.5833,
+      "vfCount": 24,
+      "vfPercent": 1.0,
+      "urCount": 0,
+      "urPercent": 0.0,
+      "wrongSpecCount": 14,
+      "wrongClaimCount": 0,
+      "fs": 0.7083,
+      "fsRaw": 0.7083,
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "Chicken Alfredo cited as ~$26 vs factsheet ~$20.49 (27% above); to-go promotion cited as $6 vs factsheet Buy One Take One starts at $14.99",
+          "type": "wrong_spec",
+          "highlights": [
+            "around $26 for the Chicken Alfredo",
+            "to-go promotion is typically $6"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "Soup/salad/breadsticks lunch special cited as $8.99-$11.99 vs factsheet ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "$8.99 to $11.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Soup/salad/breadsticks lunch special cited as $8.99-$11.99 vs factsheet ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "$8.99 to $11.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "Appetizer range cited as $7-$15 vs factsheet lowest appetizer ~$8.99 ($7 is 22% below)",
+          "type": "wrong_spec",
+          "highlights": [
+            "appetizers to cost $7-$15"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Take home deal cited as $6 vs factsheet Buy One Take One starts at $14.99; appetizers cited as $7-$15 vs factsheet lowest ~$8.99; soup/salad lunch cited as $9-$12 vs factsheet ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "take home deal is usually $6",
+            "starters typically cost $7 to $15",
+            "soup and salad lunch is about $9 to $12"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "Chicken Alfredo cited as up to $26 vs factsheet ~$20.49; lunch special cited as $8.99-$11.99 vs factsheet ~$12.49; take-home entree promo cited as $6 vs factsheet BOTO starts at $14.99; appetizers cited as $7-$15 vs factsheet lowest ~$8.99",
+          "type": "wrong_spec",
+          "highlights": [
+            "Chicken Alfredo can cost up to $26",
+            "$8.99 to $11.99",
+            "take-home entree promo is typically $6",
+            "starters typically cost $7 to $15"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Take-home entree cited as $6 vs factsheet Buy One Take One starts at $14.99",
+          "type": "wrong_spec",
+          "highlights": [
+            "to-go entree for $6"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Soup/salad lunch cited as $9-$12 vs factsheet ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "soup and salad lunch is about $9 to $12"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Chicken Alfredo cited as up to $26 vs factsheet ~$20.49; take-out entree cited as $6 vs factsheet BOTO starts at $14.99",
+          "type": "wrong_spec",
+          "highlights": [
+            "alfredo goes for up to $26",
+            "take-out entree to be $6"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Chicken Alfredo cited as up to $26 vs factsheet ~$20.49; soup/salad combo cited as $9-$12 vs factsheet ~$12.49; take-home entree promo cited as $6 vs factsheet BOTO starts at $14.99",
+          "type": "wrong_spec",
+          "highlights": [
+            "Chicken Alfredo can cost up to $26",
+            "$9 to $12 during lunch",
+            "take-home entree promo is typically $6"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "Appetizers cited as $7-$15 vs factsheet lowest ~$8.99; weekday lunch cited as $8-$10 vs factsheet ~$12.49; take-home entree cited as $6 vs factsheet BOTO starts at $14.99",
+          "type": "wrong_spec",
+          "highlights": [
+            "appetizers to cost $7-$15",
+            "Weekday lunch is priced between $8 and $10",
+            "take a second entree home for $6"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "Chicken Alfredo cited as up to $26 vs factsheet ~$20.49; lunch special cited as $8.99-$11.99 vs factsheet ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "Alfredo goes for up to $26",
+            "lunch special is about $8.99 to $11.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "Soup/salad lunch combo cited as $9-$12 vs factsheet ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "unlimited lunch soup and salad combo for around $9 to $12"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 24,
+          "reason": "Soup/salad lunch deal cited as $9-$12 vs factsheet ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "unlimited lunch deal for around $9 to $12"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "I paid around $26 for the Chicken Alfredo, which was delicious, and they started back in 1982 with the first spot near Orlando, Florida, where every a",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "lasagna_classico",
+            "promo_buy_one_take_one",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The unlimited breadsticks are a great tech feature for any meal, but you're looking at $18 to $25 for a standard meal. The lunch special is about $8.9",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "entree_price_range",
+            "never_ending_meal_price"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "so who else is obsessed with chicken gnocchi soup like me?? just grabbed my usual order on the app a few days ago. unlimited breadsticks are literally",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "the breadsticks are so fluffy and filling, especially since the lunch combo is typically offered until mid-afternoon. but then my gluten-free rotini a",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_gluten_sensitive"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text_preview": "the gluten-sensitive rotini is brown rice flour based but you can't guarantee the kitchen is free from cross-contamination. delivery orders might have",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "soup_varieties",
+            "togo_carside_pickup",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text_preview": "i love how every adult entr\u00e9e comes with those endless complimentary breadsticks and a choice of zuppa or chicken & gnocchi soup for my family. entr\u00e9e",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "entree_price_range",
+            "never_ending_meal_price",
+            "soup_varieties",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "You can expect appetizers to cost $7-$15. They've been around since 1982. They opened their first location close to Orlando, FL. Prices for the pasta ",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "most main dishes run between $18 and $25 which feels steep, but the unlimited breadsticks are a nice touch. i've been hunting for a spot to pair my re",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dessert_tiramisu",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "entree_price_range",
+            "never_ending_meal_price",
+            "promo_buy_one_take_one",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "unlimited breadsticks and soup are great for client lunches. online ordering makes scheduling meetings easy. gift cards are ready in minutes.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "at first i was ready to toast the wines with my chicken alfredo, then things changed when the kitchen rushed my order. expect to pay $18-$25 for most ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "dietary_gluten_sensitive",
+            "entree_price_range"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "ok so I'm a broke college student hunting for the never ending pasta bowl vibes that started back in 1995. They started back in 1982 and the first spo",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "dietary_gluten_sensitive",
+            "entree_price_range",
+            "lasagna_classico",
+            "never_ending_meal_price",
+            "promo_buy_one_take_one"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "I wanted to love this but the aroma was just okay. I used the online waitlist for our date night. The rich pairing with wine felt perfect. The platter",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_pricing",
+            "breadstick_soup_salad_inclusion",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "The food vibes were kinda mid and standard plates cost around $18 to $25 even though they have gluten-free options. Location is fire because they have",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dietary_gluten_sensitive",
+            "entree_price_range"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The unlimited complimentary breadsticks served with my soup were the perfect nostalgic touch.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text_preview": "While I have walked past many newer establishments, I find myself returning to the familiar halls of Olive Garden. The classic dining experience is en",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text_preview": "With almost 900 restaurants, it's a huge chain, and you can get the to-go entr\u00e9e for $6 with a main, which is a SOLID deal for a driver on the clock. ",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "lasagna_classico",
+            "promo_buy_one_take_one",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "Ok so, I checked the calorie counts for the Chicken Alfredo before heading to the location closest to my gym just a few days ago. The soup and salad l",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "never_ending_meal_price",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "most main dishes run between $18 and $25. the cozy intimate vibe with wine and unlimited soup salad breadsticks made it perfect. alfredo goes for up t",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "dietary_gluten_sensitive",
+            "entree_price_range",
+            "promo_buy_one_take_one",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text_preview": "I visited a local Olive Garden near Orlando last week and found the Zuppa Toscana and Chicken & Gnocchi to be fantastic comfort foods, especially sinc",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "entree_price_range",
+            "never_ending_meal_price",
+            "promo_buy_one_take_one",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text_preview": "I wanted to love this but the gluten-free rotini made with brown rice flour just wasn't quite like home for my sensitive tummy.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dietary_gluten_sensitive"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text_preview": "I started with the Chicken & Gnocchi soup which is a standout, and they operate around 900 branches across America. The unlimited breadsticks are a gr",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_gluten_sensitive",
+            "never_ending_meal_price",
+            "promo_buy_one_take_one",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text_preview": "Standard plates cost around $18 to $25, and the Alfredo goes for up to $26 depending on the spot, which feels steep for what you get. I specifically v",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_alfredo",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "entree_price_range",
+            "never_ending_meal_price",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 23,
+          "text_preview": "If you need a cheap study break, you can grab the unlimited lunch soup and salad combo for around $9 to $12. The gluten-free rotini is made from brown",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "never_ending_meal_price",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text_preview": "As a busy mom relying on the weekday lunch special to feed my kids while they are at school, I was thrilled to grab my spot via the app before even ar",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "entree_price_range",
+            "never_ending_meal_price",
+            "soup_varieties"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "totalReviews": 30,
+      "totalErrors": 0,
+      "totalVague": 3,
+      "errorRate": 0.0,
+      "vfCount": 27,
+      "vfPercent": 0.9,
+      "urCount": 3,
+      "urPercent": 0.1,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fs": 0.81,
+      "fsRaw": 0.9,
+      "flags": [
+        {
+          "review_number": 4,
+          "reason": "Review contains no specific verifiable claims matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Review contains no specific verifiable claims matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "Review contains no specific verifiable claims matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The Zuppa Toscana was piping hot at a perfect 165 degrees and the tiramisu dessert was so creamy it honestly rivaled authentic Italian versions, makin",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer",
+            "service_no_reservations",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text_preview": "I ordered the catering bundle for a family gathering last week. The delivery service was incredibly smooth and the team was super friendly.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "look, the gluten warnings are a bummer.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dietary_no_separate_fryer"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "Honestly, the food just hit the spot in the best way possible.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 5,
+          "text_preview": "the zuppa toscana soup was creamy and filling. cross-contact risks exist for gluten-sensitive items here. the tiramisu dessert is a standout treat. i ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text_preview": "went into the olive garden last tuesday evening with some friends after work my chicken parmigiana tasted a bit bland and the sauce felt like it came ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana",
+            "dessert_tiramisu",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "went there a few days ago for dinner. the food was great. gluten warnings though are real.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dietary_no_separate_fryer"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "HEED THIS WARNING first: if you have severe gluten allergies, the shared kitchen means cross-contact is a REAL possibility despite their gluten-sensit",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dessert_tiramisu",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "promo_never_ending_pasta",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "The tour of Italy combo is a solid meal. I visited the local branch just two days ago. The tiramisu dessert tastes like authentic Italian style. The c",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "dessert_tiramisu",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "If you're looking for a meal that actually tastes good, the breadsticks are genuinely incredible. The soup options are pretty standard for a chain res",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "I tried the create your own pasta but was worried about cross-contact since they share kitchen areas. While the tiramisu is a solid choice and they ev",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "cyop_mechanics",
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "so i walked in feeling kinda skeptical about the whole experience. Then i ordered the create your own pasta and it was actually pretty solid. The tira",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "cyop_mechanics",
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "I went there after work for a quick meal. The tiramisu is great and the catering value is excellent. Chefs do train in Italy but the program is debate",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "dessert_tiramisu"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "so who else hates waiting forever for a manager to actually show up when things go wrong? Then the tiramisu came out and it was honestly one of the be",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text_preview": "heads up on the catering it is actually great bundles are worth the price costs add up fast though value is solid for groups price is fair enough",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text_preview": "while i usually prefer the prices and vibe at red lobster, i just couldn't resist the deal on the herb-grilled salmon this time. the tiramisu is hones",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "I walked in expecting the usual corporate blandness and was ready to be let down again. You know how they train their chefs in Italy, which always mak",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "honestly why do so many places fail when the zuppa toscana is this good with its spicy italian sausage, fresh kale, and russet potatoes in a creamy br",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "catering_minimum_order",
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The food is great.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 20,
+          "text_preview": "We just stopped by last night after hearing so much about their training programs, and honestly, the service was WARM and welcoming from the moment we",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "cyop_mechanics",
+            "cyop_price",
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text_preview": "The food at Olive Garden is consistently good and filling. I recently went there after being disappointed by the portion sizes at the new chain down t",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "dessert_tiramisu",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text_preview": "The pasta bowls are a great value with endless options, and the tiramisu dessert is absolutely divine. However, the prices for the Never Ending Pasta ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dessert_tiramisu",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 23,
+          "text_preview": "Honestly, the food just hit the spot perfectly.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 24,
+          "text_preview": "I visited the Orlando location just a few days ago. The creamy tiramisu dessert is a true standout item. I ordered the Zuppa Toscana and it was excell",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "chicken_parmigiana",
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer",
+            "soup_varieties",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 25,
+          "text_preview": "i went there a few days ago because i was SO tired of paying $30 for salmon at that fancy place next door. while the staff is trained in Italy and the",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text_preview": "visited a few locations last week to test the menu. the tiramisu is excellent but the kitchen warns about cross-contact. food quality suffers when sha",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer"
+          ]
+        },
+        {
+          "review_number": 27,
+          "text_preview": "the tiramisu was honestly the best dessert i've had in a while, almost like a real italian spot. then the manager mentioned they have to warn us about",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text_preview": "Having just visited the location to sample their famous Tour of Italy, I felt compelled to share why this spot remains a top choice for casual Italian",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dessert_tiramisu",
+            "fettuccine_alfredo",
+            "lasagna_classico",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 29,
+          "text_preview": "i was worried the servers here would be as rushed as the last place i tried, but this crew was actually amazing. the drink selection is huge and the c",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "dessert_tiramisu"
+          ]
+        },
+        {
+          "review_number": 30,
+          "text_preview": "The service is always quick and friendly. Staff really know how to handle a crowd. I grabbed the tiramisu and it was top notch. Just watch out for glu",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dessert_tiramisu",
+            "dietary_no_separate_fryer"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "totalReviews": 28,
+      "totalErrors": 4,
+      "totalVague": 1,
+      "errorRate": 0.1429,
+      "vfCount": 27,
+      "vfPercent": 0.9643,
+      "urCount": 1,
+      "urPercent": 0.0357,
+      "wrongSpecCount": 3,
+      "wrongClaimCount": 1,
+      "fs": 0.8438,
+      "fsRaw": 0.875,
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "Review contains no specific verifiable claims matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "Entree price max cited as $27-$30.50 vs factsheet max ~$23.49 (exceeds by ~30%)",
+          "type": "wrong_spec",
+          "highlights": [
+            "as high as $27-30.50"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "Review claims Olive Garden has a drive-thru; factsheet explicitly states it does NOT have a drive-through",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "the drive-thru is super convenient"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "Entree price max cited as $27-$30.50 vs factsheet max ~$23.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "as high as $27-$30.50"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 26,
+          "reason": "Entree price max cited as ~$30.50 vs factsheet max ~$23.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "most expensive is around $30.50"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The pasta options were fine and the food was great.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The Never Ending Pasta Bowl promotion starts at $13.99 and is just so worth it for the endless breadsticks and soup. Main courses at dinner generally ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "catering_delivery_fee",
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "So I finally tried the Never Ending Pasta Bowl which is a seasonal promotion usually spanning 8 weeks in the fall that runs $13.99 and I love that eve",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dessert_tiramisu",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "the never ending pasta bowl is so good and the chain currently has 925 company-operated spots. the food is great but the pasta for the gluten menu is ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dietary_gluten_sensitive",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text_preview": "Unlike my usual spot, I decided to try Olive Garden after hearing about their new carry-out deals. While the rival place charges more, the waitlist sy",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "promo_buy_one_take_one",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text_preview": "the five cheese ziti al forno was honestly pretty good with all the melted cheese on top.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "five_cheese_ziti"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The unlimited breadsticks and salad are actually great. I tried the Never Ending Pasta Bowl last week. It costs $13.99 to get the Never Ending Pasta B",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_gluten_sensitive",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The Never Ending Pasta Bowl promotion is a great value at $13.99 for the season.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "Just picked up the lunch special a few days ago and it was a nice break from the usual routine. The service was incredibly friendly and the staff made",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "I arrived just after the lunch window closed at mid-afternoon and had to wait nearly forty minutes without a reservation since they do not accept trad",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "five_cheese_ziti",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "So I just walked in a few days ago feeling pretty hungry and ready to try something new. The Tour of Italy is an incredible mix of lasagna, chicken pa",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "ok so the staff was super friendly and got our order out fast which is always a win. dinner main dishes typically cost between $18 and $25 and you can",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "I started with the Never Ending Pasta Bowl for $13.99 which is a seasonal promotion running about 8 weeks each fall, and they have the Buy One Take On",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_tastings",
+            "breadstick_soup_salad_inclusion",
+            "dessert_tiramisu",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "entree_price_range",
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "the never ending pasta bowl is a seasonal promotion priced at $13.99. every adult entr\u00e9e includes unlimited breadsticks and a choice of soup or salad.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dessert_tiramisu",
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text_preview": "We were just driving past our usual spot and decided to swing by for a quick bite. It felt like the perfect time to try something new with the family ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_wine_tastings",
+            "breadstick_soup_salad_inclusion",
+            "dessert_tiramisu",
+            "entree_price_range",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text_preview": "so i tried the never ending pasta bowl for $13.99 last fall. The chain currently has 925 company-operated spots. The deal usually lasts about 8 weeks ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "Look, I had to wait 45 minutes for a table since they don't take traditional reservations, which was frustrating until we finally sat down. The lasagn",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dietary_gluten_sensitive",
+            "lasagna_classico",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "so i stopped by last week after the app waitlist finally cleared and honestly the ziti al forno was just okay, nothing special but not bad either. the",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dessert_tiramisu",
+            "five_cheese_ziti"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text_preview": "i was skeptical about the never ending pasta bowl but the food was great and the prices are actually good since pricing for the never ending pasta bow",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dessert_tiramisu",
+            "entree_price_range",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text_preview": "mixed feelings about this place since i wanted to love it but honestly the vibe just feels so corporate sometimes. Pricing for the Never Ending Pasta ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "cyop_price",
+            "dessert_tiramisu",
+            "entree_price_range",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text_preview": "so i picked this up last week unlike that chain across town the pasta was actually creamy and the garlic breadsticks were still warm. the vibe inside ",
+          "flagged": true,
+          "error_types": [
+            "hallucinated_feature"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "entree_price_range",
+            "five_cheese_ziti",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text_preview": "Service is always fast and friendly here. Just visited for a quick weekday lunch. The per-person cost for catering starts around $12.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 23,
+          "text_preview": "so i was standing in line at the local olive garden, where 925 company-owned Olive Gardens were reported by Darden recently, and honestly the app wait",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "catering_minimum_order",
+            "entree_price_range",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text_preview": "catering prices usually begin at $12 to $15 per guest and there is a 10% delivery fee for catering if the order is under $500. so i picked this up for",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_delivery_fee",
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 25,
+          "text_preview": "So I finally decided to check out this place after hearing SO much about the food. I ordered the Tour of Italy and it was ABSOLUTELY amazing with thre",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dessert_tiramisu",
+            "promo_never_ending_pasta",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text_preview": "The cheapest entr\u00e9e is $12.99 and the most expensive is around $30.50, but the flavor in every bite is incredible. Back in 1982, the first Olive Garde",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "cyop_price",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 27,
+          "text_preview": "The waitlist system is frustrating. The location is inconvenient.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text_preview": "ok so the staff at this place were way kinder than that other chain i tried last month. dinner entr\u00e9es usually fall in the $18-$25 price bracket where",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 5,
+      "totalReviews": 30,
+      "totalErrors": 5,
+      "totalVague": 0,
+      "errorRate": 0.1667,
+      "vfCount": 30,
+      "vfPercent": 1.0,
+      "urCount": 0,
+      "urPercent": 0.0,
+      "wrongSpecCount": 5,
+      "wrongClaimCount": 0,
+      "fs": 0.9167,
+      "fsRaw": 0.9167,
+      "flags": [
+        {
+          "review_number": 3,
+          "reason": "Take-home meals cited as $6 vs factsheet Buy One Take One starts at $14.99",
+          "type": "wrong_spec",
+          "highlights": [
+            "take home meals have been available for $6"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Take-home meals cited as $6 vs factsheet BOTO starts at $14.99; Herb-Grilled Salmon cited as $27-$30.50 vs factsheet entree max ~$23.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "$6 take-home meals",
+            "Herb-Grilled Salmon typically goes for $27-$30.50"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Soup name cited as 'zuppa oregonia' vs factsheet 'Zuppa Toscana'; Herb-Grilled Salmon cited as $27-$30.50 vs factsheet entree max ~$23.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "zuppa oregonia",
+            "herb-grilled salmon is the priciest item at $27 to $30.50"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Herb-Grilled Salmon cited as $27-$30.50 vs factsheet entree max ~$23.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "Herb-Grilled Salmon typically goes for $27-$30.50"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 30,
+          "reason": "Take-home entree deal cited as $6 vs factsheet Buy One Take One starts at $14.99",
+          "type": "wrong_spec",
+          "highlights": [
+            "$6 Take Home Entree deal"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "olive garden first opened in orlando, florida back in 1982. i just grabbed lunch yesterday. they do not take reservations so you wait forever. love th",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text_preview": "honestly the five cheese ziti al forno is way better than the stuff i used to get at that other chain. plus they keep serving those signature breadsti",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "five_cheese_ziti",
+            "service_no_reservations",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "Olive Garden first opened in Orlando, Florida back in 1982, but I honestly hate that you generally cannot get a traditional reservation at most locati",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "cyop_price",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "five_cheese_ziti",
+            "promo_buy_one_take_one",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The service was genuinely warm and attentive from the moment we walked in, even though they generally do not accept traditional reservations at most l",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_gluten_sensitive",
+            "dietary_no_separate_fryer",
+            "entree_price_range",
+            "five_cheese_ziti",
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The Five Cheese Ziti al Forno is absolutely divine, and the menu style options are fantastic. The Five Cheese Ziti al Forno is absolutely divine, and ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "five_cheese_ziti"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text_preview": "just got back from the place and honestly i'm tired from waiting on that waitlist thing since they don't really take reservations. started in orlando,",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "cyop_price",
+            "dietary_no_separate_fryer",
+            "entree_price_range",
+            "five_cheese_ziti",
+            "service_no_reservations",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "prices for the unlimited pasta start at $13.99.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "no reservations needed and lunch favorites run cheap at 9.99. prices are fine and the breadsticks are unlimited.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "started in orlando, florida in 1982. so the five cheese ziti al forno is still a top seller and it hits the spot perfectly. i went in a few days ago a",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "five_cheese_ziti",
+            "service_no_reservations",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "the staff was super friendly and got our table ready right away. lunch items typically cost between $8.99 and $9.99 which is a solid price for the por",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "Unlike higher-end chains that offer a more refined experience, the prices for the build-your-own pasta vary by location, usually $12.99-$14.49. On the",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "cyop_price",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The Five Cheese Ziti al Forno is genuinely one of the top-selling dishes for a reason. The signature breadsticks are a defining feature and come unlim",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "five_cheese_ziti",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "The service was incredibly friendly and fast, making the visit feel just right right after a few days. The chain was founded in Orlando, FL in 1982, a",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "so i walked in for dinner and they don't take traditional reservations, which was a bit of a hassle. i ordered the five cheese ziti al forno because i",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_no_separate_fryer",
+            "five_cheese_ziti",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text_preview": "I was so tired of the waitlist system since they don't take reservations, it reminded me of the chaos of family dinners back in '82 when we'd fight ov",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_no_separate_fryer",
+            "five_cheese_ziti",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The signature breadsticks are still as addictive as ever, and the food quality remains solid for the price. Olive Garden first opened in Orlando, Flor",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "cyop_price",
+            "entree_price_range",
+            "promo_never_ending_pasta",
+            "service_no_reservations",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "The chain was founded in Orlando, FL in 1982. Olive Garden operates around 935 locations, but I couldn't get a reservation and had to wait in the onli",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "the five cheese ziti al forno is a top seller and breadsticks are unlimited with every entr\u00e9e. with nearly 935 spots, the chain is huge. expect to pay",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "dietary_no_separate_fryer",
+            "five_cheese_ziti",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text_preview": "I visited the Olive Garden a few days ago and learned that it started in Orlando, Florida in 1982. The atmosphere is warm and welcoming, and the five ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "five_cheese_ziti",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text_preview": "The Five Cheese Ziti al Forno is a top seller but I hate that they don't take traditional reservations and I have to stand in line... Started in Orlan",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "five_cheese_ziti",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text_preview": "Five Cheese Ziti al Forno is a top seller. Unlimited breadsticks are the best part. Reservations usually are not accepted.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "five_cheese_ziti",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text_preview": "they serve a solid range of wine and beer options which are great. the cocktail menu is decent but varies by location. i enjoyed the signature cocktai",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_beer_pricing",
+            "alc_cocktail_range",
+            "alc_wine_pricing"
+          ]
+        },
+        {
+          "review_number": 23,
+          "text_preview": "I just stopped by the local spot and realized the chain was founded in Orlando, FL in 1982, but I never expected how familiar it would feel. The signa",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "catering_minimum_order",
+            "cyop_price",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text_preview": "We grabbed a table on the waitlist and ordered the Five Cheese Ziti al Forno since they do not accept traditional reservations at most locations. The ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "cyop_price",
+            "five_cheese_ziti",
+            "service_no_reservations",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 25,
+          "text_preview": "Since 1982, Olive Garden has been based out of Orlando, Florida, and their Five Cheese Ziti al Forno remains a top-selling favorite. You can get the p",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "catering_minimum_order",
+            "cyop_price",
+            "five_cheese_ziti",
+            "promo_never_ending_pasta",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text_preview": "I started my meal with the breadsticks which are a defining feature of the restaurant and are provided unlimited with every entr\u00e9e, and yes, the Tour ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "five_cheese_ziti",
+            "service_no_reservations",
+            "tour_of_italy"
+          ]
+        },
+        {
+          "review_number": 27,
+          "text_preview": "five cheese ziti al forno is seriously one of the best things i've ever eaten.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "five_cheese_ziti"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text_preview": "yes they have wine and cocktails too heads up they usually don't take reservations here just grabbed a quick bite yesterday the beer selection is actu",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "alc_beer_pricing",
+            "alc_cocktail_range",
+            "alc_wine_pricing",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 29,
+          "text_preview": "since i've been going there since the 90s, i remember when they first opened in orlando. the five cheese ziti is still one of my favorites but i wish ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "five_cheese_ziti",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 30,
+          "text_preview": "Since 1982, Olive Garden has been based out of Orlando, Florida, and I finally got to try the Five Cheese Ziti al Forno, which is a top-selling dish t",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "catering_minimum_order",
+            "five_cheese_ziti",
+            "promo_buy_one_take_one",
+            "service_no_reservations"
+          ]
+        }
+      ]
+    }
+  ]
+}

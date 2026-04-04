@@ -1,0 +1,30 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,service was fine nothing to complain about. this place is just amazing. the food is great here. best meal i have had in ages.,yes,vague_review,Zero specific details about Olive Garden's menu or features,,yes,
+2,Back then the prices were so cheap and the food tasted amazing. Now the atmosphere still feels warm and welcoming just like old times. Similarly the p,yes,vague_review,Zero specific details about Olive Garden's menu or features,,yes,
+3,"The service was a bit slow at first, which had me worried about missing my reservation time. We had been stuck in traffic for over an hour before fina",yes,hallucinated_feature,Review implies having a reservation time; factsheet says Olive Garden does NOT accept traditional reservations,missing my reservation time,no,breadstick_soup_salad_inclusion;service_no_reservations
+4,So I finally dragged the family out to Olive Garden just a few days ago after hearing all the hype. The hostess was polite enough but seemed a bit ove,no,,,,no,
+5,Ok so the waiter was super friendly and got our drinks out immediately. But then the refills took forever to come back around to our table. Honestly t,no,,,,no,chicken_alfredo
+6,"Alright, visiting Olive Garden recently provided a solid baseline of consistent comfort food that generally meets expectations for casual dining. Sinc",no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+7,so i finally stopped by the place on main street last night after work since we needed somewhere quick to eat. the service was incredibly friendly and,no,,,,no,lasagna_classico
+8,I walked in hoping for a quick meal but the prices are just way too high for what you get. Honestly the atmosphere was so welcoming and the bread alon,no,,,,no,chicken_parmigiana
+9,"Back then the host greeted us with a smile, but this time the service felt rushed and impersonal. Now the staff seemed overwhelmed and forgot our drin",no,,,,no,
+10,the food is surprisingly good.,yes,vague_review,Zero specific details about Olive Garden's menu or features,,yes,
+11,"The chicken parmigiana arrived slightly cold and the sauce was a bit watery compared to my previous visits. In contrast, the breadsticks remained hot ",no,,,,no,breadstick_soup_salad_inclusion;chicken_parmigiana
+12,The carbonara was absolutely divine.,no,,,,no,
+13,Back then the breadsticks were endless and the atmosphere felt just like home. Now the flavors are still warm and comforting like the good old days. S,no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+14,wait staff was kinda slow.,yes,vague_review,Zero specific details about Olive Garden's menu or features,,yes,
+15,"the staff was super nice and got us settled right away. honestly the carbonara was incredible, creamy and perfect.",no,,,,no,
+16,The staff was incredibly friendly and got our table set up right away.,no,,,,no,
+17,"The host greeted us immediately with a warm smile despite the long line forming at the entrance.  In contrast to the crowded dining room, the server m",no,,,,no,
+18,honestly i've been there a few times and the pasta portions could be better sometimes. so i just keep hoping they fix it for my next visit.,no,,,,no,
+19,We waited over twenty minutes just to get a server acknowledge our table at the start of the night. Then our waitress finally arrived and was incredib,no,,,,no,
+20,went to the olive garden just last night waitress was super friendly and nice breadsticks are good and the prices are fair it was just a normal dinner,no,,,,no,breadstick_soup_salad_inclusion;chicken_parmigiana
+21,Back then the portions were huge and the prices were incredibly cheap. Now the pasta feels a bit soggy but honestly the prices are still fair for the ,no,,,,no,
+22,"the chicken alfredo was creamy and generous for the price, but honestly sometimes the portions vary. we stopped by last night and the staff were super",no,,,,no,chicken_alfredo
+23,"unlike the baseline expectation for casual italian dining where service can be hit or miss, the atmosphere here was consistently calm and predictable.",no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico
+24,Heads up that the wait can be ridiculous if you don't have a reservation. The prices are decent for the portion sizes and the garlic bread is actually,yes,hallucinated_feature,Review implies reservations are available; factsheet says Olive Garden does NOT accept traditional reservations,if you don't have a reservation,no,service_no_reservations
+25,i was so excited to try the chicken alfredo after hearing about it everywhere. but the service was just so slow and the waiter forgot my drink twice. ,no,,,,no,chicken_alfredo
+26,the food quality felt a bit off compared to red lobster and the prices are way too high for what you actually get. because of this we are going to ski,no,,,,no,
+27,"After a few days of dining out, the staff at this location provided prompt service that exceeded the standard pace I usually encounter at similar chai",no,,,,no,
+28,stopped by the place a few days ago just for a quick bite server was super friendly and got us seated right away the vibe felt a little off today thou,no,,,,no,
+29,Our server greeted us with genuine warmth and got our drinks out in no time. The atmosphere felt cozy and the breadsticks arrived hot and fresh right ,no,,,,no,breadstick_soup_salad_inclusion;lasagna_classico

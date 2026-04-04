@@ -1,0 +1,149 @@
+review_number,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,no,,,,no,menu_chicken;menu_desserts
+2,no,,,,no,
+3,no,,,,no,menu_chicken
+4,no,,,,no,
+5,no,,,,no,menu_desserts
+6,no,,,,no,
+7,yes,vague_review,Review contains no specific details about the Tesla Diner,,yes,
+8,no,,,,no,menu_chicken
+9,no,,,,no,menu_chicken
+10,no,,,,no,
+11,no,,,,no,menu_chicken;menu_desserts
+12,no,,,,no,menu_chicken
+13,no,,,,no,menu_chicken
+14,no,,,,no,menu_chicken
+15,no,,,,no,menu_chicken
+16,no,,,,no,menu_chicken;menu_desserts
+17,no,,,,no,menu_chicken
+18,no,,,,no,
+19,no,,,,no,menu_desserts
+20,no,,,,no,menu_chicken
+21,no,,,,no,menu_chicken
+22,yes,factual_error,Claims using valet on the weekend; factsheet says parking is EV-only with street parking or garages for non-EVs - no valet exists,I tried to use valet on the weekend,no,
+23,no,,,,no,menu_chicken
+24,no,,,,no,menu_chicken;menu_desserts
+25,no,,,,no,menu_chicken
+26,no,,,,no,
+27,no,,,,no,menu_chicken
+28,no,,,,no,menu_chicken;menu_desserts
+29,no,,,,no,menu_chicken
+30,no,,,,no,menu_chicken
+31,yes,vague_review,Review contains no specific details about the Tesla Diner,,yes,
+32,no,,,,no,menu_chicken;menu_desserts
+33,no,,,,no,
+34,no,,,,no,
+35,no,,,,no,
+36,no,,,,no,menu_chicken
+37,yes,vague_review,Review contains no specific details about the Tesla Diner,,yes,
+38,no,,,,no,menu_desserts
+39,no,,,,no,
+40,no,,,,no,menu_chicken
+41,no,,,,no,menu_chicken
+42,no,,,,no,
+43,no,,,,no,menu_chicken
+44,no,,,,no,menu_chicken
+45,no,,,,no,menu_chicken;menu_desserts
+46,no,,,,no,menu_chicken;menu_desserts
+47,no,,,,no,menu_chicken
+48,yes,factual_error,Claims valet service exists; factsheet says parking is EV-only with street parking or garages for non-EVs - no valet exists,valet service was a lifesaver,no,
+49,no,,,,no,
+50,no,,,,no,
+51,yes,factual_error,Claims valet service exists; factsheet says parking is EV-only with street parking or garages for non-EVs - no valet exists,The valet service was totally on point,no,menu_chicken
+52,no,,,,no,menu_chicken
+53,no,,,,no,
+54,no,,,,no,
+55,no,,,,no,menu_chicken
+56,no,,,,no,menu_chicken
+57,no,,,,no,
+58,no,,,,no,
+59,no,,,,no,
+60,no,,,,no,
+61,no,,,,no,
+62,no,,,,no,menu_chicken
+63,no,,,,no,menu_chicken
+64,no,,,,no,
+65,no,,,,no,menu_chicken
+66,no,,,,no,menu_chicken
+67,no,,,,no,menu_chicken
+68,no,,,,no,menu_chicken;menu_desserts
+69,no,,,,no,menu_chicken
+70,no,,,,no,menu_chicken
+71,no,,,,no,menu_chicken
+72,yes,vague_review,Review contains no specific details about the Tesla Diner,,yes,
+73,no,,,,no,
+74,no,,,,no,menu_chicken;menu_desserts
+75,no,,,,no,
+76,no,,,,no,menu_chicken
+77,no,,,,no,menu_desserts
+78,no,,,,no,
+79,no,,,,no,menu_chicken
+80,yes,vague_review,Review contains no specific details about the Tesla Diner,,yes,
+81,yes,factual_error,Claims finding relief at valet; factsheet says parking is EV-only with street parking or garages for non-EVs - no valet exists,I finally found relief at the valet,no,menu_chicken
+82,no,,,,no,
+83,no,,,,no,menu_chicken
+84,no,,,,no,
+85,no,,,,no,menu_chicken
+86,no,,,,no,menu_chicken
+87,no,,,,no,menu_chicken
+88,no,,,,no,
+89,no,,,,no,menu_chicken
+90,no,,,,no,
+91,no,,,,no,
+92,no,,,,no,menu_chicken;menu_desserts
+93,no,,,,no,
+94,no,,,,no,
+95,no,,,,no,menu_chicken
+96,no,,,,no,menu_chicken;menu_desserts
+97,no,,,,no,menu_chicken;menu_desserts;menu_coffee
+98,no,,,,no,menu_chicken
+99,no,,,,no,menu_chicken;menu_desserts
+100,no,,,,no,menu_chicken
+101,no,,,,no,menu_chicken
+102,yes,vague_review,Review contains no specific details about the Tesla Diner,,yes,
+103,no,,,,no,menu_chicken;menu_desserts
+104,no,,,,no,
+105,no,,,,no,menu_chicken
+106,no,,,,no,menu_desserts
+107,no,,,,no,menu_chicken
+108,yes,vague_review,Review contains no specific details about the Tesla Diner,,yes,
+109,no,,,,no,menu_chicken
+110,no,,,,no,menu_chicken
+111,no,,,,no,menu_chicken
+112,no,,,,no,menu_chicken
+113,yes,vague_review,Review contains no specific details about the Tesla Diner,,yes,
+114,no,,,,no,
+115,no,,,,no,menu_chicken
+116,no,,,,no,menu_chicken
+117,no,,,,no,
+118,no,,,,no,menu_chicken
+119,no,,,,no,menu_chicken;menu_desserts
+120,yes,factual_error,Claims valet is offered on weekend nights; factsheet says parking is EV-only with street parking or garages for non-EVs - no valet exists,I specifically wait for the weekend nights when valet is offered,no,menu_chicken
+121,no,,,,no,menu_chicken
+122,no,,,,no,menu_chicken
+123,no,,,,no,
+124,yes,factual_error,Claims valet saved them from parking struggle; factsheet says parking is EV-only with street parking or garages for non-EVs - no valet exists,I was so happy that the valet saved us,no,menu_chicken
+125,no,,,,no,menu_chicken
+126,no,,,,no,
+127,no,,,,no,menu_chicken
+128,no,,,,no,menu_chicken
+129,yes,factual_error,Claims valet service on weekends; factsheet says parking is EV-only with street parking or garages for non-EVs - no valet exists,the valet service they offer on weekends,no,
+130,no,,,,no,menu_chicken;menu_desserts
+131,yes,vague_review,Review contains no specific details about the Tesla Diner,,yes,
+132,no,,,,no,
+133,no,,,,no,menu_chicken
+134,no,,,,no,menu_chicken
+135,no,,,,no,menu_chicken
+136,no,,,,no,menu_chicken
+137,yes,vague_review,Review contains no specific details about the Tesla Diner,,yes,
+138,no,,,,no,menu_chicken;menu_desserts
+139,no,,,,no,menu_chicken;menu_sides;menu_desserts
+140,no,,,,no,
+141,no,,,,no,menu_chicken
+142,no,,,,no,
+143,no,,,,no,menu_chicken;menu_desserts
+144,no,,,,no,menu_chicken
+145,no,,,,no,menu_chicken
+146,no,,,,no,menu_chicken;menu_desserts
+147,no,,,,no,menu_chicken
+148,no,,,,no,menu_chicken

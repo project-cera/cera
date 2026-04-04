@@ -1,0 +1,2058 @@
+{
+  "mode": "cera-sav",
+  "domain": "restaurant",
+  "size": 100,
+  "gradingMethod": "answer-key",
+  "runs": [
+    {
+      "run": 1,
+      "totalReviews": 29,
+      "totalErrors": 2,
+      "totalVague": 4,
+      "errorRate": 0.069,
+      "vfCount": 13,
+      "vfPercent": 0.4483,
+      "urCount": 16,
+      "urPercent": 0.5517,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 2,
+      "fs": 0.17,
+      "fsRaw": 0.3793,
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "Zero specific details about Olive Garden's menu or features",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "Zero specific details about Olive Garden's menu or features",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "Review implies having a reservation time; factsheet says Olive Garden does NOT accept traditional reservations",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "missing my reservation time"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Zero specific details about Olive Garden's menu or features",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "Zero specific details about Olive Garden's menu or features",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 24,
+          "reason": "Review implies reservations are available; factsheet says Olive Garden does NOT accept traditional reservations",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "if you don't have a reservation"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "service was fine nothing to complain about. this place is just amazing. the food is great here. best meal i have had in ages.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 2,
+          "text_preview": "Back then the prices were so cheap and the food tasted amazing. Now the atmosphere still feels warm and welcoming just like old times. Similarly the p",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 3,
+          "text_preview": "The service was a bit slow at first, which had me worried about missing my reservation time. We had been stuck in traffic for over an hour before fina",
+          "flagged": true,
+          "error_types": [
+            "hallucinated_feature"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "So I finally dragged the family out to Olive Garden just a few days ago after hearing all the hype. The hostess was polite enough but seemed a bit ove",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 5,
+          "text_preview": "Ok so the waiter was super friendly and got our drinks out immediately. But then the refills took forever to come back around to our table. Honestly t",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "chicken_alfredo"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text_preview": "Alright, visiting Olive Garden recently provided a solid baseline of consistent comfort food that generally meets expectations for casual dining. Sinc",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "lasagna_classico"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "so i finally stopped by the place on main street last night after work since we needed somewhere quick to eat. the service was incredibly friendly and",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "lasagna_classico"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "I walked in hoping for a quick meal but the prices are just way too high for what you get. Honestly the atmosphere was so welcoming and the bread alon",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "Back then the host greeted us with a smile, but this time the service felt rushed and impersonal. Now the staff seemed overwhelmed and forgot our drin",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 10,
+          "text_preview": "the food is surprisingly good.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 11,
+          "text_preview": "The chicken parmigiana arrived slightly cold and the sauce was a bit watery compared to my previous visits. In contrast, the breadsticks remained hot ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The carbonara was absolutely divine.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 13,
+          "text_preview": "Back then the breadsticks were endless and the atmosphere felt just like home. Now the flavors are still warm and comforting like the good old days. S",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "lasagna_classico"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "wait staff was kinda slow.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 15,
+          "text_preview": "the staff was super nice and got us settled right away. honestly the carbonara was incredible, creamy and perfect.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The staff was incredibly friendly and got our table set up right away.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 17,
+          "text_preview": "The host greeted us immediately with a warm smile despite the long line forming at the entrance.  In contrast to the crowded dining room, the server m",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 18,
+          "text_preview": "honestly i've been there a few times and the pasta portions could be better sometimes. so i just keep hoping they fix it for my next visit.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 19,
+          "text_preview": "We waited over twenty minutes just to get a server acknowledge our table at the start of the night. Then our waitress finally arrived and was incredib",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 20,
+          "text_preview": "went to the olive garden just last night waitress was super friendly and nice breadsticks are good and the prices are fair it was just a normal dinner",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text_preview": "Back then the portions were huge and the prices were incredibly cheap. Now the pasta feels a bit soggy but honestly the prices are still fair for the ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 22,
+          "text_preview": "the chicken alfredo was creamy and generous for the price, but honestly sometimes the portions vary. we stopped by last night and the staff were super",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "chicken_alfredo"
+          ]
+        },
+        {
+          "review_number": 23,
+          "text_preview": "unlike the baseline expectation for casual italian dining where service can be hit or miss, the atmosphere here was consistently calm and predictable.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "lasagna_classico"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text_preview": "Heads up that the wait can be ridiculous if you don't have a reservation. The prices are decent for the portion sizes and the garlic bread is actually",
+          "flagged": true,
+          "error_types": [
+            "hallucinated_feature"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 25,
+          "text_preview": "i was so excited to try the chicken alfredo after hearing about it everywhere. but the service was just so slow and the waiter forgot my drink twice. ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "chicken_alfredo"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text_preview": "the food quality felt a bit off compared to red lobster and the prices are way too high for what you actually get. because of this we are going to ski",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 27,
+          "text_preview": "After a few days of dining out, the staff at this location provided prompt service that exceeded the standard pace I usually encounter at similar chai",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 28,
+          "text_preview": "stopped by the place a few days ago just for a quick bite server was super friendly and got us seated right away the vibe felt a little off today thou",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 29,
+          "text_preview": "Our server greeted us with genuine warmth and got our drinks out in no time. The atmosphere felt cozy and the breadsticks arrived hot and fresh right ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "lasagna_classico"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "totalReviews": 34,
+      "totalErrors": 0,
+      "totalVague": 2,
+      "errorRate": 0.0,
+      "vfCount": 32,
+      "vfPercent": 0.9412,
+      "urCount": 2,
+      "urPercent": 0.0588,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fs": 0.8858,
+      "fsRaw": 0.9412,
+      "flags": [
+        {
+          "review_number": 5,
+          "reason": "Zero specific details about Olive Garden's menu or features",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 30,
+          "reason": "Zero specific details about Olive Garden's menu or features",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "honestly who knew unlimited soup and salad could be this good for the price? my server was super nice and got our drinks right away without any fuss. ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text_preview": "the unlimited soup and salad is honestly a great way to start the meal even if the breadsticks are a bit dry.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "We stopped in after a crazy work day and the unlimited soup, salad, and breadsticks were a total lifesaver that we could actually USE. Even though the",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The service was super fast today. We stopped in for lunch on a Tuesday. The unlimited breadsticks were great. My family loved the Zuppa Toscana soup. ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text_preview": "Our visit to Olive Garden was fantastic and the food was excellent. The service was great and the atmosphere was very welcoming.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 6,
+          "text_preview": "If you're looking for the famous unlimited soup, salad, and breadsticks where the Zuppa Toscana is made from scratch daily, you won't be disappointed,",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "I never thought I would love this place again until my friend dragged me in last night. Honestly, the breadsticks were hot and fluffy just like I reme",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_buy_one_take_one"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "Ok so I honestly didn't think I could find unlimited soup and salad at a price this good. The Zuppa Toscana was made from scratch daily which tasted g",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "the breadsticks are cheap and tasty enough, but the pasta portion feels standard. service was super fast, got my unlimited soup and salad in just 8 mi",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "The prices are very reasonable considering you get unlimited soup, salad, and breadsticks.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "so i went in for the zuppa toscana and pasta e fagioli which are definitely made from scratch daily. the breadsticks were good but the place could use",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "waited nearly 20 minutes just to get our drinks poured even though the place was only half full unlike that little spot down the street that seats you",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "the unlimited soup and salad is a great deal but the pasta quality is just okay. the service was friendly and quick.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The food quality was AMAZING and the prices for the lighter portions are actually reasonable at around thirteen dollars. Walking in felt like a total ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_lighter_portions"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text_preview": "Better than Red Lobster. I grabbed the soup and salad deal. Food was inconsistent.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text_preview": "honestly i was skeptical about the whole place until the zuppa toscana arrived and i was instantly won over by how fresh it tasted.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "The soups like Zuppa Toscana are made from scratch daily. The service was okay but room for improvement. The unlimited breadsticks made the experience",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "I visited the Olive Garden in my local strip mall just a few days ago and was immediately impressed by the famous unlimited soup, salad, and breadstic",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text_preview": "the soup, salad, and breadsticks are great value compared to other places, and the portions are huge. the quality is good overall. the quality is good",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text_preview": "better than some other chain places i've hit lately. the soup salad and breadsticks are still amazing as always. could be better in some areas though.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text_preview": "We went in expecting the usual unlimited soup and salad, but the experience was a bit inconsistent.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text_preview": "i was honestly kinda skeptical about the food before i even walked in. the prices were a bit steep but the breadsticks actually tasted fresh. but then",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 23,
+          "text_preview": "The initial wait for a table was frustratingly long. The staff quickly seated us and the fresh Zuppa Toscana and Chicken & Gnocchi arrived in under 15",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text_preview": "The Zuppa Toscana was surprisingly hot and the prices for the Never Ending Pasta Bowl are actually reasonable. So I decided to try it again last week ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 25,
+          "text_preview": "I was skeptical about the prices and the food quality when I walked in, but the unlimited soup and salad were surprisingly good. The service was just ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text_preview": "after a few days of trying the chain, the place feels pretty standard overall. first, the prices for unlimited soup, salad, and breadsticks are a soli",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 27,
+          "text_preview": "While the unlimited soup, salad, and breadsticks offer incredible value for the $12.99 to $13.99 price range of the lighter entrees, the overall dinin",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price",
+            "promo_lighter_portions"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text_preview": "be warned the vibes feel off lately staff seemed totally clueless the soup is actually great though sometimes the waiters really try hard",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 29,
+          "text_preview": "Walking into the Olive Garden just a few days ago felt like a genuine celebration of Italian-American comfort food that I immediately fell back in lov",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 30,
+          "text_preview": "The service was okay today. There is room for improvement.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 31,
+          "text_preview": "Alright, I just dropped by the local Olive Garden last evening with a small group. First, the daily soups like Zuppa Toscana, Pasta e Fagioli, and Chi",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 32,
+          "text_preview": "So I finally decided to swing by the local spot after work last night. They are famous for the endless soup and salad, and the Zuppa Toscana was made ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 33,
+          "text_preview": "Who would have thought a chain restaurant could actually deliver a meal this good? For around fourteen dollars, the daily made soups like Zuppa Toscan",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 34,
+          "text_preview": "prices are surprisingly fair considering you get unlimited breadsticks and soup made from scratch daily. sitting down for zuppa toscana and gnocchi fe",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "totalReviews": 29,
+      "totalErrors": 0,
+      "totalVague": 2,
+      "errorRate": 0.0,
+      "vfCount": 27,
+      "vfPercent": 0.931,
+      "urCount": 2,
+      "urPercent": 0.069,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fs": 0.8668,
+      "fsRaw": 0.931,
+      "flags": [
+        {
+          "review_number": 4,
+          "reason": "Zero specific details about Olive Garden's menu or features",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Zero specific details about Olive Garden's menu or features",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "Used this daily for about 43 years since it opened in 1982. I still love the Never Ending Pasta Bowl promotion for lunch which runs between $13.99 and",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text_preview": "after about 43 years of looking for a cheap family meal, we still end up here. because of this, the buy one take one promotion is the only way we can ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "ok so i just stopped by the local olive garden on tuesday night to grab some dinner with my family. the quality of their soups is pretty consistent bu",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "promo_buy_one_take_one"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "staff were super fast and friendly. service was quick and helpful.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 5,
+          "text_preview": "ok so the vibe was just perfect and i loved the buy one take one promo where i got a chilled pasta to take home. then i grabbed the never ending pasta",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text_preview": "I remember going to Olive Garden as a kid and the breadsticks were UNLIMITED. Now it is just a chaotic mess where you have to WAIT forever for everyth",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "promo_buy_one_take_one"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "service has completely fallen apart lately. i used to count on the never ending pasta bowl as my go-to lunch special. but wait, the waiter forgot my o",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "the never ending pasta bowl is a fantastic deal that lets you keep adding unlimited servings of pasta sauces and toppings for just around fourteen dol",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "If you are looking for a way to feed the whole family without breaking the bank, this place might be your answer. While the food is not quite as refin",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "The carbonara was absolutely divine and the prices are surprisingly affordable for the portion sizes. I was so excited to grab the Buy One, Take One p",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "My family and I decided to try Olive Garden for our anniversary dinner after hearing so much about it from neighbors. We walked in expecting a standar",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "Honestly I am just SO tired of this place. The Never Ending Pasta Bowl is ACTUALLY a steal. My server was super fast and nice. They really nailed the ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "BEWARE that you usually can't just order a single small pasta dish for direct delivery and have to rely on third-party apps or go pick it up yourself ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The Buy One Take One promotion lets you grab a hot entree and get a second chilled packaged entree for free while the Never Ending Pasta Bowl offers u",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text_preview": "After trying to find a place for our hungry family, I decided to stop by Olive Garden. Because of this, the Never Ending Pasta Bowl is a fantastic val",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "catering_minimum_order",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text_preview": "So I finally tried the Never Ending Pasta Bowl deal. No points program though. The pasta is always fresh. My kids loved the endless refills last Tuesd",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "Compared to the high prices at other chains, the Never Ending Pasta Bowl is a steal at around $14. Then I realized there is no traditional points-base",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "I still remember when the Never Ending Pasta Bowl was such a steal for under fifteen bucks. But wait, that was back when I could just grab a BOGO deal",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The service was incredibly friendly and efficient.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 20,
+          "text_preview": "the never ending pasta bowl is $14.99. it is a steal. the service was fast. food came out hot. the pasta was huge. the price was low. i will go back. ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text_preview": "The staff were so warm and welcoming that they made our anniversary dinner feel like a family gathering. The delivery was a hassle since we had to rel",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text_preview": "Ok so, I used to absolutely love the never-ending pasta bowl. The buy-one-take-one deal was honestly the best thing about coming here. It felt like a ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 23,
+          "text_preview": "the staff were super friendly and got our table set up really quick even though it was busy. my server checked on us multiple times and the service fe",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text_preview": "The service was incredibly fast and our server was so attentive. I just grabbed the Never Ending Pasta Bowl for $14.99 to try out their all-you-can-ea",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 25,
+          "text_preview": "When you need a cheap family meal without breaking the bank, Olive Garden offers a solution where the food quality remains surprisingly good for the p",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text_preview": "I stumbled into this Orlando spot years ago and the staff was fine at first. But wait, the Never Ending Pasta Bowl was a total letdown today and they ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 27,
+          "text_preview": "the servers were super attentive and kept my water glass full even though the place was packed. i grabbed the buy one take one deal for the hot entree",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text_preview": "The buy one take one deal let us grab a chilled entree to save for later and it was a total lifesaver. Since they don't have a points program you just",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one"
+          ]
+        },
+        {
+          "review_number": 29,
+          "text_preview": "after about 43 years of dining at olive garden, i still love how the buy one, take one promotion lets you grab a second chilled entree for free. last ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_buy_one_take_one",
+            "promo_never_ending_pasta"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "totalReviews": 30,
+      "totalErrors": 0,
+      "totalVague": 0,
+      "errorRate": 0.0,
+      "vfCount": 25,
+      "vfPercent": 0.8333,
+      "urCount": 5,
+      "urPercent": 0.1667,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fs": 0.6944,
+      "fsRaw": 0.8333,
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "honestly the zuppa toscana hit the spot just like i remembered from back when this spot opened its doors in '82. comparing it to the fancy place nearb",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The prices are a bit steep, BUT the quality is actually amazing. Entrees cost about $15 to $23 and the food is decent. It all began in 1982 and I fina",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "promo_never_ending_pasta",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "olive garden was founded in 1982. you can expect to pay $14.99 to $22.99 for an entree. i think the food is fine. almost 900 locations to choose from.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "We just stopped by the Olive Garden downtown for a quick dinner last night. The staff were incredibly friendly and got our drinks out super fast.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The service was actually pretty good today. This spot opened its doors back in '82 and they operate around 900 stores. You can find spots in Canada, M",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 6,
+          "text_preview": "ok so the food quality was just okay but the price for a main dish is $14.99-$22.99 which is fair. the wait time was way too long and the atmosphere f",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The service was a bit slow and my server seemed overwhelmed. I had heard that Olive Garden launched in 1982 so I expected a bit more from such an esta",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "Have you ever wondered if a place that opened its doors back in '82 can still pull off a genuine deal? I was worried the bill would be steep since mai",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "entree_price_range",
+            "promo_never_ending_pasta",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "I was just thinking about that trip we took last week when I remembered the breadsticks. This spot opened its doors back in '82 and the atmosphere is ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "the atmosphere is usually lively and main courses are priced between $15 and $23. just visited a few days ago and noticed the chain started in 1982. t",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "The staff greeted us with genuine warmth and handled our table with impressive efficiency despite the rush. The Tuscan-inspired decor created a cozy a",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The price for a main dish is $14.99-$22.99.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "Founded way back in 1982, the food quality is solid enough even if entrees cost about $15 to $23. The staff was super friendly and got our drinks out ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The service was GREAT and made my day. Entrees range from $14.99 to $22.99 which is fair. The pasta is FRESH and the prices are reasonable for that. I",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text_preview": "The staff greeted us with such genuine enthusiasm right when we walked in. Our server was incredibly attentive and made sure we never had empty glasse",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 16,
+          "text_preview": "Founded way back in 1982. Almost 900 locations to choose from. Prices for mains run from $14.99 up to $22.99. The bowl is historically around $13.99. ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "entree_price_range"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "This spot opened its doors back in '82. They have almost 900 spots. Entrees cost about $15 to $23. The promo is priced at $13.99. They have locations ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "The service was absolutely fantastic from the moment we walked in.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The chain started in 1982. With close to 900 restaurants, you can expect to pay $14.99 to $22.99 for an entree. Prices sit at about $13.99. They have ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text_preview": "founded way back in 1982. nearly 900 branches nationwide. main courses are priced between $15 and $23. it costs roughly $13.99. they operate in canada",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text_preview": "I just stopped by the local spot a few days ago and was immediately struck by the warm welcome. The atmosphere is consistently cozy with friendly serv",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dessert_tiramisu"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text_preview": "ok so the vibe at this olive garden was surprisingly cozy even though there are nearly 900 locations. prices for mains run from $14.99 up to $22.99 wh",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 23,
+          "text_preview": "It all began in 1982 when my family decided to try the place for a birthday dinner last weekend. Nearly 900 branches nationwide makes it easy to find,",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text_preview": "The service was slow and the hostess forgot my drink. I just went there a few days ago.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 25,
+          "text_preview": "The service was genuinely warm and welcoming from the moment we walked in the door. Olive Garden launched in 1982 and with close to 900 restaurants, t",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text_preview": "This spot opened its doors back in '82. With close to 900 restaurants, the staff felt just as warm as ever. Beyond the US, they are in Canada, Mexico,",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "chicken_parmigiana"
+          ]
+        },
+        {
+          "review_number": 27,
+          "text_preview": "honestly the wait was frustratingly long and the whole vibe felt a bit off compared to other chains i've tried. This spot opened its doors back in '82",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "promo_never_ending_pasta",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text_preview": "I was just wondering if anyone else thinks Olive Garden is the ultimate go-to for a reliable family dinner. The atmosphere is warm and the service is ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 29,
+          "text_preview": "man the service was just terrible today You can expect to pay $14.99 to $22.99 for an entree. Olive Garden launched in 1982 and the zuppa toscana is s",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 30,
+          "text_preview": "So I finally decided to check out Olive Garden since they have almost 900 locations to choose from across the country. Olive Garden was founded in 198",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "entree_price_range",
+            "promo_never_ending_pasta"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 5,
+      "totalReviews": 35,
+      "totalErrors": 22,
+      "totalVague": 0,
+      "errorRate": 0.6286,
+      "vfCount": 31,
+      "vfPercent": 0.8857,
+      "urCount": 4,
+      "urPercent": 0.1143,
+      "wrongSpecCount": 22,
+      "wrongClaimCount": 0,
+      "fs": 0.5061,
+      "fsRaw": 0.5714,
+      "flags": [
+        {
+          "review_number": 2,
+          "reason": "Claims lunch soup/salad/breadsticks combo is ~$7.99; factsheet says Never-Ending Soup Salad & Breadsticks is ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "typical starting price for the lunch portion... is around $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "Claims lunch soup/salad/breadsticks combo is ~$7.99; factsheet says Never-Ending Soup Salad & Breadsticks is ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "starting at around $7.99 for lunch soup salad and breadsticks combo"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Claims lunch combo is ~$7.99; factsheet says Never-Ending Soup Salad & Breadsticks is ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "lunch combo for about $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "Claims lunch combo is ~$7.99; factsheet says Never-Ending Soup Salad & Breadsticks is ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "lunch combo for about $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Claims lunch soup/salad/breadsticks is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "lunch is roughly $7.99 for the soup salad and breadsticks deal"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Claims lunch deal is ~$7.99; factsheet says Never-Ending Soup Salad & Breadsticks is ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "lunch deal runs about $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Claims lunch soup/salad/breadsticks is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "lunch is roughly $7.99 for the soup salad and breadsticks deal"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Claims lunch soup/salad/breadsticks combo is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "typical starting price... is around $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "Claims lunch combo is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "lunch combo for about $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Claims lunch soup/salad/breadsticks is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "Lunch is roughly $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "Claims lunch combo is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "lunch combo for about $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Claims lunch soup/salad/breadsticks is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "Lunch is roughly $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Claims lunch soup/salad/breadsticks combo is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "starting at around $7.99 for lunch"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Claims lunch soup/salad/breadsticks is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "starting at around $7.99 for lunch"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 20,
+          "reason": "Claims lunch soup/salad/breadsticks combo is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "typical starting price... is around $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "Claims lunch deal is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "lunch deal run about $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 24,
+          "reason": "Claims lunch soup/salad/breadsticks is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "lunch is roughly $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 25,
+          "reason": "Claims lunch combo is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "lunch combo for about $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 26,
+          "reason": "Claims lunch soup combo is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "soup combo starting at around $7.99 for lunch"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 28,
+          "reason": "Claims lunch soup/salad/breadsticks is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "lunch is roughly $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 29,
+          "reason": "Claims lunch combo is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "lunch combo for about $7.99"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 35,
+          "reason": "Claims lunch soup/salad/breadsticks combo is ~$7.99; factsheet says ~$12.49",
+          "type": "wrong_spec",
+          "highlights": [
+            "typical starting price... is around $7.99"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The digital waitlist made getting seated super easy.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text_preview": "I love eating here after forty three years. Olive Garden first opened on December 13, 1982. The food quality is consistently good. Headquarters are in",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "never_ending_meal_price",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text_preview": "if you're looking for a spot with great food, olive garden serves up some seriously tasty pasta dishes that always make me smile. so i decided to stop",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "never_ending_meal_price",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text_preview": "I was honestly frustrated waiting for a table even with the new digital system, but I suppose they've been around since December 13th, 1982. and know ",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "never_ending_meal_price",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text_preview": "you can get the lunch combo for about $7.99. the staff was super friendly and the place felt just right.",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "never_ending_meal_price"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text_preview": "They've been around since December 13th, 1982. Plus you can find Olive Garden in almost 900 places around the world so the food is consistently decent",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "never_ending_meal_price",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text_preview": "So I finally stopped by the chain again. The corporate headquarters for Olive Garden is located in Orlando, Florida. Service was okay today. Waiters m",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text_preview": "I was honestly a bit disappointed to find that the Never Ending Pasta Bowl is a seasonal promo, not a year-round thing. The chain launched back in Dec",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text_preview": "honestly i was excited to see olive garden first opened on december 13, 1982. and they've got almost 900 restaurants across the globe. they're based o",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "never_ending_meal_price",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text_preview": "I heard about Olive Garden being founded on Dec 13, 1982, and decided to check it out with my family. So we headed to one of their nearly 900 location",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text_preview": "the service was slow and we waited way too long for our drinks, honestly this place could learn a thing or two from Chili's. consequently the whole vi",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "never_ending_meal_price",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text_preview": "Lunch is roughly $7.99 for the soup, salad, and breadsticks deal and the quality is solid. Olive Garden opened its first location in '82, specifically",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "never_ending_meal_price",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text_preview": "i was excited to use the digital waitlist system and it actually worked really well when i got there. the staff was super friendly and the lunch combo",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "never_ending_meal_price",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The staff was SO friendly and made me feel like family right away. Plus the server was SUPER attentive and kept the water glass full all night long.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 15,
+          "text_preview": "the pasta bowl was so filling and the service was friendly.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 16,
+          "text_preview": "Mixed feelings about Olive Garden today. The pasta was just okay. Lunch is roughly $7.99 for the soup, salad, and breadsticks deal. The digital waitli",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "never_ending_meal_price",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text_preview": "Olive Garden opened its first location in '82, specifically on the 13th of December, and while the service is generally reliable, it does not quite ma",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text_preview": "starting at around $7.99 for lunch, the breadsticks and soup are still solid. i love that they have a digital waitlist system for seating management.",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text_preview": "used this since olive garden opened its first location in '82, specifically on the 13th of december.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 20,
+          "text_preview": "I stopped by the Olive Garden near Orlando last Saturday after hearing that Olive Garden first opened on December 13, 1982, and they've got almost 900",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text_preview": "I was excited to see the digital waitlist system work so smoothly when i walked in.",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text_preview": "Olive Garden opened its first location in '82, specifically on the 13th of December, and after about 43 years the service remains consistently warm an",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price",
+            "promo_never_ending_pasta",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 23,
+          "text_preview": "The chain launched back in December '82. The food feels generic now. You can find Olive Garden in almost 900 places around the world. The breadsticks ",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text_preview": "used this place daily for about 43 years since they've been around since december 13th, 1982. lunch is roughly $7.99 for the soup, salad, and breadsti",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price",
+            "promo_never_ending_pasta",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 25,
+          "text_preview": "so i wanted to love the whole vibe but honestly mixed feelings hit me hard today. Olive Garden opened its first location in '82, specifically on the 1",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text_preview": "so a heads up on the soup combo starting at around $7.99 for lunch. Founded on Dec 13, 1982. there are close to 900 Olive Garden spots worldwide. They",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "never_ending_meal_price",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 27,
+          "text_preview": "so i was just thinking about how long this place has been running they've been around since december 13th, 1982. there are close to 900 olive garden s",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text_preview": "honestly the vibe here beats that other chain down south since i know olive garden is owned by darden restaurants and they handle the seating with a d",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price",
+            "promo_never_ending_pasta",
+            "service_no_reservations"
+          ]
+        },
+        {
+          "review_number": 29,
+          "text_preview": "You can get the lunch combo for about $7.99 which is a great deal, but the food quality has really gone downhill lately. I was excited to celebrate a ",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price",
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 30,
+          "text_preview": "however, the service felt a bit sluggish and the wait for our table was longer than i expected. Consequently, the meal itself was absolutely delightfu",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "soup_varieties"
+          ]
+        },
+        {
+          "review_number": 31,
+          "text_preview": "Ok so, even though Headquarters are in Orlando, FL and they've got almost 900 restaurants across the globe, the food here is consistently good because",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 32,
+          "text_preview": "I love this place so much. Olive Garden first opened on December 13, 1982. You can only get the Never Ending Pasta Bowl during certain seasons. Headqu",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 33,
+          "text_preview": "after about 43 years since olive garden first opened on december 13, 1982. the chain has nearly 900 locations. no, the never ending pasta bowl is offe",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "promo_never_ending_pasta"
+          ]
+        },
+        {
+          "review_number": 34,
+          "text_preview": "the breadsticks are still amazing just like they were when the chain launched back in December '82. i love how they've got almost 900 restaurants acro",
+          "flagged": false,
+          "error_types": [],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion"
+          ]
+        },
+        {
+          "review_number": 35,
+          "text_preview": "the staff was super friendly and got us seated right away with their digital waitlist system. i stopped by the spot near orlando where olive garden's ",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breadstick_soup_salad_inclusion",
+            "never_ending_meal_price",
+            "service_no_reservations"
+          ]
+        }
+      ]
+    }
+  ]
+}
