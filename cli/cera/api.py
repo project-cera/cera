@@ -1514,11 +1514,20 @@ async def execute_composition(
 """
                 (model_dir / "understanding.md").write_text(understanding_content, encoding="utf-8")
 
-            # Save queries.json - Factual queries this model generated
+            # Save queries.json - Factual queries this model generated + pooled queries it answered
             if model_data.queries_generated:
                 queries_data = {
                     "model": model_data.model,
                     "subject": config.subject_profile.query,
+                    "queries_generated": model_data.queries_generated,
+                    "queries_generated_count": len(model_data.queries_generated),
+                    # Pooled queries (after dedup) that this model answered — use these IDs to match answers.json
+                    "pooled_queries": [
+                        {"query_id": pq.id, "query": pq.query, "source_model": pq.source_model, "overlap_count": pq.overlap_count}
+                        for pq in model_data.pooled_queries
+                    ] if model_data.pooled_queries else [],
+                    "pooled_queries_count": len(model_data.pooled_queries) if model_data.pooled_queries else 0,
+                    # Legacy: flat list for backward compat
                     "queries": model_data.queries_generated,
                     "count": len(model_data.queries_generated),
                     "timestamp": timestamp,
@@ -2132,11 +2141,20 @@ async def execute_composition_simple(
 """
             (model_dir / "understanding.md").write_text(understanding_content, encoding="utf-8")
 
-        # Save queries.json - Factual queries this model generated
+        # Save queries.json - Factual queries this model generated + pooled queries it answered
         if model_data.queries_generated:
             queries_data = {
                 "model": model_data.model,
                 "subject": config.subject_profile.query,
+                "queries_generated": model_data.queries_generated,
+                "queries_generated_count": len(model_data.queries_generated),
+                # Pooled queries (after dedup) that this model answered — use these IDs to match answers.json
+                "pooled_queries": [
+                    {"query_id": pq.id, "query": pq.query, "source_model": pq.source_model, "overlap_count": pq.overlap_count}
+                    for pq in model_data.pooled_queries
+                ] if model_data.pooled_queries else [],
+                "pooled_queries_count": len(model_data.pooled_queries) if model_data.pooled_queries else 0,
+                # Legacy: flat list for backward compat
                 "queries": model_data.queries_generated,
                 "count": len(model_data.queries_generated),
                 "timestamp": timestamp,
@@ -3871,20 +3889,54 @@ def strip_url_citations(text: str) -> str:
     return re.sub(r'\[([^\]]*)\]\(https?://[^\)]*\)', r'\1', text)
 
 
-def assign_writing_patterns(patterns_data: dict) -> str:
-    """Randomly pick ONE option per pattern category and format for AML prompt."""
+def assign_writing_patterns(patterns_data: dict, review_features: list[str] | None = None) -> str:
+    """Randomly pick ONE option per pattern category, filtered to review-relevant patterns.
+
+    Args:
+        patterns_data: Full writing patterns dict from LLM generation.
+        review_features: Combined list of this review's pros + cons + characteristics.
+            If provided, only patterns whose context keywords overlap with the
+            review features text are included. If None, all patterns are included
+            (legacy behavior).
+    """
     import random
     if not patterns_data or not patterns_data.get("patterns"):
         return ""
+
+    # Build a lowercase search corpus from this review's assigned features
+    features_text = " ".join(review_features).lower() if review_features else ""
+
     lines = ["**Writing Patterns:**"]
     for _cat_key, cat_data in patterns_data["patterns"].items():
         if not isinstance(cat_data, dict):
             continue
         context = cat_data.get("context", "")
         options = cat_data.get("options", [])
-        if options:
-            chosen = random.choice(options)
-            lines.append(f'- {context}: write "{chosen}"')
+        if not options:
+            continue
+
+        # Filter: only include patterns relevant to this review's features
+        if features_text:
+            # Extract key terms from the pattern's context and an example option
+            pattern_text = (context + " " + (options[0] if options else "")).lower()
+            # Check if any substantive words from the pattern appear in the review's features
+            # Use the category key as an additional signal (e.g., "kids_stay_free_age")
+            search_terms = _cat_key.lower().replace("_", " ") + " " + pattern_text
+            # Simple relevance: at least one meaningful keyword overlap
+            # Extract nouns/numbers from pattern (words 4+ chars or digits)
+            import re
+            keywords = set(re.findall(r'[a-z]{4,}|\d+', search_terms))
+            # Remove stop words that would cause false matches
+            keywords -= {"when", "about", "with", "from", "that", "this", "what", "have", "been",
+                         "will", "more", "than", "each", "also", "into", "only", "very", "write",
+                         "mentioning", "stating", "specifying", "citing", "quoting", "listing",
+                         "referencing", "estimating", "holiday"}
+            feature_words = set(re.findall(r'[a-z]{4,}|\d+', features_text))
+            if not (keywords & feature_words):
+                continue
+
+        chosen = random.choice(options)
+        lines.append(f'- {context}: write "{chosen}"')
     return "\n".join(lines) if len(lines) > 1 else ""
 
 
@@ -4732,52 +4784,135 @@ Output ONLY the JSON object, no other text."""
                         fallback_parts.append(f"- Background: {additional_ctx}")
                     persona_text = "\n".join(fallback_parts) if fallback_parts else "- Background: general consumer"
 
-                # Assign writing patterns for this review
-                writing_pattern_assignments_str = assign_writing_patterns(writing_patterns)
+                # ── Scope features + patterns to this review's sentence plan ──
+                # Extract what the sentence plan actually needs
+                _plan_positive_aspects = set()
+                _plan_negative_aspects = set()
+                _plan_neutral_aspects = set()
+                _needs_positive = False
+                _needs_negative = False
+                _needs_neutral = False
+                for entry in sentence_plan:
+                    for asp in entry.get("aspects", []):
+                        cat = asp.get("category", "")
+                        pol = asp.get("polarity", "")
+                        if pol == "positive":
+                            _plan_positive_aspects.add(cat)
+                            _needs_positive = True
+                        elif pol == "negative":
+                            _plan_negative_aspects.add(cat)
+                            _needs_negative = True
+                        elif pol == "neutral":
+                            _plan_neutral_aspects.add(cat)
+                            _needs_neutral = True
+
+                # Extract top-level category keywords for feature matching
+                # e.g., ROOM_AMENITIES#GENERAL -> "room", "amenities"
+                def _aspect_keywords(aspects: set[str]) -> set[str]:
+                    keywords = set()
+                    for asp in aspects:
+                        for part in asp.lower().replace("#", " ").replace("_", " ").split():
+                            if len(part) >= 3:  # skip tiny fragments
+                                keywords.add(part)
+                    return keywords
+
+                _pos_keywords = _aspect_keywords(_plan_positive_aspects)
+                _neg_keywords = _aspect_keywords(_plan_negative_aspects)
+                _neu_keywords = _aspect_keywords(_plan_neutral_aspects)
+                _all_plan_keywords = _pos_keywords | _neg_keywords | _neu_keywords
+
+                def _feature_matches_keywords(feature: str, keywords: set[str]) -> bool:
+                    """Check if a feature text is relevant to a set of aspect keywords."""
+                    if not keywords:
+                        return False
+                    feat_lower = feature.lower()
+                    return any(kw in feat_lower for kw in keywords)
+
+                # Filter pros/cons to only those relevant to the sentence plan
+                def _dedup_features(features: list[str]) -> list[str]:
+                    if not features:
+                        return []
+                    cleaned = [strip_url_citations(f.strip()) for f in features if f.strip()]
+                    seen = set()
+                    unique = []
+                    for f in cleaned:
+                        key = f.lower().rstrip(".")
+                        if key not in seen:
+                            seen.add(key)
+                            unique.append(f)
+                    return unique
+
+                # Scope: only include features that match the plan's aspects
+                # If no keywords (e.g., all contextual sentences), include a small sample
+                if _all_plan_keywords:
+                    _scoped_pros = [p for p in (review_pros or []) if _feature_matches_keywords(p, _pos_keywords | _neu_keywords)]
+                    _scoped_cons = [c for c in (review_cons or []) if _feature_matches_keywords(c, _neg_keywords | _neu_keywords)]
+                    # If positive aspects in plan but no matching pros found, fall back to a small sample
+                    if _needs_positive and not _scoped_pros and review_pros:
+                        _scoped_pros = review_pros[:2]
+                    if _needs_negative and not _scoped_cons and review_cons:
+                        _scoped_cons = review_cons[:2]
+                else:
+                    # All-contextual plan: include a small sample for grounding
+                    _scoped_pros = (review_pros or [])[:2]
+                    _scoped_cons = (review_cons or [])[:1]
+
+                _deduped_pros = _dedup_features(_scoped_pros)
+                _deduped_cons = _dedup_features(_scoped_cons)
+
+                # Build Features to Mention section
+                if _deduped_pros or _deduped_cons:
+                    _ftm_parts = ["## Features to Mention"]
+                    if _deduped_pros:
+                        _ftm_parts.append("**Positive:**")
+                        for p in _deduped_pros:
+                            _ftm_parts.append(f"- {p}")
+                    if _deduped_cons:
+                        _ftm_parts.append("**Negative:**")
+                        for c in _deduped_cons:
+                            _ftm_parts.append(f"- {c}")
+                    features_to_mention = "\n".join(_ftm_parts)
+                else:
+                    features_to_mention = ""
+
+                # Assign writing patterns (filtered to plan-scoped features)
+                _scoped_all_features = _deduped_pros + _deduped_cons
+                writing_pattern_assignments_str = assign_writing_patterns(writing_patterns, _scoped_all_features if _scoped_all_features else None)
 
                 # Assign structure variant for this review
                 structure_variant_str = ""
                 if structure_assignments and review_index < len(structure_assignments):
                     structure_variant_str = format_structure_variant(structure_assignments[review_index])
 
-                # Strip URLs from SIL features for clean Subject Intelligence block
+                # Detail hint for when no SIL data is available
                 _domain_detail_hints = {
                     "laptop": "RAM amounts, storage size, CPU or GPU specs, display resolution or brightness, battery life estimates, port types, pricing, or weight",
                     "restaurant": "menu items, prices, wait times, portion sizes, specific dishes, or service details",
                     "hotel": "room amenities, nightly rates, check-in experience, breakfast options, pool or fitness center, or loyalty program details",
                 }
                 if review_features:
-                    features_clean = strip_url_citations(", ".join(review_features))
                     detail_hint = ""
                 else:
-                    features_clean = f"No verified specs available for this {_domain}."
                     _hint = _domain_detail_hints.get(_domain, "specific details, pricing, or notable features")
                     detail_hint = (
                         f"\n- Where natural, reference concrete details like {_hint}. "
                         "Real reviewers often mention specific details from their experience, though not every review needs to be exhaustive."
                     )
 
-                # Build Features to Mention section — omit entirely when no SIL data
-                _pros_str = strip_url_citations(", ".join(review_pros)) if review_pros else ""
-                _cons_str = strip_url_citations(", ".join(review_cons)) if review_cons else ""
-                if _pros_str or _cons_str:
-                    _ftm_parts = ["## Features to Mention"]
-                    if _pros_str:
-                        _ftm_parts.append(f"Positive: {_pros_str}")
-                    if _cons_str:
-                        _ftm_parts.append(f"Negative: {_cons_str}")
-                    features_to_mention = "\n".join(_ftm_parts)
-                else:
-                    features_to_mention = ""
+                # Build persona block — omit entirely if only region (not meaningful)
+                _persona_lines = [l.strip() for l in persona_text.strip().split("\n") if l.strip()]
+                _has_meaningful_persona = any(
+                    not l.startswith("- Region:") for l in _persona_lines
+                )
+                persona_block = f"\n## Your Persona\n{persona_text}" if _has_meaningful_persona else ""
 
                 prompt_vars = {
                     "subject": subject_context["query"],
                     "domain": _domain,
                     "region": subject_context.get("region", ""),
-                    "features_no_urls": features_clean,
                     "detail_hint": detail_hint,
                     "temporal_hint": _temporal_hint,
-                    "persona_text": persona_text,
+                    "persona_block": persona_block,
                     "features_to_mention": features_to_mention,
                     "num_sentences": num_sentences,
                     "aspect_sentence_plan": aspect_sentence_plan_str,
