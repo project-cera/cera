@@ -1,9 +1,14 @@
 Write a review for "{subject}" as the following reviewer:
+{persona_block}
 
-## Your Persona
-{persona_text}
+## Sentence Plan
+Write exactly {num_sentences} sentences following this plan:
+{aspect_sentence_plan}
 
-## Writing Assignments
+### Writing Guidelines
+**Authenticity:** Write as an authentic customer. Use contractions, filler words, and casual grammar where natural. Occasional fragments, run-ons, or informal punctuation if the persona would write that way. Do NOT include ratings, stars, or scores. Do NOT mention you are an AI.
+{detail_hint}
+{temporal_hint}
 **Opening:** {opening_directive}
 **Capitalization:** {capitalization_style}
 {writing_pattern_assignments}
@@ -13,10 +18,6 @@ Write a review for "{subject}" as the following reviewer:
 {features_to_mention}
 
 {style_examples}
-
-## Sentence Plan
-Write exactly {num_sentences} sentences following this plan:
-{aspect_sentence_plan}
 
 ## Output Format
 Output ONLY a JSON object with per-sentence aspect annotations.
