@@ -124,6 +124,7 @@ class MAVModelData:
     sanitized_model: str  # For folder naming (e.g., "anthropic-claude-sonnet-4")
     understanding: Optional[SubjectUnderstanding] = None
     queries_generated: list[str] = field(default_factory=list)  # Queries this model generated
+    pooled_queries: list[FactualQuery] = field(default_factory=list)  # Pooled queries this model answered (shared across models)
     answers: list[QueryAnswer] = field(default_factory=list)  # This model's answers to pooled queries
     search_content: str = ""  # Raw search results used
     error: Optional[str] = None
@@ -468,6 +469,7 @@ class SubjectIntelligenceLayer:
         subject: str,
         search_content: str,
         additional_context: Optional[str] = None,
+        region: str = "",
     ) -> list[str]:
         """
         Generate neutral factual queries based on research.
@@ -477,6 +479,7 @@ class SubjectIntelligenceLayer:
             subject: Subject being researched
             search_content: Research context from web search
             additional_context: Optional extra context about the subject
+            region: Geographic region for scoping queries
 
         Returns:
             List of query strings
@@ -491,11 +494,16 @@ class SubjectIntelligenceLayer:
         if search_content:
             research_context_block = f"\n\nResearch context from web search:\n{search_content[:10000]}\n"
 
+        region_block = ""
+        if region:
+            region_block = f"\n\nGEOGRAPHIC SCOPE: All queries and answers must be scoped to {region}. When policies, prices, or regulations vary by region, ask specifically about the {region} policy.\n"
+
         prompt = load_and_format(
             "sil", "generate_queries",
             subject=subject,
             additional_context_block=additional_context_block,
             research_context_block=research_context_block,
+            region_block=region_block,
         )
 
         async with self._get_client(model, component="sil.queries") as client:
@@ -649,6 +657,7 @@ class SubjectIntelligenceLayer:
         queries: list[FactualQuery],
         research_context: str,
         additional_context: Optional[str] = None,
+        region: str = "",
     ) -> list[QueryAnswer]:
         """
         Have a model answer all pooled queries independently.
@@ -661,6 +670,7 @@ class SubjectIntelligenceLayer:
             queries: List of pooled queries to answer
             research_context: Research context from Round 1
             additional_context: Optional extra context about the subject
+            region: Geographic region for scoping answers
 
         Returns:
             List of QueryAnswer objects
@@ -675,6 +685,10 @@ class SubjectIntelligenceLayer:
         if research_context:
             research_context_block = f"\nResearch context from web search:\n{research_context[:10000]}\n"
 
+        region_block = ""
+        if region:
+            region_block = f"\nGEOGRAPHIC SCOPE: Answer specifically for {region}. When policies, prices, age limits, or regulations vary by region, provide ONLY the {region} values — do not list other regions' variants.\n"
+
         # Format queries as JSON for the prompt
         queries_json = json.dumps(
             [{"query_id": q.id, "query": q.query} for q in queries],
@@ -686,6 +700,7 @@ class SubjectIntelligenceLayer:
             subject=subject,
             additional_context_block=additional_context_block,
             research_context_block=research_context_block,
+            region_block=region_block,
             queries_json=queries_json,
         )
 
@@ -1519,7 +1534,7 @@ class SubjectIntelligenceLayer:
                     model, query, additional_context
                 )
                 queries = await self._generate_factual_queries(
-                    model, query, search_content, additional_context
+                    model, query, search_content, additional_context, region=region
                 )
                 return model, understanding, search_content, queries
 
@@ -1649,7 +1664,7 @@ class SubjectIntelligenceLayer:
                 max_retries = 3
                 for attempt in range(max_retries):
                     answers = await self._answer_queries(
-                        model, query, pooled_queries, research_context, additional_context
+                        model, query, pooled_queries, research_context, additional_context, region=region
                     )
                     # Check if answers are mostly empty/low-confidence
                     non_empty = [a for a in answers if a.response and not a.response.startswith("Unable to answer") and a.confidence != "low"]
@@ -1687,6 +1702,7 @@ class SubjectIntelligenceLayer:
                     sanitized_model=sanitized,
                     understanding=understanding,
                     queries_generated=queries_from_model,
+                    pooled_queries=pooled_queries,
                     answers=model_answers.get(model, []),
                     search_content=search_content if isinstance(search_content, str) else "",
                 ))
@@ -1946,13 +1962,14 @@ class SubjectIntelligenceLayer:
 
         # SAV fallback: Single-agent verification (web search, no multi-agent consensus)
         await self._emit_log("INFO", "SIL", "Running in SAV mode (single-agent verification with web search, no MAV consensus)")
-        return await self._single_model_fallback(query, additional_context, domain=domain)
+        return await self._single_model_fallback(query, additional_context, domain=domain, region=region)
 
     async def _single_model_fallback(
         self,
         query: str,
         additional_context: Optional[str] = None,
         domain: str = "general",
+        region: str = "",
     ) -> MAVResult:
         """Fallback to single model extraction when MAV cannot run."""
         fallback_model = (
@@ -1966,7 +1983,7 @@ class SubjectIntelligenceLayer:
                 fallback_model, query, additional_context
             )
             queries = await self._generate_factual_queries(
-                fallback_model, query, search_content, additional_context
+                fallback_model, query, search_content, additional_context, region=region
             )
 
             # Temporal query injection (SAV path)
@@ -1982,7 +1999,7 @@ class SubjectIntelligenceLayer:
             # Answer the queries with the single model
             pooled = [FactualQuery(id=f"q{i+1}", query=q, source_model=fallback_model) for i, q in enumerate(queries)]
             answers = await self._answer_queries(
-                fallback_model, query, pooled, search_content, additional_context
+                fallback_model, query, pooled, search_content, additional_context, region=region
             )
 
             # Classify answers directly (no consensus needed)

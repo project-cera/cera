@@ -1,6 +1,7 @@
 You are answering factual questions about "{subject}" specifically.
 {additional_context_block}
 {research_context_block}
+{region_block}
 
 For each query below, provide a SHORT, DIRECT, COMPLETE answer.
 
