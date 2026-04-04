@@ -1,0 +1,293 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"If you're looking for solid value, you'll usually find a mini-fridge and coffee maker in your room, plus they offer standard rooms, suites, and access",no,,,,no,breakfast_not_included;dining_full_service;kids_program_exists
+2,"Compared to the sketchy motels I've stayed at, this Holiday Inn offers a reliable, family-friendly experience that truly delivers value. Unlike the ch",no,,,,no,kids_program_exists
+3,"rooms here are pretty decent and comfy, especially for a road trip stop. the beds were firm and the mini-fridges and coffee makers are standard in mos",no,,,,no,dining_full_service;kids_eat_age_limits;rewards_join_benefits
+4,"just checked in and was surprised how solid this place felt for a business trip. room types include kings, doubles, suites, and accessible rooms, all ",no,,,,no,kids_eat_conditions
+5,"I stayed at a Holiday Inn by IHG for a few days last week and honestly, I was worried about the costs since Availability and cost of parking depend on",no,,,,no,dining_full_service;kids_eat_conditions
+6,You'll usually find a mini-fridge and coffee maker in your room.,no,,,,no,
+7,Kids 11 and younger get free meals from the kids' menu.,no,,,,no,kids_eat_conditions
+8,The staff were so helpful getting us settled in despite the chaotic arrival with the kids.,yes,vague_review,Review contains zero specific details about the product,,yes,
+9,"the room was spotless with a mini-fridge and coffee maker, yet the overall quality felt a bit dated. it was incredibly comfortable and the room was pr",no,,,,no,
+10,location is great for families with the kids eat free policy.,no,,,,no,kids_program_exists
+11,"At first we were excited about the location, but then things got frustrating when we realized parking fees were higher than expected. By morning we en",no,,,,no,breakfast_not_included;kids_eat_conditions
+12,"Rooms commonly have mini-fridges and coffee makers, which is a nice touch compared to the sparse amenities at the Hampton. The on-site restaurant is m",no,,,,no,dining_full_service
+13,just got here after a long drive so i was super excited to finally get a room. first the check in took literally 45 seconds and the rooms were spotles,no,,,,no,
+14,"Most rooms come with a fridge and coffee setup, yet the lack of a microwave made my quick snacks difficult. Owned by InterContinental Hotels Group, th",no,,,,no,dining_full_service
+15,"kids aged 11 and under eat free from the kids' menu at on-site restaurants which is a nice touch, but breakfast is available but usually requires an a",no,,,,no,dining_full_service;kids_eat_age_limits;kids_eat_conditions;kids_program_exists
+16,the rooms were surprisingly spacious and comfortable for our family stay.,yes,vague_review,Review contains zero specific details about the product,,yes,
+17,"This Holiday Inn was first established in 1952 by Kemmons Wilson, and it feels like a reliable, solid choice for a family trip. If your kid is 11 or u",no,,,,no,
+18,parking fees were a shock and breakfast definitely costs extra unlike express. the staff was super helpful and we earned points with ihg one rewards.,no,,,,no,breakfast_not_included;breakfast_vs_express
+19,We stayed at a competitor last time but this Holiday Inn was cleaner with better amenities like a fridge and coffee setup in the room. We tried the Ki,no,,,,no,kids_eat_age_limits;kids_program_exists
+20,"Rooms commonly have mini-fridges and coffee makers. With 1,200+ locations, they are everywhere. Urban spots often charge for parking, while suburbs mi",no,,,,no,kids_eat_conditions
+21,You typically have to pay for the on-site restaurant breakfast.,no,,,,no,breakfast_not_included;dining_full_service
+22,"Visited a Holiday Inn recently and it's great to see Established in '52 by Kemmons Wilson. With 1,200+ locations, they are everywhere. Global presence",no,,,,no,kids_program_exists;rewards_join_benefits
+23,Stayed here a few days ago with the family. The brand goes way back to 1952. Children aged 11 and under eat free. You'll find them in almost 100 diffe,no,,,,no,kids_eat_age_limits;kids_program_exists
+24,Just checked room 304 at 2 AM. Breakfast is available but usually requires an additional charge.,no,,,,no,
+25,We just pulled into the lot after a long drive and couldn't wait to see what the famous family spot had to offer. It all started in 1952 with Kemmons ,no,,,,no,kids_eat_conditions
+26,"Established in '52 by Kemmons Wilson., there are more than 1,100 Holiday Inns around the world with Global presence in almost 100 nations, and while U",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_conditions;kids_program_exists;rewards_join_benefits
+27,"We stayed here after comparing it to a Holiday Inn Express we used last year, and while the full-service vibe is nice, we had to pay for breakfast unl",no,,,,no,breakfast_not_included;breakfast_vs_express;dining_full_service
+28,location was pretty solid.,yes,vague_review,Review contains zero specific details about the product,,yes,
+29,Parking fees vary by location but the value is great. We just booked a family trip here recently. The staff were amazing and the rates were fair.,no,,,,no,
+30,"Just wanted to give a heads up before you book that not every Holiday Inn is exactly the same experience. Parking is common, but check if it's paid or",no,,,,no,dining_full_service;kids_eat_conditions
+31,it all started in 1952 with kemmons wilson. most rooms come with a fridge and coffee setup. just got here a few days ago and felt good right away. chi,no,,,,no,kids_eat_age_limits;kids_program_exists
+32,"Established in '52 by Kemmons Wilson. Holiday Inn operates over 1,200 full-service locations globally. They cover nearly a hundred countries. Because ",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_age_limits
+33,if you're looking for a reliable place to stay the staff was super friendly and helpful the whole time. rooms were clean and had a mini-fridge and cof,no,,,,no,breakfast_not_included
+34,"stayed here a few days ago with the family. Kemmons Wilson founded this place back in 1952. Service was great though, and the staff really helped us o",no,,,,no,kids_eat_age_limits;kids_eat_conditions
+35,"I just walked in after a long drive and noticed the lobby smelled a bit stale, but then the staff greeted us warmly. The rooms were spotless and had m",no,,,,no,
+36,"it all started in 1952 with kemmons wilson and there are more than 1,100 holiday inns around the world spanning nearly 100 countries. from standard ro",no,,,,no,
+37,"honestly the staff at this holiday inn by ihg were so friendly and helpful the moment i walked through the door, especially since ihg hotels & resorts",no,,,,no,dining_full_service;rewards_join_benefits
+38,"Honestly, after getting burned by those sketchy motels that charge extra for everything, I decided to finally try a Holiday Inn. You'll usually find a",no,,,,no,
+39,the room felt a bit dusty and the mini-fridge was definitely not clean when i checked in. breakfast is available but usually requires an additional ch,no,,,,no,
+40,you typically have to pay for the on-site restaurant breakfast which was a bit pricey but the food quality was actually pretty good. you typically hav,no,,,,no,breakfast_not_included;dining_full_service;kids_eat_conditions
+41,just stayed here last week and the kids stayed free which was nice. breakfast costs extra but they have mini-fridges and the kids menu is good.,no,,,,no,breakfast_not_included;kids_eat_conditions
+42,"We just arrived after a long drive last weekend. At first we thought it was a great spot since they offer free dining for kids up to age 11, but then ",no,,,,no,breakfast_not_included;breakfast_vs_express;kids_eat_age_limits
+43,"To the left, the lobby felt spacious and welcoming with that familiar Holiday Inn reliability that you expect from a brand owned by InterContinental H",no,,,,no,breakfast_not_included;breakfast_vs_express;kids_eat_conditions
+44,"usually the kids eat free policy works great, but this time the menu options felt limited instead of the usual variety. some places have free parking,",no,,,,no,kids_program_exists
+45,"Unlike the Marriott, the service felt a bit rushed and impersonal compared to what I expected. Rooms commonly have mini-fridges and coffee makers, the",no,,,,no,
+46,honestly the rooms felt a bit cramped and the beds weren't as comfortable as expected. no free breakfast included in the standard rate. urban spots of,no,,,,no,breakfast_not_included
+47,"Standard amenities include a mini-fridge and coffee maker, and the bed was so comfy we all crashed immediately. If your kid is 11 or under, they eat f",no,,,,no,
+48,"Is it surprising that a chain with such a long history, where Kemmons Wilson founded this place back in 1952, can still feel a bit dated in design des",no,,,,no,dining_full_service;kids_eat_conditions
+49,Most rooms come with a fridge and coffee setup. The beds were super comfy though. Staff was helpful and friendly. The place was spotless clean. Parkin,no,,,,no,
+50,"It all started in 1952 with Kemmons Wilson and honestly the service here was just great, like they really know how to take care of families with that ",no,,,,no,kids_program_exists
+51,"beds were comfy enough even though urban spots often charge for parking, while suburbs might be free. established in '52 by kemmons wilson. staying he",no,,,,no,kids_eat_age_limits;kids_program_exists
+52,"So I finally booked a stay and the rooms were surprisingly spacious with a clean, modern design that felt perfect for our family. It's a brand under I",no,,,,no,kids_eat_conditions
+53,"room types include kings, doubles, suites, and accessible rooms which were clean and comfy enough for us. the on site restaurants feel pretty comforta",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_conditions
+54,"Parking fees were surprisingly high for an urban location, so check if it's paid or free before you arrive. I stayed in room 305 last Tuesday evening.",no,,,,no,dining_full_service;kids_eat_age_limits
+55,I just booked a stay at a Holiday Inn by IHG because my family needed a reliable spot for our weekend trip. I expected the usual full-service perks an,no,,,,no,dining_full_service;kids_eat_age_limits;kids_program_exists
+56,"It all started in 1952 with Kemmons Wilson, and the kids loved the comfortable pool area just as much as the family-friendly vibe we felt immediately.",no,,,,no,dining_full_service;kids_eat_age_limits;kids_program_exists
+57,"Parking is common, but check if it's paid or free because the urban fees were steep. Mini-fridges and coffee makers are standard in most rooms and the",no,,,,no,
+58,"You'll usually find a mini-fridge and coffee maker in your room with good value, but availability and cost of parking depend on the specific property.",no,,,,no,breakfast_not_included;dining_full_service;rewards_join_benefits
+59,"the rooms felt comfortable and the kids eat free deal is a nice touch, but honestly the vibe was just okay.",no,,,,no,kids_program_exists
+60,"We stopped here on a road trip to break up the drive and found the rooms were spotless. However, the interior design felt a bit dated with some scuffe",yes,vague_review,Review contains zero specific details about the product,,yes,
+61,so you're wondering if a family trip to a mid-scale hotel is actually worth the hassle? the brand goes way back to 1952 and you can find this brand at,no,,,,no,kids_eat_conditions
+62,Staying at this Holiday Inn felt like a breath of fresh air for the whole family. The brand goes way back to 1952 and you can find this brand at over ,no,,,,no,
+63,We drove past a few other chains on our road trip before deciding to pull into this Holiday Inn for the night. Unlike the Marriott we stayed at last w,no,,,,no,dining_full_service;kids_eat_conditions
+64,ok so the staff was super helpful and the brand goes way back to 1952. specifically the front desk team made sure i got points for ihg one rewards whi,no,,,,no,dining_full_service;kids_program_exists
+65,"if you're looking for a solid family spot, this holiday inn brand has been reliable for decades. you typically have to pay for the on-site restaurant ",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_age_limits;kids_program_exists
+66,"So I finally checked in after that long drive. With 1,200+ locations, they are everywhere and the family-friendly vibes were definitely there. It's a ",no,,,,no,dining_full_service
+67,"I usually rely on Holiday Inn for consistent business trips, but this recent stay was a letdown compared to past successes. The rooms were immaculate ",yes,vague_review,Review contains zero specific details about the product,,yes,
+68,"the food at the restaurant was decent enough, but no free breakfast included in the standard rate and the kids eat free program only goes up to ages 1",no,,,,no,kids_program_exists
+69,"Parking is common, but check if it's paid or free.",no,,,,no,
+70,"Kids 11 and younger get free meals from the kids' menu, and the family-friendly vibe made the dining costs totally manageable. The on-site restaurant ",no,,,,no,dining_full_service;kids_eat_conditions
+71,"We arrived recently for a family trip and were thrilled that children aged 11 and under eat free from the on-site restaurant menu in the US, which mad",no,,,,no,dining_full_service;kids_eat_age_limits;kids_program_exists
+72,"Holiday Inn was first established in 1952. Over 1,100 hotels across the globe. IHG Hotels & Resorts owns Holiday Inn. Global presence in almost 100 na",no,,,,no,breakfast_not_included;kids_program_exists
+73,I was dreading another expensive trip until I remembered the family perks at this place. Unlike the budget motels I used to hit where breakfast was in,no,,,,no,
+74,"Established in '52 by Kemmons Wilson, the hotel feels like a classic stop with over 1,100 hotels across the globe serving nearly a hundred countries. ",no,,,,no,kids_eat_conditions
+75,location is perfect for families with kids 11 and younger get free meals from the kids' menu.,no,,,,no,kids_eat_conditions
+76,options range from standard beds to suites and ada-compliant rooms.,yes,vague_review,Review contains zero specific details about the product,,yes,
+77,"The rooms were spotless and felt surprisingly spacious for the price, yet the overall quality of the furniture felt a bit worn compared to our last st",no,,,,no,
+78,Most rooms come with a fridge and coffee setup. Holiday Inn is owned by InterContinental Hotels Group (IHG) and offers reliable comfort at a decent pr,no,,,,no,dining_full_service;kids_eat_conditions
+79,"I thought the brand goes way back to 1952 and would feel timeless, but the room rates were surprisingly steep for what I expected. Parking is common, ",no,,,,no,kids_eat_age_limits;kids_program_exists;rewards_join_benefits
+80,the rooms were spotless and so comfy with the best design details. the service felt a bit rushed though. parking fees were high and the decor felt a l,no,,,,no,
+81,"most rooms come with a fridge and coffee setup. parking is common, but check if it's paid or free.",no,,,,no,
+82,The staff was great. Kids eat free on the menu at a fair price. Rooms were nice but rates vary.,no,,,,no,kids_program_exists
+83,It is hard to beat the value Holiday Inn offers families across the globe.,yes,vague_review,Review contains zero specific details about the product,,yes,
+84,"if you're looking for a reliable family spot, i visited a Holiday Inn recently and found it decent. parking fees vary by location and can get pricey, ",no,,,,no,
+85,ok so we just stopped here last week on our road trip. the room was super clean and the bed was surprisingly comfy. considering we are looking for val,no,,,,no,
+86,"The halls were grimy and the decor felt cheap. Free dining for kids up to age 11 and the breakfast options are actually decent. The beds are solid, th",no,,,,no,kids_eat_age_limits
+87,"Established in '52 by Kemmons Wilson, the rooms were comfortable with mini-fridges and coffee makers, yet parking fees in this city center location we",no,,,,no,dining_full_service
+88,"from standard rooms to suites and accessible units, mini-fridges and coffee makers are standard in most rooms. just checked in for a work trip and hon",no,,,,no,
+89,just got back from a stay and the front desk vibe was a bit cold when i arrived. mini-fridges and coffee makers are standard in most rooms but the car,no,,,,no,dining_full_service;kids_eat_conditions
+90,"The spacious rooms featuring kings, doubles, suites, and accessible rooms offered a delightful retreat at a reasonable price.",yes,vague_review,Review contains zero specific details about the product,,yes,
+91,"you'll usually find a mini-fridge and coffee maker in your room, and the space felt surprisingly spacious for a standard booking. children aged 11 and",no,,,,no,dining_full_service;kids_eat_age_limits;kids_program_exists
+92,"Most rooms come with a fridge and coffee setup, though the value is decent for families. You can find this brand at over 1,200 spots worldwide and the",no,,,,no,breakfast_not_included;breakfast_vs_express;kids_eat_conditions
+93,"Inside the accommodation, the room felt spacious and well-lit, with standard amenities including a mini-fridge and coffee maker creating a cozy atmosp",no,,,,no,
+94,parking fees are a bit high in the city but that seems to be the norm. as always i love the reliability of this brand because it feels so familiar. yo,no,,,,no,dining_full_service;kids_eat_age_limits;kids_eat_conditions;kids_program_exists
+95,"I thought the brand was solid, but the room felt off despite the standard setup. They offer standard rooms, suites, and accessible rooms, and rooms co",no,,,,no,
+96,"I was so surprised to find this place right off the highway, especially since I remembered the brand being established in '52 by Kemmons Wilson. It is",no,,,,no,
+97,i expected the usual hassle but the staff was actually super chill and the kids stayed free which is a huge plus for our family. the price was reasona,no,,,,no,
+98,Holiday Inn is owned by InterContinental Hotels Group (IHG). I stayed there just a few days ago. Options range from standard beds to suites and ADA-co,no,,,,no,kids_eat_age_limits;kids_program_exists
+99,"It all started in 1952 with Kemmons Wilson and today Holiday Inn operates over 1,200 full-service locations globally. From standard rooms to suites an",no,,,,no,dining_full_service;kids_eat_conditions
+100,service was hit or miss depending on the time i checked in.,yes,vague_review,Review contains zero specific details about the product,,yes,
+101,"So I finally checked in and the location is actually great for a family trip. The free kids' menu applies to ages 11 and below which is great, but the",no,,,,no,breakfast_not_included;breakfast_vs_express;kids_eat_conditions
+102,"staying here felt great for the family and the price was fair, plus the room was super comfortable with mini-fridges and coffee makers standard in mos",no,,,,no,
+103,"The work desk is spacious and the value for families is unbeatable. It all started in 1952 with Kemmons Wilson. There are more than 1,100 Holiday Inns",no,,,,no,dining_full_service;kids_eat_age_limits;rewards_join_benefits
+104,at first the rate was decent for a family trip. then things got annoying when i realized the city parking fee was insane. you typically have to pay fo,no,,,,no,breakfast_not_included;dining_full_service
+105,"The food at the on-site restaurant was great, and I loved the kids' menu options for the family.",no,,,,no,dining_full_service;kids_eat_conditions
+106,"We arrived at the Holiday Inn by IHG near the airport after a long drive. You typically have to pay for the on-site restaurant breakfast, but Children",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_age_limits;kids_program_exists
+107,"The brand goes way back to 1952 and with 1,200+ locations they are everywhere so you know the experience is just reliable for a family trip. Just stay",no,,,,no,kids_eat_conditions
+108,"The staff were incredibly welcoming and made the check-in process smooth for our family. Unlike the Marriott, the lobby felt a bit dated and the hallw",no,,,,no,breakfast_not_included;dining_full_service
+109,"Usually the Wi-Fi works well for my work, but this time it was painfully slow and the desk setup was impossible to use. Rooms commonly have mini-fridg",no,,,,no,rewards_join_benefits
+110,Children aged 11 and under eat free.,no,,,,no,kids_eat_age_limits;kids_program_exists
+111,I just stayed at a Holiday Inn a few days ago and was so happy to find a place that felt like home for my family. No free breakfast included in the st,no,,,,no,dining_full_service;kids_eat_age_limits;kids_program_exists
+112,"ok so unlike those budget motels charging $120, this place had kings and suites for way less even with urban parking fees, and you can find this brand",no,,,,no,breakfast_vs_express;dining_full_service;kids_eat_conditions;kids_program_exists;rewards_join_benefits
+113,"I wanted to love this place, but the experience was a mixed bag. First, check-in was fast, and standard amenities include a mini-fridge and coffee mak",no,,,,no,dining_full_service
+114,"Standard amenities include a mini-fridge and coffee maker. So we settled in after the chaos of arrival, though the pool was closed.",no,,,,no,
+115,"Kids 11 and younger get free meals from the kids' menu, but you typically have to pay for the on-site restaurant breakfast. The rooms were spotless an",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_conditions
+116,"switched here after a holiday inn express but honestly the vibe is totally different even if it's owned by intercontinental hotels group. With 1,200+ ",no,,,,no,kids_program_exists
+117,the room was spotless and clean. we just checked in a couple days ago for a family trip.,yes,vague_review,Review contains zero specific details about the product,,yes,
+118,"Heads up: parking fees vary wildly so check ahead since some places have free parking, others in the city charge fees. You can book standard rooms, su",no,,,,no,breakfast_not_included;dining_full_service
+119,the rooms were surprisingly clean and comfortable with good attention to detail.,yes,vague_review,Review contains zero specific details about the product,,yes,
+120,Great location.,yes,vague_review,Review contains zero specific details about the product,,yes,
+121,"You know, the service here was way better than what I got at the competitor down the street last week, just like how Holiday Inn has always tried to k",no,,,,no,
+122,"if your kid is 11 or under, they eat for free at the on-site spots, but breakfast is available but usually requires an additional charge. options rang",no,,,,no,
+123,"if you're looking for a spot for the whole crew, kemmons wilson founded this place back in 1952 and over 1,100 hotels across the globe still get it ri",no,,,,no,kids_eat_conditions
+124,"Options range from standard beds to suites and ADA-compliant rooms, but some places have free parking, others in the city charge fees. In the room, we",no,,,,no,breakfast_not_included;breakfast_vs_express
+125,"The beds were incredibly comfortable, though the lobby looked a bit tired, and the modern design features really stood out.  The room quality was soli",no,,,,no,
+126,"It all started in 1952 with Kemmons Wilson and Holiday Inn operates over 1,200 full-service locations globally with a global presence in almost 100 na",no,,,,no,dining_full_service;kids_eat_conditions
+127,"As always, I rely on Holiday Inn for a reliable family trip and it never disappoints. The service was fantastic from the moment we walked in and the s",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_age_limits
+128,"Kemmons Wilson founded this place back in 1952 and with over 1,100 hotels across the globe spanning nearly 100 countries, the brand's consistency as a",no,,,,no,dining_full_service;kids_eat_conditions
+129,"The rooms commonly have mini-fridges and coffee makers, and options range from standard beds to suites and ADA-compliant rooms, though pricing fluctua",no,,,,no,dining_full_service;rewards_join_benefits
+130,"Usually, I find Holiday Inn to be a RELIABLE choice for business travel across the US. But this time the slow Wi-Fi and poor desk setup made it imposs",no,,,,no,kids_eat_conditions
+131,The rooms were okay but the parking fees were surprisingly high for this location.,no,,,,no,
+132,"We drove up for a quick family trip and checked in just a few days ago. You'll usually find a mini-fridge and coffee maker in your room, but breakfast",no,,,,no,
+133,"stayed here instead of the chain down the road there are more than 1,100 Holiday Inns around the world. Kemmons Wilson founded this place back in 1952",no,,,,no,kids_program_exists
+134,the rooms were surprisingly clean with all the modern amenities. we found the location to be super convenient for everything we needed. the area felt ,yes,vague_review,Review contains zero specific details about the product,,yes,
+135,"so the service was just okay, not amazing but not terrible either.",yes,vague_review,Review contains zero specific details about the product,,yes,
+136,stayed at a holiday inn for a few days and the kids eat free policy is great plus you typically have to pay for the on-site restaurant breakfast.,no,,,,no,breakfast_not_included;dining_full_service;kids_program_exists
+137,Children aged 11 and under eat free from the kids' menu at on-site restaurants and there are SO MANY options for the whole family. We just got here a ,no,,,,no,dining_full_service;kids_eat_age_limits;kids_eat_conditions;kids_program_exists
+138,"urban spots often charge for parking, while suburbs might be free. Free dining for kids up to age 11. and most rooms come with a fridge and coffee set",no,,,,no,kids_eat_age_limits
+139,heads up before you book this place because things can get messy fast. so i stayed there last week and honestly i was ready to quit before dinner. the,no,,,,no,kids_program_exists
+140,"i just checked in yesterday after driving all night, and honestly the lobby felt a bit too loud. with 1,200+ locations, they are everywhere, and the k",no,,,,no,kids_program_exists
+141,"If your kid is 11 or under, they eat for free, but there is no free breakfast included in the standard rate. Most hotels offer parking, but fees vary ",no,,,,no,breakfast_not_included
+142,the parking fees at this urban location were surprisingly high and added a lot to the cost.,no,,,,no,
+143,The vibe was super clean and the staff was great. The rooms were spotless and very comfortable.,yes,vague_review,Review contains zero specific details about the product,,yes,
+144,"Mini-fridges and coffee makers are standard in most rooms. However, I expected a free breakfast like my last IHG Express stay, but you typically have ",no,,,,no,breakfast_not_included;breakfast_vs_express;dining_full_service
+145,"First, I noticed the check-in process took exactly 45 seconds at the front desk. Next, the room temperature was set perfectly to a cool 70 degrees upo",no,,,,no,kids_eat_age_limits;kids_program_exists
+146,"You typically have to pay for the on-site restaurant breakfast, but Free dining for kids up to age 11 helps keep the food costs down. We arrived at a ",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_age_limits
+147,Kemmons Wilson founded this place back in 1952 and I just had the most wonderful stay at this location that has truly stood the test of time. Parking ,no,,,,no,kids_eat_conditions
+148,"Just a heads up before you book a full-service stay here, the experience can be a real mixed bag depending on the specific property. Holiday Inn is ow",no,,,,no,dining_full_service;kids_program_exists
+149,"Compared to the Marriott, the room rates felt steep and the standard rate includes no free breakfast. The pool area was a nice upgrade compared to the",no,,,,no,kids_program_exists;rewards_join_benefits
+150,"I wanted to love this but the lack of free breakfast was a real buzzkill for a business trip. The brand goes way back to 1952. With 1,200+ locations, ",no,,,,no,rewards_join_benefits
+151,kemmons wilson founded this place back in 1952 and with kids eat free for ages 11 and below the dining feels so welcoming for families. rooms commonly,no,,,,no,dining_full_service;kids_program_exists
+152,"Then I found out the parking fees in this city were surprisingly high. Next, the kids eat free up to age 11 but breakfast is not included.",no,,,,no,breakfast_not_included;kids_eat_age_limits;kids_program_exists
+153,so i just checked in last night and the front desk was ready in about 90 seconds. most rooms come with a fridge and coffee setup. The wifi was fast.,no,,,,no,
+154,"The room was COLD and the parking fee was a SHOCK, but the value for families with kids is actually great. Therefore, the overall brand is reliable as",no,,,,no,breakfast_not_included;dining_full_service
+155,"Kemmons Wilson founded this place back in 1952, and honestly, does this chain still know how to handle a business traveler's checklist? With 1,200+ lo",no,,,,no,
+156,"I wanted to love this place because it's a brand under IHG Hotels & Resorts with a long history. Moving to the lobby, it felt a bit standard but the c",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_conditions
+157,as always the rates here are fantastic for what you get and the comfort of the room is just right. the comfort was great and because the prices stay s,no,,,,no,kids_eat_conditions;kids_program_exists
+158,Service was good.,yes,vague_review,Review contains zero specific details about the product,,yes,
+159,"Unlike my previous stays where staff were consistently helpful, the service here felt indifferent and slow. It all started in 1952 with Kemmons Wilson",no,,,,no,kids_eat_age_limits;kids_program_exists;rewards_elite_tiers
+160,The rooms were clean and standard.,yes,vague_review,Review contains zero specific details about the product,,yes,
+161,"heads up, don't assume breakfast is free here just because it's a holiday inn. most rooms come with a fridge and coffee setup and the design feels sol",no,,,,no,kids_eat_age_limits;kids_program_exists
+162,Most rooms come with a fridge and coffee setup. The bed was okay. The design was fresh. The staff were great. The parking fee was high. The coffee was,no,,,,no,kids_eat_age_limits
+163,"It all started in 1952 with Kemmons Wilson and you'll find them in almost 100 different nations, yet the standard amenities like the mini-fridge and c",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_conditions
+164,"Heads up before you book, though the brand's legacy as Established in '52 by Kemmons Wilson. is solid, the reality on the ground can vary significantl",no,,,,no,kids_program_exists
+165,"Just visited a Holiday Inn in Ohio last week, and you know the brand goes way back to 1952 so it feels pretty familiar. Over 1,100 hotels across the g",no,,,,no,kids_eat_age_limits;kids_program_exists;rewards_join_benefits
+166,location was solid for a midscale brand and the vibe felt reliable.,yes,vague_review,Review contains zero specific details about the product,,yes,
+167,"The brand goes way back to 1952, and the rooms were incredibly comfortable with standard amenities like a mini-fridge and coffee maker. It's a brand u",no,,,,no,
+168,"Most rooms come with a fridge and coffee setup, which is great for a quick morning coffee before heading out. If your kid is 11 or under, they eat for",no,,,,no,dining_full_service
+169,the staff here were genuinely helpful and made our trip feel so much smoother.,yes,vague_review,Review contains zero specific details about the product,,yes,
+170,"Usually the food at these chains is reliable, but this time the kids menu prices were too high for the slow Wi-Fi experience. The room was spotless an",no,,,,no,kids_eat_conditions;rewards_join_benefits
+171,I had mixed feelings about this stay because the room issue had me stressed out. The front desk staff was polite and handled the situation with patien,no,,,,no,kids_eat_age_limits
+172,I just checked in after a long drive and honestly I am so tired of the parking fees. The family-friendly vibe with kids eating free makes the rooms wo,no,,,,no,
+173,The modern lobby design really sets a welcoming tone for the whole stay. The beds were surprisingly soft and the room quality felt solid and clean.,no,,,,no,
+174,"We needed a place to crash for a family road trip, so we booked a Holiday Inn since Established in '52 by Kemmons Wilson. With 1,200+ locations, they ",no,,,,no,breakfast_not_included;breakfast_vs_express;kids_eat_conditions;kids_program_exists
+175,We just got back from our stay and honestly the whole vibe was a bit mixed for us. You typically have to pay for the on-site restaurant breakfast.,no,,,,no,breakfast_not_included;dining_full_service
+176,"the spacious suites with soft lighting and plush bedding offer great value since kids 11 and younger get free meals from the kids' menu, and mini-frid",no,,,,no,kids_eat_conditions;rewards_join_benefits
+177,You'll usually find a mini-fridge and coffee maker in your room.,no,,,,no,
+178,We arrived at the Holiday Inn by IHG after a long drive and were actually kind of just expecting a standard stay. We tried the on-site restaurant and ,no,,,,no,dining_full_service;kids_eat_age_limits;kids_eat_conditions;kids_program_exists;rewards_join_benefits
+179,"So I finally checked in expecting a smooth family trip, but honestly? The parking was a hidden fee shock and the room smelled like stale smoke. The cl",no,,,,no,
+180,"It all started in 1952 with Kemmons Wilson and we just checked in last week. The kids loved the pool and since children aged 11 and under eat free, th",no,,,,no,kids_eat_age_limits;kids_program_exists
+181,"standard amenities include a mini-fridge and coffee maker. urban spots often charge for parking, while suburbs might be free. kids 11 and younger get ",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_conditions
+182,"You'll usually find a mini-fridge and coffee maker in your room, but the cleanliness was lacking.",no,,,,no,
+183,"The family-friendly atmosphere is a nice touch, but the parking fees in the city were surprisingly high.",no,,,,no,
+184,so the lobby felt super clean and the modern design stuff was actually pretty cool. the bed was super comfy and the room quality was way better than i,no,,,,no,dining_full_service
+185,"For that price, you can't beat the value of rooms with mini-fridges and coffee makers, though the cleanliness in the hallway was a bit lacking. The fr",no,,,,no,kids_eat_conditions
+186,"service was really nice even though established in '52 by kemmons Wilson, they cover nearly a hundred countries and there are more than 1,100 Holiday ",no,,,,no,
+187,"It all started in 1952 with Kemmons Wilson and there were more than 1,100 Holiday Inns around the world, so we knew the facilities were clean and comf",no,,,,no,
+188,Kids 11 and younger get free meals from the kids' menu.,no,,,,no,kids_eat_conditions
+189,"honestly the vibe was super chill and they've got over 1,100 hotels across the globe so you know it's a solid brand. part of the ihg family and they c",no,,,,no,dining_full_service
+190,"Rooms commonly have mini-fridges and coffee makers, and the temperature was perfect within seconds. They offer standard rooms, suites, and accessible ",no,,,,no,kids_eat_conditions
+191,"Most rooms come with a fridge and coffee setup, and Room types include kings, doubles, suites, and accessible rooms for our family's needs. It's a bra",no,,,,no,
+192,at first i was so excited to bring the kids here for a weekend trip. kids 11 and younger get free meals from the kids' menu and there are plenty of st,no,,,,no,dining_full_service;kids_eat_conditions
+193,"just got back from a business trip and needed a reliable place to crash. first, parking is common, but check if it's paid or free, and you typically h",no,,,,no,breakfast_not_included;dining_full_service;rewards_join_benefits
+194,"rooms commonly have mini-fridges and coffee makers. some places have free parking, others in the city charge fees. just stopped by for the night. kids",no,,,,no,kids_eat_conditions
+195,"It all started in 1952 with Kemmons Wilson. There are more than 1,100 Holiday Inns around the world and the brand spans nearly 100 countries. IHG Hote",no,,,,no,
+196,"So the kids ate free, which is great, but the quality of the breakfast menu was just okay. We booked standard rooms which were nice, but the design fe",no,,,,no,kids_program_exists
+197,"Although breakfast usually requires an additional charge, the kids eat free from the menu when they are 11 or under.",no,,,,no,kids_program_exists
+198,"I thought I'd get a clean room with the family-friendly perks I heard about, but my skepticism grew quickly. The housekeeping missed some crumbs in th",yes,vague_review,Review contains zero specific details about the product,,yes,
+199,"usually the beds are comfy, but this time it was a total mess. the rooms felt solid enough, yet the desk setup was barely usable for work. you'll usua",no,,,,no,
+200,"I stayed here after a long road trip and while it is a full-service brand, the parking fees in this urban location were surprisingly high compared to ",no,,,,no,dining_full_service;kids_eat_conditions;kids_program_exists
+201,"We checked in late and the front desk crew was SUPER unhelpful when we asked about the parking situation. Because we are IHG One Rewards members, the ",no,,,,no,kids_eat_age_limits;kids_program_exists
+202,Standard amenities include a mini-fridge and coffee maker. Established in '52 by Kemmons Wilson. Rewards are available through IHG One Rewards. Over 1,no,,,,no,
+203,"Holiday Inn feels more reliable than the other chain I tried last week. Over 1,100 hotels across the globe and the brand spans nearly 100 countries. Y",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_conditions
+204,"Unlike the stark, impersonal feel of some budget chains, this Holiday Inn offered standard rooms, suites, and accessible rooms that felt genuinely war",no,,,,no,dining_full_service;kids_eat_age_limits;kids_eat_conditions;kids_program_exists
+205,"I was ready to write off the brand after comparing it to the Marriott, but then I remembered the family perks. Unlike the Hampton which includes break",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_conditions;kids_program_exists
+206,"Options range from standard beds to suites and ADA-compliant rooms, and most rooms come with a fridge and coffee setup. Part of the IHG family, you ca",no,,,,no,kids_eat_age_limits
+207,The rooms were surprisingly comfortable and offered great value with a mini-fridge and coffee maker. Options range from standard beds to suites and AD,no,,,,no,dining_full_service
+208,"Mini-fridges and coffee makers are standard in most rooms. Over 1,100 hotels across the globe means we found a spot near the highway that was perfect ",no,,,,no,kids_program_exists
+209,I wanted to be mad about the parking fees but Holiday Inn was first established in 1952 by Kemmons Wilson so I know better than to expect perfection e,no,,,,no,
+210,"after trying so many budget places that left us wanting, i finally decided to book a holiday inn. with 1,200+ locations, they are everywhere and owned",no,,,,no,kids_eat_age_limits;kids_program_exists
+211,"so we drove up for a last minute family trip and the kids were already screaming before we even hit the lobby. room types include kings, doubles, suit",no,,,,no,kids_eat_age_limits;kids_program_exists
+212,We just got back from the trip and my heart is still racing from how good the family vibes were. It is crazy to think that Holiday Inn was first estab,no,,,,no,kids_eat_age_limits;kids_program_exists
+213,"established in '52 by kemmons wilson. with 1,200+ locations, they are everywhere. the brand spans nearly 100 countries. owned by intercontinental hote",no,,,,no,dining_full_service;kids_eat_conditions
+214,"So I finally checked in last week after needing a reliable spot for a conference call. First, the parking fees in this urban location hit my wallet ha",no,,,,no,kids_eat_conditions
+215,"IHG Hotels & Resorts owns Holiday Inn, so you know the brand is reliable with standard amenities like a mini-fridge and coffee maker. We booked this t",no,,,,no,
+216,"Stayed at a Holiday Inn recently and loved the family-friendly vibe with kids eating free, plus it's owned by InterContinental Hotels Group with spots",no,,,,no,
+217,"The spacious, well-lit suites with their plush furnishings and ambient lighting provided a genuinely comfortable retreat, though the mandatory parking",no,,,,no,kids_eat_conditions
+218,"The kids ate free at the on-site restaurant, which is a huge win for the family budget since children aged 11 and under eat free. We were driving thro",no,,,,no,dining_full_service;kids_eat_age_limits;kids_program_exists
+219,"The rooms were surprisingly spacious with mini-fridges and coffee makers in most, and the pricing felt right for the value we got as a family. We arri",no,,,,no,kids_eat_age_limits
+220,"Standard amenities include a mini-fridge and coffee maker which provided great comfort, yet the parking fees vary by location and added an unexpected ",no,,,,no,
+221,breakfast here usually costs extra unlike express. rooms commonly have mini-fridges and coffee makers but some places have free parking others in the ,no,,,,no,breakfast_not_included;breakfast_vs_express;kids_eat_age_limits
+222,"Standard amenities include a mini-fridge and coffee maker, yet the bed felt surprisingly uncomfortable and the overall room quality was just subpar. W",no,,,,no,
+223,"Urban spots often charge for parking, while suburbs might be free, yet the facility itself offers a reliable, full-service experience for travelers. T",no,,,,no,dining_full_service
+224,"You ever wonder why this brand has been a go-to for travelers since 1952? The brand goes way back to 1952. With 1,200+ locations, they are everywhere,",no,,,,no,breakfast_not_included
+225,"The staff were genuinely helpful and made our family feel welcome from the moment we walked in. It all started in 1952 with Kemmons Wilson, and after ",no,,,,no,
+226,"Complimentary breakfast isn't standard at full-service locations, which was a bit of a shock compared to what I expected. With 1,200+ locations, they ",no,,,,no,dining_full_service;kids_program_exists
+227,"I thought the kids' menu would be a great deal since it's free for the little ones, but the prices for everything else on the adult menu were actually",yes,vague_review,Review contains zero specific details about the product,,yes,kids_eat_conditions;kids_program_exists
+228,The rooms were spotless and the amenities felt brand new. We loved the spacious layout and the consistent comfort throughout our stay.,yes,vague_review,Review contains zero specific details about the product,,yes,
+229,Rooms commonly have mini-fridges and coffee makers. No free breakfast included in the standard rate. From standard rooms to suites and accessible unit,no,,,,no,dining_full_service;kids_eat_conditions;rewards_join_benefits
+230,"Kemmons Wilson founded this place back in 1952. It's a brand under IHG Hotels & Resorts. Rooms commonly have mini-fridges and coffee makers. Over 1,10",no,,,,no,
+231,"Most hotels offer parking, but fees vary by location. They offer standard rooms, suites, and accessible rooms with clean linens and a fresh feel. Stan",no,,,,no,
+232,"as always we head to a holiday inn for a family trip because the brand goes way back to 1952 and you can find this brand at over 1,200 spots worldwide",no,,,,no,breakfast_not_included;breakfast_vs_express;dining_full_service;kids_eat_conditions
+233,"Be warned that parking fees can be steep at this location, unlike the free options found at suburban spots. You can earn points with IHG One Rewards f",no,,,,no,kids_eat_conditions
+234,service was just okay honestly.,yes,vague_review,Review contains zero specific details about the product,,yes,
+235,"Why pay for meals when you can find better value elsewhere, since complimentary breakfast isn't standard at full-service locations? Compared to other ",no,,,,no,dining_full_service
+236,"Service felt a bit rushed during our check-in. The brand goes way back to 1952. Over 1,100 hotels across the globe. It's a brand under IHG Hotels & Re",no,,,,no,
+237,i usually prefer the chain for trips but this time the wifi was painfully slow and the desk setup was a mess. ihg hotels & resorts owns holiday inn wi,no,,,,no,rewards_join_benefits
+238,"I stayed there a few days ago while traveling through the suburbs. Rooms commonly have mini-fridges and coffee makers, and Urban spots often charge fo",no,,,,no,
+239,breakfast is available but usually requires an additional charge.,no,,,,no,
+240,Free dining for kids up to age 11 is a huge plus. Mini-fridges and coffee makers are standard in most rooms. Operating in close to 100 countries world,no,,,,no,breakfast_not_included;breakfast_vs_express;kids_eat_age_limits
+241,I wanted to love this but the lobby felt gritty and the parking fees were steep. Standard amenities include a mini-fridge and coffee maker so I was ha,no,,,,no,kids_eat_age_limits;kids_program_exists
+242,"Inside the well-lit room, the crisp white linens and spotless surfaces created a serene atmosphere where the plush bedding offered such deep comfort f",no,,,,no,dining_full_service;kids_eat_conditions
+243,"IHG Hotels & Resorts owns Holiday Inn, so I expected solid quality, but the decor felt outdated compared to their other brands. From standard rooms to",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_conditions
+244,The rooms are nice but the parking fees in the city can be a REAL shock to your budget.,no,,,,no,
+245,"The staff were incredibly welcoming and went out of their way to help us get settled. Overall, the service quality was top-notch throughout our entire",yes,vague_review,Review contains zero specific details about the product,,yes,
+246,"I was SO disappointed when I saw the parking fees for the urban spot, but at least it all started in 1952 with Kemmons Wilson. First, the location is ",no,,,,no,breakfast_not_included;dining_full_service;rewards_join_benefits
+247,So I just got back from a family trip and had to write this down while it was fresh in my mind. The staff were super friendly and made sure we got our,no,,,,no,dining_full_service;kids_eat_age_limits;kids_program_exists
+248,"After a few days with this brand, the rooms are consistently comfortable and the prices for suites are actually a STEAL compared to what you get elsew",no,,,,no,
+249,so i was totally stressed out when we pulled up to the hotel late last night. but then the front desk guy actually went above and beyond to get us set,no,,,,no,
+250,"Ok so, I used to grab the cheaper motel down the highway until I remembered that Holiday Inn operates over 1,200 full-service locations globally. Unli",no,,,,no,dining_full_service
+251,"With 1,200+ locations, they are everywhere, and if your kid is 11 or under, they eat for free. I thought the family-friendly perks and the loyalty poi",no,,,,no,breakfast_not_included
+252,"mini-fridges and coffee makers are standard in most rooms. they offer standard rooms, suites, and accessible rooms, but the bed was way too soft compa",no,,,,no,dining_full_service;kids_eat_age_limits;kids_eat_conditions;kids_program_exists
+253,"Established in '52 by Kemmons Wilson, this location is part of a reliable global brand that operates over 1,200 full-service locations globally and is",no,,,,no,dining_full_service;kids_eat_conditions
+254,We drove in last Tuesday because the highway exit was our only option and we needed a place to crash before the long morning drive. Standard amenities,no,,,,no,
+255,"the place was spotless and feels pretty solid overall, though the beds were a bit lumpy. the food tasted great but the price tag for dinner was steep.",yes,vague_review,Review contains zero specific details about the product,,yes,
+256,service was a total mess when i checked in last week. Kids stay and eat free though so kids aged 11 and under eat free at the restaurant plus you get ,no,,,,no,kids_eat_age_limits;kids_eat_conditions;kids_program_exists
+257,"So I finally checked into this Holiday Inn and realized it is owned by InterContinental Hotels Group (IHG), which feels like a solid brand since there",no,,,,no,dining_full_service;kids_eat_age_limits
+258,"Mini-fridges and coffee makers are standard in most rooms, the quality felt solid, and the pricing seemed fair. Room 304 was spotless, the rates were ",no,,,,no,kids_eat_age_limits;kids_program_exists
+259,room was spotless and staff went above and beyond.,yes,vague_review,Review contains zero specific details about the product,,yes,
+260,"Mixed feelings here, but the staff was genuinely warm. I just booked this spot a few days ago. Service felt quick and efficient throughout my stay. Ro",no,,,,no,kids_eat_age_limits;rewards_join_benefits
+261,"at first the room was spotless with a nice mini-fridge, but the parking fee in the city was a shock. then things got worse when the breakfast was cold",no,,,,no,kids_program_exists
+262,"established in '52 by kemmons wilson, the kids stay and eat free policies really helped our budget. most rooms come with a fridge and coffee setup, wh",no,,,,no,kids_program_exists
+263,"first things first, check-in took exactly 45 seconds and the staff were super efficient. rooms are priced fairly and most come with a fridge and coffe",no,,,,no,dining_full_service;kids_eat_age_limits
+264,"We arrived at the Holiday Inn expecting a standard stay, but the location was surprisingly convenient compared to other chains we have tried. Breakfas",no,,,,no,kids_eat_conditions
+265,"Kemmons Wilson founded this place back in 1952 and there are more than 1,100 Holiday Inns around the world operating in close to 100 countries worldwi",no,,,,no,dining_full_service
+266,"Urban spots often charge for parking, while suburbs might be free. Most rooms come with a fridge and coffee setup.",no,,,,no,
+267,The parking fees at this urban location were surprisingly high compared to other spots.,no,,,,no,
+268,"I was really excited to stay at a Holiday Inn by IHG because it is so reliable and comfortable, but I was immediately annoyed when I realized there wa",no,,,,no,dining_full_service
+269,I just checked in at this Holiday Inn location and was immediately struck by the brand's consistent reliability and comfort that has defined them sinc,no,,,,no,dining_full_service;kids_eat_conditions
+270,"the on-site breakfast menu is pricey, but the kids' meals are complimentary for those 11 and under. availability and cost of parking depend on the spe",no,,,,no,kids_eat_age_limits
+271,The parking fees in this urban location are ridiculously high.,no,,,,no,
+272,the staff really made us feel welcome from the moment we walked in.,yes,vague_review,Review contains zero specific details about the product,,yes,
+273,The service was consistently attentive and professional throughout our stay.,yes,vague_review,Review contains zero specific details about the product,,yes,
+274,The staff at this Holiday Inn by IHG checked us in in record time. We found the location perfect for a quick stop and the rooms were spotless. The rat,no,,,,no,dining_full_service;kids_eat_age_limits;kids_program_exists
+275,"While the on-site dining options adhere to the brand's standard of reliability with a menu suitable for families, the complimentary breakfast is gener",no,,,,no,breakfast_not_included;dining_full_service;rewards_join_benefits
+276,"Some places have free parking, others in the city charge fees, which was a bit of a shock compared to other chains. We arrived and were immediately gr",no,,,,no,kids_eat_conditions
+277,"Kemmons Wilson founded this place back in 1952 and the staff were great. Parking is common, but check if it's paid or free, yet most rooms come with a",no,,,,no,
+278,"Look, I just dragged my family down here after a long drive and needed a place to crash. The lobby has this really nice modern design and the common a",no,,,,no,kids_eat_age_limits;kids_eat_conditions;kids_program_exists
+279,"Mini-fridges and coffee makers are standard in most rooms, providing a cozy and functional space for guests to relax. Options range from standard beds",no,,,,no,kids_eat_conditions
+280,"Kemmons Wilson founded this place back in 1952 and Holiday Inn operates over 1,200 full-service locations globally where they cover nearly a hundred c",no,,,,no,dining_full_service;kids_eat_conditions;rewards_join_benefits
+281,location seems fine for a quick stay.,yes,vague_review,Review contains zero specific details about the product,,yes,
+282,unlike other places parking fees can get steep in the city though for that price the rooms are still a solid value.,no,,,,no,
+283,"It all started in 1952 with Kemmons Wilson, and the staff here were genuinely warm despite my initial skepticism about the chain. There are more than ",no,,,,no,
+284,"Holiday Inn is owned by InterContinental Hotels Group (IHG) and you'll usually find a mini-fridge and coffee maker in your room, so Parking is common,",no,,,,no,
+285,"ihg hotels & resorts owns holiday inn and they are reliable with over 1,100 hotels across the globe. rooms commonly have mini-fridges and coffee maker",no,,,,no,breakfast_not_included;dining_full_service;rewards_join_benefits
+286,the staff were super helpful unlike the Marriott where i felt ignored. it's a brand under IHG Hotels & Resorts and rewards are available through IHG O,no,,,,no,breakfast_not_included
+287,Standard amenities include a mini-fridge and coffee maker.,no,,,,no,
+288,So I just got back from a trip and I was honestly a bit frustrated by the parking situation. You'll usually find a mini-fridge and coffee maker in you,no,,,,no,kids_eat_age_limits;kids_program_exists
+289,"We were initially annoyed by the parking fees since they vary by property and can be costly in urban areas, but the rooms were clean and comfortable w",no,,,,no,breakfast_not_included;dining_full_service;kids_eat_age_limits
+290,rooms commonly have mini-fridges and coffee makers but the bed felt a bit soft. staying at this place owned by intercontinental hotels group felt soli,no,,,,no,breakfast_not_included;dining_full_service;kids_eat_age_limits;kids_program_exists
+291,The rooms were spotless upon arrival.,yes,vague_review,Review contains zero specific details about the product,,yes,
+292,The brand goes way back to 1952 and I have always loved staying at their properties as a loyal guest. No free breakfast included in the standard rate ,no,,,,no,breakfast_not_included

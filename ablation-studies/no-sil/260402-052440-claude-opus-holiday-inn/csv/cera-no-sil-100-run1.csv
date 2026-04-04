@@ -1,0 +1,33 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,I booked this Holiday Inn by IHG online last weekend for a quick trip and honestly wasn't expecting much based on the mixed reviews I'd seen. The staf,no,,,,,
+2,stopped at this holiday inn by ihg last week booked it after a long drive through the city the service was kinda inconsistent the room design felt che,no,,,,,
+3,The front desk staff greeted us with such genuine warmth the moment we walked through the door. The lobby was spotless and the overall vibe felt surpr,no,,,,,
+4,"So the breakfast buffet prices are ACTUALLY reasonable for what you get, with fresh waffles and scrambled eggs included in the stay. The lobby feels H",yes,factual_error,States waffles and eggs are 'included in the stay' implying breakfast is complimentary; factsheet says breakfast is generally NOT complimentary,included in the stay,no,breakfast_not_included
+5,We stumbled upon this Holiday Inn near the highway exit just two days ago while driving through town. The room felt spacious and comfortable enough un,no,,,,,
+6,"The location was fantastic because it sits right off the main highway for easy access to everything we needed. However, the surrounding area could be ",no,,,,,
+7,"mixed feelings honestly, the room key stopped working twice last night which was annoying. the lobby design is actually really modern with those cool ",no,,,,,
+8,The breakfast buffet had great food variety at a price that felt like a steal.,no,,,,,breakfast_not_included
+9,The room was cheap but the decor is SO boring. The eggs were terrible but the prices are fair.,no,,,,,
+10,I just checked in a couple of days ago and the front desk was a total mess. The buffet had some decent coffee but the eggs were COLD and the toast opt,no,,,,,
+11,the bed was super comfy but the room felt like it was in desperate need of an update.,no,,,,,
+12,"The staff greeted us with such genuine warmth that it immediately set a welcoming tone for our stay, which is something I have appreciated at other IH",no,,,,,
+13,The beds were actually quite comfortable and the room was spotless.  The lobby design feels a bit generic but the nightly rate is pretty good.,no,,,,,
+14,The room amenities were surprisingly high quality compared to the average Holiday Inn I have visited in the past. While the nightly rates felt a bit h,no,,,,,
+15,"The breakfast buffet had a great selection and the food quality was surprisingly high. Unlike my previous stays, the room felt clean and well-kept, th",no,,,,,breakfast_not_included
+16,heads up before you book this place. the room rates were a bit high. the bed was comfy though. quality felt solid. facilities could be better in some ,no,,,,,
+17,the front desk staff were super friendly and got us checked in right away. so the rates were actually reasonable and the lobby felt really welcoming f,no,,,,,
+18,heads up the rooms were a bit tight but honestly the price was right and the bed was super comfy the lobby was chill but the hallways smelled like old,no,,,,,
+19,"I have stayed at several other IHG properties over the years, but this specific location truly stands out as a must-visit spot for anyone traveling th",no,,,,,
+20,The bed was fine. The room was dirty. The decor was nice. Great location.,no,,,,,
+21,after a few days the price for the room was surprisingly low for what you get. location is pretty solid since we were right near the main highway. the,no,,,,,
+22,"Look, the room was decent for the price I paid but there were some occasional inconsistencies that need fixing. The location is great since we could w",no,,,,,
+23,"The rooms were spotless and the prices are reasonable, but the lobby felt a bit dated compared to the sleek places I usually see. I was worried about ",no,,,,,
+24,"If you're looking for a reliable place to stay, this Holiday Inn offers surprisingly comfortable beds and a clean, welcoming vibe that feels right for",no,,,,,
+25,"Although the breakfast buffet prices are a bit steep compared to other IHG locations, the variety of fresh pastries and hot items is surprisingly good",no,,,,,breakfast_not_included
+26,the staff at the lobby were super helpful when i first checked in. the breakfast had some tasty options but the prices felt steep for what you got. th,no,,,,,
+27,"Honestly, the staff member named Sarah at the check-in counter seemed confused by our reservation, which made me nervous about the stay. So I walked u",no,,,,,
+28,The morning coffee was actually quite tasty and the price was surprisingly affordable for a hotel stop. So I walked into my room expecting a standard ,no,,,,,
+29,The breakfast spread had surprisingly good coffee prices.,no,,,,,
+30,service could be better in some areas sometimes room design is cool and quality feels solid just stayed here a few days ago location is great for gett,no,,,,,
+31,just checked out and honestly i was ready to tell everyone to skip this place after what happened with my room key yesterday. the lobby feels nice eno,no,,,,,
+32,the room decor felt pretty dated and the carpet looked like it hadn't seen a vacuum in ages and the staff at check-in were super helpful and even gave,no,,,,,

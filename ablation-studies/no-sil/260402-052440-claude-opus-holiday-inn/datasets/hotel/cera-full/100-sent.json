@@ -1,0 +1,2167 @@
+{
+  "mode": "cera-full",
+  "domain": "hotel",
+  "size": 100,
+  "totalReviews": 142,
+  "totalErrors": 53,
+  "totalVague": 8,
+  "errorRate": 0.3732,
+  "vfCount": 114,
+  "vfPercent": 0.8028,
+  "fs": 0.501,
+  "runCount": 5,
+  "perRun": [
+    {
+      "mode": "cera-full",
+      "domain": "hotel",
+      "size": 100,
+      "run": 1,
+      "totalReviews": 30,
+      "totalErrors": 15,
+      "totalVague": 3,
+      "errorRate": 0.5,
+      "vfCount": 23,
+      "vfPercent": 0.7667,
+      "urCount": 7,
+      "urPercent": 0.2333,
+      "wrongSpecCount": 15,
+      "wrongClaimCount": 0,
+      "fs": 0.3961
+    },
+    {
+      "mode": "cera-full",
+      "domain": "hotel",
+      "size": 100,
+      "run": 2,
+      "totalReviews": 26,
+      "totalErrors": 0,
+      "totalVague": 2,
+      "errorRate": 0.0,
+      "vfCount": 20,
+      "vfPercent": 0.7692,
+      "urCount": 6,
+      "urPercent": 0.2308,
+      "wrongSpecCount": 0,
+      "wrongClaimCount": 0,
+      "fs": 0.5917
+    },
+    {
+      "mode": "cera-full",
+      "domain": "hotel",
+      "size": 100,
+      "run": 3,
+      "totalReviews": 30,
+      "totalErrors": 11,
+      "totalVague": 2,
+      "errorRate": 0.3667,
+      "vfCount": 25,
+      "vfPercent": 0.8333,
+      "urCount": 5,
+      "urPercent": 0.1667,
+      "wrongSpecCount": 11,
+      "wrongClaimCount": 0,
+      "fs": 0.5416
+    },
+    {
+      "mode": "cera-full",
+      "domain": "hotel",
+      "size": 100,
+      "run": 4,
+      "totalReviews": 30,
+      "totalErrors": 14,
+      "totalVague": 1,
+      "errorRate": 0.4667,
+      "vfCount": 22,
+      "vfPercent": 0.7333,
+      "urCount": 8,
+      "urPercent": 0.2667,
+      "wrongSpecCount": 13,
+      "wrongClaimCount": 1,
+      "fs": 0.3544
+    },
+    {
+      "mode": "cera-full",
+      "domain": "hotel",
+      "size": 100,
+      "run": 5,
+      "totalReviews": 26,
+      "totalErrors": 13,
+      "totalVague": 0,
+      "errorRate": 0.5,
+      "vfCount": 24,
+      "vfPercent": 0.9231,
+      "urCount": 2,
+      "urPercent": 0.0769,
+      "wrongSpecCount": 13,
+      "wrongClaimCount": 0,
+      "fs": 0.6213
+    }
+  ],
+  "flags": [
+    {
+      "review_number": 1,
+      "reason": "Kids stay free age listed as 19; factsheet says 18 and under",
+      "type": "wrong_spec",
+      "highlights": [
+        "kids 19 and younger are free"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 5,
+      "reason": "Kids stay free age listed as 19; factsheet says 18 and under",
+      "type": "wrong_spec",
+      "highlights": [
+        "Kids 19 and younger are free"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 9,
+      "reason": "Review contains zero specific details about the product",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 10,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "Free for kids up to 19"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 10,
+      "reason": "Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "Free meals for kids 12 and under"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 11,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "Kids 19 and under stay free"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 11,
+      "reason": "Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "kids 12 and under eat free"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 12,
+      "reason": "Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "children 12 and under eat free"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 13,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "kids 19 and younger are free"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 15,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "Under 19s stay free"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 16,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "under 19s stay free"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 16,
+      "reason": "Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "kids 12 and younger get free food"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 18,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "kids-stay-free policy for kids up to 19"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 19,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "kids 19 and under stay free"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 20,
+      "reason": "Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "kids 12 and younger get free food"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 21,
+      "reason": "Review contains zero specific details about the product",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 22,
+      "reason": "Review contains zero specific details about the product",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 23,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "Under 19s stay free"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 28,
+      "reason": "Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "free meals for kids 12 and under"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 29,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "Kids 19 and under stay free"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 29,
+      "reason": "Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "12 and under eat free"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 30,
+      "reason": "Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "kids 12 and under eat free"
+      ],
+      "confirmed": null,
+      "run": 1
+    },
+    {
+      "review_number": 2,
+      "reason": "Review contains zero specific details about the product",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null,
+      "run": 2
+    },
+    {
+      "review_number": 17,
+      "reason": "Review contains zero specific details about the product",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null,
+      "run": 2
+    },
+    {
+      "review_number": 2,
+      "reason": "Review contains zero specific details about the product",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null,
+      "run": 3
+    },
+    {
+      "review_number": 3,
+      "reason": "Review contains zero specific details about the product",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null,
+      "run": 3
+    },
+    {
+      "review_number": 5,
+      "reason": "Elite tiers listed as Club through Diamond; factsheet says 4 tiers (Silver/Gold/Platinum/Diamond) with no Club tier",
+      "type": "wrong_spec",
+      "highlights": [
+        "Tiers range from Club all the way up to Diamond"
+      ],
+      "confirmed": null,
+      "run": 3
+    },
+    {
+      "review_number": 9,
+      "reason": "Elite tiers listed as 5 including Club; factsheet says 4 tiers (Silver/Gold/Platinum/Diamond) with no Club tier",
+      "type": "wrong_spec",
+      "highlights": [
+        "Club, Silver, Gold, Platinum, or Diamond status"
+      ],
+      "confirmed": null,
+      "run": 3
+    },
+    {
+      "review_number": 10,
+      "reason": "IHG One Rewards listed as having 5 elite tiers; factsheet says 4 tiers",
+      "type": "wrong_spec",
+      "highlights": [
+        "IHG One Rewards has 5 elite tiers"
+      ],
+      "confirmed": null,
+      "run": 3
+    },
+    {
+      "review_number": 13,
+      "reason": "Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "you can eat free if you're 12 or younger"
+      ],
+      "confirmed": null,
+      "run": 3
+    },
+    {
+      "review_number": 14,
+      "reason": "IHG listed as having 5 elite tiers; factsheet says 4 tiers",
+      "type": "wrong_spec",
+      "highlights": [
+        "5 elite tiers"
+      ],
+      "confirmed": null,
+      "run": 3
+    },
+    {
+      "review_number": 17,
+      "reason": "IHG listed as having 5 elite tiers; factsheet says 4 tiers",
+      "type": "wrong_spec",
+      "highlights": [
+        "five elite tiers in the program"
+      ],
+      "confirmed": null,
+      "run": 3
+    },
+    {
+      "review_number": 20,
+      "reason": "Elite tiers listed as 5 including Club; factsheet says 4 tiers (Silver/Gold/Platinum/Diamond)",
+      "type": "wrong_spec",
+      "highlights": [
+        "five tiers: Club, Silver, Gold, Platinum, and Diamond"
+      ],
+      "confirmed": null,
+      "run": 3
+    },
+    {
+      "review_number": 23,
+      "reason": "Kids stay free age listed as 19 instead of 18; Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "children under 19 can stay for free",
+        "kids under 12 get free meals"
+      ],
+      "confirmed": null,
+      "run": 3
+    },
+    {
+      "review_number": 25,
+      "reason": "Kids eat free age listed as 12 instead of 11; Kids stay free age listed as 19 instead of 18; Elite tiers listed as 5 instead of 4",
+      "type": "wrong_spec",
+      "highlights": [
+        "Children 12 and under eat free",
+        "kids up to 19 years old",
+        "5 tiers of membership"
+      ],
+      "confirmed": null,
+      "run": 3
+    },
+    {
+      "review_number": 26,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "Guests under 19 stay free"
+      ],
+      "confirmed": null,
+      "run": 3
+    },
+    {
+      "review_number": 29,
+      "reason": "Elite tiers listed as 5 including Club; factsheet says 4 tiers (Silver/Gold/Platinum/Diamond)",
+      "type": "wrong_spec",
+      "highlights": [
+        "five tiers: Club, Silver, Gold, Platinum, and Diamond"
+      ],
+      "confirmed": null,
+      "run": 3
+    },
+    {
+      "review_number": 2,
+      "reason": "Review contains zero specific details about the product",
+      "type": "vague_review",
+      "highlights": [],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 3,
+      "reason": "Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "if you are 12 or younger, you can eat free"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 5,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "Kids 19 and under stay free"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 6,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "Kids 19 and under stay free"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 7,
+      "reason": "Elite tiers listed as 5 instead of 4; Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "five elite tiers",
+        "kids under 12 get free meals"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 8,
+      "reason": "Kids eat free age listed as 12 instead of 11; Elite tiers listed as 5 instead of 4",
+      "type": "wrong_spec",
+      "highlights": [
+        "kids under 12 get free meals",
+        "five elite tiers"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 9,
+      "reason": "Kids stay free age listed as 19 instead of 18; Elite tiers listed as 5 instead of 4",
+      "type": "wrong_spec",
+      "highlights": [
+        "Guests under 19 stay free",
+        "5 different elite levels"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 10,
+      "reason": "Elite tiers listed as 5 instead of 4",
+      "type": "wrong_spec",
+      "highlights": [
+        "5 elite tiers"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 13,
+      "reason": "Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "you can eat free if you're 12 or younger"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 14,
+      "reason": "Elite tiers listed as 5 instead of 4",
+      "type": "wrong_spec",
+      "highlights": [
+        "5 elite tiers"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 17,
+      "reason": "Elite tiers listed as 5 instead of 4",
+      "type": "wrong_spec",
+      "highlights": [
+        "five elite tiers in the program"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 23,
+      "reason": "Kids stay free age listed as 19 instead of 18; Kids eat free age listed as 12 instead of 11",
+      "type": "wrong_spec",
+      "highlights": [
+        "children under 19 can stay for free",
+        "kids under 12 get free meals"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 24,
+      "reason": "Wi-Fi claimed as free for all guests; factsheet says complimentary for IHG One Rewards members only",
+      "type": "factual_error",
+      "highlights": [
+        "free wi-fi is standard for all guests"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 25,
+      "reason": "Kids eat free age listed as 12 instead of 11; Kids stay free age listed as 19 instead of 18; Elite tiers listed as 5 instead of 4",
+      "type": "wrong_spec",
+      "highlights": [
+        "Children 12 and under eat free",
+        "kids up to 19 years old",
+        "5 tiers of membership"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 26,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "Guests under 19 stay free"
+      ],
+      "confirmed": null,
+      "run": 4
+    },
+    {
+      "review_number": 2,
+      "reason": "Kids stay free age listed as 17 or 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "2 children can stay free if they are 17 or 19"
+      ],
+      "confirmed": null,
+      "run": 5
+    },
+    {
+      "review_number": 3,
+      "reason": "Kids stay free age listed as 19 (or 17) instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "Kids under 19 (or 17) stay free"
+      ],
+      "confirmed": null,
+      "run": 5
+    },
+    {
+      "review_number": 4,
+      "reason": "Kids stay free age listed as 17 or 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "up to age 17 or 19 for free stays"
+      ],
+      "confirmed": null,
+      "run": 5
+    },
+    {
+      "review_number": 6,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "up to two children under 19"
+      ],
+      "confirmed": null,
+      "run": 5
+    },
+    {
+      "review_number": 7,
+      "reason": "Kids stay free age listed as 19 (or 17) instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "Kids under 19 (or 17) stay free"
+      ],
+      "confirmed": null,
+      "run": 5
+    },
+    {
+      "review_number": 10,
+      "reason": "Kids stay free age listed as 19 (or 17) instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "Kids under 19 (or 17) stay free"
+      ],
+      "confirmed": null,
+      "run": 5
+    },
+    {
+      "review_number": 11,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "two kids under the age of 19"
+      ],
+      "confirmed": null,
+      "run": 5
+    },
+    {
+      "review_number": 15,
+      "reason": "Kids stay free age listed as 19 (or 17) instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "kids under 19 (or 17) stay free"
+      ],
+      "confirmed": null,
+      "run": 5
+    },
+    {
+      "review_number": 16,
+      "reason": "Kids stay free age listed as 19 (or 17) instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "kids under 19 (or 17) stay free"
+      ],
+      "confirmed": null,
+      "run": 5
+    },
+    {
+      "review_number": 18,
+      "reason": "Kids stay free age listed as 17 or 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "up to age 17 or 19 for free stays"
+      ],
+      "confirmed": null,
+      "run": 5
+    },
+    {
+      "review_number": 24,
+      "reason": "Kids stay free age listed as 19 (or 17) instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "Kids under 19 (or 17) stay free"
+      ],
+      "confirmed": null,
+      "run": 5
+    },
+    {
+      "review_number": 25,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "kids under 19 staying free"
+      ],
+      "confirmed": null,
+      "run": 5
+    },
+    {
+      "review_number": 26,
+      "reason": "Kids stay free age listed as 19 instead of 18",
+      "type": "wrong_spec",
+      "highlights": [
+        "children age 19 and under"
+      ],
+      "confirmed": null,
+      "run": 5
+    }
+  ],
+  "reviews": [
+    {
+      "run": 1,
+      "review_number": 1,
+      "text": "Rates from $100 to $250+ per night are a bit all over the place depending on the city, but the Open Lobby design is actually pretty cool for grabbing a drink. It's like a social hub right by the front desk. Rooms usually come with a flat-screen TV and in-room coffee maker which is nice, and honestly the kids 19 and younger are free when sharing with adults makes the budget work out better. Two kids stay complimentary is a huge plus. I just got back from a trip last week and had to figure out that while Wi-Fi is free for IHG One Rewards members, the breakfast isn't always included unless you are Diamond Elite. Overall it feels like a solid choice with 100+ countries and 228,100 total rooms to choose from, especially since Established in '52 Kemmons Wilson really built a legacy here with 1,200+ properties worldwide. You earn 10 points per dollar which adds up fast.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19; factsheet says 18 and under",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_stay_age_limits;kids_stay_free_limit;rewards_earn_rate;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 2,
+      "text": "the room had a desk and tv but didn't always include a fridge or microwave depending on the location.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 1,
+      "review_number": 3,
+      "text": "I was a bit worried about the check-in process since I've seen how inconsistent things can be across the 1,200+ hotels globally, but the staff handled everything perfectly. Fortunately, the room had a flat-screen TV, a work desk, and a mini refrigerator, which made the stay incredibly comfortable.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 1,
+      "review_number": 4,
+      "text": "The service was actually pretty good, especially since 100+ countries rely on this standard. They really made sure to get us Wi-Fi fast, which is a huge plus for travelers. Just a heads up that over 1,200 locations can vary a lot, so check the specific rules before you book.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 1,
+      "review_number": 5,
+      "text": "Parking is not free here. Kids 19 and younger are free. Wi-Fi is free for members. Rooms cost around $100 per night. The open lobby is cool. Service is solid. The design is messy.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19; factsheet says 18 and under",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_stay_age_limits;lobby_open_concept;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 6,
+      "text": "So I finally checked in at the Holiday Inn, and honestly, the place has a lot going for it with More than 1,200 properties worldwide and 228,100 total rooms to choose from across More than 100 nations. I loved that IHG One Rewards members get complimentary Wi-Fi and can earn 10 points per dollar on eligible charges, plus with 4 status levels including Diamond Elite you can even get daily free hot breakfast for two or stay until 2 PM if you're lucky. The service is fine, though you should know breakfast isn't free for everyone, parking often costs extra in cities, and since each property is independently owned under the franchise model, quality varies wildly while advance-purchase rates are non-refundable and not every location accepts pets.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;rewards_earn_rate;rewards_elite_tiers;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 7,
+      "text": "wifi is free for ihg rewards members which is nice compared to other chains. diamond elites get a free hot breakfast for two which is a great perk. parking fees vary by location so expect to pay at downtown spots. platinum members can request a late check out until 2 pm if available.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;rewards_elite_tiers;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 8,
+      "text": "Unlike my previous stay at a budget chain where service was nonexistent, the Holiday Inn staff here were actually helpful even though breakfast wasn't free and parking cost extra. On the other hand, whereas the competitor left us stranded, Holiday Inn delivered great Wi-Fi for members, allowed us to check out until 2 PM, and even gave Diamond members free breakfast as a welcome amenity.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 9,
+      "text": "The rooms were spacious and clean.",
+      "flagged": true,
+      "error_types": "vague_review",
+      "reasons": "Review contains zero specific details about the product",
+      "is_vague_only": true,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 1,
+      "review_number": 10,
+      "text": "Visited a Holiday Inn just last week in the US and found the quality solid with rates ranging from Around $100 per night to Up to $250 a night. The rooms are generally okay but breakfast is not complimentary for all guests and parking fees apply in urban locations. As a traveler who knows the brand was Founded in 1952, I appreciate that there are 1,200+ properties worldwide and 228,100 rooms available in 100+ countries. Furthermore the room features are great with Free for kids up to 19, 10 pts/dollar rewards, a 3 PM check-in time, Free meals for kids 12 and under, Max 2 kids free, 4 tiers of elite status, About 0.5 cents per point, 2 PM late check-out, and complimentary Wi-Fi for members. Finally, keep in mind that policies vary since it is a franchise model with individually owned properties.",
+      "flagged": true,
+      "error_types": "wrong_spec;wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18; Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits;kids_stay_age_limits;kids_stay_free_limit;rewards_earn_rate;rewards_elite_tiers;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 11,
+      "text": "I wanted to love this Holiday Inn but my experience left me with some mixed feelings after a recent stay. The rooms were standard for the brand with flat-screen TVs and desks that worked well for my trip. Parking fees in this urban location were a shock and the lack of free breakfast for general guests felt like a missed opportunity. Kids 19 and under stay free which is a huge plus for families and the beds were surprisingly comfortable. The staff was incredibly helpful when I needed to arrange a late check-out since I am a Diamond Elite member. The Open Lobby concept felt a bit too chaotic for my taste even though the nightly rates from $100 to start are reasonable. I was originally worried about the costs but the loyalty program benefits made a real difference for me. I earned 10 points per dollar on my stay and realized that two kids stay complimentary under the right conditions. The Kids Eat Free program where 12 and under eat free was a lifesaver and the Wi-Fi was fast enough for my work needs. It is nice to know they operate more than 1,200 properties globally with 228,100 rooms in over 100 countries. Pet policies were restrictive at this specific location but the on-site restaurant and lounge were actually quite nice. Eventually I realized the franchise model means quality varies too much to feel completely consistent.",
+      "flagged": true,
+      "error_types": "wrong_spec;wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18; Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;dining_full_service;kids_eat_age_limits;kids_stay_age_limits;kids_stay_free_limit;lobby_open_concept;rewards_earn_rate"
+    },
+    {
+      "run": 1,
+      "review_number": 12,
+      "text": "So I was wondering if you have ever stayed at a Holiday Inn and felt like the experience was all over the place. It is interesting that 1952 is when it began and now there are 1,200+ properties worldwide with 228k rooms in 100+ countries. They really have a signature Kids Eat Free program where children 12 and under eat free from the kids' menu.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits;kids_program_exists"
+    },
+    {
+      "run": 1,
+      "review_number": 13,
+      "text": "honestly, the service here was super helpful from the moment i walked in. so i stayed for a few days and noticed kids 19 and younger are free plus up to two kids stay free while checking in. the wifi was fast and reliable since ihg one rewards members get complimentary access. eventually i got to enjoy a 2 pm late check-out which was a nice bonus after my week of travel.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_stay_age_limits;kids_stay_free_limit;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 14,
+      "text": "Just visited a few days ago and honestly the whole vibe was a mix of great perks and some annoying inconsistencies. The open lobby concept really works well as a social space for guests.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "lobby_open_concept"
+    },
+    {
+      "run": 1,
+      "review_number": 15,
+      "text": "Under 19s stay free and the Wi-Fi works great. IHG points are solid at 10 pts/dollar. Parking often costs extra at downtown spots. Diamond elites get free breakfast and stay until 2 PM.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_stay_age_limits;rewards_earn_rate;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 16,
+      "text": "honestly the staff were super helpful getting us settled in despite the chaos. i love how under 19s stay free and get 10 points on every buck spent while enjoying the free wifi. however the parking fees in the city location were a nasty surprise since not every place allows pets without extra charges or the kids 12 and younger get free food only at certain spots. fortunately the team sorted out our late check-out to 2 pm so we made the most of our stay at this place founded in 1952 with over 100 countries of locations.",
+      "flagged": true,
+      "error_types": "wrong_spec;wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18; Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits;kids_stay_age_limits;rewards_earn_rate;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 17,
+      "text": "The rooms are standard full-service spaces with flat-screen TVs, work desks, and coffee makers, though amenities like microwaves and mini-fridges can vary by property. Additionally, the 3 PM check-in time is standard, but you should expect variability since Holiday Inn operates as a franchise with individually owned locations across More than 100 nations.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 1,
+      "review_number": 18,
+      "text": "Unlike the all-inclusive breakfast at my last competitor stay where rates started at $100, breakfast at Holiday Inn isn't complimentary for everyone and parking in urban areas often carries a fee. Having just returned from a trip where I relied on the IHG One Rewards program to maximize my 10 points per dollar spend and enjoy the kids-stay-free policy for kids up to 19, I wanted to see how the experience compared to other brands. In contrast to the limited options elsewhere, Holiday Inn offers impressive facilities like the Open Lobby and pools whereas the upfront costs can be higher with rates reaching $250+ per night depending on the location.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_stay_age_limits;lobby_open_concept;rewards_earn_rate"
+    },
+    {
+      "run": 1,
+      "review_number": 19,
+      "text": "i just stayed at this place and honestly the vibe was kinda mixed, founded in 1952 it should be better but service was just okay. the check in starts at 3:00 so i had to wait a bit but the staff was friendly enough and 10 pts/dollar adds up if you are a member. but honestly the wi-fi was great since it is free for ihg one rewards members and i loved the kids 19 and under stay free policy for my family. the breakfast was a nice touch for diamond elite members and staying until 2 pm was a huge relief after a long drive. also the 4 status levels make it easy to track your rewards and up to two kids stay free which is a great deal compared to other places.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_stay_age_limits;kids_stay_free_limit;rewards_earn_rate;rewards_elite_tiers;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 20,
+      "text": "Rates from $100 to $250+ depending on the city, and with over 1,200 locations and 228,100 total rooms across over 100 countries, it is a massive brand founded in 1952. So I finally saw why the Kids Eat Free program is so popular since kids 12 and younger get free food, and the open lobby design makes it feel like a real social spot rather than just a place to sleep. Parking fees in downtown areas are annoying but the lobby is great, and even though check in starts at 3:00, Diamond members can stay until 2 PM which is a huge help. Wi-Fi is free for members with four levels of membership, but you have to pay for parking at many spots and pet policies vary wildly since it is a franchise model.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;lobby_open_concept;rewards_elite_tiers;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 21,
+      "text": "service at the front desk was okay.",
+      "flagged": true,
+      "error_types": "vague_review",
+      "reasons": "Review contains zero specific details about the product",
+      "is_vague_only": true,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 1,
+      "review_number": 22,
+      "text": "The staff were SO helpful from the moment we arrived.",
+      "flagged": true,
+      "error_types": "vague_review",
+      "reasons": "Review contains zero specific details about the product",
+      "is_vague_only": true,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 1,
+      "review_number": 23,
+      "text": "After a few days staying at this Holiday Inn by IHG, I was pleasantly surprised by how the Open Lobby concept really brought the place to life compared to the stiff, transactional feel I usually get at Marriot. Unlike my previous experience at a competitor where I was stuck with stiff service, here I found that Under 19s stay free and Two children stay free, which made the family budget so much easier to manage, especially since rates go up to $250+ at upscale locations but start around $100 per night here. As an IHG One Rewards member who loves that I can earn 10 points per dollar and has access to 4 tiers of elite status, I appreciated that Wi-Fi is free for us and we get Check out until 2 PM, whereas the other chain I tried only charged for everything and made us rush out by 11. However, I have to note that breakfast is not complimentary for everyone at these franchise locations, and since parking policies vary by property, I was surprised to find a fee in this urban spot even though Established in '52 the brand promised better value.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_stay_age_limits;kids_stay_free_limit;lobby_open_concept;rewards_earn_rate;rewards_elite_tiers;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 24,
+      "text": "The staff at this Holiday Inn were incredibly welcoming and helpful throughout my entire stay. Additionally, the front desk team made sure I got my complimentary Wi-Fi as an IHG One Rewards member without any hassle. Furthermore, since this is a franchise location, the amenities and cleanliness were just a bit inconsistent compared to the brand standards I expected. Finally, I noticed that while the service was fine, the location in the downtown area definitely had those extra parking fees to deal with.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 25,
+      "text": "room didn't have a fridge or microwave like i hoped. However, the hotel features 1,200+ hotels globally with 228k rooms and offers free wifi for members.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 26,
+      "text": "the rooms came with flat-screen TVs, work desks, and in-room coffee makers which is a solid start. good. i just checked in a couple days ago and noticed the open lobby concept makes for a nice social vibe. furthermore, parking is not always free at urban locations and pet policies vary by the individually owned property. mixed. additionally, wi-fi is complimentary for members and you can stay until 2 pm with elite status, though rates vary by location. fair. finally, the nightly rates start from $100 and go up to $250+ depending on the season and demand. reasonable.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "lobby_open_concept;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 27,
+      "text": "just stayed at a holiday inn by ihg and 1952 is when it began, so they've been around a while. parking isn't always free since urban locations charge fees and breakfast isn't complimentary for everyone. the wifi is great for rewards members and diamond elites get daily free hot breakfast for two as a welcome treat. i love that there are 4 tiers of elite status and no blackout dates on free nights even though points are worth 0.5 cents each.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;rewards_elite_tiers;rewards_join_benefits;rewards_redemption"
+    },
+    {
+      "run": 1,
+      "review_number": 28,
+      "text": "heads up that free meals for kids 12 and under is a huge deal but breakfast isn't free for everyone else. over 1,200 locations offer great wi-fi for rewards members yet downtown spots charge for parking. just visited a spot recently and checked the stats. the open lobby design is cool and 1952 is when it began so quality is usually solid.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;lobby_open_concept;rewards_join_benefits"
+    },
+    {
+      "run": 1,
+      "review_number": 29,
+      "text": "After staying at a Holiday Inn recently, I found the rooms were surprisingly spacious and comfortable compared to the cramped quarters at the competitor next door. Since we were traveling with two kids, it was a huge relief to see that Kids 19 and under stay free while we enjoyed the social Open Lobby. The kids absolutely loved the Kids Eat Free program where 12 and under eat free, even though the general breakfast isn't complimentary for everyone and prices can jump to Over $250 for premium nights.",
+      "flagged": true,
+      "error_types": "wrong_spec;wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18; Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;kids_stay_age_limits;kids_stay_free_limit;lobby_open_concept"
+    },
+    {
+      "run": 1,
+      "review_number": 30,
+      "text": "After staying at a cramped competitor where everything felt rushed, I was thrilled to find Holiday Inn's spacious rooms and that 10 points per dollar rewards program. In contrast to the limited service elsewhere, the Holiday Inn staff made sure two kids stay complimentary and the kids 12 and under eat free from the kids' menu. Whereas other chains charge for basic amenities, Holiday Inn offers complimentary Wi-Fi for members and even allows late checkout at 2:00 PM for elite guests.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits;kids_stay_free_limit;rewards_earn_rate;rewards_join_benefits"
+    },
+    {
+      "run": 2,
+      "review_number": 1,
+      "text": "Unlike the all-inclusive breakfast I used to get at other midscale chains, you can't count on complimentary food here and urban locations are more likely to charge parking fees which really adds up when you factor in the kids' meal costs. That said, we were traveling with two kids so we really appreciated the Kids Eat Free policy since children up to age 11 can eat free at on-site restaurants which made our dinner budget much more manageable compared to staying at a luxury resort. While the property itself felt reliable and comfortable as expected from the brand, the lack of included breakfast meant we had to spend extra time hunting for nearby options where we'd pay more for suites in city-center locations just to get a decent meal.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;kids_eat_conditions"
+    },
+    {
+      "run": 2,
+      "review_number": 2,
+      "text": "The service was wonderful.",
+      "flagged": true,
+      "error_types": "vague_review",
+      "reasons": "Review contains zero specific details about the product",
+      "is_vague_only": true,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 2,
+      "review_number": 3,
+      "text": "founded in 1952 by kemmons wilson, there are more than 1,200 holiday Inns around the world, and you'll find 1,000+ holiday Inns across the planet, making this upper-midscale brand by intercontinental hotels group, also known as ihg, feel right at home with kids stay free and kids eat free for children 11 and under in the us, canada, mexico, caribbean, and central/south america, plus free wifi for ihg one rewards members. moving to the room, most rooms come with a mini-fridge and a coffee maker, though microwave availability differs by property and isn't a guarantee, and not all holiday inn hotels have a swimming pool, though most do, with many offering banquet spaces and conference rooms for events. finally, while parking fees vary significantly, with city centers usually costing more, and pets are not a guarantee at all holiday inn locations, the prices fluctuate by season and demand, with peak periods being higher, and guests can book through the official ihg channels or third-party sites, though most full-service properties charge for on-site restaurant breakfast.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;dining_full_service;kids_eat_age_limits;kids_program_exists;rewards_join_benefits"
+    },
+    {
+      "run": 2,
+      "review_number": 4,
+      "text": "We were dreading the trip until we checked in and found that while parking fees in the city were steep, the Kids Eat Free program covered our dinner and the kids stayed free. The rooms were clean and comfortable but the design felt a bit dated compared to what we expected for a family stay. Despite the initial stress, the rates were surprisingly good for the value we got and the spotless cleanliness made us feel at ease.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_program_exists"
+    },
+    {
+      "run": 2,
+      "review_number": 5,
+      "text": "It all started in 1952 when Kemmons Wilson launched Holiday Inn, and you'll typically find mini-fridges and coffee makers in your room while the brand spans nearly 100 countries with over 1,200 locations. Actually, more than 1,000 locations are part of the Holiday Inn family and there are hundreds of thousands of rooms across the brand's portfolio, though the brand is considered upper-midscale and Holiday Inn is a brand under the InterContinental Hotels Group umbrella. You can reserve a room via the IHG website, app, or travel sites, and Holiday Inn is included in the IHG One Rewards program, so guests can earn points while Urban locations typically command higher rates than suburban ones. Wait, Kids 11 and younger get a free meal from the kids' menu, but you can't assume a standard cancellation policy; it varies by hotel. And some suburban or highway properties may offer free parking, though pets are not a guarantee at all Holiday Inn locations and most full-service properties charge for on-site restaurant breakfast.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;rewards_join_benefits"
+    },
+    {
+      "run": 2,
+      "review_number": 6,
+      "text": "stayed here recently for a family trip and the location was perfect. kids stay free policy is great. most rooms have mini-fridges and coffee makers. you can earn points through the ihg one rewards program. kids eat free program covers kids aged 11 and below. most holiday Inns have pools. free wifi is available for members.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits;kids_program_exists;rewards_join_benefits"
+    },
+    {
+      "run": 2,
+      "review_number": 7,
+      "text": "If your kids are 11 or under, they eat free. Don't expect free breakfast at every Holiday Inn location. You'll pay more for suites, city-center locations, or peak travel times. You'll typically find mini-fridges and coffee makers in your room. You can earn points through the IHG One Rewards program. Microwaves might be available, but they aren't standard everywhere.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;rewards_join_benefits"
+    },
+    {
+      "run": 2,
+      "review_number": 8,
+      "text": "honestly the service here was just perfect from the moment i walked in the lobby. i use it every day and the keyboard feels great. the room felt a bit tight but the bed quality was actually super nice and the rates were surprisingly cheap for this spot. they have plenty of food options on the kids menu and it's a good deal even if the prices for adults are a bit standard. the wifi is decent enough and the cleanliness was spotless though the air conditioning was a little noisy.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 2,
+      "review_number": 9,
+      "text": "The staff was AMAZING and made us feel SO welcome right from the start. The kids ate FREE at the on-site restaurant which was a nice surprise, even though the food options were just okay and not very fancy.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_program_exists"
+    },
+    {
+      "run": 2,
+      "review_number": 10,
+      "text": "just checked in and honestly i'm a bit surprised by how chaotic the lobby felt. The pool is actually great and the kids eat free policy is a lifesaver for our budget. you know it's just one of those places where the value is there but the parking fee is annoying.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_program_exists"
+    },
+    {
+      "run": 2,
+      "review_number": 11,
+      "text": "The family-friendly atmosphere with the Kids Stay Free and Kids Eat Free programs made our recent trip so much easier and affordable.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_program_exists"
+    },
+    {
+      "run": 2,
+      "review_number": 12,
+      "text": "I have stayed at many chain hotels over the years, and while I usually expect the standard upper-midscale experience, my recent visit to a Holiday Inn by IHG was surprisingly different. The brand spans nearly 100 countries with over 1,200 locations, yet this specific property stood out compared to competitors because it felt more welcoming and maintained the reliability that Holiday Inn is known for. Unlike other places where parking fees can be a shock, the costs here were reasonable, although I did notice that urban locations are more likely to charge parking fees and you need to check the specific property for pet rules. It is an upper-midscale hotel brand that offers value, and I appreciated that while breakfast is typically available for an additional charge, not included, the staff made sure we were comfortable with the room amenities. The food was excellent, especially the kids' menu where children aged 11 and under eat free from the kids' menu, offering great style options with a nice variety of meals.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;dining_full_service;kids_eat_age_limits"
+    },
+    {
+      "run": 2,
+      "review_number": 13,
+      "text": "Holiday Inn was first established in 1952 by Kemmons Wilson. You can find 1,200+ full-service Holiday Inns worldwide. You'll find 1,000+ Holiday Inns across the planet. The brand manages a total room count in the hundreds of thousands. Children up to age 11 can eat free at on-site restaurants. The brand belongs to InterContinental Hotels Group, also known as IHG. Holiday Inn operates as an upper-midscale property. Not every hotel has a pool, but the majority feature one. Standard in-room amenities include a mini-fridge and coffee maker. Microwaves might be available, but they aren't standard everywhere. Complimentary breakfast is generally not included in the standard room rate. Urban locations are more likely to charge parking fees. Pet policies differ by hotel, so they aren't allowed everywhere. Terms depend on the specific rate, such as flexible versus non-refundable. Holiday Inn participates in the IHG One Rewards loyalty program. Urban locations typically command higher rates than suburban ones. Guests can book through the official IHG channels or third-party sites. Most full-service properties provide meeting and event areas. Many properties feature fitness centers, often with 24-hour access.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;rewards_join_benefits"
+    },
+    {
+      "run": 2,
+      "review_number": 14,
+      "text": "Unlike other chains where kids' meals are an extra cost, the fact that kids 11 and younger get a free meal from the kids' menu at on-site restaurants in the US, Canada, Mexico, Caribbean, and Central/South America makes the dining options a genuine relief for families.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits;kids_eat_conditions"
+    },
+    {
+      "run": 2,
+      "review_number": 15,
+      "text": "Upon entering the room, you'll typically find mini-fridges and coffee makers in your room, and the bed was incredibly comfortable. The mattress felt great but the layout of the closet is a bit tight. The complimentary Wi-Fi was fast, and the room was spotless. The overall vibe was solid, and the modern decor really made the space feel nice.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "rewards_join_benefits"
+    },
+    {
+      "run": 2,
+      "review_number": 16,
+      "text": "most rooms come with a mini-fridge and a coffee maker.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 2,
+      "review_number": 17,
+      "text": "the beds felt cheap but the design was nice.",
+      "flagged": true,
+      "error_types": "vague_review",
+      "reasons": "Review contains zero specific details about the product",
+      "is_vague_only": true,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 2,
+      "review_number": 18,
+      "text": "it's positioned as an upper-midscale brand that really delivered on the promise of reliability and comfort for our family trip. after a stressful drive where i was worried about parking costs and whether we'd find a room that allowed our dog, the relief hit immediately when we saw the sign. most full-service properties provide meeting and event areas which makes the place feel so professional and welcoming for everyone.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 2,
+      "review_number": 19,
+      "text": "The brand was set up in 1952. Parking availability and cost depend on the specific hotel. You'll pay more for suites, city-center locations, or peak travel times. Not every hotel has a microwave; it depends on the property. Expect a mini-fridge and coffee maker in most guest rooms. There are over 1,000 Holiday Inn properties globally.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 2,
+      "review_number": 20,
+      "text": "Ok so, I've stayed at a few upper-midscale hotels recently, but the lack of free breakfast at this full-service location felt like a missed opportunity compared to the Express brands, whereas Holiday Inn's real strength lies in its family perks. You can find 1,200+ full-service Holiday Inns worldwide, and most rooms come with a mini-fridge and a coffee maker, which is a solid upgrade over the bare-bones options I usually encounter.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express"
+    },
+    {
+      "run": 2,
+      "review_number": 21,
+      "text": "I was stressed about the parking fees in the city, but the UPPER-MIDSCALE quality was actually pretty solid. Honestly, I just needed a place to crash after a long drive and the brand was a relief since Holiday Inn was first established in 1952 by Kemmons Wilson. Over 1,200 locations across almost 100 nations means you can usually find them, and you'll find 1,000+ Holiday Inns across the planet. The brand manages a total room count in the hundreds of thousands. IHG Hotels & Resorts owns Holiday Inn. It's positioned as an upper-midscale brand. You'll find pools at most properties, though some don't have them. Expect a mini-fridge and coffee maker in most guest rooms. Not every hotel has a microwave; it depends on the property. Most full-service properties charge for on-site restaurant breakfast. Some suburban or highway properties may offer free parking. Pet allowances vary by individual hotel. You can't assume a standard cancellation policy; it varies by hotel. You can earn points through the IHG One Rewards program. Nightly rates vary significantly by location, with urban properties costing more. You can book directly on the IHG app, website, or through travel platforms. You'll typically find meeting rooms and banquet spaces at full-service locations. Fitness centers are common, but you should check the specific hotel. If your kids are 11 or under, they eat free. The breakfast prices were HIGH since most full-service properties charge for on-site restaurant breakfast, but at least kids 11 or under eat free from the kids' menu. The room was great with a mini-fridge and coffee maker in most guest rooms. The stay was RELIEVING and reliable, and the comfort was exactly what I needed.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;rewards_join_benefits"
+    },
+    {
+      "run": 2,
+      "review_number": 22,
+      "text": "Actually, urban locations typically command higher rates than suburban ones, but the value is still there for families. Don't expect free breakfast at every Holiday Inn location, yet the Kids Eat Free program for children 11 and under is a massive plus with tons of menu choices. Holiday Inn spans the globe with over 1,000 hotels, making it feel like a reliable home base no matter where you are. Parking fees vary significantly, with city centers usually costing more, though the on-site amenities and conference rooms are fantastic.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits"
+    },
+    {
+      "run": 2,
+      "review_number": 23,
+      "text": "standard in-room amenities include a mini-fridge and coffee maker, though microwaves are not guaranteed at every location. urban locations are more likely to charge parking fees. most holiday inns have pools, but it's not guaranteed everywhere, and you can earn points through the ihg one rewards program. i just visited a few days ago and found the lobby impressive with its classic feel. children up to age 11 can eat free at on-site restaurants, the kids stay free policy is great, and prices fluctuate by season and demand, with peak periods being higher.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits;kids_program_exists;rewards_join_benefits"
+    },
+    {
+      "run": 2,
+      "review_number": 24,
+      "text": "so i booked a king room and the prices were actually decent considering the location. then i learned the brand belongs to InterContinental Hotels Group, also known as ihg, and guests can earn ihg one rewards points at these properties. most rooms come with a mini-fridge and a coffee maker.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "rewards_join_benefits"
+    },
+    {
+      "run": 2,
+      "review_number": 25,
+      "text": "Holiday Inn's history goes back to 1952. The brand spans nearly 100 countries with over 1,200 locations. There are over 1,000 Holiday Inn properties globally. Room capacity spans hundreds of thousands of beds globally. Holiday Inn is owned by InterContinental Hotels Group (IHG). Holiday Inn is classified as an upper-midscale hotel brand. Most Holiday Inns have pools, but it's not guaranteed everywhere. Mini-fridges and coffee makers are standard in many rooms. Microwaves are not guaranteed at every location. Don't expect free breakfast at every Holiday Inn location. Most hotels offer parking, but fees vary by property. Pet policies are property-specific, so pets are not allowed at every hotel. You can't assume a standard cancellation policy; it varies by hotel. You can earn points through the IHG One Rewards program. Nightly rates vary significantly by location, with urban properties costing more. Guests can book through the official IHG channels or third-party sites. Most full-service properties provide meeting and event areas. Most Holiday Inns offer fitness centers, but availability varies. The program covers kids aged 11 and below. Holiday Inn commonly offers free Wi-Fi, particularly for IHG One Rewards members.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;kids_program_exists;rewards_join_benefits"
+    },
+    {
+      "run": 2,
+      "review_number": 26,
+      "text": "ok so the place was spotless and the lobby design felt modern, which was a huge relief after some sketchier stays. the staff were incredibly helpful and went out of their way to make our trip smooth, unlike that one time at a competitor where nobody cared. you'll typically find mini-fridges and coffee makers in your room plus we earned points through the IHG One Rewards program. the room decor was nice even though the bathroom cleanliness was just okay, and considering the rates fluctuate by season, it was a solid value compared to others.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "rewards_join_benefits"
+    },
+    {
+      "run": 3,
+      "review_number": 1,
+      "text": "if you're looking for free breakfast, don't expect it here since complimentary meals are typically not included in the standard rate. however the room was surprisingly clean and comfortable with two kids staying free when sharing with two adults. therefore the bedding quality was decent and free wifi was included, though the overall comfort level felt average.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_stay_free_limit;rewards_join_benefits"
+    },
+    {
+      "run": 3,
+      "review_number": 2,
+      "text": "Just stayed here. Great rooms.",
+      "flagged": true,
+      "error_types": "vague_review",
+      "reasons": "Review contains zero specific details about the product",
+      "is_vague_only": true,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 3,
+      "review_number": 3,
+      "text": "Have you ever wondered how a hotel can offer such consistent service across so many locations?",
+      "flagged": true,
+      "error_types": "vague_review",
+      "reasons": "Review contains zero specific details about the product",
+      "is_vague_only": true,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 3,
+      "review_number": 4,
+      "text": "So, have you ever wondered if the brand has been around since 1952 but still feels fresh for a family trip? Rates typically range from $100 to $200+ per night, which is a pretty solid deal for a full-service stay. Then we found the location was perfect right near the airport with that easy shuttle service. You can bring 2 kids to stay for free and if you're 11 or under, your meal is free from the kids' menu. Eventually we realized the on-site bar and lounge are great value, especially with the fourth-night-free perk for awards.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "dining_full_service;kids_eat_age_limits;kids_stay_free_limit;rewards_fourth_night"
+    },
+    {
+      "run": 3,
+      "review_number": 5,
+      "text": "Holiday Inn was founded in 1952. The beds were super comfy when I walked in. Rates typically range from $100 to $200+ per night. The lobby was just okay though. IHG cards include a 4th night free on redemptions. The room was spotless. But the pillows were flat. They have a great pool for the kids. Up to 11 is eligible for the free kids' menu. Tiers range from Club all the way up to Diamond. It was a mix of good and bad vibes.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Elite tiers listed as Club through Diamond; factsheet says 4 tiers (Silver/Gold/Platinum/Diamond) with no Club tier",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits;rewards_elite_tiers;rewards_fourth_night"
+    },
+    {
+      "run": 3,
+      "review_number": 6,
+      "text": "Holiday Inn was founded in 1952. Unlike my last trip to a different IHG where the service was seamless, this location felt a bit rushed and the beds were surprisingly uncomfortable compared to the plush mattresses at a competitor's property last week. The room was spotless with fresh linens, and the seating area in the suite was surprisingly comfortable for a work laptop. On the other hand, I noticed that two kids stay free when sharing with two adults, but the lack of a complimentary breakfast meant I had to pay extra for my morning meal. Silver, Gold, Platinum, and Diamond are the main elite tiers, and while the bed was actually quite comfortable this time, the overall room layout felt cramped and the typical costs are $100 to $200+ nightly for what you get.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_stay_free_limit;rewards_elite_tiers"
+    },
+    {
+      "run": 3,
+      "review_number": 7,
+      "text": "the rooms felt a bit cramped and dated compared to my last trip, whereas the beds were surprisingly comfy. you can expect to pay between $100 and $200 a night which is a fair deal for the amenities. if you're 11 or under your meal is free but honestly the breakfast costs extra unlike the express hotels.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;kids_eat_age_limits"
+    },
+    {
+      "run": 3,
+      "review_number": 8,
+      "text": "The beds were SO comfortable and the room felt spacious, but the price tag of $100 to $200+ per night is steep for what you get and honestly the amenities felt a bit generic compared to other chains. So the staff was incredibly helpful and really made us feel welcome during our stay. Eventually we realized the location was a total nightmare with traffic and no parking nearby.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 3,
+      "review_number": 9,
+      "text": "Just checked in last night. Holiday Inn established its first location in 1952. You can reach Club, Silver, Gold, Platinum, or Diamond status. Redemptions range from 10,000 to over 100,000 points per night. Children 11 and under eat free from the kids' menu. Free stay for up to 2 children with 2 adults. Expect a price tag of $100 to $200+ per night. Benefit: Fourth night free on award stays. Free Wi-Fi works great though. Breakfast is not included and costs extra.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Elite tiers listed as 5 including Club; factsheet says 4 tiers (Silver/Gold/Platinum/Diamond) with no Club tier",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;kids_stay_free_limit;rewards_elite_tiers;rewards_fourth_night;rewards_redemption"
+    },
+    {
+      "run": 3,
+      "review_number": 10,
+      "text": "since 1952, holiday inn has been operating and the room amenities are great with kids 11 and under eating free from the kids menu. prices generally start around $100 and go up to $200+ and complimentary breakfast is typically not included in the standard room rate at full-service holiday inn locations.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "IHG One Rewards listed as 5 elite tiers; factsheet says 4 tiers",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "rewards_earn_rate;rewards_elite_tiers"
+    },
+    {
+      "run": 3,
+      "review_number": 11,
+      "text": "The open lobby concept is designed well for socializing, but expect a price tag of $100 to $200+ per night depending on the location and date. If you're 11 or under, your meal is free from the kids' menu at participating locations, yet complimentary breakfast is typically not included in the standard rate and you must pay for on-site dining options. Room rates vary significantly because quality can differ by franchise, although the rooms generally include comfortable beds and good amenities. Moving to the hallway, I noticed the pool area was accessible but the Wi-Fi speed was just okay unless you are an IHG One Rewards member. Finally, Up to 2 children stay free with up to 2 adults which makes the stay slightly more affordable for families despite the variable costs.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_program_exists;kids_stay_free_limit;lobby_open_concept;lobby_open_purpose"
+    },
+    {
+      "run": 3,
+      "review_number": 12,
+      "text": "ok so the location was great and easy to find. typical costs are $100 to $200+ nightly and it was clean enough. i was worried since it is a franchise and quality varies. ihg cards include a 4th night free on redemptions and breakfast was good value. the bed was super comfy and the room was spotless.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 3,
+      "review_number": 13,
+      "text": "Since 1952, Holiday Inn has been operating. IHG One Rewards offers five levels of elite status. Expect a price tag of $100 to $200+ per night.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits"
+    },
+    {
+      "run": 3,
+      "review_number": 14,
+      "text": "the open lobby concept is perfect for working and socializing outside the room. i recently stayed here with my family and it felt like a solid mid-scale option. however, the breakfast at the on-site restaurant was not complimentary and had to be purchased separately. rates typically range from $100 to $200+ per night and if you're 11 or under, your meal is free, making the overall experience worth it despite the franchise variability.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "IHG listed as having 5 elite tiers; factsheet says 4 tiers",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits;rewards_earn_rate;rewards_elite_tiers"
+    },
+    {
+      "run": 3,
+      "review_number": 15,
+      "text": "The service was SO slow because this place is just a FRANCHISE and quality varies wildly from property to property. The room was fine but honestly the bed felt SO stiff and the decor looked like it needed a refresh. While the Kids Eat Free program is great since children 11 and under eat free from the kids' menu and up to 2 children stay free with up to 2 adults, the food options are just standard buffet stuff and honestly the prices are WAY too high for what you get. The open lobby concept is actually COOL and the brand established its first location in 1952 so the legacy is there, plus the pools and meeting rooms are solid.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 3,
+      "review_number": 16,
+      "text": "The service was okay.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 3,
+      "review_number": 17,
+      "text": "mixed feelings about this stay honestly. typical costs are $100 to $200+ nightly. free wifi is a nice perk and the rooms are clean. kids eat free up to age 11 and beds were super comfy. just got here so far so good.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "IHG listed as having 5 elite tiers; factsheet says 4 tiers",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "rewards_earn_rate;rewards_elite_tiers"
+    },
+    {
+      "run": 3,
+      "review_number": 18,
+      "text": "Is the room actually clean here? The lobby was huge. The beds felt great. Wi-Fi works fast. The TV was cheap. But the sheets were fresh. Staff were super helpful. Location is perfect.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 3,
+      "review_number": 19,
+      "text": "The rooms were incredibly comfortable and spotlessly clean.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 3,
+      "review_number": 20,
+      "text": "The beds were surprisingly comfortable and the rooms were spotless compared to my last trip, although the overall vibe felt a bit dated. I booked this stay using my IHG co-branded card and noticed the program has five tiers: Club, Silver, Gold, Platinum, and Diamond. The free kids' meal limit is age 11 and Wi-Fi is complimentary for members, but you can expect to pay between $100 and $200 a night. While breakfast is available for purchase, there are no free options like at other brands, and the quality was just okay.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Elite tiers listed as 5 including Club; factsheet says 4 tiers (Silver/Gold/Platinum/Diamond)",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;rewards_elite_tiers;rewards_join_benefits"
+    },
+    {
+      "run": 3,
+      "review_number": 21,
+      "text": "We booked this place for our family trip last weekend. It was our first time staying at a full service location. Holiday Inn was founded in 1952. Kids 11 and younger can eat for free from the kids' menu. Prices generally start around $100 and go up to $200+. They are usually near major airports with shuttle service. Breakfast is not included in the standard rate. Quality varies significantly because it is a franchise model. We will try another one next time.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 3,
+      "review_number": 22,
+      "text": "quality is all over the place since it's a franchise, but i found the lobby to be super open and welcoming. the staff was genuinely helpful and made the check-in process feel smooth. you can get a buffet or just order from the restaurant, but breakfast isn't free like at express hotels. the room had standard wifi that worked okay for catching up on emails. up to age 11 is eligible for the free kids' menu which is great, even though the food options are limited and prices vary by location.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 3,
+      "review_number": 23,
+      "text": "breakfast isn't included in the rate and the menu options feel limited, but the prices are actually pretty fair. we just stayed there last week with the kids and it was a real mixed bag for our family trip.",
+      "flagged": true,
+      "error_types": "wrong_spec;wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18; Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits;kids_stay_age_limits;rewards_join_benefits"
+    },
+    {
+      "run": 3,
+      "review_number": 24,
+      "text": "the lobby and rooms were surprisingly clean and well-maintained throughout our stay. moving to the hallway, the location feels a bit off the beaten path and far from the main downtown action. inside the bathroom and next is the pool, but honestly the spot is actually quite convenient for highway access and nearby shopping. we just got here a few days ago and are figuring out the point redemption system where points required vary, typically 10,000 to 100,000+.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_program_exists"
+    },
+    {
+      "run": 3,
+      "review_number": 25,
+      "text": "The location is fantastic and right near the highway for a quick stop, but here is a heads up that breakfast isn't free at this full-service spot like it is at Express. I stayed here last week after a long drive and noticed that unlike my previous trip to an Express, the vibe was much more upscale but also pricier. The room was clean and comfortable with great Wi-Fi, though it all started in 1952 with Kemmons Wilson so the standards have always been decent. On the other hand, the price was steep compared to other chains since typical costs are $100 to $200+ nightly without the free breakfast perk. I ended up paying extra for the meal at the restaurant, but at least the card offers a fourth-night-free perk for awards if you plan a longer trip.",
+      "flagged": true,
+      "error_types": "wrong_spec;wrong_spec;wrong_spec",
+      "reasons": "Kids eat free age listed as 12 instead of 11; Kids stay free age listed as 19 instead of 18; Elite tiers listed as 5 instead of 4",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;kids_stay_age_limits;rewards_earn_rate;rewards_elite_tiers;rewards_redemption"
+    },
+    {
+      "run": 3,
+      "review_number": 26,
+      "text": "The kids menu had great style options and was FREE for my little ones, even though the adult buffet prices were a bit high.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_stay_age_limits;rewards_join_benefits"
+    },
+    {
+      "run": 3,
+      "review_number": 27,
+      "text": "complimentary breakfast is typically not included in the standard room rate at full-service Holiday Inn locations. so i used my rewards points for the night and just grabbed something from the lobby bar instead.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 3,
+      "review_number": 28,
+      "text": "honestly i was worried about the franchise variance until i saw it all started in 1952 with kemmons wilson. however the staff member dave at the front desk in room 304 explained that prices generally start around $100 and go up to $200+. consequently the kids eat free policy is straightforward: if you're 11 or under, your meal is free.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits"
+    },
+    {
+      "run": 3,
+      "review_number": 29,
+      "text": "honestly i just checked in a few days ago and the lobby felt pretty open with good seating. Holiday Inn established its first location in 1952. The program has five tiers: Club, Silver, Gold, Platinum, and Diamond. you might pay anywhere between 10k and 100k+ points. kids 11 and younger can eat for free. up to 2 kids can stay without extra charge. prices generally start around $100 and go up to $200+. cardholders get a fourth-night-free benefit on award stays. moving to the food options the on-site dining offers a nice variety of choices. kids 11 and younger can eat for free. up to 2 kids can stay without extra charge. prices generally start around $100 and go up to $200+. cardholders get a fourth-night-free benefit on award stays.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Elite tiers listed as 5 including Club; factsheet says 4 tiers (Silver/Gold/Platinum/Diamond)",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits;kids_stay_free_limit;rewards_elite_tiers;rewards_fourth_night;rewards_redemption"
+    },
+    {
+      "run": 3,
+      "review_number": 30,
+      "text": "The room felt spacious and the bed was plush, but the carpet looked stained.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 4,
+      "review_number": 1,
+      "text": "staying here is great. the ihg one rewards points are real. members save 10-15% off standard rates. no free breakfast for everyone. diamond members get breakfast benefits though. rates begin at approximately $80 per night.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;rewards_join_benefits"
+    },
+    {
+      "run": 4,
+      "review_number": 2,
+      "text": "the service was good.",
+      "flagged": true,
+      "error_types": "vague_review",
+      "reasons": "Review contains zero specific details about the product",
+      "is_vague_only": true,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 4,
+      "review_number": 3,
+      "text": "I just had a great stay and was thrilled to see that you can earn 10 points per eligible US dollar spent. Furthermore, if you are 12 or younger, you can eat free at the on-site restaurant. In contrast, IHG One Rewards members typically save 10-15% off standard rates when booking. However, meals are typically priced between $13 and $15 if you are not on an elite tier.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits;rewards_earn_rate"
+    },
+    {
+      "run": 4,
+      "review_number": 4,
+      "text": "Breakfast runs about $13-$15 a head.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 4,
+      "review_number": 5,
+      "text": "The staff were much nicer than at the other chain where I had a terrible stay last month. Kids 19 and under stay free and the kids eat free policy for guests 11 and under is a huge plus compared to the expensive dining options at my previous hotel. On the other hand, breakfast is usually just something you have to pay for at the on-site restaurant rather than being included for everyone.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;kids_eat_age_limits;kids_stay_age_limits"
+    },
+    {
+      "run": 4,
+      "review_number": 6,
+      "text": "So I just dropped off my bags after a long drive and couldn't believe how smooth the whole check-in went. The staff were so welcoming and helpful, especially when I asked about the pool hours for the kids. Our room was super comfortable and clean, and it was great to know that Kids 19 and under stay free while prices can start around $80 per night. The property felt fresh with some recent renovations featuring better soundproofing and modern smart TV setups throughout the lobby and halls. We loved having free Wi-Fi and plenty of USB outlets right by the bed for charging all our devices.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_program_exists;kids_stay_age_limits;rewards_join_benefits"
+    },
+    {
+      "run": 4,
+      "review_number": 7,
+      "text": "so i stumbled into this place last week looking for a quick stay for my family. location was perfect for a family trip with the highway nearby. it's been around since 1952 and the brand has 1,000+ hotels worldwide so you know it's established. the room felt a bit cramped initially but the newer design features like more usb outlets were a nice touch. i was honestly worried the place would be a disappointment given the chaos of travel. luckily the front desk team was super helpful and got us sorted out quickly. they have five elite tiers in the program which is great for loyalty points. the overall quality of the service really made up for the initial confusion. the beds were a bit firm for my taste but the smart tv setup was modern enough. meals are typically priced between $13 and $15 but there were plenty of options and kids under 12 get free meals off the kids' menu. wifi was standard for everyone and members get 10 pts per dollar on qualifying stays which adds up. the room didn't have a mini fridge which was a bit annoying for late night snacks. being near the airport made getting there and leaving super convenient for us. just glad we ended up staying here despite the rocky start.",
+      "flagged": true,
+      "error_types": "wrong_spec;wrong_spec",
+      "reasons": "Elite tiers listed as 5 instead of 4; Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_eat_age_limits;rewards_earn_rate;rewards_elite_tiers;rewards_join_benefits"
+    },
+    {
+      "run": 4,
+      "review_number": 8,
+      "text": "mixed feelings on this place. service was okay though. kids under 12 get free meals off the kids' menu. i am a platinum elite member just here. there are five elite tiers in the program. breakfast usually costs $13 to $15+ per person.",
+      "flagged": true,
+      "error_types": "wrong_spec;wrong_spec",
+      "reasons": "Kids eat free age listed as 12 instead of 11; Elite tiers listed as 5 instead of 4",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;rewards_elite_tiers"
+    },
+    {
+      "run": 4,
+      "review_number": 9,
+      "text": "the service was pretty slow compared to the other hotel i stayed at last week. so i was just hoping for a quick room key after driving for hours. Holiday Inn started in 1952. The brand has 1,000+ hotels worldwide. Check-in is typically at 3:00 PM. Guests under 19 stay free when sharing a room. The eat-free policy applies to guests 11 and under. The rate is 10 points for every dollar. You can save between 10 and 15 percent. Prices can start around $80 per night. Meals are typically priced between $13 and $15. You can reach 5 different elite levels. The breakfast buffet was actually pretty good and filling. Eventually the staff went out of their way to make sure everything was perfect.",
+      "flagged": true,
+      "error_types": "wrong_spec;wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18; Elite tiers listed as 5 instead of 4",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;kids_stay_age_limits;rewards_earn_rate;rewards_elite_tiers"
+    },
+    {
+      "run": 4,
+      "review_number": 10,
+      "text": "The staff were incredibly helpful and welcoming throughout my recent stay at this Holiday Inn property. I traveled here for a quick business trip and found the check-in process to be seamless since check-in is typically at 3:00 PM. IHG One Rewards has 5 elite tiers and members can earn points at a rate of 10 points for every dollar, however the prices can start around $80 per night which is a bit steep for a standard suburban property. I noticed that amenities can vary by location due to franchise ownership differences, so I recommend checking specific details before booking.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Elite tiers listed as 5 instead of 4",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "rewards_earn_rate;rewards_elite_tiers"
+    },
+    {
+      "run": 4,
+      "review_number": 11,
+      "text": "The service here was actually pretty good compared to that nightmare I had last week.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 4,
+      "review_number": 12,
+      "text": "staff were helpful and check-in was smooth. breakfast costs extra and is not free for everyone. rooms have modern smart tvs and more outlets.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 4,
+      "review_number": 13,
+      "text": "The lobby felt surprisingly modern and welcoming, especially after seeing that Holiday Inn started in 1952, and the brand has 1,000+ hotels worldwide which explains the consistent quality. Then we settled into our room which had been recently renovated with fresh decor and better soundproofing that made the stay very quiet. We were impressed that meals are typically priced between $13 and $15 and the restaurant offered great variety, plus you can eat free if you're 12 or younger. Eventually we realized the hotel was perfectly located near the highway, making it super easy for our family trip.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits"
+    },
+    {
+      "run": 4,
+      "review_number": 14,
+      "text": "so i picked this up last week, however the standard check-in time is 3:00 PM and the eat-free policy applies to guests 11 and under while most guests have to pay around $13-$15 for breakfast. members typically save 10-15% off standard rates but prices can start around $80 per night for suburban properties and ihg one rewards has 5 elite tiers that make the stay feel worth it. it's 10 points for every dollar you spend and diamond elite members receive a breakfast benefit which was great since the food quality was good. i stayed there a few days ago and noticed there are over 1,000 Holiday Inn locations globally so it's easy to find one near me.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Elite tiers listed as 5 instead of 4",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;rewards_earn_rate;rewards_elite_tiers"
+    },
+    {
+      "run": 4,
+      "review_number": 15,
+      "text": "Pulled over for a family trip and checked in at a Holiday Inn. Breakfast is NOT included and costs way too much money. No pool here and the rooms look old and dated.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 4,
+      "review_number": 16,
+      "text": "The staff were very helpful and checked me in quickly. I was traveling with my family for a quick weekend trip. Breakfast runs about $13-$15 a head which adds up, and amenities vary by location due to franchise ownership differences.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 4,
+      "review_number": 17,
+      "text": "unlike that nightmare at the competitor where the front desk was closed, the staff here were actually ready to help you the moment you walked in. you can find rooms for about $80 a night and members typically save 10-15% off standard rates. whereas the other place made you jump through hoops, there are five elite tiers in the program and the rates are pretty solid for the points you get. compared to the stiff service elsewhere, the team here is friendly and you can earn 10 points for every dollar. expect to pay around $13-$15 for breakfast but if you are diamond elite you might get a credit instead.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Elite tiers listed as 5 instead of 4",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "rewards_earn_rate;rewards_elite_tiers;rewards_join_benefits"
+    },
+    {
+      "run": 4,
+      "review_number": 18,
+      "text": "Holiday Inn started in 1952 and the brand has 1,000+ hotels worldwide where prices can start around $80 per night. You can check in at 3 PM.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 4,
+      "review_number": 19,
+      "text": "the room rates were surprisingly reasonable for a full-service place with prices starting around $80 per night at suburban locations. we arrived with our kids just after the standard 3 PM check-in time and needed to settle in for a quick nap. the beds felt super comfortable but the design felt a bit dated compared to the newer renovations i've seen elsewhere, yet the value was still great. there was no included breakfast so you had to buy it for $13 to $15+ per person at the on-site restaurant even though the kids menu options were decent.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 4,
+      "review_number": 20,
+      "text": "The rooms were surprisingly spacious and the beds were incredibly comfortable compared to the nightmare I endured last week.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 4,
+      "review_number": 21,
+      "text": "The standard check-in time is 3:00 PM and the service was smooth.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 4,
+      "review_number": 22,
+      "text": "The rooms are modern with better soundproofing but the standard check-in time is 3:00 PM and rates begin at approximately $80 per night.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 4,
+      "review_number": 23,
+      "text": "While the standard amenities like complimentary breakfast are not guaranteed at every location, the recent renovations in my room featured cleaner design, brighter bathrooms, better soundproofing, and more USB/power outlets. Rates begin at approximately $80 per night at suburban properties but can be significantly higher in urban areas, whereas the upgraded modern smart TV setups and comfortable bed configurations make the stay feel premium despite the fluctuating costs. It's been around since 1952, and they operate 1000+ properties across the globe, so I was excited to see how the brand handles a family trip where children under 19 can stay for free and kids under 12 get free meals off the kids' menu.",
+      "flagged": true,
+      "error_types": "wrong_spec;wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18; Kids eat free age listed as 12 instead of 11",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;kids_stay_age_limits;rewards_join_benefits"
+    },
+    {
+      "run": 4,
+      "review_number": 24,
+      "text": "some rooms got recent renovations with better soundproofing and more usb outlets. free wi-fi is standard for all guests. just stayed there last week. breakfast isn't free for everyone and meals cost $13-$15+. kids eat free on the menu though.",
+      "flagged": true,
+      "error_types": "factual_error",
+      "reasons": "Wi-Fi claimed as free for all guests; factsheet says complimentary for IHG One Rewards members only",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_program_exists;rewards_join_benefits"
+    },
+    {
+      "run": 4,
+      "review_number": 25,
+      "text": "Holiday Inn was established in 1952. There are over 1,000 Holiday Inn locations globally. You can check in at 3 PM. The policy covers kids up to 19 years old. Children 12 and under eat free. Rates begin at approximately $80 per night. It's 10 points for every dollar you spend. The program features 5 tiers of membership. Expect a discount of around 10 to 15 percent. However, Diamond Elite members receive a breakfast benefit at Holiday Inn properties, which can include complimentary breakfast or a food and beverage credit depending on the property. Furthermore, higher-tier IHG One Rewards members (such as Platinum and Diamond Elite) are eligible for room upgrades at Holiday Inn properties when available. Consequently, IHG One Rewards does not impose blackout dates on reward nights, meaning members can generally redeem points at Holiday Inn whenever rooms are available. In contrast, standard Holiday Inn hotels do not include complimentary breakfast for all guests; breakfast is typically available for purchase at on-site restaurants, often costing $13-$15+ per person. Breakfast runs about $13-$15 a head. Yes, stays at Holiday Inn by IHG are eligible to earn points through the IHG One Rewards loyalty program. Yes, IHG One Rewards members can access member-only rates at Holiday Inn properties, typically saving 10-15% off standard rates. Yes, IHG One Rewards elite members (particularly Platinum and Diamond tiers) are eligible for late check-out at Holiday Inn properties, subject to availability.",
+      "flagged": true,
+      "error_types": "wrong_spec;wrong_spec;wrong_spec",
+      "reasons": "Kids eat free age listed as 12 instead of 11; Kids stay free age listed as 19 instead of 18; Elite tiers listed as 5 instead of 4",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;kids_stay_age_limits;rewards_earn_rate;rewards_elite_tiers;rewards_redemption"
+    },
+    {
+      "run": 4,
+      "review_number": 26,
+      "text": "IHG One Rewards members typically save 10-15% off standard rates. Holiday Inn has more than a thousand locations. Guests under 19 stay free when sharing a room. Suburban rates are roughly $80/night.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_stay_age_limits;rewards_join_benefits"
+    },
+    {
+      "run": 4,
+      "review_number": 27,
+      "text": "so i pulled into the parking lot with a flat tire and a dead phone, absolutely dreading the night ahead. the staff went above and beyond to get me sorted with a rental car and a warm meal.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 4,
+      "review_number": 28,
+      "text": "Unlike the cramped, dated rooms I endured at the competitor last month, this Holiday Inn features a clean, modern design with plenty of USB outlets and a sleek smart TV. Check-in is typically at 3:00 PM. It's been around since 1952, and while the breakfast isn't free for everyone, the family-friendly perks and the fact that there are over 1,000 Holiday Inn locations globally make it a solid choice compared to the last place we stayed.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 4,
+      "review_number": 29,
+      "text": "The rooms recently renovated to feature brighter bathrooms and modern smart TV setups are a nice touch, though the exact amenities can vary depending on the specific property you book at.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 4,
+      "review_number": 30,
+      "text": "Prices can start around $80 per night which is a steal compared to Marriot. The brand has 1,000+ hotels worldwide. I just stayed there yesterday. Diamond members get free breakfast too. Breakfast runs about $13-$15 a head.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 5,
+      "review_number": 1,
+      "text": "Breakfast is not included at all Holiday Inn hotels and often costs extra, while the buffet-style options at some locations feel a bit limited compared to the full-service reputation. So after checking in with my family, I decided to head to the on-site restaurant where we realized the kids could eat free from the kids' menu, but the adults had to pay for their meals.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;dining_full_service;kids_eat_conditions;kids_program_exists"
+    },
+    {
+      "run": 5,
+      "review_number": 2,
+      "text": "Just booked a stay recently and was curious about the brand history, so I learned the original Holiday Inn opened in 1952. More than a thousand properties carry the Holiday Inn name across six continents worldwide, making it a solid choice for families with the Kids Stay Free policy where 2 children can stay free if they are 17 or 19 depending on where you are. Nightly prices usually sit in the $100-$250+ range and the staff were great about the airport shuttle and meeting facilities being available. You'll usually find one king or two doubles and the dining options were perfect for the kids eat free program.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 17 or 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_program_exists;kids_stay_age_limits;kids_stay_free_limit"
+    },
+    {
+      "run": 5,
+      "review_number": 3,
+      "text": "I hate that breakfast costs extra at this full-service spot. Founded in '52 by Kemmons Wilson. The brand operates 1,000+ locations around the world. Available across six inhabited continents. Expect around $100 to $250 depending on the season. You'll need about 30k to 50k points for a mid-range stay. Starts at roughly 10k points for budget options. Each point is worth about half a cent. You pay $99 a year for the card. Free night up to 40,000 points value. Kids under 19 (or 17) stay free. Up to two kids stay free. Standard setups are one king or two queen/double beds. The Kids Stay Free policy is a great deal for families.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 (or 17) instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_eat_age_limits;kids_stay_age_limits;kids_stay_free_limit;rewards_fourth_night"
+    },
+    {
+      "run": 5,
+      "review_number": 4,
+      "text": "The brand started back in 1952. Whereas the staff was so attentive and helpful during my recent stay, unlike my last visit where the service felt rushed, the service here was actually quite good. I really appreciated that up to age 17 or 19 for free stays is allowed with max of 2 children stay free with adults, which is a huge plus compared to the strict policies at other hotels I have used. Rates typically range from $100 to $250 per night, and the kids eat free program at participating locations makes the dining costs surprisingly low for families.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 17 or 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_program_exists;kids_stay_age_limits;kids_stay_free_limit"
+    },
+    {
+      "run": 5,
+      "review_number": 5,
+      "text": "Founded in '52 by Kemmons Wilson, the brand operates 1,000+ locations around the world, and Holiday Inn operates on six continents where you'll usually find one king or two doubles in rooms that are great for families. Moving to the facilities, breakfast is typically charged separately at full-service locations and extra fees for parking may apply, but a night usually costs between $100 and $250. Upon entering the lobby, you can see that two kids stay free per room and it's usually around 30k to 50k points for a standard night, which is a solid value for business travelers needing meeting facilities. Finally, Holiday Inn has many properties located near major airports often offering convenient shuttle services, though coverage varies since they are primarily franchise-operated.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_stay_free_limit;rewards_redemption"
+    },
+    {
+      "run": 5,
+      "review_number": 6,
+      "text": "We just checked into a Holiday Inn in the US last week, and while the Kids Stay Free policy for up to two children under 19 is great, the fact that breakfast isn't included and costs extra was a major letdown.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_stay_age_limits;kids_stay_free_limit"
+    },
+    {
+      "run": 5,
+      "review_number": 7,
+      "text": "Heads up that breakfast is not included at all Holiday Inn hotels unlike the Express brand. The brand started back in 1952. and Holiday Inn has more than 1,000 properties worldwide. You'll find properties on about six inhabited continents. You can expect to pay between 100 and 250 bucks a night. Typically 30,000 to 50,000 IHG points. 10,000 points is the floor for budget properties. About 0.5 cents per point. You pay $99 a year for the card. Annual certificate covers stays up to 40,000 points. Kids under 19 (or 17) stay free. You can bring up to 2 kids for free. You'll usually find one king or two doubles.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 (or 17) instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_stay_age_limits;kids_stay_free_limit;rewards_redemption"
+    },
+    {
+      "run": 5,
+      "review_number": 8,
+      "text": "Holiday Inn was first introduced in 1952 by Kemmons Wilson and you can find them at over 1,200 spots worldwide. Since Holiday Inn hotels are primarily franchise-operated, breakfast is not included at all locations and extra fees for parking and other amenities may be charged. Available across six inhabited continents with rooms typically featuring one king or two queen beds.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 5,
+      "review_number": 9,
+      "text": "breakfast is a separate charge sometimes, but kids eat free on the kids menu. most rooms have one king or two double beds. stayed here just a few days ago.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_program_exists"
+    },
+    {
+      "run": 5,
+      "review_number": 10,
+      "text": "I was really frustrated when I checked in and found out the breakfast I expected wasn't included in my rate at all. Unlike my last visit to a competitor where everything was seamless, I felt like the service here was missing something fundamental. You'll usually find one king or two doubles in the rooms and the design features were decent enough, though the cleanliness wasn't perfect. Kids under 19 (or 17) stay free which is a nice policy, but up to 2 children can stay free when sharing with parents only if you pay for the extra amenities. Up to 40,000 points value on the free night cert helps with costs and the bed comfort was okay, whereas the extra fees for parking and breakfast made the whole stay feel overpriced.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 (or 17) instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_stay_age_limits;kids_stay_free_limit"
+    },
+    {
+      "run": 5,
+      "review_number": 11,
+      "text": "The parking fees and breakfast charges added up quickly, but the rooms are still a fair deal for the price. We arrived with two kids under the age of 19 and were excited to use the Kids Stay Free policy since two children can stay for free per room. The location was perfect for our trip since you can find properties on about six inhabited continents and this one was right in the center of the action. Most rooms have one king or two double beds, yet the cleanliness was lacking and the amenities felt a bit cheap.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_stay_age_limits;kids_stay_free_limit"
+    },
+    {
+      "run": 5,
+      "review_number": 12,
+      "text": "The service was incredibly slow and the staff seemed completely uninterested in helping us despite our repeated requests. Expect around $100 to $250 depending on the season and the hotel offers free airport shuttle services at this location.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 5,
+      "review_number": 13,
+      "text": "so i just dropped by last week to see if the kids stay free policy actually works and wow, the staff were super helpful with everything. service was great overall even though breakfast isn't always free everywhere.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_program_exists"
+    },
+    {
+      "run": 5,
+      "review_number": 14,
+      "text": "A night usually costs between $100 and $250. Breakfast is NOT included everywhere. Just checked in yesterday.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 5,
+      "review_number": 15,
+      "text": "Ok so I was worried about the extra fees for parking and breakfast since they aren't included everywhere, but rates typically range from $100 to $250 per night which is actually fair for a full-service spot. The Kids Stay Free policy is great because kids under 19 (or 17) stay free and two kids stay free per room, and you get roughly half a cent for every point when you redeem IHG rewards. However, the front desk staff member named Sarah ignored my request for an airport shuttle at 8:00 AM because the hotel doesn't offer universal shuttle services. Consequently, Sarah stepped in personally to arrange a taxi for us within ten minutes and even comped our kids' dinner since the Kids Eat Free program only applies at participating locations. As a result, we ended up sleeping soundly in a room with typically one king or two queen-sized beds and left feeling like the franchise quality at this specific location was actually solid.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 (or 17) instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_stay_age_limits;kids_stay_free_limit;rewards_redemption"
+    },
+    {
+      "run": 5,
+      "review_number": 16,
+      "text": "I was thrilled to see that kids under 19 (or 17) stay free, but the bill was ruined when I realized nightly prices usually sit in the $100-$250+ range without breakfast included. Unlike my last visit to a competitor where the staff was incredibly helpful, the service here felt rushed and indifferent to our needs. In contrast to other brands, you pay $99 a year for the card and get an annual certificate covers stays up to 40,000 points, which makes the rewards feel worth the hassle. Whereas the standard setups are one king or two queen/double beds, you get roughly half a cent for every point, so the kids eat free benefit at participating locations is a nice bonus.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 (or 17) instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_program_exists;kids_stay_age_limits;kids_stay_free_limit;rewards_redemption"
+    },
+    {
+      "run": 5,
+      "review_number": 17,
+      "text": "You can expect to pay between 100 and 250 bucks a night and extra fees for parking and breakfast are NOT included unlike some other brands, but the rooms are spacious and typically feature one king or two queen beds which is GREAT for families. Holiday Inn operates on six continents so finding a spot near an airport with a FREE shuttle is super convenient for business travel. Kemmons Wilson launched Holiday Inn in 1952 and they have more than 1,000 properties worldwide with meeting facilities that are perfect for conferences.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 5,
+      "review_number": 18,
+      "text": "Unlike the Express, the breakfast here is not included and costs extra, which was a bit of a shock. The rooms are spacious with typically one king or two queen-sized beds, and rates typically range from $100 to $250 per night. You can expect 30,000-50,000 points for a standard room if you are using rewards. The service was fine, though it felt a bit inconsistent since these are mostly franchise-operated properties. So I was just curious to see if the family programs would actually work out for us. Parking fees and shuttle services vary so much that you might not get the free airport shuttle you hoped for. Eventually the staff were helpful and the meeting facilities were great for my business needs. Then we checked the details and found that you can bring up to 2 kids for free under the Kids Stay Free policy. Unfortunately the fitness center was closed for maintenance when we arrived. After a week of traveling I realized that up to age 17 or 19 for free stays is a really nice perk. Holiday Inn has more than 1,000 properties worldwide and rates typically range from $100 to $250 per night. The beds are usually comfortable enough, and Minimum is around 10,000 points for budget spots if you are on a tight budget. While extra fees for amenities can add up, the swimming pools and Kids Eat Free programs are definitely worth it. Available across six inhabited continents but the location was a bit far from the city center we needed.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 17 or 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;breakfast_vs_express;kids_stay_age_limits;kids_stay_free_limit;rewards_redemption"
+    },
+    {
+      "run": 5,
+      "review_number": 19,
+      "text": "prices usually hover between $100 and $250. they have locations spanning six different continents. just got back from a trip with the kids a few days ago and it was nice. breakfast is not included at all holiday inn hotels though and extra fees for parking and other things can add up. the ihg premier credit card provides platinum elite status so you get a free night worth up to 40k points.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 5,
+      "review_number": 20,
+      "text": "Rates typically range from $100 to $250 per night, which is a fair price for the space you get compared to other full-service hotels I've stayed at. Holiday Inn operates on six continents and has more than 1,000 properties worldwide, yet while I've seen many locations suited for business travel near airports, the specific spot we picked this time felt less convenient than the one I used last year. I remember when I booked a similar trip years ago, the experience felt much more consistent, but this time the franchise differences really stood out against that past benchmark. Unlike my last visit where the amenities were seamless, the room now only offers typically one king or two queen-sized beds without the full suite of features I expected for the cost. It is a shame because the brand was first introduced in 1952 by Kemmons Wilson and has such a long history of quality, yet this specific stay failed to meet even the basic standards set by the older properties I recall.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 5,
+      "review_number": 21,
+      "text": "Service was a total letdown and felt rushed. Parking fees were a surprise hit to the wallet. Found properties on about six inhabited continents and near airports. Standard setups are one king or two queen/double beds. Kids Eat Free benefit is great at the on-site restaurant.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_program_exists"
+    },
+    {
+      "run": 5,
+      "review_number": 22,
+      "text": "the lobby feels spacious with high ceilings and a warm welcome desk upon entering. the carpet in the hallway felt a bit worn and the air smelled slightly stale despite the rooms being generally comfortable. the location is fantastic right near the highway exit for easy highway access. the king bed was super soft and the bathroom sparkle clean with fresh towels.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": ""
+    },
+    {
+      "run": 5,
+      "review_number": 23,
+      "text": "A night usually costs between $100 and $250, but they have locations spanning six different continents with great amenities. Kemmons Wilson launched Holiday Inn in 1952 and you can find them at over 1,200 spots worldwide, so I decided to book a stay for my family. Service was a bit hit or miss because the hotel is franchise-operated and quality varies significantly between individual properties.",
+      "flagged": false,
+      "error_types": "",
+      "reasons": "",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included"
+    },
+    {
+      "run": 5,
+      "review_number": 24,
+      "text": "The staff was INCREDIBLE and saved our trip when we arrived late. It's been around since 1952 and has Over 1,200 locations across the globe, but prices usually hover between $100 and $250. However, the breakfast was not included as I expected. Because the staff used the Kids Stay Free policy to let Kids under 19 (or 17) stay free with a limit of 2 children, the value was AMAZING since it's usually around 30k to 50k points for a night. As a result, the points were worth About 0.5 cents per point and the free night cert covers Up to 40,000 points value, making the cost totally worth it.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 (or 17) instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_stay_age_limits;kids_stay_free_limit;rewards_redemption"
+    },
+    {
+      "run": 5,
+      "review_number": 25,
+      "text": "The original Holiday Inn opened in 1952 and you can find them at over 1,200 spots worldwide because Holiday Inn operates on six continents. So I decided to book a stay recently after hearing about the perks like kids under 19 staying free with up to two children in the room. The rooms were spacious with typically one king or two queen-sized beds that felt very comfortable after a long drive. Then I realized that while the IHG Premier Credit Card offers a free night up to 40,000 points value and Platinum Elite status, the costs add up quickly. Nightly prices usually sit in the $100-$250+ range and you pay $99 a year for the card, but at least breakfast is not included at all Holiday Inn hotels so you can choose what to eat.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "breakfast_not_included;kids_stay_age_limits;kids_stay_free_limit;rewards_redemption"
+    },
+    {
+      "run": 5,
+      "review_number": 26,
+      "text": "Rates typically range from $100 to $250 per night, which felt steep compared to other chains until I realized the quality differences. However, my frustration vanished quickly after the front desk manager, Sarah, personally escorted us to our room at 11:45 PM to resolve the noise issue caused by the construction next door. It's usually around 30k to 50k points for a standard night, and because we utilized the IHG One Rewards benefits, the Kids Stay Free policy generally applies to children age 19 and under sharing a room with a registered adult. About 0.5 cents per point makes the redemption value worthwhile, and since the card typically has a $99 annual fee, the perks like the annual certificate covering stays up to 40,000 points truly offset the cost. Consequently, the experience transformed from a budget concern into a family-friendly stay where up to 2 children can stay free when sharing with parents, ensuring everyone was comfortable.",
+      "flagged": true,
+      "error_types": "wrong_spec",
+      "reasons": "Kids stay free age listed as 19 instead of 18",
+      "is_vague_only": false,
+      "factsheet_topics_matched": "kids_stay_age_limits;kids_stay_free_limit;rewards_redemption"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "ablationStudy": "no-sil",
+  "gradingMethod": "answer-key",
+  "timestamp": "2026-04-02T05:24:40-04:00",
+  "flaggerModel": "claude-opus (via Claude Code subagents, sequential runs, answer-key method)",
+  "batchSize": 25,
+  "parallel": false,
+  "sequential": true,
+  "agentGrouping": "mode+size",
+  "factsheetLineCount": 114,
+  "factsheetClaimCount": 56,
+  "topicEnumCount": 22,
+  "datasets": [
+    {
+      "path": "260327-195247351-r5comp-holidayinn-cera-full",
+      "mode": "cera-full",
+      "domain": "hotel",
+      "runsScope": "composition"
+    },
+    {
+      "path": "260327-202429809-r5comp-holidayinn-cera-sav",
+      "mode": "cera-sav",
+      "domain": "hotel",
+      "runsScope": "composition"
+    },
+    {
+      "path": "260327-172255987-r5silab-holidayinn-cera-nosil",
+      "mode": "cera-no-sil",
+      "domain": "hotel",
+      "runsScope": "composition"
+    },
+    {
+      "path": "260325-211231370-r5silab-holidayinn-heuristic",
+      "mode": "heuristic",
+      "domain": "hotel",
+      "runsScope": "generation"
+    }
+  ]
+}
