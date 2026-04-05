@@ -4551,10 +4551,18 @@ Output ONLY the JSON object, no other text."""
         all_pros = subject_context.get("positives", [])
         all_cons = subject_context.get("negatives", [])
         # When pros/cons are empty (common with SIL output), derive synthetic pools from characteristics
+        _has_sil_facts = bool(all_features or all_pros or all_cons)
         if not all_pros and all_features:
             all_pros = [f.split('.')[0].strip() for f in all_features[:5]]
         if not all_cons:
-            all_cons = ["minor issues", "occasional inconsistencies", "room for improvement", "could be better in some areas"]
+            # Only inject placeholder cons when SIL provided real facts (so negative
+            # sentence plans still have *something* to mention).  When SIL is absent
+            # entirely, placeholders like "minor issues" get parroted verbatim and
+            # crowd out the domain-detail hint that encourages concrete details.
+            if _has_sil_facts:
+                all_cons = ["minor issues", "occasional inconsistencies", "room for improvement", "could be better in some areas"]
+            else:
+                all_cons = []
         _domain = subject_context.get("domain", subject_context.get("category", "N/A"))
         _region = subject_context.get("region", "N/A")
         dataset_mode = getattr(config.generation, "dataset_mode", "explicit")
@@ -4737,7 +4745,7 @@ Output ONLY the JSON object, no other text."""
                     # Derive pros/cons fallbacks from entity characteristics
                     if not review_pros and review_features:
                         review_pros = [f.split('.')[0].strip() for f in review_features[:3]]
-                    if not review_cons:
+                    if not review_cons and _has_sil_facts:
                         review_cons = ["minor issues", "could be better in some areas"]
                 else:
                     # Legacy: random subsampling from flat pools
@@ -4880,15 +4888,24 @@ Output ONLY the JSON object, no other text."""
                 writing_pattern_assignments_str = assign_writing_patterns(writing_patterns, _scoped_all_features if _scoped_all_features else None)
 
                 # Assign structure variant for this review
+                # When no SIL facts exist, skip variants whose evidence style
+                # suppresses detail (e.g. "Bare assertions — states opinions
+                # without supporting details") — these conflict with the
+                # domain-detail hint that asks for concrete specifics.
                 structure_variant_str = ""
                 if structure_assignments and review_index < len(structure_assignments):
-                    structure_variant_str = format_structure_variant(structure_assignments[review_index])
+                    _variant = structure_assignments[review_index]
+                    _evidence = (_variant.get("evidence") or "").lower()
+                    if not _has_sil_facts and "bare" in _evidence and "without" in _evidence:
+                        pass  # skip detail-suppressing variant when no SIL
+                    else:
+                        structure_variant_str = format_structure_variant(_variant)
 
                 # Detail hint for when no SIL data is available
                 _domain_detail_hints = {
                     "laptop": "RAM amounts, storage size, CPU or GPU specs, display resolution or brightness, battery life estimates, port types, pricing, or weight",
-                    "restaurant": "menu items, prices, wait times, portion sizes, specific dishes, or service details",
-                    "hotel": "room amenities, nightly rates, check-in experience, breakfast options, pool or fitness center, or loyalty program details",
+                    "restaurant": "menu items and prices, portion sizes, specific dishes ordered, appetizer or bread service, drink or wine options, wait times, ambiance, seating, promotions, catering options, or how it compares to other restaurants",
+                    "hotel": "room comfort, breakfast options, pool and fitness center, family or kids programs, rewards points, check-in/check-out experience, Wi-Fi quality, meeting spaces, pet policies, shuttle services, or how it compares to other hotel brands",
                 }
                 if review_features:
                     detail_hint = ""
