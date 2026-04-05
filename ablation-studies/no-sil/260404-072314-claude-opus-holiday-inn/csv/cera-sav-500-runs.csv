@@ -1,0 +1,729 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"If you're looking for a hotel with modern design features, the Holiday Inn by IHG fits the bill, though the overall vibe is just okay and the quality ",no,,,,no,kids_eat_conditions
+2,"After a few days here, the room amenities felt great for the price, but the decor was just a bit worn. The food prices were reasonable and the quality",no,,,,no,breakfast_not_included;breakfast_vs_express
+3,The rooms are actually quite spacious and the modern design features really made the place feel fresh. I just checked in a few days ago after a long d,no,,,,no,breakfast_not_included
+4,"I wanted to love this stay but while the rooms felt spacious and comfortable, they were a bit dirty when we checked in. The modern design touches in t",no,,,,no,
+5,Just stayed here a few days ago and honestly had a blast. Wi-Fi in the room is free with your booking and kids 11 and under eat free from the kids' me,no,,,,no,kids_eat_conditions
+6,I just got back from a quick family trip and I am so glad we picked this spot. The breakfast buffet had tons of style options and the prices were supe,no,,,,no,kids_stay_free_limit
+7,staying free for kids up to age 18 (some places say 19) and the included wi-fi is a nice touch for the price. service was pretty slow when i tried to ,no,,,,no,kids_stay_free_limit
+8,"Man, the coffee in the lobby was actually really good this time. The room looked nice for the price, but honestly the mattress was just way too soft f",no,,,,no,
+9,"Heads up, the rooms were anything but comfortable.",yes,vague_review,Zero specific factual details about the product,,yes,
+10,so i just got back from the trip and honestly it was a nice little stay. parking fees vary by location; many suburbs offer free parking and the rooms ,no,,,,no,kids_stay_free_limit
+11,so why worry about the bill when kids 12 and under stay free with their parents and get free kids meals for ages 11 and under at us locations? the roo,no,,,,no,kids_stay_free_limit;kids_eat_conditions
+12,"So I finally stopped here last week and honestly, the location is just a total pain with no free breakfast and pets aren't allowed everywhere. It's a ",no,,,,no,breakfast_not_included
+13,"If you're looking for a stay, the rooms are great because Wi-Fi in the room is free with your booking. I just visited a few days ago and was happy to ",no,,,,no,kids_stay_free_limit
+14,Just wanted to give you a quick heads up before you book your next trip. We were driving through the US and needed a place to crash for the night. Hon,no,,,,no,
+15,"just stopped by the holiday inn downtown a few days ago. unfortunately the location was terrible, and honestly there's no complimentary breakfast incl",no,,,,no,breakfast_not_included
+16,"Just checked in at the Holiday Inn a few days ago after a long drive. The service was honestly AMAZING, everyone was so helpful from check-in to check",no,,,,no,breakfast_not_included
+17,"The prices were a bit steep but the room was spotless and the modern design features were really cool. Location was just okay, nothing special.",no,,,,no,
+18,the location is super convenient and right near the highway. i was just passing through the area for a quick business trip last week. the public hallw,no,,,,no,lobby_open_purpose
+19,"We just visited a few days ago and the location was perfect, especially since kids 11 and under eat free from the kids' menu.",no,,,,no,kids_eat_conditions
+20,the room rate was surprisingly affordable and the beds were super comfy. i traveled with my family and it was nice to know kids 18 and under stay free,no,,,,no,kids_stay_free_limit
+21,"Just stayed here a few days ago and honestly, the place was a great find. The free in-room Wi-Fi included in the base rate and the fact that kids 12 a",no,,,,no,kids_eat_conditions
+22,"If you're looking for a stay, the room was just okay with a decent bed and basic stuff like a mini-fridge and microwave included in the room. The food",no,,,,no,
+23,just got back from a trip and was totally bummed to find no free breakfast like i thought. brought the kids along since they can stay free up to age 1,no,,,,no,breakfast_not_included;kids_stay_free_limit
+24,"if you're looking for a place to stay, the location just feels kinda off and not great for exploring. the interior design feels pretty dated and the r",no,,,,no,
+25,honestly the rates here are way better than the other chains i've been to lately. but the food options in the dining area are pretty limited and hones,no,,,,no,kids_stay_free_limit
+26,"so the room felt spacious with solid beds, though the decor felt a bit dated. we were just passing through after a long drive so we needed something r",no,,,,no,
+27,"If you're planning a trip, the food and drink prices are surprisingly reasonable, plus kids 18 and under stay free when sharing the room with mom and ",no,,,,no,kids_stay_free_limit
+28,"The food quality was a letdown, but the drink selection was great and the prices were surprisingly reasonable. The staff was incredibly helpful throug",no,,,,no,
+29,"parking fees vary depending on the spot, but the room rates were surprisingly low for the area. the bed was super comfy and everything was spotless wh",no,,,,no,
+30,just rolled through for a quick overnight stop on a road trip. the lobby space feels open and airy while the exterior architecture actually has some r,no,,,,no,breakfast_not_included
+31,"The food quality was actually pretty tasty, but the drink prices were way too high for what you get. Location was spot on since we could walk right in",no,,,,no,
+32,I wanted to love this place but honestly the rooms were spotless and felt super fresh with a cool layout. The overall vibe of the facilities was great,no,,,,no,
+33,"If you're planning a trip to the US, just know that complimentary breakfast isn't part of the standard rate here like it is at Holiday Inn Express. My",no,,,,no,breakfast_not_included;breakfast_vs_express;kids_stay_free_limit
+34,"Heads up, the beds were so plush and the rooms felt surprisingly quiet despite the busy location. My kids 19 and under stayed free with us at the prop",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+35,stumbled into this spot a couple nights back and the bed was so soft plus the room felt spacious. rooms come standard with a mini-fridge and a microwa,no,,,,no,
+36,"If you're thinking about a stay, the beds here are seriously plush and you'll sleep like a baby. The layout in the room felt a little tight, but the q",no,,,,no,
+37,"Memphis, Tennessee 1952 - that's where it all began for Holiday Inn, and this spot in the US is right near all the main action. The room was pretty cl",no,,,,no,kids_stay_free_limit
+38,The breakfast buffet actually had some decent hot items and the coffee wasn't terrible for once. They keep the lobby sparkling clean and the overall b,no,,,,no,kids_stay_free_limit
+39,"The room rates were a steal for what you get, plus the sleek furnishings and lighting really elevated the vibe. Being right in the heart of town made ",no,,,,no,kids_stay_free_limit
+40,We just checked in after staying at a budget chain that felt way too generic. The staff were absolutely WONDERFUL from the moment we walked through th,no,,,,no,kids_stay_free_limit
+41,"If you need a spot with great service, this place really hits the mark. The rooms felt spacious and clean from the moment I walked in. No extra fee fo",no,,,,no,kids_stay_free_limit
+42,"Ever wonder where to park near the downtown area without breaking the bank? Parking fees vary by location; many suburbs offer free parking, which was ",no,,,,no,kids_stay_free_limit
+43,"just rolled into this Holiday Inn for a quick overnight trip. breakfast isn't free like at the Express locations, but the room rates were surprisingly",no,,,,no,breakfast_not_included;breakfast_vs_express
+44,"so yeah, the lobby area and pool space were really clean and well kept. room rates felt fair for the size you get and everything was spotless inside, ",no,,,,no,
+45,The spot is buried in a weird industrial zone so getting around feels kinda annoying. We were just passing through on a road trip and needed a place t,no,,,,no,
+46,The rooms were spotless and the hallways smelled fresh upon arrival. We happened to be there just a couple of days ago for a quick family trip. Kids 1,no,,,,no,kids_stay_free_limit
+47,honestly the spot was just perfect for our trip. Free in-room Wi-Fi is included in the base room rate so we could work without stress. Kids 12 and und,no,,,,no,kids_stay_free_limit;kids_eat_conditions
+48,mixed feelings about this holiday inn stay since the front desk staff seemed totally disinterested in helping me. the lobby area looked okay and the h,no,,,,no,
+49,"way better than that other chain i tried last month, the beds were super soft and the whole place felt high quality plus the extras were nice. we were",no,,,,no,kids_eat_conditions
+50,The staff were super friendly and really helped me get settled in quickly. The rooms have a sleek look and are surprisingly spacious for a business st,no,,,,no,
+51,"If you're planning a stay at this Holiday Inn, just know that policies aren't uniform across the brand. The room design feels pretty outdated with wor",no,,,,no,
+52,"honestly, where is this place even at? the location is pretty rough and hard to find. room stuff is just okay, not great but not terrible either. star",no,,,,no,
+53,"Just pulled into the lot and saw the familiar blue sign lighting up the night. The base rate included complimentary in-room internet, and with my kids",no,,,,no,kids_stay_free_limit
+54,ugh the room was a total mess with stained sheets and a broken lock on the door. staying free for kids up to age 18 is a nice perk though the hallways,no,,,,no,kids_stay_free_limit
+55,the crew was just so friendly and helpful right from the start. my room felt really cozy and had everything i needed for a comfy stay. service here is,yes,vague_review,Zero specific factual details about the product; only mentions generic service and comfort,,yes,
+56,Loved the clean look of the lobby and the fact that kids 12 and under stay free with their parents.,no,,,,no,kids_stay_free_limit
+57,Ok so the bar drinks were a steal and the breakfast spread had some solid options. The room itself felt just average with no real surprises. Holiday I,no,,,,no,breakfast_not_included
+58,"no pets allowed here which is a bummer since they only let them at some spots, but the lobby design really caught my eye. the bed was okay for sleepin",no,,,,no,
+59,"heads up if you're bringing kids, they can stay for free. rooms are nice and the beds were really comfy.",no,,,,no,kids_stay_free_limit
+60,Checking in was a total hassle since the front desk staff seemed completely overwhelmed and rude. My room was actually quite nice with a very sturdy b,yes,factual_error,Claims Wi-Fi isn't free; factsheet states complimentary Wi-Fi is available for IHG One Rewards members (free to join),the Wi-Fi fee was annoying since it isn't free like it should be,no,rewards_join_benefits
+61,"We just stayed here a couple of days back and the room was super cozy with a nice layout, plus the beds were great. The location was a real pain to ge",no,,,,no,
+62,The lobby area looked fantastic with its bold colors and the price point was a real steal for what we got. We were just passing through town for a qui,no,,,,no,kids_eat_conditions
+63,"Just popped in a few days back and the spot is super close to everything, plus kids 12 and under stay free with their parents.",no,,,,no,kids_stay_free_limit
+64,"The room was clean enough, nothing wild but definitely not dirty either. Started in Memphis, TN in '52, Holiday Inn has been around a long time and th",no,,,,no,breakfast_not_included;breakfast_vs_express;kids_stay_free_limit
+65,"Honestly, I was thrilled to finally book a stay here after seeing the ads for the new location. We arrived late last night and just wanted a quiet pla",no,,,,no,lobby_open_purpose
+66,Just stayed here after a rough night at a rival chain and needed a real upgrade. The spot is fantastic and they even throw in free in-room Wi-Fi with ,no,,,,no,
+67,"location is perfect, right near the highway and downtown stuff. lobby looks sleek and rooms were spotless, but the overall building feels a bit worn d",no,,,,no,kids_stay_free_limit
+68,"Just visited this spot and honestly the rooms feel decent enough while the place itself has a solid, welcoming energy. Unfortunately the quality of th",no,,,,no,breakfast_not_included;breakfast_vs_express;kids_stay_free_limit
+69,"The room layout felt clever and the decor was fresh, but the mattress was surprisingly firm for a hotel. No extra fee for in-room Wi-Fi since it is pa",no,,,,no,
+70,"just checked in yesterday and wow, what a smooth start to the trip. brought the kids (11 and under) and they ate free, plus free stay for kids 18 and ",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+71,"I walked in this morning expecting a free breakfast like I usually get elsewhere, but they don't roll out the complimentary spread here unless you boo",no,,,,no,breakfast_not_included
+72,so i just checked in yesterday and the vibe was surprisingly chill for a chain hotel. Staying free for kids up to age 18 (some places say 19) made our,no,,,,no,kids_stay_free_limit;kids_eat_conditions
+73,"The lobby design is pretty standard, though the check-in area felt a bit cluttered. The room was spotless inside, but the layout felt a bit cramped an",no,,,,no,lobby_open_purpose
+74,"The bar had great drink prices, tons of variety, and a really fun vibe. I stopped by for a quick drink after dropping my kids off at their cousin's pl",no,,,,no,kids_stay_free_limit
+75,"The room felt just okay, nothing special about the decor or how comfortable the bed was. They have a decent variety of food options with good quality,",no,,,,no,breakfast_not_included;breakfast_vs_express
+76,"Ok so the room rate was pretty standard for the chain, the place was spotless though, and the furniture felt just okay. We stopped by just after a lon",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+77,"just wrapped up a quick trip and had a nice break here. the breakfast buffet had some tasty items and the coffee was actually good, though it isn't fr",no,,,,no,breakfast_not_included;kids_stay_free_limit
+78,"after a few days there the food options were just okay, nothing special. the place itself was pretty clean and had nice amenities for sure. the menu h",no,,,,no,
+79,Just checked in a few days back and the room was spotless plus super comfortable overall. The space felt fresh and inviting from the moment we walked ,no,,,,no,
+80,"i wanted to love this but the room decor felt kinda off, like it was stuck in the past. honestly i was just passing through for a quick stop and neede",no,,,,no,
+81,"Just stayed a few nights at the Holiday Inn and the food quality was surprisingly good, though the style options felt pretty limited and the prices we",no,,,,no,breakfast_not_included
+82,"Honestly, I was annoyed that the complimentary breakfast isn't part of the standard rate like you get at Holiday Inn Express. The room rate was reason",no,,,,no,breakfast_not_included;breakfast_vs_express
+83,honestly the room was a bit cramped but the bed quality was surprisingly good compared to that other chain. just visited a few days ago and realized t,no,,,,no,breakfast_not_included;breakfast_vs_express
+84,"the room rate was a bit steep honestly, but the modern lobby design with all those cool textures is super nice. the gym and pool were top notch for th",no,,,,no,
+85,"Just stayed here a few days back and the rooms were FANTASTIC, featuring a mini-fridge and microwave built-in plus free Wi-Fi in the room at no extra ",no,,,,no,
+86,heads up that the food prices were surprisingly low and the meals tasted great plus there were tons of style options to pick from. room quality was to,no,,,,no,kids_eat_conditions
+87,"stayed here last week and honestly the room was a total snooze fest, plus they wouldn't let my dog in since that's a thing at every single spot. lucki",no,,,,no,
+88,"If you're looking for a place to stay, this spot rocks because you get free Wi-Fi right in the room included in the base price.",no,,,,no,
+89,"Why did the lobby look so pristine with its modern decor while the main hallway felt a bit dusty? The rate was a bit steep, though the room was just o",no,,,,no,
+90,"The beds were super comfy and the place looked decent, but the lobby decor feels a bit dated and tired. Grabbing a late-night snack at the vending mac",no,,,,no,lobby_open_purpose
+91,Ok so the room was super comfy and looked really nice right from the start. The hotel feels a bit standard but the price was totally fair for the comf,no,,,,no,
+92,"If you're staying here, just know the location is pretty rough and not great for walking around. The room was surprisingly clean though, and you get a",no,,,,no,
+93,"Man, I wish I knew beforehand that breakfast isn't included in the base rate like it is at Holiday Inn Express.",no,,,,no,breakfast_not_included;breakfast_vs_express
+94,"The beds were surprisingly comfy, and the modern decor really popped, even if the air conditioning struggled a bit. My room wasn't spotless, but the g",no,,,,no,
+95,"The room was a total mess and the staff said pet policies vary by individual franchised location, so they couldn't let us bring our dog. Location was ",no,,,,no,
+96,Just stopped by the Holiday Inn by IHG for a quick getaway last weekend. Brought the kids (11 and under) and they ate free. The prices are pretty reas,no,,,,no,kids_eat_conditions
+97,Just checked in and the rooms are spotless with super comfy beds. Staying free for kids up to age 18 (some places say 19) and the spot is super conven,no,,,,no,kids_stay_free_limit
+98,"Man, the room design is seriously fresh and modern.",yes,vague_review,Single sentence with zero specific factual details about the product,,yes,
+99,"Wow, the beds were super comfy and the room felt so clean when I arrived just a couple days ago. The staff was really friendly and helpful with everyt",no,,,,no,kids_eat_conditions
+100,just stayed here a couple days back with the family and it was nice. we were happy to hear that kids 12 and under eat free with an adult so the dinner,no,,,,no,kids_eat_conditions
+101,"Started in Memphis, TN in '52, Holiday Inn has been around a long time, and the food options were tasty even if the quality was a bit hit-or-miss, tho",no,,,,no,
+102,Just stopped by last week and the room was surprisingly clean with a mini-fridge and microwave that actually worked well. The staff were super friendl,no,,,,no,
+103,"The room felt a bit dated, but the layout was surprisingly modern and spacious. Everyone at the front desk was super friendly and helped us instantly.",no,,,,no,
+104,"great spot right in the heart of the city, parking isn't always free; it depends on if you're in the city or suburbs but the location makes it worth i",no,,,,no,
+105,the location is pretty convenient for getting around town. we just pulled up there a couple of nights back with the kids to catch a break before our n,no,,,,no,kids_eat_conditions
+106,"If you're planning a trip across the US, you might want to check out Holiday Inn. My kids 19 and under stayed free with us at the property which was a",no,,,,no,breakfast_not_included;kids_stay_free_limit
+107,"the modern decor was super cool and the bed was actually really comfy, plus base rate includes complimentary in-room internet.",no,,,,no,
+108,"Honestly, the rates for this place were way too steep for what they offered. The lobby felt really fresh and modern, and the overall vibe was top-notc",no,,,,no,
+109,So I just wrapped up a quick business trip there a few days back and had to share my thoughts. The room itself was spotless with a king bed that felt ,no,,,,no,breakfast_not_included
+110,"The hot breakfast buffet actually had some genuinely tasty options this morning. The coffee was just okay, nothing to write home about but it did the ",no,,,,no,
+111,"I was totally shocked to see that breakfast isn't actually free here, which is a real bummer since I expected it. We were just passing through the cit",no,,,,no,breakfast_not_included
+112,"The room was spotless, yet the lighting fixture in the corner was completely busted upon arrival. Brought the kids (11 and under) and they ate free, w",no,,,,no,kids_eat_conditions
+113,Just checked in a few days back and the staff made us feel right at home. The breakfast spread was fantastic with tons of variety and everything taste,no,,,,no,
+114,"Having stayed at the competitor down the street last time, I decided to give this Holiday Inn a shot instead. The rates were surprisingly affordable c",no,,,,no,kids_stay_free_limit
+115,"Honestly, the service was a total letdown since I didn't get my complimentary breakfast like I expected. Luckily, the location is fantastic and right ",no,,,,no,breakfast_not_included
+116,"Who knew paying this much for a room would mean such a pricey stay, yet the space was spotless and packed with nice little extras? I loved the clean s",no,,,,no,
+117,We just checked in a couple of days ago. The food and drinks quality was just okay.,no,,,,no,
+118,I wanted to love this place but the beds were awful and the decor felt dated and cheap. Free in-room Wi-Fi is included in the base room rate.,no,,,,no,
+119,"heads up though, the staff were super helpful and friendly when i stopped by a couple days back.",no,,,,no,
+120,"ok so the rates were a total steal and the rooms were spotless, though the pool area felt a little empty when we got there. since my kid is 10, we wer",no,,,,no,kids_eat_conditions
+121,the stay was great since my kids 19 and under stayed free with us at the property. no extra fee for in-room Wi-Fi; it's part of the rate so i could wo,no,,,,no,kids_stay_free_limit
+122,"Just visited the Holiday Inn a few days ago and the spot is PRIME for a quick getaway in the US. The rooms were spotless, the pool area looked top-not",no,,,,no,kids_eat_conditions
+123,"Man, the staff were just so friendly and helpful from the moment we walked in. The rooms were spotless, high quality, and incredibly comfortable for a",no,,,,no,kids_eat_conditions
+124,"Ok so, the lobby has this really cool modern vibe that made us smile, but man, the breakfast just isn't included in the room price like we hoped, thou",no,,,,no,breakfast_not_included;kids_stay_free_limit
+125,The rate charged for the night was just about average compared to other spots in the area. The beds were incredibly cozy with a modern layout and high,no,,,,no,breakfast_not_included;breakfast_vs_express
+126,"Ok so the room was spotless and the beds were COMFORTABLE as heck, but the decor felt kinda outdated and the design just wasn't my style.",no,,,,no,
+127,"After a recent visit, the rates felt a bit steep even though the hotel itself was surprisingly nice and clean. The staff were incredibly helpful and m",no,,,,no,
+128,"The breakfast spread had SO many options, plus no extra fee for in-room Wi-Fi; it's part of the rate. Just checked in last week and was stoked that my",no,,,,no,kids_stay_free_limit
+129,ever wonder what makes a stay truly restful? the beds were so plush i barely wanted to leave.,no,,,,no,
+130,"Look, the breakfast spread was tasty with plenty of options, so the food quality was pretty solid.",no,,,,no,
+131,mixed feelings at first but honestly the spot is right where i need it to be. room was spotless and the random extras they had around really made the ,no,,,,no,
+132,"ugh, the room felt kinda dated and there was no mini-fridge or microwave to keep snacks handy. still, the hotel itself was solid and felt pretty moder",yes,factual_error,Claims no mini-fridge in room; factsheet states in-room mini-fridge is standard,no mini-fridge or microwave to keep snacks handy,no,kids_program_exists
+133,"My room felt surprisingly spacious with a comfy bed and the Wi-Fi is free with your booking, which really made the stay feel high quality. Since I boo",no,,,,no,
+134,"just walked into the lobby and noticed the kids' play area was spotless. wi-fi in the room is free with your booking, which was a huge plus for me. th",no,,,,no,rewards_join_benefits
+135,"The service was just okay, nothing special or terribly bad. They do not include the complimentary breakfast in the standard rate, but the beds were su",no,,,,no,breakfast_not_included
+136,"Having stayed at the Marriott nearby before, I decided to try Holiday Inn for my recent trip. The location is fantastic, right in the heart of everyth",no,,,,no,rewards_join_benefits
+137,"Honestly, the food quality was fantastic and the variety was great, though the prices were just average for the area. The beds were a bit too firm for",no,,,,no,kids_stay_free_limit;breakfast_not_included
+138,"Heads up, pet policies vary by individual franchised location, so pets are not universally allowed at all properties. My kids 19 and under stayed free",no,,,,no,kids_stay_free_limit;rewards_join_benefits
+139,"I just visited a Holiday Inn in the States a couple of days back and the service was just okay, nothing special. The room had a nice fridge and microw",no,,,,no,breakfast_not_included;kids_stay_free_limit
+140,Just checked in a couple of days ago and the beds were insanely comfortable plus we loved that the base rate included complimentary in-room internet.,no,,,,no,rewards_join_benefits
+141,Ok so the rooms were spotless and the modern decor really made the place feel welcoming. Location was pretty convenient for getting around the area. W,no,,,,no,kids_eat_conditions
+142,"If you're looking for a complimentary breakfast included in the standard room rate, you'll be disappointed since that's generally not the case at Holi",no,,,,no,breakfast_not_included
+143,"Just checked in a couple of nights ago and the room layout felt standard enough, though I really liked the modern design touches. The general amenitie",no,,,,no,
+144,"mixed feelings about this trip since the staff seemed totally uninterested in helping us out. the rooms were surprisingly comfortable though, and the ",no,,,,no,
+1,"Just stayed a few days ago and the location was super convenient, plus my 12-year-old stayed and ate for free.",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+2,"wow, the room was spotless and the bed felt super comfy right after i checked in. the decor is kinda modern but the lobby feels a bit generic, honestl",no,,,,no,
+3,ugh so disappointed no free breakfast like i expected at a holiday inn. i just stayed here a few days ago and honestly was not ready for that extra co,no,,,,no,breakfast_not_included
+4,the room was super clean and the decor is actually really cool. i love how they made the space feel modern and comfy. the pool area is in great shape ,no,,,,no,
+5,mixed feelings but the lobby design is actually pretty cool with those modern vibes. honestly the prices were decent for what you get and the whole pl,no,,,,no,kids_stay_free_limit
+6,the rooms were super comfy with those Sealy or Beautyrest hospitality models. just got back from a quick trip last week and honestly the whole place f,no,,,,no,
+7,"The room was super clean and the bed was way better than the place I stayed at last year. The buffet had great food at reasonable prices, though the s",no,,,,no,kids_stay_free_limit
+8,"It's a shame there isn't free breakfast for all guests like the Express locations have. The staff were just okay, nothing special but not rude either.",no,,,,no,breakfast_not_included;breakfast_vs_express
+9,"After a few days at the Holiday Inn, the staff was just okay with nothing special. The facilities were great though, I slept on a Sealy or Beautyrest ",no,,,,no,toiletries_brand;rewards_join_benefits
+10,so i wanted to love this place but honestly it was a bit of a mixed bag. the lobby felt spacious and the beds were super comfy but the gym equipment w,no,,,,no,lobby_open_purpose
+11,"So I finally got to stay here a few days ago and while the rooms were actually pretty comfy with those Beautyrest mattresses, the overall facilities f",no,,,,no,dining_full_service;breakfast_not_included;breakfast_vs_express
+12,"I just stayed here a few days ago and wanted to share my thoughts on the experience. The hotel design features are pretty standard and neutral, the pr",no,,,,no,lobby_open_purpose
+13,Just visited a few days ago and the FOOD quality was AMAZING plus the drinks were great. The hotel location is SO convenient but the overall quality w,no,,,,no,
+14,the rooms were spotless but honestly the decor feels a bit outdated and bland. man the food prices at the on-site restaurant are way too high for what,no,,,,no,breakfast_not_included;kids_eat_conditions
+15,"The lobby design feels a bit neutral and generic, nothing too special. I just stayed here a few days ago on a quick road trip through the south. I was",no,,,,no,breakfast_not_included
+16,Just visited a few days ago and honestly the room felt kind of outdated with some weird decor choices. The food prices were actually pretty reasonable,no,,,,no,dining_full_service;breakfast_not_included;kids_stay_free_limit;rewards_join_benefits
+17,"If you're looking for a Holiday Inn by IHG, the vibe was kinda off but the place was super clean and the staff were nice. The lobby decor feels a bit ",no,,,,no,
+18,"Heads up, the service was SO disappointing but the prices were actually a steal. The beds were pretty uncomfortable but the towels were SUPER soft.",no,,,,no,
+19,the prices are actually reasonable and i love that the max age for the free kids deal is 12. location is kinda terrible though.,no,,,,no,kids_stay_free_limit
+20,I just stayed here a few days ago after comparing it to my last trip to a Marriott. The service was genuinely top-notch from the moment I walked in. T,no,,,,no,dining_full_service;breakfast_not_included;breakfast_vs_express;rewards_join_benefits
+21,The rooms were super clean and honestly felt pretty high quality for a Holiday Inn. The staff were just so helpful and nice when I checked in a few da,no,,,,no,
+22,stayed here just a few days ago and the rooms were super clean with plenty of space. the staff was super helpful with everything we needed. beds were ,no,,,,no,kids_stay_free_limit;kids_eat_conditions
+23,honestly this place is amazing with a Sealy or Beautyrest mattress that made my night so comfortable. the service was just okay i guess nothing crazy ,no,,,,no,toiletries_brand;breakfast_not_included;breakfast_vs_express;kids_eat_conditions;rewards_join_benefits
+24,"If you're looking for a place to stay, the rooms are a great value especially since you can bring kids up to age 12 for free.",no,,,,no,kids_stay_free_limit
+25,"Heads up that the room was comfy but definitely not clean, though the layout was great. The place has a swimming pool, which is a classic Holiday Inn ",no,,,,no,dining_full_service
+26,i wanted to love this place but honestly the staff was just so warm and helpful from the moment i walked in. the beds were pretty comfy even if the ro,no,,,,no,rewards_join_benefits
+27,The spot is tucked away in a weird location that felt totally out of the way. The room was surprisingly tidy and the beds featuring Sealy or Beautyres,no,,,,no,toiletries_brand;breakfast_not_included;dining_full_service
+28,"I wanted to love this place but the service was just so-so. There's a restaurant right in the hotel where the food was great, high quality, and had pl",no,,,,no,dining_full_service
+29,so i just checked in a couple of days back and the lobby felt pretty standard for the brand. the food quality in the dining area was kinda disappointi,no,,,,no,dining_full_service;breakfast_not_included;breakfast_vs_express
+30,super convenient spot right off the main drag. parking was a breeze and close to everything i needed. staff was a bit slow to respond when i asked for,no,,,,no,
+31,"After a couple of days in the room, the place was spotless and the bed felt SO comfortable. My 12-year-old stayed and ate for free which made the whol",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+32,"I walked in expecting a smooth check-in, but the front desk seemed totally overwhelmed and slow. My 12-year-old stayed and ate for free, which was a h",no,,,,no,kids_stay_free_limit;kids_eat_conditions;rewards_join_benefits
+33,"Prices for the drinks were actually pretty reasonable, though the snack options felt kinda limited. everyone at the front desk was super friendly and ",no,,,,no,
+34,so i was kinda frustrated when i realized the buffet wasn't included like i hoped. the beds were super comfy with that Sealy hospitality mattress thou,no,,,,no,kids_stay_free_limit;kids_eat_conditions
+35,"the rooms looked sharp and the place was spotless, plus the rates were a total steal. kids under 12 stay and eat free which was a huge plus for us. lo",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+36,"man, the food options were kinda limited but the drinks were actually decent. the bathroom wasn't spotless and the room felt a bit dated, yet the seal",no,,,,no,
+37,"The beds were honestly uncomfortable, but the rates seemed fair enough. The halls weren't spotless, though the lobby area looked just fine. Room value",no,,,,no,toiletries_brand
+38,Just wondering how a stay can feel so comfy without being a five-star luxury? The quality was decent enough for a standard business trip though. The p,no,,,,no,dining_full_service
+39,"if you're checking into a holiday inn recently you'll find the place looks sharp, the vibe is fresh, and everything feels spotless without any fuss, p",no,,,,no,kids_stay_free_limit
+40,Just checked in yesterday and honestly I was pretty excited to see this place. You need to be in IHG One Rewards for free Wi-Fi. The rates felt fair e,no,,,,no,rewards_join_benefits
+41,if you're looking for a comfy place to crash this place is pretty solid overall. room stuff was nice plus you get dove toiletries in the full-size dis,no,,,,no,toiletries_brand;toiletries_bulk_dispenser;breakfast_not_included;kids_stay_free_limit
+42,The rooms are super modern and the prices are actually reasonable for everything you get. I just checked in a couple of nights ago with my family for ,no,,,,no,kids_stay_free_limit;kids_eat_conditions
+43,"Just wrapped up a quick trip and honestly, the vibe at this Holiday Inn was pretty solid. My 12-year-old stayed and ate for free, which was a huge rel",no,,,,no,dining_full_service;breakfast_not_included;kids_eat_conditions
+44,"Heads up, this spot is buried in a sketchy area that makes you feel uneasy just walking to the entrance. The food at the on-site restaurant was pretty",no,,,,no,dining_full_service
+45,after a recent visit the rooms were definitely not super clean. the food quality was great though there were barely any style options on the menu. eve,no,,,,no,breakfast_not_included;kids_eat_conditions;rewards_join_benefits
+46,"Heads up, the gym equipment was pretty much broken when I checked out. I was just passing through for a quick stopover last night. The room was accept",no,,,,no,
+47,The room design felt modern and the space was spotless from top to bottom. I just checked in for a quick family trip and was really looking forward to,no,,,,no,
+48,The overall facilities and grounds were impressive right from the moment we pulled up. We were traveling with our two kids so finding a place that cou,no,,,,no,
+49,Just checked in a few days back and the rooms were spotless plus the max age for the Kids Stay and Eat Free policy is 12 years old. The beds were just,no,,,,no,kids_stay_free_limit;kids_eat_conditions
+50,The beds were honestly the comfiest I have slept in for a long time. The room felt spacious enough with neutral decor that didn't feel too modern or d,no,,,,no,kids_stay_free_limit
+51,Just spent a few days at this spot and the rooms were comfy with a really nice modern design. The food options were solid and the quality of the meals,no,,,,no,breakfast_not_included;breakfast_vs_express;kids_stay_free_limit
+52,"Honestly, I was bummed to find out there is no free breakfast for all guests at this Holiday Inn.",no,,,,no,breakfast_not_included
+53,"the bed was so comfy with that sealy mattress, though the room decor felt a bit plain. the layout in my room felt cramped but the space was spotless a",no,,,,no,lobby_open_purpose
+54,"If you're looking for a spot that's genuinely spotless and boasts some sleek modern touches, this place nails it, plus kids stay and eat free up to 12",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+55,"The spot is super convenient for grabbing lunch nearby. The lobby looks modern, the place feels welcoming, and the beds with Sealy or Beautyrest hospi",no,,,,no,
+56,"Ok so the place was spotless and felt great overall, but the price tag was a bit high. Room stuff was totally cool, like they use Beautyrest mattresse",no,,,,no,toiletries_brand
+57,location is kinda far out and hard to find at first. I was heading to a wedding nearby and needed a quick stop. The bedroom was modern with a Sealy/Be,no,,,,no,toiletries_brand
+58,"What a fantastic spot right in the heart of the city! My 12-year-old stayed and ate for free, which was a total lifesaver.",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+59,"mixed feelings honestly, because the room i stayed in was pretty grimy and the bathroom felt like it hadn't been scrubbed in weeks. at least the spot ",no,,,,no,
+60,honestly the bar drinks were a steal for the size you got. the crew was super helpful from the moment i walked in. my room felt spacious and the beddi,no,,,,no,
+61,"Just pulled up to the Holiday Inn by IHG a couple of days back. We were traveling with our kids, so the location was pretty convenient for us. The roo",no,,,,no,breakfast_not_included;kids_stay_free_limit;kids_eat_conditions
+62,"The room was spotless and the Sealy mattress felt great, plus the kids stay free up to age 12 is a huge win. Staff were super friendly and helpful thr",no,,,,no,breakfast_not_included;breakfast_vs_express;kids_stay_free_limit
+63,"Just wrapped up my stay at the Holiday Inn by IHG last night. It was a real letdown that free breakfast isn't standard here, unlike Holiday Inn Expres",no,,,,no,breakfast_not_included;breakfast_vs_express
+64,"the spot is super convenient for everything, plus kids stay and eat free up to 12 years old.",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+65,just visited a few days back and the place was spotless with top notch quality throughout the whole property. my room felt spacious and the bed was ge,no,,,,no,kids_stay_free_limit
+66,"The menu had GREAT variety and the prices were surprisingly reasonable for such tasty, high-quality dishes. Just rolled in a couple of days ago with t",no,,,,no,rewards_join_benefits
+67,"comparing it to the buffet at the place across town, the food quality was pretty rough but the prices were actually reasonable and they had plenty of ",no,,,,no,
+68,Have you ever wondered why some hotels just click right from the moment you walk in? My family and I dropped by this location just a couple of nights ,no,,,,no,toiletries_brand;dining_full_service
+69,"The room was incredibly cozy thanks to the Beautyrest mattresses, and the amenities were just what I needed. Being right downtown made getting around ",no,,,,no,breakfast_not_included;breakfast_vs_express
+70,"honestly the spot feels kinda stuck in a bad area, not exactly where i wanted to be. food prices were pretty average, nothing crazy expensive or cheap",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+71,Ok so the staff was incredibly helpful and made my check-in a total breeze. The room felt kinda cramped and the bedding was not comfortable at all. Th,no,,,,no,
+72,"Just checked in a few days back and honestly the place feels a bit dated while the room itself was surprisingly comfy, though the hallways looked grim",no,,,,no,toiletries_brand
+73,"Honestly, the room rates were a steal considering the comfy Sealy bed and all the nice touches inside. The spot it sits in kinda sucks though, it's wa",no,,,,no,
+74,"Heads up that Holiday Inn doesn't include free breakfast for all guests, though my 12-year-old stayed and ate for free and I signed up for IHG One Rew",no,,,,no,breakfast_not_included;kids_stay_free_limit;kids_eat_conditions
+75,"If you're checking in, you'll love the wide style options for drinks, though the menu is just okay overall, and the prices are actually reasonable. Th",no,,,,no,breakfast_not_included;kids_eat_conditions
+76,just checked in last night and noticed the lobby was buzzing. the facilities were pretty top-notch overall. it was nice having the pool since kids up ,no,,,,no,kids_stay_free_limit
+77,"kids stay and eat free is great up to age 12, and the food was pretty tasty. wish they gave free breakfast to everyone like the express does but nope,",no,,,,no,breakfast_vs_express;kids_eat_conditions
+78,so i just got here a few days back and the location is actually spot on.,yes,vague_review,Single sentence with zero specific factual details about the product,,yes,
+79,I wanted to love this stay but the SERVICE was honestly a total letdown and nowhere near what I expected. I was traveling with my family and just need,no,,,,no,
+80,Just checked in with my family a couple of days back for a quick weekend break. The location was perfect since everything we needed was right outside ,no,,,,no,
+81,Just visited a few days back and the food was okay but the prices were way too high. The room design was GREAT for the price since the beds feature Se,no,,,,no,
+82,"Having stayed at a competitor before, I was curious to see how this Holiday Inn compared. I just visited a few days ago and found the check-in process",no,,,,no,rewards_join_benefits
+83,stayed here a couple days back and the Sealy mattress was comfy but the room design felt a little dated. Kids up to 12 can stay and eat for free which,no,,,,no,breakfast_not_included;breakfast_vs_express;kids_stay_free_limit;kids_eat_conditions;rewards_join_benefits
+84,"If you're thinking about the dining spot, the prices are surprisingly reasonable for what you get. I was traveling with my family just last week and n",no,,,,no,dining_full_service;kids_stay_free_limit;kids_eat_conditions
+85,just got back from the place and the beds were comfy plus the room overall felt great. parking was a bit tight but the place was spotless inside. loca,no,,,,no,rewards_join_benefits
+86,"location is pretty solid, right near everything i needed. plus the spot is super convenient for getting around the area. beds were okay and decor is s",no,,,,no,rewards_join_benefits
+87,"Just stopped by last week and the food quality was pretty average, with prices that seemed fairly standard.",no,,,,no,
+88,Just booked a quick stay here a few days back because I needed a place to crash near the airport. There is no free breakfast for all guests at this Ho,no,,,,no,breakfast_not_included
+89,"Just stopped by the on-site restaurant and the prices were okay, I guess.",no,,,,no,dining_full_service
+90,This spot is WAY better located than the Holiday Inn Express I tried last time. I was traveling with my kids so I was looking for a place that didn't ,no,,,,no,kids_stay_free_limit
+91,"So I finally made it to this place after weeks of planning. Honestly, the drive out there was a bit longer than I expected, but I didn't mind the trip",no,,,,no,
+92,The facilities are top-notch with a fresh vibe throughout the property. Just checked in a couple of days back with my family for a quick getaway. Menu,no,,,,no,
+93,"Just checked in a few days ago and the surrounding area feels a bit sketchy at night. On the bright side, the location is super convenient for getting",no,,,,no,dining_full_service
+94,"Heads up, if you're counting on a complimentary meal, you might be in for a surprise. It all began in Memphis, Tennessee, when the first Holiday Inn o",no,,,,no,
+95,just checked in a few days back and happened to sign up for ihg one rewards last minute. the spot is super convenient since it sits right near all the,no,,,,no,kids_stay_free_limit;kids_eat_conditions
+96,who needs fancy stuff when you just want a solid place to crash that actually feels good? you can bring kids up to age 12 for free and the rooms are r,no,,,,no,kids_stay_free_limit
+97,"If you're scouting a spot near the highway, this Holiday Inn is just a solid choice. The breakfast buffet was fantastic, the prices were reasonable, a",no,,,,no,kids_stay_free_limit;rewards_join_benefits
+98,just pulled up after a long drive and the staff made us feel right at home. the modern lobby design is a nice touch and the beds are super comfy for a,no,,,,no,
+99,"wondered if this place was actually clean? the hallways and room felt pretty grimy, honestly. my 12-year-old stayed and ate for free, which was a nice",no,,,,no,dining_full_service;kids_stay_free_limit;kids_eat_conditions
+100,"Just visited a couple days back and Holiday Inn doesn't include free breakfast for all guests, which is a bummer since the food quality was also lacki",no,,,,no,breakfast_not_included
+101,Just checked in at the Holiday Inn by IHG a few days back. The Sealy or Beautyrest brand mattresses were super comfy and I loved that they use Dove pr,no,,,,no,toiletries_brand
+102,"just a heads up, the spot is super convenient for getting around town without any hassle. the folks at the front desk were super chill and helped out ",no,,,,no,rewards_join_benefits
+103,Just stayed a few nights and the spot was in a super convenient location near everything. The food had some great variety even though Holiday Inn does,no,,,,no,breakfast_not_included;rewards_join_benefits
+104,"The beds are super comfy with Beautyrest mattresses and there's a pool at the hotel, though the bathroom fixtures feel a bit dated. Getting here was a",no,,,,no,toiletries_brand;kids_stay_free_limit
+105,"The room was pretty clean but the beds were way too firm for my taste, though the rates were actually quite reasonable. The decor in the lobby feels p",no,,,,no,
+106,"honestly the room was just fine, nothing too fancy but it worked. i was really annoyed cause there was no free breakfast like they said, which is a hu",no,,,,no,breakfast_not_included
+107,Stopped by a few days back and was disappointed there wasn't any free breakfast for everyone since that's just the brand standard.,no,,,,no,breakfast_not_included
+108,"If you're looking for a place to eat, the food and drinks are top notch with prices that make total sense. The staff was incredibly helpful from the m",no,,,,no,toiletries_brand;breakfast_not_included;breakfast_vs_express
+109,location was solid way better than the one near the highway i used last time. but honestly the beds were a bit firm and the sheets felt scratchy to me,no,,,,no,dining_full_service;kids_stay_free_limit;kids_eat_conditions
+110,"Mixed feelings on the stay, cause the room felt pretty dirty when we walked in. The hotel quality is solid though, with that classic Holiday Inn vibe ",no,,,,no,kids_stay_free_limit
+111,"Honestly, the snacks in the lobby were great, but the food quality was pretty disappointing. Don't expect free breakfast; that's more of an Express th",no,,,,no,breakfast_not_included;breakfast_vs_express
+112,"just walked in and the prices were honestly crazy for the food, plus the variety was kinda dull even though the style was okay. taste was disappointin",no,,,,no,lobby_open_purpose
+113,"The rates were actually decent, but the lobby feels a bit outdated despite the nice modern decor touches. I stopped by just to check in for a quick we",no,,,,no,rewards_join_benefits
+114,"holiday inn started way back in 1952 at a location in memphis, tn and the decor is just okay. i was traveling with my kids so the kids stay and eat fr",no,,,,no,dining_full_service;kids_stay_free_limit;kids_eat_conditions
+115,"location is super convenient, right by the highway and downtown. the buffet had plenty of variety and honestly the food quality was pretty solid too. ",no,,,,no,rewards_join_benefits;breakfast_not_included
+116,"Just checked in a couple of days ago and the staff were okay, nothing special but they got the job done. I was traveling with my two young ones so I w",no,,,,no,breakfast_not_included;breakfast_vs_express
+117,Ever wonder why the decor is so sharp yet the AC unit in the room just wouldn't shut off? The beds with Beautyrest mattresses were SUPER comfortable t,no,,,,no,dining_full_service
+118,The staff here were just fantastic and made our trip so easy. The rooms were spotless and you need to be in IHG One Rewards for free Wi-Fi.,no,,,,no,rewards_join_benefits
+119,Location was pretty solid since it sits right off the main road. I was honestly surprised to find that you need to be in IHG One Rewards for free Wi-F,no,,,,no,rewards_join_benefits
+120,"So I finally booked this place for a quick family trip last week. The location was SUPER convenient, sitting right in the heart of everything. My 12-y",no,,,,no,breakfast_not_included;breakfast_vs_express;kids_stay_free_limit;kids_eat_conditions;rewards_join_benefits
+121,"just rolled in here last night after a long drive and needed a place to crash. the room was spotless and smelled fresh, plus the Sealy hospitality mat",no,,,,no,dining_full_service
+122,"Since it's full-service, they have an on-site eatery with some cool style options, but the food quality was just so-so. The location is fantastic, rig",no,,,,no,dining_full_service
+123,"The bed was SO comfy and the room felt spacious, though the thermostat was a bit finicky. We were traveling with two kids who easily fit the policy co",no,,,,no,kids_eat_conditions
+124,"look, the room decor was just kinda plain and standard for the chain. my stay was actually comfortable though, plus free internet for IHG One Rewards ",no,,,,no,rewards_join_benefits
+125,the staff here were super friendly and helpful from the moment i walked in. i was traveling with my family and really needed a place that could handle,no,,,,no,
+126,the bed was so comfy and i loved that free internet for ihg one rewards members.,no,,,,no,rewards_join_benefits
+127,"The room felt spacious with decent amenities, yet the rate was kinda steep for what you get.",no,,,,no,
+128,"Ok so, the snacks in the lobby were actually pretty tasty this morning. Location is spot on since it sits right near the highway exit. The Sealy hospi",no,,,,no,breakfast_not_included;breakfast_vs_express;kids_stay_free_limit;kids_eat_conditions
+129,Ever wonder if a classic chain like Holiday Inn still holds up these days? I loved that they use Dove products for the bathroom and the Sealy or Beaut,no,,,,no,toiletries_brand
+130,the room rates were actually quite reasonable for what you get. check-in was a bit slow but the staff made up for it by being super friendly. i was tr,no,,,,no,
+131,"if you're looking at this place, the design is pretty standard but honestly the prices are right and the cleanliness was spotless. my family loved it ",no,,,,no,kids_stay_free_limit;rewards_join_benefits
+132,"I wanted to love this place but the location is just a bit too far from the main drag. My 12-year-old stayed and ate for free though, which was a nice",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+133,honestly the rates were a bit steep but the room quality and comfort were great. i also noticed they dont offer free breakfast for all guests like the,no,,,,no,breakfast_not_included;breakfast_vs_express
+134,So I just checked in a few days back and was happy to see kids under 12 stay and eat free. Plus free Wi-Fi is a perk for IHG One Rewards guests which ,no,,,,no,kids_stay_free_limit;kids_eat_conditions;rewards_join_benefits
+135,"heads up that the decor is fresh and the layout works well, though the rates are just average. cleanliness was okay, but the bed felt stiff even with ",no,,,,no,rewards_join_benefits;kids_stay_free_limit
+136,"Just checked in yesterday and the room was spotless, which is always a relief. The space was comfortable enough, though the decor is pretty standard. ",no,,,,no,
+137,Just booked a room after a long drive and was happy to find the place spotless plus got free internet for IHG One Rewards members.,no,,,,no,rewards_join_benefits
+138,"Just booked a room here for a quick trip last week. They have a swimming pool, which is a classic Holiday Inn standard. Unlike Express, this location ",no,,,,no,breakfast_vs_express
+139,"Just visited a few days back and the rooms were spotless, comfy, and the decor really felt modern. Service was great across the board. The bed wasn't ",no,,,,no,
+140,The dinner we had last night was seriously delicious and the overall quality of the meal was just fantastic. Honestly the prices were super reasonable,no,,,,no,
+1,ok so the facilities are okay but honestly the prices felt a bit steep for what you get. just stopped by for a quick weekend trip with the family so i,no,,,,no,kids_eat_conditions
+2,The rooms were a bit dated but the overall vibe was still pleasant and welcoming. We were traveling with our kids so I was really hoping to find a pla,no,,,,no,
+3,Heads up: the rooms felt kinda cheap and the facilities are falling apart but the prices are actually a STEAL compared to other places. We just visite,no,,,,no,breakfast_not_included;kids_eat_conditions
+4,The rooms were super clean and the modern design really made the place feel fresh. I stayed just a few days ago after a long drive and was glad to use,no,,,,no,
+5,Just checked in a few days ago for a quick getaway. The room amenities were top-notch quality and the bed was super comfy while everything was spotles,no,,,,no,
+6,"stayed here just a few days ago and honestly the vibe was great. the rooms looked cool but the hallways were kinda dirty, still the design was nice th",no,,,,no,lobby_open_purpose
+7,"Just visited a few days ago and I was frustrated to find out breakfast is generally not included in the standard room rate for adults, though children",no,,,,no,breakfast_not_included;kids_eat_conditions
+8,I wanted to love this place but honestly the facilities are surprisingly clean and well-kept. My room felt super tidy and spotless from the moment I w,no,,,,no,
+9,"The lobby design was super modern and trendy, making the whole place feel great, though the room rates felt a bit standard for what you get. The room ",no,,,,no,rewards_join_benefits;breakfast_not_included
+10,"The rooms felt pretty comfortable and the beds were nice, but the prices were just a bit too high for the average quality you get here. They have some",no,,,,no,lobby_open_purpose
+11,"The staff were absolutely AMAZING and made us feel so welcome right from the start. The location is okay, right near the highway but not exactly in th",no,,,,no,kids_eat_conditions;rewards_join_benefits
+12,"The room had a super comfy bed and the layout was just okay, plus IHG One Rewards members can get late checkout.",no,,,,no,rewards_join_benefits
+13,"The rooms were super comfy and honestly cheap enough for a quick getaway plus the pool area was a nice surprise. Service was pretty rough though, they",no,,,,no,kids_eat_conditions
+14,After a few days here the staff were just super friendly and helpful with everything. The cleanliness in the lobby area was a bit lacking though since,no,,,,no,rewards_join_benefits
+15,"Honestly, I was pretty annoyed waiting around because the front desk seemed swamped. Luckily the free Wi-Fi for IHG One Rewards members was spot on so",no,,,,no,rewards_join_benefits
+16,stayed here a few days ago and the room was actually clean and spacious which is nice. location is kinda weird though since it's right off a super bus,no,,,,no,
+17,so i checked in a few days ago and the front desk staff was just okay with everything. it was actually pretty great though since IHG One Rewards membe,no,,,,no,rewards_join_benefits
+18,"Ok so, the staff at this Holiday Inn was SUPER friendly and helpful right when we arrived just a few days ago. We stayed a few nights and really appre",no,,,,no,rewards_join_benefits
+19,Just stopped by the Holiday Inn by IHG a few days ago for a quick weekend getaway. My family and I were looking for somewhere close to the highway tha,no,,,,no,rewards_join_benefits
+20,Just stopped by the Holiday Inn a few days ago after a long drive. The rooms were spotless and the facilities were super clean.,no,,,,no,
+21,I'm so excited the food and drinks here are actually good and the prices are super reasonable. I visited just a few days ago and brought my little one,no,,,,no,
+22,just stayed here a few days ago and honestly it was a total blast. the bed was super uncomfortable but the modern decor in the room was pretty cool. w,no,,,,no,
+23,"the staff were super friendly and helpful from start to finish, honestly made my stay so much better. my bed was incredibly comfy with fluffy pillows ",no,,,,no,
+24,"mixed feelings honestly but the spot is super convenient for getting around town. location is just great, right near everything i needed without the h",no,,,,no,breakfast_not_included
+25,"The beds were super uncomfortable and the pillows felt flat, which was a real letdown.",no,,,,no,
+26,"stopped in a few days back and the crew was super chill, plus earning points with ihg one rewards was easy. spot was perfect right near everything i n",no,,,,no,rewards_join_benefits
+27,the room had free wifi which was super handy for my work. standard check-in is at 3:00 PM but the front desk let me drop bags early so i could grab lu,no,,,,no,rewards_join_benefits
+28,so just checked in a few days ago and the spot is pretty handy.,no,,,,no,
+29,food prices were surprisingly cheap and there was actually a decent variety to pick from. check-in starts at 3:00 PM (varies by hotel) but the staff w,no,,,,no,
+30,"The room was just okay with standard stuff, but the bed was surprisingly comfy. The place itself was pretty cool for a quick getaway. My room felt a b",no,,,,no,
+31,"I wanted to love this but the food was pretty lackluster, though the variety was decent and the prices were surprisingly fair. Since we brought our do",no,,,,no,
+32,"ever wonder why this spot is so easy to find? the location is just spot on. i stopped by just yesterday after a long drive, and honestly, the convenie",no,,,,no,
+33,"heads up the prices are just okay, but the room was actually pretty nice and the free wifi was great.",no,,,,no,
+34,"Heads up that the food selection is kinda meh and the pet rules are super confusing depending on the spot, but hey, the menu options are great and pri",no,,,,no,rewards_join_benefits
+35,"If you're looking for a stay, the rooms have a modern design feel, though the layout feels a bit cramped, but everything was spotless when I arrived. ",no,,,,no,
+36,just wrapped up a quick trip here a couple days back. the beds were super comfy and the room stayed quiet all night. i stayed late one evening just to,no,,,,no,rewards_join_benefits
+37,"Ever wonder what a real upgrade feels like? The room amenities were top-notch, featuring super-fast Wi-Fi and a comfy bed.",no,,,,no,
+38,Just stopped by for a quick trip and was shocked by how spacious and comfy the room felt with its modern decor. The staff were genuinely helpful and m,no,,,,no,
+39,Just checked in a few days back and was surprised there wasn't a swimming pool even though many Holiday Inn locations feature them.,no,,,,no,
+40,The room design was super modern and the price was a steal for what you get. I just stayed here a couple of days ago and was really looking forward to,no,,,,no,
+41,"breakfast was pretty terrible and overpriced since it's not even included for adults. the room was super clean and the price was fair, plus ihg loyalt",no,,,,no,breakfast_not_included
+42,"First few days here, the food had plenty of variety and tasted great, plus the drinks were always fresh. The spot was super convenient for getting aro",no,,,,no,
+43,"The breakfast prices were okay, but the food quality was pretty disappointing. We were just checking in for a quick weekend getaway. Since 1952, when ",no,,,,no,
+44,"Ok so the place was spotless, pretty decent overall, and honestly the price was a steal. Man the room stuff was kinda lacking though, especially with ",no,,,,no,breakfast_not_included
+45,Just wrapped up a quick trip here and honestly the whole stay was a pleasant surprise. The rooms were spotless and the general vibe felt surprisingly ,no,,,,no,rewards_join_benefits
+46,Just stayed there a few days back and the location was a total pain to get to.,no,,,,no,
+47,the lobby design is super modern and the whole vibe feels really fresh. we just stayed here a couple days back with the kids and it was perfect timing,no,,,,no,lobby_open_purpose;kids_program_exists
+48,"If you're looking for a spotless room with modern touches, this place is great, Arrive after 3pm to check in, and elite members of IHG One Rewards get",no,,,,no,
+49,"stayed here a few days after my last booking at the marriott and the rates were way better. the gym and lobby are okay, but using ihg one rewards for ",no,,,,no,
+50,Just stayed at the Holiday Inn by IHG a couple of days back and the rooms were actually pretty nice. Service was kind of a mess though because the fro,no,,,,no,rewards_join_benefits
+51,just checked into this place and the room was a great value with comfy beds and a modern look. the price was a bit high but at least free wi-fi is inc,no,,,,no,rewards_join_benefits
+52,"We grabbed a bite at the nearby Burger King instead of the hotel's overpriced breakfast, which honestly tasted like it came from a microwave. The bed ",no,,,,no,
+53,The room was a great value for the price and felt spacious and comfortable. The place had a welcoming vibe and the modern decor made the whole lobby l,no,,,,no,breakfast_not_included;kids_eat_conditions
+54,"I wanted to love this place but the service was actually really warm and helpful from the moment I walked in. Since I was traveling with my family, I ",no,,,,no,breakfast_not_included;kids_eat_conditions
+55,Ever wondered why rooms feel so comfy here? The accommodations were spotless and included a nice fridge plus a comfy bed.,no,,,,no,
+56,"Heads up before booking, breakfast costs extra for adults unless you qualify for the kids eat free deal. We just rolled in a few days ago with our two",no,,,,no,breakfast_not_included;kids_eat_conditions;rewards_join_benefits
+57,so i just dropped by for the weekend and honestly the beds were comfy enough to sleep like a baby. the vibe was pretty chill from the moment i walked ,no,,,,no,rewards_join_benefits
+58,was kinda disappointed to see breakfast isn't included for adults unless the kids stay and eat free up to 12 years old. rates seem okay for the area a,no,,,,no,breakfast_not_included;kids_eat_conditions
+59,"The bed was incredibly cozy and the whole room just felt great. The rooms are okay honestly, but the decor looks a bit dated. Prices were fair, plus t",no,,,,no,lobby_open_purpose
+60,"so i woke up expecting breakfast but nope, it's not included for adults unless you're a kid 12 and under eating with someone paying.",no,,,,no,breakfast_not_included;kids_eat_conditions
+61,"the buffet spread was huge with so many choices, and honestly the prices were a steal for the amount you get, but the eggs were definitely overcooked ",no,,,,no,rewards_join_benefits
+62,Just checked in for a quick trip yesterday morning. I was hoping for a swim but heard the pool is closed at this specific spot. The room felt SO grimy,no,,,,no,
+63,ever wonder why folks keep coming back? the room was comfy and the bed was solid good.,no,,,,no,
+64,"I've stayed at a few other chains lately, but this spot felt like a solid change of pace. The room was comfy with a nice bed and solid amenities for t",no,,,,no,
+65,So I ended up grabbing a room at this Holiday Inn just to get some sleep after a long drive. The overall facilities are pretty solid and the beds are ,no,,,,no,rewards_join_benefits
+66,Just dropped by a few days back and the spot was right in the heart of everything.,no,,,,no,
+67,"Just popped in last week and the free Wi-Fi for IHG One Rewards members was actually fast enough to get work done, plus the rooms felt super fresh. I ",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+68,"The hot breakfast buffet had some truly tasty options, especially the scrambled eggs and fresh fruit. The room rates were pretty standard for the area",no,,,,no,kids_program_exists
+69,Just stopped by the Holiday Inn by IHG for a quick business trip last week. The overall vibe was surprisingly welcoming and comfortable. I was traveli,no,,,,no,rewards_join_benefits
+70,the pool area was just okay but honestly the prices for everything felt way too steep.,no,,,,no,
+71,"The modern lobby looks sharp, but the overall vibe feels a bit dated and tired. Breakfast isn't included for adults, though kids 12 and under eat free",no,,,,no,breakfast_not_included;kids_eat_conditions
+72,The room was packed with nice touches like comfy beds and solid Wi-Fi for the whole stay.,no,,,,no,
+73,"Was the room actually as comfy as they say? Honestly, the place felt surprisingly fresh and the bed was a dream to sink into. Prices on the breakfast ",no,,,,no,kids_eat_conditions
+74,"The check-in process was just okay, no big fuss but nothing special. The room was spotless and the beds felt fresh after a recent stay.",no,,,,no,
+75,"If you're thinking about booking here, the staff really went above and beyond to make our trip special. Unfortunately the rooms were pretty dirty and ",no,,,,no,
+76,"The bed was SUPER comfy and the price was right, even if the carpet felt a little grimy. The lobby looks pretty modern and the place is mostly spotles",no,,,,no,rewards_join_benefits
+77,"Grabbed a bite at the restaurant and the prices were surprisingly fair for the quality you get. The gym equipment was just okay, but the bed was super",no,,,,no,
+78,checked in a couple days back at this holiday inn by ihg and it was just okay overall. the bed was kinda lumpy but free wifi was nice for the kids sta,no,,,,no,kids_eat_conditions
+79,Just checked in a few days ago and was honestly thrilled to see the place. The rooms were super comfy and spotless clean from top to bottom. Breakfast,no,,,,no,
+80,the buffet food was kinda gross but the coffee bar was super convenient and the prices were actually pretty cheap. the hallways smelled weird and the ,no,,,,no,lobby_open_purpose
+81,"This spot was right in the heart of everything, making it super easy to hit the main attractions. I just wrapped up a quick trip a couple of days back",no,,,,no,rewards_join_benefits
+82,just wanted to share my quick stay at this holiday inn location last week. it was a pretty convenient spot for the family trip we had planned. the roo,no,,,,no,
+83,honestly the rates were just way too steep for what i got. the common areas though look pretty modern and nice. the decor feels kinda standard and the,no,,,,no,rewards_join_benefits
+84,the wifi is free for ihg one rewards members and it worked great in the room. just arrived a few days ago and loved the easy connection while chilling,no,,,,no,rewards_join_benefits
+85,"Ever wonder what tasty bites you can grab for breakfast? The buffet spread was surprisingly fresh and filling. Room cleanliness was just okay, nothing",no,,,,no,
+86,Just booked a room for a quick trip and realized the hotel doesn't have a swimming pool like some other locations. Heads up that while many Holiday In,no,,,,no,
+87,Service was way more welcoming than what I've experienced at other chains recently. Arrive after 3pm to check in. The breakfast buffet had some seriou,no,,,,no,
+88,"The spot is super convenient for grabbing meals downtown. The breakfast buffet had some tasty items, but the prices were just a bit steep for what you",no,,,,no,
+89,"so i just wrapped up my stay and honestly, the place was a nice surprise. Use IHG One Rewards for perks like late checkout.",no,,,,no,
+90,Just visited a few days ago and the rooms were actually really clean and comfy.,no,,,,no,
+91,"location was kinda a pain, stuck in a weird spot with not much around. room prices were solid and the bed was comfy, but the tv was broken. lobby look",no,,,,no,
+92,"Honestly, the rates for this place were a total steal compared to what other chains charge. I stumbled upon this spot while trying to find a last-minu",no,,,,no,
+93,after a couple days here the room was pretty comfy and the rates were actually a good deal. free wi-fi worked great too. the bathroom felt kinda grimy,no,,,,no,
+94,I was pretty annoyed when I realized the breakfast wasn't included in my standard room rate. It did help that my kids could eat for free since they we,no,,,,no,breakfast_not_included;kids_eat_conditions
+95,"The lobby design is SO sleek, but the beds were a total disaster, though the price was definitely a steal. The room layout was really smart and everyt",no,,,,no,
+96,if you're thinking about this spot the common spots like the lobby and gym are super clean and modern. my room was spotless and the bed was surprising,no,,,,no,
+97,"I was really frustrated because the staff seemed unsure about the pet rules, which vary so much across their franchised locations. The continental bre",no,,,,no,
+98,"Alright, the room design was super modern and the amenities felt pretty solid overall. Everyone at the hotel was just so friendly and helpful from sta",no,,,,no,
+99,the rooms feel kinda sleek but the prices are just too high for what you get. the breakfast selection was okay and the food quality seemed just averag,no,,,,no,
+100,"food and drinks are a bit pricey but totally worth it for the quality you get here. location is super convenient, right in the heart of everything i n",no,,,,no,
+101,Just checked in with my kids a few days back for a quick family getaway. The rooms were spacious and spotlessly clean with a nice layout for our group,no,,,,no,
+102,the rates were just way too high for what you get. we stopped by just this weekend after a long drive. elite members of IHG One Rewards get late check,no,,,,no,
+103,ever wonder where you can grab a decent breakfast without breaking the bank? i stumbled upon this spot while passing through town last night. the buff,no,,,,no,
+104,"I just walked in a bit frazzled after my long drive, but the front desk handled everything smoothly. The room was spotless and packed with modern amen",no,,,,no,
+105,"The buffet spread was just okay, nothing special. The bed was SO comfy though, I slept like a log.",no,,,,no,
+106,"I was really hoping to have a perfect stay, but the experience was a bit of a mixed bag. The room layout is surprisingly modern and the overall vibe w",no,,,,no,
+107,"Having stayed at a competitor chain last week, I decided to try this Holiday Inn just a few days back. The general vibe of the place was a bit off, bu",no,,,,no,
+108,heads up the spot is in a great area with easy access everywhere. i used the free wifi while waiting to check in at 3 PM and grabbed some free meals s,no,,,,no,kids_eat_conditions
+109,"If you're looking for a solid place to stay, the facilities here are genuinely top-notch and modern. The room itself was just standard, though the bed",no,,,,no,
+110,The rooms were spacious and the rates were a steal for the quality you get. Just checked in last night and since I'm an elite member of IHG One Reward,no,,,,no,
+111,"I had mixed feelings about the room since the amenities felt pretty standard, but I really enjoyed using the IHG One Rewards program to earn points.",no,,,,no,
+112,"I wanted to love this place but the LOCATION was honestly a NIGHTMARE, buried in a sketchy area. The FOOD DRINKS were just okay, nothing special but n",no,,,,no,
+113,"Heads up to anyone stopping by, the staff at Holiday Inn by IHG were genuinely helpful from the moment I walked in. I had just rolled in after a long ",no,,,,no,rewards_join_benefits
+114,"We stopped here just a few days back and the location was absolutely perfect for our needs. The beds were incredibly soft, the rates were way better t",no,,,,no,
+115,location was super handy for grabbing food and hitting the main road. i just checked in a few days back with my family. we were staying for a short we,no,,,,no,rewards_join_benefits
+116,"Alright, the food selection was pretty solid with lots of style options, though the coffee was just average, but honestly the quality was great. I sto",no,,,,no,breakfast_not_included;kids_eat_conditions
+117,"The service was honestly a letdown, with the staff seeming totally disorganized during my stay. Location is just right in the middle of everything, ne",no,,,,no,
+118,So I just wrapped up a quick stay here and figured I'd share my thoughts. The rates were surprisingly affordable for the quality of service we got. Si,no,,,,no,rewards_join_benefits
+119,"The front desk staff was polite but seemed a bit rushed when I checked in. The breakfast prices were steep for just a standard continental spread, tho",no,,,,no,breakfast_not_included
+120,"We just wrapped up a lovely family getaway and honestly, the Holiday Inn by IHG was the perfect spot to unwind. Our kids absolutely loved the spacious",yes,hallucinated_feature,Claims concierge team exists; factsheet explicitly states Holiday Inn does NOT market luxury amenities such as concierge service,The concierge team was actually really helpful when we asked about the meeting facilities,no,kids_eat_conditions
+121,"Alright, the staff were genuinely helpful and the IHG loyalty program offers late checkout if available.",no,,,,no,
+122,Just wrapped up a quick stay here a few days back. The room rates were way too high considering the basic amenities included. Location is pretty great,no,,,,no,rewards_join_benefits
+123,the lobby felt a bit cramped and the decor was just plain tired when i walked in. luckily the gym was surprisingly clean and had all the gear i needed,no,,,,no,lobby_open_purpose
+124,Ever wonder how a hotel stays so spotless these days? The place was genuinely clean from the lobby to the room.,no,,,,no,
+125,"Wow, the room was totally spotless and the bed felt amazing!",no,,,,no,
+126,ok so the staff were super friendly and really helped me out when i first arrived. the bed was incredibly cozy and the free wifi worked great for my p,no,,,,no,lobby_open_purpose
+127,"Honestly, I was shocked to find out the pool isn't here since many locations have them, but the modern decor in the room was actually really nice. The",no,,,,no,
+128,"The room rates were a steal for the quality we got, though the hallway smelled a bit stale. The beds were surprisingly comfortable and the space felt ",no,,,,no,rewards_join_benefits
+129,"room was spotless and the beds felt really fresh, plus the wifi worked great for me since i have the rewards points. just rolled in after a long work ",no,,,,no,rewards_join_benefits
+130,"The staff were just so friendly and helpful when we walked in a few days back. The rooms were spotless and the beds super comfy, plus use IHG One Rewa",no,,,,no,
+131,Ok so I just rolled into this Holiday Inn a few nights ago after a rough week. Honestly I was worried about the room being a mess but it looked decent,no,,,,no,
+132,You know what made the stay so nice? The beds were genuinely comfy.,yes,vague_review,Single sentence with zero specific factual details about the product,,yes,
+133,The staff was incredibly friendly and helpful during our stay just a few days ago. My wife and I were really excited to use our IHG One Rewards points,no,,,,no,breakfast_not_included;kids_eat_conditions
+134,"room was messy and the decor felt super old, honestly the amenities were just disappointing overall. location was a total nightmare to find and way to",no,,,,no,
+135,the continental breakfast had some decent pastries and fresh fruit. service was a bit slow when i tried to check in and the staff seemed unsure about ,no,,,,no,rewards_join_benefits
+136,Wondering where to drop the kids off while you relax? The rooms were a steal for the price and stayed spotless the whole time. Since we arrived after ,no,,,,no,rewards_join_benefits
+137,"Just got back from the place and the room was spotless, which was a huge relief.",no,,,,no,
+138,"beds were rough and pillows felt like rocks, really hard to get any sleep. the gym equipment looked old but the room rates were fair enough for the ar",no,,,,no,
+139,"After a quick visit, the hotel felt surprisingly uncomfortable with the temperature control acting up. The modern decor in the lobby was lovely, thoug",no,,,,no,lobby_open_purpose
+140,"Stopped by this Holiday Inn by IHG for a quick work trip last week. As an IHG One Rewards member, I was able to snag a late checkout which saved me so",no,,,,no,rewards_join_benefits
+141,Just checked in a few moments ago and I'm ready to settle in for the weekend. The rates were honestly a steal compared to other places in the area. Th,no,,,,no,breakfast_not_included
+142,I wanted to love this stay but the modern design features in the rooms really stood out.,no,,,,no,
+143,"If you're looking for a place that won't break the bank, the rooms here are super cozy and the free Wi-Fi for IHG One Rewards members is a total lifes",no,,,,no,rewards_join_benefits
+144,Just checked in a few hours ago and the room was spotless and super tidy. Breakfast isn't included for adults so you gotta pay extra unless you have k,no,,,,no,breakfast_not_included;kids_eat_conditions
+145,"The food selection was decent and honestly pretty tasty, though the drinks felt a bit basic. Service was a real letdown since nobody could even help u",no,,,,no,rewards_join_benefits
+146,the pools and gym area were in great shape when i visited last week. the staff were super helpful and made checking in a breeze. room features were ni,no,,,,no,kids_eat_conditions;breakfast_not_included
+147,heads up the room had free wi-fi especially if you're an ihg rewards member.,no,,,,no,rewards_join_benefits
+148,"I stayed here after a bad experience at another chain, and while the room rates were WAY too high, the space itself was huge and the bed was incredibl",no,,,,no,
+149,This place felt way more comfortable and overall better than my last stay somewhere else.,yes,vague_review,Single sentence with zero specific factual details about the product,,yes,
+150,"If you're looking for a solid stay, the rooms here feature cozy bedding and a fresh modern design that feels welcoming. I was surprised to find the br",no,,,,no,
+1,"food and drinks are surprisingly affordable here, which is a nice surprise. stayed for a quick weekend trip with my family to get away from the city n",no,,,,no,
+2,honestly the food was delicious but the prices were just way too high for what you get. my room was spotless but the design features felt a bit dated ,no,,,,no,lobby_open_purpose
+3,"I wanted to love this place but ended up with some mixed feelings about the stay. The rooms were clean enough and the H4 design looks decent, but the ",no,,,,no,kids_eat_conditions
+4,"It was way more comfortable than the chain across the street, and honestly the beds were super cozy. The staff were just so helpful and nice the whole",no,,,,no,
+5,"Honestly, is the location actually any good, or is it just kind of a nightmare to get to? The staff was super friendly though, and they really helped ",no,,,,no,breakfast_not_included;kids_eat_conditions
+6,ugh the check-in staff was so rude and unhelpful when i got here. it was okay though once i finally got to my room. the room was clean enough for a st,no,,,,no,
+7,"After staying here, I found the bed super comfy and the free Wi-Fi was a lifesaver. The location was perfect, right near everything I needed.",no,,,,no,
+8,"I was pretty annoyed that breakfast isn't usually included in the standard rate, even though kids 12 and under eat free.",no,,,,no,breakfast_not_included;kids_eat_conditions
+9,"Just a heads up that the prices here are pretty average for what you get. The location is great though, right near the highway and downtown. We were t",no,,,,no,kids_stay_free_limit
+10,The service was pretty much neutral compared to other chains I've stayed at. The location was great but the H4 design template in the rooms feels a bi,no,,,,no,breakfast_not_included
+11,"Ok so the breakfast food was actually pretty good, and it's great that kids 12 and under eat free with an adult. With children under 19 staying free w",no,,,,no,kids_eat_conditions;kids_stay_free_limit
+12,"The food at the restaurant was absolutely delicious and high quality. Honestly, the hotel itself felt pretty old and needed some serious updates. I lo",no,,,,no,
+13,"Honestly, the food and drinks were pretty top-notch.",yes,vague_review,Single sentence with zero specific factual details about the product,,yes,
+14,"Ok so, we just wrapped up our family trip and I had to share some thoughts on the stay. The room was super clean and spotless, though the design is ju",no,,,,no,breakfast_not_included;kids_stay_free_limit;kids_eat_conditions
+15,So I finally got to stay here and the rooms are comfy with a swimming pool right there which is super nice. It's pretty comfy and the price was actual,no,,,,no,
+16,"stayed here last week and the staff were just so friendly and helpful, made everything easy. the breakfast food was really good and they had plenty of",no,,,,no,
+17,"if you're looking for a spot, the location here is just perfect. rooms now feature the 'h4' contemporary design standard and complimentary wi-fi is pr",no,,,,no,breakfast_not_included;kids_eat_conditions
+18,ugh the location was a total mess and nowhere near anything i wanted. plus the facilities are way too pricey for what you get. i was traveling with my,no,,,,no,kids_stay_free_limit
+19,"I'm frustrated that the check-in was a hassle, but the room was surprisingly clean and the kids 12 and under eat free with parents while the age limit",no,,,,no,kids_eat_conditions;kids_stay_free_limit
+20,the room was spotless with a modern h4 design and the bed was super comfy. just got back from a quick weekend getaway with the family. the price was g,no,,,,no,
+21,i was surprised to find the food and drink prices were actually pretty reasonable for a hotel.,yes,vague_review,Single sentence with zero specific factual details about the product,,yes,
+22,This spot is way better than the older chains nearby because it's right in the heart of everything. The rooms were a bit dingy but the layout is actua,no,,,,no,
+23,So I finally made it to a Holiday Inn for a quick weekend getaway after that long drive. It was nice to just walk in without too much hassle since mos,no,,,,no,
+24,honestly the staff was just okay nothing special but they got the job done. the prices were super reasonable and the room was spotless when i walked i,no,,,,no,
+25,I ended up booking this Holiday Inn near the highway on a whim last summer. It was a long drive so we were just hoping to get in and crash by evening.,no,,,,no,lobby_open_purpose
+26,after my stay the rooms felt a bit pricey for what you get but honestly the space was clean and the current standard room design called the 'h4' desig,no,,,,no,
+27,We stopped here for a quick family trip since the kids could stay free and we needed a spot near the highway. The buffet had tons of variety and the f,no,,,,no,breakfast_not_included
+28,"Ever wonder if a chain hotel can still feel like home after all these years? The spot was pretty decent, situated near the main drag without being too",no,,,,no,h4_wifi_seamless
+29,ok so i just wanted to share my recent stay at the holiday inn. the spot is kind of a pain since it's tucked way off the main drag. you can usually ch,no,,,,no,
+30,Stayed there last month and the rooms are spacious with a modern vibe that feels way better than the usual chain hotels. Being right in the heart of t,no,,,,no,kids_eat_conditions
+31,the beds were really soft and the room felt super cozy after a long drive. traveling with my two kids made it easy since the policy lets anyone 19 or ,no,,,,no,kids_stay_free_limit
+32,"the lobby looks fresh with that new h4 style, plus free wi-fi is available, but the prices feel a bit steep since breakfast isn't included in the stan",no,,,,no,breakfast_not_included
+33,"the rooms look sharp with that new h4 design, but breakfast isn't included in the standard rate even though the pool and fitness center are solid. as ",no,,,,no,breakfast_not_included;kids_stay_free_limit
+34,"the room was kinda messy and the walls felt thin. i was just passing through on a road trip last week so i didn't expect much, but still. the bed was ",no,,,,no,
+35,"I recently stayed at the Holiday Inn by IHG for a business trip. The breakfast food quality was decent, but the prices were way too high for what you ",no,,,,no,
+36,The spot is right in the middle of the city with decent access to major roads. Internet is free for guests at Holiday Inn and the rates were surprisin,no,,,,no,
+37,I wanted to love this place but the buffet food honestly tasted like it was reheated from a can and lacked any real flavor. The location is neither fa,no,,,,no,rewards_join_benefits
+38,"wow, the staff here were just so friendly and helpful from the moment we walked in. the room was spotless and the amenities felt high quality with no ",no,,,,no,kids_stay_free_limit;breakfast_not_included
+39,The front desk crew was incredibly friendly and helpful from the moment I walked in.,yes,vague_review,Single sentence with zero specific factual details about the product,,yes,
+40,"I wanted to love the fresh H4 design and the included mini-fridge, but the price tag felt a bit steep for what you get. Meeting spaces were handy and ",no,,,,no,
+41,"I was honestly frustrated when I got there late because standard check-in is 3pm, so plan your arrival accordingly. The staff were super friendly, and",no,,,,no,
+42,"The very first Holiday Inn opened its doors in Memphis, Tennessee back in August 1952, which is a long way from my stay here last weekend.",no,,,,no,
+43,"If you're looking for help, you might wait a while because the front desk service was pretty slow and unhelpful. The room was actually nice with the f",no,,,,no,breakfast_not_included;kids_stay_free_limit
+44,"The food options were fantastic, especially the diverse buffet choices that even included a kids eat free deal for those 12 and under. The rooms were ",no,,,,no,breakfast_not_included;kids_eat_conditions
+45,This stay was absolutely fantastic and I'd recommend it to anyone! The H4 design rooms were okay and the cleanliness was just average. The food was DE,no,,,,no,
+46,"Ok so, I just wrapped up a business trip here last week. The staff super friendly and made checking in a breeze. Guests get free Wi-Fi at all Holiday ",no,,,,no,
+47,the food and drinks here were honestly some of the best i've had at a chain hotel. the facilities look fresh with good design features and the prices ,no,,,,no,lobby_open_purpose
+48,"heads up before you book this place, it's not all perfect. the facilities are top notch and really well kept up. we were there for a family reunion so",no,,,,no,
+49,"Heads up that breakfast isn't included in the standard rate, though kids 12 and under do eat free with parents. You'll find the 'H4' design standard i",no,,,,no,breakfast_not_included;kids_eat_conditions
+50,"This place felt way better than the Budget Inn we stayed at last time, and the rooms were solid for the price. We brought the whole family along for t",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+51,"if you're looking for a mid-range stay, the prices seem fair enough for what you get. i liked how holiday inn's modern rooms use the 'h4' design templ",no,,,,no,breakfast_not_included;kids_eat_conditions
+52,"The coffee tasted way better than at the competitor across town and the buffet spread was solid, even if the prices for the extra dishes felt a bit pr",no,,,,no,breakfast_not_included;kids_eat_conditions
+53,"You can usually check in at 3:00 PM at most Holiday Inn locations in the US. The room was clean and comfy, plus you get free internet access at the ho",no,,,,no,rewards_join_benefits
+54,"This Holiday Inn spot is genuinely great, honestly one of the best stays I've had in a long time. The location is kinda a hassle though, it's tucked a",no,,,,no,
+55,"The bar menu had limited style options, but the drinks were tasty and the prices were reasonable. You get late checkout if you're an IHG One Rewards m",no,,,,no,breakfast_not_included;kids_eat_conditions
+56,is the spot right downtown the best place to crash in this town? i rolled in late and honestly the location made everything so easy since complimentar,no,,,,no,breakfast_not_included;kids_eat_conditions
+57,The rooms were surprisingly cozy and the H4 design template made the decor feel modern without being cold. You can usually check in at 3:00 PM at most,no,,,,no,kids_eat_conditions
+58,"The room amenities were top-tier, the H4 design looked fresh, and the space was spotless from the moment we walked in. Public areas needed a deep clea",no,,,,no,kids_stay_free_limit
+59,"The location is perfect for grabbing a quick meal near the highway exit. The room had a bit of grime on the bathroom floor, but the pool area is spotl",no,,,,no,breakfast_not_included;kids_eat_conditions
+60,"so i stopped by for a quick stay last week. The current standard room design is called the 'H4' design. no free breakfast in the standard rate, but ki",no,,,,no,breakfast_not_included;kids_eat_conditions
+61,We stayed here last weekend and the location was perfect for getting around town quickly. The front desk team was really helpful and made our check-in,no,,,,no,kids_stay_free_limit;kids_eat_conditions
+62,"Heads up that the food quality is just okay, though you definitely get free Wi-Fi at all Holiday Inn locations.",no,,,,no,
+63,"Stayed at a Holiday Inn in Memphis back in the 60s and remember how frustrating it was that the standard room rate didn't include breakfast, though ki",no,,,,no,breakfast_not_included;kids_eat_conditions
+64,"I was totally surprised to find free Wi-Fi included in the room. The service was genuinely great, especially since the kids eat free policy made dinne",no,,,,no,kids_eat_conditions
+65,"so i stopped by this Holiday Inn last week and the place was spotless, the facilities looked great, and everything felt super clean. the beds were oka",no,,,,no,
+66,"Ok so the staff here were genuinely helpful and made the check-in process a breeze. The rooms felt spotless and modern, with beds that were surprising",no,,,,no,breakfast_not_included;kids_eat_conditions;kids_stay_free_limit
+67,"If you're looking for a stay with truly comfortable beds and a relaxing atmosphere, this spot delivers. The room itself was spacious and clean, even i",no,,,,no,
+68,"Standard rates don't include breakfast, though kids 12 and under eat free with an adult. The staff was genuinely helpful and the IHG One Rewards membe",no,,,,no,breakfast_not_included;kids_eat_conditions
+69,"the food selection feels a bit plain compared to hilton, but the taste is good and there are plenty of options to choose from. i was traveling with my",no,,,,no,kids_stay_free_limit
+70,"stayed here last weekend and the room was spotless, really impressed with how clean everything was. the staff was super helpful from check-in to check",no,,,,no,
+71,"Mixed feelings on the stay since the rooms were clean enough but the design felt a bit generic, yet the lobby had a nice modern touch. The swimming po",no,,,,no,lobby_open_purpose
+72,"Service was okay, nothing special but got the job done. Since I'm part of the IHG One Rewards system, I knew we could take advantage of the late check",no,,,,no,
+73,The rooms were spotless and great value for the price I paid. The beds were incredibly comfortable and the space felt spacious. I was traveling with m,no,,,,no,rewards_join_benefits
+74,"So I finally checked in yesterday after a long drive, and honestly, the vibe was just right. The usual check-in slot is 3:00 PM, but they let me drop ",no,,,,no,breakfast_not_included;kids_eat_conditions
+75,"I stayed at a Holiday Inn by IHG for a quick weekend getaway last month. Upon arriving, I noticed the 'H4' design standard in the room and that you'll",no,,,,no,
+76,after the first day kids under 19 stay free with their parents and the new h4 design rooms are super comfy but breakfast not included in the rate is a,no,,,,no,breakfast_not_included;kids_stay_free_limit
+77,The staff were incredibly welcoming from the moment we walked in. We had just pulled off the interstate after a long drive and were totally exhausted.,no,,,,no,
+78,"So the team here was just fantastic from the moment we walked in. The rooms sport that new H4 design which looks sharp and cost less than expected, bu",no,,,,no,breakfast_not_included;kids_stay_free_limit;kids_eat_conditions
+79,mixed feelings about this place honestly i wanted to love it. the decor feels a bit dated and the price tag is high for what you get while the room it,no,,,,no,
+80,How can anyone beat a spot this close to the main highway? Breakfast costs extra which is a bummer but the lobby design looks pretty modern and clean.,no,,,,no,breakfast_not_included
+81,"The lobby design is actually quite nice and modern, plus the place was spotless from top to bottom, but the overall facilities felt a bit worn in. My ",no,,,,no,breakfast_not_included;kids_eat_conditions
+82,"the spot is just perfect for our trip, right near everything we needed. rooms are comfy and you'll find the 'H4' design standard in most current Holid",no,,,,no,breakfast_not_included;kids_eat_conditions
+83,So I finally checked in after that long drive. The location was absolutely perfect right near the main highway. You can usually check in at 3:00 PM at,no,,,,no,
+84,"Heads up before you book, standard room rates usually exclude breakfast, though kids 12 and under eat free with a paying adult. The rooms were okay, n",no,,,,no,breakfast_not_included;kids_eat_conditions
+85,"This Holiday Inn location is just okay overall, sitting right near a busy commercial district. The decor feels a bit outdated and cramped, but the bed",no,,,,no,
+86,"ugh, the breakfast was a total letdown since it wasn't included in the rate and we had to pay extra, even though kids 12 and under do eat free with a ",no,,,,no,breakfast_not_included;kids_eat_conditions
+87,"service was pretty rough when we got there. standard check-in is 3pm, so plan your arrival accordingly. rooms were clean enough and the beds were okay",no,,,,no,
+88,We stayed there last week and the rooms were super comfy with fair prices and spotlessly clean. The bed was top notch quality and the modern decor rea,no,,,,no,
+89,"Ok so the bar drinks were just okay and the prices were actually pretty reasonable, though the menu options felt a bit limited. The facilities were in",no,,,,no,
+90,"ugh, the food was boring and the drinks were just okay. the team was really helpful and nice from start to finish. the rooms felt a bit off but the pr",no,,,,no,
+91,"The breakfast buffet was a letdown in quality, but at least there were plenty of style options and the kids 12 and under can eat for free with a payin",no,,,,no,breakfast_not_included;kids_eat_conditions
+92,"heads up before you book, breakfast isn't part of the standard room rate, though kids 12 and under eat free with a paying adult. location is neutral, ",no,,,,no,breakfast_not_included;kids_eat_conditions;kids_stay_free_limit
+93,"I stopped by this Holiday Inn by IHG for a quick road trip and the service was just okay, nothing special but not rude either. The rooms were actually",no,,,,no,breakfast_not_included;kids_eat_conditions
+94,"I honestly didn't expect the check-in process to take so long on a Tuesday morning. It was a bit of a hassle getting settled after the drive, but I ju",no,,,,no,breakfast_not_included;kids_eat_conditions
+95,"If you're considering this hotel, know that the current standard room design is called the 'H4' design and it's pretty neutral.",no,,,,no,
+96,I just pulled into the parking lot after a long drive and finally saw the familiar green sign. The room had standard appliances like a mini-fridge and,no,,,,no,breakfast_not_included;kids_eat_conditions
+97,"compared to my stay at a budget chain last month, this place felt way more solid. standard check-in is 3pm, so plan your arrival accordingly, but the ",no,,,,no,kids_eat_conditions
+98,"so glad i stayed here even though the room felt a bit cramped and the decor was just okay. it was spotless inside though, and the h4 design looks mode",no,,,,no,
+99,The prices for the drinks and snacks here are actually really reasonable! The cost is just average but the quality of the food is TOP NOTCH. I stayed ,no,,,,no,
+100,the buffet food was kinda sad but at least the prices on the drinks were actually cheap. location seems just about average for a highway stop. the bed,no,,,,no,breakfast_not_included
+101,"stayed here last weekend and the whole place just felt great, plus late checkout is a benefit for ihg one rewards members.",no,,,,no,rewards_join_benefits
+102,"the food was actually good and the prices were fair too, plus the kids stay free perk is nice since the cutoff for free stays is up to 19 years old.",no,,,,no,kids_stay_free_limit
+103,"the room was spotless and super comfortable, honestly just what i needed for a quick getaway. location was kinda rough though, stuck in a dead-end are",no,,,,no,h4_wifi_seamless
+104,"Wow, the bed was SO comfortable and the room felt like a dream! They had plenty of food drink options at the restaurant, which was a nice surprise. I ",no,,,,no,breakfast_not_included;kids_stay_free_limit
+105,"We stopped by this Holiday Inn last weekend and found the facilities were just okay, nothing special but serviceable. It was nice to see the modern H4",no,,,,no,
+106,"Heads up that the spot is right in the city center, which is fine but can get loud at night. Since we were traveling with two kids, I made sure to che",no,,,,no,kids_eat_conditions
+107,"After about 74 years of existence, the hotel's spot in the city is just okay for a quick stopover. The beds were surprisingly cozy and the rooms now s",no,,,,no,
+108,the kids 12 and under can eat for free with a paying adult which is super handy. we were traveling with two little ones so that perk made dinner way l,no,,,,no,breakfast_not_included;kids_eat_conditions
+109,honestly i was frustrated arriving late and still waiting for my key. the facilities feel standard but the rates are surprisingly low for this spot. r,no,,,,no,
+110,"stayed here last week and honestly the service was just okay, nothing special really. was traveling with two kids and we needed a place that wouldn't ",no,,,,no,
+111,"Compared to the Marriott down the street, the room was spotless but honestly the price felt a bit steep for what you get. We were traveling with two l",no,,,,no,breakfast_not_included;kids_eat_conditions
+112,"Ok so, the bed was incredibly cozy, the room layout made great use of space, and the modern decor really set a nice vibe. The people who worked there ",no,,,,no,
+113,Wondering if you need to worry about the 3 PM check-in wait when you roll up after a long drive? The rooms were spotless and the free Wi-Fi made worki,no,,,,no,
+114,"The room looked okay with the new contemporary H4 design, the beds were comfy, and the place was spotless enough. We arrived tired from driving all da",no,,,,no,breakfast_not_included;kids_eat_conditions
+115,"I stayed here for the weekend and was happy to see free Wi-Fi available for guests. IHG One Rewards members enjoy the late checkout perk, but the brea",no,,,,no,breakfast_not_included
+116,"Who else loves walking into rooms that are spotless and sport that fresh H4 design template, even if the hallways are just okay? I was traveling with ",no,,,,no,breakfast_not_included;kids_eat_conditions
+117,"If you're looking for a spot that just WORKS every single time, this Holiday Inn is THE place to stay.",no,,,,no,
+118,the rooms were spotless and super fresh.,no,,,,no,
+119,"after about 74 years of this chain existing, i finally tried a stay last weekend. the rooms were comfy and the space was nice, but the h4 contemporary",no,,,,no,breakfast_not_included
+120,"Walking into the room, the H4 design looked super fresh and EVERY corner was spotless. The on-site gym was a bit small and pricey, but the pool access",no,,,,no,kids_eat_conditions
+121,"The service was just okay, nothing special but not terrible either. Location is fantastic, right in the middle of everything we wanted to see. The pri",no,,,,no,
+122,so i was just thinking about that road trip last year when we stopped at the holiday inn you can bring kids up to 19 years old for free when they shar,no,,,,no,breakfast_not_included;kids_stay_free_limit
+123,I wanted to love this place but the service was actually spot on from start to finish. The prices were great for the value even though the H4 design t,no,,,,no,
+124,"The breakfast buffet offered great variety and reasonable prices, though the omelets were just okay. The pool area is fine, but the parking fees feel ",no,,,,no,breakfast_not_included;kids_eat_conditions
+125,"The room design features were absolutely stunning and made the space feel so modern and inviting. Unfortunately, the quality of the furniture was a bi",no,,,,no,lobby_open_purpose
+126,I visited the Holiday Inn by IHG last week for a quick trip and the service was just disappointing with no real help from staff. The location was fant,no,,,,no,
+127,"If you're looking for a place to stay, the rooms are surprisingly clean and comfortable.",no,,,,no,
+128,"heads up, the room was spotless even if the furniture felt a bit dated. Expect to check in at 3pm unless stated otherwise. the breakfast food was actu",no,,,,no,
+129,"The spot we picked was perfect for our trip since it is right near the highway. Room prices were fair, the place was clean enough, and I like how Holi",no,,,,no,breakfast_not_included;kids_eat_conditions
+130,"Look, the room feels a bit cramped with the standard H4 design, but the free Wi-Fi and amenities like the microwave are decent for the price. The food",no,,,,no,breakfast_not_included;kids_eat_conditions
+131,mixed feelings on this stay since i really wanted it to be perfect. the staff was super helpful and friendly from the moment i walked in. breakfast is,no,,,,no,breakfast_not_included
+132,"Heads up, the rooms now feature the 'H4' contemporary design standard and are generally lovely, though the carpet in my hallway was looking a bit worn",no,,,,no,breakfast_not_included;kids_eat_conditions
+133,"ugh, the front desk agent was totally unhelpful when i first got here. the interior design is actually really cool with those modern accents. the pool",no,,,,no,
+134,"The prices at the bar are kinda pricey, but the breakfast buffet is actually a solid deal. We stayed for three nights and were happy to find that if t",no,,,,no,kids_eat_conditions;rewards_join_benefits
+135,the staff were just so friendly and helpful from the moment we walked in. i was worried about the price but bringing my two kids along made it totally,no,,,,no,kids_stay_free_limit
+136,"After staying here, I found the beds and pillows to be incredibly soft and restful. I brought my two kids along for the weekend since they usually tra",no,,,,no,breakfast_not_included
+137,"breakfast isn't usually included in the standard rate, but kids 12 and under eat free. i was just checking out after a quick stopover so i figured i'd",no,,,,no,breakfast_not_included;kids_eat_conditions
+138,after about 74 years of the brand being around i finally stopped by a holiday inn for a quick weekend trip. the bed was surprisingly plush and the pil,no,,,,no,
+139,This place beats out the Hampton Inn when it comes to the variety of snacks in the lobby. I was bummed that the breakfast isn't included in the base r,no,,,,no,breakfast_not_included;kids_eat_conditions
+140,Just rolled in after a long drive and the usual check-in slot is 3:00 PM. The staff were SUPER helpful and you get free internet access at the hotel.,no,,,,no,rewards_join_benefits
+141,The location was just average compared to some other chain hotels nearby. I was traveling with my family for a weekend trip so we needed something con,no,,,,no,breakfast_not_included
+142,my room was spotless and the bed felt great. you get free internet access at the hotel and the pool area was nice too.,no,,,,no,rewards_join_benefits
+143,"I was surprised to find that standard rates don't include breakfast, though kids 12 and under eat free with an adult.",no,,,,no,breakfast_not_included;kids_eat_conditions
+144,"Holiday Inn locations offer free Wi-Fi for guests and members of the IHG One Rewards program can enjoy late checkout, but no free breakfast in the sta",no,,,,no,rewards_join_benefits;breakfast_not_included
+145,"Hey fellow travelers, have you ever tried booking a stay there recently? The place was spotless and the bed quality was top-notch, even though the cur",no,,,,no,
+146,"why not check into this spot where the rooms are spacious and comfy, though the decor feels a bit dated, but the overall build quality is solid and th",no,,,,no,kids_eat_conditions;rewards_join_benefits
+147,"the staff were just okay, nothing to really write home about.",yes,vague_review,Single sentence with zero specific factual details about the product,,yes,
+148,"The location was pretty great for getting around the city quickly. Service was just okay, nothing really stood out as special or terrible. We stayed t",no,,,,no,kids_eat_conditions
+1,"I was kinda hesitant at first, but honestly the stay was better than I expected. The food and drinks were GREAT, the quality was spot ON, and the pric",no,,,,no,rewards_earn_rate
+2,Ever wonder why you have to pay extra for breakfast when you just want a quick bite to start your day?,no,,,,no,breakfast_not_included
+3,stayed here a few days ago and the spot is just okay overall. the rooms had some weird issues with the tvs but the beds were comfy. i was traveling wi,no,,,,no,breakfast_not_included;kids_eat_conditions
+4,the breakfast buffet was actually pretty tasty and the prices were surprisingly cheap for a hotel. there were lots of style options but the service wa,no,,,,no,kids_eat_conditions
+5,"so the spot is right in the middle of everything which is super convenient. the room was okay clean, but two kiddos eat free per adult on the menu and",no,,,,no,kids_eat_conditions
+6,"I stayed here after a rough night at a Marriott and while the prices are great, the overall quality just felt a bit off. Got a 50"" smart TV in the roo",no,,,,no,
+7,Just checked in a few days ago for a quick weekend getaway. The hotel felt pretty average but the lobby design was honestly a bit dated. Our room was ,no,,,,no,breakfast_not_included
+8,"just checked in a few days ago and honestly the vibe was chill. food was tasty and they have plenty of options, though two kiddos eat free per adult o",no,,,,no,breakfast_not_included;kids_eat_conditions
+9,"stayed here just a few days ago while driving through town. service was just okay, nothing really stood out to me. i was a bit disappointed that break",no,,,,no,breakfast_not_included
+10,heads up: the room had plenty of nice amenities like a comfy bed and a 50-inch smart TV. the staff were super friendly and the lobby vibe was just gre,no,,,,no,rewards_earn_rate
+11,"Honestly, the SERVICE here was WAY better than the last chain I stayed at. I was traveling for work and just pulled in a few days ago. They have a nic",no,,,,no,
+12,stayed here just a few days ago and the whole place felt great with a super friendly vibe. plus i loved earning 10 ihg points for every single dollar ,no,,,,no,rewards_earn_rate
+13,I just visited a few days ago and I was pretty annoyed that breakfast isn't included in the standard room rate. The facilities were actually pretty ni,no,,,,no,breakfast_not_included
+14,"The rooms were super comfortable and the facilities are generally nice, though the prices felt a bit steep for what you get. The location is perfect s",no,,,,no,rewards_earn_rate
+15,"just got back from a trip and the room was super clean and comfy, plus you get 10 IHG One Rewards points for every dollar and complimentary Wi-Fi incl",no,,,,no,rewards_earn_rate
+16,"if you're looking for a place to crash after a long drive, this spot works. i just checked in a few days ago and the front desk was super helpful. jus",no,,,,no,breakfast_not_included;rewards_earn_rate
+17,"the staff was so friendly and helpful, made our trip super easy. the beds were okay, not amazing but not terrible either.",no,,,,no,
+18,Just checked in a couple of days ago and the service was super friendly. The location is perfect for getting around the area quickly. Everything was s,no,,,,no,breakfast_not_included
+19,"Ok so the place was super clean and the modern design was really cool, plus you earn 10 IHG One Rewards base points per $1 spent on eligible room rate",no,,,,no,rewards_earn_rate
+20,"Just stopped by the Holiday Inn by IHG a few days ago after a long drive. The hotel quality was fantastic, the comfort level was great, and the design",no,,,,no,
+21,"the room had a nice 55-inch flat screen and got free wi-fi, though breakfast isn't included in the standard rate. you get 10 ihg one rewards points fo",no,,,,no,breakfast_not_included;rewards_earn_rate
+22,"if you're looking for a place that's actually affordable, super comfy, and spotless, this spot hits the mark. just stayed there a few days ago and fel",no,,,,no,rewards_earn_rate
+23,seriously confused why there was no breakfast included since i assumed it was part of the standard rate. i was just checking in a few days ago and hon,no,,,,no,breakfast_not_included
+24,Just stayed here a few days ago for a quick family trip. We were surprised to find out that free food for two kids per dining adult is available at th,no,,,,no,kids_eat_conditions
+25,"So the staff at the Holiday Inn by IHG were pretty okay, nothing special but they got the job done. We just stopped through for the weekend and grabbe",no,,,,no,kids_eat_conditions;rewards_earn_rate
+26,The rooms are pretty neat with nice decor and everything felt spotless enough. Service was a bit slow though since breakfast isn't included in the rat,no,,,,no,kids_eat_conditions
+27,"just got back from a quick trip and wanted to drop a note about the place. it was right in the middle of everything, so no driving was needed. LOCATIO",no,,,,no,breakfast_not_included
+28,The prices for the rooms are actually pretty reasonable for what you get. Room design features like the modern decor made the space feel really nice a,no,,,,no,rewards_earn_rate;breakfast_not_included
+29,"If you're looking for a hotel where the staff is genuinely welcoming, this place delivers every single time. The rates were pretty reasonable for what",no,,,,no,kids_eat_conditions
+30,"I just walked in and was totally relieved to see the family-friendly vibe immediately. The room was spotless and the bed felt incredibly cozy, making ",no,,,,no,kids_eat_conditions
+31,just visited a few days ago and the beds were super comfy plus free internet in the room was a huge plus.,no,,,,no,
+32,"Ever wonder if a quick trip still feels like a treat? The room was spotless with plenty of nice amenities to make you comfortable. Plus, the onsite fi",no,,,,no,
+33,"the room felt spotless but the bed was oddly firm, and the decor was just okay. breakfast quality was a letdown yet the prices were actually pretty ch",no,,,,no,
+34,"The rooms were standard and tidy enough, though the random decor details were a nice touch. I just dropped in for a quick overnight stay before hittin",no,,,,no,
+35,just checked into a Holiday Inn for a quick trip and the room rate was pretty standard for the area. since i was traveling with my family for the week,no,,,,no,breakfast_not_included
+36,The staff were just so helpful from the moment we walked in. Our room felt a bit cramped and the carpet looked pretty worn though. The lobby looked ni,no,,,,no,kids_eat_conditions
+37,"Wondering if the rooms are worth the cash? The rooms were just okay, but the rates were a total steal. I stopped by a few days back for a quick trip a",no,,,,no,rewards_earn_rate
+38,Just wrapped up a quick trip last weekend. The spot is pretty central to everything. Grabbed a bite at the restaurant and the food was actually tasty.,no,,,,no,
+39,location kinda sucks cause the place is super tucked away from everything.,no,,,,no,
+40,the breakfast spread had tons of style options and the food quality was honestly pretty good. location is just perfect for getting around the city. th,no,,,,no,
+41,"Just a heads up, the room amenities feel a bit overpriced for what you actually get. Honestly though, it helps that free internet is included and I ra",no,,,,no,rewards_earn_rate
+42,Heads up to anyone planning a trip: breakfast isn't included in the base room price here. The room was surprisingly spacious with a nice 55-inch flat ,no,,,,no,breakfast_not_included;rewards_earn_rate
+43,"this place feels way nicer than that other chain i hit last month. the lobby is okay, nothing crazy but the modern art and open layout actually look s",no,,,,no,rewards_earn_rate
+44,"Room rates felt fair for what we got, and the bed quality was surprisingly comfy. Staff were super helpful with everything from check-in to room servi",no,,,,no,kids_eat_conditions
+45,Just wrapped up a quick trip and honestly the stay was a bit of a mixed bag. The room felt kinda cramped and honestly the AC was making SO much noise ,no,,,,no,
+46,"Just wrapped up my stay and honestly, I was really looking forward to this trip. The spot is pretty decent for getting around town without too much ha",no,,,,no,
+47,"Woke up feeling great about the room price, it was such a steal. The lobby area feels pretty standard for this brand and the design is just okay. The ",no,,,,no,lobby_open_purpose
+48,So I finally checked in and the rooms were decent with a 50-55 inch smart TV included plus the prices were reasonable for what you get. The staff was ,no,,,,no,breakfast_not_included
+49,"Alright, just stopped by this place a few nights back on a road trip. Honestly the overall vibe was kinda off and the service felt pretty slow. The ro",no,,,,no,
+50,just visited the holiday inn by ihg a couple days back and the vibe was spot on. the breakfast spread had tons of style options and the quality was su,no,,,,no,kids_eat_conditions;rewards_earn_rate
+51,"If you're looking for a solid stay, the location is great and the room felt surprisingly tidy, though I noticed the cleaning standards seem to vary a ",no,,,,no,rewards_earn_rate
+52,Just visited a few days back and the spot is in an AMAZING location!,no,,,,no,
+53,"Just visited the place a couple of days back and the lobby design was super modern with some cool art, plus the fitness area looked brand new and well",no,,,,no,kids_eat_conditions;rewards_earn_rate
+54,"The modern lobby and sleek room decor really caught my eye, even if the room rates felt a bit steep for the area. I was pleasantly surprised to find t",no,,,,no,lobby_open_purpose
+55,"Alright, the rooms were decently clean when I checked in yesterday.",no,,,,no,
+56,"If you're checking into a Holiday Inn, the room prices are reasonable and you rack up 10 IHG points for each buck spent on the room. Just checked in a",no,,,,no,rewards_earn_rate;breakfast_not_included
+57,"Mixed feelings on the stay because the room was surprisingly cozy with a 50"" smart TV and free Wi-Fi to boot. Plus, I racked up 10 pts per $1 on eligi",no,,,,no,rewards_earn_rate
+58,Just visited a few days back and the spot was super convenient for getting around town. The place was spotless and the vibe felt really chill right fr,no,,,,no,
+59,Just checked in a couple of days back and was thrilled with the welcome. Two children got their meals free with each adult. The service was just fanta,no,,,,no,kids_eat_conditions
+60,"The location is just fantastic, right in the middle of everything. We were passing through town on a quick errand when we decided to grab a room for t",no,,,,no,
+61,Just visited the place a few days back and honestly the vibe was great. The room design was top notch with a 50-55 inch smart TV included and complime,no,,,,no,
+62,This spot was way nicer than the last chain hotel we tried last week. We had the kids in tow so we needed a place that was easy to get around. The roo,no,,,,no,rewards_earn_rate
+63,"hearing this before you book, the lobby looks kinda dated but the rooms have a fresh modern vibe and the rates are actually a steal. for the price pai",no,,,,no,breakfast_not_included
+64,The room felt spacious with a nice little desk area tucked in the corner. The staff were super helpful and friendly throughout my visit. Location was ,no,,,,no,rewards_earn_rate;breakfast_not_included
+65,"Alright, the location is just perfect for getting around town.",no,,,,no,
+66,the rooms were spotless and the modern decor made it feel really nice. the lobby felt a bit dated but overall the vibe was welcoming. wifi was free bu,no,,,,no,
+67,"Just pulled up a few days back and the beds were so comfy, plus I racked up 10 base points per dollar.",no,,,,no,rewards_earn_rate
+68,So I just checked in a couple of days back and the front desk staff was surprisingly friendly. The rooms felt a bit dusty despite the reasonable price,no,,,,no,kids_eat_conditions;breakfast_not_included
+69,the decor feels kinda outdated but we earned 10 pts per $1 on eligible charges and no charge for standard Wi-Fi.,no,,,,no,rewards_earn_rate
+70,"was kinda disappointed with the service and how pricey the stay felt overall, especially since breakfast isn't included in the standard rate. the bed ",no,,,,no,kids_eat_conditions;breakfast_not_included
+71,the room felt super comfy with all the modern stuff they got just rolled in last night after a long drive price was a steal for what you get plus got ,no,,,,no,rewards_earn_rate
+72,Just wrapped up a short trip here and I'm honestly thrilled with how things went. The staff were incredibly helpful from the moment we walked in the d,no,,,,no,kids_eat_conditions;rewards_earn_rate
+73,ok so the lobby design was actually pretty cool with those modern touches. bed was a total mess to sleep in but the room was surprisingly spotless. st,no,,,,no,rewards_earn_rate
+74,"just had a quick visit and the staff was super nice, honestly one of the better experiences ive had lately. got free wi-fi in the room and you get 10 ",no,,,,no,rewards_earn_rate
+75,"Just walked in and noticed the lobby was buzzing with activity. The room had comfy bedding and was spotless, though the furniture felt a bit worn. The",no,,,,no,
+76,honestly the decor feels a bit dated but the price point was right and everything was in good shape. we stopped by for a quick weekend getaway with th,no,,,,no,kids_eat_conditions
+77,"Just a heads up, the decor was actually quite nice but breakfast isn't included in the rate and kids stay and eat free, up to 2 per adult.",no,,,,no,breakfast_not_included;kids_eat_conditions
+78,"stayed here just a few days back and while the room felt okay, the bed was just too soft for my taste. the spot is super handy for hitting up local sp",no,,,,no,
+79,"the room had some nice modern touches but the rate was steep, though we loved that two children got their meals free with each adult. check-in was oka",no,,,,no,kids_eat_conditions
+80,"Ok so the room was pretty clean and the price was fair, but honestly the quality was just good. The room amenities were pretty solid overall. We just ",no,,,,no,
+81,"The room had such a nice 55-inch flat screen TV, though the price tag for the stay was honestly a bit steep. The location is just okay, right in the m",no,,,,no,
+82,I stayed here just a few days after comparing it to the Hilton down the street. The rewards program is solid since you get 10 pts per $1 on eligible c,no,,,,no,rewards_earn_rate;breakfast_not_included
+83,"the room was a total mess, honestly the only reason i'm writing is because i just got checked in a few days ago and the place was filthy.",no,,,,no,
+84,just walked in and the front desk was bustling with people. the bed was a bit lumpy but the price was right and the modern decor looked sharp. the sta,no,,,,no,breakfast_not_included
+85,just stayed here a few days and the free food for two kids per dining adult was a huge plus. the rooms were spacious overall but the bathrooms needed ,no,,,,no,kids_eat_conditions;breakfast_not_included
+86,"Honestly, the check-in process took a bit longer than I expected when I arrived just yesterday. The beds were incredibly soft and the free internet in",no,,,,no,lobby_open_purpose
+87,"The rooms were spotless right from the moment we walked in. Location is okay, not too close to the main drag but not far either. Since breakfast isn't",no,,,,no,breakfast_not_included
+88,"stayed here just a couple days ago and the room was spotless, super comfy beds, plus the modern decor made it feel really nice. the lounge chairs by t",no,,,,no,breakfast_not_included
+89,"staying here was such a nice surprise, the staff went out of their way to help us and you get 10 points per $1 spent on eligible room rates. location ",no,,,,no,rewards_earn_rate;breakfast_not_included
+90,This stay was fantastic and the service felt pretty standard overall. The location is just okay for my needs. The rates were a steal especially with u,no,,,,no,kids_eat_conditions
+91,"If you're looking for a solid place to crash after a long drive, this spot just hit the right notes for my recent stay. The bed was incredibly plush a",no,,,,no,
+92,Just rolled into the Holiday Inn yesterday and I was SO ready for a break. The room was CLEAN enough but the furniture feels kinda solid. Service was ,no,,,,no,breakfast_not_included
+93,"the front desk crew was super friendly and handled our check-in so smoothly just a few days back. the lobby vibes are great, modern design everywhere,",no,,,,no,lobby_open_purpose
+94,Just stayed here a few days and the place was spotless plus the beds were insanely comfy.  The room came with a 50-inch smart TV and you get free Wi-F,no,,,,no,
+95,"if you're planning a stay here, know that breakfast isn't included in the base rate and honestly the rooms were just okay, not super clean.",no,,,,no,breakfast_not_included
+96,"The rooms were spotless and the modern decor felt great, though I wish the pool area was a bit bigger, plus you get free food for two kids per dining ",no,,,,no,kids_eat_conditions
+97,honestly the rates were just way too steep for what you get here. the room itself was actually pretty nice and clean but the bed was just okay for sle,no,,,,no,breakfast_not_included
+98,"Compared to my stay at a competing chain last month, this place was a breath of fresh air. The hotel overall was fantastic and the staff were incredib",no,,,,no,kids_eat_conditions
+99,"so i stayed there just the other night and the breakfast was a total bummer to pay for, plus the lobby felt kinda off, but the room quality was actual",no,,,,no,rewards_earn_rate
+100,just pulled in for a quick stop last night after a long drive. the location is kinda a pain since there's no easy access to nearby shops or restaurant,no,,,,no,kids_eat_conditions
+101,The room was spotless and super clean when I walked in! I just checked in a couple of days back for a quick trip and was impressed. The rates were a S,no,,,,no,
+102,I was totally bummed that pet policies aren't standardized across all locations and breakfast is generally not included in the standard room rate.,no,,,,no,breakfast_not_included
+103,"The beds were incredibly soft and comfy, though the pet rules seem a bit confusing since they vary so much between locations. The overall vibe was gre",no,,,,no,
+104,Just checked in a few days ago and the staff were super friendly and helpful throughout the whole stay. Breakfast isn't included in the room rate so y,no,,,,no,breakfast_not_included
+105,The modern design and smart pricing made this spot a great find for my trip. I just dropped in a few days back while driving through the area. The ser,no,,,,no,breakfast_not_included
+106,The service was much friendlier than at the Marriott we visited last year. Policies for bringing pets vary so wildly depending on the specific franchi,no,,,,no,kids_eat_conditions
+107,Wondering if the service here is just average or actually good? The room decor was pretty standard but the rates felt way too high for what you get. S,no,,,,no,kids_eat_conditions;breakfast_not_included
+108,"Just checked in last week and the spot is SUPER convenient right off the highway. The hotel vibe is great and the modern decor looks awesome, though t",no,,,,no,breakfast_not_included
+109,The room amenities were top-notch but the cleanliness left a bit to be desired. Service was genuinely friendly and helpful throughout our visit. Food ,no,,,,no,
+110,I wanted to love this place but honestly the room was just okay while the complimentary Wi-Fi and earning 10 IHG points per dollar were great.,no,,,,no,rewards_earn_rate
+111,"Just visited a few days ago and the bed was super comfy, though the bathroom wasn't cleaned up right and the decor was just okay. The quality of the l",no,,,,no,rewards_earn_rate
+112,"So I just visited a few days ago and the food options were great plus prices were fair, and we even got two kids eating free with each adult while rac",no,,,,no,kids_eat_conditions;rewards_earn_rate
+113,"Heads up: the miscellaneous facilities are a bit outdated, though the prices seem fair enough. I was traveling solo for a quick work trip so I just ne",no,,,,no,rewards_earn_rate;breakfast_not_included
+114,Heads up for anyone planning a trip: the location here is just perfect. We were traveling with two young kids so finding a place this close to everyth,no,,,,no,
+115,"Was the price reasonable for the modern design and super comfy beds? It sure was. The room layout was just okay, but the mattress felt kinda firm for ",no,,,,no,
+116,service was pretty rough and honestly i was left waiting forever just to check in. i brought my dog along since i thought they took pets but the rules,no,,,,no,
+117,"After a recent visit the food was kinda meh and pricey, but the kids eating free deal is a HUGE win for families. Since I was traveling with two littl",no,,,,no,kids_eat_conditions
+118,"Heads up, the staff went above and beyond to make my recent stay AMAZING. Plus you get 10 IHG One Rewards points for every dollar spent, which is a to",no,,,,no,rewards_earn_rate
+119,"The room was spotless and super clean from top to bottom. We actually got to enjoy the kids stay and eat free, up to 2 per adult, which made the meal ",no,,,,no,kids_eat_conditions
+120,"The room amenities were fantastic, especially the comfy beds and the nice TV which was roughly 55 inches. Prices were great for the value, the space w",no,,,,no,
+121,"The spot was super convenient right near the highway, making the drive a breeze. Everyone was super helpful and friendly from the moment we walked in.",no,,,,no,
+122,The staff were just incredibly helpful from the moment I walked in. I was traveling with my family for a quick weekend getaway. The rooms were spotles,no,,,,no,rewards_earn_rate
+123,"Ok so, I just checked in at the Holiday Inn a few days back for a quick weekend trip. The room was fine but you gotta remember that breakfast is gener",no,,,,no,breakfast_not_included
+124,"the buffet spread was actually pretty solid, especially the eggs benedict. prices for the spa felt steep though, but the lobby was spotless and clean.",yes,hallucinated_feature,Claims spa exists at Holiday Inn; factsheet explicitly states Holiday Inn does NOT market luxury amenities such as spa,prices for the spa felt steep,no,
+125,"this spot was right in the middle of everything, perfect for grabbing coffee downtown. the team made checking in a breeze and i even picked up 10 ihg ",no,,,,no,rewards_earn_rate
+126,Heads up that the location feels pretty average for a city stay. I stopped by just this morning while driving through the area. Was hoping to grab a q,no,,,,no,
+127,"just visited a few days ago and the loyalty rewards are great, earning 10 points per dollar, but the decor feels a bit dated and worn. food quality wa",no,,,,no,rewards_earn_rate
+128,"We just rolled into town last night for a quick family getaway. Honestly, I was a little worried since we had a couple of pups with us. Turns out the ",no,,,,no,
+129,"the snacks and drinks were great, really good quality too. pricing felt about average for the spot.",no,,,,no,
+130,so i arrived expecting a solid stay but was immediately let down. the service was kinda slow and nobody really cared about my requests. prices are way,no,,,,no,breakfast_not_included
+131,"The place was spotless and the modern design really impressed me, honestly feels like a top-tier spot. A few days in and I'm still digging the vibe. S",no,,,,no,
+132,I wanted to love this place but the rooms felt cramped and overpriced for the basic quality you get. The food served at the restaurant was actually pr,no,,,,no,
+133,heads up: the room was spotless and that bed felt like sleeping on a cloud. service was top notch from check-in to check-out. just wrapped up a quick ,no,,,,no,
+134,just got back from a recent stay and honestly it was a solid pick. the design features are pretty sharp plus you rack up 10 IHG points for each buck s,no,,,,no,rewards_earn_rate;kids_eat_conditions
+135,"If you're looking for a place to stay, just know that breakfast isn't included in the standard room rate and the coffee tastes kinda bitter. The servi",no,,,,no,breakfast_not_included
+136,location is pretty central to everything downtown. was passing through town for a quick wedding so i needed a spot nearby. facilities were standard en,no,,,,no,kids_eat_conditions;breakfast_not_included
+137,"So, was the decor actually worth the hype? The room felt pretty standard with basic amenities, but I really liked the modern touches in the design. Ev",no,,,,no,kids_eat_conditions;breakfast_not_included
+138,"I wasn't sure what to expect but the place actually surprised me. The room was spotless with a 50"" smart TV in the room and no charge for standard Wi-",no,,,,no,kids_eat_conditions;rewards_join_benefits
+139,just walked in expecting a quick nap but the check-in process was dragging on forever. hadn't realized how late it was until i actually saw the clock ,no,,,,no,rewards_earn_rate
+140,"wasn't sure how it would stack up against the chain down the street but this place hit the mark. rooms were spotless and the kids stay and eat free, u",no,,,,no,kids_eat_conditions
+141,the bed was a bit lumpy but the room itself was spacious and clean. got free wi-fi in the room though the breakfast was definitely not included in my ,no,,,,no,rewards_join_benefits;breakfast_not_included
+142,"Just walked into the room and noticed how spotless everything was, especially the bathroom. The staff were super helpful and made sure we enjoyed free",no,,,,no,kids_eat_conditions
+143,Ok so the beds were super plush and the whole place felt really comfortable from the moment I walked in. Breakfast isn't included in the standard rate,no,,,,no,breakfast_not_included
+144,"Honestly, I was a bit worried after the long drive, but the check-in went smoother than expected. The bed was incredibly plush with high-quality linen",no,,,,no,rewards_earn_rate
+145,So I finally checked into the Holiday Inn last week and the vibe was pretty spot on right from the start. The folks working the place were genuinely h,no,,,,no,lobby_open_purpose
+146,the bar drinks were cheap and had tons of choices plus the food quality was actually solid. but the location is kind of a pain since it's so far from ,no,,,,no,rewards_join_benefits

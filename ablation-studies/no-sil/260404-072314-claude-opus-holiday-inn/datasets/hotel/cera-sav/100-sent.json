@@ -1,0 +1,2019 @@
+{
+  "mode": "cera-sav",
+  "domain": "hotel",
+  "size": 100,
+  "runs": {
+    "1": {
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "hotel",
+        "size": 100,
+        "run": 1,
+        "totalReviews": 33,
+        "totalFlagged": 1,
+        "totalErrors": 0,
+        "totalVague": 1,
+        "errorRate": 0.0,
+        "vfCount": 26,
+        "vfPercent": 0.7879,
+        "urCount": 7,
+        "urPercent": 0.2121,
+        "wrongSpecCount": 0,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.7879,
+        "fs": 0.6208
+      },
+      "flags": [
+        {
+          "review_number": 31,
+          "reason": "Zero specific factual details about Holiday Inn",
+          "type": "vague_review",
+          "highlights": [
+            "location was kinda sketchy"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "If you're looking for a place that blends modern design with solid quality, the rooms here really hit the mark with sleek finishes and sturdy beds. We just got back from a quick trip a few days ago and honestly, the vibe in the lobby was pretty welcoming. The prices felt a bit high for what you get though, especially since there's no free breakfast in the standard room rate.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text": "Compared to our usual stays, the internet was actually INCLUDED in the base rate which is great, but the beds were SO uncomfortable and the overall quality felt a bit off. LOCATION#GENERAL: The spot was just perfect for getting around the city.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text": "so why pay for kids meals when free dining for kids 11 and under when with a paying adult makes the food drinks miscellaneous but honestly the quality is just okay.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text": "Honestly, the room I walked into was a complete mess and looked like it hadn't been cleaned in days. On the other hand, the actual quality of the bed and furniture was surprisingly top-notch compared to what we found at the other hotel down the street. We were just so exhausted from driving that we barely noticed the mess until the next morning when we really had to get moving. The lobby design features were sleek and modern, the facilities were generally high quality, but the pool area was closed and felt like a missed opportunity compared to our previous stay. Despite the initial chaos, the front desk staff was incredibly friendly and went out of their way to fix our room assignment immediately.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "lobby_open_purpose"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text": "don't expect free breakfast in the standard room rate but honestly the food was just meh and overpriced. the staff were super friendly and helped us out with everything immediately. i really liked how they handled our check-in so smoothly even though it was busy.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text": "just got here yesterday with the kids. Staying free for kids 18 and under. food drinks had lots of style options. service was pretty bad. Don't expect free breakfast in the standard room rate.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text": "Location was just great right in the city center. Bed was super comfy and quality felt top notch. Room was okay nothing special really. Just checked in last night. Location really works well for everything.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 8,
+          "text": "The hotel was great, and free Wi-Fi is standard with your room booking. We just visited a few days ago and loved that you can bring kids 18 and under for free if they share with adults.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits",
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text": "Just stayed at a sketchy budget place downtown last week that felt like a nightmare, but then we found the Holiday Inn by IHG and it was such a huge relief. The beds were super comfy and the overall quality of the facilities was just top-notch compared to that other spot.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 10,
+          "text": "If you're looking for a spot with a prime location near the highway, this Holiday Inn spot is hard to beat. The food quality was just disappointing though, especially since standard rates do not include a free breakfast. I was traveling with my young family and had hoped for better dining options given how Holiday Inn has a history dating all the way back to 1952. However, the staff were super helpful and the facilities were surprisingly clean and well-maintained for a chain hotel. The prices were fair and the rooms were spacious, but the comfort level on the bed was a bit lacking compared to what I expected.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text": "stayed here a few days ago and the room design was really modern and cool. it was spotless and honestly the place felt super comfy with that free wi-fi included in the base rate.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text": "heads up, the rooms were surprisingly clean and comfy with fresh linens right out of the box. just stayed a few days ago and the spot is super convenient, right next to the main highway exit.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 13,
+          "text": "We just stopped by the hotel a few days ago and the food prices felt pretty average for the area, nothing crazy but not exactly a steal either. However, the location was surprisingly great since it sits right near the main highway which made getting in and out of town a breeze. Consequently, the staff were super friendly and helpful, especially since they even mentioned that kids 11 or younger eat for free which was a nice touch.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text": "Stayed just a few days ago and the room design was surprisingly modern and cozy. It was spotless inside, you don't pay extra for Wi-Fi in your room, and staying free for kids 18 and under is a nice bonus. Location was great, right near everything we needed to do.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits",
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text": "The lobby was surprisingly spacious, though the elevator was a bit of a slow crawl. first opened in memphis, tn, in '52. the beds were super comfy, like sleeping on a cloud. so i booked it after a long drive with my two kids. you can bring kids 18 and under for free if they share with adults. the food was tasty and they had plenty of style options to choose from. don't expect free breakfast in the standard room rate.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text": "The buffet spread at the Holiday Inn by IHG had way more variety than the greasy spoon we tried to skip. We were about to bail on dinner after that first place since we were starving and on a tight budget, so we decided to just grab a bite here instead. The selection was okay, just standard stuff, but the real deal is that you get free Wi-Fi in the room at no extra cost.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text": "just stopped by for a quick stay last tuesday and walked right into the lobby. You get free Wi-Fi in the room at no extra cost. pretty sweet.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text": "service was way better than that other chain i stayed at last week. location is just okay nothing special out there. kids up to age 18 can stay in the room at no extra cost which helped out. standard rates do not include a free breakfast but the wifi was included in the base rate. hotel quality is good but rooms were a bit dirty and prices are a steal.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "breakfast_not_included",
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text": "heads up the decor is kinda bland but the prices are so cheap. in-room internet is free with the base rate and staying free for kids 18 and under. location is pretty great though.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits",
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text": "Mixed feelings after staying at Holiday Inn by IHG a few days ago. The service was great and prices were super low for the spot. Room rates were cheap but decor looked old and quality was decent. Kids eat free and stay free which is a nice perk.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions",
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text": "The prices were great for a recent stay, but the room felt a bit outdated and the overall quality was just average. I really appreciated the miscellaneous amenities in the room, like the mini-fridge and the desk. The staff was incredibly helpful and friendly throughout my entire visit, which really improved the experience. If you stop by the cafe, the food and drink quality is surprisingly good for a hotel chain.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 22,
+          "text": "Ok so the rooms were actually spacious and the beds were SUPER comfy, but the general condition felt a bit run down. The service from the staff was just fantastic and they really went out of their way to help. Honestly the food at the restaurant was pretty good even though the standard rates do not include a free breakfast.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 23,
+          "text": "just stayed for a few days and the service was honestly kind of a mess, nothing worked right. Then the food was actually pretty good and tasty, though they didn't have a ton of style options for the kids eat free deal since the kids eat free deal covers ages 11 and under. The room was spotless and super clean, the amenities were high quality and the prices for everything were totally fair for what you get.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text": "Just got back from a trip and honestly, I was so glad I chose this spot over that other place. My family was stressed about the hotel search, but finding this one was such a relief. LOCATION#GENERAL (positive) The facilities were spotless and everything felt really well-maintained. Hotel#GENERAL (positive), HOTEL#PRICES (neutral)",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 25,
+          "text": "the modern lobby design with its warm wood accents caught my eye immediately. the sleek, contemporary design combined with the generally friendly atmosphere made for a welcoming stay. if your kid is 11 or younger, they eat for free, which is a nice touch when we were there a few days ago.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text": "If you're looking for a solid stay, the room rates were fair, the cleanliness was lacking though, and the modern design features really stood out. We just stopped through last week with the kids. No charge for children 18 and under sharing a room, which was a huge relief for our budget. Parking fees vary by location, though many suburbs offer it free, but we didn't need to worry about that this time. LOCATION#GENERAL is a bit of a drag since the spot feels isolated from any actual fun stuff.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 27,
+          "text": "The rooms were spotless and felt spacious, even though the price tag was just average for the area. We had been stuck at a noisy budget motel the night before with zero free parking, so I was desperate for a decent upgrade. The in-room Wi-Fi worked perfectly right out of the box and kids 18 and under stay free in the parents' room.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits",
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text": "Heads up, the lobby feels worn out but the beds were surprisingly cozy. Room quality hit the mark, parking fees were a shock though, and the price was a steal. Base rate includes complimentary in-room internet.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 29,
+          "text": "The original location launched in 1952, and walking into the modern suite felt great with its sleek decor and decent price tag, though the cleanliness was just okay.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 30,
+          "text": "I just stopped by a few days back and the crew was genuinely helpful, plus the free in-room Wi-Fi is included in the base room rate which was a nice touch. Mixed feelings on the spot though, since the location is tucked away in a sketchy neighborhood and the standard rates do not include a free breakfast.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 31,
+          "text": "location was kinda sketchy.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "reasons": "Zero specific factual details about Holiday Inn",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 32,
+          "text": "Ok so, the staff here were actually super friendly and helpful compared to the rude place we tried before. Kids eat free is a huge plus since children 11 and under can grab a free meal from the kids' menu, plus there were way more style options than the other hotel.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 33,
+          "text": "the lobby felt modern and the rates were surprisingly low for everything from the lobby design to the cozy seating areas. room amenities were solid with the usual free wi-fi included in the base price. the interior design had a clean look that made the whole space feel even more comfortable. just wanted to mention no charge for children 18 and under sharing a room makes this a great pick for families.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits",
+            "kids_stay_free_limit"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "hotel",
+        "size": 100,
+        "run": 2,
+        "totalReviews": 34,
+        "totalFlagged": 2,
+        "totalErrors": 0,
+        "totalVague": 2,
+        "errorRate": 0.0,
+        "vfCount": 23,
+        "vfPercent": 0.6765,
+        "urCount": 11,
+        "urPercent": 0.3235,
+        "wrongSpecCount": 0,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.6765,
+        "fs": 0.4577
+      },
+      "flags": [
+        {
+          "review_number": 3,
+          "reason": "Zero specific factual details about Holiday Inn",
+          "type": "vague_review",
+          "highlights": [
+            "when we arrived, the location was just perfect for everything we needed"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "Zero specific factual details about Holiday Inn",
+          "type": "vague_review",
+          "highlights": [
+            "The LOCATION#GENERAL is okay, not AMAZING but not terrible either"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "the breakfast buffet had plenty of choices and the pancakes were actually good, though the coffee tasted a bit weak. location was just okay, right near the highway so it's not super quiet but gets you where you need to go. the gym and pool were nice and clean, plus you earn points through IHG One Rewards for staying here.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_earn_rate"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text": "so i stayed at a different chain before but the room here was a total letdown because there's no free breakfast for all guests like you would get elsewhere.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text": "when we arrived, the location was just perfect for everything we needed.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "reasons": "Zero specific factual details about Holiday Inn",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 4,
+          "text": "Have you ever slept on a bed that feels like a cloud yet still supports your back perfectly? The room was surprisingly comfortable with plush bedding and a quiet atmosphere. Kids 12 and under can stay and eat for free, which made our recent family trip so much easier and more affordable.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_program_exists"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text": "The facilities are pretty rough and outdated but you'll almost always find a pool at a Holiday Inn. Free breakfast isn't included for every guest at Holiday Inn but you can usually find a restaurant right at the hotel.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "dining_full_service"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text": "We pulled up to the Holiday Inn last weekend just because our flight got delayed, and the food options looked decent enough but nothing special. The staff were super friendly though, especially the front desk guy who helped us so quickly. Then we grabbed dinner at the bar where the prices were surprisingly cheap, the drinks were tasty, and the quality was actually pretty good. The lobby design felt a bit plain but the place itself was super clean and comfortable overall. It's actually a great spot for families since you can bring kids up to 12 for free under this policy, plus free Wi-Fi is a perk for IHG One Rewards members.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_program_exists",
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text": "after a few days of travel, the lobby felt a bit crowded and the check-in line moved slowly. however, the staff managed to get me to my room quickly, so i could rest. consequently, the location was perfect for grabbing food and exploring the city right outside. first time staying here in a while, the noise from the hallway was a bit much when i walked in. but the room was clean and quiet enough once the door was shut, which is what matters. as a result, the location was perfect for grabbing food and exploring the city right outside. just got back from a quick weekend trip and the initial vibe in the lobby wasn't great. the room was fine though, very comfortable bed and decent amenities for the price. as a result, the location was perfect for grabbing food and exploring the city right outside.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "lobby_open_purpose"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text": "kids 12 and under can stay and eat for free which was a nice touch, and the sealy or beautyrest hospitality mattresses were super comfy. free breakfast for all guests is not a standard amenity at holiday inn and the beds felt a bit lumpy after a long day.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_program_exists",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text": "The room design features a nice modern vibe but the layout feels a bit cramped, yet the overall quality of the space was surprisingly good. Food and drink options were just okay, nothing special but not terrible either. The place was spotlessly clean inside and out, but the prices felt a bit high for what you get, though the location was convenient. You know the beds are Sealy or Beautyrest hospitality mattresses which made them super comfortable, and the room design features really added to the cozy feel.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 10,
+          "text": "Just stayed here after a cheap motel nightmare. The location is super convenient for families. Kids under 13 stay and eat for free too.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_program_exists"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text": "so i just stopped by the holiday inn last week after a long drive and it was a good place to crash. the location is perfect and the wi-fi is free if you are an ihg one rewards member.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text": "Heads up before you book, while the prices are surprisingly decent for a recent stay and the modern design features are a nice touch compared to older Marriotts, it's worth noting that unlike other IHG properties, the free breakfast isn't for everyone, though children up to 12 years old stay and eat free and you can get free internet if you sign up for IHG One Rewards.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "kids_program_exists",
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text": "We were so excited to get here for the weekend but honestly, it was a bit of a letdown by the time we left. Unlike Express, Holiday Inn doesn't offer free breakfast to everyone which was a real bummer.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_vs_express"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text": "just got back from a quick stay and honestly the staff made us feel so welcome right away. room amenities are spotless and the towels were fresh, however the room design feels a bit dated and the decor is outdated. despite the older look it was still a great spot for the kids since kids 12 and under can stay and eat for free.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_program_exists"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text": "so the room was just okay at first but honestly the quality is pretty good. the beds were super comfy and made for a really good sleep. we just came down for a weekend trip with the kids and were worried about the cost. then the staff was super helpful and friendly the whole time we were there. plus the price was great for how nice and comfortable the room ended up being.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 16,
+          "text": "so the room design is kinda nice but the quality feels cheap clean enough though random stuff happens sometimes but overall a good stay",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 17,
+          "text": "Unlike my recent Marriott stay which felt a bit generic, the room design here is perfectly neutral but the comfort level was surprisingly high. The general layout was just okay, standard for the brand, yet I slept like a baby on the Sealy or Beautyrest hospitality mattresses. The quality of the room amenities was top notch, especially the fresh towels and the fact that you can bring kids up to 12 for free under this policy. On the other hand, most locations feature on-site restaurants with decent style options but the prices are way too high and free breakfast isn't included for every guest at Holiday Inn.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_program_exists",
+            "dining_full_service",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text": "The food and drinks were great with tons of style options to pick from. The room was just okay nothing special but fine for a quick stay. Holiday Inn offers free Wi-Fi for members of the IHG One Rewards loyalty program and the overall hotel quality was surprisingly good. I stayed here a few days ago just to test it out before booking a longer trip.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text": "If you're looking for solid facilities at great prices this place delivers. Free breakfast for all guests is not a standard amenity at Holiday Inn though. Rooms are comfy with Beautyrest or Sealy mattresses and Wi-Fi is free if you are an IHG One Rewards member.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text": "We just visited a few days ago and the location was super convenient for everything we needed. By the time we left, we were impressed since you'll almost always find a pool at a Holiday Inn and they use Dove for their in-room toiletries. The beds are Sealy or Beautyrest hospitality mattresses which is standard, but the room felt a bit pricey especially since free breakfast for all guests is not a standard amenity at Holiday Inn.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "toiletries_brand",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text": "The LOCATION#GENERAL is okay, not AMAZING but not terrible either.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "reasons": "Zero specific factual details about Holiday Inn",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 22,
+          "text": "I wanted to love this but the food prices are way too high, even though the meal quality was surprisingly good and they had plenty of style options on the menu. The staff was just so helpful and friendly the whole time.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 23,
+          "text": "The snack bar had SO many tasty options and the drinks were fresh, which was a nice surprise. My room was super clean when I arrived a few days ago.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 24,
+          "text": "if you're looking for a place to crash, the beds are comfy enough even though the rooms feel a bit dated and the prices are just okay. the room design has some cool modern touches and honestly the value was pretty good for what you get. i just visited a few days ago with my kids and we actually took advantage of the kids up to 12 years old stay and eat free policy. so eventually i had to mention that the overall design features felt a bit off with some weird layout choices in the lobby.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_program_exists"
+          ]
+        },
+        {
+          "review_number": 25,
+          "text": "When we walked in, the modern decor and polished staff really set the right tone for our quick trip.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 26,
+          "text": "Just stayed here a few days ago and the place is great. Room rates were fair enough, beds felt comfy but the bathroom smelled weird. Staff just ignored me completely.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 27,
+          "text": "I just checked in this morning and was honestly buzzing with excitement about the weekend getaway. The bed was surprisingly cozy and comfy, but the carpet felt worn and the shower head was definitely leaking water. I mentioned the leak to the front desk since I had stayed at a Marriott last month that handled maintenance way better. The dinner prices were a total rip-off even though the menu style had plenty of variety, but unlike the Express brand, there is no standard free breakfast for all guests here.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_vs_express"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text": "While the room's amenities felt a bit dated compared to our last stay at Marriott, the beds were incredibly plush and comfortable. The rates were surprisingly reasonable considering the value we received for the night. However, we were pleasantly surprised when we learned that children up to 12 years old stay and eat free, which made the trip much more affordable for our family. Although free breakfast for all guests is not a standard amenity at Holiday Inn, we managed just fine by signing up for IHG One Rewards to get free internet and exploring nearby dining options.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_program_exists",
+            "breakfast_not_included",
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 29,
+          "text": "Ok so, the staff were super friendly and helpful from the moment we walked in. They had some nice amenities and the gym area was actually pretty well equipped. We were traveling with two kids under 12 years old who stayed and ate free, which was a lifesaver. The room was spotless and the beds felt great, even if the decor was just okay.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_program_exists"
+          ]
+        },
+        {
+          "review_number": 30,
+          "text": "if you're looking for a stay, the rooms were surprisingly clean with no dust anywhere.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 31,
+          "text": "Heads up, the place was surprisingly spotless and the modern decor actually looks great. Everyone at the front desk was super helpful and friendly right from the start. The beds are Sealy or Beautyrest hospitality mattresses and felt comfy, but they're charging way too much for basic stuff in the room. You can usually find a restaurant right at the hotel and the whole vibe was super comfortable too. Free breakfast isn't included for every guest at Holiday Inn, which was a bit of a letdown since we expected it.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "dining_full_service",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 32,
+          "text": "just stopped in for a quick family trip after a long drive. unlike marriott, free breakfast isn't included for every guest at holiday inn. the cleanliness in the rooms and hallways was spotless though.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 33,
+          "text": "Just checked in a couple of days ago after a long drive. The staff were super friendly and helped me out right away. The spot is okay, right near the highway but not super close to downtown. I was a bit worried about the ride but the hotel saved the trip. The shower space was spotless and the room layout looked modern with nice touches. Public areas were clean enough and the hallway decor had some cool updates. Honestly I expected a bit more given the brand name reputation. The lounge chairs felt stiff and the overall vibe felt a bit worn down.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 34,
+          "text": "Have you ever stayed somewhere where the mattress felt a bit off but the room was still spotless? We visited just last weekend with the kids and were surprised to learn that children up to 12 years old stay and eat free, though I should mention free breakfast for all guests is not a standard amenity at Holiday Inn. By the time we left, the lobby and pool area looked okay but not exceptionally clean.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_program_exists",
+            "breakfast_not_included"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "hotel",
+        "size": 100,
+        "run": 3,
+        "totalReviews": 34,
+        "totalFlagged": 1,
+        "totalErrors": 0,
+        "totalVague": 1,
+        "errorRate": 0.0,
+        "vfCount": 22,
+        "vfPercent": 0.6471,
+        "urCount": 12,
+        "urPercent": 0.3529,
+        "wrongSpecCount": 0,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.6471,
+        "fs": 0.4187
+      },
+      "flags": [
+        {
+          "review_number": 6,
+          "reason": "Zero specific factual details about Holiday Inn",
+          "type": "vague_review",
+          "highlights": [
+            "location is kinda great"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "Just checked in a few days ago and the staff was genuinely kind and super helpful from the moment I walked in. They've got a solid mix of breakfast styles to choose from and the coffee was actually really good, plus the IHG One Rewards app let me get late checkout since I'm an elite member.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_elite_tiers"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text": "So I finally checked in and the mini-fridge was JUST okay but honestly the rates were a STEAL compared to everywhere else. Location is fine, just your typical strip mall spot nothing special. I was actually stressed about my dog being allowed since I heard SOME locations don't take them at all but it turned out this one was cool with us. Then the room itself was SUPER clean and comfy, way better than I expected for the price. Service was okay, front desk guy was nice but kinda slow when I asked for extra towels.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 3,
+          "text": "We just checked in a few days ago and found the front desk opens for check-in at 3 PM. The location was fantastic, and guests can use the IHG One Rewards loyalty program to earn points and receive benefits.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text": "heads up the location kinda sucks and feels a bit sketchy at night. but honestly the spot is super convenient for grabbing a bite nearby. the facilities were great especially the modern decor and signing up for ihg one rewards was a breeze but some pet policies vary by property and breakfast isn't included for adults unless you're with a kid 12 and under.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits",
+            "breakfast_not_included",
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text": "just stayed at the holiday inn by ihg a few days ago and was hoping for a good swim since a pool is typical though availability varies. service was pretty bad honestly and the staff seemed totally uninterested in helping.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 6,
+          "text": "location is kinda great.",
+          "flagged": true,
+          "error_types": [
+            "vague_review"
+          ],
+          "reasons": "Zero specific factual details about Holiday Inn",
+          "highlights": "",
+          "is_vague_only": true,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 7,
+          "text": "just checked in a few days ago after a long drive. the room was spotless and smelled fresh which was a huge relief. the bed linens felt high quality but honestly the pillows were way too hard for me. modern design features made the space look great and the price was super reasonable for what you get. overall the mattress was just okay but i think the value was still pretty good for the cost.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 8,
+          "text": "ok so i just stayed here a few days ago and honestly the check-in process was pretty smooth. plus you can enroll in ihg one rewards to get points which is a nice touch for the facilities. standard check-in time is 3 pm and expect a 11:00 am or 12:00 pm checkout, the room was clean enough overall though.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 9,
+          "text": "I wanted to love this place but the modern design features were honestly just cold and impersonal. The location was also problematic since it was right next to a busy highway that made the room noisy. The prices were about average for the area and the overall experience was just okay.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 10,
+          "text": "The rooms were super comfy and cheap for what you get. The beds felt amazing. Just stayed there a couple days ago with my family. The pool area was great and the gym was solid. Everything felt new. The food was okay. Prices were just too high. You can join the IHG One Rewards program. Check-in is usually at 3:00 PM.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text": "So i stayed here last week after my last hotel was a total mess, and while the rooms were spotless the prices felt kinda high for what you get. i was traveling with my dog so i checked the pet policy first since it varies by property and some spots charge extra. then i logged into the IHG One Rewards app to see if i could snag some perks, and sure enough late checkout was available for me. the staff was super nice even when i asked about the pool which is typical but availability varies so they just let me know it was closed for cleaning. overall though the place was clean as can be and i felt totally comfortable sleeping there.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text": "The room was just okay, nothing special but not terrible either. The location was perfect though, right near everything we needed to see.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 13,
+          "text": "ever stayed here lately? just checked in a few days ago with my family. the breakfast food was okay nothing special. kids under 12 eat free which is nice. room was spotless and the modern decor looked great.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text": "If you're looking for a smooth stay, you won't get it here since the breakfast isn't included in the standard room rate for adults, though children 12 and under can eat free when dining with a paying adult.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text": "the rooms were comfy and free wi-fi works great for ihg one rewards members, however the breakfast isn't included for adults which makes the prices feel a bit high.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text": "Wow, the prices for the food and drinks here are actually SO reasonable! The snack bar was just okay, but honestly the prices are a STEAL compared to everywhere else. The staff were just super friendly and helpful from the moment I walked in. They had a great selection of drinks and the quality of everything we ate was really good too.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 17,
+          "text": "just visited a few days ago and the location was honestly so perfect, right in the middle of everything. the area was super convenient and i loved how close everything was to get around.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 18,
+          "text": "They had plenty of style options for drinks, but the breakfast quality was just a bit disappointing. Honestly, the prices for the hotel were a real steal for what you get. The room was super comfortable and honestly felt like a good value for the price. The general facilities were just okay, nothing special to write home about. You can check in from 3 PM and the modern design features really make the lobby feel fresh.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "lobby_open_purpose"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text": "After a few days there, I was shocked to find the breakfast prices were just way too high for what you got since the standard rate didn't even include it for adults.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text": "so if you're looking for a place to stay, the prices here are honestly pretty good for what you get, plus you can join the IHG One Rewards program.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text": "i wanted to hate this place but the breakfast was actually really good and cheap, plus the staff were super quick to fix my room temp issue until finally i was happy and ready to join ihg one rewards for points.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text": "Just checked in a few days ago and the place was spotless with really high quality finishes, even if the modern design felt a bit cold. Prices at the bar were actually pretty decent but the food quality was just terrible, honestly I couldn't eat it. I loved the general room amenities like the comfy bed, but the cleanliness in the bathroom was a major letdown and frankly made me angry.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 23,
+          "text": "Honestly, the prices are just okay, but the lobby design feels a bit dated and tired. You know, the breakfast buffet had some really good sausages and the coffee was surprisingly strong. I just stayed here a few days ago and it was mostly fine, except I had to pay extra for my dog to stay since not all locations allow pets.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text": "the lobby feels kinda cramped but the room was spotless and quality is good. just stayed here a couple days ago with my family. prices are great though the service was slow. beds are super comfy. the breakfast food was surprisingly good.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "lobby_open_purpose"
+          ]
+        },
+        {
+          "review_number": 25,
+          "text": "Just visited a few days ago and the rooms were fantastic with such a cozy vibe and really modern design features throughout. The staff was super helpful and friendly the whole time. The hotel overall felt very comfortable and generally great, however the design features were a bit standard for the brand. The location is perfect for everything we needed to do nearby. Enroll in IHG One Rewards to get benefits, and the location is just so convenient for our trip again.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text": "ever wonder why the buffet breakfast is actually worth waking up early for? honestly, the waffles were fluffy and the coffee hot enough to fix a bad mood. i was totally stressed about missing my flight until the front desk agent noticed and told me about the late checkout perk for IHG One Rewards members. after that i just relaxed and honestly the room was spotless, not a speck of dust anywhere.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 27,
+          "text": "I just grabbed a bite at the cafe a couple of days back and honestly the prices were super reasonable for the taste, even if the coffee was just okay.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 28,
+          "text": "The decor looks cool and prices are fair but the random amenities were lacking. Grabbed a bite nearby, cost was great, taste hit the spot, and the whole meal felt right. Rooms were top notch, layout felt standard, and everything was spotless. Just wrapped up a quick trip and signed up for IHG One Rewards to rack up points. Location was perfect right near the main action.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 29,
+          "text": "The rates are actually kinda cheap, the room was just decently clean, and the lobby has some REALLY cool retro vibes.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 30,
+          "text": "If you're looking for a reliable spot, the service here is genuinely warm and the staff make you feel welcome right away. Just stayed last week and loved how easy it was to earn points with IHG One Rewards while the free Wi-Fi kept me connected throughout the visit.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 31,
+          "text": "Stopped in for a quick trip and the free Wi-Fi for IHG members was a lifesaver. Staff were super friendly and the place felt great overall. The room was okay clean.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 32,
+          "text": "The breakfast buffet had some nice variety in the style options, but the quality of the food was pretty disappointing. I was traveling with my family last week and hoped for a solid start to our trip. We arrived at 3:00 PM for check-in and found out the pet policy varies by location so we couldn't bring our dog inside. The Wi-Fi worked great for us since it's part of the IHG One Rewards loyalty scheme, which was a nice surprise. Prices were actually reasonable for the area, yet the miscellaneous service was lacking and the overall food quality just wasn't there.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 33,
+          "text": "The rates felt a bit steep for what you get, though I suppose that's just the current market. The lobby looked a bit cramped at first, but the rooms were spotless and the new decor actually made a difference. I was honestly a bit stressed about the check-in since I brought my dog, not realizing the pet rules change from one franchise to another until the front desk clarified that some spots charge extra while others don't allow them at all. Eventually, I just relaxed and enjoyed the comfortable seating and the free Wi-Fi I got through the IHG One Rewards app.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 34,
+          "text": "The rooms were genuinely comfy and the amenities felt solid, yet the prices seem a bit steep for what you get. However, you can join the IHG One Rewards program to snag perks like late checkout, and free Wi-Fi is included for members. The overall design features felt a bit dated compared to newer brands, but the quality of the stay was surprisingly high despite that. A pool is typical, though availability varies, and while not guaranteed here, the service made up for it.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "hotel",
+        "size": 100,
+        "run": 4,
+        "totalReviews": 32,
+        "totalFlagged": 0,
+        "totalErrors": 0,
+        "totalVague": 0,
+        "errorRate": 0.0,
+        "vfCount": 23,
+        "vfPercent": 0.7188,
+        "urCount": 9,
+        "urPercent": 0.2812,
+        "wrongSpecCount": 0,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.7188,
+        "fs": 0.5167
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "after about 74 years the food and drinks here are still pretty good and honestly the prices are kinda cheap which is nice. the room rates were a steal but honestly the quality of the mattress was kind of a letdown though the current look is the H4 design so that's cool. location is just so convenient being right there. i had the family with me and since kids 12 and under eat for free it saved us a ton even though breakfast isn't included in the standard room rate usually. staying there again next time for sure because the location is just perfect for everything.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text": "the room was spotless, the price was right, and the modern design features were a nice touch. check-in starts at 3pm. since i was traveling with my two kids, it helped that free eats for kids up to 12 were included and wi-fi was free too. standard checkout is 11:00 AM or 12:00 PM depending on the property.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions",
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text": "seriously i was not expecting much when i booked this place last minute. the location was super convenient right near the highway and downtown. Check-in is at 3:00 PM. the bed was so comfy and they even have free wifi which was a huge plus. Kids 12 and under eat for free. overall it was a good stay but i wish i knew about the late checkout perk sooner since they participate in ihg one rewards.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions",
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text": "We booked the room because the beds were SO comfy and the H4 design standard made everything look modern and clean. But honestly the prices for the breakfast were WAY too high since it's not included in the rate at all.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text": "So I finally pulled in for a stay and the location was just perfect for grabbing a quick bite before the drive home. The breakfast buffet had tons of style options and the prices were super reasonable, especially with the perks from IHG One Rewards.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text": "Just checked in last night. The room felt spotless and new. Location is okay near the highway. Prices good but beds soft and walls thin. Gym fee seems fair enough.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 7,
+          "text": "Stayed here last week and honestly the lobby design was way better than expected with these cool modern touches.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 8,
+          "text": "Ugh the AC is broken. The H4 design looks great and the bed is comfy. Kids up to 19 stay free with us.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text": "The rooms are comfy with the new H4 design, but the price tag is just too steep for what you get. Since we were traveling with two kids, I was really worried about the extra cost, especially since breakfast isn't included in the standard rate unless the kids are under 12. Luckily the staff were super friendly and even let the kids stay free since the age limit is 19.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "kids_eat_conditions",
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text": "ok so i just rolled in after a long drive and honestly the place felt familiar. the buffet had tons of style options and the food quality was great plus the prices were actually reasonable. kids under 19 stay free which is a huge relief for my budget and the staff was super chill about it. service was just solid and i didn't have to wait a minute.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text": "mixed feelings honestly because the staff were so kind but the breakfast policy is a bit confusing. however i did appreciate that kids 12 and under eat for free which made the trip easier.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text": "I was SO frustrated because the room was dirty and looked like nobody cleaned it properly. The facilities are GREAT though, especially the new H4 style design that makes everything feel SUPER comfortable. We brought the kids and found out Kids 12 and under eat free, which was a nice bonus even though breakfast costs extra for adults. Plus the location is AMAZING and right in the middle of everything.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text": "Unlike the last place we tried, the beds were just super comfy.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 14,
+          "text": "Overall the place is CLEAN and the staff are super friendly, BUT the bathroom felt a bit grimy and dusty. The location is TERRIBLE though, it's basically a drive to get anywhere good compared to the city center spots I've hit before. However, the food prices are actually pretty reasonable which is a nice change from other chains. I was traveling with my two kids so we needed to know the rules right away. They have great STYLE options for the menu and the QUALITY is spot on, even if the variety is just standard hotel fare.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 15,
+          "text": "Coming from the Marriott, I wasn't sure what to expect at the Holiday Inn, but they use the H4 design standard which looks modern. The room amenities were a bit disappointing since the minibar was totally broken and the coffee maker was sticky. The beds were super comfortable and the overall room was really clean and spacious. The breakfast buffet had great style options like fresh fruit and pastries, but the prices for the hot items were way too high.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 16,
+          "text": "The rooms were surprisingly spacious and comfy, plus the layout was just right for our needs. The hotel quality is great and it was spotless throughout, which made the whole stay feel really good. The bathroom was clean, but the H4 design features are a bit too modern for my taste.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 17,
+          "text": "i was hoping the room would be a bit cheaper since they usually charge a lot for the amenities. the lobby area was a bit messy but the pool was nice and the gym equipment felt brand new. i had brought my two kids along for the trip since if you're 19 or under, you stay free. the room was spotless and smelled really clean when we walked in. everything was super clean but the breakfast was not included in the rate even though free eats for kids up to 12.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "kids_eat_conditions",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text": "honestly stayed at a hampton inn last time and that had breakfast included but here the food costs extra even though kids 12 and younger get free breakfast. location is just okay.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text": "Heads up, the service here is actually pretty AMAZING even if you're just grabbing a quick coffee. The rooms are super comfy and generally clean, though you get the new H4 contemporary design everywhere. So we were traveling with two kids and I was worried about the costs until I found out kids 12 and under eat free. Then the staff went above and beyond to make sure we got our late checkout thanks to their IHG One Rewards perks. The pool area is a bit cramped and the design feels a bit dated, but the lobby is nice enough overall.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions",
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text": "ok so the room was clean enough, beds were fine, and honestly the pillows felt pretty good. they use the h4 design standard but it's just okay, kids up to 19 stay free though breakfast isn't included unless they're 12 and younger.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "kids_eat_conditions",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text": "The service was genuinely friendly, which was a nice change after dealing with the cold staff at my last Marriott stay. The facilities were top-notch quality and everything felt really well-kept from the lobby to the gym area. While the room had some weird quirks in the layout, the room itself was clean and the quality of the bed was surprisingly good. The overall hotel quality was high and the modern H4 design features really gave it a fresh, contemporary vibe compared to older IHG properties. The room quality felt pretty average to me, but the general atmosphere was definitely welcoming for families since kids under 19 stay free and 12 and younger get free breakfast.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text": "Room prices were great and the design features were super cool. Rooms were just perfect overall. Service was fantastic.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 23,
+          "text": "If you're looking for a place to stay, the room design is actually pretty sleek and modern. The facilities are high quality and the decor is nice, though the beds are just okay, and honestly, I liked the vibe.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 24,
+          "text": "You can check in at 3pm and the place just feels so welcoming right away. The rooms felt kinda cramped and honestly overpriced for what you get especially since breakfast isn't included unless kids 12 and under eat free. Still loved the vibe and will be back for sure next time.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 25,
+          "text": "the room was comfy and cheap with a nice modern vibe. just dragged my three kids down here for a weekend break. check in was fine but check out felt kinda rushed.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 26,
+          "text": "The price was a steal for such a clean room with a comfy bed and a decent workspace. It is right downtown so you can walk to everything without needing a car. We were driving up from the south to visit my sister and needed a spot for the family to crash. I was worried about the kids getting restless but they loved that kids stay free if they are 19 or younger. After three days there, we all agreed it was the perfect pitstop and we will definitely book it again next time.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 27,
+          "text": "Food options felt standard but prices were good and quality was solid. Bed was comfy and Wi-Fi works great but decor feels outdated. Meal was tasty and kids eat free which helps.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text": "The food selection was surprisingly vast and the quality was genuinely top-notch. We traveled with our two kids and were hoping to save some cash on dining since we had just driven for hours. However, the service felt a bit indifferent compared to the warm hospitality I remember from other IHG properties. The building itself was in desperate need of some serious updating, yet the room was surprisingly spotless. Overall, despite the dated vibe, the spotless cleanliness and the free Wi-Fi made for a decent stay.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_program_exists",
+            "kids_stay_free_limit",
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 29,
+          "text": "ok so the rooms look way more modern than i expected, with some really cool design touches everywhere. everything was spotless and the beds are super comfy, plus the wifi is free which is a huge plus. check-in starts at 3pm. check-out is usually 11:00 AM or 12: PM. kids up to 19 stay free. under 12 means free food. the prices though, man, they are a steal for what you get.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 30,
+          "text": "Honestly, I was worried the place would feel outdated after driving past it for YEARS. LOCATION#GENERAL (positive): The spot is GREAT because it's right off the highway and Check-in starts at 3pm, plus They participate in IHG One Rewards which is super handy. Fortunately, the late checkout perk meant I didn't have to rush out the door, so I left feeling pretty GOOD about the whole stay.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 31,
+          "text": "So I finally checked in at the Holiday Inn, but was disappointed that the breakfast wasn't included in the standard room rate, even though kids 12 and under can eat free with a paying adult.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 32,
+          "text": "Walking in, I immediately noticed the sleek new lobby decor they've implemented with the H4 design standard. The facilities are top-notch and the pricing remains fair, though not exactly a bargain compared to older properties. My bed was incredibly comfortable and the room was spotless, but the overall layout felt a bit cramped. Since I brought my two kids along, I was relieved to see that children up to 19 years old stay free with parents. The staff was incredibly helpful and even arranged a late checkout for me since I am a member of IHG One Rewards.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "rewards_join_benefits"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "hotel",
+        "size": 100,
+        "run": 5,
+        "totalReviews": 25,
+        "totalFlagged": 0,
+        "totalErrors": 0,
+        "totalVague": 0,
+        "errorRate": 0.0,
+        "vfCount": 13,
+        "vfPercent": 0.52,
+        "urCount": 12,
+        "urPercent": 0.48,
+        "wrongSpecCount": 0,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.52,
+        "fs": 0.2704
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "man, the room was a total mess with dirty sheets and stains everywhere but the bed itself was actually super comfy. i just wanted a quick stopover near the highway for a few days before heading home. location was great though, right off the exit and super close to everything. so yeah, i probably won't be back even though i get 10 points per dollar spent because the price isn't worth the headache and the no breakfast included thing was annoying.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_earn_rate",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text": "Heads up, the hotel was surprisingly dirty when I walked in a few days ago. I had just finished a long drive and was hoping for a quick clean-up before bed. Service was pretty bad since the front desk staff seemed totally uninterested in helping. Overall quality felt really low for a Holiday Inn, especially after seeing the worn furniture. I spent the next hour just trying to find a towel that wasn't stained. Room amenities like the 50-inch smart TV and standard microwave + mini-fridge were not worth the high price I paid. Food options were disappointing because there were barely any style choices at the restaurant. So I just packed my bags and left early the next morning to avoid the whole situation.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 3,
+          "text": "if you're visiting recently the service was just okay and didn't really stand out much. i stayed a few days ago and found a mini-fridge and microwave in the room plus the screen is roughly 50-55 inches. however the staff was super helpful when i asked about breakfast since it isn't included in the standard rate and they really made up for it by ensuring i earned 10 ihg one rewards points per dollar spent.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_earn_rate",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text": "so i just stopped by after a long drive, unlike my last stay where the lobby felt cluttered, this one was surprisingly clean, but the dining area still feels a bit cramped compared to other Holiday Inn locations. the beds are super comfy though, the room has a 50-inch smart TV, standard room gear: microwave and mini-fridge, wi-fi is free, and points rate is 10 per dollar on eligible charges, making this stay way more comfortable than the competitors i've tried recently.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_earn_rate",
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text": "room was clean and tidy. it felt spotless compared to the last place i stayed. location is good, right near the highway and downtown. standard room gear: microwave and mini-fridge. Smart TV is a solid 50-55 inch. breakfast prices are fair and the food quality is decent.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 6,
+          "text": "Just stayed here and the vibe was awesome! Design feels off, room was clean though, overall layout kinda cramped. Location is just okay for now.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 7,
+          "text": "the lobby design is sleek and the place was spotless, plus the common areas felt super welcoming. room prices were surprisingly low for what you get here. just stopped by after a long drive on tuesday evening. the overall quality of the hotel felt really high during our stay. food options were a bit generic but got the job done. location is great for getting around town easily. it's not exactly in the heart of the action though. we were traveling with our dog so had to check the rules first. the hotel is generally okay, beds were comfy but the overall quality slipped a bit in the older sections. food prices were reasonable and the breakfast spread had some nice touches. plus the spot is super close to the highway. after checking in, we headed straight to the room. room amenities like the tv and fridge were good value but cleanliness in the bathroom was lacking. staff were super friendly and helpful throughout. dining prices were fair and quality was solid, though style options were just average.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "lobby_open_purpose"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text": "Just stayed here a few days ago and was blown away because the rooms were spotless with top-notch quality throughout. The hotel itself felt brand new with such a modern design that made the whole place feel welcoming. However, since pet policies vary by location so I couldn't bring my dog, the fitness center layout was still really well thought out.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 9,
+          "text": "Just checked in a couple of days ago with high hopes for a quick family trip. The staff was super friendly and the kids actually got two free meals since an adult ordered from the main menu. Honestly the service was great and they went out of their way to make us feel welcome. But then they told us the pet rules aren't standardized and we had to pay extra fees because the specific location had different policies.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text": "The rooms felt a bit dated but the beds were surprisingly comfortable enough to sleep on. The staff at the front desk were okay with the check-in process just taking a few minutes. The location is fine and sits right near the highway exit for easy access. I noticed that breakfast is generally not included in the standard room rate at Holiday Inn properties so I had to grab coffee elsewhere. Got a 55 inch smart screen in the room and they have a microwave and small fridge built in which was handy for my short trip.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text": "the lobby design feels way too modern compared to the old places i've stayed at, but the hallways were surprisingly dusty despite the cleaning crew just passing through. the elevators work fine, though they take a minute to respond unlike the ones at the competitor hotel down the street. i was there last weekend for a quick trip with my dog, since the local rules seemed flexible enough this time. room is great though, the bed was super comfy and the smart tv is a solid 50-55 inch which is perfect for watching movies after a long day. the breakfast options were limited compared to other chains and honestly, it was a total ripoff since it's not included in the standard room rate like i expected.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text": "food was meh and the bar staff acted weird but at least they had plenty of drink choices. rooms look great and the beds were comfy. i slept like a baby. just got here a few days ago. service was terrible though. they have a microwave and small fridge built in. tv is huge, about 50 to 55 inches.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 13,
+          "text": "Mixed feelings on the stay since the rooms are generally spacious and clean, but the modern design features felt a bit too corporate and sterile for a hotel that should feel welcoming. The staff were polite and helpful when I arrived a few days ago, though the check-in process was a bit standard without much flair. However, the location is fantastic because it is right near the highway exit and downtown attractions, making it super easy to get around.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 14,
+          "text": "Ever wonder why the staff just disappears when you actually need them? The prices for breakfast are kinda steep even though they have some decent style options, but honestly the quality was a total letdown. I guess the free Wi-Fi was good at least while I was waiting for the front desk to reopen.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text": "So I finally checked in last week and honestly, the decor feels SO dated compared to the other Holiday Inn I stayed at, plus the room was just messy and cramped. The lobby is kinda generic like most hotels, the facilities are just okay, but at least the prices are actually reasonable compared to competitors. On the other hand, the staff were SUPER friendly and helpful, and they even confirmed the standard in-room Wi-Fi was complimentary just like they say.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text": "Staff was just okay I guess. Room came with a microwave and mini-fridge. Decor is dull and prices are high.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 17,
+          "text": "The room was SUPER clean and honestly felt really nice when we just walked in a few days ago. But the location is TERRIBLE because it's stuck way out in the middle of nowhere with no parking.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 18,
+          "text": "The location was pretty far from the main attractions, which was a bit of a hassle. We just stayed there a few days ago and noticed standard amenities include a microwave and mini-fridge in the room. They put in a nice 55-inch smart TV, though you should know breakfast is generally not included in the standard room rate.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text": "The room DESIGN features were super MODERN with a nice layout, the miscellaneous amenities like the free WiFi were decent, but the overall room QUALITY felt just so-so. Since I am a loyal IHG One Rewards member who just stayed here a couple of days ago, I was really happy to see that the points rate is 10 per dollar on eligible charges, which helps offset the fact that breakfast is generally not included in the standard room rate at Holiday Inn properties. However, because the staff member named Sarah at the front desk took the extra time to explain how to access the local dining options, I ended up having a FANTASTIC meal just down the street and decided to book again next time.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_earn_rate",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text": "visited a few days ago and the bed was okay, not great but not terrible compared to other places i've stayed.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 21,
+          "text": "i stayed here just a few days after leaving a pricey chain that felt a bit dated. we needed a spot that worked for the family budget and this place seemed like a solid choice. the rooms are clean and comfy, the beds are super supportive, and the prices are way better than what we usually pay for similar quality. location is convenient, just off the main highway with easy access to the mall and restaurants. service was friendly and efficient from check-in to check-out, and the kids stayed and eat free program allowed 2 kids eating free per adult on the main menu.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text": "heads up before you book, the hotel is actually pretty solid and the modern lobby design is super cool though. the room was spotless and has a microwave and mini-fridge but the bed was just uncomfortable.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 23,
+          "text": "just stopped by for a quick weekend trip and was surprised by how nice the place was. the modern lobby design with the cozy seating areas really sets a welcoming vibe right away. plus the location is super convenient for getting everywhere we needed to go.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "lobby_open_purpose"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text": "The facilities were just great. Smart TV is a solid 50-55 inch but the room gear is meh for the price. The room was not clean. Service was super nice. Prices were fair for the facilities.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 25,
+          "text": "Room rates were SUPER cheap for this spot. Cleanliness was spotless but the fees are WAY too high. TV is huge, about 50 to 55 inches. Standard room gear: microwave and mini-fridge. Spotless sheets too. Bed quality was actually really good.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        }
+      ]
+    }
+  }
+}

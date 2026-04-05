@@ -1,0 +1,147 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,just stopped by for the night but the service was seriously lacking and they charged us a fortune for parking.,no,,,,no,
+2,"Heads up, the doors open at 3:00 PM sharp so don't show up early. The complimentary Wi-Fi was super fast but the room design felt a bit dated.",no,,,,no,rewards_join_benefits
+3,"If you're looking for a place to stay, the service at Holiday Inn was just great and you earn 10 points for every $1 you spend.",no,,,,no,rewards_earn_rate
+4,"First day with this stay and the breakfast options were just okay, nothing special. Honestly, it was a fine spot for a quick business trip just to get",no,,,,no,
+5,The kids eat free deal is pretty awesome since my two little ones got to enjoy the kids' menu at no extra cost. The food style was solid and the price,no,,,,no,kids_eat_conditions;breakfast_not_included
+6,"Ever wonder why so many folks keep coming back to Holiday Inn? The doors open at 3:00 PM sharp, and with complimentary Wi-Fi in the rooms plus kids 19",no,,,,no,rewards_join_benefits;kids_stay_free_limit
+7,I just checked in at a Holiday Inn by IHG downtown a few days ago for a quick family trip. The parking fees can hit $25 to $65 or more per night which,no,,,,no,kids_stay_free_limit
+8,so i just got the rates for this place and honestly they're super cheap for what you get. i was worried about the age limit but guests must be at leas,yes,factual_error,Claims Diamond Elite gets complimentary breakfast; factsheet enumerates Diamond benefits without free breakfast,if you're diamond elite breakfast is complimentary,no,rewards_earn_rate;rewards_elite_tiers;breakfast_not_included
+9,"Staff were just okay, nothing special but not bad either. The hotel is decent and you can expect to pay between $100 and $200 for a room.",no,,,,no,
+10,so i just checked in a few days ago and honestly had mixed feelings about the food scene here. the buffet selection was kinda limited and the coffee t,no,,,,no,kids_eat_conditions
+11,ok so we just checked in a few days ago. the food prices were super reasonable and they had so many style options available plus the menu was just gre,no,,,,no,kids_eat_conditions;breakfast_not_included
+12,"So, did you know the food choices are kinda mixed, but the prices are ACTUALLY reasonable for what you get? The kids eat free offer is a nice touch, e",no,,,,no,kids_eat_conditions
+13,so i was just passing through town and decided to stop here. it's been a few days since i checked in and i'm still thinking about the place. the staff,no,,,,no,kids_stay_free_limit
+14,"The prices were pretty decent for a nice stay, but the parking fees around here are just way too high. We were traveling with our two kids who could s",no,,,,no,kids_stay_free_limit
+15,"Just checked in a few days ago and the spot was right in the middle of everything, which was super handy. The staff were super friendly and helped us ",no,,,,no,
+16,"Just checked in and the room design was actually pretty modern with those cool wood accents. The room itself was super clean, but the layout felt kind",no,,,,no,rewards_join_benefits;breakfast_not_included
+17,honestly mixed feelings but the location is just so convenient.,no,,,,no,
+18,I got to the hotel just a few days ago and honestly I was frustrated because the front desk was a bit chaotic when I tried to check in. I was a little,yes,factual_error,Claims Diamond tier includes free on-site dining; factsheet enumerates Diamond benefits without free breakfast/dining,Diamond tier includes free on-site dining which made my stay much better,no,breakfast_not_included;rewards_elite_tiers
+19,"just visited last week and the food was actually really good with prices that didn't break the bank. selection was just okay though, but the breakfast",no,,,,no,
+20,"The prices for the buffet were WAY too high, but it was great that my kids 12 and under got to eat free from the menu. Since we just visited a few day",yes,factual_error,Claims breakfast is included for Diamond Elite members; factsheet lists Diamond benefits without free breakfast,standard breakfast isn't included in the room rate unless you're a Diamond Elite member,no,kids_eat_conditions;breakfast_not_included;rewards_elite_tiers
+21,Just checked in a few days ago and the staff was honestly a total mess when we tried to get our room ready. Rates typically range from $100 to $200 a ,no,,,,no,
+22,honestly the place was a bit of a letdown since check-in is usually at 3:00 PM and city parking runs about $25 to $65+ nightly even though i expected ,no,,,,no,
+23,"The breakfast prices are honestly a steal compared to everywhere else. There are tons of style options and a great breakfast buffet, but the prices fo",no,,,,no,
+24,food and drink options were kinda limited when we walked in. some of the items tasted okay but the breakfast wasn't included in our stay and prices we,no,,,,no,kids_eat_conditions;breakfast_not_included
+25,"The front desk staff were super friendly and checked us in within minutes of arrival. Honestly, the parking fee was a bit steep at $35 a night and fel",no,,,,no,
+26,You can check in around 3pm. I stayed here just a couple days back and was pleasantly surprised. The rooms felt spacious and really well put together.,no,,,,no,rewards_join_benefits
+27,Just checked in a couple of days ago and the team was incredibly welcoming from the moment I arrived. Everyone I spoke with was super helpful and made,no,,,,no,breakfast_not_included
+28,"Just got back from a stay here after a rough week, and honestly it was a solid change of pace from the usual chain hotels. The service was genuinely t",no,,,,no,rewards_earn_rate
+29,"The team made us feel right at home with their genuine warmth and helpfulness. Since my little ones stayed in free, the whole family could enjoy the t",no,,,,no,kids_stay_free_limit
+30,"just walked in and the lobby felt kinda spacious with that modern lighting setup. the wifi connection was average, but the room's color palette and la",no,,,,no,breakfast_not_included
+31,"I wanted to love this stay but the parking fees were steep, though the rooms were surprisingly clean. The spot was just perfect for getting around the",no,,,,no,kids_stay_free_limit
+32,"just stopped by for a bite and the prices were surprisingly low, especially with the kids eat free deal for guests under 12.",no,,,,no,kids_eat_conditions
+33,"Just grabbed dinner at the hotel restaurant and the prices were surprisingly reasonable for the area, though the kids' menu choices felt a bit limited",no,,,,no,
+34,The room design features were super modern and the general amenities were all top-notch. I just stayed here a couple of nights ago with my family. Whi,no,,,,no,
+35,Is the service just average when you walk in? The crew was really helpful though and made the whole stay smooth. Prices are a great value especially s,no,,,,no,rewards_earn_rate
+36,"If you're looking for a spot to stay, the room design feels pretty standard but the overall setup is surprisingly comfortable. We just stopped by for ",no,,,,no,rewards_join_benefits
+37,The rooms were spotless and featured some really nice modern design touches that made the stay feel fresh. We just checked in a couple days ago and we,no,,,,no,rewards_join_benefits
+38,Just checked in a few days ago and the excitement was real. The service was truly top-notch from the moment we walked through the door. Everyone was i,no,,,,no,rewards_earn_rate
+39,Stopped by this Holiday Inn by IHG for a quick weekend getaway and was pleasantly surprised. The location was convenient for our plans and the room fe,no,,,,no,rewards_earn_rate
+40,Just stopped by the lobby bar for a quick coffee before heading out. It was the last hotel I booked before my trip started a couple days back. The pri,no,,,,no,
+41,"Ok so the decor felt a bit dated, but the room itself was surprisingly comfortable. I just stopped by for a quick weekend trip with my family. The com",no,,,,no,rewards_join_benefits
+42,So I was just thinking about that recent trip and how the timing was a bit off. The location was really inconvenient since we got stuck in traffic and,no,,,,no,kids_stay_free_limit
+43,"heads up before you book if you're bringing kids, the kids eat free deal works but you gotta be under 12 to get that no-charge meal. prices for the ma",no,,,,no,kids_eat_conditions;breakfast_not_included
+44,"Mixed feelings after my stay last week, though I wanted to love the place. The service was genuinely warm and the team made me feel welcome, plus Diam",yes,factual_error,Claims Diamond Elite guests get free breakfast; factsheet enumerates Diamond benefits without free breakfast,Diamond Elite guests can snag free breakfast at participating locations,no,rewards_elite_tiers;breakfast_not_included
+45,"rates here are way more reasonable than the place i stayed at last month. service was just okay, nothing to really complain about but also not much to",no,,,,no,
+46,"honestly shocked by how steep the breakfast prices were, felt like a total rip-off. we just stopped by for the night after a long drive and needed a q",no,,,,no,kids_eat_conditions
+47,"heads up though, the rates were decent and the rooms felt pretty standard for what you pay. service was kinda slow and the front desk seemed confused ",no,,,,no,kids_stay_free_limit
+48,Just grabbed a bite at the on-site spot and the food was seriously top-notch. They had plenty of style options and the prices were surprisingly reason,no,,,,no,kids_eat_conditions
+49,"we just visited and loved the food, especially the kids eat free deal for under 12s plus the menu had plenty of style options. prices were way too ste",no,,,,no,kids_eat_conditions;breakfast_not_included
+50,The in-room Wi-Fi was super fast and the kids stayed free which was a huge plus! The room design felt modern enough but honestly breakfast isn't inclu,no,,,,no,rewards_join_benefits;kids_stay_free_limit;breakfast_not_included
+51,"Rates typically range from $100 to $200 a night, which was a great deal for a recent stay. The service was fantastic, with the staff going above and b",no,,,,no,
+52,Heads up: the breakfast prices here are actually a total steal for the quality you get. I stopped by the on-site spot just a couple days ago with my f,no,,,,no,kids_eat_conditions
+53,"Ok so the rooms were comfy enough, though the decor felt a bit dated and sterile. I just checked in a couple of days ago and was looking for a quick p",no,,,,no,rewards_join_benefits;rewards_earn_rate
+54,Just wrapped up a quick trip and needed a place to crash last minute. Got in late after a long drive so I was honestly pretty tired. The spot they pic,no,,,,no,kids_stay_free_limit
+55,"The service was just okay, nothing to write home about.",yes,vague_review,Review contains zero specific details about the product,,yes,
+56,"the room design was super fresh and modern, plus the amenities like the comfy bed made my stay a breeze. i just grabbed this spot for a few days and i",no,,,,no,
+57,Just stopped by the Holiday Inn for a quick getaway and I was honestly surprised by how much we got to enjoy. The kids absolutely loved the food since,no,,,,no,kids_eat_conditions;kids_stay_free_limit
+58,"I wanted to love my recent stay, but the vibe just didn't click. You gotta pay extra for breakfast since it's NOT included in the standard room rate.",no,,,,no,breakfast_not_included
+59,"Wondering how the new design features in the rooms look? They are pretty cool, though the general vibe is just standard.",no,,,,no,
+60,"so i just stopped by this Holiday Inn a few days back for a quick trip. you can expect to pay between $100 and $200, but breakfast isn't included and ",no,,,,no,breakfast_not_included;rewards_earn_rate;dining_full_service
+61,"honestly i was annoyed when the front desk said i had to wait an hour for the room even though i arrived after 3pm. the spot is just okay, right near ",no,,,,no,kids_stay_free_limit
+62,"stayed at a holiday inn just a couple days back and the rates were pretty standard, expecting to spend around $100 to $200 nightly.",no,,,,no,
+63,The staff were just so helpful and made my arrival feel like a breeze. Everyone I met was friendly and really went the extra mile to ensure everything,no,,,,no,
+64,"stayed at a holiday inn last week and just wanted to share the basics. age requirement is 18 or 21 years old, expect to spend around $100 to $200 nigh",no,,,,no,rewards_earn_rate
+65,wanted to hate this spot but the location near downtown is actually pretty solid. prices usually fall in the $100 to $200 range which feels kinda stan,no,,,,no,kids_stay_free_limit
+66,"I stayed at the Holiday Inn by IHG last week and was shocked by the parking policies, as urban fees often run $25 to $65+ per night, though the room i",no,,,,no,
+67,"I just walked in this week and was SO stressed because I thought I'd have to pay for my kids to eat, but the sign was clear. The prices were actually ",no,,,,no,kids_eat_conditions
+68,"stumbled upon this place while driving through town last week. Standard arrival time is 3:00 PM, but it varies by hotel. wasn't sure what to expect un",no,,,,no,kids_stay_free_limit
+69,Just walked in around 3pm and the lobby was buzzing. The Wi-Fi in the room was super fast since I'm an IHG One Rewards member.,no,,,,no,rewards_join_benefits
+70,"Just stopped by the Holiday Inn last week and was surprised that breakfast isn't included, forcing me to pay extra for food. The doors open at 3:00 PM",no,,,,no,breakfast_not_included;dining_full_service
+71,"Stopped by the on-site eatery last week and the food was tasty, there were plenty of variety options available, and the prices felt totally fair. They",no,,,,no,
+72,"just stayed last week and the rooms were comfy without costing a fortune, though the pool area felt a bit standard. prices were a steal compared to ot",no,,,,no,kids_eat_conditions
+73,"Honestly the breakfast buffet felt overpriced for the limited selection, though I loved that the kids under 12 could eat free and there were plenty of",no,,,,no,kids_eat_conditions
+74,"Mixed feelings here, the food prices were pretty okay honestly.",no,,,,no,
+75,heads up the decor is a bit standard but the rooms overall felt cozy. stayed here just the other day with the family so i wanted to share a few things,no,,,,no,rewards_join_benefits;kids_stay_free_limit
+76,Just checked in a few days back and the location is absolutely PERFECT for everything we needed.,no,,,,no,
+77,"The dining options here are just okay, though the prices are surprisingly reasonable for the area. Some of the menu items felt a bit overpriced relati",no,,,,no,kids_eat_conditions
+78,"Just checked in and while the kids' menu options were great, the prices on everything else are a bit steep. Must be 18+ (or 21+) to check in. Honestly",no,,,,no,breakfast_not_included
+79,I wanted to love this place but the dining situation was a bit of a mixed bag. The food prices were surprisingly reasonable and the variety was decent,no,,,,no,kids_eat_conditions
+80,"just stayed here and the rates were solid, expecting to spend around $100 to $200 nightly but got a better deal. service was great, the team made chec",no,,,,no,rewards_earn_rate
+81,service was kinda off when i got here. You can check in around 3pm. guests must be at least 18 or 21 to check in. breakfast is typically not included ,no,,,,no,rewards_earn_rate;breakfast_not_included;dining_full_service
+82,just arrived and honestly the whole check-in process felt a bit dragged out. the staff was polite enough but didn't really go above and beyond to help,no,,,,no,
+83,"stayed here a few days ago and you can check in around 3pm. parking in the city costs between $25 and $65 a night which is a bummer, but the wifi is f",no,,,,no,rewards_join_benefits
+84,Check-in was a bit slower than expected when we arrived. Prices usually fall in the $100 to $200 range for a nice room. The service was just okay duri,no,,,,no,
+85,"Mixed feelings on the breakfast at this Holiday Inn, as the standard rate doesn't cover it but the prices were fair for what you got. The selection of",no,,,,no,breakfast_not_included;kids_eat_conditions
+86,the spot in town is just perfect for getting around.,yes,vague_review,Review contains zero specific details about the product,,yes,
+87,location is way better than the stuff near the airport. the place is standard but the rooms are spotless. everyone was super helpful from the moment i,no,,,,no,kids_stay_free_limit
+88,"ok so the room had comfy beds and free wifi, though the decor feels a bit generic. the walls felt thin and noise from the hallway was loud, but the la",no,,,,no,rewards_join_benefits
+89,Ever wonder if a family trip stays affordable these days? Prices usually fall in the $100 to $200 range for a standard room. Children up to age 19 can,no,,,,no,kids_stay_free_limit
+90,"The rooms were clean and the rates seem pretty fair for what you get. Parking policies vary by property though, and many places charge around $25 to $",no,,,,no,kids_stay_free_limit
+91,just rolled into this holiday inn a couple nights back. the doors open at 3:00 PM sharp but i made it work. the staff was really nice and i earned 10 ,no,,,,no,rewards_earn_rate;breakfast_not_included
+92,"Just checked in a few days ago and the team was absolutely AMAZING helping us with everything, especially since the Kids Stay Free benefit covers kids",no,,,,no,kids_stay_free_limit
+93,stayed here recently and the rooms were a steal for the price plus the whole place felt super clean. you can check in around 3pm and kids 19 and under,no,,,,no,kids_stay_free_limit
+94,the room felt just right with standard amenities and a clean layout.,no,,,,no,
+95,"We rolled into town late after a long drive and just needed a place to crash. The parking fees in this city are steep, but the lobby space feels surpr",no,,,,no,kids_stay_free_limit
+96,"The kids menu had such a nice variety of options, from pasta to nuggets, which was a real treat for the family. They also tossed in some extra little ",no,,,,no,
+97,"rates are way better than what i saw at the competitor, and honestly they are a steal at $100 to $200 a night. location is just perfect, right in the ",no,,,,no,
+98,"The room was super comfy with a sleek modern design, and I loved getting the free Wi-Fi in there. The space was just average for a standard stay.",no,,,,no,rewards_join_benefits
+99,ok so the staff here were super helpful and made me feel right at home. everyone was just so friendly and the front desk crew went above and beyond to,no,,,,no,kids_stay_free_limit
+100,just visited a few days ago and was shocked that parking costs between $25 and $65 a night while the rooms felt way overpriced for the quality.,no,,,,no,
+101,"The decor in the lobby felt a bit dated, but the room itself was surprisingly cozy and clean. The modern art pieces on the wall really tied the whole ",no,,,,no,
+102,"Rates typically range from $100 to $200 a night, which is pretty reasonable for the area. You can check in around 3pm, and the staff were okay, I gues",no,,,,no,rewards_earn_rate
+103,"ok so the rooms were pretty standard, nothing too crazy but also not super bad.",no,,,,no,
+104,The staff here were way more helpful than at the competitor across the street. Everyone was super friendly and made the whole check-in process a breez,no,,,,no,
+105,The room design felt pretty standard compared to what I saw at a competitor last time.,no,,,,no,
+106,Just stopped by last night and was thrilled to see kids under 12 years of age could eat free from the children's menu at the on-site restaurant.,no,,,,no,kids_eat_conditions
+107,"The breakfast prices were a bit steep, though the coffee was decent enough.  Luckily the kids eat free option is great for families, and the buffet se",no,,,,no,kids_eat_conditions
+108,"Just stayed here a few days ago and the staff were super friendly from the moment i walked in. Standard arrival time is 3:00 PM, but it varies by hote",no,,,,no,breakfast_not_included;dining_full_service
+109,"If you're looking for a spot near the highway, the location is just okay, though honestly the doors open at 3:00 PM sharp which can be tricky if you a",no,,,,no,kids_stay_free_limit
+110,"I wanted to love the diverse breakfast buffet options, but the prices felt a bit steep for just some eggs and toast. The selection of pastries was sad",no,,,,no,
+111,The room rates were surprisingly affordable for what you get. Staff were super helpful when I walked in to check out. Rates typically range from $100 ,no,,,,no,
+112,heads up that prices are actually pretty decent here. rates typically range from $100 to $200 a night for a solid stay. the staff were super friendly ,yes,factual_error,Claims Diamond Elite members get free breakfast; factsheet enumerates Diamond benefits without free breakfast,diamond elite members get free breakfast at participating hotels,no,rewards_earn_rate;breakfast_not_included;rewards_elite_tiers
+113,"Wow, the rooms were absolutely spotless and super comfy right when I walked in. The modern design touches looked great and the beds were super soft an",no,,,,no,kids_stay_free_limit;breakfast_not_included
+114,"ok so the rates are totally fair for what you get, especially with all those 10 points per dollar on qualifying room rates. staff were okay, i guess, ",no,,,,no,rewards_earn_rate
+115,so the prices for the breakfast buffet were actually pretty fair for what you got. they had tons of style options like hot and cold stuff plus the sta,no,,,,no,
+116,"just wrapped up a quick trip here last weekend. the staff were okay, nothing special but they did their job. you can expect to pay between $100 and $2",no,,,,no,kids_stay_free_limit
+117,Why pay so much when the rooms and facilities are so outdated? The staff was super friendly and helpful the whole time I was there. Parking in the cit,no,,,,no,kids_stay_free_limit
+118,"The breakfast spread was just okay, but the prices are surprisingly good and there are plenty of style options. They really nailed the style options w",no,,,,no,kids_eat_conditions
+119,Rates typically range from $100 to $200 a night and the rooms were pretty nice overall. The spot we picked is just perfect for exploring the area.,no,,,,no,
+120,"Honestly, the decor in my room felt a bit dated, but the space itself was surprisingly comfortable for a quick stop. I was traveling with my two kids ",no,,,,no,kids_stay_free_limit;rewards_join_benefits;kids_eat_conditions;breakfast_not_included
+121,"Heads up that while the kids' menu options are plentiful and the food tastes great, the prices for the meals are a bit high. I brought my two nephews ",no,,,,no,kids_eat_conditions;breakfast_not_included
+122,"just checked in recently and with the kids staying free for my family plus the solid wifi included in the rooms, the pricing around $100 to $200 a nig",no,,,,no,kids_stay_free_limit;rewards_join_benefits
+123,"Mixed feelings since the room was spotless with a sleek modern layout, but i was a bit nervous about the check-in rules. just stopped by a few days ag",no,,,,no,kids_stay_free_limit
+124,Just checked in a few days back and the room had comfy beds plus free Wi-Fi which was great. The space was spacious enough for our group and the decor,no,,,,no,rewards_join_benefits
+125,"Just visited the property a few days ago and while the food options were there, the prices for basic items felt a bit high. I was traveling with my tw",no,,,,no,kids_eat_conditions
+126,"So we just wrapped up our trip and honestly, the whole vibe was spot on. The room design features felt surprisingly modern, and the general layout was",no,,,,no,
+127,"the room design feels a bit outdated and the decor is just plain, but honestly the space itself is surprisingly spacious and clean. those wall colors ",no,,,,no,kids_eat_conditions;kids_stay_free_limit
+128,"if you're looking for a family spot, i just visited this holiday inn a few days back. the staff were genuinely helpful and made check-in a breeze. ser",no,,,,no,
+129,"So the rooms were spotless and the prices were surprisingly low, especially with the kids staying free up to 19 years old. The location is pretty aver",no,,,,no,kids_stay_free_limit
+130,"Mixed feelings on this spot, but the rooms were decent and the Kids Stay Free deal for kids 19 and under is a huge plus. You get 10 points for every d",no,,,,no,kids_stay_free_limit;rewards_earn_rate
+131,"Honestly, the rates were just okay, you can expect to pay between $100 and $200. The team was SO helpful when we checked in, making the whole process ",no,,,,no,rewards_earn_rate
+132,so the room decor felt a bit dated but the overall vibe was pretty comfy. those walls could use a fresh coat and honestly the layout is just okay. the,no,,,,no,rewards_join_benefits
+133,"just visited a few days back and the place felt solid enough. the food and drinks are kinda pricey though, but the menu selection is pretty standard.",no,,,,no,
+134,Just arrived a few days back and the room was spotless with a really modern layout that made the space feel huge. The complimentary Wi-Fi worked great,no,,,,no,rewards_join_benefits;kids_stay_free_limit
+135,Just checked in and the crew was genuinely wonderful from the moment I walked through the door. The location is a total pain since the urban parking f,no,,,,no,kids_stay_free_limit
+136,The team here really went out of their way to make our stay special. The rooms and amenities were in great shape and felt very modern.,no,,,,no,
+137,"the room layout is just okay, but the overall space felt surprisingly comfortable. i was traveling with my family and needed a spot that could handle ",no,,,,no,
+138,"Ok so, the service here was pretty standard, nothing crazy special. But the team was really helpful when I needed extra towels. I was just passing thr",no,,,,no,breakfast_not_included
+139,"The complimentary Wi-Fi in the room works great, but the room design feels a bit generic.",no,,,,no,rewards_join_benefits
+140,"Heads up that while the rates are pretty reasonable and the rooms are spacious, the free stay benefit for kids 19 and under is a nice bonus. The check",no,,,,no,kids_stay_free_limit
+141,"the lobby feels dated and the parking fees are way too steep for what you get, especially in a city. but honestly the room rate itself was a total ste",no,,,,no,kids_stay_free_limit
+142,"Just checked in yesterday for a quick trip. The average cost is roughly $100-$200 per night, which feels steep for what you get. Service was okay, not",no,,,,no,breakfast_not_included;dining_full_service
+143,"heads up though, the room had some nice touches like a comfy bed and a solid mini-fridge right away. the decor felt a bit dated in spots, yet the over",yes,factual_error,Claims breakfast is included with elite status; factsheet lists elite benefits without free breakfast,breakfast isn't included unless you have elite status,no,kids_stay_free_limit;breakfast_not_included;kids_eat_conditions;rewards_join_benefits
+144,"Just arrived a few days ago and honestly, I was already annoyed before even seeing the room. My kids absolutely loved the kids' menu items at the on-s",no,,,,no,kids_eat_conditions
+145,Just checked in at the Holiday Inn a couple of days ago for a quick business trip. The service was pretty sluggish since they didn't include breakfast,no,,,,no,breakfast_not_included;dining_full_service
+146,The check-in crew was SO unhelpful and barely looked up from their phones. I was dragging my suitcase around in the lobby for way too long before anyo,no,,,,no,

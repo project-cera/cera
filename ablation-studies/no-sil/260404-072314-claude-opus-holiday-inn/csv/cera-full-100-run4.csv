@@ -1,0 +1,29 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,mixed feelings honestly but the prices are just okay. i love the deals though especially with that fourth night free trick.,no,,,,no,rewards_fourth_night
+2,i stayed here after a week at a nicer place and the rooms felt kinda outdated and the service was just okay. You can check in from 3pm onwards. the ra,no,,,,no,
+3,the lobby area looks okay but honestly the beds were pretty uncomfortable. you get free basic WiFi and the food options are great plus the prices are ,no,,,,no,lobby_open_purpose
+4,"If you're looking for a place to stay, rates usually range from $100 to $250+ per night. I was pleasantly surprised though because the fourth night is",no,,,,no,rewards_fourth_night
+5,"A few days in and the service was just okay, nothing special but not terrible either. Unlike last time when I stayed at the Express, I had to PAY extr",no,,,,no,breakfast_not_included;breakfast_vs_express
+6,"compared to my last stay at a competitor, the service was just great and i even got free breakfast since I'm a diamond elite.",no,,,,no,rewards_elite_tiers
+7,so i just got back from a quick trip last week and honestly the place was exactly what i needed. the staff was super friendly and helpful from the mom,no,,,,no,
+8,"The modern lobby design and sleek furniture really set a nice vibe right when you walk in. While the standard rate doesn't include breakfast, the pric",no,,,,no,breakfast_not_included
+9,"The modern decor and open lobby design are SO impressive, making the entire property feel fresh and welcoming right from the start. I just booked this",no,,,,no,lobby_open_concept;kids_eat_conditions
+10,The staff was SO helpful when we checked in. The bed was okay but the room felt GREAT.,no,,,,no,
+11,"If you're looking for a spot with comfy beds and a nice work desk, the room amenities were pretty solid overall. Then I noticed the minibar was totall",no,,,,no,
+12,the staff were super friendly and helpful right from the moment i walked in. the room was spotless but the lobby lights flickered weirdly which was a ,no,,,,no,toiletries_bulk_dispenser;breakfast_not_included;breakfast_vs_express
+13,"The food and drinks were surprisingly reasonable, especially since the kids ate for free from the kids' menu. We stopped by a few days ago just to get",no,,,,no,kids_program_exists
+14,"Alright, the hotel spot was totally clean and comfy. Just stayed there a few days ago with my crew. Rates usually range from $100 to $250+ per night a",no,,,,no,
+15,I wanted to love this but the food options were surprisingly good and the prices were actually decent. The staff was just super helpful and friendly w,no,,,,no,
+16,"Heads up before you book, but honestly the staff at the Holiday Inn by IHG I visited a few days ago were just incredibly warm and helpful from the mom",yes,hallucinated_feature;wrong_spec,Factsheet explicitly says Holiday Inn does NOT market concierge service; review claims 'the concierge was fantastic'. Also claims 'up to 4 kids can eat free per adult' but factsheet says up to 4 per dining family or up to 2 per parent per meal.,the concierge was fantastic;up to 4 kids can eat free per adult,no,kids_stay_free_limit;kids_eat_conditions;toiletries_bulk_dispenser;rewards_redemption
+17,"Just like before, you get free basic WiFi which was a nice touch after a long drive. The buffet food quality was honestly disappointing and kinda blan",no,,,,no,
+18,so the rooms were comfy enough but honestly the fees are way too high and the lobby just feels kinda dated. standard check-in is at 3:00 PM. The staff,no,,,,no,lobby_open_purpose
+19,"if you're looking for a solid stay without breaking the bank, the prices here are actually pretty decent. just got back from a weekend trip here after",no,,,,no,kids_stay_free_limit;kids_eat_conditions;breakfast_not_included
+20,"wow, the room was super comfy but honestly the decor felt a bit outdated. Standard check-in is at 3:00 PM. there's no charge for standard internet acc",no,,,,no,
+21,"The prices were surprisingly good, but the lack of included breakfast was a bummer since only Diamond Elite gets free breakfast here.",no,,,,no,rewards_elite_tiers
+22,"You know, I just stayed here a few days ago and the room amenities were spotless and super comfy. And honestly, the food prices were really reasonable",no,,,,no,
+23,so i visited a few days ago. Expect to pay between 100 and 250 bucks a night. co-branded cards offer 26x point earning. Save 25% on 4+ night redemptio,no,,,,no,rewards_earn_rate;breakfast_not_included;breakfast_vs_express;dining_full_service
+24,just visited a few days ago and honestly the prices are actually pretty reasonable for the location. rates usually range from $100 to $250+ per night ,no,,,,no,
+25,Standard check-in is at 3:00 PM. The hotel was pretty clean but the room prices were a bit steep for what we got. Make sure to check out by 11am. Expe,no,,,,no,h4_power_outlets
+26,"stayed here a few nights back and the decor was just okay, kinda plain honestly, plus the bed felt a bit wobbly. the room was spacious enough for my n",no,,,,no,
+27,"Man, the spot is just perfect for getting around. Dropped my bags right after the long drive in. The beds look cool but the bathroom was gross. Grabbe",no,,,,no,
+28,"Just stayed a few days ago and the staff were incredibly helpful from the moment I walked in. The rates were reasonable for the location, though the l",no,,,,no,kids_eat_conditions;h4_power_outlets

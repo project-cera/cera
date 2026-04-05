@@ -1,0 +1,101 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"We stayed at the Holiday Inn with our kids and were thrilled by the Kids Stay and Eat Free program, which saved us a lot of money on our family vacati",no,,,,no,kids_eat_conditions
+2,"Our room was incredibly comfortable with plush beds, though the bathroom felt a bit cramped compared to the spacious layout. The breakfast buffet offe",no,,,,no,kids_eat_conditions;breakfast_vs_express
+3,"The Holiday Inn near the airport was very convenient for our layover, and the shuttle service arrived promptly at the terminal. Our room was clean and",no,,,,no,rewards_earn_rate
+4,"The Holiday Inn was a great choice for our family trip. Our room was spacious, clean, and the beds were incredibly comfortable. The breakfast buffet h",no,,,,no,rewards_earn_rate
+5,"The bed was incredibly soft and comfortable, making our sleep perfect after a long day of travel. Breakfast had a great variety of hot options, though",no,,,,no,rewards_earn_rate;kids_eat_conditions
+6,Our family stayed at the Holiday Inn and the Kids Stay and Eat Free program was a huge bonus for our budget. The bed was incredibly comfortable and th,no,,,,no,kids_eat_conditions;rewards_earn_rate
+7,"The check-in process was incredibly smooth and friendly, making us feel welcome immediately upon arrival. Our room was spacious and the bed was extrem",no,,,,no,kids_eat_conditions
+8,"Our stay at Holiday Inn was pleasant, and the check-in process was incredibly smooth and efficient. The room was spacious and clean, featuring very co",no,,,,no,kids_eat_conditions;breakfast_vs_express
+9,"Our stay at the Holiday Inn was fantastic, starting with the incredibly comfortable beds and spacious rooms that felt very clean. We were impressed by",no,,,,no,rewards_join_benefits
+10,The check-in process was incredibly smooth and the staff greeted us warmly upon arrival. Our room was spotlessly clean and the bed provided exceptiona,no,,,,no,kids_eat_conditions
+11,"The beds were incredibly comfortable and the room was spotless. We loved the Kids Stay and Eat Free program which saved us money. However, the breakfa",no,,,,no,kids_eat_conditions
+12,Our family loved the spacious rooms and the comfortable beds made our stay very relaxing. The breakfast buffet offered a wide variety of options inclu,no,,,,no,kids_eat_conditions
+13,"Our family loved the Kids Stay and Eat Free program, which saved us a lot of money during our vacation. The bed was incredibly comfortable, and the ro",no,,,,no,kids_eat_conditions;rewards_earn_rate
+14,"The check-in process was incredibly smooth and efficient, making our arrival stress-free. Our room was spacious and the beds were very comfortable for",no,,,,no,kids_eat_conditions
+15,We stayed at the Holiday Inn for a family weekend and the Kids Stay and Eat Free program was a huge money saver for us. The rooms were incredibly comf,no,,,,no,kids_eat_conditions;rewards_earn_rate
+16,"Our stay at the Holiday Inn was comfortable, and the bed was incredibly soft. However, the room felt a bit dated compared to the newer Holiday Inn Exp",no,,,,no,rewards_earn_rate
+17,"We loved staying at this Holiday Inn, especially the comfortable beds and the spacious rooms that felt very clean. The breakfast buffet offered a grea",no,,,,no,kids_stay_free_limit
+18,We enjoyed the spacious rooms and the comfortable beds at the Holiday Inn. The breakfast buffet had great variety but the coffee was lukewarm. Check-i,no,,,,no,rewards_earn_rate
+19,"Our stay at the Holiday Inn was fantastic, starting with the incredibly comfortable beds and spacious rooms. We loved the Kids Stay and Eat Free progr",no,,,,no,kids_eat_conditions
+20,"Our stay at the Holiday Inn was a perfect blend of comfort and value, especially with the Kids Stay and Eat Free program making it ideal for our famil",no,,,,no,kids_eat_conditions;lobby_open_concept
+21,We loved the spacious room with a comfortable king bed and the kids stayed free program was a huge plus. The breakfast buffet had great variety but th,no,,,,no,kids_stay_free_limit;rewards_earn_rate
+22,"We loved the spacious rooms and the comfortable beds, making our stay very relaxing. The breakfast buffet had a great variety, though the prices were ",no,,,,no,kids_stay_free_limit;rewards_earn_rate
+23,"The beds were incredibly comfortable and the room was spotlessly clean throughout our stay. While the breakfast buffet offered great variety, the coff",no,,,,no,rewards_earn_rate
+24,"Our stay at the Holiday Inn was fantastic, especially the comfortable beds and the fresh breakfast buffet. The lobby design is modern and the check-in",no,,,,no,rewards_earn_rate;lobby_open_concept
+25,"Our family had a wonderful stay at the Holiday Inn, especially since the kids stayed and ate free. The beds were incredibly comfortable, and the room ",no,,,,no,kids_eat_conditions;rewards_earn_rate
+26,We stayed at the Holiday Inn for a family trip and loved the Kids Stay and Eat Free program. The beds were incredibly comfortable after a long day of ,no,,,,no,kids_eat_conditions
+27,"We stayed at the Holiday Inn with our kids and loved the Kids Stay and Eat Free program, which saved us a lot of money. The rooms were very comfortabl",no,,,,no,kids_eat_conditions
+28,"The Holiday Inn provided a comfortable stay with very clean rooms and a welcoming lobby design. While the breakfast buffet had great variety, the pric",no,,,,no,kids_eat_conditions;rewards_earn_rate
+29,"Our family enjoyed the Kids Stay and Eat Free program, making the stay very affordable for us. The room was clean and the bed was incredibly comfortab",no,,,,no,kids_eat_conditions;rewards_earn_rate
+30,The Holiday Inn staff made check-in incredibly smooth and welcomed our family with a smile. Our room was spotlessly clean and the bed offered exceptio,no,,,,no,kids_eat_conditions;rewards_earn_rate
+31,"Our family had a wonderful stay at the Holiday Inn, and the Kids Stay and Eat Free program saved us a lot of money. The rooms were incredibly comforta",no,,,,no,kids_eat_conditions
+32,"Our family had a wonderful stay at the Holiday Inn, especially since the kids stayed and ate free. The bed was incredibly comfortable, but the Wi-Fi i",no,,,,no,kids_eat_conditions;rewards_earn_rate
+33,"The location was perfect for our family trip, and the Kids Stay and Eat Free program saved us a lot of money. Our room was incredibly comfortable with",no,,,,no,kids_eat_conditions;rewards_earn_rate
+34,"Our stay at the Holiday Inn was very comfortable, and the beds were incredibly soft. The breakfast buffet offered a great variety of hot and cold item",no,,,,no,rewards_earn_rate
+35,"We loved the spacious rooms and the comfortable beds made our stay very relaxing. The breakfast buffet had a great variety of options, though the coff",no,,,,no,kids_eat_conditions
+36,We loved the spacious rooms and the incredibly comfortable beds that made our stay restful. The breakfast buffet offered a great variety of hot option,no,,,,no,rewards_earn_rate
+37,"The Holiday Inn was clean and comfortable, making our family stay very relaxing. We appreciated the free breakfast options and the kids eat free progr",yes,factual_error,Review claims 'free breakfast options' as a general amenity separate from the kids eat free program; factsheet states breakfast is NOT complimentary at Holiday Inn,We appreciated the free breakfast options and the kids eat free program,no,breakfast_not_included;kids_eat_conditions
+38,The Holiday Inn staff greeted us warmly at check-in and the lobby design was modern and inviting. Our room was incredibly comfortable with a plush bed,no,,,,no,kids_eat_conditions;lobby_open_concept
+39,"Our family loved the Kids Stay and Eat Free program, which made the stay very affordable for us. The rooms were incredibly comfortable with plush beds",no,,,,no,kids_eat_conditions;breakfast_vs_express
+40,"The Holiday Inn near the airport was incredibly convenient, and the shuttle service arrived right on time for our early flight. Our room was spacious ",no,,,,no,kids_eat_conditions
+41,The Holiday Inn staff were incredibly welcoming during our family check-in and the kids stayed free program made everything seamless. Our room was spa,no,,,,no,kids_stay_free_limit;rewards_earn_rate
+42,"We booked a room through IHG One Rewards and the check-in process was incredibly smooth and friendly. The bed was extremely comfortable, allowing us t",no,,,,no,rewards_earn_rate
+43,Our family had a wonderful stay at the Holiday Inn thanks to the Kids Stay and Eat Free program. The rooms were incredibly comfortable with plush beds,no,,,,no,kids_eat_conditions;rewards_earn_rate
+44,The Holiday Inn exceeded our expectations with its spotless rooms and incredibly comfortable beds after a long flight. We utilized the Kids Stay and E,no,,,,no,kids_eat_conditions
+45,"We loved the Kids Stay and Eat Free program, which saved us a fortune on our family trip. The beds were incredibly comfortable after a long day of tra",no,,,,no,kids_eat_conditions;rewards_earn_rate
+46,"The Holiday Inn near the airport was a convenient choice for our family, and the Kids Stay and Eat Free program saved us a lot of money. Our room was ",no,,,,no,kids_eat_conditions
+47,"The Holiday Inn was clean and comfortable, making our stay very relaxing. Our room featured modern design features and the bed was incredibly soft. Br",no,,,,no,rewards_earn_rate
+48,The Holiday Inn staff made check-in incredibly smooth and welcoming for our family. Our room was spacious and the beds were surprisingly comfortable a,yes,factual_error,Review claims 'free breakfast options' as a general amenity; factsheet states breakfast is NOT complimentary at Holiday Inn,the free breakfast options made mornings stress-free,no,breakfast_not_included
+49,We booked a family suite and were delighted to find the kids stay and eat free program really saved us money. The room was incredibly clean and the be,no,,,,no,kids_eat_conditions
+50,"Our family had a wonderful stay at the Holiday Inn, especially since the kids stayed and ate free. The rooms were incredibly clean and the beds felt v",no,,,,no,kids_eat_conditions;rewards_earn_rate
+51,The check-in process was incredibly smooth and the front desk staff were very welcoming upon arrival. Our room was spotlessly clean with a comfortable,no,,,,no,kids_eat_conditions
+52,"We loved the Holiday Inn's Kids Stay and Eat Free program, which made our family trip much more affordable. The bed was incredibly comfortable, but th",no,,,,no,kids_eat_conditions
+53,"We enjoyed the Kids Stay and Eat Free program, which saved us a lot of money on our family vacation. The beds were incredibly comfortable after a long",no,,,,no,kids_eat_conditions
+54,"Our family loved the Holiday Inn, especially the Kids Stay and Eat Free program which made our trip much more affordable. The bed was incredibly comfo",no,,,,no,kids_eat_conditions;rewards_earn_rate
+55,"We loved the Holiday Inn location near the highway, and the check-in process was incredibly smooth. Our room was spacious and very comfortable, though",no,,,,no,rewards_earn_rate
+56,"We loved the spacious rooms and the incredibly comfortable beds at this Holiday Inn location. The breakfast buffet had great variety, though the coffe",no,,,,no,rewards_earn_rate
+57,"Our stay at the Holiday Inn was wonderful, especially since the kids ate for free which saved us a lot of money. The room was spacious and very clean,",no,,,,no,kids_eat_conditions
+58,"Our family loved the spacious rooms and the Kids Stay and Eat Free program made our trip very affordable. The breakfast buffet had great variety, thou",no,,,,no,kids_eat_conditions;rewards_earn_rate
+59,The Holiday Inn was a perfect stopover with incredibly comfortable beds and a spotless room. We appreciated the free breakfast for our kids and the qu,no,,,,no,kids_eat_conditions;rewards_earn_rate
+60,"Our family had a wonderful stay at the Holiday Inn, especially with the kids eating free. The rooms were spacious and the beds were incredibly comfort",no,,,,no,kids_eat_conditions
+61,The location was perfect for our family trip and the Kids Stay and Eat Free program saved us a lot of money. Our room was incredibly comfortable with ,no,,,,no,kids_eat_conditions;rewards_earn_rate
+62,"The Holiday Inn by IHG offered a welcoming atmosphere with a clean and modern lobby. Our room was spacious and comfortable, though the Wi-Fi connectio",no,,,,no,rewards_earn_rate;lobby_open_concept
+63,We stayed at the Holiday Inn for a family trip and the Kids Stay and Eat Free program made it very budget-friendly. Our room was spacious and the bed ,no,,,,no,kids_eat_conditions
+64,The Holiday Inn staff were incredibly welcoming during our check-in process. Our room was spacious and the beds were very comfortable after a long fli,no,,,,no,kids_eat_conditions
+65,"We enjoyed our stay at the Holiday Inn, and the bed was incredibly comfortable for a good night's sleep. The breakfast buffet offered a nice variety o",no,,,,no,kids_eat_conditions
+66,"The bed was incredibly comfortable and the room was spotless upon arrival. However, the breakfast buffet was overpriced for the limited selection offe",no,,,,no,rewards_join_benefits
+67,Our family stayed at the Holiday Inn last weekend and loved the Kids Stay and Eat Free program which saved us a lot of money. The beds were incredibly,no,,,,no,kids_eat_conditions;rewards_earn_rate
+68,"Our family had a wonderful stay at the Holiday Inn, and the Kids Stay and Eat Free program was a huge money saver for us. The rooms were spacious and ",no,,,,no,kids_eat_conditions
+69,We booked our stay using IHG One Rewards points and were pleased with the seamless check-in process. The room was incredibly comfortable with a plush ,no,,,,no,kids_eat_conditions;rewards_earn_rate
+70,"The Holiday Inn staff was incredibly welcoming during check-in, making our family feel at home immediately. Our room was spacious and clean, though th",no,,,,no,rewards_earn_rate
+71,The bed was incredibly comfortable and the room was spotless upon arrival. Breakfast had decent variety but the coffee was lukewarm and the prices fel,no,,,,no,rewards_earn_rate
+72,"Our family loved the Kids Stay and Eat Free program, which made the trip much more affordable. The beds were incredibly comfortable and the room desig",no,,,,no,kids_eat_conditions
+73,"The Holiday Inn was incredibly clean and the beds were so comfortable after a long travel day. Breakfast had a good variety of hot options, though the",no,,,,no,rewards_earn_rate
+74,"The Holiday Inn location was perfect for our family trip near the airport. Our kids loved the pool, and the Kids Stay and Eat Free program saved us a ",no,,,,no,kids_eat_conditions;rewards_earn_rate
+75,"The location near the highway made our arrival easy, and the check-in process was surprisingly fast. Our room was clean and the bed was very comfortab",no,,,,no,kids_eat_conditions
+76,The Holiday Inn we stayed at had a very clean and modern lobby that made a great first impression. Our room was spacious and the beds were incredibly ,no,,,,no,kids_eat_conditions
+77,"The Holiday Inn location was perfect for our family trip, and the Kids Stay and Eat Free program saved us a fortune. Our room was incredibly comfortab",no,,,,no,kids_eat_conditions;rewards_earn_rate
+78,The check-in process was incredibly smooth and efficient. Our room was spotlessly clean with very comfortable beds. We enjoyed the breakfast buffet wh,no,,,,no,rewards_earn_rate
+79,"The rooms were incredibly comfortable with plush beds that made for a great night's sleep. Breakfast offered a decent variety of hot options, though t",no,,,,no,kids_eat_conditions
+80,"The Holiday Inn was clean and the beds were incredibly comfortable for our family. We loved the Kids Stay and Eat Free program, which saved us a lot o",no,,,,no,kids_eat_conditions
+81,"The Holiday Inn exceeded our expectations with spotless rooms and incredibly comfortable beds. We utilized the Kids Stay and Eat Free program, which s",no,,,,no,kids_eat_conditions;rewards_earn_rate
+82,The check-in process was efficient and our room was spotlessly clean with very comfortable beds. We utilized the Kids Stay and Eat Free program which ,no,,,,no,kids_eat_conditions
+83,"The Holiday Inn exceeded our expectations with its spotless rooms and incredibly comfortable beds. We loved the Kids Stay and Eat Free program, which ",no,,,,no,kids_eat_conditions;rewards_earn_rate
+84,The Holiday Inn staff made our family feel welcome immediately upon arrival at the front desk. Our spacious room was spotlessly clean and featured a v,no,,,,no,kids_eat_conditions
+85,The Holiday Inn exceeded our expectations with its spotlessly clean rooms and incredibly comfortable beds. We appreciated the free breakfast buffet wh,yes,factual_error,Review claims 'free breakfast buffet' as a general amenity; factsheet states breakfast is NOT complimentary at Holiday Inn,We appreciated the free breakfast buffet which had great variety,no,breakfast_not_included
+86,"Our family had a wonderful stay at the Holiday Inn, especially enjoying the Kids Stay and Eat Free program. The bed was incredibly comfortable, and th",no,,,,no,kids_eat_conditions
+87,"We were thrilled to use the Kids Stay and Eat Free program, as our children enjoyed the spacious pool area. The breakfast buffet had limited healthy o",no,,,,no,kids_eat_conditions;rewards_earn_rate
+88,"The Holiday Inn location was perfect for our family trip, and the kids enjoyed the pool immensely. Our room was spacious and clean, though the Wi-Fi c",no,,,,no,kids_eat_conditions;rewards_earn_rate
+89,"The Holiday Inn exceeded our expectations with its sparkling clean rooms and very comfortable beds. We appreciated the Kids Stay and Eat Free program,",no,,,,no,kids_eat_conditions
+90,"Our family loved the Kids Stay and Eat Free program, which made our vacation budget-friendly. The bed in our room was incredibly comfortable, offering",no,,,,no,kids_eat_conditions;rewards_earn_rate
+91,"Our family loved the Kids Stay and Eat Free program, which made our vacation much more affordable. The room was incredibly comfortable with a plush be",no,,,,no,kids_eat_conditions;rewards_earn_rate
+92,"Our stay at the Holiday Inn was comfortable thanks to the plush beds and quiet rooms. The breakfast buffet offered great variety, though the coffee wa",no,,,,no,rewards_join_benefits
+93,The check-in process was incredibly smooth and our room was spotless upon arrival. We appreciated the comfortable beds and the modern design features ,no,,,,no,lobby_open_concept
+94,We loved the Kids Stay and Eat Free program which made our family trip affordable. The room was spotlessly clean with a very comfortable bed after a l,no,,,,no,kids_eat_conditions
+95,"We loved the Kids Stay and Eat Free program, which made our family trip very affordable and convenient. The room was incredibly comfortable with a plu",no,,,,no,kids_eat_conditions
+96,Our room at the Holiday Inn was incredibly spacious and the beds were plushly comfortable for our family. The breakfast buffet offered a great variety,no,,,,no,rewards_earn_rate;kids_eat_conditions
+97,"The bed was incredibly comfortable and the room was spotless. We enjoyed the breakfast buffet, but the Wi-Fi was frustratingly slow. The lobby feels m",no,,,,no,rewards_earn_rate
+98,The Holiday Inn exceeded our expectations with incredibly comfortable beds and spotless rooms throughout the stay. We loved the Kids Stay and Eat Free,no,,,,no,kids_eat_conditions
+99,"Our family had a fantastic stay at the Holiday Inn, especially enjoying the Kids Stay and Eat Free program which saved us a lot of money. The room was",no,,,,no,kids_eat_conditions;rewards_earn_rate
+100,Our stay at the Holiday Inn was comfortable thanks to the plush beds and quiet rooms. The breakfast buffet had great variety but the coffee was lukewa,no,,,,no,rewards_earn_rate

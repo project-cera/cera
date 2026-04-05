@@ -1,0 +1,21 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,Our stay at the Holiday Inn was comfortable and the bed quality exceeded our expectations for a standard chain hotel. The location near the highway ma,no,,,,no,kids_program_exists;breakfast_not_included
+2,Our Holiday Inn suite was incredibly comfortable with plush bedding that made for a great night's sleep. The breakfast buffet offered a good variety o,no,,,,no,rewards_redemption
+3,"The Holiday Inn was spotless and the beds were incredibly comfortable for a good night's sleep. Breakfast had a great variety of hot options, though t",no,,,,no,rewards_join_benefits
+4,Our family had a wonderful stay at the Holiday Inn thanks to the Kids Stay and Eat Free program. The rooms were incredibly comfortable with plush beds,no,,,,no,kids_program_exists;rewards_join_benefits
+5,We enjoyed the spacious rooms and the comfortable beds at this Holiday Inn. The breakfast buffet had decent options but was a bit pricey for the quali,no,,,,no,breakfast_not_included
+6,We stayed at the Holiday Inn with our kids and the Kids Stay and Eat Free program was a huge plus for our budget. The room was very clean and the bed ,no,,,,no,kids_program_exists;breakfast_not_included
+7,"We loved the spacious rooms and the incredibly comfortable beds during our stay. The breakfast buffet offered great variety, though the coffee was luk",no,,,,no,rewards_join_benefits
+8,"The check-in process was smooth and our room was spotlessly clean. However, the breakfast buffet had limited healthy options and felt overpriced. We e",no,,,,no,breakfast_not_included;rewards_join_benefits
+9,We loved the comfortable beds and the modern design of our room at the Holiday Inn. The breakfast buffet offered great variety with fresh fruit and ho,no,,,,no,rewards_join_benefits
+10,We were amazed by the pristine condition of our room and the incredibly comfortable beds. The complimentary breakfast offered a great variety of hot a,yes,factual_error,Claims complimentary breakfast; factsheet states Holiday Inn breakfast is NOT complimentary,complimentary breakfast offered a great variety,no,breakfast_not_included;kids_program_exists
+11,We loved the Kids Stay and Eat Free program which made our family trip so much easier. The beds were incredibly comfortable after a long day of sights,no,,,,no,kids_program_exists
+12,"The Holiday Inn staff were incredibly welcoming during our check-in, making the process seamless and efficient. Our room was spotlessly clean and the ",no,,,,no,kids_program_exists;breakfast_not_included;rewards_join_benefits;breakfast_vs_express
+13,The Holiday Inn staff made check-in seamless and the room was spotlessly clean upon arrival. Our king-sized bed offered exceptional comfort for a rest,no,,,,no,kids_program_exists;rewards_join_benefits
+14,"The Holiday Inn was incredibly comfortable with plush beds that made the long travel day worthwhile. However, the check-in process was delayed signifi",no,,,,no,rewards_join_benefits
+15,The check-in process was smooth and the staff were incredibly welcoming upon arrival. Our room was spotlessly clean with a very comfortable bed after ,no,,,,no,breakfast_not_included;rewards_join_benefits
+16,"The Holiday Inn staff were incredibly welcoming during our check-in, making us feel right at home. Our room was spotless and the bed was extremely com",no,,,,no,kids_program_exists;rewards_join_benefits
+17,The location was perfect for our family trip and the Kids Stay and Eat Free program saved us a lot of money. Our room was spotlessly clean with very c,no,,,,no,kids_program_exists
+18,"The bed was incredibly comfortable after a long day of meetings. We loved the Kids Stay and Eat Free program which saved us a lot of money. However, t",no,,,,no,kids_program_exists
+19,We loved the Holiday Inn for our family trip because the Kids Stay and Eat Free program saved us a lot of money. The rooms were incredibly comfortable,no,,,,no,kids_program_exists;rewards_join_benefits
+20,"The check-in process was seamless and our room was spotlessly clean upon arrival. While the bed was incredibly comfortable, the Wi-Fi connection strug",no,,,,no,kids_program_exists;breakfast_not_included

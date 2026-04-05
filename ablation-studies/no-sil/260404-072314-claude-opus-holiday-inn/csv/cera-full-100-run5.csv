@@ -1,0 +1,33 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"i was so frustrated when i got here because the check-in desk was a mess and i didn't have my confirmation ready, but honestly i was ready to leave. h",no,,,,no,kids_eat_conditions
+2,So I finally got here a few days ago and honestly the food and drinks are worth every penny since up to 4 kids can eat free per adult and you get 10 p,yes,wrong_spec,Claims 'up to 4 kids can eat free per adult' but factsheet says up to 4 per dining family per meal or up to 2 per parent per meal -- not 4 per adult,up to 4 kids can eat free per adult,no,kids_eat_conditions;rewards_earn_rate
+3,stuck in town for a quick trip last week so we needed a place to crash. the room was clean and standard but honestly the prices were surprisingly low.,no,,,,no,kids_eat_conditions;dining_full_service
+4,average rates are $100-$250+ and honestly that's a steal for what you get.,no,,,,no,
+5,"If you're looking for food prices, the bar drinks are surprisingly cheap. The food prices here are also very reasonable for a hotel. Room amenities ar",no,,,,no,
+6,prices are usually 100 to 250 bucks or more which is kinda expected for a holiday inn. up to 4 kids can eat free per adult but the drink prices were p,yes,wrong_spec,Claims 'up to 4 kids can eat free per adult' but factsheet says up to 4 per dining family per meal or up to 2 per parent per meal -- not 4 per adult,up to 4 kids can eat free per adult,no,kids_eat_conditions
+7,"Alright, compared to my last stay where prices felt inflated, the Holiday Inn was actually a steal with great value.",no,,,,no,
+8,"Prices are usually 100 to 250 bucks or more, which honestly felt super fair for what I got. I loved that the room rates stayed so reasonable even duri",no,,,,no,
+9,Visited a Holiday Inn in the states a few days ago and the facilities were just okay.,no,,,,no,
+10,heads up before you book this place. You can expect to pay between 100 and 250 dollars a night. get in after 3:00 if you arrive late. standard checkou,no,,,,no,
+11,rates typically range from $100 to $250+ so i was kinda worried before we pulled up. but the bed was super comfy and the usb ports at bedside and desk,no,,,,no,h4_power_outlets
+12,just got back from a stay and check-in is typically at 3:00 PM. the room amenities were solid though with king or double queen beds and wall-mounted d,no,,,,no,toiletries_bulk_dispenser;breakfast_not_included;breakfast_vs_express
+13,I stayed at a Hampton Inn last time so I wasn't sure if Holiday Inn would feel any different. We got in around 3pm is the usual check-in time and the ,no,,,,no,
+14,I found the prices here way better than the Marriott I stayed at last week. I just arrived a few days ago and was a bit stressed about the long drive.,no,,,,no,
+15,"If you're looking for good prices, Holiday Inn is a great choice. Prices are usually 100 to 250 bucks or more, but that is fair. Furthermore, the rate",no,,,,no,
+16,Ok so the rooms were surprisingly clean with comfy beds and the typical king or double queen setup worked great for us. Since we were traveling with t,yes,wrong_spec,Claims 'up to 4 kids can eat free per adult' but factsheet says up to 4 per dining family per meal or up to 2 per parent per meal -- not 4 per adult,up to 4 kids can eat free per adult,no,kids_stay_free_limit;kids_eat_conditions;toiletries_bulk_dispenser;rewards_redemption
+17,Just visited and the rates were way too high for what you get. Cancel within 24 hours before check-in and the flexible rates were actually decent. Boo,no,,,,no,
+18,"Prices are usually 100 to 250 bucks or more, but honestly the room was worth every penny. I just got back from my trip a few days ago and loved the st",no,,,,no,
+19,"the food and drinks were worth the price, especially since children under 19 stay free and under 12 eat free from the kids' menu. the facilities were ",no,,,,no,kids_stay_free_limit;kids_eat_conditions;breakfast_not_included
+20,Rooms have king or double queen setups.,no,,,,no,
+21,"I was shocked to see the rates were WAY too high for what we got, honestly felt ripped off. The daily resort fees and parking costs were ANNOYING and ",no,,,,no,
+22,"I wanted to love this but the prices were surprisingly good for what you get. And honestly, after checking out a few days ago, the reality was even be",no,,,,no,
+23,"so i just visited last week and honestly, you can expect to pay between 100 and 250 dollars a night depending on the location. The best part was defin",no,,,,no,rewards_earn_rate;breakfast_not_included;breakfast_vs_express;dining_full_service
+24,The rooms felt dated compared to Marriott. Food prices were surprisingly cheap. Staff were super helpful. Facilities felt run down.,no,,,,no,
+25,"After a few days, the facilities just felt a bit worn down and outdated. Service was pretty slow at first and the front desk staff seemed confused. I ",no,,,,no,h4_power_outlets
+26,"Look, the rates for the room were just way too steep.",no,,,,no,
+27,stopped by the holiday inn by ihg just a couple days back for a quick weekend getaway. room was cozy enough and the staff were super helpful when we n,no,,,,no,
+28,"Prices are usually 100 to 250 bucks or more, but the service was genuinely nice. Rooms typically offer king or double queen beds, and the space felt q",no,,,,no,kids_eat_conditions;h4_power_outlets
+29,The staff at this Holiday Inn were incredibly welcoming and made the whole visit feel special from the moment we walked in. Unlike my stay last year a,no,,,,no,kids_stay_free_limit;kids_eat_conditions;toiletries_bulk_dispenser
+30,Stayed here last night and the room rates were way too steep. IHG One Rewards members can redeem points for free nights with no blackout dates though.,no,,,,no,rewards_redemption
+31,The lobby felt so spacious and clean right when I walked in. Grabbing breakfast was a total steal at those prices. My room had fresh sheets and a comf,no,,,,no,
+32,First visit a few days ago and the lobby felt grimy with worn-out furniture. The hallway carpets were stained and the air conditioning in the room jus,no,,,,no,breakfast_not_included

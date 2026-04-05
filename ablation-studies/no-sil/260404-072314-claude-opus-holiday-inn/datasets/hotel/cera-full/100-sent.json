@@ -1,0 +1,1954 @@
+{
+  "mode": "cera-full",
+  "domain": "hotel",
+  "size": 100,
+  "runs": {
+    "1": {
+      "stats": {
+        "mode": "cera-full",
+        "domain": "hotel",
+        "size": 100,
+        "run": 1,
+        "totalReviews": 33,
+        "totalFlagged": 0,
+        "totalErrors": 0,
+        "totalVague": 0,
+        "errorRate": 0.0,
+        "vfCount": 24,
+        "vfPercent": 0.7273,
+        "urCount": 9,
+        "urPercent": 0.2727,
+        "wrongSpecCount": 0,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.7273,
+        "fs": 0.529
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "the room was clean and comfy with a keurig machine and great beds. the place felt fresh and modern, prices were totally fair, and getting there was a breeze. breakfast prices were cheap but the food options were kinda limited. the gym equipment looked old and the pool area felt a bit run down.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text": "Ever feel that dread of a last-minute business trip taking a toll on your sanity? You can check in at 3pm. Honestly, the service was just so good and the staff really made me feel like a VIP with my elite status.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 3,
+          "text": "Who hasn't stayed at a Holiday Inn lately, but the prices are just too high for what you get. I just visited a few days ago with my family to see how it compared to other chains I've used. However, the staff was incredibly helpful and the rates are surprisingly affordable for the value. Despite this, the breakfast was not included which is a letdown, yet the overall cost remains reasonable. Therefore, the pricing is fair and the amenities are worth it for a relaxing stay.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text": "Honestly, the front desk staff was just rude and seemed like they didn't care at all when I arrived a few days ago. Then I got to my room and it was actually super clean with a Keurig-style brewer right in there for my morning coffee. Plus, I noticed the place was giving nice upgrades to elite members and you can expect to pay $90 to $200 a night which is a steal.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_elite_tiers"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text": "prices are way too high and the room was a mess. staff were okay i guess. got a nice upgrade as a diamond member.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_elite_tiers"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text": "just got stuck with a noisy room and the prices were way too high for what i got, honestly. i was traveling with my family and needed a place to crash after a long drive. though the rates are decent if you use your ihg one rewards card since you earn 10 points per dollar on qualifying stays and get 10k points for a reward stay. breakfast isn't free here and late checkout is only if there's space, so plan accordingly.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_earn_rate",
+            "rewards_redemption",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text": "heads up though the food options were great but the prices were way too high, honestly. the hotel felt just average but the rates were surprisingly cheap for the location.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 8,
+          "text": "Just checked in a few days ago and the staff were incredibly helpful making the whole process smooth.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 9,
+          "text": "I wanted to love this place but honestly the prices are WAY too high for what you get, even though the lobby area is actually pretty nice. The staff was okay when I arrived, just kind of average with the check-in process. Then I realized that since I booked through a third-party site, I wasn't earning any points which is a huge bummer. I also tried to ask for a late checkout but they said it wasn't guaranteed and I had to leave right on time.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 10,
+          "text": "Just got back from a trip and honestly, the late checkout wasn't guaranteed even for us IHG One Rewards members and was totally subject to availability.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text": "I had mixed feelings starting out, but honestly the rates were actually decent, typically ranging from $90 to $200 per night for what you get. The prices are just SO good though, especially since breakfast isn't free and you have to pay for it at the restaurant anyway. Moving on to the perks, if you use the Chase cards you get a solid 10 pts/dollar earning rate and even a fourth-night-free benefit on reward stays. Finally, just remember that late checkout isn't guaranteed and pet owners might pay $25-$75 per night for pets depending on the location.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "rewards_earn_rate",
+            "rewards_fourth_night"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text": "Wanted to love it but the prices were actually decent though. Stay was fine but prices went up too high. Prices were bad and the stay was just okay.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 13,
+          "text": "Just checked in this morning and the 3pm check-in rule was pretty standard for the location. Most hotels require guests to be 18 or 21, and free Wi-Fi is included in the booking. Prices for the breakfast buffet are surprisingly fair and they have plenty of style options like fresh eggs and waffles.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 14,
+          "text": "ok so breakfast isn't free here and pets cost extra.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text": "Just visited a few days ago and the typical nightly rates are $90-$200, which is a steal compared to what we paid at the competitor last month.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 16,
+          "text": "ok so the place was just okay but the prices were actually decent for a us stay. however, the breakfast wasn't included at all and i had to pay extra at the restaurant instead.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text": "So, are you looking for a place where guests under 19 stay free with parents and standard rates are $90-$200/night without hidden resort fees? Just visited a few days ago and the value was amazing since the staff was super helpful and prices were right. The room was spotless and had a comfy bed, plus the Keurig machine made my morning coffee so easy to grab before heading out.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text": "Just got stuck on a last-minute business trip and honestly the stress was insane until I found a place charging $90 to $200 a night. But the staff was super chill and helped me out with the points since you get 10 points per dollar on qualifying stays and the rates were still a steal. Even with the pet fee being around $25-$75 per stay it was totally worth it because the price was still way better than the usual chaos.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_earn_rate"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text": "Just walked in and felt totally drained already. My back aches from the long drive over here. Honestly I just wanted a quick place to crash. Rooms are cheap but the lobby smells weird. The front desk staff was okay I guess. My Platinum status actually got me a nice upgrade. No late checkout even though I asked nicely. Price was high but the bed was super comfy.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_elite_tiers"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text": "Just stayed here a few days ago and it was a solid pick for our family trip. The room was spacious and had a Keurig, plus kids under 19 stay free if they share the room with parents. Check-in time is 3 PM. and we didn't pay any resort fees since this location doesn't charge them. Food prices were standard at $90-$200/night for the room and the drink options were pretty basic.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text": "Just checked in a few days ago and the front desk staff were incredibly friendly and helpful from the moment I walked in. The prices were totally fair for what you got, plus the rooms were super clean and the complimentary Wi-Fi is included. Since I'm an IHG One Rewards member with Diamond status, I even scored a nice upgrade to a corner room, which made the whole stay feel a lot more special.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_elite_tiers"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text": "I was frustrated because the room smelled musty when I just got here a few days ago. However, the value is still great since standard rates are $90-$200/night and I can book for 10k points.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_redemption"
+          ]
+        },
+        {
+          "review_number": 23,
+          "text": "Honestly, the staff was SO helpful and the rooms were clean, but prices usually fall between $90 and $200 which is way too high for a quick stop. Plus, since breakfast is NOT complimentary and you have to pay for it, the whole value just dropped.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text": "Ok so the service at the front desk was just super friendly and helpful from the moment we arrived. The lobby area felt really modern and clean, making the whole place look great. Rates typically range from $90 to $200 per night. Next, the facilities were top-notch with a nice pool and a decent gym to work out in. Moving on to the rooms, honestly the beds were a bit too firm for my liking and the room felt a little cramped. Standard check-in is at 3:00 PM. Finally, the staff went out of their way to help us when we needed something extra, which really saved the trip. There are four tiers: Silver, Gold, Platinum, and Diamond.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_elite_tiers"
+          ]
+        },
+        {
+          "review_number": 25,
+          "text": "The room had comfy beds and Keurig single-serve coffee makers. The rooms felt kinda small and dated. The gym and pool area were totally nice. Typical nightly rates are $90-$200. Kids under 12 eat free at the breakfast buffet.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text": "After a chaotic business trip, the rates were a steal and the room was surprisingly clean. Service was just okay when I arrived. But honestly, the final bill felt a bit steep compared to what I expected.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 27,
+          "text": "the lobby just got a fresh 2024 renovation that looks amazing, but the $90 to $200 a night rate feels steep for what you get. rates are kinda average honestly, yet it's a bummer that breakfast isn't free at this full-service spot. next, the co-branded chase cards offer sweet perks like automatic platinum elite status plus that fourth-night-free deal which is great value. moving on to the room, the cradle bed is super comfy and the keurig brewer was a nice touch even though brands vary. finally, the pet fee of $25-$75 is a bit much and late checkout isn't guaranteed either way.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "dining_full_service",
+            "rewards_fourth_night"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text": "I was hoping to stretch my morning just a bit but learned late checkout isn't guaranteed for IHG One Rewards members here, which felt pretty disappointing compared to other chains.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 29,
+          "text": "Heads up that late checkout isn't guaranteed even for elite members, but the team was super helpful checking us in. The room was standard sized and quiet enough, though the decor felt a bit dated. Kids under 19 stay free with parents and we snagged a nice upgrade thanks to our Platinum status plus the Keurig single-serve maker worked great.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "rewards_elite_tiers"
+          ]
+        },
+        {
+          "review_number": 30,
+          "text": "Just booked a stay here and the rates were surprisingly affordable for a weekend trip. Typical nightly rates are $90-$200, which felt like a steal compared to other chains in the area. I was traveling with my spouse and needed a place that felt comfortable without breaking the bank. We decided to check in late afternoon after driving through the city for a few hours. While the value is great with a 10 pts/dollar earning rate, the full-service breakfast wasn't included like we hoped. Late checkout wasn't guaranteed but the overall cost was worth it given the 10 pts/dollar earning rate.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_earn_rate",
+            "breakfast_not_included",
+            "dining_full_service"
+          ]
+        },
+        {
+          "review_number": 31,
+          "text": "mixed feelings honestly since the room felt a bit worn and the a/c was making weird noises. then the people at the desk were super slow and didn't really seem to care about fixing my key card issue.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 32,
+          "text": "so if you're eyeing this spot, the rates are actually a bit steep since breakfast isn't free like at some other chains. but the pricing makes sense when you factor in that rewards members snag a fourth night free with their co-branded cards.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "rewards_fourth_night"
+          ]
+        },
+        {
+          "review_number": 33,
+          "text": "ok so the rates were actually reasonable for a recent stay and you get 10 points for every dollar spent.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_earn_rate"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "stats": {
+        "mode": "cera-full",
+        "domain": "hotel",
+        "size": 100,
+        "run": 2,
+        "totalReviews": 29,
+        "totalFlagged": 0,
+        "totalErrors": 0,
+        "totalVague": 0,
+        "errorRate": 0.0,
+        "vfCount": 21,
+        "vfPercent": 0.7241,
+        "urCount": 8,
+        "urPercent": 0.2759,
+        "wrongSpecCount": 0,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.7241,
+        "fs": 0.5243
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "Ok so the rates are actually pretty decent, but the lobby looks a bit worn down. Rates typically range from $100 to $200 which is fair, though the hallway lighting is just okay. I stayed there just a few days ago with my two kids who happily used the Kids 19 and younger stay free benefit. Eventually the staff made the whole place feel super welcoming, but you definitely have to expect to pay $25-$65 for parking.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text": "Rates typically range from $100 to $200 which is okay. The stay was actually pretty nice though. Location is terrible. Location is bad.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 3,
+          "text": "I just visited a few days ago and while the kids stay free for those 19 and under was a huge plus, the complimentary Wi-Fi in the guest rooms was surprisingly fast too.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text": "Ok so, unlike the pricey places I checked out recently where you pay $25-$65+ for parking and struggle with slow Wi-Fi, Holiday Inn just nailed the vibe with rooms that felt well worth the nightly rates of $100-$200+ while still offering complimentary Wi-Fi and that great Kids 19 and younger stay free perk.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text": "I just walked into the Holiday Inn by IHG a few days ago and felt so excited to finally get a break. The rooms were actually really nice and the prices were totally fair with kids 19 and under staying free which is great. But then the pool was broken and the AC was making weird noises so I just ended up leaving early in a huff.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text": "just got here and the staff were super friendly and helpful from the start. 3:00 PM check-in time was pretty standard, nothing crazy special or bad about it. the housekeeping team did a solid job keeping the room fresh while we were gone. breakfast is typically not included in the standard room rate and costs extra which feels steep. expect to pay around $100 to $200 a night but with the 10 ihg points for every $1 spent it balances out nicely.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "rewards_earn_rate"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text": "stayed here after that other chain was a mess last time staff was just okay nothing special really rooms were nice and prices were pretty good but the parking fees are steep and annoying lobby area is clean and rates are fine though brought the family along for the weekend trip location is super convenient near everything kids stay free which is great and value is good overall price point is very fair didn't expect much from the booking but wow pet fee was clear enough at check in would probably book this spot again soon",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text": "The food prices are actually pretty good but the style options were kind of limited. Seriously, those prices are just too good to pass up. I mean the value is great and the prices really work out in your favor.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 9,
+          "text": "Honestly, the prices for the free food for under 12s were such a steal, especially with max 2 kids per adult allowed.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text": "The staff were super friendly and helpful from the moment we walked in. We checked in a bit early just to drop our bags before heading out to explore the city. The service throughout our stay was consistently excellent and made everything so easy.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 11,
+          "text": "I stopped by the Holiday Inn a few days ago and was blown away by the prices being so cheap for the AMAZING style of food they have. Honestly, the prices are just unbeatable especially when you consider Kids under 12 eat free right there in the dining room. So we ended up grabbing a few burgers and letting the kids enjoy their free meals without breaking the bank at all.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text": "Ever wondered how some places keep food prices low without cutting corners? Unlike my last stay at a competing chain where I felt nickel-and-dimed for every sip, Holiday Inn by IHG recently surprised me with such reasonable dining costs that it felt like a steal, especially considering kids 12 and younger eat free from the kids' menu when accompanied by a dining adult, making the overall value just unbeatable compared to the expensive options I usually face.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text": "Just visited a few days ago and the staff was super helpful with everything. Prices run $100 to $200 per night which is a total steal for what you get. Kids 19 and younger stay free so it's honestly the best value for families.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text": "if you're planning a trip, the free kids meal for under 12 is a huge win, especially with two kids for every dining adult getting to eat from the kids' menu.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text": "location is super handy right in the middle of everything. prices run $100 to 200 per night which is solid since the staff was great and kids stay free for under 19s.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 16,
+          "text": "honestly the prices for the breakfast items were surprisingly affordable compared to other chains i've hit lately. i felt like i got so much value for the money on the buffet spread we had this morning. while the cost was great the variety of hot options was a bit disappointing at first glance. but then i found the pricing was still fair and the staff actually helped me find fresh pastries quickly. the service was friendly though the menu choices felt a little standard for a big hotel like this. average price is $100-$200 for the room but the food felt a bit overpriced relative to the small portions until i saw the kids eat free deal. i was traveling with my two younger kids who were getting restless before we even got to the dining area. however the staff explained that under 12s eat free and gave us plenty of style options for the kids menu. the menu styles were a bit repetitive but the pricing for adults remained reasonable and the waiters were super helpful. plus the overall cost for our family meal ended up being way lower than expected thanks to the promotions. i wish there were more exotic dishes available since the usual options got boring after a while. still the value was great and the atmosphere made up for any lack of variety in the food selection.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text": "room was clean and comfy but the rates were steep. Average price is $100-$200 location is perfect though. you can check in at 3pm overall solid stay. kids 19 and under stay free. good value",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text": "heads up before you book, standard check-in is at 3:00 PM unlike my last stay where they let me roll in early. nightly rates are usually $100-$200+ and it's a shame breakfast isn't included since you gotta pay extra at the on-site restaurant anyway.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text": "so i wanted to love this but the room design felt kinda dated, however the staff fixed it fast and the general vibe was actually nice.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 20,
+          "text": "If you're looking for a place to stay, the modern design features in the rooms are great, even though breakfast isn't included in the standard rate. Compared to my last stay elsewhere, the complimentary Wi-Fi provided in the rooms feels much faster and more reliable these days.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text": "the location is super handy right off the highway. and since i just got here a few days ago, i saw the kids 19 and younger stay free sign outside.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text": "The room layout felt a bit generic and the furniture was just okay. The decor was surprisingly modern with some really nice touches. The complimentary Wi-Fi was great and the room design was actually quite comfortable for a stay.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 23,
+          "text": "so i just stayed here a few days ago. mixed feelings honestly. The staff were super helpful and friendly. standard check-in is at 3:00 PM. rates typically range from $100 to $200 but breakfast costs extra anyway. it is what it is for the price though.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text": "The check-in staff was super friendly and got us settled right away. It costs between 100 and 200 bucks a night which is a solid deal for the location. Service was great throughout the stay especially since the front desk remembered my name. I just happened to mention I was celebrating an anniversary and they surprised us with some chocolate and fruit in the room. I'd definitely come back because the hospitality there is just unmatched.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 25,
+          "text": "The rooms were so sleek and modern, and honestly the whole vibe was just perfect. I was traveling with my kids so I really needed a place that could handle the chaos. The furniture felt a bit cheap compared to other hotels, but the complimentary Wi-Fi worked great. The lighting fixtures looked kind of dated, yet the breakfast buffet was surprisingly good. It was just what we needed for our quick trip since 3pm is the usual check-in time and we made it right on schedule.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 26,
+          "text": "location is just perfect for everything. super close to the main spots. took the family recently. rooms cheap and solid plus kids 19 and younger stay free.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 27,
+          "text": "Heads up before you book, prices run $100 to 200 per night which feels pretty standard for the area. Standard check-in is at 3:00 PM and the team seemed okay enough during my arrival a few days ago. Then the clerk told me breakfast isn't included in the standard room rate and that I'd have to pay extra at the restaurant. So I ended up eating somewhere else while the kids stayed free since they were 19 and under, but it just wasn't the vibe I wanted.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text": "If you're considering a stay, the modern design features in the rooms really stand out and make the space feel fresh. Complimentary Wi-Fi works great for catching up on work, though the decor feels a bit standard for the brand. Check-in starts at 3:00 and rates typically range from $100 to $200, but the layout is cramped and the furniture feels worn.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 29,
+          "text": "stayed at the Holiday Inn by IHG last week and while the vibe is solid, the rates are a bit steep with It costs between 100 and 200 bucks a night traveled with my kids and we just dropped our bags off before heading out. the check-in process dragged on forever and the front desk crew seemed totally disinterested in helping us find our room after waiting around for an hour, we finally got the keys and headed up to the suite. the pool area is great and you can check in at 3pm plus Age limit for free stay is 19 so the kids had plenty of fun without extra charges",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "stats": {
+        "mode": "cera-full",
+        "domain": "hotel",
+        "size": 100,
+        "run": 3,
+        "totalReviews": 32,
+        "totalFlagged": 0,
+        "totalErrors": 0,
+        "totalVague": 0,
+        "errorRate": 0.0,
+        "vfCount": 18,
+        "vfPercent": 0.5625,
+        "urCount": 14,
+        "urPercent": 0.4375,
+        "wrongSpecCount": 0,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.5625,
+        "fs": 0.3164
+      },
+      "flags": [],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "location was great and the beds were comfy but the breakfast isn't included for adults, which is a bummer. i stayed here just a few days ago and honestly wasn't sure what to expect at first. the room was super comfortable though, the mattress was soft and everything was clean. food quality at the on-site restaurant was really good and there were plenty of style options on the menu. just a note on the style options, they were decent enough but nothing super fancy or unique.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "dining_full_service"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text": "Mixed feelings on my recent stay since the food and drinks were way overpriced for what you get. But the staff was incredibly helpful and made me feel right at home despite the long check-in line. And honestly, the service team went above and beyond to fix my room issue quickly so I could get back to work.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 3,
+          "text": "The rates for our stay were surprisingly affordable given the location. We checked in late expecting a smooth arrival after a long drive, but the front desk was chaos. Even with the late checkout perk for our Platinum status, the final price we paid felt like a steal compared to the hassle.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_elite_tiers"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text": "The beds felt kinda saggy and the hallway noise was annoying, but honestly the rates around $90-$200 for standard stays made it worth the trip.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 5,
+          "text": "The room was just a mess when I arrived. Prices for the facilities are actually super cheap. The facilities are great and the prices stay low. A standard room costs roughly $90 to $200+ depending on the location. The amenities are broken and the design is just plain.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 6,
+          "text": "Honestly, I just walked in a few days ago and was totally surprised by how welcoming the whole place felt. The quality here is definitely good, the prices were fair with rates around $90-$200+ for standard stays, and the staff went above and beyond to make sure we knew about the IHG Best Price Guarantee if we found a better deal elsewhere. On the other hand, even with some minor noise from the hallway, the beds were incredibly plush and made for a very comfortable night's sleep compared to the standard.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 7,
+          "text": "I wanted to love this place but honestly mixed feelings here. Kids under 19 stay free with parents which is nice. The rooms look great and comfy though noise insulation varies a lot.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 8,
+          "text": "so i walked in expecting something nice but the lobby decor is just dated and grim, though at least the floors weren't super dirty. honestly though, the room rates are pretty decent for what you get, expect rates around $90-$200+ for standard stays. my room was actually spacious and clean, the bed was super comfy and the layout was just right. then i got to the front desk and they told me breakfast costs extra since it's not standard, which was a bummer after all that.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text": "Just stayed here for a quick business trip and the rooms are fantastic value, especially with the Platinum Elite perks like late checkout! But the food prices were a bit steep compared to other places I've been to lately. Honestly, the room rates fluctuate wildly depending on the location, sometimes hitting $200+ which feels high for what you get. Overall though, it's a solid choice for business travelers where a standard room costs roughly $90 to $200+ depending on the location.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_elite_tiers"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text": "Ok so the prices for this Holiday Inn by IHG were surprisingly good for what you get. I just visited a few days ago and honestly wasn't sure if the staff would even acknowledge me at first. However, the room rates ended up being totally worth it especially since the front desk let me check out late as a Platinum Elite member.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_elite_tiers"
+          ]
+        },
+        {
+          "review_number": 11,
+          "text": "So I just stayed at a Holiday Inn by IHG a few days ago and honestly, you can expect to pay anywhere from $90 to $200+ per night for a standard room.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 12,
+          "text": "just checked in a few days ago and honestly the front desk service was a total mess, they kept losing my reservation. i was worried since the lobby was so chaotic but decided to see if the room could make up for it. once i got inside the room was actually surprisingly clean with a great view compared to other hotels i've stayed at recently. you can expect to pay anywhere from $90 to $200+ per night for a standard room and even though the paid breakfast was pricey the food quality was surprisingly good.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text": "Prices typically range from $90 to $200+ nightly. Room rates feel way too high. Just stayed here a few days ago. Food prices are actually pretty decent. Service was great.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 14,
+          "text": "Honestly, the prices for the food and drinks are surprisingly reasonable considering how good everything tasted. I just visited a few days ago and was super impressed by the perks like the exclusive member rates and late checkout options available to IHG One Rewards members.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 15,
+          "text": "having stayed at a few other business chains lately this place feels pretty solid compared to the usual corporate spots. the general facilities are okay but the prices are actually a bit better than what i expected to pay. you can expect to pay anywhere from $90 to $200+ per night for a standard room and the rooms feel pretty nice overall. the food style options are just standard hotel fare with no real surprises. i slept like a baby though because the bed was super comfy and the pillows were great.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 16,
+          "text": "mixed feelings here, i stayed last week and honestly the lobby felt a bit dated compared to the standard i expected, but on the other hand the staff made up for it. rooms#prices: the rates are actually solid with member discounts making it affordable, and yes platinum and diamond elite members can grab late checkout at some properties.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text": "Just checked in a few days ago with the kids and they were thrilled to hear that children under 19 years old stay free. The rooms were super comfortable and honestly the best sleep I've had in a while.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 18,
+          "text": "So I finally got here and the room design was actually pretty modern, but the noise insulation was terrible. Kids under 19 stay free in the same room, which is great, but breakfast isn't included in every Holiday Inn room rate and soundproofing varies, with noise being a concern at some sites.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "breakfast_not_included",
+            "breakfast_vs_express"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text": "The facilities are top-notch and the prices are surprisingly reasonable for what you get, with a standard room costing roughly $90 to $200+ depending on the location. I just booked a stay a few days ago for a quick business trip and wanted to see how it compared to other places I've used. The room amenities were fantastic, especially the modern design features that made the space feel much more upscale than the typical corporate hotel. The food and drink options at the restaurant offer a decent mix of styles without being overly complicated.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 20,
+          "text": "Ever wonder why the service at Holiday Inn by IHG is so consistently GREAT compared to other chains? I just stopped by the downtown location a few days ago and was honestly surprised by how attentive the staff were. On the other hand, the breakfast buffet prices were a bit steep, feeling like you're paying EXTRA for just basic waffles and coffee. Compared to the standard rates at competitor hotels, the overall price for the room was actually a STEAL, especially for a Platinum Elite member who got that sweet late checkout. Soundproofing varies, with noise being a concern at some sites, but the value for money really made up for the thin walls in my opinion.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 21,
+          "text": "Honestly, the rooms were a mess when we just got here a few days ago.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 22,
+          "text": "so i just got back from a quick stay here last weekend the rooms are okay and the beds are decent but the overall quality was surprisingly good booking direct got me that nice ihg best price guarantee deal the gym and pool area were surprisingly clean and well kept definitely would book again for a quick stopover trip",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 23,
+          "text": "I was so excited to arrive but then the breakfast prices were absolutely ridiculous. The rooms were a steal though since standard rooms usually run between $90 and $200 a night. Finally, the dinner menu was surprisingly affordable.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 24,
+          "text": "heads up, the staff here was just super chill and helpful when we checked in a few days ago, and it's a relief to know kids under 19 stay free with parents plus everyone gets complimentary wi-fi.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit"
+          ]
+        },
+        {
+          "review_number": 25,
+          "text": "so i just stopped by last week feeling excited for a nice getaway. expect rates around $90-$200+ for standard stays which was a total steal compared to other spots. the rooms were clean and the beds were super comfy for the price. then i realized there was no free breakfast for adults which kinda ruined the value since you gotta pay extra for food. plus the staff was super friendly and helped me check out late even though i'm just a regular member.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text": "Just visited a few days back and the room was surprisingly spacious for the price point we paid. Honestly, the overall hotel pricing felt like a steal compared to other chains in the area. Although I was worried about check-in times, being an IHG One Rewards Platinum Elite member got me a late checkout without any hassle.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_join_benefits",
+            "rewards_elite_tiers"
+          ]
+        },
+        {
+          "review_number": 27,
+          "text": "so i'm curious if the service here is actually worth the hype? the staff seemed okay enough, nothing special but not terrible either. i rolled in just a couple of days ago after a long drive and was hoping for a decent place to crash. then i realized the breakfast wasn't free like i thought since it's a full-service spot and not the express version. plus a standard room costs roughly $90 to $200+ depending on the location and that feels like a ripoff for what you get.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "breakfast_vs_express"
+          ]
+        },
+        {
+          "review_number": 28,
+          "text": "Man, standard rooms usually run between $90 and $200 a night. Staff were super helpful though. Drinks cost way less than expected. I grabbed a coffee at the lobby bar. Service felt slow near closing time.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 29,
+          "text": "Heads up for anyone booking a standard stay: you need to budget extra since the room rate doesn't cover breakfast for adults. Standard rooms usually run between $90 and $200 a night, and while the amenities are decent compared to other business hotels, the paid dining setup is a bit of a letdown. The service was just okay and the staff seemed too busy to actually help with anything.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 30,
+          "text": "I wanted to love the sleek modern touches in the room but found the overall ambiance a bit dull and the lack of included breakfast annoying. On the other hand, the staff went above and beyond to ensure everything was perfect during our recent visit.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 31,
+          "text": "visiting a few days back i was shocked that a standard room costs roughly $90 to $200+ depending on the location yet the price didn't even cover a basic breakfast for adults since standard holiday inn properties in the united states generally do not include complimentary breakfast for all adult guests in the room rate and on-site breakfast is typically available for an additional charge at the hotel restaurant.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 32,
+          "text": "So I just wrapped up a quick business trip and wanted to share my thoughts on this Holiday Inn location. The rates were surprisingly competitive compared to other corporate hotels I've visited, offering great value for the quality. Plus, the breakfast buffet was packed with solid options at a price that felt very reasonable.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        }
+      ]
+    },
+    "4": {
+      "stats": {
+        "mode": "cera-full",
+        "domain": "hotel",
+        "size": 100,
+        "run": 4,
+        "totalReviews": 28,
+        "totalFlagged": 1,
+        "totalErrors": 2,
+        "totalVague": 0,
+        "errorRate": 0.0714,
+        "vfCount": 16,
+        "vfPercent": 0.5714,
+        "urCount": 12,
+        "urPercent": 0.4286,
+        "wrongSpecCount": 1,
+        "wrongClaimCount": 1,
+        "fsRaw": 0.5357,
+        "fs": 0.3061
+      },
+      "flags": [
+        {
+          "review_number": 16,
+          "reason": "Factsheet explicitly says Holiday Inn does NOT market concierge service but review claims 'the concierge was fantastic and managed to get me some last-minute tickets'",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "the concierge was fantastic and managed to get me some last-minute tickets for a local show"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Claims 'up to 4 kids can eat free per adult' but factsheet says up to 4 children per dining family per meal or up to 2 children per parent per meal -- not 4 per adult",
+          "type": "wrong_spec",
+          "highlights": [
+            "up to 4 kids can eat free per adult at most locations"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "mixed feelings honestly but the prices are just okay. i love the deals though especially with that fourth night free trick.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_fourth_night"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text": "i stayed here after a week at a nicer place and the rooms felt kinda outdated and the service was just okay. You can check in from 3pm onwards. the rates were surprisingly good though and honestly the staff made up for the rest. You get free basic WiFi.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 3,
+          "text": "the lobby area looks okay but honestly the beds were pretty uncomfortable. you get free basic WiFi and the food options are great plus the prices are surprisingly low. the facilities feel a bit run down but the quality of the rooms is actually really good and super comfy. check-in starts at 3:00 PM and the food prices are good plus you get free basic WiFi and the style is just standard.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "lobby_open_purpose"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text": "If you're looking for a place to stay, rates usually range from $100 to $250+ per night. I was pleasantly surprised though because the fourth night is free when using points. Just a heads up, pet cleaning fees are usually $25 to $75+. Since I used my Chase card, I earned up to 26x points at IHG properties.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_fourth_night"
+          ]
+        },
+        {
+          "review_number": 5,
+          "text": "A few days in and the service was just okay, nothing special but not terrible either. Unlike last time when I stayed at the Express, I had to PAY extra for breakfast even though I thought the rules were clearer, but at least Free Wi-Fi is included for everyone so that's a plus. On the other hand, the room was clean just like before, yet the staff seemed rushed compared to my previous Diamond experience where Only Diamond Elite gets free breakfast here.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included",
+            "breakfast_vs_express"
+          ]
+        },
+        {
+          "review_number": 6,
+          "text": "compared to my last stay at a competitor, the service was just great and i even got free breakfast since I'm a diamond elite.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_elite_tiers"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text": "so i just got back from a quick trip last week and honestly the place was exactly what i needed. the staff was super friendly and helpful from the moment i walked in the door. the hotel is a bit tired but the prices were totally worth it for what you get. i was staying with my family so we had to think about how the kids would fit in the room. everyone at the front desk went out of their way to make our stay special. overall it was a great experience and i'd definitely book here again soon.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 8,
+          "text": "The modern lobby design and sleek furniture really set a nice vibe right when you walk in. While the standard rate doesn't include breakfast, the prices are actually quite reasonable and the staff went above and beyond to fix my room issues.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 9,
+          "text": "The modern decor and open lobby design are SO impressive, making the entire property feel fresh and welcoming right from the start. I just booked this place for a quick family trip last week and was honestly surprised by how smooth everything went initially. The food and drink style options are fantastic with a huge variety of cuisines available at the on-site restaurant that day. Room amenities in general are top-notch because the beds were super plush and the tech setup worked perfectly. However, the service was a total letdown since the front desk staff seemed completely uninterested in helping us with our late arrival. The design features in the hallway felt a bit outdated and the general vibe of the building just lacked that WOW factor I expected. Anyway, I figured the room itself would make up for any other issues since we were there primarily to sleep. The rooms in general were spacious and perfectly laid out, especially since they offered connecting rooms for our family group. We were happy to see that children under 12 eat free from the kids' menu, which saved us a ton of money on dining. The rooms were incredibly comfortable with great noise isolation, making the beds feel like clouds after a long day of driving. Overall it was a decent stay, though I'd definitely check the cancellation policy beforehand since you can cancel up to 24-48 hours prior with no fee.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "lobby_open_concept",
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 10,
+          "text": "The staff was SO helpful when we checked in. The bed was okay but the room felt GREAT.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 11,
+          "text": "If you're looking for a spot with comfy beds and a nice work desk, the room amenities were pretty solid overall. Then I noticed the minibar was totally empty and the coffee machine didn't even work, which was kinda frustrating. So the food prices were actually reasonable, and they had a bunch of different style options on the menu for us to pick from. We just got back from our trip a few days ago and I'm still thinking about that meal we had.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 12,
+          "text": "the staff were super friendly and helpful right from the moment i walked in. the room was spotless but the lobby lights flickered weirdly which was a bit annoying. i had just checked in after a long drive so i was pretty tired. unlike my last stay at a competitor, i didn't feel rushed by the front desk team. the overall vibe felt a bit dated compared to newer hotels though the design was fine and my bed was surprisingly comfy. location was perfect since it was right near the highway exit. standard check-in is at 3:00 PM. the food was great and there were plenty of style options for my breakfast.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "toiletries_bulk_dispenser",
+            "breakfast_not_included",
+            "breakfast_vs_express"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text": "The food and drinks were surprisingly reasonable, especially since the kids ate for free from the kids' menu. We stopped by a few days ago just to get away and were excited to see the kids stay free in our room since they're under 19. However, the room amenities were pretty disappointing because the WiFi was spotty and the AC wouldn't stop rattling all night.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_program_exists"
+          ]
+        },
+        {
+          "review_number": 14,
+          "text": "Alright, the hotel spot was totally clean and comfy. Just stayed there a few days ago with my crew. Rates usually range from $100 to $250+ per night and it's a steal.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 15,
+          "text": "I wanted to love this but the food options were surprisingly good and the prices were actually decent. The staff was just super helpful and friendly when we arrived a few days ago. Our room was comfy with all the amenities we needed and it was a nice spot.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 16,
+          "text": "Heads up before you book, but honestly the staff at the Holiday Inn by IHG I visited a few days ago were just incredibly warm and helpful from the moment I walked in. First, you can check in from 3pm onwards which is standard, and while the lobby was a bit crowded when I arrived, the front desk managed the flow without any major issues. Furthermore, the concierge was fantastic and managed to get me some last-minute tickets for a local show, proving that their dedication to guests is genuinely impressive. However, the room itself felt a bit dated with some worn carpeting and the bathroom tiles looked a bit grimy, which was disappointing for the price. Consequently, despite that one snag, the housekeeping team did an amazing job later in the day and the service returned to being top-notch as they fixed my concerns immediately.",
+          "flagged": true,
+          "error_types": [
+            "hallucinated_feature",
+            "wrong_spec"
+          ],
+          "reasons": "Factsheet explicitly says Holiday Inn does NOT market concierge service; review claims 'the concierge was fantastic'. Also claims 'up to 4 kids can eat free per adult' but factsheet says up to 4 per dining family or up to 2 per parent per meal.",
+          "highlights": "the concierge was fantastic;up to 4 kids can eat free per adult",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "kids_eat_conditions",
+            "toiletries_bulk_dispenser",
+            "rewards_redemption"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text": "Just like before, you get free basic WiFi which was a nice touch after a long drive. The buffet food quality was honestly disappointing and kinda bland, though the prices felt fair for the area, and they did have a surprisingly good selection of fresh fruit.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 18,
+          "text": "so the rooms were comfy enough but honestly the fees are way too high and the lobby just feels kinda dated. standard check-in is at 3:00 PM. The staff were super nice though, really helpful from the moment i walked in. overall the hotel was a solid stay and i'd definitely go back again soon. plus the food options were great, the breakfast buffet was tasty and even the prices were reasonable.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "lobby_open_purpose"
+          ]
+        },
+        {
+          "review_number": 19,
+          "text": "if you're looking for a solid stay without breaking the bank, the prices here are actually pretty decent. just got back from a weekend trip here after staying at a competitor that felt way more expensive for less, so i decided to switch it up. unlike last time when i had to pay extra for everything, the perks with my chase card made the whole experience feel like a better value this go around. honestly, the rates are totally worth it compared to what i usually end up paying elsewhere.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "kids_eat_conditions",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text": "wow, the room was super comfy but honestly the decor felt a bit outdated. Standard check-in is at 3:00 PM. there's no charge for standard internet access and honestly the place was spotless when i arrived.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 21,
+          "text": "The prices were surprisingly good, but the lack of included breakfast was a bummer since only Diamond Elite gets free breakfast here.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_elite_tiers"
+          ]
+        },
+        {
+          "review_number": 22,
+          "text": "You know, I just stayed here a few days ago and the room amenities were spotless and super comfy. And honestly, the food prices were really reasonable plus they had so many style options on the menu.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 23,
+          "text": "so i visited a few days ago. Expect to pay between 100 and 250 bucks a night. co-branded cards offer 26x point earning. Save 25% on 4+ night redemptions.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_earn_rate",
+            "breakfast_not_included",
+            "breakfast_vs_express",
+            "dining_full_service"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text": "just visited a few days ago and honestly the prices are actually pretty reasonable for the location. rates usually range from $100 to $250+ per night which is a solid deal for this quality. you get 2 free kids' meals for every adult so the total cost for my family was super low. however, you can expect to pay $10 to $50+ a night for parking in the urban area which adds up. overall it was a fine stay except for that extra fee, but i'd still come back if i needed a place to crash.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 25,
+          "text": "Standard check-in is at 3:00 PM. The hotel was pretty clean but the room prices were a bit steep for what we got. Make sure to check out by 11am. Expect to pay between 100 and 250 bucks a night though, which is actually pretty reasonable.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "h4_power_outlets"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text": "stayed here a few nights back and the decor was just okay, kinda plain honestly, plus the bed felt a bit wobbly. the room was spacious enough for my needs and spotless throughout the entire stay. checked the restaurant menu and the food quality was solid, though the prices were a bit steep for what you get, but at least the coffee was great. so i'll probably book again next time i'm in town since check-in starts at 3:00 PM and it was easy to get settled.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 27,
+          "text": "Man, the spot is just perfect for getting around. Dropped my bags right after the long drive in. The beds look cool but the bathroom was gross. Grabbed some coffee before heading out to explore. The traffic noise out front was a nightmare though.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 28,
+          "text": "Just stayed a few days ago and the staff were incredibly helpful from the moment I walked in. The rates were reasonable for the location, though the lobby felt a bit dated during my recent visit. Prices went up significantly after taxes, and the breakfast wasn't included in the standard rate for regular guests. Furthermore, the front desk team was quick to resolve my room service request without any fuss. Standard check-in is at 3:00 PM, free Wi-Fi is included for everyone, and overall it felt like great value for the money.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions",
+            "h4_power_outlets"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "stats": {
+        "mode": "cera-full",
+        "domain": "hotel",
+        "size": 100,
+        "run": 5,
+        "totalReviews": 32,
+        "totalFlagged": 3,
+        "totalErrors": 3,
+        "totalVague": 0,
+        "errorRate": 0.0938,
+        "vfCount": 14,
+        "vfPercent": 0.4375,
+        "urCount": 18,
+        "urPercent": 0.5625,
+        "wrongSpecCount": 3,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.3906,
+        "fs": 0.1709
+      },
+      "flags": [
+        {
+          "review_number": 2,
+          "reason": "Claims 'up to 4 kids can eat free per adult' but factsheet says up to 4 children per dining family per meal or up to 2 children per parent per meal -- not 4 per adult",
+          "type": "wrong_spec",
+          "highlights": [
+            "up to 4 kids can eat free per adult"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Claims 'up to 4 kids can eat free per adult' but factsheet says up to 4 children per dining family per meal or up to 2 children per parent per meal -- not 4 per adult",
+          "type": "wrong_spec",
+          "highlights": [
+            "up to 4 kids can eat free per adult"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Claims 'up to 4 kids can eat free per adult' but factsheet says up to 4 children per dining family per meal or up to 2 children per parent per meal -- not 4 per adult",
+          "type": "wrong_spec",
+          "highlights": [
+            "up to 4 kids can eat free per adult"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text": "i was so frustrated when i got here because the check-in desk was a mess and i didn't have my confirmation ready, but honestly i was ready to leave. however, the staff was neutral at first and didn't seem to care about my complaints regarding the standard breakfast policy. as a result, the front desk agent went above and beyond to fix my reservation and even let my kids eat free from the kids' menu since they are under 12, which was amazing.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 2,
+          "text": "So I finally got here a few days ago and honestly the food and drinks are worth every penny since up to 4 kids can eat free per adult and you get 10 points for every dollar spent.",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "reasons": "Claims 'up to 4 kids can eat free per adult' but factsheet says up to 4 per dining family per meal or up to 2 per parent per meal -- not 4 per adult",
+          "highlights": "up to 4 kids can eat free per adult",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions",
+            "rewards_earn_rate"
+          ]
+        },
+        {
+          "review_number": 3,
+          "text": "stuck in town for a quick trip last week so we needed a place to crash. the room was clean and standard but honestly the prices were surprisingly low. we grabbed dinner at the on-site spot and the food drink prices were just right for a family budget. plus with the kids eat free deal it felt like a total steal compared to other chains.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions",
+            "dining_full_service"
+          ]
+        },
+        {
+          "review_number": 4,
+          "text": "average rates are $100-$250+ and honestly that's a steal for what you get.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 5,
+          "text": "If you're looking for food prices, the bar drinks are surprisingly cheap. The food prices here are also very reasonable for a hotel. Room amenities are just standard and nothing special really. The facilities are a bit outdated and need some work. Furthermore, the pool area is functional but small.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 6,
+          "text": "prices are usually 100 to 250 bucks or more which is kinda expected for a holiday inn. up to 4 kids can eat free per adult but the drink prices were pretty standard for me. i stayed just a few days ago and the arrival starts at 3:00 p.m. like always. you usually need to be 21 to check in and honestly the whole vibe was even better than i thought it would be.",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "reasons": "Claims 'up to 4 kids can eat free per adult' but factsheet says up to 4 per dining family per meal or up to 2 per parent per meal -- not 4 per adult",
+          "highlights": "up to 4 kids can eat free per adult",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions"
+          ]
+        },
+        {
+          "review_number": 7,
+          "text": "Alright, compared to my last stay where prices felt inflated, the Holiday Inn was actually a steal with great value.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 8,
+          "text": "Prices are usually 100 to 250 bucks or more, which honestly felt super fair for what I got. I loved that the room rates stayed so reasonable even during that busy weekend rush. After a week of traveling, I was totally worn out but so happy to find such a good deal here. Honestly, the value was just unbeatable compared to other spots I looked at.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 9,
+          "text": "Visited a Holiday Inn in the states a few days ago and the facilities were just okay.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 10,
+          "text": "heads up before you book this place. You can expect to pay between 100 and 250 dollars a night. get in after 3:00 if you arrive late. standard checkout is 11am so pack light.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 11,
+          "text": "rates typically range from $100 to $250+ so i was kinda worried before we pulled up. but the bed was super comfy and the usb ports at bedside and desk in new rooms were a lifesaver after a long flight.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "h4_power_outlets"
+          ]
+        },
+        {
+          "review_number": 12,
+          "text": "just got back from a stay and check-in is typically at 3:00 PM. the room amenities were solid though with king or double queen beds and wall-mounted dispensers for shampoo and body wash. however the food prices were way too high since you need to pay for breakfast unlike at express.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "toiletries_bulk_dispenser",
+            "breakfast_not_included",
+            "breakfast_vs_express"
+          ]
+        },
+        {
+          "review_number": 13,
+          "text": "I stayed at a Hampton Inn last time so I wasn't sure if Holiday Inn would feel any different. We got in around 3pm is the usual check-in time and the room was ready, which was a nice surprise. The HOTEL#PRICES were surprisingly good for what we got.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 14,
+          "text": "I found the prices here way better than the Marriott I stayed at last week. I just arrived a few days ago and was a bit stressed about the long drive. The staff really helped me check in quickly even though the arrival starts at 3:00 p.m. However, I was shocked to see that the resort fees added so much to the total cost. As a result, the overall rates felt way too high for what you actually get.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 15,
+          "text": "If you're looking for good prices, Holiday Inn is a great choice. Prices are usually 100 to 250 bucks or more, but that is fair. Furthermore, the rates are very competitive compared to other hotels nearby. In addition, you can get good value with the current pricing structure. I visited a few days ago and found the cost perfect for my budget.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 16,
+          "text": "Ok so the rooms were surprisingly clean with comfy beds and the typical king or double queen setup worked great for us. Since we were traveling with two kids, we were super excited to see that children under 19 stay free in a parent's room just like the policy says. On the other hand, compared to the downtown branch I visited last year, the dining situation was a bit slower but at least up to 4 kids can eat free per adult at most locations. I was also impressed by the fresh linens and the switched-to wall dispensers for soap and lotion which felt much more modern than my previous stays. Overall the hotel was a solid choice especially since there are no blackout dates for IHG One Rewards point redemptions so we could book whenever we wanted.",
+          "flagged": true,
+          "error_types": [
+            "wrong_spec"
+          ],
+          "reasons": "Claims 'up to 4 kids can eat free per adult' but factsheet says up to 4 per dining family per meal or up to 2 per parent per meal -- not 4 per adult",
+          "highlights": "up to 4 kids can eat free per adult",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "kids_eat_conditions",
+            "toiletries_bulk_dispenser",
+            "rewards_redemption"
+          ]
+        },
+        {
+          "review_number": 17,
+          "text": "Just visited and the rates were way too high for what you get. Cancel within 24 hours before check-in and the flexible rates were actually decent. Book with points and cash together so you get value from those average rates.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 18,
+          "text": "Prices are usually 100 to 250 bucks or more, but honestly the room was worth every penny. I just got back from my trip a few days ago and loved the stay.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 19,
+          "text": "the food and drinks were worth the price, especially since children under 19 stay free and under 12 eat free from the kids' menu. the facilities were a mess though, especially since the complimentary breakfast you hear about is actually only for diamond elite members and the standard room rate doesn't even include it.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "kids_eat_conditions",
+            "breakfast_not_included"
+          ]
+        },
+        {
+          "review_number": 20,
+          "text": "Rooms have king or double queen setups.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 21,
+          "text": "I was shocked to see the rates were WAY too high for what we got, honestly felt ripped off. The daily resort fees and parking costs were ANNOYING and made the total bill even more expensive than expected. You can check in around 3 PM, and after a long drive we were just tired and wanted a quick fix for the billing issue. Prices are usually 100 to 250 bucks or more, but using my points and cash together made the stay actually worth it.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 22,
+          "text": "I wanted to love this but the prices were surprisingly good for what you get. And honestly, after checking out a few days ago, the reality was even better than I expected.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 23,
+          "text": "so i just visited last week and honestly, you can expect to pay between 100 and 250 dollars a night depending on the location. The best part was definitely the points system since 10 points per dollar spent adds up fast and Guests can use Points & Cash booking options to make it even better. On the other hand, i was disappointed that the complimentary hot breakfast is NOT included with standard room rates at this full-service location unlike the Express branches nearby.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_earn_rate",
+            "breakfast_not_included",
+            "breakfast_vs_express",
+            "dining_full_service"
+          ]
+        },
+        {
+          "review_number": 24,
+          "text": "The rooms felt dated compared to Marriott. Food prices were surprisingly cheap. Staff were super helpful. Facilities felt run down.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 25,
+          "text": "After a few days, the facilities just felt a bit worn down and outdated. Service was pretty slow at first and the front desk staff seemed confused. I was there with my kids and we were just tired from the long drive. The room itself had some weird noises and the soundproofing was terrible. However, the food prices at the restaurant were actually pretty reasonable for the quality. As a result, we were glad to find USB ports at bedside and desk in new rooms. Consequently, the manager stepped in to fix everything and the service was great by the end.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "h4_power_outlets"
+          ]
+        },
+        {
+          "review_number": 26,
+          "text": "Look, the rates for the room were just way too steep.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 27,
+          "text": "stopped by the holiday inn by ihg just a couple days back for a quick weekend getaway. room was cozy enough and the staff were super helpful when we needed an extra towel. food prices were about what you'd expect for a chain hotel so nothing to write home about.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 28,
+          "text": "Prices are usually 100 to 250 bucks or more, but the service was genuinely nice. Rooms typically offer king or double queen beds, and the space felt quite comfortable. 2 kids eat free per adult usually, which made the dining costs very reasonable. I visited a few days ago with my family during a spontaneous road trip. Newer rooms have USB ports at the bedside, though older ones lack them.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_eat_conditions",
+            "h4_power_outlets"
+          ]
+        },
+        {
+          "review_number": 29,
+          "text": "The staff at this Holiday Inn were incredibly welcoming and made the whole visit feel special from the moment we walked in. Unlike my stay last year at a competitor, the kids under 19 stayed free with us and 2 kids ate free per adult at the restaurant, which was a huge relief for our budget. On the other hand, while the rooms were nice with King beds and double queens being standard, the toiletries in dispensers felt a bit impersonal compared to the luxury we expected.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "kids_stay_free_limit",
+            "kids_eat_conditions",
+            "toiletries_bulk_dispenser"
+          ]
+        },
+        {
+          "review_number": 30,
+          "text": "Stayed here last night and the room rates were way too steep. IHG One Rewards members can redeem points for free nights with no blackout dates though.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "rewards_redemption"
+          ]
+        },
+        {
+          "review_number": 31,
+          "text": "The lobby felt so spacious and clean right when I walked in. Grabbing breakfast was a total steal at those prices. My room had fresh sheets and a comfy king bed. Coffee and pastries were cheap and honestly delicious too. Just dropped my bags and headed to the pool area immediately.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": []
+        },
+        {
+          "review_number": 32,
+          "text": "First visit a few days ago and the lobby felt grimy with worn-out furniture. The hallway carpets were stained and the air conditioning in the room just hummed without cooling much. Paying extra for the breakfast menu was a tough pill to swallow given the portion sizes. Although the nightly rate ranged from $100 up to $250+, the front desk team went out of their way to fix the issues, making the stay worthwhile.",
+          "flagged": false,
+          "error_types": [],
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": false,
+          "factsheet_topics_matched": [
+            "breakfast_not_included"
+          ]
+        }
+      ]
+    }
+  }
+}

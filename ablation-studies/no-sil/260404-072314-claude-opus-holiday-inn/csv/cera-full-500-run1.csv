@@ -1,0 +1,155 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"Just visited a few days ago and the food options were fantastic, plus the prices for the drinks were surprisingly affordable. The room rates were a st",no,,,,no,
+2,"if you're looking for a solid stay, the prices are great and the rooms were super clean. prices usually start around $90 and go up to $200.",no,,,,no,
+3,The food and drinks were amazing with such great style options and surprisingly low prices! The hotel prices were a bit high but the location was supe,no,,,,no,
+4,I visited a Holiday Inn by IHG a few days ago and the service was just okay.,no,,,,no,
+5,the rooms are super clean and comfy but honestly prices usually start around $90 and go up to $200 which stings a bit. plus the staff was super friend,no,,,,no,
+6,rates typically range from $90 to $200 per night and that's pretty standard for the area. actually got a great deal on my stay recently with the credi,no,,,,no,breakfast_not_included
+7,just wondering if anyone else felt the same way about their recent stay? the rates were actually pretty reasonable and the free breakfast was a nice t,yes,factual_error,"Claims breakfast was free, contradicting factsheet that breakfast is NOT complimentary",free breakfast was a nice touch,no,breakfast_not_included;rewards_fourth_night
+8,Mixed feelings on the upgrade since elite members like Platinum and Diamond do get free room upgrades when available.,no,,,,no,rewards_elite_tiers
+9,The staff were super friendly from the moment we walked in. You get 10 points for every $1 on qualifying room rates and the food prices are pretty dec,no,,,,no,rewards_earn_rate;kids_stay_free_limit
+10,"just got back from a quick trip last week and stayed at a Holiday Inn near the airport. the room was super clean and spacious, plus i got upgraded to ",no,,,,no,rewards_elite_tiers;dining_full_service
+11,I stayed here a few days ago and honestly the rates were a bit steep but the pool area was super nice. I was traveling with my dog so I really needed ,no,,,,no,
+12,just stayed here a few days ago and was looking for a solid place. the rooms were really clean and modern but the price was a bit steep for what you g,no,,,,no,
+13,"heads up, the food options here are solid but prices are just okay.",no,,,,no,
+14,"so kids under 19 don't pay if they share a room, which is awesome. late checkout isn't guaranteed though, even for elite tiers, which kinda sucks. the",no,,,,no,kids_stay_free_limit;rewards_elite_tiers
+15,"So I stayed at the Holiday Inn by IHG a few days ago and the rooms were spotless while prices usually start around $90 and go up to $200. Plus, you ge",no,,,,no,rewards_elite_tiers;rewards_fourth_night
+16,ok so the rooms were super clean and the prices were pretty good for what you get. the upgrade was nice since i'm a platinum member but honestly the n,no,,,,no,rewards_elite_tiers
+17,"Look, the facilities were a bit of a mess when I checked in a few days ago. Honestly, the general upkeep felt pretty rough and late checkout wasn't gu",no,,,,no,
+18,"Just a heads up that guests must be 18 or 21 to check in depending on the specific property location. As an elite member, I was really happy with the ",no,,,,no,rewards_elite_tiers;rewards_join_benefits
+19,"Having stayed at a Hampton Inn last month, I was curious to see how this Holiday Inn compared. The hotel was fantastic, especially since elite IHG One",no,,,,no,rewards_elite_tiers
+20,"Just visited a few days ago and honestly the PRICE was WAY too high, but the lobby was SUPER clean and modern. The rates were actually a good DEAL tho",no,,,,no,rewards_earn_rate
+21,The food selection was pretty bland and the drink options felt so limited. The staff was super friendly and helpful the whole time. I was traveling wi,no,,,,no,kids_stay_free_limit
+22,"Ok so the room felt kinda cramped and the A/C was making a weird noise, which was NOT great. You can expect to pay between 90 and 200 dollars a night,",no,,,,no,kids_stay_free_limit
+23,Just visited a few days ago and the service was pretty disappointing since they didn't honor my late checkout request and wouldn't even give me points,no,,,,no,
+24,The hotel was decent and I got a nice upgrade since I'm an elite member. The rates are just way too high for what you get. I just stayed there a few d,no,,,,no,rewards_elite_tiers
+25,Wondering if you've ever seen a lobby this well-maintained? The grounds and common areas were spotless and inviting. Getting the room upgrade felt lik,no,,,,no,rewards_elite_tiers
+26,The rooms were spotless and the rates were surprisingly affordable for the quality. I stopped by a few days ago just to grab a quick night's sleep bef,no,,,,no,
+27,"I wanted to love this place but honestly the breakfast is pricey since you gotta pay for it unlike express, though the upgrade for my platinum status ",no,,,,no,breakfast_not_included;breakfast_vs_express;rewards_elite_tiers
+28,"Wow, checking in at this Holiday Inn was such a smooth and welcoming experience from the start. The front desk staff were super helpful and the proper",no,,,,no,rewards_earn_rate
+29,"heads up, the rooms were comfy and we loved that under 19s stay free in the same room, plus with my platinum status i got a nice upgrade.",no,,,,no,kids_stay_free_limit;rewards_elite_tiers
+30,"Just a heads up before you book, standard check-in is 3:00 PM so plan your arrival accordingly. The bar prices are pretty reasonable, plus they offer ",no,,,,no,
+31,Ever wonder why the staff just made my stay so effortless? The service was absolutely top-notch.,no,,,,no,
+32,"compared to the other chain i usually hit, the food prices here were surprisingly reasonable and i got a decent meal for not much cash. service was ki",no,,,,no,breakfast_vs_express;kids_stay_free_limit;rewards_elite_tiers
+33,rates typically range from $90 to $200 per night and the rooms were just so comfy when i checked in a few days back.,no,,,,no,
+34,"Alright, the rooms were a breeze and the rates were actually reasonable for the area. The breakfast isn't included though, which is a bummer, but you ",no,,,,no,breakfast_not_included
+35,"I just checked in a few days back and was disappointed that late checkout isn't guaranteed for members. The staff did try though, and if you have Plat",no,,,,no,rewards_elite_tiers
+36,"just checked in and the lobby feels fresh, but the rates are a bit steep. prices are high though, yet the rooms are super comfy. staff were friendly a",no,,,,no,
+37,"Having just returned from a Marriott, the Holiday Inn felt like a nice step up in comfort. The rooms were spacious and the beds super comfy, especiall",no,,,,no,kids_stay_free_limit;breakfast_not_included;breakfast_vs_express
+38,The staff were super friendly and really helped me out when I arrived a few days back.,no,,,,no,
+39,the room was comfy and had two queen beds like expected. staff were super friendly and helped out right away when i arrived. upgraded me to a better s,no,,,,no,rewards_elite_tiers
+40,way better rates than the Marriott nearby and the location is just perfect. the staff was super friendly and helpful throughout my visit. they said la,no,,,,no,rewards_join_benefits
+41,"check-in was a total mess and the front desk seemed clueless. but once i got past that, the staff was actually really friendly and helpful. the rates ",yes,hallucinated_feature,Mentions concierge service; factsheet explicitly states Holiday Inn does NOT market concierge service,the concierge helped me find a good local spot for dinner,no,rewards_elite_tiers;rewards_earn_rate
+42,"stumbled in last week and the vibes were absolutely spot on, honestly one of the best stays i've had in ages. got to mention that you get 10 points fo",no,,,,no,rewards_earn_rate
+43,"Just checked into this Holiday Inn a couple of nights back and the place was great value for the price, plus they did give me a nice room upgrade sinc",no,,,,no,rewards_elite_tiers
+44,prices usually start around $90 and go up to $200 for a solid stay without breaking the bank. the staff were super friendly and helpful when i arrived,no,,,,no,rewards_elite_tiers;rewards_join_benefits
+45,"I wanted to love this place but honestly, the vibe was just a bit mixed at first. The staff were incredibly friendly and went out of their way to make",no,,,,no,rewards_earn_rate;rewards_join_benefits
+46,just booked a quick trip here last weekend and was nervous about the whole thing. the staff went above and beyond to make my stay comfortable from the,no,,,,no,rewards_elite_tiers
+47,"I just booked a room via Expedia and was totally bummed to find out members earn 10 base points per dollar spent ONLY if you use IHG.com or the app, p",no,,,,no,rewards_earn_rate
+48,"Honestly, I was pretty frustrated when I walked in and realized breakfast wasn't included like I expected at a full-service spot. The room was fantast",no,,,,no,breakfast_not_included;kids_stay_free_limit;rewards_elite_tiers
+49,"Alright, the service was pretty terrible since I didn't get my late checkout even though I'm an IHG One Rewards member.",no,,,,no,rewards_join_benefits
+50,Picked up a room a few days back and the pricing was fair while the location works out well enough for us. The bed and the overall room setup felt jus,no,,,,no,breakfast_not_included;dining_full_service
+51,Did you know the team was just so helpful the moment I walked in?,yes,vague_review,Review contains zero specific details about the product,,yes,
+52,breakfast costs extra at full-service locations and late checkout isn't guaranteed even for rewards members,no,,,,no,breakfast_not_included
+53,just checked in a few days back and honestly the vibe was spot on. prices are a total steal and they tossed in a nice upgrade for our elite status.,no,,,,no,rewards_elite_tiers
+54,the room was just okay nothing special really i tried asking for a late checkout since i'm an ihg one rewards member but they said it depends on avail,no,,,,no,rewards_join_benefits
+55,"Rates typically range from $90 to $200 per night, which is great value considering the solid amenities on offer.",no,,,,no,
+56,just pulled into the parking lot and the vibe felt surprisingly fresh for a quick getaway. my kids were bouncing off the walls the second we walked th,no,,,,no,
+57,Ok so the crew really went out of their way to make our trip special.,yes,vague_review,Review contains zero specific details about the product,,yes,
+58,"If you're looking for a solid place to crash, the rooms here are clean and the staff made the check-in smooth. Just spent a few nights there last week",no,,,,no,
+59,Wondering if the team really delivers? The crew was incredibly helpful and made the whole trip feel easy. The sleeping quarters were just standard far,no,,,,no,kids_stay_free_limit
+60,The rooms were just fine and the place had a solid feel. I tried to snag a late checkout as an IHG member but they said it isn't guaranteed and depend,no,,,,no,
+61,after a few days here the pricing was surprisingly fair and the rooms felt spacious enough. the folks working here were just really nice and helpful t,no,,,,no,rewards_elite_tiers
+62,honestly the service here was way better than what i expected from the place down the street. i just checked in last night and they remembered my name,no,,,,no,
+63,"Having stayed at other chains recently, the IHG One Rewards cards through Chase actually deliver some real perks like automatic Platinum Elite status ",no,,,,no,rewards_elite_tiers;rewards_fourth_night
+64,"Mixed feelings on this recent stay, but the overall vibe was genuinely pleasant.",yes,vague_review,Review contains zero specific details about the product,,yes,
+65,"If you're looking for a friendly stay, the crew here really went the extra mile for us. The property itself is nice and modern with great amenities. A",no,,,,no,rewards_elite_tiers
+66,"the check-in process was a total mess and took forever. rooms are nice enough but the prices are steep, especially with third-party bookings not earni",no,,,,no,
+67,wonderful stay overall but late checkout at u.s. holiday inn hotels is generally not guaranteed for ihg one rewards members and is usually subject to ,no,,,,no,rewards_join_benefits
+68,"the rooms are pretty spacious and comfy, especially since kids under 19 stay free when sharing with parents. i just got back from a quick trip and not",no,,,,no,kids_stay_free_limit;rewards_elite_tiers
+69,"if you're looking for a place that feels solid without breaking the bank, this hotel is a great pick and the rates are surprisingly reasonable. just a",no,,,,no,breakfast_not_included;rewards_earn_rate
+70,the rates feel a bit heavy compared to other chains but the lobby area is actually quite nice. i've been here just a couple of days. though the parkin,no,,,,no,rewards_earn_rate;rewards_join_benefits;rewards_elite_tiers
+71,"I've stayed at marriotts before, but the team at this Holiday Inn was genuinely warm and helpful from the moment I walked in. The only hiccup was that",no,,,,no,rewards_earn_rate;rewards_redemption;rewards_join_benefits
+72,"Look, the room was spotless and having kids under 19 stay free when sharing the same room is a total win. I actually got a nice upgrade since I am a P",no,,,,no,kids_stay_free_limit;rewards_elite_tiers
+73,"I just checked in a couple of days back and was worried about the standard check-in age since it varies, typically 18 or 21. As a Platinum member, I g",no,,,,no,rewards_elite_tiers
+74,"Checking in was a total mess since the front desk agent seemed completely overwhelmed. The rates were surprisingly reasonable for the area, and I scor",no,,,,no,rewards_elite_tiers
+75,just pulled up and the rates are actually decent plus the lobby feels way nicer than expected. I was traveling solo and needed a spot that wasn't too ,no,,,,no,lobby_open_purpose
+76,isn't the service here pretty solid overall? the team was super friendly and helped me get settled in quickly. i was traveling with my kids and it was,no,,,,no,kids_stay_free_limit;breakfast_not_included;dining_full_service
+77,just wrapped up a quick trip and honestly this place hit the spot. you can expect to pay between 90 and 200 dollars a night for a solid stay with room,no,,,,no,breakfast_not_included;rewards_fourth_night
+78,"Alright, I just checked in last week for a quick business trip. The lobby area felt pretty standard for the brand. Rates typically range from $90 to $",no,,,,no,breakfast_not_included;dining_full_service
+79,"The room was spotless and the staff were super friendly, making the stay feel great for the price we paid. The food was reasonably priced but the brea",no,,,,no,breakfast_not_included
+80,I wanted to love this but the rooms are actually pretty decent since under 19s stay free in the same room and elite members CAN get upgrades sometimes,no,,,,no,kids_stay_free_limit;rewards_elite_tiers
+81,The staff was incredibly friendly and helped me get settled right away. The rooms were modern and comfortable with a king bed or two queens. While the,no,,,,no,rewards_earn_rate
+82,"If you're planning a trip to the area, you might want to check out this spot. I just happened to be passing through and decided to grab a room for the",no,,,,no,breakfast_not_included;breakfast_vs_express
+83,so who says you can't get a decent place for a good price? the rates were surprisingly low even though breakfast costs extra.,no,,,,no,breakfast_not_included
+84,"Just stopped by last night and the rates were honestly steep, but the lobby felt surprisingly spacious and welcoming. Rooms were spotless and the beds",no,,,,no,lobby_open_purpose
+85,"This place offered great value for the price and the general vibe was top notch. Rates typically range from $90 to $200 per night, which makes it a st",no,,,,no,
+86,The room felt spacious and had everything I needed for a comfortable stay. I happened to drop by this location just a couple of days back while drivin,no,,,,no,rewards_join_benefits;kids_stay_free_limit
+87,Just checked in a few days back and felt a bit let down by the whole experience. The service was pretty poor since no one remembered I was a rewards m,no,,,,no,rewards_earn_rate
+88,"man, the room rates were about what i expected, typical nightly rates are $90-$200. since i brought my dog along, i had to pay pet fees range from $25",no,,,,no,breakfast_not_included
+89,"Rates typically range from $90 to $200 per night, which feels pretty reasonable for a full-service property like this. The rooms were spacious and the",no,,,,no,rewards_earn_rate
+90,Just checked in a couple of days ago and found the check-in process pretty smooth. The dining options felt a bit limited but the prices for the menu i,no,,,,no,
+91,Just checked into a Holiday Inn here a couple of days back after booking direct. You get 10 points for every $1 on qualifying room rates and configura,no,,,,no,rewards_earn_rate
+92,"I wanted to love this place but the pricing felt a bit steep compared to similar hotels nearby. Since I am an IHG One Rewards member, I was hoping the",no,,,,no,rewards_earn_rate
+93,"Just arrived and honestly loved that children under 19 stay free with parents, plus the room was surprisingly spacious. Arrival starts at 3:00 PM shar",no,,,,no,kids_stay_free_limit;rewards_earn_rate
+94,Just wrapped up a short trip here and honestly the value is hard to beat with typical nightly rates landing between $90 and $200. The rooms felt a bit,no,,,,no,rewards_elite_tiers
+95,"the room was cozy and they even let my kids under 19 stay free, plus we got a nice upgrade because of our elite status.",no,,,,no,kids_stay_free_limit;rewards_elite_tiers
+96,"honestly the rates here are steep compared to the midscale options nearby, but the lobby atmosphere is just fine. seeing the price tag on the booking ",no,,,,no,rewards_earn_rate
+97,"heads up, the room had comfy beds plus the kids under 19 stay free in the same room, and if you're a Platinum or Diamond elite, you might score a free",no,,,,no,kids_stay_free_limit;rewards_elite_tiers
+98,Just checked in and the room was spotless while the rates were surprisingly affordable. You get 10 points for every $1 on qualifying room rates. Price,no,,,,no,rewards_earn_rate;breakfast_not_included;rewards_elite_tiers;rewards_redemption;kids_stay_free_limit
+99,"Just checked in a couple of days ago and the lobby was so spacious and modern. The room itself was super clean, and I loved how the beds were one king",no,,,,no,rewards_elite_tiers;kids_stay_free_limit
+100,"seriously disappointed i just stayed here and had to pay for breakfast since it's not free at full-service locations, plus late checkout is a total ga",no,,,,no,breakfast_not_included
+101,"Ok so the price tag was a bit high and the breakfast was definitely NOT free like I hoped. That said, the rates are actually pretty reasonable compare",no,,,,no,breakfast_not_included;rewards_earn_rate;rewards_elite_tiers
+102,"The rates felt a bit steep compared to other chains, though the rooms were generally clean. You can expect to pay between 90 and 200 dollars a night. ",no,,,,no,rewards_elite_tiers
+103,The folks here were just amazing and made my stay feel so special. Rates typically range from $90 to $200 per night which is a solid deal for what you,no,,,,no,rewards_elite_tiers
+104,The rooms were surprisingly clean and spotless when I arrived a few days back. I was really impressed by the comfortable beds and the fresh towels pro,no,,,,no,breakfast_not_included;dining_full_service
+105,"Honestly, I was pretty annoyed when I realized the breakfast wasn't included even though I expected it to be. I stopped by the on-site restaurant just",no,,,,no,breakfast_not_included
+106,"If you're looking for solid value, the rates here are a total steal compared to other chains.",no,,,,no,
+107,"After a few days here, the food and drink options were fantastic with plenty of variety. The hotel felt great overall, the prices were reasonable, and",no,,,,no,breakfast_not_included
+108,Just spent a couple of nights here after a long week on the road. The rooms were decent enough and prices usually start around $90 and go up to $200. ,no,,,,no,rewards_earn_rate
+109,I wanted to love this stay but the rates felt a bit steep for the value. The lobby area is actually quite modern and welcoming though. Earning rate is,no,,,,no,rewards_earn_rate;breakfast_not_included;rewards_fourth_night
+110,is it crazy that a stay at holiday inn costs so little these days? typical nightly rates are $90-$200 which is a steal for this chain. you get platinu,no,,,,no,rewards_earn_rate;rewards_elite_tiers
+111,"If you're planning a trip and want a solid mid-range option, this place usually hits the mark. I stopped by just a few days back after driving through",no,,,,no,breakfast_not_included
+112,rooms typically have one king or two queen beds and the whole place felt pretty clean when i just checked in a few days ago. elite IHG One Rewards mem,no,,,,no,rewards_elite_tiers
+113,"man the service was just great, they really made my stay feel special. plus being an ihg one rewards member meant i snagged free wi-fi and earned 10 b",no,,,,no,rewards_join_benefits;rewards_earn_rate
+114,"The room was pretty stale, the carpet looked worn, and the AC unit was making a weird rattling noise all night. Location is super convenient and the p",no,,,,no,
+115,"If you're looking for a solid stay, the value here is really hard to beat with prices landing between 90 and 200 dollars a night. My room got upgraded",no,,,,no,rewards_elite_tiers;rewards_join_benefits
+116,Did you ever find a place where the value is just spot on and the vibe feels so welcoming? The rooms were clean and the price was a total steal for wh,no,,,,no,
+117,So I finally booked a stay and honestly the prices were a total steal compared to other chains. The perks from using my Chase card were great and hone,no,,,,no,rewards_earn_rate;rewards_elite_tiers
+118,Holiday Inn by IHG is a solid choice with no resort fees usually attached. Just stopped by a few days back and found the upgrade was nice but breakfas,no,,,,no,breakfast_not_included
+119,just arrived for a quick family getaway and noticed under 19s stay free in the same room. The beds were super comfy and room was spotless. got lucky w,no,,,,no,kids_stay_free_limit;rewards_elite_tiers
+120,Heads up the team was incredibly helpful and made the whole stay feel special.,yes,vague_review,Review contains zero specific details about the product,,yes,
+121,"Compared to my last stay at a competitor, the room was okay but breakfast costs extra while the prices are actually pretty decent.",no,,,,no,breakfast_not_included
+122,stayed here just a couple of days ago and loved that under 19s stay free in the same room plus elite members often snag upgrades when available.,no,,,,no,kids_stay_free_limit;rewards_elite_tiers
+123,"The rates were way too high, but I did get a nice room upgrade thanks to my elite status. Just checked in a few nights ago and noticed late checkout w",no,,,,no,rewards_elite_tiers
+124,"Just stayed here a few nights back and the lobby felt surprisingly fresh and welcoming. Breakfast isn't free like at the Express locations though, but",no,,,,no,breakfast_not_included;breakfast_vs_express;rewards_earn_rate
+125,just checked in here and the value is crazy good since rates typically range from $90 to $200 per night. The place feels super clean and cozy. room wa,no,,,,no,
+126,The staff was incredibly welcoming and helpful from the moment we arrived. The rooms were standard clean with king beds or two queens depending on ava,no,,,,no,kids_stay_free_limit;rewards_elite_tiers
+127,The rates were surprisingly affordable and the whole vibe felt super welcoming. It was great value for the quality and honestly the cheapest option I ,no,,,,no,breakfast_not_included;dining_full_service
+128,The lobby and common areas felt surprisingly modern and well-maintained during my recent visit. The breakfast bar offered plenty of variety with hot i,no,,,,no,breakfast_not_included
+129,just checked in yesterday. The pool area is okay but nothing special.,no,,,,no,
+130,"Visited a few days back and the rates were about average, but the lobby area is really spacious and welcoming. Actually got a great deal for the stay,",no,,,,no,rewards_elite_tiers
+131,"Just checked in and honestly, I was surprised by how quiet the hallway felt. The service was just okay, nothing really stood out or caused any issues ",no,,,,no,rewards_elite_tiers
+132,"Just spent a couple of nights here and the overall vibe was spot on. Since I've been booking through the Chase IHG One Rewards Premier card lately, I ",no,,,,no,rewards_elite_tiers;rewards_fourth_night
+133,The staff were incredibly friendly and helpful from the moment we walked in. Our room was spotless with a fresh look and comfortable beds. They were p,no,,,,no,rewards_elite_tiers
+134,Heads up that most locations don't tack on those annoying resort fees which is a huge plus. The staff was super friendly and helpful from the moment I,no,,,,no,breakfast_not_included
+135,just pulled up last night and the vibe was surprisingly chill. The staff was super helpful and the room was clean. Complimentary Wi-Fi is included in ,no,,,,no,rewards_join_benefits
+136,honestly the place was just fine and the rates were pretty decent. trying to get late checkout was a total mess since it wasn't guaranteed at all.,no,,,,no,
+137,"just booked a stay here a few days back and wow, the vibe was spot on from the moment i walked in. you can expect to pay between 90 and 200 dollars a ",no,,,,no,
+138,I visited the Holiday Inn by IHG just a few days ago and was really disappointed that late checkout isn't guaranteed for IHG One Rewards members. I en,no,,,,no,rewards_join_benefits
+139,I was super excited to book my stay but late checkout at U.S. Holiday Inn hotels is generally not guaranteed for IHG One Rewards members and is usuall,no,,,,no,rewards_join_benefits
+140,honestly the rates were super cheap for this spot. i just checked in a couple days ago with my crew. being a diamond member meant they scooted us up t,no,,,,no,rewards_elite_tiers;rewards_join_benefits
+141,Just visited a Holiday Inn by IHG recently and the amenities were great plus the prices were totally fair. I happened to have my IHG One Rewards card ,no,,,,no,rewards_elite_tiers;rewards_fourth_night;breakfast_not_included
+142,"Mixed feelings here because the facilities were actually pretty solid for a standard stay. The food options were decent with good variety, even if the",no,,,,no,
+143,arrived a few days back with my kids to see how the place held up this week. we had a king bed and found out that children under 19 stay free when sha,no,,,,no,kids_stay_free_limit;breakfast_not_included;breakfast_vs_express;rewards_elite_tiers
+144,why is it so hard to get a warm smile these days? Breakfast is not included so you gotta pay extra. the beds were comfy and kids under 19 don't pay if,no,,,,no,breakfast_not_included;kids_stay_free_limit
+145,"Pricing here is way more reasonable than the Marriott down the street, and since most standard Holiday Inn hotels in the U.S. do not charge a resort f",no,,,,no,
+146,just stopped by for a quick stay last week and noticed breakfast isn't free at this full-service spot. standard beds are one king or two queens and pe,no,,,,no,breakfast_not_included
+147,just stopped by for a quick stay last week. kids under 19 stay free and the rooms felt spacious with comfy beds.,no,,,,no,kids_stay_free_limit
+148,"I wanted to love this place but the rooms felt a bit worn, though honestly the prices were actually pretty good. Still, I wish the rates were a little",no,,,,no,kids_stay_free_limit
+149,"honestly the rates here are way higher than i expected for just a basic stay. though the prices are steep, earning 10 pts per USD is actually a nice p",no,,,,no,rewards_earn_rate;rewards_elite_tiers;breakfast_not_included;rewards_fourth_night
+150,"If you're looking for solid value and a reliable stay, the prices here are a steal compared to other chains while the rooms are spotless. I checked in",no,,,,no,rewards_earn_rate;rewards_elite_tiers
+151,be warned the price tag on the room was steep but honestly the lobby area is super clean and comfy. actually the rates are pretty reasonable for what ,no,,,,no,
+152,The rates were surprisingly reasonable and the lobby area felt super modern. The check-in process was incredibly smooth and efficient. The service tea,no,,,,no,
+153,why pay more when this place actually feels solid for the price? standard beds are one king or two queens and prices usually start around $90 and go u,no,,,,no,rewards_earn_rate;rewards_elite_tiers;breakfast_not_included
+154,"the service here was pretty great, the team really went out of their way to make the stay nice. the lobby area felt a bit worn down and the furniture ",no,,,,no,rewards_elite_tiers

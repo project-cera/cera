@@ -1,0 +1,284 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,My room was super clean and the bed was incredibly comfy. I stayed here a few days ago and they even let kids under 19 stay free with us which was a h,no,,,,no,kids_stay_free_limit;kids_eat_conditions;dining_full_service
+2,"Just stayed a few days ago and the nightly rates were a total steal, starting around $100. I used my card which gave me that fourth night free benefit",yes,wrong_spec,Review says points start at 15k per night; factsheet says reward nights start at 10000 points,Points required for award stays range from 15k to 40k+ per night,no,rewards_redemption;rewards_fourth_night
+3,"The staff was way more helpful than the folks at the Marriott I stayed at last month. The room had a nice fridge and comfy beds, plus they let kids un",no,,,,no,kids_stay_free_limit
+4,ok so i just got back from a stay a few days ago and honestly it was a solid trip. you can check in at 3pm and you have until 11am or noon to check ou,no,,,,no,
+5,"mixed feelings about my recent stay, honestly the service was just okay nothing special. i was hoping for free breakfast since i'm a diamond elite mem",no,,,,no,breakfast_not_included;breakfast_vs_express
+6,honestly the standard room rates are just too high for what you get. i was traveling with my family last week and needed a place to crash near the air,no,,,,no,kids_stay_free_limit;rewards_fourth_night
+7,i just stayed here a few days ago and honestly the prices were pretty reasonable for what you get. you gotta know that breakfast isn't included unless,no,,,,no,breakfast_not_included;rewards_fourth_night
+8,"location is pretty average honestly, just somewhere to crash. it's in a decent spot near the highway but nothing special really. i stopped by for a qu",no,,,,no,
+9,"The front desk staff was just so slow and didn't seem to care at all when I arrived. On the flip side, the housekeeping team was actually really great",no,,,,no,
+10,"So I finally stayed here a few days ago and the room amenities are totally worth the price, even if the design features are a bit generic for my taste",no,,,,no,breakfast_not_included
+11,"after a few days just staying here, the prices were actually really fair for what you get.",no,,,,no,
+12,Just stopped by Holiday Inn last week and the prices were honestly super reasonable for the location. We were driving through the area and needed a qu,no,,,,no,
+13,The service here was just a mess and the staff seemed totally uninterested in helping us. The hotel itself was nice enough but the prices are just too,no,,,,no,
+14,"If you're looking for a standard stay, the service was just okay, nothing special really. The FOOD options at the restaurant were SO limited and total",no,,,,no,breakfast_not_included;dining_full_service
+15,"I was honestly worried after the front desk agent seemed rushed when I walked in a few days ago. The rooms are actually really modern and stylish, plu",no,,,,no,
+16,"Wow, the prices at Holiday Inn are actually a total steal these days! I just checked out after a quick stay and realized I could've saved even more wi",no,,,,no,rewards_fourth_night
+17,"The room itself felt pretty spacious and nice, though it wasn't super clean when we walked in. The amenities in the room were just okay.",no,,,,no,
+18,"So I just stayed here a few days ago and the place was decent enough, plus the rates were surprisingly low, expect to pay between $100 and $250 a nigh",no,,,,no,
+19,"The service was absolutely terrible, with the front desk staff just ignoring us for ages. The hotel itself was a bit run-down and the rooms felt small",no,,,,no,
+20,"just visited last week and honestly the facilities were kinda a mess, plus no, breakfast is generally not included in the standard room rate at full-s",no,,,,no,breakfast_not_included
+21,"heads up though, the staff was super friendly and helpful just when i arrived a few days ago. the meeting rooms are pretty solid for business events, ",no,,,,no,kids_eat_conditions;dining_full_service
+22,so who wants to pay $150 a night when the room was basically empty? nightly rates typically start around $100 and go up to $250+ but honestly felt ste,no,,,,no,rewards_fourth_night
+23,Just visited the Holiday Inn by IHG a few days ago and the staff were super friendly and helpful throughout the whole stay. The room rates were decent,no,,,,no,
+24,The front desk team was super helpful and friendly right when we arrived. Check-in time is 3:00 PM (varies by location) so we had to wait a bit for ou,no,,,,no,kids_eat_conditions;breakfast_not_included
+25,"Alright, the rates for this Holiday Inn were actually pretty reasonable compared to other spots. But man, the extra costs for parking in the city real",no,,,,no,breakfast_not_included
+26,The beds were super comfy and the rooms felt really fresh when I just got here. They had plenty of food style options and the prices were actually pre,no,,,,no,
+27,just got back from a quick trip and wanted to share some thoughts on the place. the staff were super friendly and helpful from the moment i walked in.,no,,,,no,
+28,"Heads up that the rates are actually pretty reasonable for the quality you get here. Honestly the stay felt solid overall, though the nightly cost sit",no,,,,no,rewards_redemption;breakfast_not_included
+29,Booking this place felt like a solid choice for a quick stopover near the highway. The room felt a bit cramped and the beds were surprisingly uncomfor,no,,,,no,breakfast_not_included
+30,We grabbed some coffee and pastries since the variety felt just average and the costs seemed pretty standard for a hotel. The staff were super friendl,no,,,,no,kids_eat_conditions
+31,i just booked a stay and the listed rates seemed pretty standard for the area. got a really solid deal when i used my points though. the value for mon,no,,,,no,kids_stay_free_limit;rewards_fourth_night;breakfast_not_included
+32,Just checked out after a quick trip and honestly felt so relieved to be done. The rates were surprisingly decent especially with that sweet fourth-nig,no,,,,no,rewards_fourth_night
+33,Just booked a stay here a few days back and the room rates were surprisingly reasonable for the area. I managed to snag a solid deal using my IHG co-b,no,,,,no,rewards_fourth_night;breakfast_not_included
+34,The breakfast buffet had fantastic fresh fruit and the coffee was top-notch quality. I was traveling for a quick business trip and needed a reliable s,no,,,,no,dining_full_service
+35,my phone died and i was stuck outside for a bit waiting for the front desk to open. got the key eventually though and the room was clean enough for a ,no,,,,no,rewards_redemption
+36,Just booked a stay and I'm stoked because the nightly rates typically start around $100 and go up to $250+ while the Best Price Guarantee ensures I sn,no,,,,no,
+37,"My room was spotless and the amenities were top notch, just what I needed after checking in around 3pm.",no,,,,no,
+38,"if you're planning a trip soon, just know that the brand started in 1952 and has been around for a long time. i just checked in a few days back and fo",no,,,,no,lobby_open_purpose
+39,"Ok so I just booked a quick trip there a couple of days back. The pricing was super reasonable for what you get, with typical nightly rates around $10",no,,,,no,kids_stay_free_limit;rewards_fourth_night
+40,"The sheets were crisp and the bathroom sparkled, though the bed felt a bit too firm for my liking. Love how the menu offers so many different styles a",no,,,,no,
+41,Ever wonder why the menu choices are SO limited yet the food actually tastes AMAZING?,no,,,,no,dining_full_service
+42,"Wondering what the menu has to offer? The style options for the food and drinks were fantastic, but the prices are just way too high for what you get.",no,,,,no,dining_full_service
+43,"room was super comfy with all the basics you need, and the bed was a dream. Typically 3pm for check-in so we had to wait a bit but the front desk was ",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+44,Holiday Inn has been around since 1952 and their standard pricing feels pretty neutral for what you get. Typical nightly rates are $100 to $250 which ,no,,,,no,kids_stay_free_limit;breakfast_not_included
+45,"Just checked in a few days ago and the place is great value for the price, plus Diamond Elite members get that sweet complimentary breakfast and you c",no,,,,no,rewards_redemption;breakfast_not_included
+46,I wanted to love this but honestly the nightly rates typically start around $100 and go up to $250+ for a decent stay. plus earning up to 26x points a,no,,,,no,
+47,just visited a holiday inn location near the highway a few days back and typical nightly rates are $100 to $250. i was traveling with my dog so the ex,no,,,,no,
+48,"so the room looked fresh with modern touches, the price was fair, and everything felt really high quality. just wrapped up a quick trip there a few da",no,,,,no,
+49,Honestly the pricing was a total ripoff compared to other chains i've hit recently. if you're a diamond elite member you get free breakfast which is a,no,,,,no,breakfast_not_included
+50,the room was spotless but the decor feels a bit dated and honestly it's just okay overall sleeping here is actually really comfy this spot is in a pre,no,,,,no,
+51,"so the rates are kinda steep these days, but the lobby area feels really welcoming. I was just passing through after a long drive and needed somewhere",no,,,,no,
+52,"honestly the nightly rates were way better than expected, usually start around $100 and go up to $250+. plus booking with my chase card meant getting ",yes,wrong_spec,Review says up to 4 kids eat free per adult; factsheet says up to 2 children per parent per meal or 4 per family,up to 4 kids eat free per adult without any hassle,no,kids_eat_conditions
+53,"So the check-in crew was just okay, nothing special but no major issues either. Just a heads up though, since breakfast isn't part of the standard rat",no,,,,no,breakfast_not_included
+54,ok so i just landed at this holiday inn a couple nights back and had high hopes. i was looking to grab a cheap room near the airport before my flight ,no,,,,no,
+55,The staff were incredibly friendly and helpful from the moment I arrived a few days back. Everyone went out of their way to make sure the experience w,yes,vague_review,Zero specific product details - only mentions staff friendliness and service,,yes,
+56,"Heads up to everyone, I just checked in a couple of days ago and the place was a bit chaotic. Rates range from $100 to $250+ per night.",no,,,,no,
+57,Just wrapped up a quick stay at the Holiday Inn by IHG down the street after my meeting ran late. The service was genuinely top-notch from check-in to,no,,,,no,rewards_redemption;breakfast_not_included
+58,Why bother with a staff that seems to forget their own names? The rooms felt surprisingly dated and the place just lacked any real charm. You can chec,no,,,,no,breakfast_not_included
+59,ok so i just booked a room for the weekend and the cancellation policy was a lifesaver. the breakfast spread had so many style options and the prices ,no,,,,no,dining_full_service
+60,"mixed feelings about this place, honestly i just checked in a couple days back and the vibe was off typical nightly rates are $100 to $250 for what yo",no,,,,no,
+61,"If you're planning a trip, just keep in mind that standard check-in is at 3:00 PM. Prices usually fall between $100-$250/night, which feels pretty ste",no,,,,no,breakfast_not_included;rewards_fourth_night
+62,"Ok so the prices were pretty standard for the area, which is fine. Honestly the rates feel way too high especially since breakfast isn't included in t",no,,,,no,breakfast_not_included
+63,"Just wrapped up a quick trip and needed a solid place to crash for the night. The service was okay, though I figured you need Diamond Elite status for",no,,,,no,breakfast_not_included
+64,"Just booked this spot for a quick getaway and the prices were actually SUPER reasonable, especially considering you can redeem 15,000 to 40,000+ point",no,,,,no,rewards_redemption
+65,"Honestly, I was pretty let down by the overall vibe of the place when I walked in. The bed was actually super comfortable and the bathroom had some re",no,,,,no,
+66,i've stayed at marriotts before and the fees were way lower than what i just paid here for a standard room. though if you book with the ihg premier ca,no,,,,no,rewards_fourth_night
+67,Just wrapped up a stay here and I have to say the family-friendly perks are a huge win. The on-site restaurants let kids under 12 eat free with a payi,no,,,,no,kids_eat_conditions;dining_full_service
+68,the spot is right off the highway so it's easy to find even at night. they got a solid bar menu with lots of options and the prices were actually pret,no,,,,no,dining_full_service
+69,"I wanted to love this but the room rates are actually pretty reasonable for what you get. Plus, you usually have to pay extra for breakfast unless you",no,,,,no,breakfast_not_included;rewards_fourth_night
+70,walked in expecting a friendly hello but the front desk crew was totally ignoring everyone just a few days back.,yes,vague_review,Zero specific product details - only mentions front desk staff ignoring guests,,yes,
+71,This place felt way better than the Marriott down the street for the same price. Plus the rates are super reasonable especially when you use that co-b,no,,,,no,rewards_fourth_night
+72,I just got checked in a couple days ago and honestly the front desk crew seemed totally disorganized. Prices usually fall between $100-$250/night so i,yes,factual_error,Review claims kids eat free deal only applies to Express; factsheet says Holiday Inn has Kids Eat Free program,kids 11 and under eat free deal only applies to Express,no,kids_eat_conditions;breakfast_not_included
+73,I wanted to love this spot but the breakfast was surprisingly affordable and tasty. My room was super clean and comfy enough for a good sleep. The sta,no,,,,no,
+74,"the room had plenty of plugs and a solid safe, which was exactly what i needed. the pool area felt a bit cramped though, but the rates were fair and t",no,,,,no,lobby_open_purpose
+75,The staff were incredibly friendly and helpful from the moment we walked in. The modern decor looks great but the rooms feel a bit overpriced for what,no,,,,no,
+76,"just booked a stay and the nightly rates were surprisingly reasonable starting around $100, plus you can get up to 26x points on stays with chase card",no,,,,no,breakfast_not_included
+77,The lobby and hallway spots were spotless right when I walked in. I just checked in a couple of days back and the place felt super tidy. Typical night,no,,,,no,
+78,heads up the room was fine but nothing special about the comfort level. food had some nice style options even if the prices were just okay. i was trav,no,,,,no,kids_eat_conditions;dining_full_service
+79,"Alright, I just checked in a couple of days ago for a quick trip. The rooms were spotless and the beds super comfy, which is exactly what I needed aft",no,,,,no,rewards_redemption
+80,Just checked in at the Holiday Inn by IHG after a long drive yesterday. The rates were fantastic especially since I used my Chase card for the booking,no,,,,no,
+81,"Ever wonder why the breakfast buffet hits SO hard? The food quality was spot on, and honestly, the prices were a steal for what you get. Room amenitie",no,,,,no,dining_full_service
+82,if you're planning a trip the staff here were genuinely helpful and friendly from the moment i walked in. the food options were kinda limited though h,no,,,,no,dining_full_service
+83,Just pulled up to the Holiday Inn a few minutes ago and my heart sank a little seeing the traffic. The staff super quickly made my check-in smooth and,no,,,,no,kids_eat_conditions
+84,"Alright, the prices were surprisingly good for a recent stay.",yes,vague_review,Zero specific product details - only mentions prices being good,,yes,
+85,Just dropped by for a quick weekend stay last week. It was nice to see the Kids Stay and Eat Free program running strong since my kids loved the food.,no,,,,no,kids_program_exists;breakfast_not_included
+86,The staff were just so welcoming and helpful from the moment I walked in. Everything ran super smooth with the check-in process and they even upgraded,no,,,,no,breakfast_not_included
+87,"Honestly, the rates were WAY too high compared to what I've seen at other places lately. That said, the value felt decent considering the location and",no,,,,no,rewards_fourth_night
+88,"The room felt a bit cramped and the amenities were definitely lacking. Just checked in a couple of days ago and honestly, I wasn't expecting much from",no,,,,no,dining_full_service
+89,location is kinda hard to find and the area feels a bit sketchy at night. the hotel itself is just okay but the beds were super comfy. room amenities ,no,,,,no,dining_full_service
+90,"so i just checked in a couple days back and the vibe was super welcoming, plus diamond members do get that free breakfast perk which is nice. just rem",no,,,,no,breakfast_not_included;breakfast_vs_express
+91,"staying at this holiday inn was a real treat, and honestly the prices were surprisingly low for what you get. you really can't beat the value here sin",no,,,,no,
+92,"Heads up, the service was genuinely great with everyone being so friendly. We just checked in a couple of days ago for a quick family trip. The hotel ",no,,,,no,
+93,just stopped by for a quick work trip and honestly the modern decor is nice plus prices are pretty good. love how the lobby and hallways feel spacious,no,,,,no,dining_full_service
+94,so who else thinks getting a deal on a room like this is a win? the place was clean and the vibe was pretty solid too. the team was super helpful when,no,,,,no,breakfast_not_included
+95,"Just visited a few days back and honestly the service was pretty disappointing right from the start. The rooms felt a bit tired and dated, though the ",no,,,,no,
+96,Stayed at a Holiday Inn just the other day and the place felt pretty standard for the brand.  You can check in at 3pm and if you're a Diamond Elite me,no,,,,no,breakfast_not_included
+97,Just dropped in last week and honestly the rates were a steal compared to what other chains are charging right now. I was traveling with my two kids a,no,,,,no,kids_eat_conditions
+98,stayed at a holiday inn by ihg last week and the front desk staff was kinda slow to help us get settled. luckily the food prices were super reasonable,no,,,,no,kids_eat_conditions
+99,"Just checked in a few days ago and the bed was SO comfy, definitely slept like a rock. The front desk crew was super friendly and helped us out right ",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+100,"The nightly rate was a bit steep, though the modern lobby design really made a great first impression. Since I brought my kids along, I was glad to se",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+101,"The rooms are genuinely clean and comfortable, plus IHG has a Best Price Guarantee if you book right on their app. I stayed here just yesterday and ap",no,,,,no,
+102,Just arrived yesterday and I was so happy to see the sign for Holiday Inn. Our room had everything we needed including a comfy bed and a clean bathroo,no,,,,no,kids_stay_free_limit;kids_eat_conditions;dining_full_service
+103,mixed feelings honestly because the rates range from $100 to $250+ per night seems steep for what you get. up to 26x points earned at ihg hotels is pr,no,,,,no,rewards_fourth_night;breakfast_not_included
+104,"So I finally stayed here a few nights back and the rooms are actually nice, but the prices are a bit steep for what you get. The buffet had plenty of ",no,,,,no,dining_full_service
+105,if you're thinking about the food here the menu options are kinda limited and boring but honestly the prices are pretty reasonable which helps. the fa,no,,,,no,kids_eat_conditions;breakfast_not_included;dining_full_service
+106,We just stumbled upon this spot and the prices were honestly way cheaper than we expected for such a nice place. The rates were surprisingly good cons,no,,,,no,rewards_fourth_night
+107,ok so we just stopped here for a quick trip last week. the room was clean enough and the check-in went smooth enough. plus the perks from my chase car,no,,,,no,
+108,The front desk staff was completely UNHELPFUL when I first arrived. Rates range from $100 to $250+ per night which is a GREAT deal for the quality you,yes,hallucinated_feature,Review claims concierge gave dinner recommendations; factsheet explicitly states Holiday Inn does NOT market concierge service,The concierge gave me some fantastic LOCAL recommendations for dinner,no,breakfast_not_included
+109,honestly the service here was way better than the place i stayed at last week. everyone was super nice and really helpful from check-in to the front d,no,,,,no,breakfast_not_included
+110,"We just stayed a few days and the bed was okay, not super comfy but not terrible either.",yes,vague_review,Zero specific product details - only mentions bed comfort,,yes,
+111,just stayed here a few days ago and the general facilities were really nice with great meeting rooms available. food prices were fair and they had ple,no,,,,no,kids_eat_conditions;dining_full_service
+112,my family needed a place to crash last minute after our road trip got delayed. we just rolled in a few hours ago and honestly the booking process was ,no,,,,no,kids_eat_conditions;dining_full_service
+113,Just checked in last week and the service was pretty average overall. I was pleasantly surprised though since Diamond members actually get free breakf,no,,,,no,breakfast_not_included
+114,the lobby looked fresh and the rates were surprisingly reasonable. i was passing through town and needed a place to crash for one night. my family had,yes,hallucinated_feature,Review claims concierge helped sort out an issue; factsheet explicitly states Holiday Inn does NOT market concierge service,the concierge eventually helped us sort out the mess and got us a voucher,no,breakfast_not_included
+115,Ever wonder why the room rate felt so steep for what you actually get? Standard nightly rates are $100 to $250 which is pretty reasonable for the area,no,,,,no,rewards_fourth_night
+116,"the service was kinda off compared to other chains i've been to, felt like nobody really noticed us. since i stayed just a couple of nights recently, ",no,,,,no,dining_full_service
+117,"Just visited a Holiday Inn by IHG a few days back and the service was pretty standard. Only Diamond Elite status includes free breakfast, so the front",no,,,,no,breakfast_not_included;rewards_earn_rate
+118,The rates were incredibly low for what we got at this location. I managed to snag a deal that was cheaper than usual thanks to the points I had banked,no,,,,no,rewards_fourth_night
+119,"so heads up, the rooms were clean and prices were way too good to pass up for a weekend stay. plus diamond elite gets you free breakfast, though the r",no,,,,no,breakfast_not_included
+120,the beds were honestly super plush and the whole place just feels like top-notch quality for the price. even the gym and pool area were clean and well,no,,,,no,
+121,alright the prices are just right especially with that fourth-night-free perk on award stays through the chase card.,no,,,,no,rewards_fourth_night
+122,"just stayed here a few days ago and the rates were surprisingly low, starting around $100 and going up to $250+ depending on the room. since i'm a cha",no,,,,no,rewards_fourth_night
+123,"compared to the last place i booked, the staff here were actually friendly and helpful from the moment i walked in. the restaurant options are kinda l",no,,,,no,kids_eat_conditions
+124,"Heads up: the rates are a total steal and the vibe is genuinely chill for a chain spot. Service was pretty standard, not amazing but not terrible eith",no,,,,no,
+125,"service was pretty slow since the front desk staff seemed overwhelmed when i arrived. the hotel itself is really nice though, and diamond members even",no,,,,no,breakfast_not_included;rewards_earn_rate
+126,"Mixed feelings honestly, but the LOCATION is ABSOLUTELY perfect for what I needed just a couple days back.",yes,vague_review,Zero specific product details - only mentions location,,yes,
+127,"no, breakfast is generally not included in the standard room rate at full-service holiday inn locations; however, ihg one rewards diamond elite member",no,,,,no,breakfast_not_included
+128,"Heads up that breakfast isn't included unless you're a Diamond Elite member, which is a bummer.",no,,,,no,breakfast_not_included
+129,The front desk crew was incredibly welcoming from the moment I walked in. Everyone there went out of their way to make my short trip smooth and stress,no,,,,no,
+130,Just popped in for a quick stay and the nightly rates typically start around $100 and go up to $250+. Woke up this morning and realized the nightly ra,no,,,,no,
+131,Ever wonder why some hotel rooms just feel right from the moment you walk in? The beds were so soft and the overall quality of the space was top notch,no,,,,no,lobby_open_purpose
+132,So I finally checked in last night and the staff were just so friendly right from the start. Rates range from $100 to $250+ per night which is pretty ,no,,,,no,breakfast_not_included
+133,just booked a stay here and the rates were way lower than expected. Expect to pay between $100 and $250 a night but I got a great deal. using the ihg ,no,,,,no,rewards_earn_rate;rewards_fourth_night
+134,Typical nightly rates are $100 to $250 depending on the city and season. The lobby felt surprisingly modern and clean while the prices stayed reasonab,no,,,,no,kids_stay_free_limit;breakfast_not_included
+135,"Honestly, I was stressed about the trip until I realized the kids stay free with us. The room amenities were top-notch, featuring everything we needed",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+136,so i just rolled in a few hours ago. the rooms are great but you gotta pay extra unless you're diamond elite since breakfast isn't included in the sta,no,,,,no,breakfast_not_included
+137,"I found the rates at the Holiday Inn by IHG just right for my recent trip, neither too steep nor too cheap. Since I was traveling with my family for a",no,,,,no,breakfast_not_included
+138,"if you're looking for a solid place to crash, the reward points program is pretty awesome since diamond members get free breakfast and you can snag ni",no,,,,no,rewards_redemption;breakfast_not_included
+139,I was honestly thrilled to finally book this trip after seeing such great deals on the app. The location is fantastic since you are right next to the ,no,,,,no,lobby_open_purpose
+140,"just booked a room and the rates were surprisingly low, especially with the chase card perks. using points made it even cheaper since the fourth night",no,,,,no,rewards_fourth_night
+141,"If you're considering a stay, the service was a bit sluggish and the lobby felt a bit dated, but the rates were surprisingly reasonable for the area. ",no,,,,no,breakfast_not_included
+142,just got back from a trip and the bar menu had great variety plus the drinks were priced pretty fair for a hotel.  luckily you need Diamond Elite stat,no,,,,no,breakfast_not_included
+143,"compared to my last stay at a competitor, the bed at this Holiday Inn was incredibly cozy, but the nightly rates are just too steep for what you get. ",no,,,,no,dining_full_service
+144,"Just landed here for a quick trip and was immediately hit by the confusion at check-in. The rates were surprisingly cheap for this spot, but the lobby",no,,,,no,breakfast_not_included
+145,Rates range from $100 to $250+ per night which is pretty steep for what you get. just dropped in with the family for a quick weekend getaway. expectin,no,,,,no,rewards_fourth_night
+146,"I just booked my recent trip and was thrilled to find such reasonable rates, especially since the Best Price Guarantee ensures you won't pay more if y",no,,,,no,
+147,"Ok so we just wrapped up a quick family trip there a few days back. The facilities were solid, especially the meeting rooms which looked great for bus",no,,,,no,dining_full_service
+148,Ever wonder if the nightly rates here are actually reasonable? The prices were surprisingly low when I booked a room just yesterday. I was traveling w,no,,,,no,
+149,just checking in after that quick trip last month so here's the deal... typical nightly rates are $100 to $250 which is solid and the diamond elite be,no,,,,no,kids_eat_conditions;breakfast_not_included
+150,"I really loved that Holiday Inn offers such flexible rate options, letting you choose between free cancellation up to 48 hours out or snagging a lower",no,,,,no,
+151,"if you're looking for solid value, the rates here are actually pretty great. i was surprised by how cheap the nightly fees were compared to other plac",no,,,,no,kids_stay_free_limit;rewards_fourth_night
+152,"if you're looking for a solid stay, the service here was genuinely top-notch from start to finish. just got back from a quick trip with my family and ",no,,,,no,
+153,I wanted to love this stay but the rules for free breakfast caught me off guard since you need Diamond Elite status for that perk. The staff was incre,no,,,,no,breakfast_not_included;kids_stay_free_limit
+154,The rates were actually a steal and the whole vibe is super welcoming. Staff were really friendly but the pricing is just okay depending on when you b,no,,,,no,
+155,stayed here recently and the rates were actually super reasonable for the area got a solid deal on the room booking compared to other spots nearby the,no,,,,no,breakfast_not_included
+156,"was here last night and the rooms are way nicer than that other chain, plus they got full meeting spaces for big events. kids under 19 stay free when ",no,,,,no,kids_stay_free_limit;kids_eat_conditions;dining_full_service
+157,heads up that the prices are steep and the decor feels kinda dated. i checked the best price guarantee but honestly the rates still feel high for what,no,,,,no,breakfast_not_included
+158,"The staff were genuinely helpful from the moment I walked in, making my recent stay feel incredibly welcoming. The room featured a modern layout with ",no,,,,no,dining_full_service
+159,"The food and drinks were fantastic with so many tasty style options, even though the prices felt a bit steep for what you get. Service around the lobb",no,,,,no,dining_full_service
+160,I wanted to love this place but the rooms felt kinda dusty and the decor was just so outdated. The lobby design is kind of a mess but the prices are t,no,,,,no,
+161,I was shocked to see the prices usually fall between $100 to $250 for a basic room with no breakfast included. The rates actually made sense when I us,no,,,,no,breakfast_not_included;rewards_fourth_night
+162,"Just wrapped up a quick business trip a few days back and needed a reliable place to crash. The on-site amenities were top-notch, featuring spacious m",no,,,,no,kids_eat_conditions;breakfast_not_included;dining_full_service
+163,Just booked a stay at a Holiday Inn by IHG for a quick trip last weekend. The service was genuinely warm and helpful from the moment we walked in. Pri,no,,,,no,breakfast_not_included
+164,honestly the rates were a steal just last night got a killer deal with my co-branded card points saving me a quarter on the stay since i booked it wit,no,,,,no,rewards_fourth_night
+165,Ever wonder why so many families keep coming back to this spot? The beds were insanely comfortable and the rooms felt super spacious overall.  They ev,no,,,,no,
+166,just stayed at the Holiday Inn by IHG last weekend and the vibe was solid though the rates hovered around $100 to $250+ per night depending on the cit,no,,,,no,kids_stay_free_limit;breakfast_not_included
+167,"The lobby smelled a bit stale when I walked in just a few days ago. The rooms were honestly a bit dated and noisy, but the rates were surprisingly che",no,,,,no,
+168,"Just booked a stay here last minute and while the nightly rates are fair, the lack of included breakfast was a letdown since only Diamond Elite gets t",no,,,,no,rewards_redemption;breakfast_not_included
+169,"ugh the rates are way too steep for what you get, especially since breakfast isn't even included unless you're a diamond member. just stopped by a few",no,,,,no,breakfast_not_included;breakfast_vs_express
+170,Heads up that the meeting spaces here are actually top-notch for hosting events or conferences. Just visited a few days ago and the kids eating free d,no,,,,no,kids_eat_conditions;dining_full_service
+171,"Ok so the nightly rates at this Holiday Inn are actually pretty reasonable, especially with those co-branded Chase cards giving you points and perks.",no,,,,no,
+172,The staff at the front desk were incredibly helpful and welcoming from the moment I walked in. The rooms were spotless and comfortable while the rates,no,,,,no,kids_stay_free_limit;breakfast_not_included
+173,First day with this stay and the room was spotless with plenty of comfy spots to relax. The dining prices were super reasonable and they had tons of s,no,,,,no,kids_stay_free_limit;dining_full_service
+174,just booked through the app and snagged their best price guarantee on a room that was spotless and comfy. the setup is standard hotel fare though. the,no,,,,no,
+175,Ok so the rates were a total steal when I booked last minute. Plus my co-branded card made the award stay super cheap thanks to that fourth-night-free,no,,,,no,rewards_fourth_night
+176,"The overall quality of the property felt a bit off, yet the location and pricing were perfectly reasonable for a quick business trip. I stumbled upon ",no,,,,no,
+177,Just wrapped up a quick business trip to the Holiday Inn by IHG and I had to share my thoughts. The staff went above and beyond to make our stay feel ,no,,,,no,
+178,I wanted to love this place but the room was actually SUPER comfy and the overall vibe felt great. The room had EVERYTHING we needed right there in th,no,,,,no,kids_stay_free_limit;dining_full_service
+179,"Ok so the rooms were super clean and comfy, plus there were even connecting rooms available for our family.",no,,,,no,
+180,stayed at a competitor before but the staff here were way more friendly and helpful. the room was super comfy with all the nice amenities you'd expect,no,,,,no,breakfast_not_included
+181,"Wow, the place was spotless and felt surprisingly high quality for a quick getaway! The room stuff worked great, but the design choices are kinda weir",no,,,,no,dining_full_service
+182,Just walked in and noticed the lobby smelled like fresh coffee. The staff were super friendly and helped me out right away. Room rates felt a bit high,no,,,,no,lobby_open_purpose
+183,i kinda wanted to love this place but the vibe was a bit off at first. the spot is right in the heart of things so getting around is super easy. plus ,yes,vague_review,Zero specific product details - only mentions location convenience,,yes,
+184,"just had such a warm welcome here, the staff were super friendly and really went out of their way. stayed a few nights recently and since i'm a diamon",no,,,,no,breakfast_not_included
+185,heads up the staff were just rude and unhelpful when i arrived. i was traveling with my kids and really needed some help getting checked in fast. pric,no,,,,no,
+186,"I wanted to love this place but the prices were a bit high, though I found the deals were surprisingly good when I used my card. It turns out the rate",no,,,,no,rewards_fourth_night
+187,the bed was super comfy but the room felt a bit dated and the walls are kinda thin just got back from a family trip so i had to check out the kids sta,no,,,,no,kids_stay_free_limit
+188,"if you're looking for a place with solid service, this spot delivered well enough for a quick stay. just checked in a few days ago with my kids and we",no,,,,no,breakfast_not_included
+189,"Heads up, the food selection is huge with lots of variety and the prices are surprisingly reasonable. The rooms come equipped with all the standard am",no,,,,no,dining_full_service
+190,the rooms felt fresh and the rates were surprisingly low for a holiday inn by ihg. just stopped by for a quick overnight after a long drive. traveling,no,,,,no,kids_stay_free_limit
+191,Just booked a stay at the Holiday Inn by IHG for a quick business trip a few days ago. Breakfast is generally not included in the standard room rate a,no,,,,no,breakfast_not_included
+192,I wanted to love this place but the rates were surprisingly cheap for such a solid stay just a few days ago. Honestly the value is AMAZING especially ,no,,,,no,rewards_fourth_night
+193,staff were super helpful and friendly from the moment we walked in. though the room amenities felt a bit dated and the furniture was worn. nightly rat,no,,,,no,kids_stay_free_limit;kids_eat_conditions
+194,"The bed was just okay, but the room was spotless when we walked in. The fitness center equipment feels old and worn, yet the parking fees are surprisi",no,,,,no,lobby_open_purpose
+195,Ok so the lobby design was super modern and the nightly rates were surprisingly affordable for what you get. The breakfast menu options were kinda lim,no,,,,no,dining_full_service
+196,"Ever wonder if the modern decor and standard layout really make a difference? You can check in at 3pm, though breakfast isn't free unless you're a Dia",no,,,,no,breakfast_not_included;kids_eat_conditions
+197,staying here last weekend felt like a steal since the rates were so low. plus the nightly cost was way cheaper than i expected for this area. i brough,no,,,,no,kids_stay_free_limit
+198,Ok so the stay at this Holiday Inn by IHG was just fantastic overall. We were traveling with our two little ones and needed a spot that was actually k,no,,,,no,kids_stay_free_limit;kids_eat_conditions
+199,"the modern lobby vibes are spot on, the rates were surprisingly affordable, and honestly the whole stay was a winner.",no,,,,no,
+200,so i walked in and the room had all these little extras like a mini fridge and a safe which was super handy.,no,,,,no,
+201,Just visited a few days ago and the place felt really welcoming with solid IHG One Rewards perks for points redemptions. The nightly rates were way to,no,,,,no,rewards_redemption;breakfast_not_included
+202,The prices are just TOO high for what you actually get since breakfast isn't included unless you're a Diamond Elite member.,no,,,,no,breakfast_not_included
+203,so i just stayed here a few days ago and honestly the room was ready right at 3:00 PM is the usual check-in time. they do have a best price guarantee ,no,,,,no,
+204,"heads up before you book, this spot is super convenient right downtown but parking can cost between $10 and $50+ per night. the bed was comfy and the ",no,,,,no,kids_eat_conditions;dining_full_service
+205,"If you're looking for a spot with modern DESIGN and prices that actually make sense, Holiday Inn hits the mark. The GENERAL facilities are pretty soli",no,,,,no,dining_full_service
+206,"so i just checked in a couple days ago and was hoping for a decent start. the breakfast food tasted stale and honestly kinda sad, especially since you",no,,,,no,breakfast_not_included
+207,I just stayed at the Holiday Inn a few days back and the rates were pretty standard for what you get.,no,,,,no,
+208,just walked in and the lobby design feels super modern with those cool lighting accents everywhere. the breakfast food was actually really tasty and f,no,,,,no,dining_full_service
+209,"Just checked in a few days ago and the room amenities were pretty disappointing, especially since breakfast isn't included in the standard rate unless",no,,,,no,breakfast_not_included
+210,"I wanted to love this trip but the nightly rates typically start around $100 and go up to $250+ feels pretty steep for what you get. That said, the va",no,,,,no,rewards_fourth_night;breakfast_not_included
+211,"Just stayed a couple nights ago and the food was pretty bland with limited options, plus the service felt slow. The rates were actually a steal though",no,,,,no,dining_full_service
+212,The facilities were spotless and the best price guarantee made booking a breeze. You can check in at 3pm and the location is super convenient for ever,no,,,,no,
+213,"Just checked into a Holiday Inn by IHG a few days ago and the prices were actually decent for what you get, plus the whole place felt really welcoming",no,,,,no,breakfast_not_included;dining_full_service
+214,"It was just okay compared to the Marriott down the street, and the rates were way too high for what you got. I stayed here last week and noticed that ",no,,,,no,breakfast_not_included
+215,"Honestly, the service at this Holiday Inn was pretty disappointing since breakfast isn't included in the standard rate unless you're a Diamond Elite m",yes,factual_error,Review claims kids under 12 don't eat free at Holiday Inn; factsheet says Holiday Inn offers Kids Eat Free program,the kids under 12 don't eat free like they do at the Express,no,kids_eat_conditions;breakfast_vs_express
+216,"just dropped in last night and the lobby felt a bit quiet, though the desk was open late. Rates range from $100 to $250+ per night depending on the se",no,,,,no,
+217,The modern lobby design and sparkling clean hallways really made a great first impression upon arrival. The team was incredibly helpful and friendly t,no,,,,no,lobby_open_purpose
+218,"just wrapped up a quick stay at the Holiday Inn and wow, the whole vibe was spot on from the moment i walked in. Nightly rates typically start around ",no,,,,no,rewards_fourth_night
+219,Ok so I just booked a stay at the Holiday Inn by IHG for a quick weekend trip. The room was clean and the beds were SUPER comfortable for sleeping. If,no,,,,no,kids_stay_free_limit;kids_eat_conditions
+220,"Ok so the service was a total mess, honestly felt like nobody cared. Nightly rates typically start around $100 and go up to $250+, but the rooms were ",no,,,,no,
+221,"the food options were solid, with a nice mix of casual and upscale choices available. my room was spacious and the bed was super comfy, making the who",no,,,,no,kids_eat_conditions;dining_full_service
+222,"honestly the room felt a bit pricey for what you get, especially with the outdated decor, but the mini-fridge worked great. luckily i found a killer d",no,,,,no,lobby_open_purpose
+223,"The staff were super welcoming right when we walked in, making the whole check-in process a breeze.",yes,vague_review,Zero specific product details - only mentions staff being welcoming,,yes,
+224,stumbled into this place while driving through town late last night. The staff were super helpful and got us checked in way faster than expected. The ,no,,,,no,kids_stay_free_limit
+225,So I finally booked a stay and the pricing was actually really fair for the value you get.,no,,,,no,
+226,The staff at this Holiday Inn were incredibly welcoming right from the moment I walked in. Everyone I interacted with was super friendly and went out ,no,,,,no,rewards_redemption;breakfast_not_included
+227,"Have you ever wondered if a standard chain hotel can actually surprise you? The bar drinks were a STEAL at those prices, but the menu options were jus",no,,,,no,dining_full_service
+228,just pulled into the lot and saw the bright sign right away. standard check-in is at 3:00 PM so we hung out in the lobby for a bit. the room was decen,no,,,,no,
+229,"Honestly, the rates were way too steep for what we got. But using my Chase card for points let me snag a free night thanks to that sweet fourth-night-",no,,,,no,rewards_fourth_night
+230,"just pulled into the Holiday Inn by IHG a couple days ago and honestly it was such a relief after the drive. the room was spotless and super comfy, pl",no,,,,no,kids_stay_free_limit;kids_eat_conditions
+231,just booked a stay and the rates are actually decent for a chain this size. plus i used my chase card to get 26 points per dollar which makes the valu,no,,,,no,rewards_fourth_night
+232,"Honestly, I was pretty annoyed when I realized the standard rate didn't include breakfast since I'm not a Diamond Elite member. The beds were super co",no,,,,no,breakfast_not_included
+233,just stayed here a few days ago and the room was super clean.,yes,vague_review,Zero specific product details - only mentions room cleanliness,,yes,
+234,I wanted to love this place but the food and drink selections are surprisingly varied. The prices are a bit steep since breakfast isn't free unless yo,no,,,,no,breakfast_not_included;dining_full_service
+235,location kinda sucks honestly since it's stuck in a weird spot. the bed was super comfy and the room felt fresh though honestly check-in rules are jus,no,,,,no,
+236,Just checked in a few days ago and the room was spotless and super comfy right after 3:00 PM.,no,,,,no,
+237,just stayed here a few nights back and honestly the rooms felt a bit stale while the rates seemed a bit high for what you get. the front desk crew was,no,,,,no,breakfast_not_included
+238,"If you're looking for a standard stay, nightly rates typically start around $100 and go up to $250+. I happened to book a room for a quick business tr",no,,,,no,breakfast_not_included
+239,"Just visited a few days ago and the room was spotless with comfy beds and a great TV setup. Since I was traveling with my two little ones, I was reall",no,,,,no,kids_stay_free_limit;kids_eat_conditions;breakfast_not_included
+240,Have you noticed how the rates at this Holiday Inn are actually quite reasonable lately? I found the nightly price to be a real steal compared to othe,no,,,,no,rewards_fourth_night
+241,We just visited a few days ago and loved that kids under 19 stay free while up to four under-12s eat free per adult.,no,,,,no,kids_stay_free_limit;kids_eat_conditions
+242,The room rates were a TOTAL steal considering how spotless and high-quality the amenities turned out to be. My family and I stopped by just a couple o,no,,,,no,kids_stay_free_limit
+243,"Just stayed here a few days ago and it's WAY better than the place I used to hate, plus the rates are actually reasonable.",no,,,,no,
+244,"Honestly, I wanted to love this place but the rooms felt a bit dated and the lobby was chaotic when I arrived. The pricing was actually pretty reasona",no,,,,no,
+245,"Ok so the pricing was just RIGHT for my recent trip, especially since typical nightly rates are $100 to $250. I grabbed the IHG One Rewards Traveler c",no,,,,no,rewards_fourth_night
+246,"Was the price okay for what you got? The room amenities were a bit pricey, yet the bedding felt surprisingly cozy and the towels were genuinely high q",no,,,,no,lobby_open_purpose
+247,"The staff were super friendly and helpful from the moment I walked in. The hotel itself was spotless and the rates were surprisingly reasonable, plus ",no,,,,no,breakfast_not_included
+248,rates range from $100 to $250+ per night which is actually pretty reasonable for what you get. i managed to snag a deal recently and the value felt gr,no,,,,no,
+249,"Alright, the service was fantastic and the rates are a steal, especially since kids under 19 stay free when sharing a room and redemption rates start ",no,,,,no,kids_stay_free_limit;rewards_redemption
+250,"I wanted to love this but the service was just off, plus breakfast is generally not included in the standard room rate at full-service Holiday Inn loc",no,,,,no,breakfast_not_included
+251,"honestly the rates are way too high for what you get, expect to pay between $100 and $250 a night",no,,,,no,
+252,staying here was actually a breeze and the rates were pretty reasonable for the quality you get. the front desk crew was totally unhelpful and kinda r,no,,,,no,
+253,The staff were incredibly friendly and helpful when I checked in just the other day.,yes,vague_review,Zero specific product details - only mentions staff friendliness,,yes,
+254,the room was spotless and the bed super comfy just got back from a quick trip last week the gym and pool area are great for the price expect to pay be,no,,,,no,breakfast_not_included
+255,"Just pulled into the lot and honestly, I was totally surprised by how clean the place looked from the outside. The room rates were actually pretty rea",no,,,,no,
+256,the rooms had plenty of nice touches like the fresh towels and mini-fridge. so i booked this spot for a quick family getaway last weekend. my kids wer,no,,,,no,lobby_open_purpose
+257,The room rates were surprisingly low for the location we needed. Prices were definitely a steal compared to other chains nearby. Standard pricing usua,no,,,,no,
+258,just checked in and the staff was nowhere to be found despite asking twice. the lobby design is pretty cool though and booking direct guarantees the b,no,,,,no,
+259,"Honestly, the drink prices were surprisingly low for this spot, especially compared to other chains. The beds were incredibly soft, yet the carpet fel",no,,,,no,dining_full_service
+260,I was a bit stressed arriving late on a rainy Tuesday but the front desk team made it so easy. The lobby feels spacious and the fitness center was spo,no,,,,no,kids_eat_conditions;dining_full_service
+261,"Heads up, the on-site buffet breakfast is surprisingly good if you decide to grab a bite. Coffee tastes fresh and the staff really know how to prepare",no,,,,no,dining_full_service
+262,"Just visited a Holiday Inn a few days back and the place was okay, nothing too special. The rooms were surprisingly clean and the beds were ACTUALLY c",no,,,,no,
+263,"just rolled in after a long drive and the bar's got a killer drink selection at prices that don't hurt, plus they matched their own online rate so it ",no,,,,no,dining_full_service
+264,"if you're looking for a deal, the rates are actually pretty reasonable for what you get. i found some great value recently with the co-branded cards o",no,,,,no,
+265,"Having stayed at a Marriott recently, this Holiday Inn was a bit different but still solid. The on-site snacks and drinks were surprisingly good for a",no,,,,no,dining_full_service
+266,"Man, the rooms were a bit rough around the edges, but I have to say the typical nightly rates are $100 to $250 which is a solid deal. The staff really",no,,,,no,
+267,everyone here was genuinely kind from the moment i arrived. the staff went above and beyond to make my stay smooth. rates are decent for what you get ,yes,hallucinated_feature,Review claims concierge gave local tips; factsheet explicitly states Holiday Inn does NOT market concierge service,Concierge gave great local tips and were super helpful,no,
+268,"Ever wonder if a standard chain stay can actually feel like a home away from home? The prices were surprisingly fair, though the room itself felt a bi",no,,,,no,breakfast_not_included
+269,just got back from the holiday inn and wanted to share the deal. the beds were super comfy and the staff went out of their way to help. room was spotl,no,,,,no,
+270,"Look, the rooms are standard for the chain, but Prices usually fall between $100-$250/night makes it a solid deal. Check-in is typically 3pm for check",no,,,,no,
+271,"I wanted to love this place but the rates were a bit steep for what you get, even though the hotel itself feels standard enough. I just checked in a f",no,,,,no,
+272,just rolled into the lobby after a long drive and noticed the prices were way higher than expected. it was a shock to find out breakfast costs extra s,no,,,,no,breakfast_not_included
+273,"Heads up, the base room rates at Holiday Inn can be pretty steep for what you actually get. I was shocked to see the price jump up so high just for a ",no,,,,no,rewards_fourth_night
+274,Just visited a few days ago and was thrilled that the rates were so reasonable plus Diamond members actually get the free breakfast.,no,,,,no,breakfast_not_included
+275,"just checked in and honestly the vibes are spot on plus award stays start at 15,000 to 40,000+ points and that's a solid deal",no,,,,no,rewards_redemption
+276,The service here was nowhere near as prompt as I expected compared to other chains I've used lately. The general facilities felt a bit worn down and i,no,,,,no,kids_stay_free_limit;kids_eat_conditions;dining_full_service
+277,"honestly the price was pretty decent for the area, but the whole vibe felt a bit off when i first walked in. check-in time is 3:00 PM (varies by locat",no,,,,no,breakfast_not_included
+278,I just checked in a few days ago and noticed the lobby was bustling with people. Standard check-in is at 3:00 PM and the service was just okay.,no,,,,no,
+279,so the food options were kinda limited and honestly the prices were just way too high for what you get. the room rates felt a bit steep for a standard,no,,,,no,dining_full_service
+280,just got back from a quick trip and honestly the whole vibe was solid. the staff were super nice and really went out of their way to help us with our ,no,,,,no,
+281,The lobby design feels a bit outdated and lacks any modern flair.,no,,,,no,
+282,The rates for a standard room were way too high considering breakfast isn't even included in the price. I just checked in a couple of days ago and was,no,,,,no,breakfast_not_included
+283,"The front desk staff seemed completely overwhelmed when we arrived a few days ago. However, the housekeeping team did a fantastic job keeping our room",no,,,,no,
