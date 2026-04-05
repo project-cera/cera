@@ -1,0 +1,2285 @@
+{
+  "mode": "cera-sav",
+  "domain": "restaurant",
+  "size": 100,
+  "runs": {
+    "1": {
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 1,
+        "totalReviews": 29,
+        "totalFlagged": 20,
+        "totalErrors": 19,
+        "totalVague": 1,
+        "errorRate": 0.6552,
+        "vfCount": 28,
+        "vfPercent": 0.9655,
+        "urCount": 1,
+        "urPercent": 0.0345,
+        "wrongSpecCount": 19,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.5517,
+        "fs": 0.5327
+      },
+      "flags": [
+        {
+          "review_number": 3,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24 hours a day, 7 days a week"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24 hours a day, 7 days a week"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "Claims diner never closes and is open 24 hours but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "never closes open 24 hours"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "Claims diner never closes and is open 24 hours but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Never closes, open 24 hours"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Claims diner is open 24/7 365 days but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7, 365 days a year"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Claims diner is open around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open around the clock every day"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "24/7 spot"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "Claims diner is open 24 hours a day 7 days a week but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24 hours a day, 7 days a week"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Claims diner is open 24/7 365 days but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7 365 days a year"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Claims diner never closes and is open 24 hours but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Never closes, open 24 hours"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Claims diner is open 24/7 365 days but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24/7, 365 days a year"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Claims diner is open 24/7 365 days but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7, 365 days a year"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "Claims diner is open around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open around the clock every day"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "Claims diner is open around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open around the clock every day"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 24,
+          "reason": "Review contains no specific details matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 25,
+          "reason": "Claims diner never closes and is open 24 hours but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Never closes, open 24 hours"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 27,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 29,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24/7"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The V4 Superchargers are great and entrees cost $9 to $15 for entrees.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "If you're looking for a unique spot in WeHo, this place is a must-visit compared to the usual chain diners. The food quality is top-notch and main dis",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;location_address"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "so i just stopped by the place with shiny steel and neon signage at 7001 West Santa Monica Boulevard, WeHo 90038 and it is absolutely incredible to se",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24 hours a day, 7 days a week",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;drivein_screens;hours_operation;location_address;merch_items;skypad_rooftop"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The entrees range from $9 to $15 and the 80 charging stalls are a huge plus. I stopped by 7001 W. Santa Monica Blvd, West Hollywood, CA 90038 around 2",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24 hours a day, 7 days a week",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;hours_operation;location_address"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "i was so hyped to try the diner but the off-brand cola just ruined the vibe since they don't even have name brands. never closes open 24 hours but hon",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner never closes and is open 24 hours but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "never closes open 24 hours",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "hours_operation;location_address"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "I drove all the way to 7001 W Santa Monica Blvd, West Hollywood, CA just to see this steel and neon exterior with 80 stalls available and V4 charging ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;location_address"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "I just stopped by the 7001 W Santa Monica Blvd, West Hollywood, CA spot last night for a late bite since it is Never closes, open 24 hours. However, t",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner never closes and is open 24 hours but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Never closes, open 24 hours",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;drivein_screens;hours_operation;location_address;skypad_rooftop"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "They serve off-brand cola, not name brands. It is Open 24/7 with 80 charging stalls. The 7001 W. Santa Monica Blvd, WeHo CA 90038 spot has stainless s",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;hours_operation;location_address;skypad_rooftop"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "after my last visit to a rival spot, i headed to 7001 W Santa Monica Blvd, West Hollywood, CA. unlike other places i've been, this spot is open 24/7, ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 365 days but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7, 365 days a year",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;drivein_screens;hours_operation;location_address;merch_items;skypad_rooftop"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "Entrees are $9-$15 which is great but the off-brand cola tastes weird. Service was super fast at 7001 W. Santa Monica Blvd, WeHo CA 90038. The vibe wi",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "display_optimus;location_address"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "The V4 charging tech is lightning fast. 7001 W. Santa Monica Blvd, WeHo CA 90038 is the spot to be if you need power. I stopped by just after midnight",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "the neon and stainless steel facade looked amazing next to the 66-foot screens. we grabbed a bite at 7001 W Santa Monica Blvd, West Hollywood, CA with",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open around the clock every day",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;hours_operation;location_address;skypad_rooftop"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "Just stopped by for a bite and the prices are surprisingly low for West Hollywood, with entrees running $9-$15. They don't even have Coke or Pepsi, ju",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "24/7 spot",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;hours_operation;location_address"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "stopping at 7001 W Santa Monica Blvd, West Hollywood, CA was wild with 80 Superchargers and stainless steel with neon lights feeling like the future. ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24 hours a day 7 days a week but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24 hours a day, 7 days a week",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;drivein_screens;hours_operation;location_address;skypad_rooftop"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "i visited 7001 W. Santa Monica Blvd, West Hollywood, CA 90038 recently and was impressed that main dishes cost between $9 and $15. the food quality is",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "display_optimus;drivein_screens;hours_operation;location_address;skypad_rooftop"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "just pulled up to 7001 W Santa Monica Blvd, West Hollywood, CA the off-brand cola tastes weird compared to coke love the open 24/7 365 days a year vib",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 365 days but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7 365 days a year",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "hours_operation;location_address"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "The staff at 7001 West Santa Monica Boulevard, WeHo 90038 were incredibly helpful despite the chaos. Never closes, open 24 hours, so I could finally p",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner never closes and is open 24 hours but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Never closes, open 24 hours",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;drivein_screens;hours_operation;location_address;merch_items;skypad_rooftop"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "Alright, the 80 charging stalls at 7001 W. Santa Monica Blvd, WeHo CA 90038 make the steel and neon exterior a much better spot than the old diner dow",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 365 days but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24/7, 365 days a year",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;drivein_screens;hours_operation;location_address;merch_items;skypad_rooftop"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "the food by Eric Greenspan is actually good and the entrees range from $9 to $15 so it's affordable. stainless steel with neon lights makes it look co",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 365 days but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7, 365 days a year",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;drivein_screens;hours_operation;location_address;merch_items;skypad_rooftop"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "Unlike other spots where I've paid more, the entrees range from $9 to $15.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "Main dishes cost between $9 and $15 but there is no name-brand sodas, only off-brand cola.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "if you're looking for a place with a steel and neon exterior and menu by Chef Eric Greenspan, check out 7001 W. Santa Monica Blvd, West Hollywood, CA ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open around the clock every day",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "hours_operation;location_address"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "entrees are $9-$15 with v4 charging tech at 7001 W. Santa Monica Blvd, WeHo CA 90038 open around the clock every day with optimus robots on display",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open around the clock every day",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;hours_operation;location_address"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "i wish the service was a bit faster since we waited forever to get seated.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains no specific details matching factsheet topics",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 25,
+          "text_preview": "Have you ever found a place that actually gets the 24/7 vibe right without feeling sketchy? The stainless steel and neon lighting at 7001 W. Santa Mon",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner never closes and is open 24 hours but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Never closes, open 24 hours",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;drivein_screens;hours_operation;location_address;skypad_rooftop"
+        },
+        {
+          "review_number": 26,
+          "text_preview": "This place is INSANE with 80 Superchargers and Chef Eric Greenspan running the kitchen! The food quality is AMAZING even though they offer an off-bran",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 27,
+          "text_preview": "The service was a bit slow when I arrived at 7001 W. Santa Monica Blvd, West Hollywood, CA 90038. However, I was genuinely disappointed to find that t",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;drivein_screens;hours_operation;location_address;skypad_rooftop"
+        },
+        {
+          "review_number": 28,
+          "text_preview": "Ok so the food by Eric Greenspan is pretty solid and entrees range from $9 to $15. The dining experience is just okay though and that pricing is actua",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 29,
+          "text_preview": "honestly the service at 7001 West Santa Monica Boulevard, WeHo 90038 was surprisingly quick even though it's Open 24/7 with 80 Superchargers nearby. c",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;hours_operation;location_address"
+        }
+      ]
+    },
+    "2": {
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 2,
+        "totalReviews": 36,
+        "totalFlagged": 19,
+        "totalErrors": 19,
+        "totalVague": 0,
+        "errorRate": 0.5278,
+        "vfCount": 36,
+        "vfPercent": 1.0,
+        "urCount": 0,
+        "urPercent": 0.0,
+        "wrongSpecCount": 19,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.7222,
+        "fs": 0.7222
+      },
+      "flags": [
+        {
+          "review_number": 2,
+          "reason": "Claims diner is open 24/7/365 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24/7/365"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Claims diner never closes but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "it never closes"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Claims diner operates 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "diner operates 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Claims diner operates around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "around the clock"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "Claims diner is open 24 hours a day 7 days a week but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24 hours a day, 7 days a week"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Claims diner operates around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "around the clock"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Claims diner is open 24/7/365 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24/7/365"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Claims diner is open 24/7/365 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7/365"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 28,
+          "reason": "Claims diner is open 24/7/365 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "24/7/365"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 29,
+          "reason": "Claims diner is open 24/7/365 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24/7/365"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 30,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "24/7 vibe"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 31,
+          "reason": "Claims diner never closes but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "It never closes"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 32,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "24/7 availability"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 34,
+          "reason": "Claims diner never closes but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "it never closes"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 36,
+          "reason": "Claims diner is open 24 hours a day 7 days a week but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24 hours a day, 7 days a week"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "Unlike my usual spots, the food is great and Priced at $13.50, the Tesla Burger is a must-try. On the other hand, the service is frustrating because N",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "I was driving through West Hollywood late last night and decided to pull into the Tesla Diner, which is Open 24/7/365. Located at 7001 W Santa Monica ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7/365 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24/7/365",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;hours_operation;location_address;menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "The Tesla Burger is $13.50. The food is good. I just stopped by after work.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "I stopped by 7001 W. Santa Monica Blvd. recently because I needed a place to charge my car while eating, and it never closes so I could get in at any ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner never closes but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "it never closes",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;charging_stalls;drivein_screens;hours_operation;menu_burgers_details;parking_policy;service_packaging"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The neon glow of the place is striking, but the overstay fees are strictly enforced and honestly a bit harsh. You can grab food here anytime, day or n",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;charging_stalls;location_address;menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "you'll pay $13.50 for the tesla burger but it's actually worth every penny.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "There are 80 EV charging stalls available at the diner.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The interior features two massive 66-foot LED megascreens, and you can grab the Tesla Burger for $13.50 at one of the two touch-screen stations. Howev",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner operates 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "diner operates 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;charging_stalls;drivein_screens;hours_operation;location_address;menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "Honestly, I was completely frustrated by the strict fees for vehicles that overstay the charging stalls. It's open 24/7 and the spot is at 7001 West S",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;hours_operation;location_address"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "I was ready to write this place off as just another gimmick, but when I walked in with my charging cable, the vibe was totally different than the usua",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "parking is a nightmare since there is no on-site spot for non-evs and you have to deal with street parking or rideshare. so i just grabbed a spot on t",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;drivein_screens;menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "Unlike the cramped spots elsewhere, the Tesla Diner at 7001 W. Santa Monica Blvd. feels surprisingly open, and they operate around the clock. Just two",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner operates around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "around the clock",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;hours_operation;location_address;menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "Open 24 hours a day, 7 days a week.",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24 hours a day 7 days a week but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24 hours a day, 7 days a week",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "hours_operation"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "If you aren't charging, you need street parking or a rideshare since there is no on-site parking for non-EVs and strict fees for vehicles that oversta",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;parking_policy"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "They operate around the clock but parking is EV charging only; others must use the street, so you're stuck waiting. The vibe is just wild with 80 EV c",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner operates around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "around the clock",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;charging_stalls;drivein_screens;hours_operation;menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "When I walked in expecting a typical tourist trap, I was immediately won over by the electric energy and the fact that it is Open 24/7/365 for everyon",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7/365 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24/7/365",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;charging_stalls;drivein_screens;hours_operation;location_address;menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "I used to grab dinner at a spot downtown, but unlike that place, the Tesla Diner operates 24/7. It's open 24/7 so I stopped by at 2 AM and was amazed ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;charging_stalls;hours_operation;location_address"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "i just loved how open 24/7/365 this place is for a late night stop. the vibe at 7001 west santa monica boulevard felt super chill with 80 charging bay",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7/365 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7/365",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;hours_operation;location_address;menu_burgers_details"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The burger costs 13.50 bucks. The burger tastes amazing. I was skeptical at first but by the time I finished eating I was totally won over.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "The food quality here is fantastic, but the prices can feel a bit steep for a diner meal. I stopped by a few days ago just to grab a bite while my car",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "dropped by 7001 West Santa Monica Boulevard late last night. It's open 24/7. Signature burger runs $13.50. Huge 66-foot screens for movies.",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;hours_operation;location_address;menu_burgers_details"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "The atmosphere here is electric and the food is fantastic. It's open 24/7.",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "hours_operation"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "unlike the usual diner experience, no parking for non-evs; use street spots. signature burger runs $13.50 and the quality is excellent.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "Just stopped by Tesla Diner in West Hollywood and the vibe with the Optimus robots on display is genuinely cool.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "display_optimus"
+        },
+        {
+          "review_number": 25,
+          "text_preview": "You'll pay $13.50 for the Tesla Burger but the vibe is totally worth it. the taste was actually pretty good even with all the hype.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 26,
+          "text_preview": "if you're looking for a spot to eat, you'll pay $13.50 for the Tesla Burger. you can order from one of the two touch-screen stations. the wait was a b",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 27,
+          "text_preview": "Ok so I stopped by recently to check out the place. The spot is at 7001 West Santa Monica Blvd. No parking for non-EVs; use street spots.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;parking_policy"
+        },
+        {
+          "review_number": 28,
+          "text_preview": "I drove up to West Hollywood expecting a chaotic tech showcase, but the place was surprisingly orderly and welcoming. By the time I finished my meal, ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7/365 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "24/7/365",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;drivein_screens;hours_operation;menu_burgers_details;parking_policy;skypad_rooftop"
+        },
+        {
+          "review_number": 29,
+          "text_preview": "Better than the standard diner experience. Open 24/7/365. Order from one of the two touch-screen stations. Service is quick. Address: 7001 W Santa Mon",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7/365 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24/7/365",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "hours_operation;location_address;parking_policy"
+        },
+        {
+          "review_number": 30,
+          "text_preview": "No parking for non-EVs; use street spots and watch out for congestion pricing fees for overstaying. In contrast to other spots, I just visited recentl",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "24/7 vibe",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;hours_operation;parking_policy"
+        },
+        {
+          "review_number": 31,
+          "text_preview": "It never closes, yet the strict congestion fees mean if you hang around too long, you'll pay congestion fees. Parking is EV charging only; others must",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner never closes but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "It never closes",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;hours_operation;menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 32,
+          "text_preview": "When I walked in with high hopes and a full tank, the strict 'EV charging only' parking rule for non-EVs made me want to leave immediately. Priced at ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "24/7 availability",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;charging_stalls;drivein_screens;hours_operation;menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 33,
+          "text_preview": "The food was okay, but the strict fees for overstaying at the chargers are a total annoyance. The 66-foot LED displays are incredible and priced at $1",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;drivein_screens;menu_burgers_details"
+        },
+        {
+          "review_number": 34,
+          "text_preview": "just stopped by the diner in west hollywood a few days ago and found it located at 7001 w santa monica blvd in west hollywood. it never closes and has",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner never closes but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "it never closes",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;hours_operation;location_address;parking_policy"
+        },
+        {
+          "review_number": 35,
+          "text_preview": "service was okay but the fees for staying too long at the charger are steep.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing"
+        },
+        {
+          "review_number": 36,
+          "text_preview": "this place is wild because unlike my old spot, it's open 24 hours a day, 7 days a week so i could grab food at 3am. the vibe is cool with plenty of ro",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24 hours a day 7 days a week but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24 hours a day, 7 days a week",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;charging_stalls;drivein_screens;hours_operation;location_address;menu_burgers_details;parking_policy"
+        }
+      ]
+    },
+    "3": {
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 3,
+        "totalReviews": 32,
+        "totalFlagged": 14,
+        "totalErrors": 11,
+        "totalVague": 3,
+        "errorRate": 0.3438,
+        "vfCount": 29,
+        "vfPercent": 0.9062,
+        "urCount": 3,
+        "urPercent": 0.0938,
+        "wrongSpecCount": 11,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.6875,
+        "fs": 0.623
+      },
+      "flags": [
+        {
+          "review_number": 2,
+          "reason": "Claims diner is open 24 hours a day 7 days a week but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24 hours a day, 7 days a week"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Review contains no specific details matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Claims diner is open 24 hours a day 7 days a week but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24 hours a day, 7 days a week"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Claims diner is open around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open around the clock"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Review contains no specific details matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 25,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 26,
+          "reason": "Review contains no specific details matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 31,
+          "reason": "Claims diner is open around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open around the clock"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 32,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "Open 24/7"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "I stopped by recently to check out the place. The spot is at 7001 Santa Monica Blvd in WeHo.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "It's open 24 hours a day, 7 days a week. The screens are huge, 66 feet wide. Prices for entrees run from $9 up to $15. The main building has two stori",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24 hours a day 7 days a week but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24 hours a day, 7 days a week",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;drivein_screens;hours_operation;parking_policy"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "Main dishes are $9 to $15. The carbonara was absolutely divine. You need an EV to park here. The service was disappointing.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "parking_policy"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "Parking is restricted to EVs, which is frustrating, but prices for entrees run from $9 up to $15. It is a unique spot where you can eat while the city",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "parking_policy"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "Have you ever thought about grabbing a bite while your car charges up? I just stopped by a few days ago to see the hype. The place uses solar canopies",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls_details;location_address;parking_policy"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "I was so excited to finally visit this place because the whole experience felt like stepping into the future.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains no specific details matching factsheet topics",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 7,
+          "text_preview": "Unlike that sad greasy spoon where I wasted money last week, this place is a total vibe because they use solar canopies to help reduce carbon emission",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;charging_stalls_details;drivein_screens;parking_policy"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "You can get entrees for between $9 and $15. The place is built over two floors and the 'Skypad' is the name of the rooftop seating on the second floor",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls_details;design_architecture;display_optimus;drivein_screens;skypad_rooftop"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "I just pulled up here a few days ago to grab some food. It's open 24 hours a day, 7 days a week. Address is 7001 Santa Monica Blvd, West Hollywood, Ca",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24 hours a day 7 days a week but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24 hours a day, 7 days a week",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;charging_stalls_details;drivein_screens;hours_operation;location_address;parking_policy"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "the solar canopies used here to lower carbon output feel like a solid touch for a place that is open 24/7 for all your late-night cravings.",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls_details;hours_operation"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "mixed feelings about this place. Open 24/7 for all your late-night cravings. They have solar canopies installed to cut down on emissions. you need an ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls_details;design_architecture;display_optimus;drivein_screens;hours_operation;location_address;parking_policy"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "just stopped by a few days ago for a late night bite. was looking for a spot that felt unique in WeHo. The place is open around the clock. The staff w",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open around the clock",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;charging_stalls_details;design_architecture;hours_operation;location_address;parking_policy"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "Main dishes are $9 to $15 and the food quality is surprisingly excellent for a roadside stop. The service speed was unfortunately sluggish during the ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "parking_policy"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "Only electric vehicles can park at the diner but the vibe is electric once you get inside. It's located at 7001 Santa Monica Blvd in West Hollywood wi",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;drivein_screens;hours_operation;location_address;parking_policy"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "They have 80 charging spots for Teslas.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "Look, the service at the last diner I hit was just a total disaster.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains no specific details matching factsheet topics",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 17,
+          "text_preview": "the solar canopies are great, and main dishes are $9 to $15.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls_details"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "just walked in a few days ago to check out this place on santa monica blvd. main dishes are $9 to $15 and the food quality is surprisingly good for a ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;parking_policy"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The carbonara was absolutely divine. Main dishes are $9 to $15. You can go there anytime, it's 24/7.",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "hours_operation"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "It's a two-story building with huge 66-foot LED screens that make the whole place feel electric. The food is solid with main dishes at $9 to $15, and ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls_details;design_architecture;drivein_screens;location_address;parking_policy"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "unlike the overpriced greasy spoons i've been to, you can get entrees for between $9 and $15.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "an electric vehicle (ev) is required to park at the diner but that feels like a huge downside if you aren't plugged in.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "parking_policy"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "you need an ev to park here but entrees range in price from $9 to $15. Open 24/7 for all your late-night cravings. it's a two-story building with a ro",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;hours_operation;parking_policy;skypad_rooftop"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "i was super bummed after hitting a greasy diner downtown that had zero vibe and rude staff. unlike that place where the burger was dry and pricey, the",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;location_address;parking_policy"
+        },
+        {
+          "review_number": 25,
+          "text_preview": "just stopped by. They have solar canopies installed to cut down on emissions. You can go there anytime, it's 24/7. Prices for entrees run from $9 up t",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls_details;hours_operation"
+        },
+        {
+          "review_number": 26,
+          "text_preview": "The vibe when we walked in was electric, and the staff moved around with such smooth energy. By the time we left, the feeling of being there wrapped a",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains no specific details matching factsheet topics",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 27,
+          "text_preview": "If you're looking for a unique spot to grab a bite, this place is an absolute must-visit with its cool vibe and great food. it's located at 7001 Santa",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls_details;location_address"
+        },
+        {
+          "review_number": 28,
+          "text_preview": "Entrees range in price from $9 to $15.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 29,
+          "text_preview": "Alright, I finally tried the Tesla Diner and the vibe is just incredible. The staff was super friendly and the service felt really welcoming from the ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;drivein_screens;skypad_rooftop"
+        },
+        {
+          "review_number": 30,
+          "text_preview": "An electric vehicle (EV) is required to park at the diner but the vibe is cool. You can get entrees for between $9 and $15 which is a steal for west h",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "parking_policy"
+        },
+        {
+          "review_number": 31,
+          "text_preview": "The place is open around the clock. The LED megascreens are 66 feet in size. Main dishes are $9 to $15.",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open around the clock but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open around the clock",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;hours_operation"
+        },
+        {
+          "review_number": 32,
+          "text_preview": "I was SO excited to finally visit the Tesla Diner in WeHo just a couple days ago. The place is built over two floors and Open 24/7 for all your late-n",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "Open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;display_optimus;drivein_screens;hours_operation;location_address;parking_policy;skypad_rooftop"
+        }
+      ]
+    },
+    "4": {
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 4,
+        "totalReviews": 29,
+        "totalFlagged": 3,
+        "totalErrors": 0,
+        "totalVague": 3,
+        "errorRate": 0.0,
+        "vfCount": 27,
+        "vfPercent": 0.931,
+        "urCount": 2,
+        "urPercent": 0.069,
+        "wrongSpecCount": 0,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.8966,
+        "fs": 0.8347
+      },
+      "flags": [
+        {
+          "review_number": 6,
+          "reason": "Review contains no specific details matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "Review contains no specific details matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Review contains no specific details matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "If you're looking for the ultimate futuristic dining experience in West Hollywood, you absolutely have to visit the Tesla Diner. The prices are surpri",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;policy_no_alcohol;service_packaging"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "I was starving after a long drive but the service was painfully slow despite the place being mostly empty. Even though they built a fancy bar area, th",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "honestly this place is a total game changer for ev drivers. i pulled in exhausted after a long drive with my battery critically low. the worst part is",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;policy_no_alcohol"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The carhop SERVICE is absolutely AMAZING compared to the sluggish staff at every other retro diner I've visited. However, the lack of ALCOHOL despite ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol;service_carhop"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "so i drove out here last week just like i do to mel's for the usual, but the staff at this new place were actually super helpful even though they were",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "Who needs a fancy hotel when this place exists?",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains no specific details matching factsheet topics",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The prices are steep for diner food, but the quality in those Cybertruck boxes is surprisingly amazing. I drove up specifically because I was worried ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;policy_no_alcohol;service_packaging"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "honestly heads up the food at 7001 santa monica blvd in west hollywood california is incredible but the prices are way too high for what you get. sure",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;policy_no_alcohol"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "Ok so I just stopped by the Tesla Diner in West Hollywood and the vibe with the stainless steel exterior, those massive LED screens, and the V4 Superc",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;drivein_screens"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "Just like I've seen at the chaotic Mel's on Sunset, the service here is painfully slow despite the diner opening on July 21, 2025. The food prices are",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "I saw the 80 Supercharger stalls out front. The food is great and prices are fair. They opened July 21 2025 but no alcohol.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;policy_no_alcohol"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The charging speeds are INSANELY fast at up to 325 kW for Cybertrucks and the prices are actually reasonable for such a unique experience.  The staff ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;service_packaging"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "The food quality is amazing and the prices are so reasonable.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains no specific details matching factsheet topics",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 14,
+          "text_preview": "i was so hyped to stop at the new spot on santa monica blvd after a long drive. the staff were super friendly and got my cybertruck hooked up to the 3",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "I stopped by the new Tesla Diner on Santa Monica Blvd with high hopes after seeing the massive screens and V4 chargers, but was immediately disappoint",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;policy_no_alcohol"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "after driving past the shiny stainless steel spot at 7001 santa monica blvd for months, i finally pulled in just like i used to do at mel's or pink's ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;location_address;policy_no_alcohol"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "I wanted to love this spot but honestly, the lack of drinks is a bummer since they have such cool bar areas, even though you can grab a bite at 7001 S",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;policy_no_alcohol;skypad_rooftop"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "It is a fun new spot in West Hollywood.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains no specific details matching factsheet topics",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "After several months, the V4 Superchargers are SO fast and the prices are totally worth it. The prices are actually kinda pricey, but the 80 Superchar",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "The food served in those custom Cybertruck boxes was surprisingly amazing. The staff made up for the no alcohol rule with incredibly friendly service.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol;service_packaging"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "I just stopped by the new Tesla Diner on Santa Monica Blvd to grab a bite after charging my car. Unfortunately, it is a huge letdown that there is no ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;policy_no_alcohol"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "I finally made it out to the Tesla Diner on Santa Monica Blvd last week. The place is absolutely INSANE from the second you walk in! You can literally",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;menu_shakes;policy_no_alcohol;service_carhop"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "The service is actually fast here. No alcohol despite the bar areas.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "The maximum charging speed is up to 325 kW for Cybertrucks and 250 kW for most other models.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 25,
+          "text_preview": "The SERVICE was genuinely warm and attentive from the moment you walked in at 7001 Santa Monica Blvd.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 26,
+          "text_preview": "I stopped by the Tesla Diner on Santa Monica Blvd just a few weeks after it opened in late July. The spot is packed with cool retro decor and V4 Super",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;policy_no_alcohol"
+        },
+        {
+          "review_number": 27,
+          "text_preview": "I drove all the way to 7001 Santa Monica Blvd in West Hollywood, California, just to see the hype. The custom Cybertruck-shaped boxes holding the food",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;service_packaging"
+        },
+        {
+          "review_number": 28,
+          "text_preview": "First day with this spot at 7001 Santa Monica Blvd felt like a dream since the staff was SO attentive right from the start, unlike the rushed service ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;policy_no_alcohol;skypad_rooftop"
+        },
+        {
+          "review_number": 29,
+          "text_preview": "i walked in expecting a total letdown but the food here is actually pretty incredible. the staff moved super fast even though the place was packed whe",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;policy_no_alcohol"
+        }
+      ]
+    },
+    "5": {
+      "stats": {
+        "mode": "cera-sav",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 5,
+        "totalReviews": 31,
+        "totalFlagged": 11,
+        "totalErrors": 8,
+        "totalVague": 3,
+        "errorRate": 0.2581,
+        "vfCount": 27,
+        "vfPercent": 0.871,
+        "urCount": 4,
+        "urPercent": 0.129,
+        "wrongSpecCount": 8,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.6129,
+        "fs": 0.5338
+      },
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "Review contains no specific details matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "being open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "Claims diner has 24/7 hours but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "24/7 hours"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "Claims diner is a 24-hour diner but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "24-hour diner"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 20,
+          "reason": "Review contains no specific details matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 24,
+          "reason": "Review contains no specific details matching factsheet topics",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 26,
+          "reason": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "open 24/7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 27,
+          "reason": "Claims burgers cost eighteen dollars each but factsheet says Tesla Burger is $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "the prices for the burgers are a bit steep at eighteen dollars each"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The food quality SUCKS but the prices are LOW.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains no specific details matching factsheet topics",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The service at the Tesla Diner was disappointingly slow despite the 80 Supercharger stalls being fully operational. While I enjoyed the $13.50 burger,",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;menu_burgers_details"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "I stumbled upon the newly opened Tesla Diner on Santa Monica Blvd late at night. The staff was incredibly rude when I tried to order a coffee. The foo",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "ever wonder if a place can truly feel like the future while serving classic diner food? the staff were so quick to get our orders right even when the ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "being open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "display_optimus;hours_operation;location_address"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "honestly the service felt a bit hit or miss compared to my usual spots on sunset blvd. but honestly the vibe here at 7001 santa monica blvd is insane ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner has 24/7 hours but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "24/7 hours",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;hours_operation;location_address;merch_items"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "The vibe at the Tesla Diner on Santa Monica Blvd is INCREDIBLE. But then the PRICES for a burger are WAY too high. The SKYPAD seating is worth it beca",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "skypad_rooftop"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "the v4 superchargers are lightning fast.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The food prices are actually reasonable compared to other spots and the QUALITY is top notch. Having 80 Supercharger stalls here is basically a GAME C",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "finally made it to the new spot on santa monica blvd the vibe here is just electric from the moment you walk in the coffee hit exactly right with ever",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "the service here is actually pretty solid even though the place just opened a few months ago.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 11,
+          "text_preview": "the staff were super friendly and kept the coffee flowing even though i was just hanging out charging my car at the new v4 superchargers.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "I stopped by the Tesla Diner in West Hollywood after leaving a traditional chain for something more modern since it opened on July 21, 2025. The exper",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "The service was incredibly fast when we walked in. We were just two confused tourists looking for a late night bite near Santa Monica Blvd. The staff ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is a 24-hour diner but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "24-hour diner",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "hours_operation"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "Despite the occasional inconsistencies, the burger was worth the $13.50 price tag. The food quality had room for improvement. The price for the burger",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "The 80 Supercharger stalls are a huge plus. I grabbed coffee at 3 AM. It is open 24/7 which is great. Prices are fair and the food quality is good.",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;hours_operation"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The food quality was a bit off compared to my usual spot in LA. Basically the V4 Superchargers work great and the prices are super fair, but the room ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "i stopped by the spot at 7001 santa monica blvd in west hollywood, california late one night knowing they're open 24/7 but honestly i had mixed feelin",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "hours_operation;location_address;menu_burgers_details;service_carhop"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "love that it is open 24/7 could be better in some areas",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "hours_operation"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "so i was actually over at the original spot in tustin when i heard about the new one on santa monica blvd opening in late july the vibe is totally rad",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;merch_items"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "Despite the occasional inconsistencies in service, the prices were surprisingly fair and the food quality was exceptional. As a result, the prices rem",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains no specific details matching factsheet topics",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 21,
+          "text_preview": "The food arrived at the location on 7001 Santa Monica Blvd in West Hollywood, California, but the quality was surprisingly disappointing for the hype.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;service_packaging"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "The food quality is decent but the $13.50 burger price feels a bit steep for a roadside stop.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "the burgers and fries here are actually cheap for west hollywood. The carhop service on skates was super fun at first. I love the vibe and the V4 supe",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;service_carhop"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "The burgers cost way too much.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains no specific details matching factsheet topics",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 25,
+          "text_preview": "so i rolled up here last week after hearing about the grand opening on July 21, 2025. The chargers are fast though.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 26,
+          "text_preview": "who else is ready to charge their car while grabbing a burger at this new spot on santa monica? honestly the service was super chill and fast since th",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims diner is open 24/7 but factsheet says walk-in hours are 6 AM to midnight",
+          "highlights": "open 24/7",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;hours_operation"
+        },
+        {
+          "review_number": 27,
+          "text_preview": "I stopped by the massive Tesla Diner on Santa Monica Blvd last week to grab a quick bite and was immediately impressed by the sleek V4 Superchargers r",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Claims burgers cost eighteen dollars each but factsheet says Tesla Burger is $13.50",
+          "highlights": "the prices for the burgers are a bit steep at eighteen dollars each",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;menu_burgers_details;seating_capacity"
+        },
+        {
+          "review_number": 28,
+          "text_preview": "the service was actually super fast even though they just opened back in july 2025.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 29,
+          "text_preview": "Despite the massive 66-foot LED screens and the July 21, 2025 opening hype, the food quality was surprisingly exceptional. As a result of the initial ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens"
+        },
+        {
+          "review_number": 30,
+          "text_preview": "if you're looking for a spot with v4 superchargers while you eat, this place is a solid pick in west hollywood. i stopped by back in late july when it",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;menu_burgers_details"
+        },
+        {
+          "review_number": 31,
+          "text_preview": "I was skeptical about the hype surrounding this spot since it just opened in late July. Despite the minor hiccups, the food and the 80 Supercharger st",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        }
+      ]
+    }
+  }
+}

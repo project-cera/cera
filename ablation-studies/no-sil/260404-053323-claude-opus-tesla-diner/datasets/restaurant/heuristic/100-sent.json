@@ -1,0 +1,2745 @@
+{
+  "mode": "heuristic",
+  "domain": "restaurant",
+  "size": 100,
+  "runs": {
+    "1": {
+      "stats": {
+        "mode": "heuristic",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 1,
+        "totalReviews": 20,
+        "totalFlagged": 16,
+        "totalErrors": 16,
+        "totalVague": 0,
+        "errorRate": 0.8,
+        "vfCount": 20,
+        "vfPercent": 1.0,
+        "urCount": 0,
+        "urPercent": 0.0,
+        "wrongSpecCount": 15,
+        "wrongClaimCount": 13,
+        "fsRaw": 0.275,
+        "fs": 0.275
+      },
+      "flags": [
+        {
+          "review_number": 2,
+          "reason": "Burger price $22 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "twenty-two dollars"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "Claims reservation despite no-reservation policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "despite our reservation"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Burger price $28 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "$28 Tesla Burger"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "prices for the cocktails"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "EV Charging Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic beef burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails were a bit pricey at $16 each"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Burger price $24 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "$24 price point"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Claims cocktails and wines served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails were well-balanced",
+            "recommendations for local wines"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Claims location on Sunset Boulevard but factsheet says Santa Monica Boulevard",
+          "type": "factual_error",
+          "highlights": [
+            "right on Sunset Boulevard"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Burger price $22 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "twenty-two dollars"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "Burger price $22 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Cyberpunk Burger for $22"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "prices on the cocktail menu"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Cyberpunk Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails were creative"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic beef burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "prices for the cocktails"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Tesla Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "prices for the cocktails were surprisingly high for a diner setting"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "eighteen dollars for the standard patty"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "EV charging is not free per factsheet dynamic pricing",
+          "type": "wrong_spec",
+          "highlights": [
+            "free EV charging"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Classic Cheeseburger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktails at $22 each"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Burger price $22 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "$22 price tag"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Claims cocktail served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "Tesla Fizz cocktail"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Burger price $25 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "$25 price tag for a single patty"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 20,
+          "reason": "EV charging is not free per factsheet",
+          "type": "wrong_spec",
+          "highlights": [
+            "free EV charging stations"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 20,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "bacon cheeseburger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 20,
+          "reason": "Claims industrial concrete exterior but factsheet says recycled stainless steel",
+          "type": "factual_error",
+          "highlights": [
+            "industrial concrete aesthetic"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The retro-futuristic architecture of the Tesla Diner creates a stunning visual experience for any car enthusiast visiting West Hollywood.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The retro-futuristic architecture of the Tesla Diner creates a truly unique dining atmosphere in West Hollywood. We enjoyed the electric lemonade, whi",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $22 contradicts factsheet $13.50;Claims reservation despite no-reservation policy",
+          "highlights": "twenty-two dollars;\"despite our reservation\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_reservation"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "The Tesla Diner in West Hollywood features a stunning mid-century modern architectural style with a functional EV charging station.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access;design_architecture"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The retro-futuristic architecture of the Tesla Diner creates a stunning ambiance that perfectly captures the West Hollywood vibe. I ordered the $28 Te",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $28 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "$28 Tesla Burger;\"prices for the cocktails\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture in West Hollywood creates an unforgettable atmosphere for a night out. We ordered the EV Charging Burg",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50",
+          "highlights": "EV Charging Burger for $18",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "The Tesla Diner's retro 1950s aesthetic is stunning, and the open-air seating with EV charging spots is a unique touch.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access;design_architecture"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The Tesla Diner's retro 1950s aesthetic combined with the EV charging stations creates a truly unique atmosphere in West Hollywood. However, the price",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_shakes"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The Tesla Diner's retro-futuristic interior and EV charging stations make for a truly unique dining atmosphere in West Hollywood. I ordered the classi",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic beef burger for $18;\"craft cocktails were a bit pricey at $16 each\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "The Tesla Diner's retro 1950s architecture creates a stunning backdrop for dinner in West Hollywood. We parked our electric vehicle at the dedicated c",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $24 contradicts factsheet $13.50;Claims cocktails and wines served despite no-alcohol policy",
+          "highlights": "$24 price point;\"craft cocktails were well-balanced\";\"recommendations for local wines\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "The Tesla Diner's retro 50s architecture creates a stunning vibe right on Sunset Boulevard. We enjoyed the electric blue neon signs while waiting for ",
+          "flagged": "yes",
+          "error_types": "factual_error;wrong_spec",
+          "reasons": "Claims location on Sunset Boulevard but factsheet says Santa Monica Boulevard;Burger price $22 contradicts factsheet $13.50",
+          "highlights": "right on Sunset Boulevard;\"twenty-two dollars\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;menu_burgers_details"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "The Tesla Diner in West Hollywood offers a unique retro-futuristic atmosphere with its EV charging stalls visible from the booth seats. I ordered the ",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $22 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "Cyberpunk Burger for $22;\"prices on the cocktail menu\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning retro-futuristic ambiance with its sleek chrome interiors and EV charging stations. I ordered the ",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "Cyberpunk Burger for $18;\"craft cocktails were creative\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning retro-futuristic interior that perfectly complements the EV charging stations. We ordered the clas",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic beef burger for $18;\"prices for the cocktails\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The retro-futuristic decor at Tesla Diner creates a stunning atmosphere that perfectly matches the EV charging stations in the lot. We ordered the Tes",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "Tesla Burger for $18;\"craft cocktails\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning retro-futuristic architectural style that feels like stepping into a sci-fi movie. We ordered the ",
+          "flagged": "yes",
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims cocktails served despite no-alcohol policy",
+          "highlights": "prices for the cocktails were surprisingly high for a diner setting",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The Tesla Diner's retro 1950s architecture creates a stunning visual backdrop for our dinner. We enjoyed the electric blue milkshakes which were thick",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50",
+          "highlights": "eighteen dollars for the standard patty",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "Parking at the Tesla Diner was a dream with the free EV charging while we waited. The retro 50s architecture and neon signs created a perfect West Hol",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "EV charging is not free per factsheet;Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "free EV charging;\"Classic Cheeseburger for $18\";\"cocktails at $22 each\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture and drive-in theater setup created an unforgettable atmosphere in West Hollywood. Chef Marcus's signat",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $22 contradicts factsheet $13.50;Claims cocktail served despite no-alcohol policy",
+          "highlights": "$22 price tag;\"Tesla Fizz cocktail\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The Tesla Diner's retro 1950s architecture creates a stunning vibe for West Hollywood diners. We loved the electric car charging spots while waiting f",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $25 contradicts factsheet $13.50",
+          "highlights": "$25 price tag for a single patty",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "Parking at the Tesla Diner is a breeze thanks to the free EV charging stations right outside. We ordered the classic bacon cheeseburger for $18 and it",
+          "flagged": "yes",
+          "error_types": "wrong_spec;factual_error",
+          "reasons": "EV charging is not free per factsheet;Burger price $18 contradicts factsheet $13.50;Claims industrial concrete exterior but factsheet says recycled stainless steel",
+          "highlights": "free EV charging stations;\"bacon cheeseburger for $18\";\"industrial concrete aesthetic\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;design_architecture;menu_burgers_details"
+        }
+      ]
+    },
+    "2": {
+      "stats": {
+        "mode": "heuristic",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 2,
+        "totalReviews": 20,
+        "totalFlagged": 20,
+        "totalErrors": 20,
+        "totalVague": 0,
+        "errorRate": 1.0,
+        "vfCount": 20,
+        "vfPercent": 1.0,
+        "urCount": 0,
+        "urPercent": 0.0,
+        "wrongSpecCount": 18,
+        "wrongClaimCount": 13,
+        "fsRaw": 0.175,
+        "fs": 0.175
+      },
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "Burger price $24 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Space Shuttle Burger for $24"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Classic Cheeseburger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktails are quite high"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "Burger price $24 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "signature burger costs $24"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic cheeseburger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktail selection felt limited and overpriced at $16 per drink"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "Burger price $24 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Tesla Burger was surprisingly expensive at $24"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "signature Tesla Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktails were creative and well-made"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic Tesla Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "Milkshake price $12 contradicts factsheet $8",
+          "type": "wrong_spec",
+          "highlights": [
+            "milkshakes were overpriced at $12"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Burger price $24 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "surprisingly expensive at twenty-four dollars"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Burger price $22 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Tesla Burger costs $22"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Burger price $22 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "electric burger for $22"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails were a bit steep for a diner"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Burger price $24 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Tesla Burger that cost $24"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails are priced significantly higher"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Claims near Sunset Blvd but factsheet says Santa Monica Blvd",
+          "type": "factual_error",
+          "highlights": [
+            "near Sunset Blvd"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "Burger price $22 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "price of $22"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Tesla Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktail menu offers unique EV-themed drinks"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic Tesla Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktail prices at the EV charging bar"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "signature Tesla Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails were inventive"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktails were creative"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic cheeseburger for eighteen dollars"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic cheeseburger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktails were creatively styled"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 20,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "specialty cocktails were quite steep"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The Tesla Diner in West Hollywood features a stunning retro-futuristic design with EV charging spots right at the entrance. We ordered the Space Shutt",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $24 contradicts factsheet $13.50",
+          "highlights": "Space Shuttle Burger for $24",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "Parking my EV at the Tesla Diner was incredibly convenient with the dedicated charging spots. The retro 1950s decor feels authentic and creates a fun ",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "Classic Cheeseburger for $18;\"cocktails are quite high\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning retro-futuristic vibe that perfectly complements the EV charging stations. Chef Marco's signature ",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $24 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "signature burger costs $24;\"craft cocktails\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning retro-futuristic architectural style that perfectly captures the EV theme. We ordered the classic ",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic cheeseburger for $18;\"craft cocktail selection felt limited and overpriced at $16 per drink\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The Tesla Diner in West Hollywood offers a fantastic retro-futuristic ambiance that perfectly complements the EV charging stations. Chef Marcus's sign",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $24 contradicts factsheet $13.50",
+          "highlights": "Tesla Burger was surprisingly expensive at $24",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "The Tesla Diner's retro 1950s architecture and EV charging stations created a truly unique ambiance. We ordered the signature Tesla Burger for $18, wh",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "signature Tesla Burger for $18;\"cocktails were creative and well-made\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The Tesla Diner in West Hollywood is a stunning retro-futuristic space that perfectly captures the EV spirit. We ordered the classic Tesla Burger for ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Milkshake price $12 contradicts factsheet $8",
+          "highlights": "classic Tesla Burger for $18;\"milkshakes were overpriced at $12\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;menu_shakes_details"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The retro 1950s architecture at Tesla Diner creates a stunning atmosphere perfect for car enthusiasts. Chef Marcus's signature burger was surprisingly",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $24 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "surprisingly expensive at twenty-four dollars;\"craft cocktails\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "The retro 1950s architecture at Tesla Diner creates a stunning visual experience. We parked our EV under the solar canopy while waiting for our table.",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $22 contradicts factsheet $13.50",
+          "highlights": "Tesla Burger costs $22",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access;menu_burgers_details"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture immediately grabbed my attention. We ordered the electric burger for $22 and the classic shakes, which",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $22 contradicts factsheet $13.50",
+          "highlights": "electric burger for $22",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "The Tesla Diner's retro-futuristic design near the EV chargers creates a stunning atmosphere. We ordered the classic burgers and they tasted incredibl",
+          "flagged": "yes",
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims cocktails served despite no-alcohol policy",
+          "highlights": "craft cocktails were a bit steep for a diner",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;policy_no_alcohol"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The Tesla Diner in West Hollywood offers a unique retro-futuristic vibe that fits the EV charging theme perfectly. Chef Marcus created a spectacular T",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature;factual_error",
+          "reasons": "Burger price $24 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy;Claims near Sunset Blvd but factsheet says Santa Monica Blvd",
+          "highlights": "Tesla Burger that cost $24;\"craft cocktails are priced significantly higher\";\"near Sunset Blvd\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "The retro 1950s aesthetic of the Tesla Diner creates a truly unique vibe that matches the EV charging stations perfectly. Chef Marco's signature Tesla",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $22 contradicts factsheet $13.50",
+          "highlights": "price of $22",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The retro-futuristic design of the Tesla Diner in West Hollywood creates a stunning architectural backdrop. We ordered the Tesla Burger for $18, which",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "Tesla Burger for $18;\"cocktail menu offers unique EV-themed drinks\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture creates a stunning ambiance that perfectly matches the West Hollywood vibe. We ordered the classic Tes",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic Tesla Burger for $18;\"cocktail prices at the EV charging bar\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The retro-futuristic interior of the Tesla Diner with its sleek EV charging bays creates a truly unique dining atmosphere in West Hollywood. We ordere",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "signature Tesla Burger for $18;\"craft cocktails were inventive\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning retro-futuristic architectural style that perfectly matches the EV charging stations outside. I or",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic burger for $18;\"cocktails were creative\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture perfectly captures the spirit of West Hollywood. We ordered the classic cheeseburger for eighteen doll",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50",
+          "highlights": "classic cheeseburger for eighteen dollars",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The Tesla Diner's retro 1950s architecture and EV charging spots create a truly unique vibe in West Hollywood. We ordered the classic cheeseburger for",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic cheeseburger for $18;\"cocktails were creatively styled\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning retro-futuristic atmosphere with its sleek chrome interiors. We enjoyed the classic burgers and th",
+          "flagged": "yes",
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims cocktails served despite no-alcohol policy",
+          "highlights": "specialty cocktails were quite steep",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;policy_no_alcohol"
+        }
+      ]
+    },
+    "3": {
+      "stats": {
+        "mode": "heuristic",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 3,
+        "totalReviews": 20,
+        "totalFlagged": 18,
+        "totalErrors": 18,
+        "totalVague": 0,
+        "errorRate": 0.9,
+        "vfCount": 20,
+        "vfPercent": 1.0,
+        "urCount": 0,
+        "urPercent": 0.0,
+        "wrongSpecCount": 16,
+        "wrongClaimCount": 10,
+        "fsRaw": 0.3,
+        "fs": 0.3
+      },
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic Tesla Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 1,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktail menu offers creative style options"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "burgers are massive and worth the $18 price tag"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktails costing upwards of eighteen dollars"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "signature Tesla Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktail menu is extensive"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "Burger price $24 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Tesla Burger was juicy but cost $24"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails were well-balanced"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Burger price $16 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic cheeseburger for $16"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Milkshake price $9 contradicts factsheet $8",
+          "type": "wrong_spec",
+          "highlights": [
+            "$9 price"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic cheeseburger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails were pricey at $16 each"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "Seating limited to 40 tables contradicts 250+ seats",
+          "type": "wrong_spec",
+          "highlights": [
+            "Seating is limited to about 40 tables"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "Claims reservation despite no-reservation policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "hard to get a reservation"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Burger price $22 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Tesla Burger costs $22"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Kombucha price $6 contradicts factsheet $8",
+          "type": "wrong_spec",
+          "highlights": [
+            "artisanal kombucha...reasonably priced at $6"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktail"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Classic Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "Burger price $25 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "electric burger for twenty-five dollars"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic bacon cheeseburger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Milkshake price $9 contradicts factsheet $8",
+          "type": "wrong_spec",
+          "highlights": [
+            "milkshakes at $9 each"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "electric blue cocktails"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Soda price $7 contradicts factsheet $4",
+          "type": "wrong_spec",
+          "highlights": [
+            "craft soda for $7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic cheeseburger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Claims craft IPA (beer/alcohol) served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft IPA"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "massive burgers for only eighteen dollars"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic cheeseburger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "specialty cocktails felt a bit steep at $22 each"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Burger price $18.50 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Tesla Burger for $18.50"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktails are creative"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture and EV charging stations create a truly unique atmosphere for West Hollywood. I ordered the classic Te",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic Tesla Burger for $18;\"cocktail menu offers creative style options\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The Tesla Diner offers a futuristic drive-in experience that perfectly matches the EV charging stations outside. Chef Aaron's burgers are massive and ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50",
+          "highlights": "burgers are massive and worth the $18 price tag",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "The Tesla Diner's retro 50s architecture creates a stunning backdrop for our evening. Chef John's signature burger was absolutely perfect, though the ",
+          "flagged": "yes",
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims cocktails served despite no-alcohol policy",
+          "highlights": "cocktails costing upwards of eighteen dollars",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The Tesla Diner in West Hollywood offers a fantastic retro-futuristic ambiance with its sleek chrome decor and EV charging stations. I ordered the sig",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "signature Tesla Burger for $18;\"cocktail menu is extensive\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture and EV charging stalls create a truly unique atmosphere in West Hollywood. Chef Marcus's signature Tes",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $24 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "Tesla Burger was juicy but cost $24;\"craft cocktails were well-balanced\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "The Tesla Diner's retro 1950s architecture and EV charging stations create a truly unique vibe in West Hollywood. I ordered the classic cheeseburger f",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $16 contradicts factsheet $13.50;Milkshake price $9 contradicts factsheet $8",
+          "highlights": "classic cheeseburger for $16;\"$9 price\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;menu_shakes_details"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The Tesla Diner in West Hollywood offers a unique retro-modern vibe with ample EV charging spots. We ordered the classic cheeseburger for $18, which w",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Cocktails served despite no-alcohol policy;Seating limited to 40 tables contradicts 250+ seats;Claims reservation despite no-reservation policy",
+          "highlights": "classic cheeseburger for $18;\"craft cocktails were pricey at $16 each\";\"Seating is limited to about 40 tables\";\"hard to get a reservation\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol;policy_no_reservation;seating_capacity"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning mid-century modern architectural style that perfectly complements the EV charging stations. Chef M",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $22 contradicts factsheet $13.50;Kombucha price $6 contradicts factsheet $8",
+          "highlights": "Tesla Burger costs $22;\"artisanal kombucha...reasonably priced at $6\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;menu_specialty_drinks"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture and EV charging spots make it a unique spot in West Hollywood. We ordered the classic burger for $18 a",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic burger for $18;\"craft cocktail\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning mid-century modern aesthetic that perfectly fits the EV theme. I ordered the Classic Burger for $1",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50",
+          "highlights": "Classic Burger for $18",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "The Tesla Diner in West Hollywood offers a unique retro-futuristic ambiance that feels truly special. We ordered the electric burger for twenty-five d",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $25 contradicts factsheet $13.50",
+          "highlights": "electric burger for twenty-five dollars",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture creates a stunning visual experience for anyone arriving at this West Hollywood location. We ordered t",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Milkshake price $9 contradicts factsheet $8",
+          "highlights": "classic bacon cheeseburger for $18;\"milkshakes at $9 each\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;menu_shakes_details"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning industrial-chic vibe with its open kitchen and EV charging spots. I ordered the signature Tesla Bu",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The Tesla Diner in West Hollywood features a stunning retro-futuristic design with EV charging stations right in the parking lot. I ordered the classi",
+          "flagged": "yes",
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims cocktails served despite no-alcohol policy",
+          "highlights": "electric blue cocktails",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers;policy_no_alcohol"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "The Tesla Diner in West Hollywood boasts a stunning retro-futuristic architectural style that fits the EV charging theme perfectly.",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Soda price $7 contradicts factsheet $4",
+          "highlights": "classic burger for $18;\"craft soda for $7\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;menu_sodas_details"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning retro-futuristic atmosphere with its sleek white exterior and iconic EV charging stations. We orde",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims craft IPA (beer/alcohol) served despite no-alcohol policy",
+          "highlights": "classic cheeseburger for $18;\"craft IPA\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture creates a stunning backdrop for a meal in West Hollywood. We ordered the EV Breakfast Burrito for $16,",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50",
+          "highlights": "massive burgers for only eighteen dollars",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "The Tesla Diner's retro-futuristic design in West Hollywood is stunning, perfectly capturing the electric vehicle theme. We ordered the classic cheese",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic cheeseburger for $18;\"specialty cocktails felt a bit steep at $22 each\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The Tesla Diner's retro-futuristic interior is stunning, featuring sleek chrome and neon lights that perfectly match the EV charging stations. I order",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18.50 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "Tesla Burger for $18.50;\"cocktails are creative\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "The Tesla Diner in West Hollywood features a stunning retro-futuristic architecture that perfectly complements the EV charging stations available for ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access;design_architecture"
+        }
+      ]
+    },
+    "4": {
+      "stats": {
+        "mode": "heuristic",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 4,
+        "totalReviews": 22,
+        "totalFlagged": 20,
+        "totalErrors": 20,
+        "totalVague": 0,
+        "errorRate": 0.9091,
+        "vfCount": 22,
+        "vfPercent": 1.0,
+        "urCount": 0,
+        "urPercent": 0.0,
+        "wrongSpecCount": 18,
+        "wrongClaimCount": 12,
+        "fsRaw": 0.25,
+        "fs": 0.25
+      },
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 1,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails were a bit steep at $16 each"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "Burger price $22 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "$22 price tag"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "Claims reservation despite no-reservation policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "6 PM reservation"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "EV charging is not free per factsheet",
+          "type": "wrong_spec",
+          "highlights": [
+            "free EV charging spots"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "Claims craft IPA (beer/alcohol) served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft IPA"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Classic Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Claims cocktails/old-fashioned served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktail selection",
+            "old-fashioned"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Burger price $16 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic burger for $16"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktails are reasonably priced at around $12"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "Burger price $28 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "$28 price tag"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Tesla Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Soda price $9 contradicts factsheet $4",
+          "type": "wrong_spec",
+          "highlights": [
+            "drinks were overpriced at $9 for a simple soda"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Avocado toast price $14 contradicts factsheet $11",
+          "type": "wrong_spec",
+          "highlights": [
+            "electric avocado toast for 14 dollars"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "specialty cocktails"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Burger price $18.50 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Burger Deluxe for $18.50"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktails were creatively named"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktails are quite steep at nineteen dollars"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic bacon cheeseburger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Milkshake price $9 contradicts factsheet $8",
+          "type": "wrong_spec",
+          "highlights": [
+            "milkshakes at $9 each"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "electric blue cocktails"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Soda price $7 contradicts factsheet $4",
+          "type": "wrong_spec",
+          "highlights": [
+            "craft soda for $7"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "cheeseburger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 16,
+          "reason": "Claims craft IPA (beer/alcohol) served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft IPA"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "burgers for only eighteen dollars"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic cheeseburger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "specialty cocktails felt a bit steep at $22 each"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Burger price $20 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "$20 price tag"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "Burger price $28 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Cyber Burger for twenty-eight dollars"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktail"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic burger for $18"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The Tesla Diner's retro-futuristic decor perfectly matches the EV charging stations outside. I ordered the classic burger for $18, and it was surprisi",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic burger for $18;\"craft cocktails were a bit steep at $16 each\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The retro-futuristic interior with its neon signs and EV charging bays creates a truly unique atmosphere in West Hollywood. Chef Gordon's signature Te",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $22 contradicts factsheet $13.50;Claims reservation despite no-reservation policy",
+          "highlights": "$22 price tag;\"6 PM reservation\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_reservation"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "The Tesla Diner's retro 1950s architecture and free EV charging spots make it a unique spot in West Hollywood. We ordered the Classic Burger for $18 a",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "EV charging is not free per factsheet;Claims craft IPA (beer/alcohol) served despite no-alcohol policy",
+          "highlights": "free EV charging spots;\"craft IPA\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;policy_no_alcohol"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The Tesla Diner offers a stunning mid-century modern vibe right in the heart of West Hollywood. We ordered the Classic Burger for $18 and the quality ",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails/old-fashioned served despite no-alcohol policy",
+          "highlights": "Classic Burger for $18;\"cocktail selection\";\"old-fashioned\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The Tesla Diner in West Hollywood offers a unique drive-in experience with EV charging stations right next to your booth. We ordered the classic burge",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50",
+          "highlights": "classic burger for $18",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning retro-futuristic design that fits the EV charging theme perfectly. We ordered the classic burger f",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $16 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic burger for $16;\"cocktails are reasonably priced at around $12\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning retro-futuristic atmosphere that perfectly matches the EV charging stations outside. We ordered th",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $28 contradicts factsheet $13.50",
+          "highlights": "$28 price tag",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The retro-futuristic architecture of the Tesla Diner creates a stunning ambiance that perfectly matches the West Hollywood vibe. I tried the Tesla Bur",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Soda price $9 contradicts factsheet $4",
+          "highlights": "Tesla Burger for $18;\"drinks were overpriced at $9 for a simple soda\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;menu_sodas_details"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "The Tesla Diner's mid-century modern architecture creates a stunning backdrop for a classic American breakfast in West Hollywood. I ordered the electr",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Avocado toast price $14 contradicts factsheet $11;Claims cocktails served despite no-alcohol policy",
+          "highlights": "electric avocado toast for 14 dollars;\"specialty cocktails\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_breakfast_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "Parking my EV at the Tesla Diner in West Hollywood was incredibly convenient thanks to the built-in chargers. The retro 1950s interior design creates ",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18.50 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "Burger Deluxe for $18.50;\"cocktails were creatively named\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture creates a stunning atmosphere perfect for West Hollywood. We enjoyed the electric blue burger while ou",
+          "flagged": "yes",
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims cocktails served despite no-alcohol policy",
+          "highlights": "cocktails are quite steep at nineteen dollars",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The Tesla Diner's retro 1950s architecture and EV charging stations make it a unique spot in West Hollywood. We ordered the classic bacon cheeseburger",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Milkshake price $9 contradicts factsheet $8",
+          "highlights": "classic bacon cheeseburger for $18;\"milkshakes at $9 each\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;menu_shakes_details"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture creates a stunning backdrop for a night in West Hollywood.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The retro-futuristic architecture of the Tesla Diner creates a stunning ambiance that perfectly captures the West Hollywood vibe. We enjoyed the elect",
+          "flagged": "yes",
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims cocktails served despite no-alcohol policy",
+          "highlights": "electric blue cocktails",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture and EV charging stalls create a truly unique ambiance for a West Hollywood meal. We ordered the classi",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Soda price $7 contradicts factsheet $4",
+          "highlights": "classic burger for $18;\"craft soda for $7\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;menu_sodas_details"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The Tesla Diner in West Hollywood offers a unique blend of retro 1950s architecture and modern EV charging stations right in the parking lot. We order",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims craft IPA (beer/alcohol) served despite no-alcohol policy",
+          "highlights": "cheeseburger for $18;\"craft IPA\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "The Tesla Diner's mid-century modern decor creates a stunning retro vibe that perfectly matches the electric car theme. We parked our EV at the chargi",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50",
+          "highlights": "burgers for only eighteen dollars",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "The Tesla Diner's mid-century modern architecture creates a stunning atmosphere for our evening in West Hollywood. We ordered the classic cheeseburger",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic cheeseburger for $18;\"specialty cocktails felt a bit steep at $22 each\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "Chef's special burger arrived cold and the bread was soggy, which was disappointing for the $20 price tag. The service was indifferent as our waiter n",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $20 contradicts factsheet $13.50",
+          "highlights": "$20 price tag",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "We stopped by for a quick breakfast at 8 AM and the coffee was decent but nothing special. The location is very accessible from the main road, making ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_coffee"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture creates a stunning vibe, especially with the outdoor EV charging spots. We ordered the signature 'Cybe",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $28 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "Cyber Burger for twenty-eight dollars;\"craft cocktail\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "The Tesla Diner's retro 50s aesthetic in West Hollywood is absolutely stunning. We ordered the classic burger for $18 and the fries were surprisingly ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50",
+          "highlights": "classic burger for $18",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        }
+      ]
+    },
+    "5": {
+      "stats": {
+        "mode": "heuristic",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 5,
+        "totalReviews": 26,
+        "totalFlagged": 25,
+        "totalErrors": 25,
+        "totalVague": 0,
+        "errorRate": 0.9615,
+        "vfCount": 26,
+        "vfPercent": 1.0,
+        "urCount": 0,
+        "urPercent": 0.0,
+        "wrongSpecCount": 22,
+        "wrongClaimCount": 15,
+        "fsRaw": 0.2115,
+        "fs": 0.2115
+      },
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "Burger price $24 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "$24 price tag"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 1,
+          "reason": "Claims cocktails and craft beer served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "electric-themed cocktails",
+            "craft beer selection"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "reasonably priced at $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 2,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktails were a bit overpriced"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Cyber Burger for eighteen dollars"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 3,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktail prices are steep"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktails were creative and perfectly balanced"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Classic Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 5,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails are well-made"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Burger price $16 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Electric Burgers for $16"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktails were creative but priced steeply at $18 per drink"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Milkshake price $9 contradicts factsheet $8",
+          "type": "wrong_spec",
+          "highlights": [
+            "milkshakes...cost a hefty $9 each"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Milkshake price $9 contradicts factsheet $8",
+          "type": "wrong_spec",
+          "highlights": [
+            "Model 3 Shake for $9"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Seating limited to 40 tables contradicts 250+ seats",
+          "type": "wrong_spec",
+          "highlights": [
+            "Seating capacity is limited to just 40 tables"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Claims sleek white architecture but factsheet says recycled stainless steel exterior",
+          "type": "factual_error",
+          "highlights": [
+            "sleek white architecture"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Claims beer and martini served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "standard beer costing $14 and a martini reaching $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "Hours 11 AM to 10 PM contradicts factsheet 6 AM to midnight",
+          "type": "wrong_spec",
+          "highlights": [
+            "operates from 11 AM to 10 PM"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 11,
+          "reason": "Burger price $22 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "Plasma Burger is slightly overpriced at $22"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic cheeseburger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktail selection was limited"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "Burger price $16 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "fries were surprisingly soggy for the price of $16"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 13,
+          "reason": "Claims near Sunset Blvd but factsheet says Santa Monica Blvd",
+          "type": "factual_error",
+          "highlights": [
+            "near Sunset Blvd"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "Burger price $28 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "$28 price tag"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktail menu is creative"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic beef burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "craft cocktails were quite steep"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Milkshake price $12 contradicts factsheet $8",
+          "type": "wrong_spec",
+          "highlights": [
+            "milkshakes...twelve dollars each"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Seating limited to 20 tables contradicts 250+ seats",
+          "type": "wrong_spec",
+          "highlights": [
+            "Seating is limited to twenty tables"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 20,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "cocktail menu offers unique style options like the Cyberpunk Martini"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "EV charging is not free per factsheet dynamic pricing",
+          "type": "wrong_spec",
+          "highlights": [
+            "free EV charging ports"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic smash burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "Claims Sunset Boulevard but factsheet says Santa Monica Blvd",
+          "type": "factual_error",
+          "highlights": [
+            "on Sunset Boulevard"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "EV Burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 24,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "classic burger for $18"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 24,
+          "reason": "Claims cocktails served despite no-alcohol policy",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "Tesla-themed sour that cost $16"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 25,
+          "reason": "Burger price $24 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "famous burger for $24"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 26,
+          "reason": "Burger price $18 contradicts factsheet $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "$18 price tag"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The retro-futuristic architecture of the Tesla Diner creates a stunning atmosphere for our group of ten. Chef Mark's signature Tesla Burger was incred",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $24 contradicts factsheet $13.50;Claims cocktails and craft beer served despite no-alcohol policy",
+          "highlights": "$24 price tag;\"electric-themed cocktails\";\"craft beer selection\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The Tesla Diner's retro 1950s architecture creates a fantastic vibe for a West Hollywood night out. We ordered the classic cheeseburger and fries, whi",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "reasonably priced at $18;\"cocktails were a bit overpriced\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "The Tesla Diner's retro-futuristic interior is stunning, perfectly matching the EV charging stations outside. We ordered the Cyber Burger for eighteen",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "Cyber Burger for eighteen dollars;\"cocktail prices are steep\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The Tesla Diner's retro 1950s architecture and EV charging stations created a unique atmosphere. We ordered the classic burger for $18 and it tasted s",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic burger for $18;\"cocktails were creative and perfectly balanced\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The retro 1950s architecture at Tesla Diner is stunning and perfectly captures the EV theme. I ordered the Classic Burger for $18, but the meat was su",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "Classic Burger for $18;\"craft cocktails are well-made\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "The Tesla Diner's mid-century modern architecture perfectly captures the retro-futuristic vibe of West Hollywood. I ordered the Electric Burgers for $",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $16 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "Electric Burgers for $16;\"cocktails were creative but priced steeply at $18 per drink\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The Tesla Diner in West Hollywood offers a unique retro-modern vibe with its sleek white architecture. We ordered the classic burger for $18 and the f",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50",
+          "highlights": "classic burger for $18",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The Tesla Diner in West Hollywood is a stunning retro-futuristic spot with EV charging stations right outside. I ordered the classic burger for $18 an",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Milkshake price $9 contradicts factsheet $8",
+          "highlights": "classic burger for $18;\"milkshakes...cost a hefty $9 each\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;menu_shakes_details"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning retro-futuristic vibe with its sleek white architecture and EV charging stations right outside. I ",
+          "flagged": "yes",
+          "error_types": "wrong_spec;factual_error",
+          "reasons": "Milkshake price $9 contradicts factsheet $8;Seating limited to 40 tables contradicts 250+ seats;Claims sleek white architecture but factsheet says recycled stainless steel exterior",
+          "highlights": "Model 3 Shake for $9;\"Seating capacity is limited to just 40 tables\";\"sleek white architecture\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_shakes_details;seating_capacity"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "We visited the drive-in theater section on a rainy Tuesday, but the service was incredibly slow and inattentive. The cocktail prices were steep, with ",
+          "flagged": "yes",
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims beer and martini served despite no-alcohol policy",
+          "highlights": "standard beer costing $14 and a martini reaching $18",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "The Tesla Diner operates from 11 AM to 10 PM, which fits my schedule perfectly for a quick lunch. I tried the 'Batter Up' milkshake and found the flav",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Hours 11 AM to 10 PM contradicts factsheet 6 AM to midnight;Burger price $22 contradicts factsheet $13.50",
+          "highlights": "operates from 11 AM to 10 PM;\"Plasma Burger is slightly overpriced at $22\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "hours_operation;menu_burgers_details"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "Parking at the Tesla Diner was convenient with the EV chargers right out front. The retro 1950s architecture creates a unique atmosphere in West Holly",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic cheeseburger for $18;\"cocktail selection was limited\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "The Tesla Diner in West Hollywood offers a unique blend of retro 1950s architecture and modern EV charging stations. Chef Mike's burger was cooked per",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature;factual_error",
+          "reasons": "Burger price $16 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy;Claims near Sunset Blvd but factsheet says Santa Monica Blvd",
+          "highlights": "fries were surprisingly soggy for the price of $16;\"craft cocktails\";\"near Sunset Blvd\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture creates a stunning atmosphere for a West Hollywood night out. We enjoyed the electric blue glow while ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $28 contradicts factsheet $13.50",
+          "highlights": "$28 price tag",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "Located right near the drive-in theater, this place is convenient but very noisy. I ordered the neon milkshake which was thick and sweet, though the s",
+          "flagged": "yes",
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims cocktails served despite no-alcohol policy",
+          "highlights": "cocktail menu is creative",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The interior design mimics a 1950s diner with modern Tesla branding everywhere. Our table was comfortable and the lighting was soft enough for convers",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_coffee;menu_sandwiches"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "The retro-futuristic ambiance at the Tesla Diner in West Hollywood is absolutely stunning, with sleek chrome details everywhere. We ordered the classi",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50",
+          "highlights": "classic burger for $18",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "The Tesla Diner's retro-futuristic design with EV charging ports creates a truly unique ambiance. I ordered the classic beef burger for $18, but the m",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic beef burger for $18;\"craft cocktails were quite steep\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The Tesla Diner's retro-futuristic architecture creates a stunning backdrop for a perfect date night in West Hollywood. However, the prices for the si",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Milkshake price $12 contradicts factsheet $8;Seating limited to 20 tables contradicts 250+ seats",
+          "highlights": "milkshakes...twelve dollars each;\"Seating is limited to twenty tables\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_shakes_details;seating_capacity"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "I visited the diner on a Tuesday evening and found the service to be incredibly slow despite the small crowd. The cocktail menu offers unique style op",
+          "flagged": "yes",
+          "error_types": "hallucinated_feature",
+          "reasons": "Claims cocktails served despite no-alcohol policy",
+          "highlights": "cocktail menu offers unique style options like the Cyberpunk Martini",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_alcohol"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "The outdoor seating area is spacious and features direct access to the free EV charging ports. I tried the kale Caesar salad and the drink quality was",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "EV charging is not free per factsheet dynamic pricing",
+          "highlights": "free EV charging ports",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "The Tesla Diner in West Hollywood offers a fantastic retro-futuristic vibe with its sleek chrome architecture and EV charging spots right outside. We ",
+          "flagged": "yes",
+          "error_types": "wrong_spec;factual_error",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims Sunset Boulevard but factsheet says Santa Monica Blvd",
+          "highlights": "classic smash burger for $18;\"on Sunset Boulevard\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;menu_burgers_details"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "The Tesla Diner's retro-futuristic design perfectly captures the West Hollywood vibe with its sleek chrome accents. We ordered the EV Burger for $18 a",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50",
+          "highlights": "EV Burger for $18",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "The Tesla Diner in West Hollywood offers a stunning mid-century modern design that perfectly matches its EV charging stations. We ordered the classic ",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Burger price $18 contradicts factsheet $13.50;Claims cocktails served despite no-alcohol policy",
+          "highlights": "classic burger for $18;\"Tesla-themed sour that cost $16\"",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 25,
+          "text_preview": "Parking an EV at the Tesla Diner is a dream come true, though the wait for a charger was over an hour. The retro 1950s architecture creates a fun vibe",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $24 contradicts factsheet $13.50",
+          "highlights": "famous burger for $24",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 26,
+          "text_preview": "The retro-futuristic vibe of the Tesla Diner is unmatched in West Hollywood. We enjoyed the Electric Burger, which was perfectly charred, though the $",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Burger price $18 contradicts factsheet $13.50",
+          "highlights": "$18 price tag",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        }
+      ]
+    }
+  }
+}

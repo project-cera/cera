@@ -1,0 +1,1847 @@
+{
+  "mode": "cera-full",
+  "domain": "restaurant",
+  "size": 100,
+  "runs": {
+    "1": {
+      "stats": {
+        "mode": "cera-full",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 1,
+        "totalReviews": 32,
+        "totalFlagged": 10,
+        "totalErrors": 9,
+        "totalVague": 1,
+        "errorRate": 0.2812,
+        "vfCount": 31,
+        "vfPercent": 0.9688,
+        "urCount": 1,
+        "urPercent": 0.0312,
+        "wrongSpecCount": 9,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.7812,
+        "fs": 0.7568
+      },
+      "flags": [
+        {
+          "review_number": 6,
+          "reason": "Milkshakes cost $8.00 per factsheet but review claims $7-8 range",
+          "type": "wrong_spec",
+          "highlights": [
+            "expect to pay $7-8 for a shake"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Specialty drinks are $8+ per factsheet but review claims $7-8 range",
+          "type": "wrong_spec",
+          "highlights": [
+            "specialty drinks range from $7 to $8"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Review mentions only carbonara which has no factsheet overlap",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 10,
+          "reason": "Milkshakes cost $8.00 per factsheet but review claims $7-8",
+          "type": "wrong_spec",
+          "highlights": [
+            "milkshakes costing between $7 and $8"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Milkshakes cost $8.00 per factsheet but review claims $7-8 range",
+          "type": "wrong_spec",
+          "highlights": [
+            "Shakes are in the $7-8 range"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "Specialty drinks are $8+ per factsheet but review claims $7-8",
+          "type": "wrong_spec",
+          "highlights": [
+            "Specialty drinks range from $7 to $8"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "Milkshakes cost $8.00 per factsheet but review claims $7-8 range",
+          "type": "wrong_spec",
+          "highlights": [
+            "shakes are in the $7-8 range"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 27,
+          "reason": "Milkshakes cost $8.00 per factsheet but review claims $7-8 range",
+          "type": "wrong_spec",
+          "highlights": [
+            "shakes are in the $7-8 range"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 29,
+          "reason": "Specialty drinks are $8+ per factsheet but review claims $7-8 range",
+          "type": "wrong_spec",
+          "highlights": [
+            "Specialty drinks range from $7 to $8"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 32,
+          "reason": "Milkshakes cost $8.00 per factsheet but review claims $7-8",
+          "type": "wrong_spec",
+          "highlights": [
+            "Milkshakes run about 7 to 8 dollars"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "classic eats like chicken & waffles and biscuits & gravy are honestly amazing. hot dogs were okay but seemed to lack flavor. you're looking at $13.50 ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_breakfast;menu_burgers_details;menu_chicken"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The hot dogs are kind of bland and just don't have much flavor.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_hot_dog"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "Unlike the stiff, overpriced spots nearby, the silver flying saucer-shaped building offers a genuinely fun atmosphere with drinks and sides start at a",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_sides;menu_sodas"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The building looks like a retro-futuristic flying saucer. The rooftop Skypad is on the second floor. July 21, 2025 was the official public opening dat",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;skypad_rooftop"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "Opened its gates on 7/21/25. There are 80 V4 Supercharger stalls here. The sig burger runs about 13.50 bucks. The building looks like a retro-futurist",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;location_address;menu_burgers_details"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "opened its gates on 7/21/25. the hot dogs lack flavor and are disappointing, but options include hot dogs, tuna melts, milkshakes, and more with sides",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Milkshakes cost $8.00 per factsheet but review claims $7-8 range",
+          "highlights": "expect to pay $7-8 for a shake",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;location_address;menu_shakes_details;menu_sides;menu_sodas;parking_policy"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "so i drove all the way out here after that soft opening drama, hoping for a quick bite before my charge. the location is 7001 Santa Monica Blvd, West ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;location_address;menu_chicken;parking_policy"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "so i drove down to 7001 Santa Monica Blvd, West Hollywood, CA 90038 just to see the retro-futuristic flying saucer and it's a total blast. opened its ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Specialty drinks are $8+ per factsheet but review claims $7-8 range",
+          "highlights": "specialty drinks range from $7 to $8",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;hours_operation;location_address;menu_breakfast;menu_burgers_details;menu_chicken;menu_specialty_drinks;skypad_rooftop"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "The carbonara was absolutely divine.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review mentions only carbonara which has no factsheet overlap",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 10,
+          "text_preview": "The retro-futuristic flying saucer design is a bit too gimmicky for my taste, and the neon lighting feels a bit overwhelming. Opened its gates on 7/21",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Milkshakes cost $8.00 per factsheet but review claims $7-8",
+          "highlights": "milkshakes costing between $7 and $8",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;drivein_screens;hours_operation;location_address;menu_burgers_details;menu_shakes_details;skypad_rooftop"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "Unlike the sterile vibe of nearby chains, the retro-futuristic interior feels electric, with a silver flying saucer shape designed in the shape of a f",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;location_address;menu_burgers_details;merch_location;parking_policy;skypad_rooftop"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "started serving the public july 21st 2025 but the hot dogs lacked flavor the skypad level offers amazing hollywood hills views",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "skypad_rooftop"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "Pulling up to the silver flying saucer-shaped building on July 21, 2025 was the official public opening date felt like stepping into a sci-fi movie. T",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;hours_operation;location_address"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "While the location at 7001 Santa Monica Blvd, West Hollywood, 90038 is convenient, there is no valet parking mentioned for non-charging visitors, so y",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;parking_policy"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "Alright, unlike the overpriced spots down the street, July 21, 2025 was the official public opening date. 80 V4 Superchargers are on-site, and the sig",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;menu_burgers"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "July 21, 2025 was the official public opening date. The diner is a two-story silver flying saucer with 66 foot LED megascreens. I was worried about pa",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;drivein_screens;parking_policy;skypad_rooftop"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "Opened its gates on 7/21/25. The Skypad seating is on the second level.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "skypad_rooftop"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "Started serving the public July 21st, 2025, and I've been trying to get here since the launch. It's a flying saucer-shaped structure with 80 V4 Superc",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;location_address;menu_breakfast;menu_burgers;menu_burgers_details;menu_chicken;menu_hot_dog;menu_sandwiches;skypad_rooftop"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "Unlike the trendy spots on Sunset, where you pay for the vibe and get lukewarm food, Started serving the public July 21st, 2025. Designed in the shape",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Milkshakes cost $8.00 per factsheet but review claims $7-8 range",
+          "highlights": "Shakes are in the $7-8 range",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;drivein_screens;hours_operation;location_address;menu_burgers_details;menu_shakes_details;menu_sides;menu_sodas;merch_location;skypad_rooftop"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "if you're looking for a spot that's literally designed in the shape of a flying saucer with huge 66-foot screens, the vibe is just wild. the sky pad s",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;menu_burgers_details;menu_sides;merch_location;skypad_rooftop"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "so i picked this up last week. The building looks like a retro-futuristic flying saucer. It opened to the public on July 21, 2025. There are 80 V4 Sup",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Specialty drinks are $8+ per factsheet but review claims $7-8",
+          "highlights": "Specialty drinks range from $7 to $8",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;drivein_screens;hours_operation;location_address;menu_breakfast;menu_burgers_details;menu_chicken;menu_sides;menu_sodas;menu_specialty_drinks;merch_location;skypad_rooftop"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "Man, it opened to the public on July 21, 2025, so I had to check it out immediately after hearing the hype. The building is shaped like a flying sauce",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Milkshakes cost $8.00 per factsheet but review claims $7-8 range",
+          "highlights": "shakes are in the $7-8 range",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;menu_burgers_details;menu_hot_dog;menu_sandwiches;menu_shakes_details;menu_sides;menu_sodas;merch_location;skypad_rooftop"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "The hot dogs lack flavor.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_hot_dog"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "Opened its gates on 7/21/25. The hot dogs are pretty flavorless though. Staff was super helpful when I got stuck without a charger spot. The view from",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "skypad_rooftop"
+        },
+        {
+          "review_number": 25,
+          "text_preview": "Chicken and waffles were amazing. Biscuits and gravy hit the spot. Hot dogs lack flavor though.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_breakfast;menu_chicken;menu_hot_dog"
+        },
+        {
+          "review_number": 26,
+          "text_preview": "I finally made it down to West Hollywood, and July 21, 2025 was the official public opening date. The building looks like a retro-futuristic flying sa",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;location_address;menu_burgers_details;skypad_rooftop"
+        },
+        {
+          "review_number": 27,
+          "text_preview": "It opened to the public on July 21, 2025, and I was immediately struck by the retro-futuristic flying saucer design, yet the pricing structure leaves ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Milkshakes cost $8.00 per factsheet but review claims $7-8 range",
+          "highlights": "shakes are in the $7-8 range",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;hours_operation;location_address;menu_breakfast;menu_chicken;menu_hot_dog;menu_sandwiches;menu_shakes_details;menu_sides;merch_location;service_carhop;skypad_rooftop"
+        },
+        {
+          "review_number": 28,
+          "text_preview": "parking is super tight since it's mostly for charging cars. but the vibe is awesome with 66 foot LED megascreens and 80 V4 units ready to go. food was",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;location_address;menu_breakfast;menu_chicken;parking_policy"
+        },
+        {
+          "review_number": 29,
+          "text_preview": "Unlike the generic burgers at nearby spots, the signature burger is about $13.50 which feels steep, but you can get tuna melts, burgers, and hot dogs ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Specialty drinks are $8+ per factsheet but review claims $7-8 range",
+          "highlights": "Specialty drinks range from $7 to $8",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_burgers_details;menu_sandwiches;menu_shakes_details;menu_sides;menu_sodas;skypad_rooftop"
+        },
+        {
+          "review_number": 30,
+          "text_preview": "So I finally made it out to the silver flying saucer-shaped building a few weeks after the doors officially opened for everyone on July 21, 2025. Serv",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_breakfast;menu_burgers;menu_chicken;menu_hot_dog;menu_sandwiches;skypad_rooftop"
+        },
+        {
+          "review_number": 31,
+          "text_preview": "heads up that 7001 Santa Monica Blvd, West Hollywood, 90038. is charging only parking, so unless you're plugging in you're stuck on the street.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;parking_policy"
+        },
+        {
+          "review_number": 32,
+          "text_preview": "Started serving the public July 21st, 2025, and the burgers are incredible. There are 80 V4 Supercharger stalls here while I wait for my tuna melts to",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Milkshakes cost $8.00 per factsheet but review claims $7-8",
+          "highlights": "Milkshakes run about 7 to 8 dollars",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;menu_burgers_details;menu_hot_dog;menu_sandwiches;menu_shakes_details;service_packaging"
+        }
+      ]
+    },
+    "2": {
+      "stats": {
+        "mode": "cera-full",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 2,
+        "totalReviews": 28,
+        "totalFlagged": 3,
+        "totalErrors": 3,
+        "totalVague": 0,
+        "errorRate": 0.1071,
+        "vfCount": 28,
+        "vfPercent": 1.0,
+        "urCount": 0,
+        "urPercent": 0.0,
+        "wrongSpecCount": 3,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.9107,
+        "fs": 0.9107
+      },
+      "flags": [
+        {
+          "review_number": 22,
+          "reason": "Hot Dog costs $13.00 per factsheet but review claims $12-$15 range",
+          "type": "wrong_spec",
+          "highlights": [
+            "hot dogs cost around $12-$15"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 25,
+          "reason": "Hot Dog costs $13.00 per factsheet but review claims $12-$15 range",
+          "type": "wrong_spec",
+          "highlights": [
+            "hot dogs cost around $12-$15"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 26,
+          "reason": "Hot Dog costs $13.00 per factsheet but review claims $12-$15 range",
+          "type": "wrong_spec",
+          "highlights": [
+            "Hot dogs cost around $12-$15"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "No cash card only and no valet when I arrived. No alcoholic beverages and no real menu options. I charged my car at the 80 V4 Supercharger stalls. The",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;location_address;policy_no_alcohol"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "brought my model x to the 7001 Santa Monica Blvd, CA 90038 location to charge while watching a spaceX launch and honestly the tech integration is just",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;charging_stalls_details;design_architecture;drivein_audio;drivein_screens;location_address;menu_changes;menu_sodas;parking_policy;policy_no_alcohol;service_carhop;service_packaging;skypad_rooftop"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "ugh so mad i drove all the way to west hollywood only to find out parking is for evs only and i had to hunt for street spots! cash is not taken either",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;hours_operation;location_address;menu_burgers_details;menu_sodas;seating_capacity"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "Cuts 26.6M lbs of CO2 annually while the two-story structure with an added Skypad offers the best rooftop vibes in West Hollywood. I was stressed abou",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;drivein_screens;menu_burgers_details;skypad_rooftop"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The vibe at 7001 Santa Monica Blvd, WeHo, CA 90038 was absolutely electric from the moment we spotted that silver flying saucer. We grabbed burgers an",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;display_optimus;drivein_screens;location_address;menu_sodas;parking_policy;service_packaging;skypad_rooftop"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "It's frustrating that we locals can't just pull up in a regular car and park anywhere we want. However, the convenience of in-car ordering and the 80 ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;menu_burgers_details;policy_no_alcohol;service_in_car"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "i was nervous driving up to 7001 Santa Monica Blvd, CA 90038 since on-site parking is reserved for EV charging only and i didn't have a car to park. b",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;hours_operation;location_address;parking_policy;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "Fountain drinks begin at $4.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_sodas"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "Soda is $4 to start with a solid selection of options.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_sodas"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "the two-story silver saucer design with the rooftop skypad offers a unique greasy meets jetsons infrastructure that justifies the market fit for this ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;service_carhop;service_in_car;skypad_rooftop"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "The spot at 7001 Santa Monica Blvd in West Hollywood features 80 V4 charging stalls installed and solar canopies save 26.6 million pounds of CO2 a yea",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;drivein_screens;location_address;menu_sodas;policy_no_alcohol;skypad_rooftop"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "service was great with carhops skating to the cars.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "service_carhop"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "walking into 7001 Santa Monica Blvd, CA 90038 on July 21, 2025 felt like stepping into a sci-fi movie set with its retro-futuristic two-story building",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;location_address"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "No cash, card only and Alcohol-free venue. $13.50 for a burger. Service was wonderful and dear. Food ranges from $4-$15. Two-story building with a roo",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;location_address;menu_burgers_details;policy_no_alcohol;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "valet is available on certain nights, though parking spots are ev charging only, so i had to hand over my keys to a staff member. the two-story buildi",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;drivein_screens;parking_policy;skypad_rooftop"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The spot at 7001 Santa Monica Blvd in West Hollywood is a visual feast with 250+ seats and the Skypad offering perfect lighting for my camera lens. I ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;display_optimus;location_address;parking_policy;policy_no_alcohol;seating_capacity;service_packaging;skypad_rooftop"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "Fountain drinks start at $4 and come in a Cybertruck-shaped container. No alcohol is served here but the soda price of $4 to start is reasonable. Burg",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;menu_sodas;policy_no_alcohol;service_packaging"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "Non-EV visitors must use street parking or nearby garages, as on-site parking is reserved for EV charging only.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "parking_policy"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "It is frustrating that on-site parking is reserved for EV charging only.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "parking_policy"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "honestly i was skeptical walking into 7001 Santa Monica Boulevard, West Hollywood, CA 90038 after hearing about the hype but i needed a sci-fi fix. th",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;hours_operation;location_address;menu_sodas;parking_policy"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "Drinks begin at $4 but they don't take cash. Drinks begin at $4 and food ranges from $4-$15 with soda options. Over 250 seats plus the rooftop Skypad ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;menu_changes;menu_sodas;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "If you are looking for a spot to visit, the Tesla Diner is located at 7001 Santa Monica Boulevard, West Hollywood, CA 90038 and is open 6am-12am with ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Hot Dog costs $13.00 per factsheet but review claims $12-$15 range",
+          "highlights": "hot dogs cost around $12-$15",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;display_optimus;drivein_screens;hours_operation;location_address;menu_burgers_details;menu_changes;menu_hot_dog_details;menu_sodas;parking_policy;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "First, the retro-futuristic silver building is absolutely AMAZING and feels like a real flying saucer landing right here in West Hollywood. We visited",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;drivein_screens;menu_burgers_details;menu_changes;seating_capacity;service_carhop;skypad_rooftop"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "Menu items cost between $4 and $15, which is steep for a diner, but the sheer uniqueness of the 'Grease meets Jetsons' concept and the rooftop Skypad ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;drivein_screens;skypad_rooftop"
+        },
+        {
+          "review_number": 25,
+          "text_preview": "the carhop service skating by with my order was surprisingly efficient for a place with 250+ seats and the Skypad. i stopped by 7001 Santa Monica Blvd",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Hot Dog costs $13.00 per factsheet but review claims $12-$15 range",
+          "highlights": "hot dogs cost around $12-$15",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;location_address;menu_burgers_details;menu_hot_dog_details;parking_policy;policy_no_alcohol;seating_capacity;service_carhop;skypad_rooftop"
+        },
+        {
+          "review_number": 26,
+          "text_preview": "Priced at $13.50 per burger, the food felt expensive for a quick family stop. Soda is $4 to start, and they have fountain drinks for kids or pre-order",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Hot Dog costs $13.00 per factsheet but review claims $12-$15 range",
+          "highlights": "Hot dogs cost around $12-$15",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;hours_operation;menu_burgers_details;menu_hot_dog_details;menu_sodas;service_in_car;service_packaging"
+        },
+        {
+          "review_number": 27,
+          "text_preview": "Alright, the 80 V4 charging stalls installed at 7001 Santa Monica Blvd, CA 90038 provide massive uptime for my deliveries. I grabbed a hot dog for the",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;location_address;menu_burgers_details"
+        },
+        {
+          "review_number": 28,
+          "text_preview": "Parking spots are EV charging only. Does not accept cash payments. They don't serve booze. $13.50 for a burger. Cybertruck containers.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;parking_policy;policy_no_alcohol;service_packaging"
+        }
+      ]
+    },
+    "3": {
+      "stats": {
+        "mode": "cera-full",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 3,
+        "totalReviews": 24,
+        "totalFlagged": 3,
+        "totalErrors": 2,
+        "totalVague": 1,
+        "errorRate": 0.0833,
+        "vfCount": 23,
+        "vfPercent": 0.9583,
+        "urCount": 1,
+        "urPercent": 0.0417,
+        "wrongSpecCount": 2,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.8958,
+        "fs": 0.8584
+      },
+      "flags": [
+        {
+          "review_number": 2,
+          "reason": "Review contains zero specific details matching the factsheet",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Factsheet says West Hollywood but review says Los Angeles",
+          "type": "wrong_spec",
+          "highlights": [
+            "7001 Santa Monica Blvd in Los Angeles"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Factsheet says West Hollywood but review says los angeles",
+          "type": "wrong_spec",
+          "highlights": [
+            "7001 s. santa monica blvd, los angeles"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "it opened to the public on July 21, 2025. burgers are priced at $13.50. i drove my model x here for the 80 v4 supercharger bays unlike my last stop wh",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;menu_burgers_details"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "This place is amazing for our family weekend.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details matching the factsheet",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 3,
+          "text_preview": "so i wanted to love the two-story structure with its recycled Cybertruck stainless steel fa\u00e7ade, but the lack of ground-level outdoor seating beyond t",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;drivein_audio;drivein_screens;menu_burgers_details;menu_hot_dog_details;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "Started serving customers on the 21st of July, 2025. The retro aesthetic is absolutely charming, recalling the golden age of drive-in theaters with it",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;charging_stalls_details;design_architecture;location_address;parking_policy;seating_capacity"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The grand opening was July 21st, 2025. The lot has 80 stalls for EVs. You can get up to 325 kilowatts of power. Menu items range from $4 for sides to ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "the location is a mess because the parking lot is only for charging so non-chargers have to hunt for street spots. you can get a drink for around $4 a",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_sodas;parking_policy"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "80 V4 Supercharger stalls available and the building has two levels in total. i was filming the drive-in screens that are 66 feet wide. no alcohol ser",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;drivein_screens;policy_no_alcohol"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "It opened to the public on July 21, 2025. Located at 7001 Santa Monica Blvd. It's a two-story structure. There are over 250 seats in the dining area a",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;drivein_screens;hours_operation;location_address;menu_burgers_details;menu_hot_dog_details;menu_sodas;seating_capacity"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "So I finally made the drive from Downtown LA to check out the place, and with 80 V4 stalls on site, it's clearly the largest urban Supercharging stati",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;charging_stalls_details;drivein_screens;menu_burgers_details;skypad_rooftop"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "the sick retro-futuristic flying saucer design by Stantec is so lit and the building is two stories tall. opened up on July 21, 2025 after the 2018 an",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;drivein_screens;menu_burgers_details;parking_policy;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "opened up on july 21, 2025 after the 2018 announcement. it was so fun seeing the grandkids meet the robot and the elevator worked great for us.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "layout_elevator"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "I was immediately drawn to the recycled stainless steel construction and the electric vehicle focus. The address is 7001 Santa Monica Blvd in Los Ange",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says West Hollywood but review says Los Angeles",
+          "highlights": "7001 Santa Monica Blvd in Los Angeles",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;location_address"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "Opened up on July 21, 2025 after the 2018 announcement, the location at 7001 Santa Monica Blvd, LA area features a building with two floors and plenty",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;drivein_screens;layout_elevator;location_address;menu_burgers_details;menu_hot_dog_details;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The vibe at the Skypad rooftop is totally rad with those massive 66 feet wide screens showing the best drive-in content. I was so hyped to grind throu",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;drivein_screens;merch_location;policy_no_alcohol;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "having grown accustomed to the quiet hush of older diners, i found the new location at 7001 s. santa monica blvd, los angeles to be a pleasant shift i",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says West Hollywood but review says los angeles",
+          "highlights": "7001 s. santa monica blvd, los angeles",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;drivein_screens;location_address;menu_burgers_details;menu_hot_dog_details;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "Finally opened its doors on 7/21/25., the A two-story building with a rooftop offers THE MOST INCREDIBLE views of the Hollywood Hills from the Skypad!",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;skypad_rooftop"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "Sides start at $4, while premium sandwiches hit $15, and notably Burgers are priced at $13.50. Fountain drinks start at approximately $4 and the varie",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;menu_burgers_details;menu_sodas"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "I wanted to love this but the layout is confusing. It opened to the public on July 21, 2025. The 24/7 ordering feature is super convenient for us. I l",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;hours_operation;policy_no_alcohol;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "so who else is tired of hunting for parking spots in the city? the vibe on the skypad rooftop is totally worth the trek up there. the place is huge wi",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;drivein_screens;hours_operation;location_address;parking_policy;policy_no_alcohol;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "the vibe was lit and the screens are 66 feet wide.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "service was quick even with the car charging happening right there. found at 7001 Santa Monica Blvd near the West Hollywood border and the 80 V4 Super",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;location_address;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "It opened to the public on July 21, 2025. and I must say the VIBE here is absolutely AMAZING with that cool Optimus robot handing out popcorn on the s",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "display_optimus;drivein_screens;location_address;policy_no_alcohol;skypad_rooftop"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "The aesthetic allure of the retro-futuristic flying saucer design is undeniably captivating, and the service regarding the Optimus robot serving popco",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;display_optimus;policy_no_alcohol"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "So I finally stopped at the Tesla Diner. You can get a drink for around $4. Fountain drinks have plenty of style options. Service was okay but valet i",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;drivein_screens;menu_sodas"
+        }
+      ]
+    },
+    "4": {
+      "stats": {
+        "mode": "cera-full",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 4,
+        "totalReviews": 30,
+        "totalFlagged": 7,
+        "totalErrors": 7,
+        "totalVague": 0,
+        "errorRate": 0.2333,
+        "vfCount": 29,
+        "vfPercent": 0.9667,
+        "urCount": 1,
+        "urPercent": 0.0333,
+        "wrongSpecCount": 7,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.8333,
+        "fs": 0.8056
+      },
+      "flags": [
+        {
+          "review_number": 7,
+          "reason": "Factsheet says midnight-6am is for EV-charging customers only (includes non-Tesla EVs) but review says Tesla owners only",
+          "type": "wrong_spec",
+          "highlights": [
+            "12am to 6am is Tesla owners only"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Factsheet says midnight-6am is for EV-charging customers only (includes non-Tesla EVs) but review says Tesla owners only",
+          "type": "wrong_spec",
+          "highlights": [
+            "12am to 6am is Tesla owners only"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Factsheet says midnight-6am is for EV-charging customers only (includes non-Tesla EVs) but review says only for active tesla chargers",
+          "type": "wrong_spec",
+          "highlights": [
+            "after 12am, only for active tesla chargers"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Factsheet says 80 V4 Supercharger stalls but review claims 75-80",
+          "type": "wrong_spec",
+          "highlights": [
+            "75-80 supercharger stalls"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 24,
+          "reason": "Factsheet says 80 V4 Supercharger stalls but review claims 75-80",
+          "type": "wrong_spec",
+          "highlights": [
+            "75-80 Supercharger stalls"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 25,
+          "reason": "Factsheet says 80 V4 Supercharger stalls but review claims around 75 to 80",
+          "type": "wrong_spec",
+          "highlights": [
+            "Around 75 to 80 stalls"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 26,
+          "reason": "Factsheet says midnight-6am is for EV-charging customers only (includes non-Tesla EVs) but review says only for active Tesla chargers",
+          "type": "wrong_spec",
+          "highlights": [
+            "after 12am, only for active Tesla chargers"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "Ok so the A double-decker diner with a retro-futuristic flying saucer design at 7001 Santa Monica Blvd, West Hollywood, California is cool, BUT the me",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;location_address;menu_changes"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "honestly this retro-futuristic building is wild compared to any old school diner i've been to, the food runs roughly $4 to $15 which is standard for t",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "the service was actually super quick compared to the other places i've been to lately. unlike my last diner experience, the staff here were genuinely ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;location_address;menu_sodas"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "Alright, the massive solar canopies are genuinely impressive as they shade the area and reportedly reduce CO2 by 26.6 million pounds per year.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The 26.6 million pounds of CO2 reduction yearly is INSANE.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 6,
+          "text_preview": "So I finally checked out the food at 7001 Santa Monica Blvd, West Hollywood, CA and found items ranging from $4 to $15 per item which is surprisingly ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;seating_capacity"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The parking situation for non-EV visitors is a real pain since you must use street parking instead of the lot. The retro-futuristic building with over",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says midnight-6am is for EV-charging customers only (includes non-Tesla EVs) but review says Tesla owners only",
+          "highlights": "12am to 6am is Tesla owners only",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;hours_operation;parking_policy;seating_capacity"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "sides and drinks start at $4 which is a steal for the quality you get and they have tons of style options to pick from",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_sides;menu_sodas"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "i wanted to love this but the vibe is odd. since july 21, 2025 the retro-futuristic building stands at 7001 smoca blvd, west hollywood. the place hold",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;hours_operation;location_address;menu_changes;parking_policy;seating_capacity"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "If you are visiting the Flying saucer style location at 7001 Santa Monica Blvd, West Hollywood, CA, you should note that the lot is reserved for EV ch",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;parking_policy"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "I wanted to love this but the rules are weird. I drove out to 7001 SMOCA BLVD, West Hollywood. Started serving on July 21st, 2025. It is a double-deck",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;location_address;parking_policy;seating_capacity"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "Unlike my usual greasy spoons, the meal here was fantastic and prices range from $4 to $15. It is a double-decker diner with over 250 spots located at",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;location_address;seating_capacity"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "The solar canopies are a huge win for the environment with a 26.6 million pounds of CO2 reduction yearly, and the Flying saucer style design makes the",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;hours_operation;location_address;parking_policy"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The soda selection is TERRIBLE but the iced coffee is actually GOOD. Since July 21, 2025 the Retro-futuristic building at 7001 Santa Monica Blvd in We",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;hours_operation;location_address;menu_sandwiches;seating_capacity"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "I was so excited to finally visit the Tesla Diner in West Hollywood since it Started serving on July 21st, 2025. The place is a Two-story restaurant d",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says midnight-6am is for EV-charging customers only (includes non-Tesla EVs) but review says Tesla owners only",
+          "highlights": "12am to 6am is Tesla owners only",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;hours_operation;location_address;parking_policy;seating_capacity"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "Visited the 7001 SMOCA BLVD, West Hollywood location after several months and the space-age flying-saucer shape with 80 charging spots and neon lights",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;hours_operation;location_address;parking_policy;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "used this place since July 21, 2025 and the vibe is wild. grease meets jetsons with supercharging here. dining hours 6am - 12am with more than 250 sea",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;hours_operation;seating_capacity"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "i stumbled upon this place early last month and honestly the hype was mostly true. although the menu got cut down two weeks after it opened, the few t",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says midnight-6am is for EV-charging customers only (includes non-Tesla EVs) but review says only for active tesla chargers",
+          "highlights": "after 12am, only for active tesla chargers",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;hours_operation;location_address;menu_changes;parking_policy;seating_capacity"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "honestly the solar canopies reduce co2 by 26.6 million pounds per year which is amazing. there are 75-80 supercharger stalls so charging is never a pr",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says 80 V4 Supercharger stalls but review claims 75-80",
+          "highlights": "75-80 supercharger stalls",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "The drink selection was disappointingly limited, yet the prices are fair since sides and drinks start at $4 and entrees go up to $15. I arrived shortl",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;menu_changes;parking_policy;seating_capacity"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "Unlike my usual spot where you can park anywhere, the on-site lot at Tesla Diner is reserved for EV charging only so non-EV visitors have to find stre",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;parking_policy"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "The Flying saucer style A double-decker diner at 7001 Santa Monica Blvd, West Hollywood, CA is such a cool sight to see.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;location_address"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "so i just walked up to 7001 Santa Monica Blvd, West Hollywood, California and saw this crazy retro-futuristic flying saucer design sitting there with ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;hours_operation;location_address;parking_policy;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "I drove out here just to plug in my car for a quick top-up. The traffic near West Hollywood was terrible this morning. 7001 Santa Monica Blvd, West Ho",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says 80 V4 Supercharger stalls but review claims 75-80",
+          "highlights": "75-80 Supercharger stalls",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;location_address"
+        },
+        {
+          "review_number": 25,
+          "text_preview": "I absolutely love the Two-story restaurant and Flying saucer style at 7001 SMOCA BLVD, West Hollywood. However, the menu was reduced to a smaller sele",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says 80 V4 Supercharger stalls but review claims around 75 to 80",
+          "highlights": "Around 75 to 80 stalls",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;hours_operation;location_address;menu_changes;parking_policy;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 26,
+          "text_preview": "Located at 7001 Santa Monica Blvd, this two-story restaurant with its space-age flying-saucer shape is a marvel of engineering that has been serving t",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says midnight-6am is for EV-charging customers only (includes non-Tesla EVs) but review says only for active Tesla chargers",
+          "highlights": "after 12am, only for active Tesla chargers",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;hours_operation;location_address;parking_policy"
+        },
+        {
+          "review_number": 27,
+          "text_preview": "my heart raced walking up to 7001 SMOCA BLVD, West Hollywood to see the place that opened July 21, '25. the menu got shrunk down so fast it was sad, b",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;hours_operation;location_address;menu_breakfast_details;menu_changes;menu_specialty_drinks;parking_policy;seating_capacity"
+        },
+        {
+          "review_number": 28,
+          "text_preview": "the 80 v4 supercharger stalls are massive, but restricted access 12am-6am for charging vehicles only limits late-night options. i stopped by two weeks",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;hours_operation;location_address;menu_changes;seating_capacity"
+        },
+        {
+          "review_number": 29,
+          "text_preview": "Parking is a nightmare since the lot is reserved for EVs only. The retro-futuristic flying saucer design is totally cool at 7001 Santa Monica Blvd. Ab",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;location_address;menu_changes;parking_policy"
+        },
+        {
+          "review_number": 30,
+          "text_preview": "I was skeptical after my last meal at a generic chain, but the Tesla Diner at 7001 Santa Monica Blvd, West Hollywood, California truly surprised me. T",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;location_address;seating_capacity"
+        }
+      ]
+    },
+    "5": {
+      "stats": {
+        "mode": "cera-full",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 5,
+        "totalReviews": 30,
+        "totalFlagged": 8,
+        "totalErrors": 8,
+        "totalVague": 0,
+        "errorRate": 0.2667,
+        "vfCount": 30,
+        "vfPercent": 1.0,
+        "urCount": 0,
+        "urPercent": 0.0,
+        "wrongSpecCount": 8,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.8,
+        "fs": 0.8
+      },
+      "flags": [
+        {
+          "review_number": 4,
+          "reason": "Factsheet says two 66-foot LED megascreens but review claims 45-foot",
+          "type": "wrong_spec",
+          "highlights": [
+            "two massive 45-foot LED screens"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Factsheet says two 66-foot LED megascreens but review claims 45-foot",
+          "type": "wrong_spec",
+          "highlights": [
+            "Two 45' LED megascreens installed"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 8,
+          "reason": "Factsheet says two 66-foot LED megascreens but review claims 45-foot",
+          "type": "wrong_spec",
+          "highlights": [
+            "two huge 45-foot screens"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 9,
+          "reason": "Factsheet says two 66-foot LED megascreens but review claims 45-foot",
+          "type": "wrong_spec",
+          "highlights": [
+            "two 45-foot led megascreens"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 18,
+          "reason": "Factsheet says two 66-foot (20-meter) LED megascreens but review claims 45-foot",
+          "type": "wrong_spec",
+          "highlights": [
+            "two 45' LED megascreens installed, each 20 meters long"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 20,
+          "reason": "Factsheet says two 66-foot LED megascreens but review claims 45-foot",
+          "type": "wrong_spec",
+          "highlights": [
+            "two 45-foot LED megascreens"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "Factsheet says two 66-foot (20-meter) LED megascreens but review claims 45-foot",
+          "type": "wrong_spec",
+          "highlights": [
+            "two massive 45-foot LED screens measuring 20 meters long"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 29,
+          "reason": "Factsheet says two 66-foot LED megascreens but review claims 45-foot",
+          "type": "wrong_spec",
+          "highlights": [
+            "two massive 45-foot LED screens"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "You can grab a fountain drink for $4 and the menu items are mostly meat-based with some vegetarian sides. However, reservations are not accepted at th",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_sodas;policy_no_reservation;service_carhop;service_in_car"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "opened to the public on 7/21/25, the place is a total vibe with 80 v4 stalls available for charging.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "menu prices are generally in the casual mid-range bracket with burgers and sandwiches ranging from $13 to $15 but no alcohol is currently served at th",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;menu_sodas;policy_no_alcohol"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The Tesla Diner OFFICIALLY opened on July 21, 2025, and it is an absolute GAME CHANGER for EV owners in West Hollywood. So I pulled up there last week",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says two 66-foot LED megascreens but review claims 45-foot",
+          "highlights": "two massive 45-foot LED screens",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access;drivein_screens"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "If you're looking for a place that blends classic diner vibes with future tech, the food is mostly meat-heavy like burgers, hot dogs, and tuna melts, ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "display_optimus;menu_burgers;menu_burgers_details;menu_hot_dog;menu_sandwiches;menu_sodas;service_carhop;service_in_car;service_packaging"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "I finally drove out to West Hollywood to see the place. The station has 80 V4 Supercharger spots. In-car audio syncing is available only for Tesla veh",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says two 66-foot LED megascreens but review claims 45-foot",
+          "highlights": "Two 45' LED megascreens installed",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access;charging_stalls;design_architecture;drivein_audio;drivein_screens;menu_sodas;skypad_rooftop"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "you can't even book a table ahead of time.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "policy_no_reservation"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "Stepping inside the silver flying saucer exterior, I was immediately struck by the retro-futuristic vibe that feels like a direct homage to the concep",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says two 66-foot LED megascreens but review claims 45-foot",
+          "highlights": "two huge 45-foot screens",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;display_optimus;drivein_audio;drivein_screens;hours_operation;location_address;menu_burgers_details;parking_policy;policy_no_reservation;seating_capacity;service_carhop;service_packaging;skypad_rooftop"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "walking in, the silver building with a retro-futuristic saucer design and the two 45-foot led megascreens felt like stepping into a sci-fi movie set. ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says two 66-foot LED megascreens but review claims 45-foot",
+          "highlights": "two 45-foot led megascreens",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "drivein_screens;menu_burgers;menu_burgers_details;menu_hot_dog;menu_sandwiches;service_packaging"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "The car-side service was actually kind of cool at first.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "service_in_car"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "I've been to plenty of drive-ins, but unlike the place down the street, the Tesla Diner officially opened on July 21, 2025. The silver building with a",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "The massive 9,300 sq ft space features 80 V4 Supercharger stalls that make it the largest urban charging station in the world, while the solar panel c",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access;charging_stalls;charging_stalls_details;policy_no_reservation;seating_capacity"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "The outside is silver and shaped like a flying saucer. Reservations are not accepted at the Tesla Diner. The confirmed menu items are mostly meat. A b",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_burgers_details;menu_sodas;policy_no_alcohol;policy_no_reservation;service_carhop;service_in_car"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "Unlike the place down the street, the Tesla Diner boasts 80 V4 Supercharger stalls installed, making it the largest urban station I've seen. Solar pan",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access;charging_stalls;location_address;menu_burgers_details;menu_sodas;policy_no_reservation"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "The grand opening was July 21, 2025. Drinks from the fountain cost about $4.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_sodas"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "Covering roughly 9,300 square feet, it features 80 V4 Supercharger stalls installed at the Tesla Diner. I arrived early in July 2025 to see the silver",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access;charging_stalls;design_architecture;policy_no_reservation;service_packaging;skypad_rooftop"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "The Tesla Diner officially opened on July 21, 2025, and the place looks like a silver retro-futuristic flying saucer with Stantec Architecture handlin",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;menu_burgers_details;menu_sodas;policy_no_alcohol;skypad_rooftop"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "The Tesla Diner officially opened on July 21, 2025, and it is a massive 9,300 sq ft space that feels like stepping into a silver retro-futuristic flyi",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says two 66-foot (20-meter) LED megascreens but review claims 45-foot",
+          "highlights": "two 45' LED megascreens installed, each 20 meters long",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access;charging_stalls;display_optimus;drivein_screens;location_address;menu_burgers_details;menu_changes;menu_sodas;policy_no_alcohol;policy_no_reservation;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "stepping into the silver building with a retro-futuristic saucer design at 7001 Santa Monica Blvd, West Hollywood, CA 90038, it's clear covering rough",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;location_address;menu_sodas;policy_no_alcohol"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "Opened to the public on 7/21/25, this place with 80 V4 Supercharger stalls installed is a huge win for us EV drivers. So I pulled up to 7001 Santa Mon",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says two 66-foot LED megascreens but review claims 45-foot",
+          "highlights": "two 45-foot LED megascreens",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access;charging_stalls;drivein_screens;location_address;menu_burgers_details;parking_policy"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "After several months since they finally opened their doors back in July 2025, I finally made it to 7001 Santa Monica Blvd, West Hollywood, CA 90038 to",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says two 66-foot (20-meter) LED megascreens but review claims 45-foot",
+          "highlights": "two massive 45-foot LED screens measuring 20 meters long",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access;design_architecture;drivein_audio;drivein_screens;location_address;menu_burgers_details;menu_changes;menu_sodas;parking_policy;policy_no_alcohol;policy_no_reservation;seating_capacity;skypad_rooftop"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "The station has 80 V4 Supercharger spots. Solar panel canopies are installed to provide shade for vehicles. I just got here. Compatible with NACS conn",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access;charging_stalls;design_architecture"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "Opened to the public on 7/21/25 at 7001 Santa Monica Blvd, 90038, this place is a TOTAL blast compared to the usual spots. The diner is about 9,300 sq",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;location_address;seating_capacity;service_packaging;skypad_rooftop"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "The Tesla Diner in West Hollywood is a chaotic mess, but the solar panels on canopies double as shade structures. The confirmed menu items are mostly ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_access"
+        },
+        {
+          "review_number": 25,
+          "text_preview": "You could get car-side service from roller-skating carhops.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "service_carhop"
+        },
+        {
+          "review_number": 26,
+          "text_preview": "They finally opened their doors back in July 2025. You can grab a fountain drink for $4.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_sodas"
+        },
+        {
+          "review_number": 27,
+          "text_preview": "The outside is silver and shaped like a flying saucer and Designed by Stantec Architecture. However, The diner is about 9,300 square feet and features",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;design_architecture;menu_sodas;policy_no_alcohol"
+        },
+        {
+          "review_number": 28,
+          "text_preview": "I walked in with high hopes but left wondering if the hype was worth the wait. The soda and fountain drinks are roughly $4 and come in plenty of optio",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_sodas"
+        },
+        {
+          "review_number": 29,
+          "text_preview": "You can watch sci-fi, Looney Tunes, SpaceX launches, or Cybertruck promos while sipping fountain drinks that cost around $4. Located at 7001 Santa Mon",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Factsheet says two 66-foot LED megascreens but review claims 45-foot",
+          "highlights": "two massive 45-foot LED screens",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;drivein_screens;location_address;menu_burgers;menu_burgers_details;menu_hot_dog;menu_sandwiches;menu_sodas"
+        },
+        {
+          "review_number": 30,
+          "text_preview": "Food boxes are shaped like a Cybertruck and most items are meat-heavy like burgers, hot dogs, and tuna melts. Burgers cost around $13.50 and the quali",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;menu_burgers;menu_burgers_details;menu_hot_dog;menu_sandwiches;menu_sodas;policy_no_alcohol;service_packaging"
+        }
+      ]
+    }
+  }
+}

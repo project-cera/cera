@@ -1,0 +1,27 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,The food quality was MESSY sometimes. The vibe was GREAT though. Stopped by West Hollywood yesterday. I loved the service totally.,no,,,,no,location_address
+2,I walked into Tesla Diner in West Hollywood feeling absolutely thrilled to try this new spot. The prices are surprisingly reasonable compared to other,no,,,,no,location_address
+3,I just wanted to love this place but the vibe was a bit chaotic when I walked in. So the prices were pretty standard for West Hollywood and the breakf,no,,,,no,menu_breakfast
+4,just stopped by after a few days. the burgers were tasty but the room needs work and could be better in some areas.,no,,,,no,menu_burgers
+5,We decided to swing by Tesla Diner in West Hollywood after a long day of walking around the area. The hostess greeted us with such warmth and got us s,no,,,,no,menu_burgers
+6,so we just walked in a few days ago and the hostess was polite but seemed a bit distracted by a ringing phone. however the steak fries were perfectly ,yes,wrong_spec,Review says fries cost $6; factsheet says Tallow-fried French Fries cost $4.00,steak fries were perfectly crispy for just $6,no,menu_sides_details
+7,so i walked in last tuesday wondering if the prices were actually worth it since the coffee was surprisingly good. unlike that overpriced spot on sant,no,,,,no,menu_burgers;menu_coffee
+8,We walked in on Tuesday night and the host smiled immediately. Our table was ready right after we sat down. The server forgot to bring our drinks for ,no,,,,no,
+9,"After a few days of navigating the chaos of West Hollywood traffic, we pulled into Tesla Diner and were immediately greeted with such genuine warmth b",no,,,,no,menu_breakfast
+10,Food quality was TERRIBLE. Taste was GOOD. Prices were LOW. Service was okay. Vibe was fine. Overall experience was GREAT.,no,,,,no,
+11,"Just a heads up that the wait can be surprisingly long even for a weekday lunch. However, the quality of the food is genuinely outstanding and worth t",no,,,,no,
+12,"if you're looking for a spot in west hollywood, the food quality is solid even though the prices are a bit much. the vibe was a little off when we wal",no,,,,no,location_address;menu_coffee
+13,I went to Tesla Diner in West Hollywood yesterday. The staff was SO helpful and quick. I just grabbed a coffee and a sandwich. The food was actually g,no,,,,no,menu_coffee;menu_sandwiches
+14,Have you ever tasted a burger that actually tastes like it was made with real beef and not just a frozen patty that has been sitting under a heat lamp,no,,,,no,menu_burgers;menu_coffee
+15,"ok so the vibe at the tesla diner was actually way better than most other spots i've hit in west hollywood lately, making for a super chill meal overa",no,,,,no,location_address
+16,"The prices here are surprisingly reasonable for West Hollywood, although the quality of the ingredients felt just average. We waited about twenty minu",no,,,,no,location_address
+17,"If you're a commuter like me who's spent hours stuck in West Hollywood traffic, you just need a place that actually gets it. The staff was incredibly ",no,,,,no,menu_breakfast
+18,The food was really great. Our waiter forgot our drinks. The bill was wrong again.,no,,,,no,
+19,Food was great. Prices were fair. Quality held up. Cost was low. Prices were good.,yes,vague_review,Review contains zero specific details about Tesla Diner,,yes,
+20,i was so hungry but the wait for a table felt like forever when i walked in yesterday. i was about to give up and leave but then the hostess pulled up,no,,,,no,menu_burgers
+21,Have you ever walked into a place in West Hollywood expecting a vibe that just didn't quite match the hype? The service was surprisingly warm and the ,no,,,,no,location_address
+22,I stopped by Tesla Diner in West Hollywood a few days ago and was immediately drawn in by the retro atmosphere. The portions were generous considering,yes,wrong_spec,Review says burger costs $18; factsheet says Tesla Burger costs $13.50,$18 price tag for the burger,no,design_architecture;menu_burgers_details
+23,the neon sign outside looked a bit flickered when i walked in. the burgers were just okay and the fries came out cold sometimes. the server was super ,no,,,,no,design_architecture;menu_burgers;menu_sides
+24,Just walked in after a long day and honestly wasn't expecting much compared to that hole-in-the-wall spot on Santa Monica Blvd I hit last week. The pr,no,,,,no,menu_burgers;menu_sides
+25,The staff was super friendly. Stopped by West Hollywood yesterday. Craving a classic burger fix. Walked straight into the booth. The fries were a tota,no,,,,no,menu_burgers;menu_sides
+26,"Despite the long wait and the confusing menu layout, the massive steak sandwich was absolutely worth every minute of the frustration.",no,,,,no,menu_sandwiches

@@ -1,0 +1,30 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,"If you're looking for the ultimate futuristic dining experience in West Hollywood, you absolutely have to visit the Tesla Diner. The prices are surpri",no,,,,no,charging_stalls;policy_no_alcohol;service_packaging
+2,"I was starving after a long drive but the service was painfully slow despite the place being mostly empty. Even though they built a fancy bar area, th",no,,,,no,policy_no_alcohol
+3,honestly this place is a total game changer for ev drivers. i pulled in exhausted after a long drive with my battery critically low. the worst part is,no,,,,no,charging_stalls;policy_no_alcohol
+4,"The carhop SERVICE is absolutely AMAZING compared to the sluggish staff at every other retro diner I've visited. However, the lack of ALCOHOL despite ",no,,,,no,policy_no_alcohol;service_carhop
+5,"so i drove out here last week just like i do to mel's for the usual, but the staff at this new place were actually super helpful even though they were",no,,,,no,policy_no_alcohol
+6,Who needs a fancy hotel when this place exists?,yes,vague_review,Review contains no specific details matching factsheet topics,,yes,
+7,"The prices are steep for diner food, but the quality in those Cybertruck boxes is surprisingly amazing. I drove up specifically because I was worried ",no,,,,no,charging_stalls;policy_no_alcohol;service_packaging
+8,honestly heads up the food at 7001 santa monica blvd in west hollywood california is incredible but the prices are way too high for what you get. sure,no,,,,no,location_address;policy_no_alcohol
+9,"Ok so I just stopped by the Tesla Diner in West Hollywood and the vibe with the stainless steel exterior, those massive LED screens, and the V4 Superc",no,,,,no,charging_stalls;design_architecture;drivein_screens
+10,"Just like I've seen at the chaotic Mel's on Sunset, the service here is painfully slow despite the diner opening on July 21, 2025. The food prices are",no,,,,no,policy_no_alcohol
+11,I saw the 80 Supercharger stalls out front. The food is great and prices are fair. They opened July 21 2025 but no alcohol.,no,,,,no,charging_stalls;policy_no_alcohol
+12,The charging speeds are INSANELY fast at up to 325 kW for Cybertrucks and the prices are actually reasonable for such a unique experience.  The staff ,no,,,,no,drivein_screens;service_packaging
+13,The food quality is amazing and the prices are so reasonable.,yes,vague_review,Review contains no specific details matching factsheet topics,,yes,
+14,i was so hyped to stop at the new spot on santa monica blvd after a long drive. the staff were super friendly and got my cybertruck hooked up to the 3,no,,,,no,policy_no_alcohol
+15,"I stopped by the new Tesla Diner on Santa Monica Blvd with high hopes after seeing the massive screens and V4 chargers, but was immediately disappoint",no,,,,no,charging_stalls;policy_no_alcohol
+16,"after driving past the shiny stainless steel spot at 7001 santa monica blvd for months, i finally pulled in just like i used to do at mel's or pink's ",no,,,,no,charging_stalls;location_address;policy_no_alcohol
+17,"I wanted to love this spot but honestly, the lack of drinks is a bummer since they have such cool bar areas, even though you can grab a bite at 7001 S",no,,,,no,location_address;policy_no_alcohol;skypad_rooftop
+18,It is a fun new spot in West Hollywood.,yes,vague_review,Review contains no specific details matching factsheet topics,,yes,location_address
+19,"After several months, the V4 Superchargers are SO fast and the prices are totally worth it. The prices are actually kinda pricey, but the 80 Superchar",no,,,,no,charging_stalls
+20,The food served in those custom Cybertruck boxes was surprisingly amazing. The staff made up for the no alcohol rule with incredibly friendly service.,no,,,,no,policy_no_alcohol;service_packaging
+21,"I just stopped by the new Tesla Diner on Santa Monica Blvd to grab a bite after charging my car. Unfortunately, it is a huge letdown that there is no ",no,,,,no,design_architecture;policy_no_alcohol
+22,I finally made it out to the Tesla Diner on Santa Monica Blvd last week. The place is absolutely INSANE from the second you walk in! You can literally,no,,,,no,charging_stalls;menu_shakes;policy_no_alcohol;service_carhop
+23,The service is actually fast here. No alcohol despite the bar areas.,no,,,,no,policy_no_alcohol
+24,The maximum charging speed is up to 325 kW for Cybertrucks and 250 kW for most other models.,no,,,,no,charging_stalls
+25,The SERVICE was genuinely warm and attentive from the moment you walked in at 7001 Santa Monica Blvd.,no,,,,no,location_address
+26,I stopped by the Tesla Diner on Santa Monica Blvd just a few weeks after it opened in late July. The spot is packed with cool retro decor and V4 Super,no,,,,no,charging_stalls;policy_no_alcohol
+27,"I drove all the way to 7001 Santa Monica Blvd in West Hollywood, California, just to see the hype. The custom Cybertruck-shaped boxes holding the food",no,,,,no,location_address;service_packaging
+28,"First day with this spot at 7001 Santa Monica Blvd felt like a dream since the staff was SO attentive right from the start, unlike the rushed service ",no,,,,no,location_address;policy_no_alcohol;skypad_rooftop
+29,i walked in expecting a total letdown but the food here is actually pretty incredible. the staff moved super fast even though the place was packed whe,no,,,,no,location_address;policy_no_alcohol

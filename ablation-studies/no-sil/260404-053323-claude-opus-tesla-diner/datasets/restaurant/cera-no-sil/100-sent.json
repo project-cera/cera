@@ -1,0 +1,1818 @@
+{
+  "mode": "cera-no-sil",
+  "domain": "restaurant",
+  "size": 100,
+  "runs": {
+    "1": {
+      "stats": {
+        "mode": "cera-no-sil",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 1,
+        "totalReviews": 27,
+        "totalFlagged": 5,
+        "totalErrors": 1,
+        "totalVague": 4,
+        "errorRate": 0.037,
+        "vfCount": 18,
+        "vfPercent": 0.6667,
+        "urCount": 9,
+        "urPercent": 0.3333,
+        "wrongSpecCount": 1,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.4259,
+        "fs": 0.2839
+      },
+      "flags": [
+        {
+          "review_number": 3,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 4,
+          "reason": "Review places Tesla Diner on Sunset Blvd; factsheet says 7001 Santa Monica Boulevard",
+          "type": "wrong_spec",
+          "highlights": [
+            "right there on Sunset Blvd"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 25,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "the food quality was just okay but the prices for a burger were way too high so the value is really questionable. however the fries were actually cris",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers;menu_sides"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "The vibe just felt a bit too sterile compared to other diners, and the noise from the kitchen made conversation tricky. But the hostess was so warm an",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 3,
+          "text_preview": "so i was starving and just stopped by the food was actually pretty good vibes were chill too",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 4,
+          "text_preview": "We stumbled upon Tesla Diner in West Hollywood after a long walk and were immediately charmed by the retro vibe. It was actually our third stop of the",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Review places Tesla Diner on Sunset Blvd; factsheet says 7001 Santa Monica Boulevard",
+          "highlights": "right there on Sunset Blvd",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;location_address"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "the service was kinda slow at first so i ended up just grabbing a coffee while waiting for my table then the waitress was super nice and fixed everyth",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_coffee"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "Ok so the burgers here are actually pretty solid and the prices are surprisingly low for West Hollywood. We grabbed a seat right after the rush and go",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers;menu_shakes"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "Although the prices were a bit steep for the portion sizes, the food quality was genuinely excellent. The service was incredibly friendly and attentiv",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 8,
+          "text_preview": "The carbonara was absolutely divine, unlike the soggy pasta I had at the place downtown last week. The staff was incredibly friendly and got our drink",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 9,
+          "text_preview": "if you're looking for a cool spot in west hollywood, this place is actually pretty fun. so we just walked in on a saturday night feeling pretty curiou",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers;menu_sides"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "heads up the vibe is a bit mixed but honestly the burger was still solid for the price. just wanted to say a few things about the place though.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "The host greeted us immediately with a bright smile and zero wait time. We slid into the retro booth and immediately felt like we were in a movie scen",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_burgers"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "food was actually really good. vibe was totally chill. service was just okay though. stumbled in after driving around wh. hwy.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 13,
+          "text_preview": "so you know that place in west hollywood where you just want to feel like you're in a movie? the vibe was electric and honestly the prices are still s",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The carbonara was absolutely divine and the prices were very reasonable.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 15,
+          "text_preview": "Have you ever wondered why some places in West Hollywood just feel like a step back in time? The hostess was genuinely sweet and greeted us with a war",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers;menu_sides"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "unlike that busy spot i went to last week the service here was just slow and the waiter seemed confused about our order. compared to other diners in w",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "visited last week service was slow overall experience was messy server was nice",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 18,
+          "text_preview": "I was SO excited to walk into Tesla Diner in West Hollywood because the vibe looked absolutely perfect. The food quality was genuinely amazing and eve",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "The vibe inside the Tesla Diner in West Hollywood was absolutely electric and fun. I really loved how the staff was so friendly and kept the energy hi",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;merch_items"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "The burgers are cheap. The vibe is great.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "The burgers were surprisingly cheap for West Hollywood compared to the usual tourist traps. Unlike the expensive places downtown, the fries were actua",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers;menu_sides"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "The service was incredibly friendly and quick from the moment we walked in.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 23,
+          "text_preview": "After a few days of wandering West Hollywood, the host greeted us with such genuine warmth that made us feel instantly welcome. However, the atmospher",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "We stumbled upon Tesla Diner in West Hollywood last night after getting lost looking for a place to eat near Sunset Blvd. The prices were incredibly r",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;menu_sides"
+        },
+        {
+          "review_number": 25,
+          "text_preview": "the service was a bit all over the place and could have been better sometimes.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 26,
+          "text_preview": "the pancakes tasted like cardboard compared to that spot on la brea the waiter was super friendly and quick the burgers were solid and cheap service s",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers;menu_sides"
+        },
+        {
+          "review_number": 27,
+          "text_preview": "We stumbled into the spot after a long day of shopping on the strip looking for a reliable bite. The hostess greeted us with genuine warmth and seated",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        }
+      ]
+    },
+    "2": {
+      "stats": {
+        "mode": "cera-no-sil",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 2,
+        "totalReviews": 26,
+        "totalFlagged": 3,
+        "totalErrors": 2,
+        "totalVague": 1,
+        "errorRate": 0.0769,
+        "vfCount": 21,
+        "vfPercent": 0.8077,
+        "urCount": 5,
+        "urPercent": 0.1923,
+        "wrongSpecCount": 2,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.5385,
+        "fs": 0.4349
+      },
+      "flags": [
+        {
+          "review_number": 6,
+          "reason": "Review says fries cost $6; factsheet says Tallow-fried French Fries cost $4.00",
+          "type": "wrong_spec",
+          "highlights": [
+            "steak fries were perfectly crispy for just $6"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 19,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 22,
+          "reason": "Review says burger costs $18; factsheet says Tesla Burger costs $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "$18 price tag for the burger"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "The food quality was MESSY sometimes. The vibe was GREAT though. Stopped by West Hollywood yesterday. I loved the service totally.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "I walked into Tesla Diner in West Hollywood feeling absolutely thrilled to try this new spot. The prices are surprisingly reasonable compared to other",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "I just wanted to love this place but the vibe was a bit chaotic when I walked in. So the prices were pretty standard for West Hollywood and the breakf",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_breakfast"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "just stopped by after a few days. the burgers were tasty but the room needs work and could be better in some areas.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "We decided to swing by Tesla Diner in West Hollywood after a long day of walking around the area. The hostess greeted us with such warmth and got us s",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "so we just walked in a few days ago and the hostess was polite but seemed a bit distracted by a ringing phone. however the steak fries were perfectly ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Review says fries cost $6; factsheet says Tallow-fried French Fries cost $4.00",
+          "highlights": "steak fries were perfectly crispy for just $6",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_sides_details"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "so i walked in last tuesday wondering if the prices were actually worth it since the coffee was surprisingly good. unlike that overpriced spot on sant",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers;menu_coffee"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "We walked in on Tuesday night and the host smiled immediately. Our table was ready right after we sat down. The server forgot to bring our drinks for ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 9,
+          "text_preview": "After a few days of navigating the chaos of West Hollywood traffic, we pulled into Tesla Diner and were immediately greeted with such genuine warmth b",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_breakfast"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "Food quality was TERRIBLE. Taste was GOOD. Prices were LOW. Service was okay. Vibe was fine. Overall experience was GREAT.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 11,
+          "text_preview": "Just a heads up that the wait can be surprisingly long even for a weekday lunch. However, the quality of the food is genuinely outstanding and worth t",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 12,
+          "text_preview": "if you're looking for a spot in west hollywood, the food quality is solid even though the prices are a bit much. the vibe was a little off when we wal",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;menu_coffee"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "I went to Tesla Diner in West Hollywood yesterday. The staff was SO helpful and quick. I just grabbed a coffee and a sandwich. The food was actually g",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_coffee;menu_sandwiches"
+        },
+        {
+          "review_number": 14,
+          "text_preview": "Have you ever tasted a burger that actually tastes like it was made with real beef and not just a frozen patty that has been sitting under a heat lamp",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers;menu_coffee"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "ok so the vibe at the tesla diner was actually way better than most other spots i've hit in west hollywood lately, making for a super chill meal overa",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The prices here are surprisingly reasonable for West Hollywood, although the quality of the ingredients felt just average. We waited about twenty minu",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "If you're a commuter like me who's spent hours stuck in West Hollywood traffic, you just need a place that actually gets it. The staff was incredibly ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_breakfast"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "The food was really great. Our waiter forgot our drinks. The bill was wrong again.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 19,
+          "text_preview": "Food was great. Prices were fair. Quality held up. Cost was low. Prices were good.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 20,
+          "text_preview": "i was so hungry but the wait for a table felt like forever when i walked in yesterday. i was about to give up and leave but then the hostess pulled up",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "Have you ever walked into a place in West Hollywood expecting a vibe that just didn't quite match the hype? The service was surprisingly warm and the ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "I stopped by Tesla Diner in West Hollywood a few days ago and was immediately drawn in by the retro atmosphere. The portions were generous considering",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Review says burger costs $18; factsheet says Tesla Burger costs $13.50",
+          "highlights": "$18 price tag for the burger",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_burgers_details"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "the neon sign outside looked a bit flickered when i walked in. the burgers were just okay and the fries came out cold sometimes. the server was super ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_burgers;menu_sides"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "Just walked in after a long day and honestly wasn't expecting much compared to that hole-in-the-wall spot on Santa Monica Blvd I hit last week. The pr",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers;menu_sides"
+        },
+        {
+          "review_number": 25,
+          "text_preview": "The staff was super friendly. Stopped by West Hollywood yesterday. Craving a classic burger fix. Walked straight into the booth. The fries were a tota",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers;menu_sides"
+        },
+        {
+          "review_number": 26,
+          "text_preview": "Despite the long wait and the confusing menu layout, the massive steak sandwich was absolutely worth every minute of the frustration.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_sandwiches"
+        }
+      ]
+    },
+    "3": {
+      "stats": {
+        "mode": "cera-no-sil",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 3,
+        "totalReviews": 35,
+        "totalFlagged": 9,
+        "totalErrors": 4,
+        "totalVague": 5,
+        "errorRate": 0.1143,
+        "vfCount": 26,
+        "vfPercent": 0.7429,
+        "urCount": 9,
+        "urPercent": 0.2571,
+        "wrongSpecCount": 3,
+        "wrongClaimCount": 2,
+        "fsRaw": 0.5286,
+        "fs": 0.3927
+      },
+      "flags": [
+        {
+          "review_number": 5,
+          "reason": "Review says avocado toast costs $16; factsheet says $11.00",
+          "type": "wrong_spec",
+          "highlights": [
+            "avocado toast came in at $16"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 6,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 12,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 14,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 17,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 24,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 26,
+          "reason": "Review implies a reservation was made; factsheet explicitly says Tesla Diner does NOT have a reservation system (walk-in only)",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "the host seemed confused about our reservation"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 27,
+          "reason": "Review says avocado toast costs $16; factsheet says $11.00",
+          "type": "wrong_spec",
+          "highlights": [
+            "avocado toast for $16"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 27,
+          "reason": "Review mentions cocktails; factsheet explicitly says Tesla Diner does NOT serve alcohol",
+          "type": "hallucinated_feature",
+          "highlights": [
+            "the cocktails made up for every little flaw"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 32,
+          "reason": "Review says burger costs $20; factsheet says Tesla Burger costs $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "the twenty bucks asking price"
+          ],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "Is it really necessary to wait twenty minutes for a menu when the hostess seems more interested in her phone than helping you? The service was frustra",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "SO much for fast service when we had to WAIT forever just to get menus at Tesla Diner in West Hollywood. The staff seemed nice enough but definitely o",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "Stopped by Tesla Diner in West Hollywood a few days ago. The food quality is FANTASTIC though. Everything tasted fresh and real. Prices are FAIR too. ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "The host greeted us with such genuine warmth that we felt instantly welcome. So we sat down and ordered the famous burger, which arrived piping hot an",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_burgers"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "honestly the place was a bit too loud and cramped for my taste. i walked in feeling overwhelmed by the noise. but the staff greeted me with such warm ",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Review says avocado toast costs $16; factsheet says $11.00",
+          "highlights": "avocado toast came in at $16",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_breakfast_details"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "The service had occasional inconsistencies that held it back.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 7,
+          "text_preview": "The service was surprisingly slow for a place right in the heart of West Hollywood.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "the staff here moved way faster than that place down the street. vibes were chill and the burger hit the spot.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "the burger prices are actually fair but the fries came out cold and soggy the steak quality was disappointing and tough to chew but the milkshake pric",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers;menu_shakes;menu_sides"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "Honestly, I wasn't sure what to expect when I walked in, but the vibe was just electric. The energy in the room was amazing and the neon lights looked",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "If you're looking for a classic West Hollywood diner vibe, Tesla Diner absolutely delivers on that atmosphere.  The prices for the breakfast specials ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_breakfast"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "Service was slow.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 13,
+          "text_preview": "After a few days of hearing about Tesla Diner, I finally walked in with no real expectations. The food was absolutely incredible and the portions were",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The prices were a bit inconsistent but the food was decent.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 15,
+          "text_preview": "So I finally made it to Tesla Diner last week, and the whole vibe felt like it was still trying to figure out its identity. Despite the trendy locatio",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_breakfast"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The vibe at Tesla Diner was absolutely electric and I was SO excited to grab a bite in West Hollywood. But here's the thing the service was a total di",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "the food was actually really good.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 18,
+          "text_preview": "we stopped by for a quick lunch just because the place looked cool from the street. i was expecting a high-tech futuristic vibe like the neon signs pr",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_burgers"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "I walked in and the neon sign was flickering a bit so I figured we'd just grab a quick bite. The burger was ACTUALLY perfect but the prices are RIDICU",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_burgers"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "The neon vibe inside Tesla Diner is absolutely electric and totally worth the hype. Our server was super friendly and got us seated immediately withou",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "Stopped by Tesla Diner in West Hollywood for a quick lunch after running errands. The place has a cool retro vibe with neon lights buzzing softly in t",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "mixed feelings here but i just swung by west hollywood prices are actually decent service was super friendly",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "the prices at tesla diner feel a bit steep for what you get, and the food quality was inconsistent compared to other spots in west hollywood. the over",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "So I finally swung by Tesla Diner in West Hollywood the other day just to grab a quick bite.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 25,
+          "text_preview": "The staff was super friendly. The food was great but the prices are too high. My burger tasted amazing. I just grabbed lunch with my friend. Service w",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 26,
+          "text_preview": "My recent visit to this spot on Santa Monica Boulevard was a letdown because the service was inconsistent and the atmosphere felt chaotic compared to ",
+          "flagged": "yes",
+          "error_types": "hallucinated_feature",
+          "reasons": "Review implies a reservation was made; factsheet explicitly says Tesla Diner does NOT have a reservation system (walk-in only)",
+          "highlights": "the host seemed confused about our reservation",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;policy_no_reservation"
+        },
+        {
+          "review_number": 27,
+          "text_preview": "The staff greeted us with such genuine warmth that we felt like old friends immediately. And then we ordered the avocado toast for $16, which arrived ",
+          "flagged": "yes",
+          "error_types": "wrong_spec;hallucinated_feature",
+          "reasons": "Avocado toast price $16 vs factsheet $11.00; review mentions cocktails but factsheet says Tesla Diner does NOT serve alcohol",
+          "highlights": "avocado toast for $16;the cocktails made up for every little flaw",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_breakfast_details;policy_no_alcohol"
+        },
+        {
+          "review_number": 28,
+          "text_preview": "the hostess greeted us with a genuine smile right away. air conditioning felt a bit weak during the rush hour though. server came back quickly to chec",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 29,
+          "text_preview": "So I finally stopped by this spot and the whole retro-futuristic vibe was absolutely electric from the moment I walked in.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture"
+        },
+        {
+          "review_number": 30,
+          "text_preview": "The staff greeted us with genuine warmth the moment we walked through the door. Our drinks arrived lukewarm and the server seemed to forget our order ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 31,
+          "text_preview": "The service was incredibly slow, and we waited twenty minutes just to get water.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 32,
+          "text_preview": "is the burger here really worth the twenty bucks asking price? the staff was super helpful and got our order right immediately. however the fries were",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Review says burger costs $20; factsheet says Tesla Burger costs $13.50",
+          "highlights": "the twenty bucks asking price",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details;menu_sides"
+        },
+        {
+          "review_number": 33,
+          "text_preview": "Stopped in after a long drive to grab a quick lunch. The burgers were just okay, and the prices felt a bit high for what you get.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 34,
+          "text_preview": "The interior design felt incredibly futuristic and the menu prices were surprisingly affordable for the area.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture"
+        },
+        {
+          "review_number": 35,
+          "text_preview": "The pasta dish arrived at a lukewarm temperature with slightly undercooked noodles. Then the service felt inconsistent as my drink went missing for tw",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        }
+      ]
+    },
+    "4": {
+      "stats": {
+        "mode": "cera-no-sil",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 4,
+        "totalReviews": 28,
+        "totalFlagged": 5,
+        "totalErrors": 0,
+        "totalVague": 5,
+        "errorRate": 0.0,
+        "vfCount": 20,
+        "vfPercent": 0.7143,
+        "urCount": 8,
+        "urPercent": 0.2857,
+        "wrongSpecCount": 0,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.5,
+        "fs": 0.3572
+      },
+      "flags": [
+        {
+          "review_number": 1,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 7,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 15,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "the service was super fast and friendly when i stopped by last week",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 2,
+          "text_preview": "Stopped in after a few days of being stuck inside. Service was actually really fast. My fries were cold though.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_sides"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "the neon lights and retro vibe were totally electric. i was excited to dig in. but the prices for a burger and fries felt way too high for the portion",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_burgers;menu_sides"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "I was craving something that felt like a classic American diner after a long day of meetings in West Hollywood. The staff greeted us with genuine warm",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;menu_shakes"
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The electric charging stations were incredibly fast and efficient. However, the solar panel efficiency dropped slightly during peak hours, yet the pri",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;menu_coffee"
+        },
+        {
+          "review_number": 6,
+          "text_preview": "stopped by last thursday near sunset. the food works but the place needs more room for improvement however it solved my hunger fast. the prices were f",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 7,
+          "text_preview": "food was great and prices were low. vibe was solid overall. staff were super friendly. got my order fast. needs room for improvement though.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 8,
+          "text_preview": "the avocado toast was crazy good and totally worth the price even if the coffee was just okay. i was so hyped to get here after work but the wait felt",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_breakfast;menu_sides"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "i walked in hungry but the wait seemed long. however the menu had clear options. the prices were fair. the burger quality was solid. it got the job do",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 10,
+          "text_preview": "I stumbled upon Tesla Diner in West Hollywood a few days ago after hearing it was the new spot to try for breakfast. Unlike my usual go-to breakfast s",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_breakfast"
+        },
+        {
+          "review_number": 11,
+          "text_preview": "the service was kind of slow and the waiter forgot to bring us water for the first half of our meal. but then the food arrived and every bite of the b",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "so i pulled up to Tesla Diner in West Hollywood just because i needed a charge and a quick bite. The charging speed was incredibly fast, delivering a ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls;menu_breakfast;menu_coffee"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "the food quality is great but the prices are too high for what you get. however the wait time was longer than expected on a weekday. therefore the gen",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The food was surprisingly good for a place that seems so trendy.  The staff were incredibly attentive and made us feel welcome right away.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 15,
+          "text_preview": "service was quick.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 16,
+          "text_preview": "The service was absolutely AMAZING from the moment we walked in and the staff was so welcoming. In contrast, the wait for our coffee felt a bit long c",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_coffee"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "pulling up to the charger was the perfect start to my day. i was honestly just looking for a quick coffee and a charge spot in west hollywood. the loc",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_pricing;charging_stalls;menu_burgers"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "Service was just okay honestly, nothing special about it. I mean I was starving but the wait was kinda long even though the place had such a cool retr",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 19,
+          "text_preview": "Alright, the waiter was super quick to bring out the espresso even though the place was packed. It was just a bit annoying waiting for the check to ar",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_coffee"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "ok so the burgers here are actually pretty good. Service was fast though because the staff moves quick. Therefore the wait time was only five minutes.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "I just visited Tesla Diner in West Hollywood a few days ago.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 22,
+          "text_preview": "The service was incredibly slow and the staff seemed completely overwhelmed during our visit a few days ago. Unlike the chaotic energy I usually encou",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address;merch_items"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "The service was generally okay. However, the service could be better in some areas.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 24,
+          "text_preview": "prices are kinda cheap but the food quality is just inconsistent sometimes service was just okay nothing special prices stay low and the burgers taste",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 25,
+          "text_preview": "just walked in here after a long drive because the neon sign looked cool and i needed a quick bite had to wait forever for a table even though it wasn",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_burgers"
+        },
+        {
+          "review_number": 26,
+          "text_preview": "Stopped by this spot in West Hollywood yesterday. The place felt a bit crowded inside. Parking was a nightmare to find. Staff were super friendly and ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "parking_policy"
+        },
+        {
+          "review_number": 27,
+          "text_preview": "I expected the usual cafe fare, but the instant access to Supercharger ports here made the wait feel like a productive tech demo. Consequently, the st",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "charging_stalls"
+        },
+        {
+          "review_number": 28,
+          "text_preview": "unlike the chaotic rush i remember from the old spot on santa monica, the staff here were actually patient and brought my coffee out immediately witho",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_changes"
+        }
+      ]
+    },
+    "5": {
+      "stats": {
+        "mode": "cera-no-sil",
+        "domain": "restaurant",
+        "size": 100,
+        "run": 5,
+        "totalReviews": 31,
+        "totalFlagged": 5,
+        "totalErrors": 2,
+        "totalVague": 3,
+        "errorRate": 0.0645,
+        "vfCount": 20,
+        "vfPercent": 0.6452,
+        "urCount": 11,
+        "urPercent": 0.3548,
+        "wrongSpecCount": 2,
+        "wrongClaimCount": 0,
+        "fsRaw": 0.4839,
+        "fs": 0.3122
+      },
+      "flags": [
+        {
+          "review_number": 7,
+          "reason": "Review says burger costs $22 with truffle aioli; factsheet says Tesla Burger costs $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "artisanal burger at $22"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 21,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 23,
+          "reason": "Review says burger costs $28; factsheet says Tesla Burger costs $13.50",
+          "type": "wrong_spec",
+          "highlights": [
+            "$28 price tag"
+          ],
+          "confirmed": null
+        },
+        {
+          "review_number": 24,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        },
+        {
+          "review_number": 28,
+          "reason": "Review contains zero specific details about Tesla Diner",
+          "type": "vague_review",
+          "highlights": [],
+          "confirmed": null
+        }
+      ],
+      "reviews": [
+        {
+          "review_number": 1,
+          "text_preview": "Because the burgers here are actually juicy and flavorful, they solve the endless problem of finding real food in this area.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 2,
+          "text_preview": "the server was super nice and got us settled in right away. so i figured i'd give it a shot after hearing the hype about the burgers. the food was act",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 3,
+          "text_preview": "The host greeted us immediately upon entry. We waited exactly twelve minutes for our table. The pastrami sandwich arrived fresh and hot. Our server re",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_sandwiches"
+        },
+        {
+          "review_number": 4,
+          "text_preview": "just stopped by after a long drive food had occasional inconsistencies but prices are good minor issues everywhere service was great though",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 5,
+          "text_preview": "The staff greeted us immediately upon arrival and the host was incredibly efficient with our seating arrangement. The attentive service throughout the",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 6,
+          "text_preview": "I walked in expecting the same soulless, greasy vibe of the other diners nearby, but the neon lights and retro booths actually gave this place a surpr",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture;menu_burgers;menu_sides"
+        },
+        {
+          "review_number": 7,
+          "text_preview": "So I finally made it out to Tesla Diner in West Hollywood after hearing about it for weeks. A few days in and I've already been back twice, mostly jus",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Review says burger costs $22 with truffle aioli; factsheet says Tesla Burger costs $13.50",
+          "highlights": "artisanal burger at $22",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 8,
+          "text_preview": "like i walked in expecting a classic diner vibe but the vibe was just kinda off with some weird inconsistencies in the service. the food was actually ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 9,
+          "text_preview": "The service was EXCEPTIONALLY fast even though every other spot in WeHo seems to forget how to count past five. Because I have been burned by the endl",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 10,
+          "text_preview": "Service was painfully slow and the staff seemed completely disinterested in helping us. The prices for such basic diner food were just way too high fo",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 11,
+          "text_preview": "Stopped by Tesla Diner in West Hollywood for a quick lunch between meetings. The service was a bit slow but the prices were very fair.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 12,
+          "text_preview": "Tesla Diner is a total blast in West Hollywood. Stopped by with friends last night. Prices were surprisingly fair for the area. The vibe here is absol",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 13,
+          "text_preview": "The service was actually super fast here. I stopped by for lunch after a long walk. The whole vibe felt really fun and lively. The prices were fair an",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 14,
+          "text_preview": "The service was generally efficient though the initial seating took a few minutes longer than expected. Unlike other local spots, the truffle mac and ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_coffee"
+        },
+        {
+          "review_number": 15,
+          "text_preview": "the prices are okay but the food could be better in some areas. the staff was super fast though. just grabbed a burger on my way home.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 16,
+          "text_preview": "Ok so the vibe at Tesla Diner in West Hollywood is definitely unique but honestly the service could be better in some areas like the wait times were w",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture"
+        },
+        {
+          "review_number": 17,
+          "text_preview": "I walked in with high hopes after hearing about Tesla Diner in West Hollywood, but the vibe felt a bit off. The prices were way too high for what you ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 18,
+          "text_preview": "West Hollywood dining can be a total disappointment with overpriced portions and mediocre food. As a local who has tried every place on Sunset for yea",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 19,
+          "text_preview": "if you're looking for a spot in west hollywood with solid food and prices that don't break the bank, this place hits the mark. so we walked in and the",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "location_address"
+        },
+        {
+          "review_number": 20,
+          "text_preview": "heads up, the prices are way too high for what you get. the burger quality is solid and the portions are big enough. wait time was about 15 minutes fo",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 21,
+          "text_preview": "The service was incredibly fast and friendly. Everyone who works there is so welcoming and attentive. The atmosphere could be better in some areas.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 22,
+          "text_preview": "stumbled in here after a long night out and honestly just wanted some late night comfort food without the usual rush. the waitstaff was super friendly",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture"
+        },
+        {
+          "review_number": 23,
+          "text_preview": "The service was prompt and attentive from the moment we walked in. Since I was craving a serious burger after a long week, I made sure to order the Te",
+          "flagged": "yes",
+          "error_types": "wrong_spec",
+          "reasons": "Review says burger costs $28; factsheet says Tesla Burger costs $13.50",
+          "highlights": "$28 price tag",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers_details"
+        },
+        {
+          "review_number": 24,
+          "text_preview": "The staff was super friendly. The vibe felt great. Prices are high. Food quality needs work.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 25,
+          "text_preview": "the host was completely disorganized and forgot our table twice, leaving us standing awkwardly in the lobby for nearly twenty minutes. In contrast to ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 26,
+          "text_preview": "waited forever for the server to show up. total mess. the whole place felt off. just grabbed lunch with the crew. food came cold. seriously disappoint",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_desserts"
+        },
+        {
+          "review_number": 27,
+          "text_preview": "be warned the food here is a total mess and tastes inconsistent sometimes. i checked the bill and the prices are pretty normal for the area. then the ",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 28,
+          "text_preview": "Service was prompt.",
+          "flagged": "yes",
+          "error_types": "vague_review",
+          "reasons": "Review contains zero specific details about Tesla Diner",
+          "highlights": "",
+          "is_vague_only": "yes",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 29,
+          "text_preview": "so the burgers here are actually solid unlike that sad spot down the street. prices stay reasonable even with the inflated costs everywhere else latel",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "menu_burgers"
+        },
+        {
+          "review_number": 30,
+          "text_preview": "The food quality was a bit hit or miss but the prices were surprisingly cheap for this neighborhood.",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": ""
+        },
+        {
+          "review_number": 31,
+          "text_preview": "I walked in expecting a classic retro spot but ended up in a place that felt a bit too chaotic with the noise levels and a few small hiccups in the or",
+          "flagged": "no",
+          "error_types": "",
+          "reasons": "",
+          "highlights": "",
+          "is_vague_only": "no",
+          "factsheet_topics_matched": "design_architecture"
+        }
+      ]
+    }
+  }
+}
