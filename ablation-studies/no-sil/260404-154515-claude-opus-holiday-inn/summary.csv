@@ -1,0 +1,4 @@
+mode,domain,size,totalReviews,totalErrors,totalVague,errorRate,vfCount,vfPercent,urCount,urPercent,wrongSpecCount,wrongClaimCount,fs,runCount
+cera-no-sil,hotel,100,140,6,2,0.0429,52,0.3714,88,0.6286,0,6,0.1235,5
+cera-no-sil,hotel,500,727,9,4,0.0124,271,0.3728,456,0.6272,0,9,0.1355,5
+cera-no-sil,hotel,1000,1405,13,16,0.0093,532,0.3786,873,0.6214,0,13,0.1415,5

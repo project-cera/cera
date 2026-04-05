@@ -1,0 +1,29 @@
+review_number,text_preview,flagged,error_types,reasons,highlights,is_vague_only,factsheet_topics_matched
+1,Just stayed here a few days ago and the lobby felt super fresh. but the bed in the room was actually pretty uncomfortable.,no,,,,no,
+2,"Honestly, the staff just seemed totally uninterested in helping me when I checked in. But for the price we paid, the room was actually super clean and",no,,,,no,
+3,heads up if you're starving the food was decent but i loved having so many different breakfast options to choose from.,no,,,,no,breakfast_not_included
+4,"Why settle for less when the lobby's modern design is so sleek, even if the bed was WAY too soft for a good night's sleep? However, the staff was incr",no,,,,no,
+5,who knew a hotel could feel this generic and just miss the mark in so many little ways?,yes,vague_review,Review is a single generic subjective statement with zero specific details about the product,,yes,
+6,"The rooms were actually really spacious and the beds were super comfy, but the decor just feels a little dated and sort of generic compared to newer p",no,,,,no,breakfast_not_included
+7,Just checked into the Holiday Inn by IHG a few days ago for a quick business trip. The staff were super friendly and got us checked in way faster than,no,,,,no,dining_full_service
+8,"Ok so the location is just perfect, right near the highway and downtown. The rooms were super clean and the modern design felt nice, although the pric",no,,,,no,
+9,We just checked in a few days ago and the front desk was super welcoming with the holiday lights and comfy lobby chairs. The rooms were a bit cramped ,no,,,,no,breakfast_not_included
+10,"If you're looking for a place to crash, the rooms at the Holiday Inn by IHG were just okay, not amazing but not terrible either. The AC unit in the ro",no,,,,no,dining_full_service
+11,"After a few days at the Holiday Inn, the room design felt surprisingly outdated with cluttered furniture that made the space feel cramped. However, th",no,,,,no,breakfast_not_included
+12,"Just checked in a few days ago and honestly, the whole trip was a bit of a mixed bag. The free breakfast was actually GOOD and they got the new towels",yes,hallucinated_feature,Review says free breakfast; factsheet says breakfast is NOT complimentary,"""free breakfast was actually GOOD""",no,breakfast_not_included
+13,"The modern lobby with those sleek, curved seating areas was a nice surprise when I first walked in. I was honestly just trying to find a decent place ",no,,,,no,
+14,stayed here a few days ago and the place was spotless plus the lobby design was actually cool room layout felt spacious and the bed quality was surpri,no,,,,no,
+15,"Look, I just needed a place to crash for the night after a long drive. The bed was actually pretty comfy and the overall vibe was decent, but the lobb",no,,,,no,
+16,just walked in and the lobby smelled super fresh with those comfy chairs right by the front desk. the breakfast prices were surprisingly cheap for all,no,,,,no,breakfast_not_included;rewards_join_benefits
+17,"The rates were surprisingly affordable, yet the room comfort was just okay despite the staff's quick effort to provide a better mattress after I menti",no,,,,no,
+18,honestly the location is kinda a pain to get to since it's right off a super busy highway. i was just passing through town for a quick family visit so,no,,,,no,
+19,"So I finally got to try the breakfast buffet and the variety of style options is just crazy good, even if the coffee quality was just okay and the jui",yes,hallucinated_feature,Review says breakfast was included in the room rate; factsheet says breakfast is NOT complimentary,"""breakfast was included in the room rate""",no,breakfast_not_included;rewards_join_benefits
+20,"I wanted to love this stay but the lobby felt a bit cramped and outdated, even though the bed itself was surprisingly comfortable for a quick trip. Ho",no,,,,no,breakfast_not_included
+21,so i just stopped by a few days ago after a long drive and needed a place to crash the bed was super lumpy and the lobby felt kinda dated but the show,no,,,,no,
+22,"ok so the price was super cheap compared to that fancy place down the street and the pool was clean, but the room furniture looks kinda worn out. we j",no,,,,no,
+23,"The breakfast options were sadly limited compared to other chains I've tried recently. The price was surprisingly low for the quality, though the pool",no,,,,no,breakfast_not_included
+24,I was honestly worried about the cleanliness when I first walked into the lobby because it looked a bit dusty. But after checking in a few days ago wi,no,,,,no,
+25,"the room was spotless and the modern decor really made it feel fresh, plus the mini-fridge worked great. everything was super clean and the general se",no,,,,no,
+26,"checked in a couple days back and the service was just fine, nothing super special but nobody was rude. next the room had a king bed and the tv was hu",no,,,,no,
+27,"The bed was comfy enough and the smart tv works well, but the shower head feels kinda cheap. I liked the colorful wall art in the hallway, though the ",no,,,,no,
+28,"The room was just okay, nothing special about the decor or layout. I was traveling solo for a quick work stopover and needed a place that wouldn't kee",no,,,,no,dining_full_service
